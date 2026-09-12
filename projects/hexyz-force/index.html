@@ -71,19 +71,71 @@
 
   <div class="grid" id="status">
     <section class="box">
-      <h2>프로젝트 현황</h2>
-      <p>한국어 번역 및 게임 내 적용 작업을 진행하고 있습니다.</p>
-      <p class="muted">전체 진행률은 실제 집계 기준이 정리되는 대로 공개합니다.</p>
-      <div class="progress unknown" aria-label="진행률 미정"><span></span></div>
+      <h2>현재 작업 단계</h2>
+      <p><strong>세실리아 편 번역·삽입 완료</strong></p>
+      <p>레반트 편 번역과 양편 통합을 진행하고 있으며, 화면 품질 개선과 실제 플레이 검증을 준비하고 있습니다.</p>
     </section>
 
     <section class="box">
       <h2>최신 배포</h2>
       <p><strong>아직 공개된 패치가 없습니다.</strong></p>
-      <p class="muted">첫 공개 버전부터 버전 번호, 파일 해시, 변경 내역을 함께 제공합니다.</p>
+      <p class="muted">남은 번역과 플레이 검증을 마친 뒤 공개용 차분 패치를 준비합니다.</p>
       <a class="button disabled" href="#" aria-disabled="true">다운로드 준비 중</a>
     </section>
   </div>
+
+  <section class="box progress-section" aria-labelledby="translation-progress">
+    <h2 id="translation-progress">스토리 대사 번역 현황</h2>
+    <div class="progress-head"><strong>전체 대사 번역문 작성률</strong><strong>83.6%</strong></div>
+    <div class="progress" role="progressbar" aria-label="전체 대사 번역문 작성률" aria-valuemin="0" aria-valuemax="100" aria-valuenow="83.6"><span style="width:83.6%"></span></div>
+    <p class="muted">전체 23,993행 중 20,046행에 한국어 번역문이 마련되어 있습니다. 초안과 공통 대사 재사용분을 포함한 수치이며, 전체 패치 완성도를 뜻하지 않습니다.</p>
+
+    <div class="progress-list">
+      <div>
+        <div class="progress-head"><span>세실리아 편</span><strong>100% · 11,821 / 11,821행</strong></div>
+        <div class="progress" role="progressbar" aria-label="세실리아 편 번역률" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><span style="width:100%"></span></div>
+      </div>
+      <div>
+        <div class="progress-head"><span>레반트 편</span><strong>67.6% · 8,225 / 12,172행</strong></div>
+        <div class="progress" role="progressbar" aria-label="레반트 편 번역률" aria-valuemin="0" aria-valuemax="100" aria-valuenow="67.6"><span style="width:67.6%"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="grid">
+    <section class="box">
+      <h2>완료·확인된 작업</h2>
+      <ul class="status-list">
+        <li><span class="status done">완료</span> 대사 23,993행 추출</li>
+        <li><span class="status done">완료</span> 세실리아 편 11,821행 번역·삽입 및 역추출 대조</li>
+        <li><span class="status done">완료</span> 한글 글리프 1,063자 매핑</li>
+        <li><span class="status done">완료</span> 게임 적용용 이미지 38장 제작</li>
+        <li><span class="status done">완료</span> 한국어 자막 영상 14개 제작</li>
+      </ul>
+    </section>
+
+    <section class="box">
+      <h2>진행 중·남은 작업</h2>
+      <ul class="status-list">
+        <li><span class="status working">진행 중</span> 레반트 편 번역 및 게임 데이터 반영</li>
+        <li><span class="status working">진행 중</span> 양편 데이터 통합과 화면 품질 개선</li>
+        <li><span class="status pending">예정</span> 최신 PPSSPP 화면 검증</li>
+        <li><span class="status pending">예정</span> 전체 플레이 및 PSP 실기 테스트</li>
+        <li><span class="status pending">예정</span> 최종 차분 패치 제작</li>
+      </ul>
+    </section>
+  </div>
+
+  <section class="box">
+    <h2>최근 작업</h2>
+    <ul>
+      <li>세실리아 편 번역과 게임 데이터 반영 완료</li>
+      <li>레반트 전체 대사 범위 확인</li>
+      <li>이름창 189종 및 표시 명령 4,628개 수정</li>
+      <li>인물 설명 잘림, 공백 간격 및 한글 글꼴 선명도 개선</li>
+      <li>말투·용어 337행 수정 및 한글 타이틀 로고 반영</li>
+    </ul>
+  </section>
 
   <section class="box" id="patch">
     <h2>패치 정보</h2>
@@ -134,18 +186,18 @@
   </section>
 
   <section class="box">
-    <h2>스크린샷</h2>
-    <div class="shot-placeholder">번역 적용 스크린샷 준비 중</div>
-    <p class="muted">실제 게임 내 적용 화면을 확인한 뒤 추가합니다.</p>
+    <h2>Development Preview</h2>
+    <div class="shot-placeholder">작업 미리보기 이미지 업로드 준비 중</div>
+    <p class="muted">번역 리소스와 제작 영상 미리보기는 이미지 파일 정리 후 추가합니다. 실제 플레이 캡처는 검증을 마친 뒤 공개합니다.</p>
   </section>
 
   <section class="box" id="changelog">
     <h2>변경 내역</h2>
     <p><strong>개발 중</strong></p>
     <ul>
-      <li>2026-09-13 — Noctil Patchworks 브랜딩 적용</li>
-      <li>2026-09-13 — 원작 기본 정보, 스토리 개요 및 게임플레이 특징 추가</li>
-      <li>2026-09-13 — 프로젝트 페이지 공개 및 배포 정보 구조 정리</li>
+      <li>세실리아 편 대사 번역 및 게임 데이터 반영 완료</li>
+      <li>레반트 편 번역 및 양편 통합 진행 중</li>
+      <li>이름창·글꼴·띄어쓰기·설명문 표시 품질 개선</li>
     </ul>
     <p class="muted">정식 패치 배포 후에는 v1.0, v1.1 형식으로 버전별 변경 사항을 기록합니다.</p>
   </section>
