@@ -1,12 +1,17 @@
-# ievy3 Korean Translation Projects
+# Noctil Patchworks
 
-개인적으로 제작한 게임 한국어 번역 패치를 정리하고 배포하기 위한 프로젝트입니다.
+개인 제작자 **Noctil**의 비공식 게임 한국어 번역 패치를 정리하고 배포하기 위한 프로젝트입니다.
 
 ## About
 
 이 저장소는 비공식 게임 한국어 번역 프로젝트의 소개, 패치 적용 방법 및 관련 자료를 제공하기 위해 운영됩니다.
 
 각 게임의 한국어 패치는 별도의 프로젝트 페이지에서 제공됩니다.
+
+## Projects
+
+- Hexyz Force (PSP) — In Progress
+- Gungnir (PSP) — In Progress
 
 ## Patch Distribution
 
@@ -15,6 +20,10 @@
 패치 적용에는 사용자가 직접 보유한 해당 게임의 원본 데이터가 필요합니다.
 
 게임 ROM, ISO 및 기타 원본 게임 데이터는 제공하지 않습니다.
+
+## Credits
+
+Translation & Patch by **Noctil**
 
 ## Disclaimer
 
@@ -30,6 +39,6 @@
 
 ---
 
-Unofficial Korean game translation projects.
+Unofficial Korean game translation projects by Noctil.
 
 Original game files, ROMs, and ISOs are not distributed through this project.
