@@ -249,3 +249,17 @@ main > .box{margin-top:16px}
 .log-gallery .preview-grid{grid-template-columns:repeat(2,1fr)}
 .preview-grid .logo-preview img{object-fit:contain;background:#050505;padding:18px}
 @media(max-width:620px){.log-gallery .preview-grid{grid-template-columns:1fr}.preview-grid .logo-preview img{padding:12px}}
+
+.overall-progress{margin-top:0}
+.overall-list{display:grid;grid-template-columns:1fr 1fr;gap:18px 30px;margin-top:24px}
+.overall-row{min-width:0}
+.overall-label{display:flex;justify-content:space-between;gap:15px;margin-bottom:7px}
+.overall-label span{color:#d4d5da;font-size:13px;font-weight:700}
+.overall-label strong{color:var(--accent);font-size:12px}
+.overall-row .progress{height:8px}
+.overall-row.is-pending{opacity:.62}
+.overall-row.is-pending .overall-label strong{color:var(--muted);font-weight:600}
+.overall-row.is-pending .progress{background:repeating-linear-gradient(135deg,#292b35,#292b35 7px,#24262e 7px,#24262e 14px)}
+.progress-followup{margin-top:16px}
+.compact-routes{gap:18px}
+@media(max-width:700px){.overall-list{grid-template-columns:1fr}}
