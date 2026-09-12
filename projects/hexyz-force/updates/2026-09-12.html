@@ -122,6 +122,34 @@
         <p>원본 ISO는 직접 수정하지 않고 별도 시험 ISO를 생성하는 흐름으로 구성했습니다.</p>
       </div>
     </details>
+    
+    <details>
+      <summary><span>공개 전 준비 기준</span><small>배포·검증·제보 체계</small></summary>
+      <div class="details-body">
+        <ul>
+          <li>지원 지역·제품 코드와 원본 SHA-256 명시</li>
+          <li>ISO가 아닌 xdelta/BPS 차분 패치와 패처만 배포</li>
+          <li>패치 순서, 필요 공간과 성공 시 출력 해시 안내</li>
+          <li>미검증 구간과 알려진 문제 공개</li>
+          <li>실제 플레이 캡처와 제작 미리보기 구분</li>
+          <li>빌드 도구 버전, 검증 결과와 릴리스 체크섬 기록</li>
+          <li>오탈자·줄바꿈·재현 문제용 이슈 양식 마련</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary><span>진척도 표시 원칙</span><small>분모가 명확한 항목만 수치화</small></summary>
+      <div class="details-body">
+        <div class="kv compact-kv">
+          <div>본문 번역</div><div>번역문이 존재하는 행 / 전체 대사 행</div>
+          <div>ISO 삽입</div><div>역추출 대조 통과 행 / 전체 대사 행</div>
+          <div>이미지·영상</div><div>삽입 및 정적 검증 통과 수 / 전체 대상 수</div>
+          <div>플레이 QA</div><div>통과 체크포인트 / 전체 체크포인트</div>
+        </div>
+        <p>말투의 자연스러움처럼 분모가 없는 작업은 퍼센트 대신 체크리스트와 변경 건수로 기록합니다.</p>
+      </div>
+    </details>
   </section>
 
   <section class="box preview-section log-gallery">
