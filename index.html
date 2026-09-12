@@ -3,128 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Noctil이 제작하는 비공식 한국어 게임 번역 패치 프로젝트">
   <title>Noctil Patchworks</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #111318;
-      color: #f2f2f2;
-    }
-    header {
-      padding: 60px 20px;
-      text-align: center;
-      background: #181b22;
-      border-bottom: 1px solid #2b2f38;
-    }
-    header h1 {
-      margin: 0 0 10px;
-      font-size: 38px;
-    }
-    header p {
-      margin: 0;
-      color: #aaaaaa;
-    }
-    main {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 40px 20px;
-    }
-    h2 {
-      margin-top: 40px;
-      border-bottom: 1px solid #333844;
-      padding-bottom: 10px;
-    }
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 20px;
-      margin-top: 20px;
-    }
-    .card {
-      background: #1b1e25;
-      border: 1px solid #30343d;
-      border-radius: 12px;
-      padding: 22px;
-      transition: 0.2s;
-    }
-    .card:hover {
-      transform: translateY(-4px);
-      border-color: #666;
-    }
-    .card h3 {
-      margin-top: 0;
-    }
-    .status {
-      color: #9fa6b2;
-      font-size: 14px;
-    }
-    .button {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 10px 16px;
-      background: #ffffff;
-      color: #111318;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-    }
-    .button:hover {
-      background: #dddddd;
-    }
-    footer {
-      margin-top: 60px;
-      padding: 30px 20px;
-      text-align: center;
-      border-top: 1px solid #2b2f38;
-      color: #777;
-      font-size: 13px;
-    }
-  </style>
+  <link rel="stylesheet" href="/assets/css/home.css?v=1">
 </head>
 <body>
-<header>
-  <h1>Noctil Patchworks</h1>
-  <p>Unofficial Korean Game Translation Archive</p>
-</header>
-<main>
-  <section>
-    <h2>About</h2>
-    <p>Noctil이 개인적으로 제작한 게임 한국어 번역 패치를 정리하고 배포하기 위한 사이트입니다.</p>
-  </section>
+  <header class="site-header">
+    <a class="brand" href="/">
+      <span class="brand-mark">NP</span>
+      <span class="brand-name">Noctil Patchworks</span>
+    </a>
+    <nav class="site-nav" aria-label="주요 메뉴">
+      <a href="#projects">프로젝트</a>
+      <a href="/projects/hexyz-force/updates/">작업일지</a>
+      <a href="https://github.com/ievy3/ievy3.github.io" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </header>
 
-  <section>
-    <h2>Projects</h2>
-    <div class="projects">
-      <div class="card">
-        <h3>Hexyz Force</h3>
-        <p class="status">PSP · In Progress</p>
-        <p>한국어 번역 프로젝트입니다.</p>
-        <a class="button" href="/projects/hexyz-force/">자세히 보기</a>
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">UNOFFICIAL KOREAN GAME TRANSLATION</p>
+        <h1>잊힌 게임을,<br><em>다시 읽을 수 있게.</em></h1>
+        <div class="hero-stats" aria-label="프로젝트 개요">
+          <div><strong>02</strong><span>Projects</span></div>
+          <div><strong>PSP</strong><span>Platform</span></div>
+          <div><strong>Nonprofit</strong><span>Fan project</span></div>
+        </div>
+      </div>
+      <div class="hero-copy">
+        <p>정식 한국어판으로 만나기 어려웠던 게임을 직접 번역하고, 플레이 가능한 패치로 기록합니다.</p>
+        <small>TRANSLATION &amp; PATCH BY NOCTIL</small>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="section-head">
+        <h2>Current projects</h2>
+        <p>현재 작업 중인 PSP 한국어 번역 프로젝트입니다.</p>
       </div>
 
-      <div class="card">
-        <h3>Gungnir</h3>
-        <p class="status">PSP · In Progress</p>
-        <p>한국어 번역 프로젝트입니다.</p>
-        <a class="button" href="/projects/gungnir/">자세히 보기</a>
+      <div class="projects">
+        <a class="project-card hexyz-card" href="/projects/hexyz-force/">
+          <div class="project-visual">
+            <img src="/assets/images/hexyz-force/cecilia-selection-ko.jpg" alt="Hexyz Force 세실리아 선택 화면 한국어 번역 미리보기">
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <span class="platform">PROJECT 01 · PSP</span>
+              <span class="status"><i></i>개발 중</span>
+            </div>
+            <h3>Hexyz Force</h3>
+            <p>세실리아 편 완료 · 레반트 편 번역 및 통합 중</p>
+            <div class="card-bottom">
+              <div class="card-progress">
+                <div class="progress-label"><span>스토리 대사</span><strong>83.6%</strong></div>
+                <div class="progress" role="progressbar" aria-label="Hexyz Force 스토리 대사 번역률" aria-valuemin="0" aria-valuemax="100" aria-valuenow="83.6"><span style="width:83.6%"></span></div>
+              </div>
+              <span class="open-arrow" aria-hidden="true">↗</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="project-card gungnir-card" href="/projects/gungnir/">
+          <div class="project-visual gungnir-visual">
+            <span class="visual-title">GUNGNIR</span>
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <span class="platform">PROJECT 02 · PSP</span>
+              <span class="status"><i></i>개발 중</span>
+            </div>
+            <h3>Gungnir</h3>
+            <p>전술 RPG 한국어 번역 프로젝트</p>
+            <div class="card-bottom">
+              <div class="card-progress">
+                <div class="progress-label"><span>진행률</span><strong>집계 준비 중</strong></div>
+                <div class="progress pending-progress" aria-label="진행률 집계 준비 중"><span></span></div>
+              </div>
+              <span class="open-arrow" aria-hidden="true">↗</span>
+            </div>
+          </div>
+        </a>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section>
-    <h2>Patch Distribution</h2>
-    <p>배포되는 패치는 원본 게임 전체를 포함하지 않는 xdelta 등의 차분 패치를 원칙으로 합니다.</p>
-    <p>패치 적용에는 사용자가 직접 보유한 원본 게임 데이터가 필요합니다.</p>
-  </section>
+    <section class="principles" aria-label="배포 원칙">
+      <div class="principle"><b>01</b><div><strong>차분 패치만 배포</strong><span>원본 게임 데이터는 포함하지 않습니다.</span></div></div>
+      <div class="principle"><b>02</b><div><strong>비공식·비영리</strong><span>개인이 운영하는 팬 번역 프로젝트입니다.</span></div></div>
+      <div class="principle"><b>03</b><div><strong>과정까지 기록</strong><span>날짜별 작업일지와 검증 결과를 남깁니다.</span></div></div>
+    </section>
+  </main>
 
-  <section>
-    <h2>Disclaimer</h2>
-    <p>본 사이트는 개인이 운영하는 비공식·비영리 팬 번역 프로젝트입니다.</p>
-    <p>각 게임 및 관련 콘텐츠의 저작권과 상표권은 해당 권리자에게 있습니다. 본 프로젝트는 게임 개발사 및 퍼블리셔와 공식적인 관련이 없습니다.</p>
-    <p>본 사이트에서는 게임 ROM, ISO 및 기타 원본 게임 파일을 배포하지 않습니다.</p>
-  </section>
-</main>
-<footer>© 2026 Noctil Patchworks · Translation &amp; Patch by Noctil</footer>
+  <footer>
+    <span>© 2026 NOCTIL PATCHWORKS</span>
+    <span>NOT AFFILIATED WITH THE ORIGINAL DEVELOPERS OR PUBLISHERS</span>
+  </footer>
 </body>
 </html>
