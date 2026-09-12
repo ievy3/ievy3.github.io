@@ -244,3 +244,8 @@ main > .box{margin-top:16px}
 @media(max-width:620px){
   .snapshot-row>div:first-child{display:block}.snapshot-row strong{display:block;margin-top:2px;color:var(--muted)}
 }
+
+.progress-figure{margin:22px 0 0}.progress-figure img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:14px;background:#0d1015}.progress-figure figcaption{margin-top:7px;color:var(--muted);font-size:10px;text-align:right}
+.log-gallery .preview-grid{grid-template-columns:repeat(2,1fr)}
+.preview-grid .logo-preview img{object-fit:contain;background:#050505;padding:18px}
+@media(max-width:620px){.log-gallery .preview-grid{grid-template-columns:1fr}.preview-grid .logo-preview img{padding:12px}}
