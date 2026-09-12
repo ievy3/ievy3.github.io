@@ -1,18 +1,152 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gungnir Korean Translation Project</title>
-<style>
-body{margin:0;font-family:Arial,sans-serif;background:#111318;color:#f2f2f2}main{max-width:900px;margin:auto;padding:50px 20px}a{color:#fff}.meta{color:#9fa6b2}.box{margin-top:30px;padding:24px;background:#1b1e25;border:1px solid #30343d;border-radius:12px}.back{text-decoration:none;color:#aaa}h1{font-size:38px;margin-bottom:8px}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gungnir PSP 비공식 한국어 번역 프로젝트 페이지">
+  <title>Gungnir | Korean Translation Project</title>
+  <link rel="stylesheet" href="/assets/css/project.css">
 </head>
-<body><main>
-<a class="back" href="/">← Projects</a>
-<h1>Gungnir</h1>
-<p class="meta">PSP · Korean Translation Project · In Progress</p>
-<div class="box"><h2>Project</h2><p>Gungnir의 비공식 한국어 번역 프로젝트입니다.</p></div>
-<div class="box"><h2>Patch</h2><p>패치가 공개되면 이 페이지에서 지원 버전, 원본 파일 해시, 적용 방법 및 다운로드 정보를 제공합니다.</p></div>
-<div class="box"><h2>Disclaimer</h2><p>본 프로젝트는 비공식·비영리 팬 번역 프로젝트입니다. 원본 게임 ROM, ISO 및 기타 원본 게임 파일은 제공하지 않습니다.</p></div>
-</main></body></html>
+<body>
+<main>
+  <a class="back" href="/">← 전체 프로젝트</a>
+
+  <section class="hero">
+    <h1>Gungnir</h1>
+    <p class="meta">PSP · 비공식 한국어 번역 프로젝트</p>
+    <div class="badges">
+      <span class="badge">Status: In Progress</span>
+      <span class="badge">Patch: 준비 중</span>
+      <span class="badge">Last updated: 2026-09-13</span>
+    </div>
+  </section>
+
+  <nav class="nav" aria-label="페이지 목차">
+    <a href="#status">진행 현황</a>
+    <a href="#patch">패치 정보</a>
+    <a href="#install">적용 방법</a>
+    <a href="#scope">번역 범위</a>
+    <a href="#compatibility">호환성</a>
+    <a href="#changelog">변경 내역</a>
+    <a href="#faq">FAQ</a>
+    <a href="#credits">Credits</a>
+  </nav>
+
+  <div class="grid" id="status">
+    <section class="box">
+      <h2>프로젝트 현황</h2>
+      <p>한국어 번역 및 게임 내 적용 작업을 진행하고 있습니다.</p>
+      <p class="muted">전체 진행률은 실제 집계 기준이 정리되는 대로 공개합니다.</p>
+      <div class="progress unknown" aria-label="진행률 미정"><span></span></div>
+    </section>
+
+    <section class="box">
+      <h2>최신 배포</h2>
+      <p><strong>아직 공개된 패치가 없습니다.</strong></p>
+      <p class="muted">첫 공개 버전부터 버전 번호, 파일 해시, 변경 내역을 함께 제공합니다.</p>
+      <a class="button disabled" href="#" aria-disabled="true">다운로드 준비 중</a>
+    </section>
+  </div>
+
+  <section class="box" id="patch">
+    <h2>패치 정보</h2>
+    <div class="kv">
+      <div>대상 플랫폼</div><div>Sony PSP</div>
+      <div>배포 방식</div><div>xdelta 등 차분 패치 방식</div>
+      <div>지원 원본</div><div>확인 후 공개</div>
+      <div>원본 파일 해시</div><div>패치 공개 시 SHA-1 / SHA-256 명시</div>
+      <div>패치 파일 해시</div><div>배포 시 SHA-256 명시</div>
+      <div>현재 버전</div><div>미배포</div>
+    </div>
+    <p class="notice">원본 게임 ROM/ISO 및 원본 게임 파일은 배포하지 않습니다. 사용자가 직접 보유한 지원 버전의 원본 데이터가 필요합니다.</p>
+  </section>
+
+  <section class="box" id="install">
+    <h2>적용 방법</h2>
+    <ol>
+      <li>본인이 보유한 지원 버전의 원본 게임 데이터를 준비합니다.</li>
+      <li>페이지에 표시된 원본 파일 해시와 일치하는지 확인합니다.</li>
+      <li>배포 패키지의 안내에 따라 차분 패치를 적용합니다.</li>
+      <li>패치 완료 후 결과 파일의 해시 또는 정상 실행 여부를 확인합니다.</li>
+    </ol>
+    <p class="muted">구체적인 패처, 입력 파일명, 예상 출력 파일명은 첫 배포 버전에 맞춰 업데이트됩니다.</p>
+  </section>
+
+  <section class="box" id="scope">
+    <h2>번역 범위</h2>
+    <ul>
+      <li>스토리 대사</li>
+      <li>시스템 메시지</li>
+      <li>메뉴 및 UI 텍스트</li>
+      <li>아이템·스킬·고유명사</li>
+      <li>이미지 내 텍스트</li>
+    </ul>
+    <p class="muted">각 항목은 실제 완료 여부를 확인한 뒤 완료/작업 중/미작업으로 구분해 공개합니다.</p>
+  </section>
+
+  <section class="box" id="compatibility">
+    <h2>호환성 / 테스트 환경</h2>
+    <p>패치 공개 시 실제 테스트한 환경만 기재합니다.</p>
+    <div class="kv">
+      <div>실기 PSP</div><div>테스트 예정</div>
+      <div>PPSSPP</div><div>테스트 예정</div>
+      <div>기타 환경</div><div>테스트 결과 확인 후 추가</div>
+    </div>
+    <h3 style="margin-top:22px">알려진 문제</h3>
+    <p class="muted">현재 공개된 패치가 없어 등록된 알려진 문제가 없습니다. 배포 이후 재현 가능한 문제를 버전별로 기록합니다.</p>
+  </section>
+
+  <section class="box">
+    <h2>스크린샷</h2>
+    <div class="shot-placeholder">번역 적용 스크린샷 준비 중</div>
+    <p class="muted">실제 게임 내 적용 화면을 확인한 뒤 추가합니다.</p>
+  </section>
+
+  <section class="box" id="changelog">
+    <h2>변경 내역</h2>
+    <p><strong>개발 중</strong></p>
+    <ul>
+      <li>2026-09-13 — 프로젝트 페이지 공개 및 배포 정보 구조 정리</li>
+    </ul>
+    <p class="muted">정식 패치 배포 후에는 v1.0, v1.1 형식으로 버전별 변경 사항을 기록합니다.</p>
+  </section>
+
+  <section class="box">
+    <h2>오류 제보</h2>
+    <p>오탈자, 잘림, 폰트 문제, 진행 불가, 패처 오류 등은 재현 정보를 포함해 제보해 주세요.</p>
+    <ul>
+      <li>사용한 패치 버전</li>
+      <li>사용 환경(실기/에뮬레이터 및 버전)</li>
+      <li>문제가 발생한 위치</li>
+      <li>가능하면 스크린샷 및 재현 방법</li>
+    </ul>
+    <a class="button secondary" href="https://github.com/ievy3/ievy3.github.io/issues" target="_blank" rel="noopener">GitHub Issues</a>
+  </section>
+
+  <section class="box" id="faq">
+    <h2>FAQ</h2>
+    <h3>원본 게임도 받을 수 있나요?</h3>
+    <p>아니요. 본 프로젝트에서는 ROM, ISO 또는 원본 게임 파일을 제공하지 않습니다.</p>
+    <h3>다른 지역판이나 다른 덤프에도 적용되나요?</h3>
+    <p>패치 공개 시 지정된 원본 버전과 해시를 기준으로 지원합니다. 해시가 다르면 적용을 권장하지 않습니다.</p>
+    <h3>패치를 재배포해도 되나요?</h3>
+    <p>재배포 정책은 첫 정식 배포 시 별도로 명시합니다. 링크 공유는 이 페이지 또는 공식 배포 링크를 이용하는 방식을 권장합니다.</p>
+  </section>
+
+  <section class="box" id="credits">
+    <h2>Credits</h2>
+    <p>번역 / 패치 제작: <strong>ievy3</strong></p>
+    <p class="muted">추후 번역 검수, 기술 지원, 테스트 등에 참여한 사람이 있는 경우 동의 후 추가합니다.</p>
+  </section>
+
+  <section class="box">
+    <h2>Disclaimer</h2>
+    <p>본 프로젝트는 개인이 제작하는 비공식·비영리 팬 번역 프로젝트이며, 원작의 개발사·퍼블리셔 및 기타 권리자와 공식적인 관련이 없습니다.</p>
+    <p>게임 및 관련 콘텐츠의 저작권과 상표권은 각 권리자에게 있습니다. 본 사이트에서는 게임 ROM, ISO 및 기타 원본 게임 파일을 배포하지 않습니다.</p>
+    <p>권리자의 정당한 요청이 있을 경우 관련 콘텐츠의 공개 또는 배포가 중단될 수 있습니다.</p>
+  </section>
+
+  <div class="footer-note">Gungnir Korean Translation Project · ievy3</div>
+</main>
+</body>
+</html>
