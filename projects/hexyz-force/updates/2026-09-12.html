@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="2026년 9월 12일 Hexyz Force 한국어 패치 작업일지">
   <title>2026.09.12 작업일지 | Hexyz Force</title>
-  <link rel="stylesheet" href="/assets/css/project.css?v=8">
+  <link rel="stylesheet" href="/assets/css/project.css?v=9">
 </head>
 <body class="project-page log-page">
 <main class="log-entry-page">
@@ -33,7 +33,7 @@
       <span class="line-count">일본판 양쪽 루트 기준</span>
     </div>
     <figure class="progress-figure">
-      <img src="/assets/images/hexyz-force/progress-2026-09-12.svg" alt="2026년 9월 12일 Hexyz Force 한글화 진행률: 전체 본문 81.05%, 세실리아 100%, 레반트 62.64%, ISO 삽입 49.27%, 이미지와 영상 처리 100%">
+      <img src="/assets/images/hexyz-force/progress-2026-09-12.svg" alt="2026년 9월 12일 Hexyz Force 한글화 진행률: 전체 본문 81.05%, 세실리아 100%, 레반트 62.64%, 패치 반영 49.27%, 이미지와 영상 처리 100%">
       <figcaption>2026.09.12 23:59 KST 기준 진행 상황</figcaption>
     </figure>
     <p class="fine-print">세실리아 11,821행, 기존 번역 재사용 6,460행, 당일 레반트 신규 번역 1,165행을 합산했습니다.</p>
@@ -96,8 +96,8 @@
     <details>
       <summary><span>05 · 한글 출력·재삽입 파이프라인</span><small>자동화와 역변환 검증</small></summary>
       <div class="details-body">
-        <p>MPK 문자열 재삽입, ZLB 재압축, AFS/SFH 크기 갱신, ISO 생성과 역변환 검증을 자동화했습니다. 한글 글리프는 사용자 정의 Shift-JIS 영역에 배정하고 14×14 게임 글꼴 확장 방식을 검증했습니다.</p>
-        <p>원본 ISO는 직접 수정하지 않고 별도 시험 ISO를 생성하는 흐름으로 구성했습니다.</p>
+        <p>MPK 문자열 재삽입, ZLB 재압축, AFS/SFH 크기 갱신, 로컬 테스트 빌드 생성과 역변환 검증을 자동화했습니다. 한글 글리프는 사용자 정의 Shift-JIS 영역에 배정하고 14×14 게임 글꼴 확장 방식을 검증했습니다.</p>
+        <p>정품 원본 게임 데이터는 직접 수정하지 않고 별도의 로컬 테스트 빌드를 생성하는 흐름으로 구성했습니다.</p>
       </div>
     </details>
     
@@ -106,7 +106,7 @@
       <div class="details-body">
         <ul>
           <li>지원 지역·제품 코드와 원본 SHA-256 명시</li>
-          <li>ISO가 아닌 xdelta/BPS 차분 패치와 패처만 배포</li>
+          <li>게임 파일이 아닌 xdelta/BPS 차분 패치와 패처만 배포</li>
           <li>패치 순서, 필요 공간과 성공 시 출력 해시 안내</li>
           <li>미검증 구간과 알려진 문제 공개</li>
           <li>실제 플레이 캡처와 제작 미리보기 구분</li>
@@ -121,7 +121,7 @@
       <div class="details-body">
         <div class="kv compact-kv">
           <div>본문 번역</div><div>번역문이 존재하는 행 / 전체 대사 행</div>
-          <div>ISO 삽입</div><div>역추출 대조 통과 행 / 전체 대사 행</div>
+          <div>패치 반영</div><div>역추출 대조 통과 행 / 전체 대사 행</div>
           <div>이미지·영상</div><div>삽입 및 정적 검증 통과 수 / 전체 대상 수</div>
           <div>플레이 QA</div><div>통과 체크포인트 / 전체 체크포인트</div>
         </div>
@@ -161,7 +161,7 @@
       <p class="eyebrow">VERIFIED</p>
       <h2>검증 완료</h2>
       <ul class="log-checklist">
-        <li><span>✓</span>세실리아 본문 번역·ISO 삽입</li>
+        <li><span>✓</span>세실리아 본문 번역·패치 반영</li>
         <li><span>✓</span>한국어 이미지 리소스 통합</li>
         <li><span>✓</span>영상 자막 및 PMF 통합</li>
         <li><span>✓</span>본문·그림·영상 용어 교차 검수</li>
@@ -172,7 +172,7 @@
       <h2>남은 작업</h2>
       <ul class="log-checklist pending-list">
         <li><span>○</span>레반트 잔여 4,547행 번역</li>
-        <li><span>○</span>레반트 루트 ISO 삽입</li>
+        <li><span>○</span>레반트 루트 패치 반영</li>
         <li><span>○</span>PPSSPP·실기 전 구간 테스트</li>
         <li><span>○</span>줄바꿈·겹침·이름창·선택지 QA</li>
         <li><span>○</span>배포 패치 생성·클린 원본 재검증</li>
