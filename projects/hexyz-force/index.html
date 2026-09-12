@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Hexyz Force PSP 비공식 한국어 번역 프로젝트 진행 현황">
   <title>Hexyz Force | Noctil Patchworks</title>
-  <link rel="stylesheet" href="/assets/css/project.css?v=8">
+  <link rel="stylesheet" href="/assets/css/project.css?v=9">
 </head>
 <body class="project-page">
 <main>
@@ -39,34 +39,73 @@
     <a href="#details">상세 정보</a>
   </nav>
 
-  <section class="summary-grid" id="progress">
-    <article class="box primary-card">
-      <div class="section-head">
-        <div><p class="eyebrow">TRANSLATION</p><h2>루트별 진행률</h2></div>
-        <span class="line-count">20,046 / 23,993행</span>
-      </div>
+  <section class="box overall-progress" id="progress">
+    <div class="section-head">
+      <div><p class="eyebrow">OVERALL PROGRESS</p><h2>전체 진척도</h2></div>
+      <span class="line-count">2026.09.13 기준</span>
+    </div>
 
-      <div class="route-grid">
+    <div class="overall-list">
+      <div class="overall-row">
+        <div class="overall-label"><span>게임 분석</span><strong>100%</strong></div>
+        <div class="progress progress-green" role="progressbar" aria-label="게임 분석" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><span style="width:100%"></span></div>
+      </div>
+      <div class="overall-row">
+        <div class="overall-label"><span>본문 번역</span><strong>83.6%</strong></div>
+        <div class="progress progress-blue" role="progressbar" aria-label="본문 번역" aria-valuemin="0" aria-valuemax="100" aria-valuenow="83.6"><span style="width:83.6%"></span></div>
+      </div>
+      <div class="overall-row">
+        <div class="overall-label"><span>본문 검수</span><strong>49.3%</strong></div>
+        <div class="progress progress-yellow" role="progressbar" aria-label="본문 검수" aria-valuemin="0" aria-valuemax="100" aria-valuenow="49.3"><span style="width:49.3%"></span></div>
+      </div>
+      <div class="overall-row">
+        <div class="overall-label"><span>패치 반영</span><strong>49.3%</strong></div>
+        <div class="progress progress-orange" role="progressbar" aria-label="패치 반영" aria-valuemin="0" aria-valuemax="100" aria-valuenow="49.3"><span style="width:49.3%"></span></div>
+      </div>
+      <div class="overall-row">
+        <div class="overall-label"><span>이미지 번역</span><strong>100%</strong></div>
+        <div class="progress progress-green" role="progressbar" aria-label="이미지 번역" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><span style="width:100%"></span></div>
+      </div>
+      <div class="overall-row">
+        <div class="overall-label"><span>영상 자막</span><strong>100%</strong></div>
+        <div class="progress progress-green" role="progressbar" aria-label="영상 자막" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><span style="width:100%"></span></div>
+      </div>
+      <div class="overall-row is-pending">
+        <div class="overall-label"><span>플레이 검증</span><strong>준비 중</strong></div>
+        <div class="progress" aria-label="플레이 검증 준비 중"><span></span></div>
+      </div>
+      <div class="overall-row is-pending">
+        <div class="overall-label"><span>배포 패치</span><strong>준비 중</strong></div>
+        <div class="progress" aria-label="배포 패치 준비 중"><span></span></div>
+      </div>
+    </div>
+    <p class="fine-print">분모와 완료 조건이 확인되는 항목만 수치화했습니다. 본문 검수와 패치 반영은 세실리아 편 11,821행을 전체 23,993행으로 나눈 값입니다.</p>
+  </section>
+
+  <section class="summary-grid progress-followup" id="now">
+    <article class="box">
+      <p class="eyebrow">ROUTE BREAKDOWN</p>
+      <h2>루트별 본문 번역</h2>
+      <div class="route-grid compact-routes">
         <div class="route">
           <div class="route-title"><span>세실리아 편</span><strong>100%</strong></div>
-          <div class="progress" role="progressbar" aria-label="세실리아 편 번역률" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><span style="width:100%"></span></div>
-          <small>11,821 / 11,821행 · 번역 및 삽입 완료</small>
+          <div class="progress progress-green"><span style="width:100%"></span></div>
+          <small>11,821 / 11,821행 · 번역·검수·반영 완료</small>
         </div>
         <div class="route">
           <div class="route-title"><span>레반트 편</span><strong>67.6%</strong></div>
-          <div class="progress progress-alt" role="progressbar" aria-label="레반트 편 번역률" aria-valuemin="0" aria-valuemax="100" aria-valuenow="67.6"><span style="width:67.6%"></span></div>
+          <div class="progress progress-alt"><span style="width:67.6%"></span></div>
           <small>8,225 / 12,172행 · 번역 및 통합 중</small>
         </div>
       </div>
-      <p class="fine-print">초안과 공통 대사 재사용분을 포함한 번역문 작성률입니다. 전체 패치 완성도와는 다릅니다.</p>
     </article>
 
-    <article class="box focus-card" id="now">
+    <article class="box focus-card">
       <p class="eyebrow">NOW WORKING ON</p>
       <h2>현재 작업</h2>
       <ol class="task-list">
         <li class="active"><span>01</span><div><strong>레반트 편 번역</strong><small>남은 대사 작성 및 검수</small></div></li>
-        <li><span>02</span><div><strong>양편 데이터 통합</strong><small>공통 리소스와 표시 품질 확인</small></div></li>
+        <li><span>02</span><div><strong>패치 통합</strong><small>공통 리소스와 표시 품질 확인</small></div></li>
         <li><span>03</span><div><strong>플레이 검증</strong><small>PPSSPP 이후 PSP 실기 테스트</small></div></li>
       </ol>
     </article>
