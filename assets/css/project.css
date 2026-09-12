@@ -182,3 +182,39 @@ main > .box{margin-top:16px}
   .kv{grid-template-columns:1fr;gap:2px}
   .kv div:nth-child(odd){margin-top:10px}
 }
+
+
+/* Development log */
+.log-link{display:flex;align-items:center;justify-content:space-between;margin-top:20px;padding-top:15px;border-top:1px solid var(--line);color:var(--accent);text-decoration:none;font-size:12px;font-weight:750}
+.log-link span{font-size:17px;transition:transform .2s}.log-link:hover span{transform:translateX(4px)}
+.log-hero,.entry-hero{padding:34px 0 30px;border-bottom:1px solid var(--line)}
+.log-hero h1,.entry-hero h1{margin:5px 0 14px}
+.log-hero>p:last-child,.entry-hero>p:not(.eyebrow){max-width:650px;color:var(--muted)}
+.timeline{position:relative;margin-top:34px}
+.timeline:before{content:"";position:absolute;left:49px;top:12px;bottom:12px;width:1px;background:linear-gradient(var(--accent),rgba(217,184,116,.05))}
+.timeline-entry{position:relative;display:grid;grid-template-columns:100px 1fr;gap:20px;align-items:start}
+.timeline-date{position:relative;z-index:1;text-align:center}
+.timeline-date time{display:inline-grid;width:68px;padding:10px 7px;border:1px solid rgba(217,184,116,.28);border-radius:13px;background:var(--bg);box-shadow:0 0 0 7px var(--bg)}
+.timeline-date strong,.timeline-date span{display:block}.timeline-date strong{font:500 20px Georgia,serif;color:var(--accent)}.timeline-date span{color:var(--muted);font-size:10px;letter-spacing:.13em}
+.timeline-card{display:block;padding:26px;border:1px solid var(--line);border-radius:18px;background:var(--panel);text-decoration:none;transition:transform .2s,border-color .2s,background .2s}
+.timeline-card:hover{transform:translateY(-3px);border-color:rgba(217,184,116,.28);background:rgba(26,27,35,.92)}
+.timeline-card-head{display:flex;justify-content:space-between;align-items:center}
+.timeline-arrow{color:var(--muted);font-size:18px}.timeline-card h2{margin:20px 0 9px;font-size:24px}.timeline-card p{color:var(--muted);font-size:13px}
+.timeline-metrics{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.timeline-metrics span{padding:7px 10px;border:1px solid var(--line);border-radius:8px;color:var(--muted);font-size:11px}.timeline-metrics strong{color:var(--text)}
+.empty-log-note{margin:24px 0 0 120px;color:#666a75;font-size:11px}
+.log-entry-page{max-width:920px}.entry-hero h1{font-size:clamp(40px,7vw,66px);line-height:1.08}
+.entry-summary{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:20px 0}
+.entry-summary div{padding:18px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.025)}
+.entry-summary strong,.entry-summary span{display:block}.entry-summary strong{font:500 29px Georgia,serif;color:var(--accent)}.entry-summary span{margin-top:4px;color:var(--muted);font-size:11px}
+.entry-section{margin-top:14px}.entry-lead{max-width:720px;font-size:16px;color:#cacbd1}
+.entry-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.entry-grid .entry-section{margin-top:0}
+.log-checklist{list-style:none;margin:16px 0 0;padding:0}.log-checklist li{display:flex;gap:10px;padding:9px 0;border-top:1px solid var(--line);color:#c7c9d0;font-size:13px}.log-checklist li span{color:var(--green)}
+.next-card{background:linear-gradient(135deg,rgba(31,29,26,.9),rgba(19,20,27,.88))}
+.next-steps{display:grid;grid-template-columns:1fr 1fr;gap:10px}.next-steps span{display:flex;align-items:center;gap:10px;padding:11px 12px;border:1px solid var(--line);border-radius:10px;color:#c7c9d0;font-size:12px}.next-steps b{color:var(--accent);font-size:10px}
+.log-disclaimer{margin-top:20px}.entry-nav{margin-top:20px;text-align:right}.entry-nav a{color:var(--accent);text-decoration:none;font-size:13px}
+
+@media(max-width:620px){
+  .timeline:before{left:33px}.timeline-entry{grid-template-columns:68px 1fr;gap:10px}.timeline-date time{width:56px;padding:8px 5px;box-shadow:0 0 0 5px var(--bg)}.timeline-date strong{font-size:17px}
+  .timeline-card{padding:19px 17px}.timeline-card h2{font-size:19px}.timeline-metrics{display:grid}.empty-log-note{margin-left:78px}
+  .entry-summary{grid-template-columns:1fr 1fr}.entry-summary div:last-child{grid-column:1/-1}.entry-grid{grid-template-columns:1fr}.next-steps{grid-template-columns:1fr}
+}
