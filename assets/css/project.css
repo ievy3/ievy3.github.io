@@ -211,7 +211,7 @@ main > .box{margin-top:16px}
 .log-checklist{list-style:none;margin:16px 0 0;padding:0}.log-checklist li{display:flex;gap:10px;padding:9px 0;border-top:1px solid var(--line);color:#c7c9d0;font-size:13px}.log-checklist li span{color:var(--green)}
 .next-card{background:linear-gradient(135deg,rgba(31,29,26,.9),rgba(19,20,27,.88))}
 .next-steps{display:grid;grid-template-columns:1fr 1fr;gap:10px}.next-steps span{display:flex;align-items:center;gap:10px;padding:11px 12px;border:1px solid var(--line);border-radius:10px;color:#c7c9d0;font-size:12px}.next-steps b{color:var(--accent);font-size:10px}
-.log-disclaimer{margin-top:20px}.entry-nav{margin-top:20px;text-align:right}.entry-nav a{color:var(--accent);text-decoration:none;font-size:13px}
+.log-disclaimer{margin-top:20px}.entry-nav{display:flex;justify-content:space-between;gap:18px;margin-top:20px}.entry-nav a{color:var(--accent);text-decoration:none;font-size:13px}
 
 @media(max-width:620px){
   .timeline:before{left:33px}.timeline-entry{grid-template-columns:68px 1fr;gap:10px}.timeline-date time{width:56px;padding:8px 5px;box-shadow:0 0 0 5px var(--bg)}.timeline-date strong{font-size:17px}
@@ -234,7 +234,7 @@ main > .box{margin-top:16px}
 .entry-details{margin-top:14px}
 .term-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:16px}
 .term-grid span{display:flex;flex-direction:column;gap:4px;padding:12px;border:1px solid var(--line);border-radius:10px}
-.term-grid s{color:var(--muted);font-size:11px}.term-grid b{color:var(--gold);font-size:12px}
+.term-grid s{color:var(--muted);font-size:11px}.term-grid b{color:var(--accent);font-size:12px}
 .log-gallery{margin-top:14px}.validation-grid{margin-top:14px}
 .pending-list li span{color:var(--gold)}
 @media(max-width:700px){
