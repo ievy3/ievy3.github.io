@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Hexyz Force PSP 비공식 한국어 번역 프로젝트 진행 현황">
   <title>Hexyz Force | Noctil Patchworks</title>
-  <link rel="stylesheet" href="/assets/css/project.css?v=4">
+  <link rel="stylesheet" href="/assets/css/project.css?v=5">
 </head>
 <body class="project-page">
 <main>
@@ -33,6 +33,7 @@
     <a href="#progress">진행률</a>
     <a href="#now">현재 작업</a>
     <a href="#milestones">완료 항목</a>
+    <a href="#preview">작업 미리보기</a>
     <a href="#release">배포</a>
     <a href="#details">상세 정보</a>
   </nav>
@@ -103,27 +104,48 @@
     </article>
   </section>
 
-  <section class="box preview-card">
-    <div>
-      <p class="eyebrow">DEVELOPMENT PREVIEW</p>
-      <h2>작업 화면은 곧 추가됩니다</h2>
-      <p>번역 리소스 미리보기와 실제 플레이 캡처를 구분해 공개할 예정입니다.</p>
+  <section class="box preview-section" id="preview">
+    <div class="section-head">
+      <div><p class="eyebrow">DEVELOPMENT PREVIEW</p><h2>한글화 작업 미리보기</h2></div>
+      <span class="line-count">실제 플레이 캡처는 검증 후 추가</span>
     </div>
-    <div class="preview-mark" aria-hidden="true">HF</div>
+    <div class="preview-grid">
+      <figure>
+        <img src="/assets/images/hexyz-force/battle-help-ko.jpg" alt="한국어 전투 도움말 그래픽">
+        <figcaption><strong>전투 도움말 그래픽</strong><span>번역 적용 리소스 · 실제 플레이 캡처 아님</span></figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/images/hexyz-force/video-subtitles-ko.jpg" alt="한국어 영상 자막 작업 화면">
+        <figcaption><strong>영상 자막 작업</strong><span>한국어 자막 제작 영상에서 추출한 프레임</span></figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/images/hexyz-force/cecilia-selection-ko.jpg" alt="세실리아 주인공 선택 화면 번역 그래픽">
+        <figcaption><strong>주인공 선택 화면</strong><span>세실리아 이름·소속 번역 그래픽</span></figcaption>
+      </figure>
+    </div>
+    <p class="fine-print">위 이미지는 현재 제작 중인 번역 리소스와 영상 프레임입니다. 최신 한글 빌드의 실제 게임 화면은 PPSSPP 및 실기 검증 후 별도로 공개합니다.</p>
   </section>
 
   <section class="detail-stack" id="details">
     <details>
       <summary><span>원작 게임 정보</span><small>개발사·발매일·게임 소개</small></summary>
       <div class="details-body">
-        <div class="kv compact-kv">
-          <div>개발 / 퍼블리셔</div><div>Sting Entertainment / Atlus</div>
-          <div>플랫폼 / 장르</div><div>PSP / 턴제 RPG</div>
-          <div>발매</div><div>일본 2009.11.12 · 북미 2010.05.25</div>
-          <div>제품 코드</div><div>ULJM-05501 · ULUS-10506</div>
+        <div class="game-detail-layout">
+          <figure class="game-cover-wrap">
+            <img class="game-cover" src="https://atlus.com/wp-content/uploads/2022/03/hexyz_force.jpg" alt="Hexyz Force 공식 타이틀 이미지">
+            <figcaption>ATLUS 공식 타이틀 이미지</figcaption>
+          </figure>
+          <div>
+            <div class="kv compact-kv">
+              <div>개발 / 퍼블리셔</div><div>Sting Entertainment / Atlus</div>
+              <div>플랫폼 / 장르</div><div>PSP / 턴제 RPG</div>
+              <div>발매</div><div>일본 2009.11.12 · 북미 2010.05.25</div>
+              <div>제품 코드</div><div>ULJM-05501 · ULUS-10506</div>
+            </div>
+            <p>빛과 어둠으로 나뉜 세계 Berge에서 Cecilia와 Levant의 이야기가 병렬로 전개되는 JRPG입니다. 두 시나리오는 각자의 길을 따라가며 여러 지점에서 교차합니다.</p>
+            <p><a class="text-link" href="https://atlus.com/atlus-titles/hexyzforce/?ItemID=98" target="_blank" rel="noopener">ATLUS 공식 소개 ↗</a></p>
+          </div>
         </div>
-        <p>빛과 어둠으로 나뉜 세계 Berge에서 Cecilia와 Levant의 이야기가 병렬로 전개되는 JRPG입니다. 두 시나리오는 각자의 길을 따라가며 여러 지점에서 교차합니다.</p>
-        <p><a class="text-link" href="https://atlus.com/atlus-titles/hexyzforce/?ItemID=98" target="_blank" rel="noopener">ATLUS 공식 소개 ↗</a></p>
       </div>
     </details>
 
