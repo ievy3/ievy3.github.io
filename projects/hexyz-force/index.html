@@ -35,6 +35,7 @@
     <a href="#milestones">검증 결과</a>
     <a href="#preview">실제 게임 화면</a>
     <a href="#release">배포</a>
+    <a href="#patch-history">패치 이력</a>
     <a href="/projects/hexyz-force/updates/">작업일지</a>
     <a href="#details">상세 정보</a>
   </nav>
@@ -108,10 +109,27 @@
     <article class="box release-card" id="release">
       <p class="eyebrow">PUBLIC BETA · v0.9.0-beta.1</p>
       <h2>공개 검수판 배포 중</h2>
-      <p>온라인 패처가 GitHub에서 최신 패치 정보를 확인하고, 원본 ISO의 판본에 맞는 xdelta를 자동으로 내려받아 적용합니다.</p>
-      <a class="button" href="https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.0-beta.1/Noctil_Patchworks_Online.exe">온라인 패처 다운로드 (.exe)</a>
-      <small>Windows용 · 인터넷 연결 필요 · 전체 플레이 검수 중인 베타 버전</small>
+      <p>PSN판과 UMD판용 xdelta를 하나의 실행 파일에 포함한 오프라인 통합 패처입니다. 원본 ISO의 판본을 자동으로 판별해 새 한글 ISO를 생성합니다.</p>
+      <a class="button" href="https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.0-beta.1/Noctil_Patchworks_Offline_v0.9.0-beta.1.exe">오프라인 통합 패처 다운로드 (.exe)</a>
+      <small>Windows용 · 인터넷 연결 및 별도 xdelta 불필요 · 전체 플레이 검수 중인 베타 버전</small>
     </article>
+  </section>
+
+  <section class="box" id="patch-history">
+    <div class="section-head">
+      <div><p class="eyebrow">PATCH HISTORY</p><h2>패치 이력</h2></div>
+      <a class="text-link" href="https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.0-beta.1" target="_blank" rel="noopener">릴리스 페이지 ↗</a>
+    </div>
+    <div class="kv compact-kv">
+      <div>2026.09.14</div><div><strong>v0.9.0-beta.1</strong> · 공개 검수판</div>
+    </div>
+    <ul class="compact-list">
+      <li>PSN판과 UMD판용 패치를 단일 오프라인 실행 파일로 통합</li>
+      <li>xdelta를 패처에 포함해 인터넷 연결과 별도 패치 파일 없이 적용 가능</li>
+      <li>지원 원본 ISO 자동 판별과 원본·결과 파일 SHA-256 검증 지원</li>
+      <li>원본 ISO를 보존하고 별도의 한글 ISO를 생성</li>
+      <li>전체 플레이 검수 진행 중</li>
+    </ul>
   </section>
 
   <section class="box preview-section" id="preview">
@@ -157,7 +175,7 @@
       <div class="details-body">
         <div class="kv compact-kv">
           <div>현재 버전</div><div>v0.9.0-beta.1 · 공개 검수판</div>
-          <div>배포 방식</div><div>온라인 패처가 최신 xdelta를 자동 다운로드·적용</div>
+          <div>배포 방식</div><div>PSN·UMD용 xdelta를 포함한 오프라인 통합 패처</div>
           <div>일본어 PSN판</div><div>NPJH50202</div>
           <div>일본어 UMD판</div><div>ULJM05501</div>
           <div>입력 파일</div><div>검증된 원본 ISO · CHD/CSO는 먼저 ISO로 변환</div>
@@ -165,12 +183,12 @@
           <div>검증 상태</div><div>전체 플레이 및 UMD판 실행 검증 진행 중</div>
         </div>
         <ol>
-          <li>온라인 패처를 실행합니다.</li>
+          <li>오프라인 통합 패처를 다운로드해 실행합니다.</li>
           <li>직접 보유한 일본어 원본 ISO를 선택합니다.</li>
-          <li>새 ISO의 저장 위치를 지정하고 다운로드·적용을 누릅니다.</li>
+          <li>새 ISO의 저장 위치를 지정하고 패치 적용을 누릅니다.</li>
           <li>완료 후 생성된 한글 ISO를 실행합니다.</li>
         </ol>
-        <p class="notice">패치 적용에는 인터넷 연결과 사용자가 직접 보유한 지원 버전의 원본 ISO가 필요합니다. EXE에 코드 서명이 없어 Windows에서 게시자 확인 경고가 표시될 수 있습니다.</p>
+        <p class="notice">인터넷 연결이나 별도의 xdelta·XML 파일은 필요하지 않습니다. 사용자가 직접 보유한 지원 버전의 원본 ISO가 필요하며, EXE에 코드 서명이 없어 Windows에서 게시자 확인 경고가 표시될 수 있습니다.</p>
       </div>
     </details>
 
