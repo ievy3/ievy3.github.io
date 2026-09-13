@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Noctil이 제작하는 비공식 한국어 게임 번역 패치 프로젝트">
+  <meta name="description" content="Noctil이 제작하는 비공식 한국어 게임 번역 패치 아카이브">
   <title>Noctil Patchworks</title>
-  <link rel="stylesheet" href="/assets/css/home.css?v=4">
+  <link rel="stylesheet" href="/assets/css/home.css?v=5">
+  <script src="/assets/js/home.js?v=1" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -14,7 +15,7 @@
       <span class="brand-name">Noctil Patchworks</span>
     </a>
     <nav class="site-nav" aria-label="주요 메뉴">
-      <a href="#projects">프로젝트</a>
+      <a href="#patches">패치 목록</a>
       <a href="/projects/hexyz-force/updates/">작업일지</a>
       <a href="#guestbook">방명록</a>
       <a href="https://github.com/ievy3/ievy3.github.io" target="_blank" rel="noopener">GitHub ↗</a>
@@ -23,70 +24,76 @@
 
   <main>
     <section class="hero">
-      <div>
+      <div class="hero-main">
         <p class="eyebrow">UNOFFICIAL KOREAN GAME TRANSLATION</p>
         <h1>잊힌 게임을,<br><em>다시 읽을 수 있게.</em></h1>
-        <div class="hero-stats" aria-label="프로젝트 개요">
-          <div><strong>02</strong><span>Projects</span></div>
-          <div><strong>PSP</strong><span>Platform</span></div>
-          <div><strong>Nonprofit</strong><span>Fan project</span></div>
-        </div>
       </div>
-      <div class="hero-copy">
-        <p>정식 한국어판으로 만나기 어려웠던 게임을 직접 번역하고, 플레이 가능한 패치로 기록합니다.</p>
-        <small>TRANSLATION &amp; PATCH BY NOCTIL</small>
+      <div class="hero-side">
+        <p>정식 한국어판으로 만나기 어려웠던 게임을 직접 번역하고, 플레이 가능한 패치와 제작 과정을 함께 기록합니다.</p>
+        <div class="hero-stats" aria-label="아카이브 개요">
+          <div><strong id="project-count">02</strong><span>Projects</span></div>
+          <div><strong id="platform-count">01</strong><span>Platforms</span></div>
+          <div><strong id="release-count">01</strong><span>Public builds</span></div>
+        </div>
       </div>
     </section>
 
-    <section id="projects">
+    <section class="archive" id="patches">
       <div class="section-head">
-        <h2>Current projects</h2>
-        <p>현재 작업 중인 PSP 한국어 번역 프로젝트입니다.</p>
+        <div>
+          <p class="eyebrow">PATCH ARCHIVE</p>
+          <h2>패치 목록</h2>
+        </div>
+        <p>작업 중인 프로젝트와 공개된 패치를 한곳에서 확인할 수 있습니다.</p>
       </div>
 
-      <div class="projects">
-        <a class="project-card hexyz-card" href="/projects/hexyz-force/">
-          <div class="project-visual">
-            <img src="/assets/images/hexyz-force/worklog-2026-09-13/01-title-screen.webp" alt="엑시즈 포스 한글 타이틀 화면">
-          </div>
-          <div class="card-body">
-            <div class="card-top">
-              <span class="platform">PROJECT 01 · PSP</span>
-              <span class="status"><i></i>베타 공개</span>
-            </div>
-            <h3>Hexyz Force</h3>
-            <p>v0.9.0-beta.1 공개 검수판 배포 · 전체 플레이 QA 진행 중</p>
-            <div class="card-bottom">
-              <div class="card-progress">
-                <div class="progress-label"><span>전체 진행률</span><strong>75%</strong></div>
-                <div class="progress" role="progressbar" aria-label="Hexyz Force 전체 진행률" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"><span style="width:75%"></span></div>
-              </div>
-              <span class="open-arrow" aria-hidden="true">↗</span>
-            </div>
-          </div>
-        </a>
-
-        <a class="project-card gungnir-card" href="/projects/gungnir/">
-          <div class="project-visual gungnir-visual">
-            <span class="visual-title">GUNGNIR</span>
-          </div>
-          <div class="card-body">
-            <div class="card-top">
-              <span class="platform">PROJECT 02 · PSP</span>
-              <span class="status"><i></i>번역·통합 진행 중</span>
-            </div>
-            <h3>Gungnir</h3>
-            <p>기반 구축 완료 · 본 번역·전체 통합 진행 중</p>
-            <div class="card-bottom">
-              <div class="card-progress">
-                <div class="progress-label"><span>전체 진행률</span><strong>집계 중</strong></div>
-                <div class="progress pending-progress" aria-label="Gungnir 전체 프로젝트 진행률 집계 중"><span></span></div>
-              </div>
-              <span class="open-arrow" aria-hidden="true">↗</span>
-            </div>
-          </div>
-        </a>
+      <div class="filter-bar" aria-label="패치 목록 필터">
+        <label>
+          <span>정렬</span>
+          <select id="sort-projects">
+            <option value="updated-desc">최근 업데이트순</option>
+            <option value="title-asc">이름순</option>
+            <option value="status">배포 상태순</option>
+          </select>
+        </label>
+        <label>
+          <span>상태</span>
+          <select id="filter-status">
+            <option value="all">전체 상태</option>
+            <option value="public">공개 중</option>
+            <option value="development">개발 중</option>
+          </select>
+        </label>
+        <label>
+          <span>플랫폼</span>
+          <select id="filter-platform">
+            <option value="all">전체 플랫폼</option>
+          </select>
+        </label>
+        <label>
+          <span>유형</span>
+          <select id="filter-type">
+            <option value="all">전체 유형</option>
+          </select>
+        </label>
+        <label class="search-field">
+          <span>검색</span>
+          <input id="project-search" type="search" placeholder="게임명 또는 키워드" autocomplete="off">
+        </label>
       </div>
+
+      <div class="archive-meta">
+        <p id="result-count" aria-live="polite">전체 2개 프로젝트</p>
+        <button id="reset-filters" type="button" hidden>필터 초기화</button>
+      </div>
+
+      <div class="projects" id="project-grid">
+        <noscript>
+          <a class="project-card" href="/projects/hexyz-force/">Hexyz Force — 베타 공개</a>
+          <a class="project-card" href="/projects/gungnir/">Gungnir — 개발 중</a>
+        </noscript>
+      </div>
+      <p class="empty-state" id="empty-state" hidden>조건에 맞는 프로젝트가 없습니다.</p>
     </section>
 
     <section class="principles" aria-label="배포 원칙">
@@ -97,10 +104,7 @@
 
     <section class="guestbook" id="guestbook">
       <div class="section-head guestbook-head">
-        <div>
-          <p class="eyebrow">LEAVE A MESSAGE</p>
-          <h2>Guestbook</h2>
-        </div>
+        <div><p class="eyebrow">LEAVE A MESSAGE</p><h2>Guestbook</h2></div>
         <p>번역 프로젝트에 관한 응원이나 의견을 자유롭게 남겨 주세요.</p>
       </div>
       <div class="guestbook-panel">
@@ -112,9 +116,7 @@
           hcb_user.PAGE_TITLE="Noctil Patchworks 방명록";
           hcb_user.WEBSITE="https://ievy3.github.io/";
           (function(){
-            var s=document.createElement("script"),
-                l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"),
-                h="https://www.htmlcommentbox.com";
+            var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";
             s.setAttribute("type","text/javascript");
             s.setAttribute("src",h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24C766zeBDlgYLLmIbI3g25%2F&opts=16798&num=10&ts=1789318968310");
             document.getElementsByTagName("head")[0].appendChild(s);
