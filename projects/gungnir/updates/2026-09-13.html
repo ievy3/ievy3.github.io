@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 9월 13일 Gungnir 한국어 패치 작업일지">
+  <title>2026.09.13 작업일지 | Gungnir</title>
+  <link rel="stylesheet" href="/assets/css/project.css?v=13">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/gungnir/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.09.13</p>
+    <h1>전체 장면 추출 지원과<br>첫 장면 한글 적용</h1>
+    <p>원본 보존형 작업 기반을 마련하고, 첫 두 장면의 번역 검토와 첫 장면의 가변 길이 재삽입 검증을 진행했습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>기술 기반 구축·번역 진행</span><span class="badge">2026.09.13 22:30 KST 기준</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>295개</strong><span>대사·이름표 검토</span></div>
+    <div><strong>85개</strong><span>장면 추출 지원</span></div>
+    <div><strong>37 / 37</strong><span>단위 검사</span></div>
+  </section>
+  <section class="box entry-section">
+    <div class="section-head"><div><p class="eyebrow">PROGRESS SNAPSHOT</p><h2>현재 진행 상황</h2></div><span class="line-count">정적 집계 기준</span></div>
+    <div class="overall-list">
+      <div class="overall-row"><div class="overall-label"><span>대사·이름표 번역 검토</span><strong>295 / 6,411 · 4.6%</strong></div><div class="progress progress-blue"><span style="width:4.6%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>장면 단위 번역 검토</span><strong>2 / 85 · 2.4%</strong></div><div class="progress progress-blue"><span style="width:2.4%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>아이템·장비 1차 번역</span><strong>253 / 824 · 30.7%</strong></div><div class="progress progress-yellow"><span style="width:30.7%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>장면 추출 지원</span><strong>85 / 85 · 100%</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>이미지 한글화 승인본</span><strong>0 / 1,173 · 0%</strong></div><div class="progress"><span style="width:0%"></span></div></div>
+      <div class="overall-row is-pending"><div class="overall-label"><span>전체 플레이 검증</span><strong>미완료</strong></div><div class="progress"><span></span></div></div>
+    </div>
+    <p class="fine-print">완료율은 각 항목에 적힌 범위만 나타냅니다. 장면 추출과 단위 검사가 완료됐더라도 번역·통합·전체 플레이 검증은 계속 진행됩니다.</p>
+  </section>
+  <section class="detail-stack entry-details">
+    <details open>
+      <summary><span>01 · 원본 보존형 작업 기반 확인</span><small>DAR 3개 왕복 검증</small></summary>
+      <div class="details-body"><ul><li>게임의 주요 아카이브 3개를 추출하고 수정 없이 다시 조립했을 때 전체 바이트가 원본과 일치했습니다.</li><li>총 2,191개 구성원의 범위와 중복, 압축 해제 결과를 검사했습니다.</li><li>원본 데이터를 보존한 채 필요한 자산만 바꾸는 작업 흐름을 확정했습니다.</li></ul></div>
+    </details>
+    <details>
+      <summary><span>02 · 대사와 폰트 표시 기반 구축</span><small>한글 대사 화면 확인</small></summary>
+      <div class="details-body"><ul><li>대사·이름표 명령과 11pt·12pt 폰트 구조를 분석했습니다.</li><li>첫 한글 대사와 다음 대화로의 전환을 실제 화면에서 확인했습니다.</li><li>문장부호와 3줄 대사가 말풍선에 맞게 표시되도록 처리 방식을 수정했습니다.</li><li>현재 화면 확인은 초기 장면에 한정되며 전체 폰트와 전체 장면의 검증은 아닙니다.</li></ul></div>
+    </details>
+    <details>
+      <summary><span>03 · 전체 장면 추출과 장면 번역</span><small>85개 지원 · 295개 검토</small></summary>
+      <div class="details-body"><ul><li>일본어·영어판 각 85개 장면의 텍스트 경계를 읽는 추출 기반을 마련했습니다.</li><li>partA01 113개와 partA02 142개의 대사·이름표 검토를 마쳤습니다.</li><li>partA03은 461개 가운데 40개를 검토했으며 421개가 남았습니다.</li><li>일본어와 영어의 항목 수가 다른 장면은 순번으로 자동 대응하지 않고 의미를 기준으로 확인합니다.</li></ul></div>
+    </details>
+    <details>
+      <summary><span>04 · 공통 문자열과 이미지 작업 착수</span><small>아이템·장비 253개 1차 번역</small></summary>
+      <div class="details-body"><ul><li>아이템·장비 관련 문자열 824개 가운데 253개를 1차 번역했습니다. 570개는 대기, 1개는 보류 상태입니다.</li><li>이미지 후보 1,173장을 추출하고 22개 유형으로 분류했습니다.</li><li>자동 생성 초벌은 오독과 배경 훼손 문제가 있어 승인본으로 인정하지 않았습니다. 현재 승인본은 0장입니다.</li></ul></div>
+    </details>
+    <details>
+      <summary><span>05 · 첫 장면 재삽입과 정적 검사</span><small>113개 텍스트 기술 검증</small></summary>
+      <div class="details-body"><ul><li>첫 장면의 대사 72개와 이름표 41개를 가변 길이로 다시 넣는 기술 흐름을 구축했습니다.</li><li>장면 명령 844개와 주소 참조 23개를 검사했습니다.</li><li>현재 파이썬 단위 검사 37개가 모두 통과했습니다.</li><li>이는 기술 재삽입 검증이며, 113개 문장의 최종 번역·전체 플레이 완료를 뜻하지 않습니다.</li></ul></div>
+    </details>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">VERIFIED</p><h2>확인 완료</h2>
+      <ul class="log-checklist"><li><span>✓</span>DAR 3개 무수정 왕복 바이트 일치</li><li><span>✓</span>일본어·영어판 85개 장면 추출 경계</li><li><span>✓</span>partA01·A02 번역 검토</li><li><span>✓</span>첫 장면 113개 텍스트 기술 재삽입 검사</li><li><span>✓</span>초기 장면 한글 폰트와 3줄 대사 표시</li><li><span>✓</span>현재 단위 검사 37개</li></ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">REMAINING</p><h2>남은 작업</h2>
+      <ul class="log-checklist pending-list"><li><span>○</span>partA03 잔여 421개와 이후 장면 번역</li><li><span>○</span>공통 문자열 재삽입과 화면 검증</li><li><span>○</span>이미지 승인본 제작 및 재삽입</li><li><span>○</span>메뉴·전투·저장·불러오기 확인</li><li><span>○</span>전체 장면과 분기 플레이 검증</li><li><span>○</span>깨끗한 원본에 배포 패치 적용 시험</li></ul>
+    </article>
+  </section>
+  <section class="box preview-section log-gallery">
+    <div class="section-head"><div><p class="eyebrow">ACTUAL GAMEPLAY</p><h2>실제 게임 내 한글 적용 화면</h2></div><span class="line-count">초기 장면 2종</span></div>
+    <div class="preview-grid">
+      <figure><img src="/assets/images/gungnir/worklog-2026-09-13/01-first-korean-dialogue.png" alt="Gungnir 첫 한글 대사가 표시된 게임 화면"><figcaption><strong>첫 한글 대사</strong><span>한글 폰트와 이름표 표시 확인</span></figcaption></figure>
+      <figure><img src="/assets/images/gungnir/worklog-2026-09-13/02-three-line-dialogue.png" alt="Gungnir 긴 한글 대사가 세 줄로 표시된 게임 화면"><figcaption><strong>긴 대사 표시</strong><span>문장부호와 3줄 말풍선 표시 확인</span></figcaption></figure>
+    </div>
+    <p class="fine-print">두 화면은 초기 표시 확인 자료입니다. 전체 장면 또는 전체 게임의 플레이 검증 완료를 의미하지 않습니다.</p>
+  </section>
+  <p class="fine-print log-disclaimer">본 기록의 수치는 최신 번역 원본과 정적 검사 결과를 기준으로 하며, 전체 플레이 완료율과는 구분됩니다.</p>
+  <footer class="footer-note">GUNGNIR DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+</body>
+</html>

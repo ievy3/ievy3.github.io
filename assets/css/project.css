@@ -114,6 +114,7 @@ p{margin:8px 0 14px}
 .preview-mark{display:grid;place-items:center;width:96px;height:96px;flex:0 0 auto;border:1px solid rgba(217,184,116,.22);border-radius:26px;color:rgba(217,184,116,.42);font:500 32px Georgia,serif;transform:rotate(4deg);box-shadow:inset 0 0 40px rgba(217,184,116,.04)}
 .preview-section{margin-top:16px;background:linear-gradient(120deg,rgba(28,29,38,.9),rgba(18,18,24,.84))}
 .preview-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:20px}
+.preview-grid.two-up{grid-template-columns:repeat(2,minmax(0,1fr))}
 .preview-grid figure{margin:0;overflow:hidden;border:1px solid var(--line);border-radius:13px;background:rgba(0,0,0,.16)}
 .preview-grid img{display:block;width:100%;aspect-ratio:240/136;object-fit:cover;background:#0b0c10}
 .preview-grid figcaption{display:grid;gap:2px;padding:11px 12px}
@@ -175,7 +176,7 @@ main > .box{margin-top:16px}
   .compact-list{grid-template-columns:1fr}
   .preview-card{min-height:auto}
   .preview-mark{width:72px;height:72px;border-radius:20px;font-size:24px}
-  .preview-grid{grid-template-columns:1fr}
+  .preview-grid,.preview-grid.two-up{grid-template-columns:1fr}
   .game-detail-layout{grid-template-columns:1fr}
   .game-cover{max-height:300px}
   summary small{display:none}
