@@ -8,7 +8,7 @@
 
 각 게임의 한국어 패치는 별도의 프로젝트 페이지에서 제공됩니다.
 
-[프로젝트 페이지](ievy3.github.io)
+[프로젝트페이지](https://ievy3.github.io/)
 
 ## Projects
 
