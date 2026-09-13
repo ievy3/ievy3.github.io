@@ -16,10 +16,10 @@
       <p class="eyebrow">PSP FAN TRANSLATION · BY NOCTIL</p>
       <h1>Hexyz Force</h1>
       <div class="badges">
-        <span class="badge badge-live"><i></i>개발 중</span>
+        <span class="badge badge-live"><i></i>베타 공개</span>
+        <span class="badge">v0.9.0-beta.1</span>
         <span class="badge">스토리 번역 완료</span>
         <span class="badge">플레이 검증 진행</span>
-        <span class="badge">2026.09.13 업데이트</span>
       </div>
     </div>
     <div class="hero-stat" aria-label="전체 진행률 75%">
@@ -53,9 +53,9 @@
       <div class="overall-row"><div class="overall-label"><span>영상 처리</span><strong>18 / 18</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
       <div class="overall-row"><div class="overall-label"><span>파이프라인 단위 검사</span><strong>13 / 13</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
       <div class="overall-row is-pending"><div class="overall-label"><span>전체 플레이 검증</span><strong>미완료</strong></div><div class="progress"><span></span></div></div>
-      <div class="overall-row is-pending"><div class="overall-label"><span>배포 패치</span><strong>준비 전</strong></div><div class="progress"><span></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>공개 베타</span><strong>v0.9.0-beta.1</strong></div><div class="progress progress-yellow"><span style="width:100%"></span></div></div>
     </div>
-    <p class="fine-print">위 100% 수치는 현재 확정·등록된 대상에 대한 번역 및 정적 검증 완료율입니다. 전체 플레이 검증과 미등록 문자열 후보 판정이 남아 있으므로 프로젝트 전체 완료율을 의미하지 않습니다.</p>
+    <p class="fine-print">위 100% 수치는 현재 확정·등록된 대상의 번역 및 정적 검증 완료율입니다. 공개 베타를 배포했지만 전체 플레이 검증과 미등록 문자열 후보 판정은 계속 진행되며, 정식 버전 완료를 의미하지 않습니다.</p>
   </section>
 
   <section class="summary-grid progress-followup" id="now">
@@ -74,7 +74,7 @@
       <ol class="task-list">
         <li class="active"><span>01</span><div><strong>전체 플레이 검증</strong><small>두 루트 전 구간·선택지·저장·영상 확인</small></div></li>
         <li><span>02</span><div><strong>미등록 문자열 후보 판정</strong><small>실제 화면과 실행 흐름 기준으로 누락 여부 확인</small></div></li>
-        <li><span>03</span><div><strong>최종 QA 및 배포 준비</strong><small>줄바꿈·겹침·잘림과 클린 원본 적용 시험</small></div></li>
+        <li><span>03</span><div><strong>베타 피드백 반영</strong><small>줄바꿈·겹침·잘림과 진행 오류 수정</small></div></li>
       </ol>
     </article>
   </section>
@@ -106,11 +106,11 @@
     </article>
 
     <article class="box release-card" id="release">
-      <p class="eyebrow">RELEASE</p>
-      <h2>플레이 검증 후 첫 배포</h2>
-      <p>정적 파이프라인의 큰 고비는 넘겼지만, 두 루트 전체 플레이와 최종 화면 QA가 남아 있습니다.</p>
-      <span class="button disabled" aria-disabled="true">아직 다운로드할 수 없습니다</span>
-      <small>원본 ROM·ISO 및 패치 적용 결과물은 배포하지 않습니다.</small>
+      <p class="eyebrow">PUBLIC BETA · v0.9.0-beta.1</p>
+      <h2>공개 검수판 배포 중</h2>
+      <p>온라인 패처가 GitHub에서 최신 패치 정보를 확인하고, 원본 ISO의 판본에 맞는 xdelta를 자동으로 내려받아 적용합니다.</p>
+      <a class="button" href="https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.0-beta.1/Noctil_Patchworks_Online.exe">온라인 패처 다운로드 (.exe)</a>
+      <small>Windows용 · 인터넷 연결 필요 · 전체 플레이 검수 중인 베타 버전</small>
     </article>
   </section>
 
@@ -156,12 +156,21 @@
       <summary><span>패치 및 적용 정보</span><small>지원 원본·적용 방식·테스트</small></summary>
       <div class="details-body">
         <div class="kv compact-kv">
-          <div>배포 방식</div><div>패치 파일 및 적용 도구</div>
-          <div>지원 원본 / 해시</div><div>첫 배포 시 확정</div>
-          <div>PPSSPP</div><div>일부 문제 장면 확인 · 전체 플레이 검증 중</div>
-          <div>PSP 실기</div><div>최종 단계에서 별도 검증 예정</div>
+          <div>현재 버전</div><div>v0.9.0-beta.1 · 공개 검수판</div>
+          <div>배포 방식</div><div>온라인 패처가 최신 xdelta를 자동 다운로드·적용</div>
+          <div>일본어 PSN판</div><div>NPJH50202</div>
+          <div>일본어 UMD판</div><div>ULJM05501</div>
+          <div>입력 파일</div><div>검증된 원본 ISO · CHD/CSO는 먼저 ISO로 변환</div>
+          <div>출력 파일</div><div>원본을 유지하고 새 한글 ISO 생성</div>
+          <div>검증 상태</div><div>전체 플레이 및 UMD판 실행 검증 진행 중</div>
         </div>
-        <p class="notice">패치 적용에는 사용자가 직접 보유한 지원 버전의 원본 게임 데이터가 필요합니다.</p>
+        <ol>
+          <li>온라인 패처를 실행합니다.</li>
+          <li>직접 보유한 일본어 원본 ISO를 선택합니다.</li>
+          <li>새 ISO의 저장 위치를 지정하고 다운로드·적용을 누릅니다.</li>
+          <li>완료 후 생성된 한글 ISO를 실행합니다.</li>
+        </ol>
+        <p class="notice">패치 적용에는 인터넷 연결과 사용자가 직접 보유한 지원 버전의 원본 ISO가 필요합니다. EXE에 코드 서명이 없어 Windows에서 게시자 확인 경고가 표시될 수 있습니다.</p>
       </div>
     </details>
 
