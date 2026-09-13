@@ -29,14 +29,76 @@
   </header>
 
   <nav class="nav" aria-label="페이지 목차">
+    <a href="#game-info">게임 정보</a>
+    <a href="#recent-update">최근 업데이트</a>
+    <a href="#release">패치 다운로드</a>
+    <a href="#patch-history">패치 이력</a>
+    <a href="#preview">실제 게임 화면</a>
     <a href="#progress">전체 현황</a>
     <a href="#now">현재 작업</a>
     <a href="#milestones">기술 기반</a>
-    <a href="#preview">실제 게임 화면</a>
-    <a href="#release">배포</a>
+    <a href="#details">번역·지원</a>
     <a href="/projects/gungnir/updates/">작업일지</a>
-    <a href="#details">상세 정보</a>
   </nav>
+
+  <section class="box" id="game-info">
+    <div class="section-head">
+      <div><p class="eyebrow">ORIGINAL GAME</p><h2>원작 게임 정보</h2></div>
+      <a class="text-link" href="https://atlus.com/atlus-titles/gungnir/?ItemID=97" target="_blank" rel="noopener">ATLUS 공식 소개 ↗</a>
+    </div>
+    <div class="kv compact-kv">
+      <div>개발 / 퍼블리셔</div><div>Sting Entertainment / Atlus</div>
+      <div>플랫폼 / 장르</div><div>PSP / 전술 RPG</div>
+      <div>발매</div><div>일본 2011.05.19 · 북미 2012.06.12</div>
+      <div>제품 코드</div><div>ULJM-05779 · ULUS-10592</div>
+    </div>
+    <p>계급과 민족 갈등이 이어지는 Gargandia 제국에서 저항 조직 Esperanza의 싸움을 그린 전술 RPG입니다. 주인공 Giulio가 전설의 마창 Gungnir를 손에 넣으며 전쟁의 흐름이 바뀌기 시작합니다.</p>
+  </section>
+
+  <section class="split-grid" id="recent-update">
+    <article class="box">
+      <p class="eyebrow">RECENT UPDATE</p>
+      <h2>9월 13일 주요 변경</h2>
+      <ul class="compact-list">
+        <li>원본 아카이브의 무수정 추출·재조립 검증</li>
+        <li>전체 85개 장면의 텍스트 추출 지원 확보</li>
+        <li>partA01·A02 번역 검토 완료, A03 착수</li>
+        <li>첫 장면 가변 길이 재삽입 파이프라인 구축</li>
+        <li>한글 폰트와 3줄 대사 표시 문제 수정</li>
+      </ul>
+      <a class="log-link" href="/projects/gungnir/updates/2026-09-13.html">9월 13일 상세 작업일지 <span>→</span></a>
+    </article>
+    <article class="box release-card" id="release">
+      <p class="eyebrow">RELEASE</p>
+      <h2>번역·통합·플레이 QA 후 배포</h2>
+      <p>기반 구축은 완료됐고, 현재는 본 번역과 전체 통합을 진행하는 단계입니다.</p>
+      <span class="button disabled" aria-disabled="true">아직 다운로드할 수 없습니다</span>
+      <small>원본 ROM·ISO 및 패치 적용 결과물은 배포하지 않습니다.</small>
+    </article>
+  </section>
+
+  <section class="box" id="patch-history">
+    <div class="section-head">
+      <div><p class="eyebrow">PATCH HISTORY</p><h2>패치 이력</h2></div>
+      <span class="line-count">첫 공개 전</span>
+    </div>
+    <div class="kv compact-kv">
+      <div>현재 상태</div><div><strong>배포 패치 없음</strong> · 번역·통합·플레이 QA 진행 중</div>
+    </div>
+    <p class="fine-print">첫 공개 버전부터 버전별 변경 사항과 다운로드 정보를 이곳에 기록합니다.</p>
+  </section>
+
+  <section class="box preview-section" id="preview">
+    <div class="section-head">
+      <div><p class="eyebrow">ACTUAL GAMEPLAY</p><h2>실제 게임 내 한글 적용 화면</h2></div>
+      <span class="line-count">초기 장면 표시 확인</span>
+    </div>
+    <div class="preview-grid two-up">
+      <figure><img src="/assets/images/gungnir/worklog-2026-09-13/01-first-korean-dialogue.png" alt="Gungnir 첫 한글 대사가 표시된 게임 화면"><figcaption><strong>첫 한글 대사</strong><span>한글 폰트와 이름표 표시 확인</span></figcaption></figure>
+      <figure><img src="/assets/images/gungnir/worklog-2026-09-13/02-three-line-dialogue.png" alt="Gungnir 긴 한글 대사가 세 줄로 표시된 게임 화면"><figcaption><strong>긴 대사 표시</strong><span>문장부호와 3줄 말풍선 표시 확인</span></figcaption></figure>
+    </div>
+    <p class="fine-print">초기 장면의 대표 화면입니다. 이 화면만으로 첫 장면 전체 또는 전체 게임의 플레이 검증이 끝났다는 뜻은 아닙니다.</p>
+  </section>
 
   <section class="box overall-progress" id="progress">
     <div class="section-head">
@@ -103,54 +165,7 @@
     <p class="fine-print">상위 진행 표는 실제 완제품 진행축을 기준으로 표시하고, 추출·재삽입·자동 검사 같은 기술 성공은 별도 성과로 분리합니다.</p>
   </section>
 
-  <section class="split-grid">
-    <article class="box">
-      <p class="eyebrow">RECENT UPDATE</p>
-      <h2>9월 13일 주요 변경</h2>
-      <ul class="compact-list">
-        <li>원본 아카이브의 무수정 추출·재조립 검증</li>
-        <li>전체 85개 장면의 텍스트 추출 지원 확보</li>
-        <li>partA01·A02 번역 검토 완료, A03 착수</li>
-        <li>첫 장면 가변 길이 재삽입 파이프라인 구축</li>
-        <li>한글 폰트와 3줄 대사 표시 문제 수정</li>
-      </ul>
-      <a class="log-link" href="/projects/gungnir/updates/2026-09-13.html">9월 13일 상세 작업일지 <span>→</span></a>
-    </article>
-    <article class="box release-card" id="release">
-      <p class="eyebrow">RELEASE</p>
-      <h2>번역·통합·플레이 QA 후 배포</h2>
-      <p>기반 구축은 완료됐고, 현재는 본 번역과 전체 통합을 진행하는 단계입니다.</p>
-      <span class="button disabled" aria-disabled="true">아직 다운로드할 수 없습니다</span>
-      <small>원본 ROM·ISO 및 패치 적용 결과물은 배포하지 않습니다.</small>
-    </article>
-  </section>
-
-  <section class="box preview-section" id="preview">
-    <div class="section-head">
-      <div><p class="eyebrow">ACTUAL GAMEPLAY</p><h2>실제 게임 내 한글 적용 화면</h2></div>
-      <span class="line-count">초기 장면 표시 확인</span>
-    </div>
-    <div class="preview-grid two-up">
-      <figure><img src="/assets/images/gungnir/worklog-2026-09-13/01-first-korean-dialogue.png" alt="Gungnir 첫 한글 대사가 표시된 게임 화면"><figcaption><strong>첫 한글 대사</strong><span>한글 폰트와 이름표 표시 확인</span></figcaption></figure>
-      <figure><img src="/assets/images/gungnir/worklog-2026-09-13/02-three-line-dialogue.png" alt="Gungnir 긴 한글 대사가 세 줄로 표시된 게임 화면"><figcaption><strong>긴 대사 표시</strong><span>문장부호와 3줄 말풍선 표시 확인</span></figcaption></figure>
-    </div>
-    <p class="fine-print">초기 장면의 대표 화면입니다. 이 화면만으로 첫 장면 전체 또는 전체 게임의 플레이 검증이 끝났다는 뜻은 아닙니다.</p>
-  </section>
-
   <section class="detail-stack" id="details">
-    <details open>
-      <summary><span>원작 게임 정보</span><small>개발사·발매일·게임 소개</small></summary>
-      <div class="details-body">
-        <div class="kv compact-kv">
-          <div>개발 / 퍼블리셔</div><div>Sting Entertainment / Atlus</div>
-          <div>플랫폼 / 장르</div><div>PSP / 전술 RPG</div>
-          <div>발매</div><div>일본 2011.05.19 · 북미 2012.06.12</div>
-          <div>제품 코드</div><div>ULJM-05779 · ULUS-10592</div>
-        </div>
-        <p>계급과 민족 갈등이 이어지는 Gargandia 제국에서 저항 조직 Esperanza의 싸움을 그린 전술 RPG입니다. 주인공 Giulio가 전설의 마창 Gungnir를 손에 넣으며 전쟁의 흐름이 바뀌기 시작합니다.</p>
-        <p><a class="text-link" href="https://atlus.com/atlus-titles/gungnir/?ItemID=97" target="_blank" rel="noopener">ATLUS 공식 소개 ↗</a></p>
-      </div>
-    </details>
     <details>
       <summary><span>번역 범위와 기준</span><small>대사·공통 텍스트·이미지</small></summary>
       <div class="details-body">
@@ -178,6 +193,7 @@
       </div>
     </details>
   </section>
+
   <footer class="footer-note">GUNGNIR KOREAN TRANSLATION · NOCTIL PATCHWORKS</footer>
 </main>
 </body>
