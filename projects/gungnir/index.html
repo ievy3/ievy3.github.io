@@ -3,185 +3,196 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Gungnir PSP 비공식 한국어 번역 프로젝트 페이지">
+  <meta name="description" content="Gungnir PSP 비공식 한국어 번역 프로젝트 진행 현황">
   <title>Gungnir | Noctil Patchworks</title>
-  <link rel="stylesheet" href="/assets/css/project.css?v=4">
+  <link rel="stylesheet" href="/assets/css/project.css?v=12">
 </head>
-<body>
+<body class="project-page">
 <main>
-  <a class="back" href="/">← 전체 프로젝트</a>
+  <a class="back" href="/">← Noctil Patchworks</a>
 
-  <section class="hero">
-    <h1>Gungnir</h1>
-    <p class="meta">PSP · 비공식 한국어 번역 프로젝트</p>
-    <div class="badges">
-      <span class="badge">Status: In Progress</span>
-      <span class="badge">Patch: 준비 중</span>
-      <span class="badge">by Noctil</span>
-      <span class="badge">Last updated: 2026-09-13</span>
+  <header class="hero hero-dashboard">
+    <div class="hero-copy">
+      <p class="eyebrow">PSP FAN TRANSLATION · BY NOCTIL</p>
+      <h1>Gungnir</h1>
+      <div class="badges">
+        <span class="badge badge-live"><i></i>개발 중</span>
+        <span class="badge">번역 검토 진행</span>
+        <span class="badge">장면 추출 완료</span>
+        <span class="badge">2026.09.13 업데이트</span>
+      </div>
     </div>
-  </section>
+    <div class="hero-stat" aria-label="전체 85개 장면 중 2개 검토 완료, 2.4%">
+      <span class="stat-number">2.4</span>
+      <span class="stat-unit">%</span>
+      <span class="stat-label">전체 장면 검토</span>
+    </div>
+  </header>
 
   <nav class="nav" aria-label="페이지 목차">
-    <a href="#game-info">게임 정보</a>
-    <a href="#status">진행 현황</a>
-    <a href="#patch">패치 정보</a>
-    <a href="#install">적용 방법</a>
-    <a href="#scope">번역 범위</a>
-    <a href="#compatibility">호환성</a>
-    <a href="#changelog">변경 내역</a>
-    <a href="#faq">FAQ</a>
-    <a href="#credits">Credits</a>
+    <a href="#progress">진행률</a>
+    <a href="#now">현재 작업</a>
+    <a href="#milestones">검증 결과</a>
+    <a href="#preview">실제 게임 화면</a>
+    <a href="#release">배포</a>
+    <a href="#details">상세 정보</a>
   </nav>
 
-  <section class="box" id="game-info">
-    <h2>게임 정보</h2>
-    <div class="kv">
-      <div>제목</div><div>Gungnir</div>
-      <div>개발</div><div>Sting Entertainment</div>
-      <div>퍼블리셔</div><div>Atlus</div>
-      <div>플랫폼</div><div>PlayStation Portable</div>
-      <div>장르</div><div>전술 RPG / Strategy RPG</div>
-      <div>플레이 인원</div><div>1인</div>
-      <div>시리즈</div><div>Dept. Heaven (Episode IX)</div>
-      <div>일본 발매</div><div>2011년 5월 19일</div>
-      <div>북미 발매</div><div>2012년 6월 12일</div>
-      <div>일본판 UMD 제품 코드</div><div>ULJM-05779</div>
-      <div>북미판 제품 코드</div><div>ULUS-10592</div>
+  <section class="box overall-progress" id="progress">
+    <div class="section-head">
+      <div><p class="eyebrow">PROGRESS SNAPSHOT</p><h2>현재 확정 대상 진행률</h2></div>
+      <span class="line-count">2026.09.13 22:30 KST 기준</span>
     </div>
 
-    <h3 style="margin-top:26px">게임 소개</h3>
-    <p><strong>Gungnir</strong>는 계급과 민족 갈등이 깊게 자리한 <strong>Gargandia 제국</strong>을 배경으로 하는 PSP용 전술 RPG입니다. 지배 계층인 Daltan과 차별받는 Leonican 사이의 갈등 속에서 저항 조직 <strong>Esperanza</strong>의 전쟁이 전개됩니다.</p>
-    <p>주인공 <strong>Giulio</strong>는 Leonican 소년으로, Daltan 귀족 출신의 <strong>Alissa</strong>와 얽히며 제국과의 충돌에 휘말립니다. 압도적인 전력 차이 속에서 전설의 마창 <strong>Gungnir</strong>가 등장하면서, 저항군의 싸움은 단순한 생존을 넘어 제국의 질서를 뒤흔드는 전쟁으로 확대됩니다.</p>
-
-    <h3>게임플레이 특징</h3>
-    <ul>
-      <li>격자형 전장을 기반으로 한 턴제 전술 RPG 전투</li>
-      <li>유닛 배치와 행동 순서, 공격 범위 및 지형을 고려하는 전략 중심 플레이</li>
-      <li>스토리 전개와 전술 전투가 긴밀하게 연결되는 캠페인 구조</li>
-      <li>Sting의 Dept. Heaven 세계관에 속하는 작품으로, 독특한 시스템 디자인과 UI를 특징으로 함</li>
-      <li>전쟁과 신분 갈등을 중심으로 한 비교적 무거운 서사</li>
-    </ul>
-
-    <p class="muted">※ 제품 코드는 원작의 지역별 식별 정보이며, 실제 한국어 패치 지원 원본은 패치 공개 시 별도로 확정합니다.</p>
-    <p>
-      <a class="button secondary" href="https://atlus.com/atlus-titles/gungnir/?ItemID=97" target="_blank" rel="noopener">ATLUS 공식 소개</a>
-      <a class="button secondary" href="https://en.wikipedia.org/wiki/Gungnir_(video_game)" target="_blank" rel="noopener">게임 정보 출처</a>
-    </p>
-  </section>
-
-  <div class="grid" id="status">
-    <section class="box">
-      <h2>프로젝트 현황</h2>
-      <p>한국어 번역 및 게임 내 적용 작업을 진행하고 있습니다.</p>
-      <p class="muted">전체 진행률은 실제 집계 기준이 정리되는 대로 공개합니다.</p>
-      <div class="progress unknown" aria-label="진행률 미정"><span></span></div>
-    </section>
-
-    <section class="box">
-      <h2>최신 배포</h2>
-      <p><strong>아직 공개된 패치가 없습니다.</strong></p>
-      <p class="muted">첫 공개 버전부터 버전 번호, 파일 해시, 변경 내역을 함께 제공합니다.</p>
-      <a class="button disabled" href="#" aria-disabled="true">다운로드 준비 중</a>
-    </section>
-  </div>
-
-  <section class="box" id="patch">
-    <h2>패치 정보</h2>
-    <div class="kv">
-      <div>대상 플랫폼</div><div>Sony PSP</div>
-      <div>배포 방식</div><div>원본 게임 데이터가 포함되지 않은 패치 파일</div>
-      <div>지원 원본</div><div>확인 후 공개</div>
-      <div>원본 파일 해시</div><div>패치 공개 시 SHA-1 / SHA-256 명시</div>
-      <div>패치 파일 해시</div><div>배포 시 SHA-256 명시</div>
-      <div>현재 버전</div><div>미배포</div>
+    <div class="overall-list">
+      <div class="overall-row"><div class="overall-label"><span>원본 DAR 무수정 왕복 검증</span><strong>3 / 3</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>장면 추출 지원</span><strong>85 / 85</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>대사·이름표 번역 검토</span><strong>295 / 6,411 · 4.6%</strong></div><div class="progress progress-blue"><span style="width:4.6%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>장면 단위 번역 검토</span><strong>2 / 85 · 2.4%</strong></div><div class="progress progress-blue"><span style="width:2.4%"></span></div></div>
+      <div class="overall-row is-pending"><div class="overall-label"><span>전체 플레이 검증</span><strong>미완료</strong></div><div class="progress"><span></span></div></div>
+      <div class="overall-row is-pending"><div class="overall-label"><span>배포 패치</span><strong>준비 전</strong></div><div class="progress"><span></span></div></div>
     </div>
-    <p class="notice">원본 게임 ROM/ISO 및 원본 게임 파일은 배포하지 않습니다. 사용자가 직접 보유한 지원 버전의 원본 데이터가 필요합니다.</p>
+    <p class="fine-print">대표 수치는 스토리 대사만의 완료율이 아니라 전체 85개 장면의 번역 검토 진행률입니다. 각 수치는 현재 확인된 정적 집계이며 전체 플레이 완료를 의미하지 않습니다.</p>
   </section>
 
-  <section class="box" id="install">
-    <h2>적용 방법</h2>
-    <ol>
-      <li>본인이 보유한 지원 버전의 원본 게임 데이터를 준비합니다.</li>
-      <li>페이지에 표시된 원본 파일 해시와 일치하는지 확인합니다.</li>
-      <li>배포 패키지의 안내에 따라 패치 파일을 적용합니다.</li>
-      <li>패치 완료 후 결과 파일의 해시 또는 정상 실행 여부를 확인합니다.</li>
-    </ol>
-    <p class="muted">구체적인 패처, 입력 파일명, 예상 출력 파일명은 첫 배포 버전에 맞춰 업데이트됩니다.</p>
+  <section class="summary-grid progress-followup" id="now">
+    <article class="box">
+      <p class="eyebrow">SCENE REVIEW</p>
+      <h2>85개 장면 중 2개 검토 완료</h2>
+      <div class="route-grid compact-routes">
+        <div class="route"><div class="route-title"><span>완료 장면</span><strong>2.4%</strong></div><div class="progress progress-blue"><span style="width:2.4%"></span></div><small>partA01 · partA02 완료</small></div>
+        <div class="route"><div class="route-title"><span>검토 문자열</span><strong>4.6%</strong></div><div class="progress progress-alt"><span style="width:4.6%"></span></div><small>대사·이름표 295 / 6,411개</small></div>
+      </div>
+    </article>
+
+    <article class="box focus-card">
+      <p class="eyebrow">NOW WORKING ON</p>
+      <h2>현재 작업</h2>
+      <ol class="task-list">
+        <li class="active"><span>01</span><div><strong>partA03 번역 검토</strong><small>대사·이름표와 문맥을 장면 단위로 확인</small></div></li>
+        <li><span>02</span><div><strong>후속 장면 순차 검토</strong><small>확정 용어와 인물 말투를 일관되게 적용</small></div></li>
+        <li><span>03</span><div><strong>게임 적용 및 플레이 QA</strong><small>줄바꿈·겹침·진행 문제를 실제 실행으로 확인</small></div></li>
+      </ol>
+    </article>
   </section>
 
-  <section class="box" id="scope">
-    <h2>번역 범위</h2>
-    <ul>
-      <li>스토리 대사</li>
-      <li>시스템 메시지</li>
-      <li>메뉴 및 UI 텍스트</li>
-      <li>아이템·스킬·고유명사</li>
-      <li>이미지 내 텍스트</li>
-    </ul>
-    <p class="muted">각 항목은 실제 완료 여부를 확인한 뒤 완료/작업 중/미작업으로 구분해 공개합니다.</p>
-  </section>
-
-  <section class="box" id="compatibility">
-    <h2>호환성 / 테스트 환경</h2>
-    <p>패치 공개 시 실제 테스트한 환경만 기재합니다.</p>
-    <div class="kv">
-      <div>실기 PSP</div><div>테스트 예정</div>
-      <div>PPSSPP</div><div>테스트 예정</div>
-      <div>기타 환경</div><div>테스트 결과 확인 후 추가</div>
+  <section class="box" id="milestones">
+    <div class="section-head"><div><p class="eyebrow">VERIFIED</p><h2>현재 확인된 결과</h2></div></div>
+    <div class="milestone-grid">
+      <div class="milestone"><span class="check">✓</span><strong>3개</strong><small>DAR 전체 바이트 일치</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>85개</strong><small>JP·EN 장면 경계 검사 통과</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>2개</strong><small>partA01·A02 장면 검토</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>295개</strong><small>대사·이름표 번역 검토</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>0건</strong><small>확인된 DAR 왕복 손상</small></div>
     </div>
-    <h3 style="margin-top:22px">알려진 문제</h3>
-    <p class="muted">현재 공개된 패치가 없어 등록된 알려진 문제가 없습니다. 배포 이후 재현 가능한 문제를 버전별로 기록합니다.</p>
   </section>
 
-  <section class="box">
-    <h2>스크린샷</h2>
-    <div class="shot-placeholder">번역 적용 스크린샷 준비 중</div>
-    <p class="muted">실제 게임 내 적용 화면을 확인한 뒤 추가합니다.</p>
+  <section class="split-grid">
+    <article class="box">
+      <p class="eyebrow">RECENT UPDATE</p>
+      <h2>9월 13일 주요 작업</h2>
+      <ul class="compact-list">
+        <li>원본 DAR 3개 무수정 왕복 검증 완료</li>
+        <li>JP·EN 기준 85개 장면 추출 지원 확인</li>
+        <li>partA01·partA02 번역 검토 완료</li>
+        <li>대사·이름표 295개 검토 완료</li>
+        <li>partA03 장면 번역 검토 착수</li>
+      </ul>
+    </article>
+
+    <article class="box release-card" id="release">
+      <p class="eyebrow">RELEASE</p>
+      <h2>번역·플레이 검증 후 첫 배포</h2>
+      <p>추출·재구성 기반은 확인했지만, 전체 장면 번역 검토와 실제 플레이 QA가 남아 있습니다.</p>
+      <span class="button disabled" aria-disabled="true">아직 다운로드할 수 없습니다</span>
+      <small>원본 ROM·ISO 및 패치 적용 결과물은 배포하지 않습니다.</small>
+    </article>
   </section>
 
-  <section class="box" id="changelog">
-    <h2>변경 내역</h2>
-    <p><strong>개발 중</strong></p>
-    <p class="muted">공개 가능한 실제 작업 결과가 확인되는 대로 게임 번역·패치 변경 사항만 기록합니다.</p>
+  <section class="box preview-card" id="preview">
+    <div>
+      <p class="eyebrow">ACTUAL GAMEPLAY</p>
+      <h2>실제 게임 내 적용 화면 준비 중</h2>
+      <p>번역 적용과 화면 검증이 진행되면 대표 장면을 이 영역에 추가합니다.</p>
+    </div>
+    <div class="preview-mark" aria-hidden="true">GN</div>
   </section>
 
-  <section class="box">
-    <h2>오류 제보</h2>
-    <p>오탈자, 잘림, 폰트 문제, 진행 불가, 패처 오류 등은 재현 정보를 포함해 제보해 주세요.</p>
-    <ul>
-      <li>사용한 패치 버전</li>
-      <li>사용 환경(실기/에뮬레이터 및 버전)</li>
-      <li>문제가 발생한 위치</li>
-      <li>가능하면 스크린샷 및 재현 방법</li>
-    </ul>
-    <a class="button secondary" href="https://github.com/ievy3/ievy3.github.io/issues" target="_blank" rel="noopener">GitHub Issues</a>
+  <section class="detail-stack" id="details">
+    <details open>
+      <summary><span>원작 게임 정보</span><small>개발사·발매일·게임 소개</small></summary>
+      <div class="details-body">
+        <div class="kv compact-kv">
+          <div>개발 / 퍼블리셔</div><div>Sting Entertainment / Atlus</div>
+          <div>플랫폼 / 장르</div><div>PSP / 전술 RPG</div>
+          <div>발매</div><div>일본 2011.05.19 · 북미 2012.06.12</div>
+          <div>제품 코드</div><div>ULJM-05779 · ULUS-10592</div>
+          <div>시리즈</div><div>Dept. Heaven Episode IX</div>
+        </div>
+        <p><strong>Gungnir</strong>는 계급과 민족 갈등이 깊게 자리한 Gargandia 제국을 배경으로 합니다. Leonican 소년 Giulio와 저항 조직 Esperanza의 싸움은 전설의 마창 Gungnir가 등장하면서 제국의 질서를 뒤흔드는 전쟁으로 확대됩니다.</p>
+        <p><a class="text-link" href="https://atlus.com/atlus-titles/gungnir/?ItemID=97" target="_blank" rel="noopener">ATLUS 공식 소개 ↗</a></p>
+      </div>
+    </details>
+
+    <details>
+      <summary><span>번역 및 적용 범위</span><small>현재 대상·작업 방식</small></summary>
+      <div class="details-body">
+        <ul>
+          <li>스토리 대사와 화자 이름표</li>
+          <li>시스템 메시지, 메뉴 및 UI 텍스트</li>
+          <li>아이템·스킬·고유명사</li>
+          <li>게임 진행 중 확인되는 이미지 내 텍스트</li>
+        </ul>
+        <p class="notice">현재 수치는 추출·등록된 정적 대상을 기준으로 하며, 실제 플레이에서 새 문자열이 확인되면 전체 대상 수가 조정될 수 있습니다.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary><span>패치 및 적용 정보</span><small>지원 원본·배포 방식·해시</small></summary>
+      <div class="details-body">
+        <div class="kv compact-kv">
+          <div>배포 방식</div><div>원본 게임 데이터가 포함되지 않은 패치 파일</div>
+          <div>지원 원본 / 해시</div><div>첫 배포 시 확정</div>
+          <div>현재 버전</div><div>미배포</div>
+          <div>PPSSPP</div><div>번역 적용 후 전체 플레이 검증 예정</div>
+          <div>PSP 실기</div><div>최종 단계에서 별도 검증 예정</div>
+        </div>
+        <p class="notice">패치 적용에는 사용자가 직접 보유한 지원 버전의 원본 게임 데이터가 필요합니다.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary><span>남은 검증 항목</span><small>공개 전 체크리스트</small></summary>
+      <div class="details-body">
+        <ul>
+          <li>나머지 83개 장면의 번역 및 문맥 검토</li>
+          <li>시스템·메뉴·아이템·스킬 문자열 전수 확인</li>
+          <li>실제 화면의 줄바꿈·겹침·잘림 최종 QA</li>
+          <li>전체 플레이 진행 및 저장·불러오기 검증</li>
+          <li>깨끗한 원본에 배포 패치 적용 후 재검증</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary><span>FAQ 및 오류 제보</span><small>지원 범위·제보 방법</small></summary>
+      <div class="details-body">
+        <h3>원본 게임도 제공하나요?</h3><p>아니요. ROM, ISO와 원본 게임 파일은 제공하지 않습니다.</p>
+        <h3>다른 지역판에도 적용되나요?</h3><p>첫 배포에서 지정할 원본 버전과 해시를 기준으로 지원합니다.</p>
+        <h3>문제는 어디에 제보하나요?</h3><p><a class="text-link" href="https://github.com/ievy3/ievy3.github.io/issues" target="_blank" rel="noopener">GitHub Issues ↗</a>에 패치 버전, 실행 환경, 발생 위치와 스크린샷을 남겨 주세요.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary><span>Credits & Disclaimer</span><small>제작 및 권리 고지</small></summary>
+      <div class="details-body">
+        <p>번역 / 패치 제작: <strong>Noctil</strong></p>
+        <p>개인이 제작하는 비공식·비영리 팬 번역 프로젝트이며 원작 개발사·퍼블리셔와 공식적인 관련이 없습니다. 게임 및 관련 콘텐츠의 권리는 각 권리자에게 있습니다.</p>
+      </div>
+    </details>
   </section>
 
-  <section class="box" id="faq">
-    <h2>FAQ</h2>
-    <h3>원본 게임도 받을 수 있나요?</h3>
-    <p>아니요. 본 프로젝트에서는 ROM, ISO 또는 원본 게임 파일을 제공하지 않습니다.</p>
-    <h3>다른 지역판이나 다른 덤프에도 적용되나요?</h3>
-    <p>패치 공개 시 지정된 원본 버전과 해시를 기준으로 지원합니다. 해시가 다르면 적용을 권장하지 않습니다.</p>
-    <h3>패치를 재배포해도 되나요?</h3>
-    <p>재배포 정책은 첫 정식 배포 시 별도로 명시합니다. 링크 공유는 이 페이지 또는 공식 배포 링크를 이용하는 방식을 권장합니다.</p>
-  </section>
-
-  <section class="box" id="credits">
-    <h2>Credits</h2>
-    <p>번역 / 패치 제작: <strong>Noctil</strong></p>
-    <p class="muted">추후 번역 검수, 기술 지원, 테스트 등에 참여한 사람이 있는 경우 동의 후 추가합니다.</p>
-  </section>
-
-  <section class="box">
-    <h2>Disclaimer</h2>
-    <p>본 프로젝트는 개인이 제작하는 비공식·비영리 팬 번역 프로젝트이며, 원작의 개발사·퍼블리셔 및 기타 권리자와 공식적인 관련이 없습니다.</p>
-    <p>게임 및 관련 콘텐츠의 저작권과 상표권은 각 권리자에게 있습니다. 본 사이트에서는 게임 ROM, ISO 및 기타 원본 게임 파일을 배포하지 않습니다.</p>
-    <p>권리자의 정당한 요청이 있을 경우 관련 콘텐츠의 공개 또는 배포가 중단될 수 있습니다.</p>
-  </section>
-
-  <div class="footer-note">Gungnir Korean Translation Project · Noctil Patchworks</div>
+  <footer class="footer-note">GUNGNIR KOREAN TRANSLATION · NOCTIL PATCHWORKS</footer>
 </main>
 </body>
 </html>
