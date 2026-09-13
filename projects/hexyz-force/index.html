@@ -30,69 +30,41 @@
   </header>
 
   <nav class="nav" aria-label="페이지 목차">
+    <a href="#game-info">게임 정보</a>
+    <a href="#recent-update">최근 업데이트</a>
+    <a href="#release">패치 다운로드</a>
+    <a href="#patch-history">패치 이력</a>
+    <a href="#preview">실제 게임 화면</a>
     <a href="#progress">진행률</a>
     <a href="#now">현재 작업</a>
     <a href="#milestones">검증 결과</a>
-    <a href="#preview">실제 게임 화면</a>
-    <a href="#release">배포</a>
-    <a href="#patch-history">패치 이력</a>
+    <a href="#details">적용·지원</a>
     <a href="/projects/hexyz-force/updates/">작업일지</a>
-    <a href="#details">상세 정보</a>
   </nav>
 
-  <section class="box overall-progress" id="progress">
+  <section class="box" id="game-info">
     <div class="section-head">
-      <div><p class="eyebrow">PROGRESS SNAPSHOT</p><h2>현재 확정 대상 진행률</h2></div>
-      <span class="line-count">2026.09.13 22:14 KST 기준</span>
+      <div><p class="eyebrow">ORIGINAL GAME</p><h2>원작 게임 정보</h2></div>
+      <a class="text-link" href="https://atlus.com/atlus-titles/hexyzforce/?ItemID=98" target="_blank" rel="noopener">ATLUS 공식 소개 ↗</a>
     </div>
-
-    <div class="overall-list">
-      <div class="overall-row"><div class="overall-label"><span>스토리 대사 번역</span><strong>23,677 / 23,677</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
-      <div class="overall-row"><div class="overall-label"><span>등록된 공통 텍스트</span><strong>2,633 / 2,633</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
-      <div class="overall-row"><div class="overall-label"><span>대사 패치 반영</span><strong>23,677 / 23,677</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
-      <div class="overall-row"><div class="overall-label"><span>이미지 현지화</span><strong>21 / 21</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
-      <div class="overall-row"><div class="overall-label"><span>영상 처리</span><strong>18 / 18</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
-      <div class="overall-row"><div class="overall-label"><span>파이프라인 단위 검사</span><strong>13 / 13</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
-      <div class="overall-row is-pending"><div class="overall-label"><span>전체 플레이 검증</span><strong>미완료</strong></div><div class="progress"><span></span></div></div>
-      <div class="overall-row"><div class="overall-label"><span>공개 베타</span><strong>v0.9.0-beta.1</strong></div><div class="progress progress-yellow"><span style="width:100%"></span></div></div>
-    </div>
-    <p class="fine-print">위 100% 수치는 현재 확정·등록된 대상의 번역 및 정적 검증 완료율입니다. 공개 베타를 배포했지만 전체 플레이 검증과 미등록 문자열 후보 판정은 계속 진행되며, 정식 버전 완료를 의미하지 않습니다.</p>
-  </section>
-
-  <section class="summary-grid progress-followup" id="now">
-    <article class="box">
-      <p class="eyebrow">ROUTE BREAKDOWN</p>
-      <h2>양쪽 루트 본문 번역 완료</h2>
-      <div class="route-grid compact-routes">
-        <div class="route"><div class="route-title"><span>세실리아 편</span><strong>100%</strong></div><div class="progress progress-green"><span style="width:100%"></span></div><small>11,821 / 11,821행</small></div>
-        <div class="route"><div class="route-title"><span>레반트 편</span><strong>100%</strong></div><div class="progress progress-green"><span style="width:100%"></span></div><small>11,856 / 11,856행</small></div>
+    <div class="game-detail-layout">
+      <figure class="game-cover-wrap">
+        <img class="game-cover" src="https://atlus.com/wp-content/uploads/2022/03/hexyz_force.jpg" alt="Hexyz Force 공식 타이틀 이미지">
+        <figcaption>ATLUS 공식 타이틀 이미지</figcaption>
+      </figure>
+      <div>
+        <div class="kv compact-kv">
+          <div>개발 / 퍼블리셔</div><div>Sting Entertainment / Atlus</div>
+          <div>플랫폼 / 장르</div><div>PSP / 턴제 RPG</div>
+          <div>발매</div><div>일본 2009.11.12 · 북미 2010.05.25</div>
+          <div>제품 코드</div><div>ULJM-05501 · ULUS-10506</div>
+        </div>
+        <p>빛과 어둠으로 나뉜 세계 Berge에서 Cecilia와 Levant의 이야기가 병렬로 전개되는 JRPG입니다. 두 시나리오는 각자의 길을 따라가며 여러 지점에서 교차합니다.</p>
       </div>
-    </article>
-
-    <article class="box focus-card">
-      <p class="eyebrow">NOW WORKING ON</p>
-      <h2>현재 작업</h2>
-      <ol class="task-list">
-        <li class="active"><span>01</span><div><strong>전체 플레이 검증</strong><small>두 루트 전 구간·선택지·저장·영상 확인</small></div></li>
-        <li><span>02</span><div><strong>미등록 문자열 후보 판정</strong><small>실제 화면과 실행 흐름 기준으로 누락 여부 확인</small></div></li>
-        <li><span>03</span><div><strong>베타 피드백 반영</strong><small>줄바꿈·겹침·잘림과 진행 오류 수정</small></div></li>
-      </ol>
-    </article>
-  </section>
-
-  <section class="box" id="milestones">
-    <div class="section-head"><div><p class="eyebrow">VERIFIED</p><h2>현재 확인된 결과</h2></div></div>
-    <div class="milestone-grid">
-      <div class="milestone"><span class="check">✓</span><strong>23,677행</strong><small>스토리 대사 번역·포인터 대조</small></div>
-      <div class="milestone"><span class="check">✓</span><strong>2,633건</strong><small>등록 공통 텍스트 검수</small></div>
-      <div class="milestone"><span class="check">✓</span><strong>9,159개</strong><small>화자명 포인터 확인</small></div>
-      <div class="milestone"><span class="check">✓</span><strong>21개</strong><small>이미지 현지화</small></div>
-      <div class="milestone"><span class="check">✓</span><strong>18개</strong><small>영상 처리 · 자막 14편</small></div>
-      <div class="milestone"><span class="check">✓</span><strong>13개</strong><small>파이프라인 단위 검사</small></div>
     </div>
   </section>
 
-  <section class="split-grid">
+  <section class="split-grid" id="recent-update">
     <article class="box">
       <p class="eyebrow">RECENT UPDATE</p>
       <h2>9월 13일 주요 변경</h2>
@@ -147,29 +119,59 @@
     <p class="fine-print">실제 게임에서 확인한 대표 화면입니다. 이 다섯 장은 한글 적용 사례를 보여주며 전체 구간의 플레이 검증 완료를 의미하지 않습니다.</p>
   </section>
 
-  <section class="detail-stack" id="details">
-    <details open>
-      <summary><span>원작 게임 정보</span><small>개발사·발매일·게임 소개</small></summary>
-      <div class="details-body">
-        <div class="game-detail-layout">
-          <figure class="game-cover-wrap">
-            <img class="game-cover" src="https://atlus.com/wp-content/uploads/2022/03/hexyz_force.jpg" alt="Hexyz Force 공식 타이틀 이미지">
-            <figcaption>ATLUS 공식 타이틀 이미지</figcaption>
-          </figure>
-          <div>
-            <div class="kv compact-kv">
-              <div>개발 / 퍼블리셔</div><div>Sting Entertainment / Atlus</div>
-              <div>플랫폼 / 장르</div><div>PSP / 턴제 RPG</div>
-              <div>발매</div><div>일본 2009.11.12 · 북미 2010.05.25</div>
-              <div>제품 코드</div><div>ULJM-05501 · ULUS-10506</div>
-            </div>
-            <p>빛과 어둠으로 나뉜 세계 Berge에서 Cecilia와 Levant의 이야기가 병렬로 전개되는 JRPG입니다. 두 시나리오는 각자의 길을 따라가며 여러 지점에서 교차합니다.</p>
-            <p><a class="text-link" href="https://atlus.com/atlus-titles/hexyzforce/?ItemID=98" target="_blank" rel="noopener">ATLUS 공식 소개 ↗</a></p>
-          </div>
-        </div>
-      </div>
-    </details>
+  <section class="box overall-progress" id="progress">
+    <div class="section-head">
+      <div><p class="eyebrow">PROGRESS SNAPSHOT</p><h2>현재 확정 대상 진행률</h2></div>
+      <span class="line-count">2026.09.13 22:14 KST 기준</span>
+    </div>
 
+    <div class="overall-list">
+      <div class="overall-row"><div class="overall-label"><span>스토리 대사 번역</span><strong>23,677 / 23,677</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>등록된 공통 텍스트</span><strong>2,633 / 2,633</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>대사 패치 반영</span><strong>23,677 / 23,677</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>이미지 현지화</span><strong>21 / 21</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>영상 처리</span><strong>18 / 18</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>파이프라인 단위 검사</span><strong>13 / 13</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row is-pending"><div class="overall-label"><span>전체 플레이 검증</span><strong>미완료</strong></div><div class="progress"><span></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>공개 베타</span><strong>v0.9.0-beta.1</strong></div><div class="progress progress-yellow"><span style="width:100%"></span></div></div>
+    </div>
+    <p class="fine-print">위 100% 수치는 현재 확정·등록된 대상의 번역 및 정적 검증 완료율입니다. 공개 베타를 배포했지만 전체 플레이 검증과 미등록 문자열 후보 판정은 계속 진행되며, 정식 버전 완료를 의미하지 않습니다.</p>
+  </section>
+
+  <section class="summary-grid progress-followup" id="now">
+    <article class="box">
+      <p class="eyebrow">ROUTE BREAKDOWN</p>
+      <h2>양쪽 루트 본문 번역 완료</h2>
+      <div class="route-grid compact-routes">
+        <div class="route"><div class="route-title"><span>세실리아 편</span><strong>100%</strong></div><div class="progress progress-green"><span style="width:100%"></span></div><small>11,821 / 11,821행</small></div>
+        <div class="route"><div class="route-title"><span>레반트 편</span><strong>100%</strong></div><div class="progress progress-green"><span style="width:100%"></span></div><small>11,856 / 11,856행</small></div>
+      </div>
+    </article>
+
+    <article class="box focus-card">
+      <p class="eyebrow">NOW WORKING ON</p>
+      <h2>현재 작업</h2>
+      <ol class="task-list">
+        <li class="active"><span>01</span><div><strong>전체 플레이 검증</strong><small>두 루트 전 구간·선택지·저장·영상 확인</small></div></li>
+        <li><span>02</span><div><strong>미등록 문자열 후보 판정</strong><small>실제 화면과 실행 흐름 기준으로 누락 여부 확인</small></div></li>
+        <li><span>03</span><div><strong>베타 피드백 반영</strong><small>줄바꿈·겹침·잘림과 진행 오류 수정</small></div></li>
+      </ol>
+    </article>
+  </section>
+
+  <section class="box" id="milestones">
+    <div class="section-head"><div><p class="eyebrow">VERIFIED</p><h2>현재 확인된 결과</h2></div></div>
+    <div class="milestone-grid">
+      <div class="milestone"><span class="check">✓</span><strong>23,677행</strong><small>스토리 대사 번역·포인터 대조</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>2,633건</strong><small>등록 공통 텍스트 검수</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>9,159개</strong><small>화자명 포인터 확인</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>21개</strong><small>이미지 현지화</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>18개</strong><small>영상 처리 · 자막 14편</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>13개</strong><small>파이프라인 단위 검사</small></div>
+    </div>
+  </section>
+
+  <section class="detail-stack" id="details">
     <details>
       <summary><span>패치 및 적용 정보</span><small>지원 원본·적용 방식·테스트</small></summary>
       <div class="details-body">
