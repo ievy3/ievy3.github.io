@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 9월 13일 Hexyz Force 한국어 패치 작업일지">
+  <title>2026.09.13 작업일지 | Hexyz Force</title>
+  <link rel="stylesheet" href="/assets/css/project.css?v=12">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/hexyz-force/updates/">← 전체 작업일지</a>
+
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.09.13</p>
+    <h1>양쪽 루트 번역 완료와<br>통합 빌드 정적 검증</h1>
+    <p>현재 확정된 스토리·공통 텍스트의 번역과 반영을 마치고, 전체 플레이 QA와 미등록 문자열 후보 확인 단계로 넘어갔습니다.</p>
+    <div class="badges">
+      <span class="badge badge-live"><i></i>번역 완료·플레이 QA 진입</span>
+      <span class="badge">2026.09.13 22:14 KST 기준</span>
+    </div>
+  </header>
+
+  <section class="entry-summary">
+    <div><strong>100%</strong><span>스토리 대사 번역</span></div>
+    <div><strong>2,633건</strong><span>등록 공통 텍스트</span></div>
+    <div><strong>13 / 13</strong><span>파이프라인 검사</span></div>
+  </section>
+
+  <section class="box entry-section">
+    <div class="section-head"><div><p class="eyebrow">PROGRESS SNAPSHOT</p><h2>현재 확정 대상</h2></div><span class="line-count">정적 검증 기준</span></div>
+    <div class="overall-list">
+      <div class="overall-row"><div class="overall-label"><span>스토리 대사 번역</span><strong>23,677 / 23,677 · 100%</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>등록된 공통 텍스트</span><strong>2,633 / 2,633 · 100%</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>대사 패치 반영</span><strong>23,677 / 23,677 · 100%</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>이미지 현지화</span><strong>21 / 21 · 100%</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>영상 처리</span><strong>18 / 18 · 100%</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row is-pending"><div class="overall-label"><span>전체 플레이 검증</span><strong>미완료</strong></div><div class="progress"><span></span></div></div>
+    </div>
+    <p class="fine-print">‘100%’는 현재 확정·등록된 대상의 번역 및 정적 검증 완료율입니다. 전체 플레이와 미등록 문자열 후보 판정은 아직 끝나지 않았습니다.</p>
+  </section>
+
+  <section class="box entry-section">
+    <p class="eyebrow">HIGHLIGHTS</p>
+    <h2>오늘의 주요 결과</h2>
+    <div class="milestone-grid log-milestones">
+      <div class="milestone"><span class="check">✓</span><strong>23,677행</strong><small>양쪽 루트 번역 완료</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>1,261행</strong><small>누적 대사 품질 수정</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>681행</strong><small>공통 텍스트 표현 수정</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>9,159개</strong><small>화자명 포인터 확인</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>0건</strong><small>최신 통합 구조 실패</small></div>
+    </div>
+  </section>
+
+  <section class="detail-stack entry-details">
+    <details open>
+      <summary><span>01 · 양쪽 루트 스토리 번역 완료</span><small>세실리아 11,821 · 레반트 11,856</small></summary>
+      <div class="details-body"><ul><li>세실리아 11,821행과 레반트 11,856행, 총 23,677행의 번역을 완료했습니다.</li><li>실제로 존재하지 않는 스크립트 구역에서 잡힌 오탐 316행을 범위에서 제거했습니다.</li><li>이전 번역을 물려받는 과정에서 빠진 44행을 복구했습니다.</li><li>빈 번역·중복 키·일본어 잔존·확정 용어 위반 여부를 검사했습니다.</li></ul></div>
+    </details>
+
+    <details>
+      <summary><span>02 · 대사 품질·말투·용어 전면 검수</span><small>누적 1,261행 수정</small></summary>
+      <div class="details-body"><ul><li>검수 완료된 동일 원문·동일 화자 표현 1,210행을 재사용했습니다.</li><li>문법·조사 24행, 확정 용어 12행, 문맥·자연스러움·줄바꿈 13행 등을 바로잡았습니다.</li><li>실제 글자 기준 3줄 초과 또는 22칸 폭 초과 대사가 없도록 정리했습니다.</li><li>표시 대사가 아닌 페이지 제어 경계 48행은 실제 화면 확인 대상으로 남겼습니다.</li></ul></div>
+    </details>
+
+    <details>
+      <summary><span>03 · 공통 텍스트 2,633건 전면 검수</span><small>아이템·스킬·메뉴·저장 등</small></summary>
+      <div class="details-body"><ul><li>등록 공통 텍스트 2,633건을 검수하고 이전 원고 대비 681행의 한국어 표현을 수정했습니다.</li><li>고정 슬롯 693곳에 적용했으며 바이트 초과와 인코딩 실패는 0건입니다.</li><li>기존 저장 데이터 24개에서 장 제목을 재검사하고 신규 저장에 사용되는 문구도 수정했습니다.</li></ul></div>
+    </details>
+
+    <details>
+      <summary><span>04 · 레반트 구조 및 보조 문자열 반영</span><small>화자·기록·선택지·알림</small></summary>
+      <div class="details-body"><ul><li>두 루트의 스크립트 구역 시작점을 각각 보존하도록 재패킹 방식을 수정했습니다.</li><li>레반트 진입 직후 발생하던 구조 문제를 해결했습니다.</li><li>레반트의 화자명·인명·칭호, 모험 기록, 선택지·알림 등 보조 문자열을 추가 반영했습니다.</li><li>최신 검증에서 대사 포인터 23,677개와 화자명 포인터 9,159개를 확인했습니다.</li></ul></div>
+    </details>
+
+    <details>
+      <summary><span>05 · 대사 줄 배치와 제어 코드 정비</span><small>134행 선별 수정</small></summary>
+      <div class="details-body"><p>118행은 문구를 유지한 채 재배치하고 16행은 원문과 대조해 간결하게 다듬었습니다. 색상 등 비줄바꿈 제어 코드의 순서와 기존 페이지 수를 보존했으며 실제 글자 4줄 이상 항목은 0건입니다.</p></div>
+    </details>
+
+    <details>
+      <summary><span>06 · 런타임 섹터 계산 문제 수정</span><small>일본어가 섞이던 문제 원인 해결</small></summary>
+      <div class="details-body"><p>특정 대사 구간에서 수정 데이터의 마지막 일부가 잘리던 원인을 데이터 크기에 맞지 않는 섹터 수 계산으로 추적했습니다. 수정 후 PPSSPP 메모리에서 문자열과 줄바꿈 코드가 온전히 로드되는 것을 확인했고, 노르비아 문제 장면의 정상 출력도 확인했습니다. 다만 이 확인은 해당 장면에 한정됩니다.</p></div>
+    </details>
+
+    <details>
+      <summary><span>07 · 통합 빌드와 재현성 검증</span><small>동일 입력 체크섬 일치</small></summary>
+      <div class="details-body"><ul><li>대사, 화자명, 기록, 선택지, 공통 텍스트, 이미지와 영상을 하나의 흐름으로 통합했습니다.</li><li>SFH 레코드 1,685개와 변경되지 않은 자산 1,527개를 검사했습니다.</li><li>동일 입력으로 반복 생성했을 때 결과 체크섬이 같음을 확인했습니다.</li><li>최신 통합 검증의 구조 실패는 0건입니다.</li></ul></div>
+    </details>
+
+    <details>
+      <summary><span>08 · 참조 문자열 추가 감사</span><small>미등록 후보는 아직 ‘누락’으로 확정하지 않음</small></summary>
+      <div class="details-body"><ul><li>원본 명령에서 참조되는 문자열 35,958개를 검사했습니다.</li><li>대사 원고 23,677행은 모두 원본 명령에서 확인했습니다.</li><li>등록 원고 밖 정적 문자열 후보 102개와 원고가 없어 대조하지 못한 ARK 참조 2,935개를 별도로 기록했습니다.</li><li>이 항목들은 실행 흐름과 실제 화면을 확인한 뒤 번역 필요 여부를 판정합니다.</li></ul></div>
+    </details>
+  </section>
+
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">VERIFIED</p><h2>검증 완료</h2>
+      <ul class="log-checklist"><li><span>✓</span>세실리아·레반트 스토리 대사 번역</li><li><span>✓</span>대사 포인터 전수 대조</li><li><span>✓</span>등록 공통 텍스트 적용 및 슬롯 검사</li><li><span>✓</span>화자명·기록·선택지 등 보조 문자열 구조 검사</li><li><span>✓</span>이미지 21개·영상 18개 적용본 확인</li><li><span>✓</span>파이프라인 단위 검사 13개</li><li><span>✓</span>동일 입력 재빌드 결과 일치</li><li><span>✓</span>노르비아 문제 장면 메모리·화면 확인</li></ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">REMAINING</p><h2>남은 작업</h2>
+      <ul class="log-checklist pending-list"><li><span>○</span>등록되지 않은 문자열 후보 분류</li><li><span>○</span>두 루트 전 구간 플레이 검증</li><li><span>○</span>대화 기록창·선택지·저장·불러오기 집중 확인</li><li><span>○</span>줄바꿈·겹침·잘림 최종 화면 QA</li><li><span>○</span>클린 원본에 배포 패치 적용 후 재검증</li></ul>
+    </article>
+  </section>
+
+  <section class="box preview-section log-gallery">
+    <div class="section-head"><div><p class="eyebrow">ACTUAL GAMEPLAY</p><h2>실제 게임 내 한글 적용 화면</h2></div><span class="line-count">대표 장면 5종 확보</span></div>
+    <p>타이틀 화면, 주인공 선택 화면, 세실리아·레반트 대사 화면, 여행 기록 화면에서 한글 적용을 확인했습니다.</p>
+    <p class="fine-print">대표 화면 확인용이며 이 장면들만으로 전체 플레이 검증이 끝났다는 뜻은 아닙니다. 원본 이미지 파일은 사이트 자산에 순차 반영합니다.</p>
+  </section>
+
+  <p class="fine-print log-disclaimer">본 기록의 완료율은 현재 확정·등록된 번역 대상과 정적 검증 범위를 기준으로 합니다. 전체 플레이 검증이 끝나기 전까지 배포 준비 완료로 표시하지 않습니다.</p>
+  <footer class="footer-note">HEXYZ FORCE DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+</body>
+</html>
