@@ -90,6 +90,7 @@
       <h2>공개 검수판 배포 중</h2>
       <p>PSN판과 UMD판용 xdelta를 하나의 ZIP 패키지에 포함한 오프라인 통합 패처입니다. 원본 ISO의 판본을 자동으로 판별해 새 한글 ISO를 생성합니다.</p>
       <a class="button" href="https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.0-beta.1/Noctil_Patchworks_Offline_v0.9.0-beta.1.zip">오프라인 통합 패처 다운로드 (.zip)</a>
+      <small class="line-count" data-release-tag="hexyz-v0.9.0-beta.1">다운로드 횟수 확인 중…</small>
       <small>Windows용 ZIP 패키지 · 인터넷 연결 및 별도 xdelta 불필요 · 전체 플레이 검수 중인 베타 버전</small>
       <p class="notice release-notice"><strong>배포 안내</strong> · 본 패치는 이 페이지에서만 공식 배포하며, 롬 파일 포함 및 무단 재배포를 금지합니다.</p>
     </article>
@@ -102,7 +103,11 @@
     </div>
     <article class="release-note">
       <div class="release-note-head">
-        <div><strong>v0.9.0-beta.1</strong><time datetime="2026-09-14">2026.09.14</time></div>
+        <div>
+          <strong>v0.9.0-beta.1</strong>
+          <time datetime="2026-09-14">2026.09.14</time>
+          <small class="line-count" data-release-tag="hexyz-v0.9.0-beta.1">다운로드 횟수 확인 중…</small>
+        </div>
         <span>BETA</span>
       </div>
       <ul class="compact-list">
@@ -241,5 +246,41 @@
 
   <footer class="footer-note">HEXYZ FORCE KOREAN TRANSLATION · NOCTIL PATCHWORKS</footer>
 </main>
+<script>
+(() => {
+  const repository = 'ievy3/ievy3.github.io';
+  const releaseCache = new Map();
+
+  function fetchRelease(tag) {
+    if (!releaseCache.has(tag)) {
+      const request = fetch(`https://api.github.com/repos/${repository}/releases/tags/${encodeURIComponent(tag)}`)
+        .then(response => {
+          if (!response.ok) throw new Error(`GitHub API ${response.status}`);
+          return response.json();
+        });
+      releaseCache.set(tag, request);
+    }
+    return releaseCache.get(tag);
+  }
+
+  function patchDownloadCount(release) {
+    return (release.assets || [])
+      .filter(asset => /\.zip$/i.test(asset.name) && !/^source code/i.test(asset.name))
+      .reduce((total, asset) => total + (Number(asset.download_count) || 0), 0);
+  }
+
+  document.querySelectorAll('[data-release-tag]').forEach(element => {
+    const tag = element.dataset.releaseTag;
+    fetchRelease(tag)
+      .then(release => {
+        const count = patchDownloadCount(release);
+        element.textContent = `다운로드 ${count.toLocaleString('ko-KR')}회`;
+      })
+      .catch(() => {
+        element.textContent = '다운로드 횟수 확인 불가';
+      });
+  });
+})();
+</script>
 </body>
 </html>
