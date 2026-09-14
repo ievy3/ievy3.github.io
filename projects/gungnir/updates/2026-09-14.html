@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 9월 14일 Gungnir 한국어 패치 작업일지">
+  <title>2026.09.14 작업일지 | Gungnir</title>
+  <link rel="stylesheet" href="/assets/css/project.css?v=17">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/gungnir/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.09.14</p>
+    <h1>장면 번역 확대와<br>EBOOT 초벌 정리</h1>
+    <p>partA14까지 장면 번역을 확대하고, EBOOT 문자열 초벌과 튜토리얼 이미지 정적 검토를 진행했습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>본 번역·이미지 검토 진행</span><span class="badge">2026.09.14 23:31 KST 기준</span></div>
+  </header>
+
+  <section class="entry-summary">
+    <div><strong>1,696개</strong><span>대사·이름표 검토</span></div>
+    <div><strong>14 / 85</strong><span>장면 단위 번역</span></div>
+    <div><strong>51 / 51</strong><span>단위 검사</span></div>
+  </section>
+
+  <section class="box entry-section">
+    <div class="section-head"><div><p class="eyebrow">PROGRESS SNAPSHOT</p><h2>현재 진행 상황</h2></div><span class="line-count">정적 집계 기준</span></div>
+    <div class="overall-list">
+      <div class="overall-row"><div class="overall-label"><span>장면 추출 지원</span><strong>85 / 85 · 100%</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>대사·이름표 번역 검토</span><strong>1,696 / 6,411 · 26.5%</strong></div><div class="progress progress-blue"><span style="width:26.5%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>장면 단위 번역</span><strong>14 / 85 · 16.5%</strong></div><div class="progress progress-blue"><span style="width:16.5%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>EBOOT 아이템·장비 초벌</span><strong>820 / 824 · 99.5%</strong></div><div class="progress progress-green"><span style="width:99.5%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>EBOOT 공통 텍스트 초벌</span><strong>2,673 / 2,773 · 96.4%</strong></div><div class="progress progress-green"><span style="width:96.4%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>튜토리얼 이미지</span><strong>20 / 57 · 35.1%</strong></div><div class="progress progress-yellow"><span style="width:35.1%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>단위 검사</span><strong>51 / 51 · 100%</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row is-pending"><div class="overall-label"><span>전체 플레이 검증</span><strong>미완료 · 사용자 확인 필요</strong></div><div class="progress"><span></span></div></div>
+    </div>
+    <p class="fine-print">수치는 정적 검증 기준입니다. 각 완료율은 해당 범위의 검토 상태이며 실제 게임 통합이나 전체 플레이 완료율을 뜻하지 않습니다.</p>
+  </section>
+
+  <section class="detail-stack entry-details">
+    <details open>
+      <summary><span>01 · 장면 번역 확대</span><small>partA01~A14 완료</small></summary>
+      <div class="details-body"><ul><li>partA03부터 partA14까지 번역을 완료했습니다.</li><li>partA15는 249개 가운데 40개를 검토했으며 현재 진행 중입니다.</li><li>대사·이름표 검토 완료분은 전날보다 1,401개 늘어난 1,696개입니다.</li></ul></div>
+    </details>
+    <details>
+      <summary><span>02 · EBOOT 문자열 초벌</span><small>아이템·장비 99.5% · 공통 96.4%</small></summary>
+      <div class="details-body"><ul><li>아이템·장비 824개 가운데 820개의 일본어 초벌 번역을 마쳤고 4개를 보류했습니다.</li><li>공통 텍스트 2,773개 가운데 2,673개의 일본어 초벌 번역을 마쳤고 100개를 보류했습니다.</li><li>일본어·영어 EBOOT를 대조해 지명 100개의 한국어 표기를 확정했습니다.</li></ul></div>
+    </details>
+    <details>
+      <summary><span>03 · 이미지 선별과 튜토리얼 검토</span><small>20 / 57장 정적 검토</small></summary>
+      <div class="details-body"><ul><li>이미지 1,173장 가운데 자동 검토 초벌 203장을 선별했습니다.</li><li>튜토리얼 한국어 이미지 20장을 정적 검토했습니다.</li><li>영문 그래픽 검수용 ISO를 제작했습니다.</li><li>이미지는 아직 실제 게임 화면에서 검증하지 않았습니다.</li></ul></div>
+    </details>
+    <details>
+      <summary><span>04 · 자동 검사 확대</span><small>51 / 51 통과</small></summary>
+      <div class="details-body"><ul><li>현재 파이썬 단위 검사 51개가 모두 통과했습니다.</li><li>이는 데이터와 도구의 정적 검사 결과이며 전체 플레이 검증 완료를 의미하지 않습니다.</li></ul></div>
+    </details>
+  </section>
+
+  <section class="box preview-section log-gallery">
+    <div class="section-head"><div><p class="eyebrow">STATIC REVIEW</p><h2>튜토리얼 이미지 정적 검토본</h2></div><span class="line-count">실제 게임 화면 검증 전</span></div>
+    <div class="preview-grid">
+      <figure><img src="/assets/images/gungnir/worklog-2026-09-14/01-action-sequence.png" alt="Gungnir 액션 시퀀스 한국어 튜토리얼 이미지"><figcaption><strong>액션 시퀀스</strong><span>아군과 적군의 행동 순서 안내</span></figcaption></figure>
+      <figure><img src="/assets/images/gungnir/worklog-2026-09-14/02-status-effects.png" alt="Gungnir 상태이상 한국어 튜토리얼 이미지"><figcaption><strong>상태이상</strong><span>독·화상·저주·압축·수면·위더러스 안내</span></figcaption></figure>
+    </div>
+    <p class="fine-print">두 이미지는 정적 검토본이며 실제 게임 화면에서의 표시와 간섭 여부는 아직 검증하지 않았습니다.</p>
+  </section>
+
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">VERIFIED</p><h2>오늘 확인한 범위</h2>
+      <ul class="log-checklist"><li><span>✓</span>partA03~A14 번역 완료</li><li><span>✓</span>대사·이름표 1,696개 검토</li><li><span>✓</span>EBOOT 아이템·장비 820개 초벌</li><li><span>✓</span>EBOOT 공통 텍스트 2,673개 초벌</li><li><span>✓</span>지명 100개 한국어 표기 확정</li><li><span>✓</span>튜토리얼 이미지 20장 정적 검토</li><li><span>✓</span>현재 단위 검사 51개</li></ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">REMAINING</p><h2>남은 작업</h2>
+      <ul class="log-checklist pending-list"><li><span>○</span>partA15 이후 장면 번역</li><li><span>○</span>번역 대사와 EBOOT 문자열 재삽입</li><li><span>○</span>튜토리얼 및 나머지 이미지 검수</li><li><span>○</span>한국어 이미지 TPL 적용</li><li><span>○</span>전체 장면·메뉴·저장·전투 플레이 검증</li><li><span>○</span>배포 패치 생성 및 깨끗한 원본 재검증</li></ul>
+    </article>
+  </section>
+
+  <section class="box entry-section">
+    <p class="eyebrow">CURRENT ASSESSMENT</p><h2>현재 판단</h2>
+    <p>대사 번역과 EBOOT 초벌은 빠르게 진행 중이며 이미지 작업도 정적 검토 단계에 들어갔습니다. 다만 대부분 실제 게임에 통합되지 않았고 전체 플레이 검증도 남아 있어 아직 배포 준비 완료 상태는 아닙니다.</p>
+  </section>
+
+  <p class="fine-print log-disclaimer">게임 원본 데이터와 패치 적용 결과물은 배포하지 않으며, OP 영상은 한글화 대상에서 제외합니다.</p>
+  <footer class="footer-note">GUNGNIR DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+</body>
+</html>

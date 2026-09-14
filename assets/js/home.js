@@ -24,8 +24,8 @@ const projects = [
     status: "development",
     statusLabel: "개발 중",
     version: "전체 진행률 집계 중",
-    updated: "2026-09-13",
-    description: "기반 구축 완료 · 본 번역과 전체 통합 진행 중",
+    updated: "2026-09-14",
+    description: "장면 14개 번역 완료 · EBOOT 및 이미지 검토 진행 중",
     keywords: ["궁그닐", "gungnir", "srpg", "atlus"]
   }
 ];
