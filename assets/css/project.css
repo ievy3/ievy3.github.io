@@ -77,7 +77,9 @@ p{margin:8px 0 14px;line-height:1.65}
 .project-facts div{min-width:0;padding:15px 18px}.project-facts div+div{border-left:1px solid var(--line)}.project-facts span,.project-facts strong{display:block}.project-facts span{color:var(--muted);font-size:10px;font-weight:800;letter-spacing:.09em}.project-facts strong{margin-top:5px;font-size:14px;line-height:1.45;overflow-wrap:anywhere}.project-facts .fact-live{color:var(--green)}.project-facts .fact-development{color:#c9c0ff}
 .box{padding:26px;background:var(--panel);border:1px solid var(--line);border-radius:18px;backdrop-filter:blur(12px)}
 .summary-grid{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(280px,.85fr);gap:16px}
-.split-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start;margin-top:16px}
+.split-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:stretch;margin-top:16px}
+.split-grid>.box{display:flex;flex-direction:column}
+.split-grid .log-link{margin-top:auto}
 .section-head{display:flex;align-items:flex-start;justify-content:space-between;gap:20px}
 .line-count{color:var(--muted);font-size:12px;white-space:nowrap}
 .route-grid{display:grid;gap:22px;margin-top:24px}
