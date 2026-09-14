@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Noctil이 제작하는 비공식 한국어 게임 번역 패치 아카이브">
   <title>Noctil Patchworks</title>
-  <link rel="stylesheet" href="/assets/css/home.css?v=7">
-  <script src="/assets/js/home.js?v=1" defer></script>
+  <link rel="stylesheet" href="/assets/css/home.css?v=8">
+  <script src="/assets/js/home.js?v=2" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -15,6 +15,7 @@
       <span class="brand-name">Noctil Patchworks</span>
     </a>
     <nav class="site-nav" aria-label="주요 메뉴">
+      <a href="#updates">최근 업데이트</a>
       <a href="#patches">패치 목록</a>
       <a href="#guestbook">방명록</a>
       <a href="https://github.com/ievy3/ievy3.github.io" target="_blank" rel="noopener">GitHub ↗</a>
@@ -34,6 +35,36 @@
           <div><strong id="platform-count">01</strong><span>Platforms</span></div>
           <div><strong id="release-count">01</strong><span>Public builds</span></div>
         </div>
+      </div>
+    </section>
+
+    <section class="latest-updates" id="updates">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">LATEST UPDATES</p>
+          <h2>최근 업데이트</h2>
+        </div>
+        <p>새 패치와 주요 작업 내용을 날짜순으로 확인하세요.</p>
+      </div>
+      <div class="update-list">
+        <a class="update-item featured" href="/projects/hexyz-force/#release">
+          <time datetime="2026-09-14">2026.09.14</time>
+          <span class="update-project">Hexyz Force</span>
+          <strong>v0.9.0-beta.1 공개</strong>
+          <span class="update-label">DOWNLOAD</span>
+        </a>
+        <a class="update-item" href="/projects/hexyz-force/updates/2026-09-13.html">
+          <time datetime="2026-09-13">2026.09.13</time>
+          <span class="update-project">Hexyz Force</span>
+          <strong>스토리·공통 텍스트 정적 검증</strong>
+          <span class="update-arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="update-item" href="/projects/gungnir/updates/2026-09-13.html">
+          <time datetime="2026-09-13">2026.09.13</time>
+          <span class="update-project">Gungnir</span>
+          <strong>번역·재삽입 파이프라인 진행</strong>
+          <span class="update-arrow" aria-hidden="true">→</span>
+        </a>
       </div>
     </section>
 
@@ -88,8 +119,8 @@
 
       <div class="projects" id="project-grid">
         <noscript>
-          <a class="project-card" href="/projects/hexyz-force/">Hexyz Force — 베타 공개</a>
-          <a class="project-card" href="/projects/gungnir/">Gungnir — 개발 중</a>
+          <a href="/projects/hexyz-force/">Hexyz Force — 베타 공개</a>
+          <a href="/projects/gungnir/">Gungnir — 개발 중</a>
         </noscript>
       </div>
       <p class="empty-state" id="empty-state" hidden>조건에 맞는 프로젝트가 없습니다.</p>
