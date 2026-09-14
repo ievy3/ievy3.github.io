@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Hexyz Force PSP 비공식 한국어 번역 프로젝트 진행 현황">
   <title>Hexyz Force | Noctil Patchworks</title>
-  <link rel="stylesheet" href="/assets/css/project.css?v=18">
+  <link rel="stylesheet" href="/assets/css/project.css?v=19">
 </head>
 <body class="project-page">
 <main>
@@ -18,8 +18,7 @@
       <div class="badges">
         <span class="badge badge-live"><i></i>베타 공개</span>
         <span class="badge">v0.9.0-beta.1</span>
-        <span class="badge">스토리 번역 완료</span>
-        <span class="badge">플레이 검증 진행</span>
+        <span class="badge">전체 플레이 검수 중</span>
       </div>
     </div>
     <div class="hero-stat" aria-label="전체 진행률 75%">
@@ -32,19 +31,17 @@
   <section class="project-facts" aria-label="프로젝트 핵심 정보">
     <div><span>상태</span><strong class="fact-live">베타 공개</strong></div>
     <div><span>최신 버전</span><strong>v0.9.0-beta.1</strong></div>
-    <div><span>전체 진행률</span><strong>75%</strong></div>
+    <div><span>지원 원본</span><strong>PSN · UMD</strong></div>
     <div><span>마지막 업데이트</span><strong>2026.09.14</strong></div>
   </section>
 
   <nav class="nav" aria-label="페이지 목차">
     <a href="#game-info">게임 정보</a>
     <a href="#recent-update">최근 업데이트</a>
-    <a href="#release">패치 다운로드</a>
+    <a href="#release">다운로드</a>
     <a href="#patch-history">패치 이력</a>
-    <a href="#preview">실제 게임 화면</a>
-    <a href="#progress">진행률</a>
-    <a href="#now">현재 작업</a>
-    <a href="#milestones">검증 결과</a>
+    <a href="#preview">게임 화면</a>
+    <a href="#progress">진행 현황</a>
     <a href="#details">적용·지원</a>
     <a href="/projects/hexyz-force/updates/">작업일지</a>
   </nav>
@@ -91,7 +88,11 @@
       <p>PSN판과 UMD판용 xdelta를 하나의 ZIP 패키지에 포함한 오프라인 통합 패처입니다. 원본 ISO의 판본을 자동으로 판별해 새 한글 ISO를 생성합니다.</p>
       <a class="button" href="https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.0-beta.1/Noctil_Patchworks_Offline_v0.9.0-beta.1.zip">오프라인 통합 패처 다운로드 (.zip)</a>
       <small class="line-count" data-release-tag="hexyz-v0.9.0-beta.1">다운로드 횟수 확인 중…</small>
-      <small>Windows용 ZIP 패키지 · 인터넷 연결 및 별도 xdelta 불필요 · 전체 플레이 검수 중인 베타 버전</small>
+      <div class="release-meta" aria-label="패치 특징">
+        <span>Windows ZIP</span>
+        <span>PSN·UMD 지원</span>
+        <span>인터넷 불필요</span>
+      </div>
       <p class="notice release-notice"><strong>배포 안내</strong> · 본 패치는 이 페이지에서만 공식 배포하며, 롬 파일 포함 및 무단 재배포를 금지합니다.</p>
     </article>
   </section>
@@ -134,53 +135,45 @@
 
   <section class="box overall-progress" id="progress">
     <div class="section-head">
-      <div><p class="eyebrow">PROGRESS SNAPSHOT</p><h2>현재 확정 대상 진행률</h2></div>
+      <div><p class="eyebrow">PROJECT STATUS</p><h2>통합 진행 현황</h2></div>
       <span class="line-count">2026.09.13 22:14 KST 기준</span>
     </div>
 
     <div class="overall-list">
-      <div class="overall-row"><div class="overall-label"><span>스토리 대사 번역</span><strong>23,677 / 23,677</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>스토리 대사 번역<small>세실리아 11,821행 · 레반트 11,856행</small></span><strong>23,677 / 23,677</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
       <div class="overall-row"><div class="overall-label"><span>등록된 공통 텍스트</span><strong>2,633 / 2,633</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
       <div class="overall-row"><div class="overall-label"><span>대사 패치 반영</span><strong>23,677 / 23,677</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
       <div class="overall-row"><div class="overall-label"><span>이미지 현지화</span><strong>21 / 21</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
       <div class="overall-row"><div class="overall-label"><span>영상 처리</span><strong>18 / 18</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
       <div class="overall-row"><div class="overall-label"><span>파이프라인 단위 검사</span><strong>13 / 13</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
-      <div class="overall-row is-pending"><div class="overall-label"><span>전체 플레이 검증</span><strong>미완료</strong></div><div class="progress"><span></span></div></div>
-      <div class="overall-row"><div class="overall-label"><span>공개 베타</span><strong>v0.9.0-beta.1</strong></div><div class="progress progress-yellow"><span style="width:100%"></span></div></div>
+      <div class="overall-row is-pending"><div class="overall-label"><span>전체 플레이 검증</span><strong>진행 중</strong></div><div class="progress"><span></span></div></div>
     </div>
+
     <p class="fine-print">위 100% 수치는 현재 확정·등록된 대상의 번역 및 정적 검증 완료율입니다. 공개 베타를 배포했지만 전체 플레이 검증과 미등록 문자열 후보 판정은 계속 진행되며, 정식 버전 완료를 의미하지 않습니다.</p>
-  </section>
 
-  <section class="summary-grid progress-followup" id="now">
-    <article class="box">
-      <p class="eyebrow">ROUTE BREAKDOWN</p>
-      <h2>양쪽 루트 본문 번역 완료</h2>
-      <div class="route-grid compact-routes">
-        <div class="route"><div class="route-title"><span>세실리아 편</span><strong>100%</strong></div><div class="progress progress-green"><span style="width:100%"></span></div><small>11,821 / 11,821행</small></div>
-        <div class="route"><div class="route-title"><span>레반트 편</span><strong>100%</strong></div><div class="progress progress-green"><span style="width:100%"></span></div><small>11,856 / 11,856행</small></div>
-      </div>
-    </article>
+    <div class="progress-dashboard">
+      <section class="progress-panel" aria-labelledby="working-title">
+        <p class="eyebrow">NOW WORKING ON</p>
+        <h3 id="working-title">현재 작업</h3>
+        <ol class="task-list">
+          <li class="active"><span>01</span><div><strong>전체 플레이 검증</strong><small>두 루트 전 구간·선택지·저장·영상 확인</small></div></li>
+          <li><span>02</span><div><strong>미등록 문자열 후보 판정</strong><small>실제 화면과 실행 흐름 기준으로 누락 여부 확인</small></div></li>
+          <li><span>03</span><div><strong>베타 피드백 반영</strong><small>줄바꿈·겹침·잘림과 진행 오류 수정</small></div></li>
+        </ol>
+      </section>
 
-    <article class="box focus-card">
-      <p class="eyebrow">NOW WORKING ON</p>
-      <h2>현재 작업</h2>
-      <ol class="task-list">
-        <li class="active"><span>01</span><div><strong>전체 플레이 검증</strong><small>두 루트 전 구간·선택지·저장·영상 확인</small></div></li>
-        <li><span>02</span><div><strong>미등록 문자열 후보 판정</strong><small>실제 화면과 실행 흐름 기준으로 누락 여부 확인</small></div></li>
-        <li><span>03</span><div><strong>베타 피드백 반영</strong><small>줄바꿈·겹침·잘림과 진행 오류 수정</small></div></li>
-      </ol>
-    </article>
-  </section>
-
-  <section class="box" id="milestones">
-    <div class="section-head"><div><p class="eyebrow">VERIFIED</p><h2>현재 확인된 결과</h2></div></div>
-    <div class="milestone-grid">
-      <div class="milestone"><span class="check">✓</span><strong>23,677행</strong><small>스토리 대사 번역·포인터 대조</small></div>
-      <div class="milestone"><span class="check">✓</span><strong>2,633건</strong><small>등록 공통 텍스트 검수</small></div>
-      <div class="milestone"><span class="check">✓</span><strong>9,159개</strong><small>화자명 포인터 확인</small></div>
-      <div class="milestone"><span class="check">✓</span><strong>21개</strong><small>이미지 현지화</small></div>
-      <div class="milestone"><span class="check">✓</span><strong>18개</strong><small>영상 처리 · 자막 14편</small></div>
-      <div class="milestone"><span class="check">✓</span><strong>13개</strong><small>파이프라인 단위 검사</small></div>
+      <section class="progress-panel" aria-labelledby="verified-title">
+        <p class="eyebrow">VERIFIED</p>
+        <h3 id="verified-title">현재 확인된 결과</h3>
+        <div class="verified-list">
+          <div><strong>23,677행</strong><span>스토리 대사·포인터 대조</span></div>
+          <div><strong>2,633건</strong><span>등록 공통 텍스트 검수</span></div>
+          <div><strong>9,159개</strong><span>화자명 포인터 확인</span></div>
+          <div><strong>21개</strong><span>이미지 현지화</span></div>
+          <div><strong>18개</strong><span>영상 처리 · 자막 14편</span></div>
+          <div><strong>13개</strong><span>파이프라인 단위 검사</span></div>
+        </div>
+      </section>
     </div>
   </section>
 
