@@ -9,6 +9,7 @@ const projects = [
     status: "public",
     statusLabel: "베타 공개",
     version: "v0.9.0-beta.1",
+    download: "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.0-beta.1/Noctil_Patchworks_Offline_v0.9.0-beta.1.zip",
     updated: "2026-09-14",
     description: "공개 검수판 배포 · 전체 플레이 QA 진행 중",
     keywords: ["엑시즈 포스", "hexyz", "rpg", "atlus"]
@@ -55,19 +56,21 @@ function formatDate(date) {
 }
 
 function card(project) {
-  const article = document.createElement("a");
+  const article = document.createElement("article");
   article.className = "project-card";
-  article.href = project.href;
   article.innerHTML = `
-    <div class="project-cover"><img src="${project.image}" alt="${project.imageAlt}" loading="lazy"></div>
+    <a class="project-cover" href="${project.href}" aria-label="${project.title} 프로젝트 보기"><img src="${project.image}" alt="${project.imageAlt}" loading="lazy"></a>
     <div class="project-info">
       <span class="project-kicker">${project.platform} · ${project.type}</span>
-      <h3>${project.title}</h3>
+      <h3><a href="${project.href}">${project.title}</a></h3>
       <p class="project-desc">${project.description}</p>
       <div class="project-tags"><span class="tag version">${project.version}</span><span class="tag type">${project.type}</span></div>
       <div class="project-foot">
         <div><span class="project-state ${project.status}"><i></i>${project.statusLabel}</span><time class="project-date" datetime="${project.updated}">업데이트 ${formatDate(project.updated)}</time></div>
-        <span class="open-arrow" aria-hidden="true">↗</span>
+        <div class="project-actions">
+          <a class="card-button secondary" href="${project.href}">프로젝트 보기</a>
+          ${project.download ? `<a class="card-button download" href="${project.download}" download>최신 패치 ↓</a>` : ""}
+        </div>
       </div>
     </div>`;
   return article;
