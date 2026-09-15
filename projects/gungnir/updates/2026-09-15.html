@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 9월 15일 Gungnir 한국어 패치 작업일지">
+  <title>2026.09.15 작업일지 | Gungnir</title>
+  <link rel="stylesheet" href="/assets/css/project.css?v=17">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/gungnir/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.09.15</p>
+    <h1>스토리 원고 전량 검토와<br>통합 준비</h1>
+    <p>전체 85개 장면의 대사·이름표 검토를 마치고, EBOOT 원고 감사와 튜토리얼 이미지 정적 생성을 완료했습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>정적 원고 검토 완료</span><span class="badge">2026.09.15 종료 시점 기준</span></div>
+  </header>
+
+  <section class="entry-summary">
+    <div><strong>6,411행</strong><span>대사·이름표 검토</span></div>
+    <div><strong>3,597행</strong><span>EBOOT 원고 감사</span></div>
+    <div><strong>57 / 57</strong><span>튜토리얼 이미지</span></div>
+  </section>
+
+  <section class="box entry-section">
+    <div class="section-head"><div><p class="eyebrow">PROGRESS SNAPSHOT</p><h2>현재 진행 상황</h2></div><span class="line-count">정적 검증 기준</span></div>
+    <div class="overall-list">
+      <div class="overall-row"><div class="overall-label"><span>장면 추출 지원</span><strong>85 / 85 · 완료</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>대사·이름표 검토</span><strong>6,411 / 6,411 · 100%</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>EBOOT 번역 원고 감사</span><strong>3,597 / 3,597 · 정적 검사 완료</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>튜토리얼 이미지</span><strong>57 / 57 · 정적 생성 완료</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row is-pending"><div class="overall-label"><span>전체 플레이 검증</span><strong>미완료</strong></div><div class="progress"><span></span></div></div>
+    </div>
+    <p class="fine-print">완료 수치는 정적 검증 결과이며, 실제 게임 통합이나 전체 플레이 검증 완료를 의미하지 않습니다.</p>
+  </section>
+
+  <section class="detail-stack entry-details">
+    <details open>
+      <summary><span>01 · 전체 장면 번역 검토 완료</span><small>85 / 85개 장면</small></summary>
+      <div class="details-body"><ul><li>partA15 이후 모든 장면과 에필로그까지 번역했습니다.</li><li>대사 4,669행과 이름표 1,742행, 총 6,411행의 검토를 마쳤습니다.</li><li>전체 85개 장면의 번역 큐를 완료하고 보류 장면을 0개로 정리했습니다.</li></ul></div>
+    </details>
+    <details>
+      <summary><span>02 · EBOOT 원고 감사</span><small>3,597 / 3,597행</small></summary>
+      <div class="details-body"><ul><li>EBOOT 번역 원고 3,597행의 용어 일치 여부를 감사했습니다.</li><li>내부 용어 344행을 교정했습니다.</li><li>추가 검토가 필요했던 용어 29행의 번역을 확정했습니다.</li></ul></div>
+    </details>
+    <details>
+      <summary><span>03 · 전투 UI와 튜토리얼 이미지</span><small>57장 정적 생성 완료</small></summary>
+      <div class="details-body"><ul><li>전투 UI <code>battle/page_26</code>을 원본 슬롯 크기에 맞춘 한국어 이미지로 다시 제작했습니다.</li><li>튜토리얼 한국어 이미지 57장과 공식 영문 UI 40개를 넣은 검증용 ISO를 만들었습니다.</li><li>튜토리얼 하단의 페이지 이동 안내와 겹칠 가능성을 발견해 배치 수정 작업을 시작했습니다.</li></ul></div>
+    </details>
+  </section>
+
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">VERIFIED</p><h2>오늘 확인한 범위</h2>
+      <ul class="log-checklist"><li><span>✓</span>전체 85개 장면 번역 큐 완료</li><li><span>✓</span>대사·이름표 6,411행 전량 검토</li><li><span>✓</span>EBOOT 원고 3,597행 감사</li><li><span>✓</span>내부 용어 344행 교정</li><li><span>✓</span>추가 검토 용어 29행 확정</li><li><span>✓</span>튜토리얼 이미지 57장 정적 생성</li></ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">REMAINING</p><h2>남은 작업</h2>
+      <ul class="log-checklist pending-list"><li><span>○</span>전체 번역 원고 재삽입 및 통합 빌드</li><li><span>○</span>EBOOT 포인터·인코딩·화면 폭 검증</li><li><span>○</span>이미지 TPL 통합 및 사용자 화면 확인</li><li><span>○</span>전체 장면·분기·메뉴·저장·전투 플레이 검증</li><li><span>○</span>배포 패치 생성 및 깨끗한 원본 재검증</li></ul>
+    </article>
+  </section>
+
+  <section class="box entry-section">
+    <p class="eyebrow">CURRENT ASSESSMENT</p><h2>현재 판단</h2>
+    <p>스토리 대사 원고는 정적 기준으로 전량 검토됐습니다. 다만 대사·EBOOT·이미지의 최종 통합과 실제 플레이 검증이 남아 있어 아직 배포 준비 완료 상태는 아닙니다.</p>
+  </section>
+
+  <aside class="box entry-section">
+    <p class="eyebrow">REFERENCE NOTE</p><h2>튜토리얼 이미지 기준선</h2>
+    <p>9월 15일 튜토리얼 세트는 이후 페이지 이동 영역을 보정했습니다. 앞으로는 9월 16일 사용자 승인 <code>tutorial_navigation_safe</code> 기준선을 사용합니다.</p>
+  </aside>
+
+  <p class="fine-print log-disclaimer">게임 원본 데이터와 패치 적용 결과물은 배포하지 않으며, OP 영상은 한글화 대상에서 제외합니다.</p>
+  <footer class="footer-note">GUNGNIR DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+</body>
+</html>
