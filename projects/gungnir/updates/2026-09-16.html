@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 9월 16일 Gungnir 한국어 패치 작업일지">
+  <title>2026.09.16 작업일지 | Gungnir</title>
+  <link rel="stylesheet" href="/assets/css/project.css?v=17">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/gungnir/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.09.16</p>
+    <h1>최종 통합본 생성과<br>첫 맵 안정화</h1>
+    <p>이벤트·맵·EBOOT·폰트·이미지를 다시 통합하고, 누락됐던 맵 대사와 보조 표시문을 반영한 최신 시험 ISO를 생성했습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>최종 통합본 · 정적 검증 완료</span><span class="badge">전체 플레이 검증 필요</span></div>
+  </header>
+
+  <section class="entry-summary">
+    <div><strong>85개</strong><span>이벤트 장면 통합</span></div>
+    <div><strong>4,580행</strong><span>32개 맵 대사 통합</span></div>
+    <div><strong>57장</strong><span>튜토리얼 수정본 반영</span></div>
+  </section>
+
+  <section class="box entry-section">
+    <div class="section-head"><div><p class="eyebrow">PROGRESS SNAPSHOT</p><h2>현재 진행 상황</h2></div><span class="line-count">2026.09.16 최종 통합본 기준</span></div>
+    <div class="overall-list">
+      <div class="overall-row"><div class="overall-label"><span>이벤트 장면</span><strong>85개 · 통합 완료</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>맵 대사</span><strong>32개 맵 / 4,580행 · 통합 완료</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>보조 표시문</span><strong>411행 · 추가 반영</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>전투 문구</span><strong>446개 · 통합 완료</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>튜토리얼 이미지</span><strong>57장 · 수정본 반영</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row is-pending"><div class="overall-label"><span>전체 플레이 검증</span><strong>진행 필요</strong></div><div class="progress"><span></span></div></div>
+    </div>
+    <p class="fine-print">완료 수치는 최신 시험 ISO의 재추출 기반 정적 검증 결과입니다. 전체 장면 진행과 저장·불러오기 등 실제 플레이 검증 완료를 의미하지 않습니다.</p>
+  </section>
+
+  <section class="detail-stack entry-details">
+    <details open>
+      <summary><span>01 · 맵 대사 범위 확장 및 최종 통합</span><small>32개 맵 · 4,580행</small></summary>
+      <div class="details-body"><ul><li>기존 통합본에서 누락됐던 맵 대사 범위를 다시 추적했습니다.</li><li>총 32개 맵의 맵 대사 4,580행을 최신 통합본에 반영했습니다.</li><li>이벤트 장면 85개와 함께 최종 시험 ISO에 재통합했습니다.</li></ul></div>
+    </details>
+    <details>
+      <summary><span>02 · 보조 표시문과 공통 폰트 확장</span><small>411행 추가 반영</small></summary>
+      <div class="details-body"><ul><li>위치 설명·배너·강조문 등 보조 표시문 411행을 추가했습니다.</li><li>새로 필요한 한글 글리프를 공통 폰트에 반영했습니다.</li><li>전투 문구 446개를 포함해 EBOOT·폰트 영역을 다시 통합했습니다.</li></ul></div>
+    </details>
+    <details>
+      <summary><span>03 · 캐러밴 첫 맵 크래시 안정화</span><small>고정 배치 방식 적용</small></summary>
+      <div class="details-body"><ul><li>캐러밴 전투 첫 맵에서 발생하던 크래시를 조사했습니다.</li><li>해당 맵을 원본 주소와 제어 데이터를 유지하는 고정 배치 방식으로 변경했습니다.</li><li>이 방식의 시험본에서는 사용자가 첫 맵 크래시가 발생하지 않음을 확인했습니다.</li><li>최신 통합본에서도 첫 맵은 크래시가 없었던 검증본과 동일한 구조를 유지합니다.</li></ul></div>
+    </details>
+    <details>
+      <summary><span>04 · 튜토리얼 이미지 레이아웃 확정</span><small>53장 보정 · 57장 반영</small></summary>
+      <div class="details-body"><ul><li>튜토리얼 57장 중 53장의 레이아웃을 수정했습니다.</li><li>페이지 번호와 <code>Next</code> 표시 영역이 겹치지 않도록 배치를 보정했습니다.</li><li>수정된 57장 세트를 이후 빌드의 기준선으로 확정하고 최신 ISO에 반영했습니다.</li></ul></div>
+    </details>
+    <details>
+      <summary><span>05 · 최신 시험 ISO 생성 및 정적 재검증</span><small>재추출 기반 확인</small></summary>
+      <div class="details-body"><ul><li>이벤트·맵·EBOOT·폰트·이미지를 다시 통합해 최신 시험 ISO를 생성했습니다.</li><li>생성된 ISO를 다시 추출해 통합 대상이 들어갔는지 정적 검증했습니다.</li><li>전체 플레이 검수는 별도 단계로 남겨 두었습니다.</li></ul></div>
+    </details>
+  </section>
+
+  <section class="box entry-section">
+    <div class="section-head"><div><p class="eyebrow">CURRENT TEST BUILD</p><h2>현재 최신 시험본</h2></div><span class="line-count">내부 검수용</span></div>
+    <p><code>Gungnir_KO_TEST_f9e56b2f083d.iso</code></p>
+    <p>첫 맵은 크래시가 발생하지 않았던 검증본과 동일한 구조를 유지합니다. 이 파일명은 작업 기록용이며 ISO 자체는 배포하지 않습니다.</p>
+  </section>
+
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">VERIFIED</p><h2>오늘 확인한 범위</h2>
+      <ul class="log-checklist"><li><span>✓</span>이벤트 장면 85개 통합</li><li><span>✓</span>32개 맵 대사 4,580행 통합</li><li><span>✓</span>보조 표시문 411행 및 필요 글리프 추가</li><li><span>✓</span>전투 문구 446개 통합</li><li><span>✓</span>튜토리얼 이미지 57장 수정본 반영</li><li><span>✓</span>첫 맵 고정 배치 시험본 크래시 미발생 확인</li><li><span>✓</span>최신 시험 ISO 재추출 기반 정적 검증</li></ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">REMAINING</p><h2>남은 작업</h2>
+      <ul class="log-checklist pending-list"><li><span>○</span>전체 이벤트·맵 장면 순차 진행 검수</li><li><span>○</span>한글 표시·줄바꿈·특수 표시문 실기 확인</li><li><span>○</span>전투·메뉴·분기 구간 플레이 검수</li><li><span>○</span>저장·불러오기 및 장시간 진행 안정성 확인</li><li><span>○</span>플레이 QA 이후 배포 패치 생성 및 원본 재검증</li></ul>
+    </article>
+  </section>
+
+  <section class="box entry-section">
+    <p class="eyebrow">CURRENT ASSESSMENT</p><h2>현재 판단</h2>
+    <p>정적 기준으로는 이벤트·맵·전투 문구·폰트·튜토리얼 이미지가 최신 시험 ISO에 통합됐습니다. 특히 첫 맵은 크래시가 없었던 고정 배치 구조를 유지합니다. 다만 전체 장면 진행, 한글 표시, 저장·불러오기 등은 실제 플레이 검수가 남아 있어 아직 배포 준비 완료 상태는 아닙니다.</p>
+  </section>
+
+  <aside class="box entry-section">
+    <p class="eyebrow">REFERENCE NOTE</p><h2>첫 맵 안정화 기준</h2>
+    <p>첫 맵은 원본 주소와 제어 데이터를 유지하는 고정 배치 방식을 기준으로 합니다. 이후 수정에서도 이 구조를 우선 보존하고, 다른 맵으로 확대 적용할 경우 별도 플레이 검증을 수행합니다.</p>
+  </aside>
+
+  <p class="fine-print log-disclaimer">게임 원본 데이터와 패치 적용 결과물은 배포하지 않으며, OP 영상은 한글화 대상에서 제외합니다.</p>
+  <footer class="footer-note">GUNGNIR DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+</body>
+</html>
