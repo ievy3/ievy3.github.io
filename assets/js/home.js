@@ -35,8 +35,8 @@ const fallbackProjects = [
   {
     title: "Summon Night 5",
     href: "/projects/summon-night-5/",
-    image: "/assets/images/summon-night-5/official-cover.jpg",
-    imageAlt: "Summon Night 5 공식 게임 커버",
+    image: "https://s.pacn.ws/1/p/fv/Summon_Night_5_285867.9.jpg?crop=1500%2C1500&v=mjp2zz&width=300",
+    imageAlt: "Summon Night 5 일본판 PSP 게임 커버",
     platform: "PSP",
     type: "한국어 패치",
     status: "development",
@@ -80,7 +80,7 @@ function card(project) {
   const article = document.createElement("article");
   article.className = "project-card";
   article.innerHTML = `
-    <a class="project-cover" href="${project.href}" aria-label="${project.title} 프로젝트 보기"><img src="${project.image}" alt="${project.imageAlt}" loading="lazy"></a>
+    <a class="project-cover" href="${project.href}" aria-label="${project.title} 프로젝트 보기"><img src="${project.image}" alt="${project.imageAlt}" loading="lazy"${project.image.startsWith("http") ? ' referrerpolicy="no-referrer"' : ""}></a>
     <div class="project-info">
       <span class="project-kicker">${project.platform} · ${project.type}</span>
       <h3><a href="${project.href}">${project.title}</a></h3>

@@ -32,8 +32,8 @@
   {
     "slug": "summon-night-5",
     "title": "Summon Night 5",
-    "image": "/assets/images/summon-night-5/official-cover.jpg",
-    "imageAlt": "Summon Night 5 공식 게임 커버",
+    "image": "https://s.pacn.ws/1/p/fv/Summon_Night_5_285867.9.jpg?crop=1500%2C1500&v=mjp2zz&width=300",
+    "imageAlt": "Summon Night 5 일본판 PSP 게임 커버",
     "platform": "PSP",
     "type": "한국어 패치",
     "releasePrefix": "sn5-",
