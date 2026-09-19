@@ -8,10 +8,11 @@ const projects = [
     type: "한국어 패치",
     status: "public",
     statusLabel: "베타 공개",
-    version: "v0.9.0-beta.1",
-    download: "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.0-beta.1/Noctil_Patchworks_Offline_v0.9.0-beta.1.zip",
-    updated: "2026-09-14",
-    description: "공개 검수판 배포 · 전체 플레이 QA 진행 중",
+    version: "v0.9.2-beta.1",
+    download: "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.2/Noctil_Patchworks_Offline_v0.9.2-beta.1.zip",
+    updated: "2026-09-19",
+    publicBuilds: 3,
+    description: "최신 공개 검수판 배포 · 전체 플레이 QA 진행 중",
     keywords: ["엑시즈 포스", "hexyz", "rpg", "atlus"]
   },
   {
@@ -24,6 +25,7 @@ const projects = [
     status: "development",
     statusLabel: "개발 중",
     version: "전체 진행률 집계 중",
+    publicBuilds: 0,
     updated: "2026-09-15",
     description: "스토리 원고 정적 검토 완료 · 최종 통합 및 플레이 QA 준비",
     keywords: ["궁그닐", "gungnir", "srpg", "atlus"]
@@ -118,7 +120,7 @@ addOptions(controls.platform, [...new Set(projects.map(project => project.platfo
 addOptions(controls.type, [...new Set(projects.map(project => project.type))]);
 document.querySelector("#project-count").textContent = String(projects.length).padStart(2, "0");
 document.querySelector("#platform-count").textContent = String(new Set(projects.map(project => project.platform)).size).padStart(2, "0");
-document.querySelector("#release-count").textContent = String(projects.filter(project => project.status === "public").length).padStart(2, "0");
+document.querySelector("#release-count").textContent = String(projects.reduce((total, project) => total + (project.publicBuilds || 0), 0)).padStart(2, "0");
 Object.values(controls).forEach(control => control.addEventListener(control === controls.search ? "input" : "change", render));
 resetButton.addEventListener("click", reset);
 render();
