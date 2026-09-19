@@ -35,16 +35,16 @@ const fallbackProjects = [
   {
     title: "Summon Night 5",
     href: "/projects/summon-night-5/",
-    image: "/assets/images/summon-night-5/project-cover.svg",
-    imageAlt: "Summon Night 5 한국어 번역 프로젝트 이미지",
+    image: "/assets/images/summon-night-5/official-cover.jpg",
+    imageAlt: "Summon Night 5 공식 게임 커버",
     platform: "PSP",
     type: "한국어 패치",
     status: "development",
     statusLabel: "개발 중",
     version: "첫 공개 전",
-    updated: "2026-09-20",
+    updated: "2026-09-19",
     publicBuilds: 0,
-    description: "신규 프로젝트 · 포맷·폰트 구조 분석 및 한글 glyph POC 준비",
+    description: "Phase 1 돌파 · 시나리오 전량 추출·재삽입 및 한글 글리프 표시 확인",
     keywords: ["서몬 나이트 5", "서몬나이트5", "summon night 5", "summonnight", "srpg", "felistella"]
   }
 ];
