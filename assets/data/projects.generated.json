@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T16:32:16.425Z",
+  "generatedAt": "2026-09-19T16:38:17.999Z",
   "projects": [
     {
       "title": "Gungnir",
@@ -57,8 +57,8 @@
     {
       "title": "Summon Night 5",
       "href": "/projects/summon-night-5/",
-      "image": "/assets/images/summon-night-5/project-cover.svg",
-      "imageAlt": "Summon Night 5 한국어 번역 프로젝트 이미지",
+      "image": "/assets/images/summon-night-5/official-cover.jpg",
+      "imageAlt": "Summon Night 5 공식 게임 커버",
       "platform": "PSP",
       "type": "한국어 패치",
       "status": "development",
