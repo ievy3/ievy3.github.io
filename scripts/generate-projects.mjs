@@ -1,0 +1,161 @@
+import { readFile, writeFile, readdir, mkdir } from "node:fs/promises";
+import path from "node:path";
+
+const root = process.cwd();
+const configPath = path.join(root, "assets/data/projects.config.json");
+const outputPath = path.join(root, "assets/data/projects.generated.json");
+const repository = process.env.GITHUB_REPOSITORY || "ievy3/ievy3.github.io";
+const token = process.env.GITHUB_TOKEN || "";
+
+function stripHtml(value = "") {
+  return value
+    .replace(/<br\s*\/?>/gi, " ")
+    .replace(/<[^>]+>/g, "")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+async function fetchAllReleases() {
+  const releases = [];
+  for (let page = 1; ; page += 1) {
+    const response = await fetch(
+      `https://api.github.com/repos/${repository}/releases?per_page=100&page=${page}`,
+      {
+        headers: {
+          Accept: "application/vnd.github+json",
+          "X-GitHub-Api-Version": "2022-11-28",
+          ...(token ? { Authorization: `Bearer ${token}` } : {})
+        }
+      }
+    );
+    if (!response.ok) {
+      throw new Error(`GitHub releases API failed: ${response.status} ${response.statusText}`);
+    }
+    const batch = await response.json();
+    releases.push(...batch);
+    if (batch.length < 100) break;
+  }
+  return releases;
+}
+
+async function latestWorklog(slug) {
+  const dir = path.join(root, "projects", slug, "updates");
+  let files = [];
+  try {
+    files = await readdir(dir);
+  } catch {
+    return null;
+  }
+
+  const dated = files
+    .filter(name => /^\d{4}-\d{2}-\d{2}\.html$/.test(name))
+    .sort((a, b) => b.localeCompare(a));
+
+  if (!dated.length) return null;
+
+  const filename = dated[0];
+  const date = filename.slice(0, 10);
+  const html = await readFile(path.join(dir, filename), "utf8");
+  const header = html.match(/<header[\s\S]*?<h1>([\s\S]*?)<\/h1>/i);
+  const title = header ? stripHtml(header[1]) : `${date} 작업일지`;
+
+  return {
+    date,
+    title,
+    href: `/projects/${slug}/updates/${filename}`
+  };
+}
+
+function releaseDate(release) {
+  return (release.published_at || release.created_at || "").slice(0, 10);
+}
+
+function versionFromRelease(release, prefix) {
+  const zip = (release.assets || []).find(asset => /\.zip$/i.test(asset.name));
+  if (zip) {
+    const match = zip.name.match(/v\d+(?:\.\d+)+(?:-[A-Za-z0-9.]+)?(?=\.zip$)/i);
+    if (match) return match[0];
+  }
+
+  const raw = release.tag_name.startsWith(prefix)
+    ? release.tag_name.slice(prefix.length)
+    : release.tag_name;
+  return raw.startsWith("v") ? raw : `v${raw}`;
+}
+
+function latestReleaseFor(project, releases) {
+  return releases
+    .filter(release => !release.draft && release.tag_name.startsWith(project.releasePrefix))
+    .sort((a, b) => {
+      const aTime = a.published_at || a.created_at || "";
+      const bTime = b.published_at || b.created_at || "";
+      return bTime.localeCompare(aTime);
+    })[0] || null;
+}
+
+function newestDate(...dates) {
+  return dates.filter(Boolean).sort((a, b) => b.localeCompare(a))[0] || "";
+}
+
+const config = JSON.parse(await readFile(configPath, "utf8"));
+const releases = await fetchAllReleases();
+const generated = [];
+
+for (const project of config) {
+  const worklog = await latestWorklog(project.slug);
+  const matchingReleases = releases.filter(
+    release => !release.draft && release.tag_name.startsWith(project.releasePrefix)
+  );
+  const release = latestReleaseFor(project, releases);
+  const version = release ? versionFromRelease(release, project.releasePrefix) : "첫 공개 전";
+  const zip = release
+    ? (release.assets || []).find(asset => /\.zip$/i.test(asset.name) && !/^source code/i.test(asset.name))
+    : null;
+  const updated = newestDate(release ? releaseDate(release) : "", worklog?.date);
+
+  generated.push({
+    title: project.title,
+    href: `/projects/${project.slug}/`,
+    image: project.image,
+    imageAlt: project.imageAlt,
+    platform: project.platform,
+    type: project.type,
+    status: release ? "public" : "development",
+    statusLabel: release ? (release.prerelease ? "베타 공개" : "공개 중") : "개발 중",
+    version,
+    ...(zip ? { download: zip.browser_download_url } : {}),
+    updated,
+    publicBuilds: matchingReleases.length,
+    description: release
+      ? `${version} 공개 · 전체 플레이 QA 진행 중`
+      : worklog
+        ? `${worklog.title} · 플레이 QA 진행 필요`
+        : "개발 진행 중",
+    keywords: project.keywords || [],
+    latestWorklog: worklog,
+    latestReleaseTag: release?.tag_name || null
+  });
+}
+
+generated.sort((a, b) => b.updated.localeCompare(a.updated) || a.title.localeCompare(b.title, "ko"));
+
+await mkdir(path.dirname(outputPath), { recursive: true });
+await writeFile(
+  outputPath,
+  JSON.stringify(
+    {
+      generatedAt: new Date().toISOString(),
+      projects: generated
+    },
+    null,
+    2
+  ) + "\n",
+  "utf8"
+);
+
+console.log(`Generated ${generated.length} project entries -> ${path.relative(root, outputPath)}`);
