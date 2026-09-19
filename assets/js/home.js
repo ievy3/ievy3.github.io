@@ -1,4 +1,6 @@
-const projects = [
+let projects = [];
+
+const fallbackProjects = [
   {
     title: "Hexyz Force",
     href: "/projects/hexyz-force/",
@@ -12,7 +14,7 @@ const projects = [
     download: "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.2/Noctil_Patchworks_Offline_v0.9.2-beta.1.zip",
     updated: "2026-09-19",
     publicBuilds: 3,
-    description: "최신 공개 검수판 배포 · 전체 플레이 QA 진행 중",
+    description: "v0.9.2-beta.1 공개 · 전체 플레이 QA 진행 중",
     keywords: ["엑시즈 포스", "hexyz", "rpg", "atlus"]
   },
   {
@@ -24,44 +26,14 @@ const projects = [
     type: "한국어 패치",
     status: "development",
     statusLabel: "개발 중",
-    version: "전체 진행률 집계 중",
-    publicBuilds: 0,
+    version: "첫 공개 전",
     updated: "2026-09-16",
-    description: "최신 시험본 통합·정적 검증 완료 · 전체 플레이 QA 진행 필요",
+    publicBuilds: 0,
+    description: "최종 통합본 생성과 첫 맵 안정화 · 플레이 QA 진행 필요",
     keywords: ["궁그닐", "gungnir", "srpg", "atlus"]
   }
 ];
 
-const recentUpdates = [
-  {
-    date: "2026-09-19",
-    project: "Hexyz Force",
-    title: "v0.9.2 공개 · 이벤트 로그 화자명 표시 수정",
-    href: "/projects/hexyz-force/#release",
-    featured: true,
-    label: "DOWNLOAD"
-  },
-  {
-    date: "2026-09-16",
-    project: "Gungnir",
-    title: "최종 통합본 생성 · 첫 맵 안정화",
-    href: "/projects/gungnir/updates/2026-09-16.html"
-  },
-  {
-    date: "2026-09-15",
-    project: "Gungnir",
-    title: "스토리 원고 전량 검토 · 통합 준비",
-    href: "/projects/gungnir/updates/2026-09-15.html"
-  },
-  {
-    date: "2026-09-14",
-    project: "Hexyz Force",
-    title: "첫 공개 검수판 · 오프라인 통합 패처 배포",
-    href: "/projects/hexyz-force/updates/2026-09-14.html"
-  }
-].sort((a, b) => b.date.localeCompare(a.date));
-
-const updateList = document.querySelector("#recent-update-list");
 const grid = document.querySelector("#project-grid");
 const emptyState = document.querySelector("#empty-state");
 const resultCount = document.querySelector("#result-count");
@@ -75,16 +47,18 @@ const controls = {
 };
 
 function addOptions(select, values) {
-  values.sort((a, b) => a.localeCompare(b, "ko")).forEach(value => {
-    const option = document.createElement("option");
-    option.value = value;
-    option.textContent = value;
-    select.append(option);
-  });
+  values
+    .sort((a, b) => a.localeCompare(b, "ko"))
+    .forEach(value => {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = value;
+      select.append(option);
+    });
 }
 
 function formatDate(date) {
-  return date.replaceAll("-", ".");
+  return date ? date.replaceAll("-", ".") : "—";
 }
 
 function card(project) {
@@ -112,28 +86,17 @@ function normalized(value) {
   return value.toLocaleLowerCase("ko").replace(/\s+/g, "");
 }
 
-function renderRecentUpdates() {
-  if (!updateList) return;
-  updateList.replaceChildren(...recentUpdates.map(update => {
-    const link = document.createElement("a");
-    link.className = `update-item${update.featured ? " featured" : ""}`;
-    link.href = update.href;
-    link.innerHTML = `
-      <time datetime="${update.date}">${formatDate(update.date)}</time>
-      <span class="update-project">${update.project}</span>
-      <strong>${update.title}</strong>
-      ${update.label
-        ? `<span class="update-label">${update.label}</span>`
-        : '<span class="update-arrow" aria-hidden="true">→</span>'}
-    `;
-    return link;
-  }));
-}
-
 function render() {
   const query = normalized(controls.search.value.trim());
   const filtered = projects.filter(project => {
-    const haystack = normalized([project.title, project.platform, project.type, project.statusLabel, ...project.keywords].join(" "));
+    const haystack = normalized([
+      project.title,
+      project.platform,
+      project.type,
+      project.statusLabel,
+      ...(project.keywords || [])
+    ].join(" "));
+
     return (controls.status.value === "all" || project.status === controls.status.value)
       && (controls.platform.value === "all" || project.platform === controls.platform.value)
       && (controls.type.value === "all" || project.type === controls.type.value)
@@ -143,7 +106,10 @@ function render() {
   const statusOrder = { public: 0, development: 1 };
   filtered.sort((a, b) => {
     if (controls.sort.value === "title-asc") return a.title.localeCompare(b.title, "ko");
-    if (controls.sort.value === "status") return statusOrder[a.status] - statusOrder[b.status] || b.updated.localeCompare(a.updated);
+    if (controls.sort.value === "status") {
+      return (statusOrder[a.status] ?? 99) - (statusOrder[b.status] ?? 99)
+        || b.updated.localeCompare(a.updated);
+    }
     return b.updated.localeCompare(a.updated);
   });
 
@@ -152,7 +118,10 @@ function render() {
   resultCount.innerHTML = filtered.length === projects.length
     ? `전체 <strong>${projects.length}</strong>개 프로젝트`
     : `전체 ${projects.length}개 중 <strong>${filtered.length}</strong>개 표시`;
-  resetButton.hidden = controls.status.value === "all" && controls.platform.value === "all" && controls.type.value === "all" && !query;
+  resetButton.hidden = controls.status.value === "all"
+    && controls.platform.value === "all"
+    && controls.type.value === "all"
+    && !query;
 }
 
 function reset() {
@@ -164,12 +133,39 @@ function reset() {
   render();
 }
 
-addOptions(controls.platform, [...new Set(projects.map(project => project.platform))]);
-addOptions(controls.type, [...new Set(projects.map(project => project.type))]);
-document.querySelector("#project-count").textContent = String(projects.length).padStart(2, "0");
-document.querySelector("#platform-count").textContent = String(new Set(projects.map(project => project.platform)).size).padStart(2, "0");
-document.querySelector("#release-count").textContent = String(projects.reduce((total, project) => total + (project.publicBuilds || 0), 0)).padStart(2, "0");
-Object.values(controls).forEach(control => control.addEventListener(control === controls.search ? "input" : "change", render));
-resetButton.addEventListener("click", reset);
-renderRecentUpdates();
-render();
+async function loadProjects() {
+  try {
+    const response = await fetch("/assets/data/projects.generated.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`project index HTTP ${response.status}`);
+    const payload = await response.json();
+    if (!Array.isArray(payload.projects) || payload.projects.length === 0) {
+      throw new Error("project index is empty");
+    }
+    return payload.projects;
+  } catch (error) {
+    console.warn("Generated project index unavailable; using fallback data.", error);
+    return fallbackProjects;
+  }
+}
+
+async function init() {
+  projects = await loadProjects();
+
+  addOptions(controls.platform, [...new Set(projects.map(project => project.platform))]);
+  addOptions(controls.type, [...new Set(projects.map(project => project.type))]);
+
+  document.querySelector("#project-count").textContent = String(projects.length).padStart(2, "0");
+  document.querySelector("#platform-count").textContent = String(new Set(projects.map(project => project.platform)).size).padStart(2, "0");
+  document.querySelector("#release-count").textContent = String(
+    projects.reduce((total, project) => total + (project.publicBuilds || 0), 0)
+  ).padStart(2, "0");
+
+  Object.values(controls).forEach(control => {
+    control.addEventListener(control === controls.search ? "input" : "change", render);
+  });
+  resetButton.addEventListener("click", reset);
+
+  render();
+}
+
+init();
