@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "hexyz-force",
+    "title": "Hexyz Force",
+    "image": "/assets/images/hexyz-force/worklog-2026-09-13/01-title-screen.webp",
+    "imageAlt": "엑시즈 포스 한글 타이틀 화면",
+    "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "hexyz-",
+    "keywords": ["엑시즈 포스", "hexyz", "rpg", "atlus"]
+  },
+  {
+    "slug": "gungnir",
+    "title": "Gungnir",
+    "image": "/assets/images/gungnir/worklog-2026-09-13/01-first-korean-dialogue.png",
+    "imageAlt": "궁그닐 첫 한글 대사 적용 화면",
+    "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "gungnir-",
+    "keywords": ["궁그닐", "gungnir", "srpg", "atlus"]
+  }
+]
