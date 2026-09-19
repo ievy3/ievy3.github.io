@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hexyz Force 한글 패치 전체 버전 및 변경 이력">
+  <title>패치 이력 | Hexyz Force | Noctil Patchworks</title>
+  <link rel="stylesheet" href="/assets/css/project.css?v=19">
+</head>
+<body class="project-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/hexyz-force/#patch-history">← Hexyz Force</a>
+
+  <header class="entry-hero">
+    <p class="eyebrow">HEXYZ FORCE · RELEASE ARCHIVE</p>
+    <h1>패치 이력</h1>
+    <p class="entry-lead">Hexyz Force 한국어 패치의 공개 버전과 변경 내역을 최신순으로 정리합니다.</p>
+    <div class="badges">
+      <span class="badge badge-live"><i></i>최신 v0.9.2-beta.1</span>
+      <span class="badge">전체 플레이 검수 중</span>
+    </div>
+  </header>
+
+  <section class="box entry-section">
+    <div class="section-head">
+      <div><p class="eyebrow">2026</p><h2>공개 검수판</h2></div>
+      <span class="line-count">최근 버전순</span>
+    </div>
+
+    <div class="release-history-list">
+      <article class="release-history-item">
+        <div class="release-history-version">
+          <strong>v0.9.2-beta.1</strong>
+          <span>BETA</span>
+        </div>
+        <div class="release-history-meta">
+          <time datetime="2026-09-19">2026.09.19</time>
+          <small data-release-tag="hexyz-v0.9.2">다운로드 횟수 확인 중…</small>
+        </div>
+        <p>이벤트 로그의 긴 화자명 잘림 44건을 수정하고 일부 고유명사 표기를 통일했습니다.</p>
+        <a class="release-detail-link" href="/projects/hexyz-force/releases/v0.9.2-beta.1/">자세히 보기 <span>→</span></a>
+      </article>
+
+      <article class="release-history-item">
+        <div class="release-history-version">
+          <strong>v0.9.1-beta.1</strong>
+          <span>BETA</span>
+        </div>
+        <div class="release-history-meta">
+          <time datetime="2026-09-18">2026.09.18</time>
+          <small data-release-tag="hexyz-v0.9.1">다운로드 횟수 확인 중…</small>
+        </div>
+        <p>몬스터 도감·인물 소개 등 메뉴 설명 문자열 140건의 줄바꿈 표시 오류를 수정했습니다.</p>
+        <a class="release-detail-link" href="/projects/hexyz-force/releases/v0.9.1-beta.1/">자세히 보기 <span>→</span></a>
+      </article>
+
+      <article class="release-history-item">
+        <div class="release-history-version">
+          <strong>v0.9.0-beta.1</strong>
+          <span>BETA</span>
+        </div>
+        <div class="release-history-meta">
+          <time datetime="2026-09-14">2026.09.14</time>
+          <small data-release-tag="hexyz-v0.9.0-beta.1">다운로드 횟수 확인 중…</small>
+        </div>
+        <p>PSN판과 UMD판을 지원하는 첫 공개 검수판입니다.</p>
+        <a class="release-detail-link" href="/projects/hexyz-force/releases/v0.9.0-beta.1/">자세히 보기 <span>→</span></a>
+      </article>
+    </div>
+  </section>
+
+  <section class="box entry-section">
+    <p class="eyebrow">LATEST RELEASE</p>
+    <h2>최신 버전</h2>
+    <p>새로 설치하거나 기존 베타 버전에서 업데이트하는 경우 최신 공개 검수판을 사용하세요.</p>
+    <div class="version-actions">
+      <a class="button" href="/projects/hexyz-force/#release">최신 버전 다운로드</a>
+      <a class="button secondary" href="/projects/hexyz-force/">프로젝트 페이지</a>
+    </div>
+  </section>
+
+  <footer class="footer-note">HEXYZ FORCE KOREAN TRANSLATION · NOCTIL PATCHWORKS</footer>
+</main>
+<script>
+(() => {
+  const repository = 'ievy3/ievy3.github.io';
+  const releaseCache = new Map();
+
+  function fetchRelease(tag) {
+    if (!releaseCache.has(tag)) {
+      releaseCache.set(tag, fetch(`https://api.github.com/repos/${repository}/releases/tags/${encodeURIComponent(tag)}`)
+        .then(response => {
+          if (!response.ok) throw new Error(`GitHub API ${response.status}`);
+          return response.json();
+        }));
+    }
+    return releaseCache.get(tag);
+  }
+
+  document.querySelectorAll('[data-release-tag]').forEach(element => {
+    fetchRelease(element.dataset.releaseTag)
+      .then(release => {
+        const count = (release.assets || [])
+          .filter(asset => /\.zip$/i.test(asset.name) && !/^source code/i.test(asset.name))
+          .reduce((total, asset) => total + (Number(asset.download_count) || 0), 0);
+        element.textContent = `다운로드 ${count.toLocaleString('ko-KR')}회`;
+      })
+      .catch(() => {
+        element.textContent = '다운로드 횟수 확인 불가';
+      });
+  });
+})();
+</script>
+</body>
+</html>
