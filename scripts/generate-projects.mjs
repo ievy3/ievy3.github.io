@@ -131,11 +131,11 @@ for (const project of config) {
     ...(zip ? { download: zip.browser_download_url } : {}),
     updated,
     publicBuilds: matchingReleases.length,
-    description: release
+    description: project.description || (release
       ? `${version} 공개 · 전체 플레이 QA 진행 중`
       : worklog
         ? `${worklog.title} · 플레이 QA 진행 필요`
-        : "개발 진행 중",
+        : "개발 진행 중"),
     keywords: project.keywords || [],
     latestWorklog: worklog,
     latestReleaseTag: release?.tag_name || null

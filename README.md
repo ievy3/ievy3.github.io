@@ -14,6 +14,7 @@
 
 - Hexyz Force (PSP) — In Progress
 - Gungnir (PSP) — In Progress
+- Summon Night 5 (PSP) — In Progress
 
 ## Patch Distribution
 

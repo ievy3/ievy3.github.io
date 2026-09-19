@@ -1,6 +1,34 @@
 {
-  "generatedAt": "2026-09-19T01:38:55.029Z",
+  "generatedAt": "2026-09-19T16:13:00.000Z",
   "projects": [
+    {
+      "title": "Summon Night 5",
+      "href": "/projects/summon-night-5/",
+      "image": "/assets/images/summon-night-5/project-cover.svg",
+      "imageAlt": "Summon Night 5 한국어 번역 프로젝트 이미지",
+      "platform": "PSP",
+      "type": "한국어 패치",
+      "status": "development",
+      "statusLabel": "개발 중",
+      "version": "첫 공개 전",
+      "updated": "2026-09-20",
+      "publicBuilds": 0,
+      "description": "신규 프로젝트 · 포맷·폰트 구조 분석 및 한글 glyph POC 준비",
+      "keywords": [
+        "서몬 나이트 5",
+        "서몬나이트5",
+        "summon night 5",
+        "summonnight",
+        "srpg",
+        "felistella"
+      ],
+      "latestWorklog": {
+        "date": "2026-09-20",
+        "title": "프로젝트 착수와 초기 분석 파이프라인 구성",
+        "href": "/projects/summon-night-5/updates/2026-09-20.html"
+      },
+      "latestReleaseTag": null
+    },
     {
       "title": "Hexyz Force",
       "href": "/projects/hexyz-force/",

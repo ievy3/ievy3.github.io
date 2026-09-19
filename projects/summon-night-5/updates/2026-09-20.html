@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Summon Night 5 한글화 2026-09-20 작업 기록">
+  <title>2026-09-20 작업 기록 | Summon Night 5</title>
+  <link rel="stylesheet" href="/assets/css/project.css?v=17">
+</head>
+<body class="project-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/summon-night-5/updates/">← Summon Night 5 작업일지</a>
+
+  <header class="entry-hero">
+    <p class="eyebrow">2026.09.20 · DEVELOPMENT LOG</p>
+    <h1>프로젝트 착수와 초기 분석 파이프라인 구성</h1>
+    <p>Summon Night 5 한국어 번역 프로젝트를 정식으로 시작하고, 구현보다 증거 수집과 구조 분석을 우선하는 초기 작업 순서를 정의했습니다.</p>
+  </header>
+
+  <section class="entry-summary" aria-label="오늘의 핵심 요약">
+    <div><strong>6</strong><span>초기 분석 단계</span></div>
+    <div><strong>PSP</strong><span>대상 플랫폼</span></div>
+    <div><strong>POC</strong><span>첫 기술 목표</span></div>
+  </section>
+
+  <section class="box">
+    <p class="eyebrow">TODAY</p>
+    <h2>오늘의 주요 작업</h2>
+    <ul>
+      <li>Noctil Patchworks의 세 번째 한국어 번역 프로젝트로 Summon Night 5를 등록했습니다.</li>
+      <li>원본 파일 fingerprint와 source inventory를 가장 먼저 고정하도록 작업 순서를 정했습니다.</li>
+      <li>format probe → format discovery → font discovery → glyph POC 순으로 초기 기술 분석 단계를 구성했습니다.</li>
+      <li>폰트 구조를 확인한 뒤 최소 한글 글리프를 실제 게임에 표시하는 것을 첫 기술 검증 목표로 설정했습니다.</li>
+      <li>검증되지 않은 번역률이나 완료율은 표시하지 않고, 재현 가능한 결과가 생길 때마다 진행 상태를 갱신하기로 했습니다.</li>
+    </ul>
+  </section>
+
+  <section class="box">
+    <p class="eyebrow">PIPELINE</p>
+    <h2>초기 작업 순서</h2>
+    <div class="kv compact-kv">
+      <div>01</div><div><strong>fingerprint</strong> — 원본 파일과 해시 기준 고정</div>
+      <div>02</div><div><strong>source_inventory</strong> — 분석 대상 파일 및 역할 목록화</div>
+      <div>03</div><div><strong>format_probe</strong> — 파일 형식·문자열·압축·포인터 특성 탐색</div>
+      <div>04</div><div><strong>format_discovery</strong> — 텍스트와 아카이브 구조 확정</div>
+      <div>05</div><div><strong>font_discovery</strong> — 폰트 저장 형식과 문자 매핑 분석</div>
+      <div>06</div><div><strong>glyph_poc</strong> — 최소 한글 글리프 삽입 및 실제 표시 검증</div>
+    </div>
+  </section>
+
+  <section class="box">
+    <p class="eyebrow">NEXT</p>
+    <h2>다음 검증 항목</h2>
+    <ul>
+      <li>지원 후보 원본의 파일·해시 기록</li>
+      <li>아카이브와 실행 파일 내부의 텍스트·폰트 후보 식별</li>
+      <li>폰트 렌더링 구조와 문자 코드 매핑 확인</li>
+      <li>한글 1~수 글자 수준의 최소 삽입 POC</li>
+    </ul>
+    <p class="fine-print">정적 분석 결과와 실제 게임 실행 결과를 분리해 기록하며, 기술적 재현성이 확인되기 전에는 완료로 처리하지 않습니다.</p>
+  </section>
+
+  <footer class="footer-note">2026.09.20 · SUMMON NIGHT 5 · NOCTIL PATCHWORKS</footer>
+</main>
+</body>
+</html>

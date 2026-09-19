@@ -7,7 +7,12 @@
     "platform": "PSP",
     "type": "한국어 패치",
     "releasePrefix": "hexyz-",
-    "keywords": ["엑시즈 포스", "hexyz", "rpg", "atlus"]
+    "keywords": [
+      "엑시즈 포스",
+      "hexyz",
+      "rpg",
+      "atlus"
+    ]
   },
   {
     "slug": "gungnir",
@@ -17,6 +22,29 @@
     "platform": "PSP",
     "type": "한국어 패치",
     "releasePrefix": "gungnir-",
-    "keywords": ["궁그닐", "gungnir", "srpg", "atlus"]
+    "keywords": [
+      "궁그닐",
+      "gungnir",
+      "srpg",
+      "atlus"
+    ]
+  },
+  {
+    "slug": "summon-night-5",
+    "title": "Summon Night 5",
+    "image": "/assets/images/summon-night-5/project-cover.svg",
+    "imageAlt": "Summon Night 5 한국어 번역 프로젝트 이미지",
+    "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "sn5-",
+    "description": "신규 프로젝트 · 포맷·폰트 구조 분석 및 한글 glyph POC 준비",
+    "keywords": [
+      "서몬 나이트 5",
+      "서몬나이트5",
+      "summon night 5",
+      "summonnight",
+      "srpg",
+      "felistella"
+    ]
   }
 ]
