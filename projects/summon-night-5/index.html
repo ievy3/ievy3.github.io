@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Summon Night 5 PSP 비공식 한국어 번역 프로젝트 진행 현황">
   <title>Summon Night 5 | Noctil Patchworks</title>
-  <link rel="stylesheet" href="/assets/css/project.css?v=17">
+  <link rel="stylesheet" href="/assets/css/project.css?v=19">
 </head>
 <body class="project-page">
 <main>
@@ -17,22 +17,22 @@
       <h1>Summon Night 5</h1>
       <div class="badges">
         <span class="badge badge-live"><i></i>개발 중</span>
-        <span class="badge">신규 프로젝트</span>
-        <span class="badge">초기 구조 분석</span>
-        <span class="badge">2026.09.20 업데이트</span>
+        <span class="badge">Phase 1 돌파</span>
+        <span class="badge">한글 글리프 표시 확인</span>
+        <span class="badge">2026.09.20 01:18 기준</span>
       </div>
     </div>
     <div class="hero-stat" aria-label="현재 프로젝트 단계">
-      <span class="stat-number">01</span>
-      <span class="stat-label">초기 분석 단계</span>
+      <span class="stat-number">P1</span>
+      <span class="stat-label">텍스트 경로 실증 완료</span>
     </div>
   </header>
 
   <section class="project-facts" aria-label="프로젝트 핵심 정보">
     <div><span>상태</span><strong class="fact-development">개발 중</strong></div>
     <div><span>최신 버전</span><strong>첫 공개 전</strong></div>
-    <div><span>현재 단계</span><strong>포맷·폰트 구조 분석</strong></div>
-    <div><span>마지막 업데이트</span><strong>2026.09.20</strong></div>
+    <div><span>현재 단계</span><strong>번역 기반 구축</strong></div>
+    <div><span>마지막 업데이트</span><strong>2026.09.20 01:18</strong></div>
   </section>
 
   <nav class="nav" aria-label="페이지 목차">
@@ -41,7 +41,7 @@
     <a href="#release">패치 다운로드</a>
     <a href="#progress">전체 현황</a>
     <a href="#now">현재 작업</a>
-    <a href="#pipeline">분석 파이프라인</a>
+    <a href="#pipeline">기술 기반</a>
     <a href="#details">번역·지원</a>
     <a href="/projects/summon-night-5/updates/">작업일지</a>
   </nav>
@@ -49,12 +49,12 @@
   <section class="box" id="game-info">
     <div class="section-head">
       <div><p class="eyebrow">ORIGINAL GAME</p><h2>원작 게임 정보</h2></div>
-      <a class="text-link" href="https://www.gaijinworks.com/news/07-15-2015-summon-night-5-coming-for-psp/" target="_blank" rel="noopener">Gaijinworks 소개 ↗</a>
+      <a class="text-link" href="https://www.gaijinworks.com/about/psp-on-psn/summon-night-5/" target="_blank" rel="noopener">공식 소개 페이지 ↗</a>
     </div>
     <div class="game-detail-layout">
       <figure class="game-cover-wrap">
         <img class="game-cover" src="/assets/images/summon-night-5/project-cover.svg" alt="Summon Night 5 한국어 번역 프로젝트 이미지">
-        <figcaption>프로젝트 임시 이미지 · 실제 게임 아트워크가 아닙니다.</figcaption>
+        <figcaption>프로젝트 임시 이미지 · 공식 커버 이미지 교체 예정</figcaption>
       </figure>
       <div>
         <div class="kv compact-kv">
@@ -63,7 +63,7 @@
           <div>일본 발매</div><div>2013.05.16</div>
           <div>일본판 제품 코드</div><div>ULJS-00553</div>
         </div>
-        <p>소환사와 파트너의 조합에 따라 전개와 대화가 달라지는 전략 RPG입니다. 한국어 패치가 지원할 원본 판본과 세부 번역 범위는 파일 구조 분석과 재삽입 검증을 마친 뒤 확정합니다.</p>
+        <p>질서 유지 조직 유크로스의 신입 소환사 폴스 또는 아르카와 네 명의 Cross 파트너 중 한 명을 선택해 진행하는 전략 RPG입니다. 주인공과 파트너 조합에 따라 대사와 전개의 분위기가 달라집니다.</p>
       </div>
     </div>
   </section>
@@ -71,19 +71,20 @@
   <section class="split-grid" id="recent-update">
     <article class="box">
       <p class="eyebrow">RECENT UPDATE</p>
-      <h2>9월 20일 프로젝트 착수</h2>
+      <h2>9월 19일 주요 변경</h2>
       <ul class="compact-list">
-        <li>Summon Night 5를 Noctil Patchworks 신규 프로젝트로 등록</li>
-        <li>원본 파일 fingerprint와 source inventory를 우선 수행하도록 초기 단계 정의</li>
-        <li>포맷 probe·discovery 이후 폰트 구조 분석으로 이어지는 순서 확정</li>
-        <li>한글 glyph 삽입 POC를 초기 기술 검증의 핵심 목표로 설정</li>
+        <li>Gate 0 전 항목 통과 및 ISO 왕복·문자열 표시 경로 검증</li>
+        <li>00.DAT 시나리오 영역에서 UTF-8 문자열 59,876개 전량 추출</li>
+        <li>가변 길이 문자열 재삽입·재압축·ISO 리빌드 후 인게임 표시 성공</li>
+        <li>폰트 구조 역공학 후 한글 글리프 2,350슬롯 삽입 및 화면 표시 확인</li>
+        <li>번역 단위 DB 29,177행과 61개 용어집·말투 규칙 구축</li>
       </ul>
-      <a class="log-link" href="/projects/summon-night-5/updates/2026-09-20.html">9월 20일 상세 작업일지 <span>→</span></a>
+      <a class="log-link" href="/projects/summon-night-5/updates/2026-09-19.html">9월 19일 상세 작업일지 <span>→</span></a>
     </article>
     <article class="box release-card" id="release">
       <p class="eyebrow">RELEASE</p>
       <h2>첫 공개 전</h2>
-      <p>현재는 게임 데이터 구조와 폰트 처리 방식을 확인하는 초기 분석 단계입니다. 번역 패치와 시험 빌드는 아직 배포하지 않습니다.</p>
+      <p>텍스트 추출·재삽입과 한글 글리프 표시까지 핵심 기술 경로를 실증했습니다. 현재는 화자 매핑과 번역 기반을 정리하는 단계이며 배포용 패치는 아직 준비하지 않습니다.</p>
       <span class="button disabled" aria-disabled="true">아직 다운로드할 수 없습니다</span>
       <small>원본 ROM·ISO 및 패치 적용 결과물은 배포하지 않습니다.</small>
     </article>
@@ -92,18 +93,18 @@
   <section class="box overall-progress" id="progress">
     <div class="section-head">
       <div><p class="eyebrow">OVERALL PROJECT STATUS</p><h2>전체 프로젝트 현황</h2></div>
-      <span class="line-count">2026.09.20 기준</span>
+      <span class="line-count">2026.09.20 01:18 기준</span>
     </div>
-    <p><strong>현재 단계: 원본 구조 파악 및 한글 폰트 적용 가능성 검증 준비</strong></p>
+    <p><strong>현재 단계: Phase 1 핵심 기술 경로 실증 완료, 번역 데이터 구축 및 화자 매핑 진행</strong></p>
     <div class="overall-list">
-      <div class="overall-row"><div class="overall-label"><span>프로젝트 구조</span><strong>공통 작업 템플릿 적용</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
-      <div class="overall-row is-pending"><div class="overall-label"><span>원본 fingerprint / inventory</span><strong>착수 단계</strong></div><div class="progress"><span></span></div></div>
-      <div class="overall-row is-pending"><div class="overall-label"><span>게임 데이터 포맷 분석</span><strong>대기</strong></div><div class="progress"><span></span></div></div>
-      <div class="overall-row is-pending"><div class="overall-label"><span>폰트 구조 / 한글 glyph POC</span><strong>대기</strong></div><div class="progress"><span></span></div></div>
-      <div class="overall-row is-pending"><div class="overall-label"><span>본문 번역·재삽입</span><strong>대기</strong></div><div class="progress"><span></span></div></div>
-      <div class="overall-row is-pending"><div class="overall-label"><span>전체 플레이 QA / 배포</span><strong>대기</strong></div><div class="progress"><span></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>Phase 0 / Gate 0</span><strong>구조 분석·왕복 리빌드·표시 경로 검증 완료</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>시나리오 텍스트 추출</span><strong>59,876개 · 추출 완료</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>가변 길이 재삽입</span><strong>재압축·리빌드·인게임 표시 검증</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>한글 폰트 POC</span><strong>2,350슬롯 · 인게임 표시 확인</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>번역 단위 DB</span><strong>29,177행 · 구축 완료</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row is-pending"><div class="overall-label"><span>화자 매핑·번역·이미지</span><strong>진행 중</strong></div><div class="progress"><span></span></div></div>
     </div>
-    <p class="fine-print">초기 단계에서는 의미 없는 전체 진행률 수치를 표시하지 않습니다. 파일 형식과 폰트 재삽입이 검증된 뒤 실제 작업량 기준을 확정합니다.</p>
+    <p class="fine-print">완료 표시는 해당 기술 경로의 정적·런타임 실증 범위를 뜻합니다. 전체 번역 및 전체 플레이 검증 완료를 의미하지 않습니다.</p>
   </section>
 
   <section class="summary-grid progress-followup" id="now">
@@ -111,51 +112,57 @@
       <p class="eyebrow">NOW WORKING ON</p>
       <h2>현재 작업</h2>
       <ol class="task-list">
-        <li class="active"><span>01</span><div><strong>원본 fingerprint</strong><small>입력 파일과 해시를 고정해 기준 원본을 식별</small></div></li>
-        <li><span>02</span><div><strong>Source inventory</strong><small>아카이브·실행 파일·텍스트·폰트 후보를 목록화</small></div></li>
-        <li><span>03</span><div><strong>Format probe</strong><small>문자열·압축·포인터·아카이브 구조의 초기 특성 확인</small></div></li>
+        <li class="active"><span>01</span><div><strong>화자 매핑</strong><small>씬 로컬 화자 ID와 이름 테이블의 연결 규칙 추적</small></div></li>
+        <li><span>02</span><div><strong>폰트 최종 조정</strong><small>15px·16px 비교와 창 폭 기준 확정</small></div></li>
+        <li><span>03</span><div><strong>번역 데이터 확장</strong><small>청크 DB·용어집·페르소나를 기준으로 본문 번역 준비</small></div></li>
       </ol>
     </article>
     <article class="box focus-card">
-      <p class="eyebrow">FIRST TECHNICAL GOAL</p>
-      <h2>한글 glyph POC</h2>
-      <p>폰트 저장 형식과 문자 매핑 방식을 확인한 뒤, 최소 한글 글리프를 삽입해 실제 게임 화면에 표시되는지 검증하는 것을 첫 기술 목표로 둡니다.</p>
-      <p class="fine-print">POC 성공 이후 대사 추출·재삽입 파이프라인과 자동 검증 범위를 확장합니다.</p>
+      <p class="eyebrow">TRANSLATION FOUNDATION</p>
+      <h2>번역 기반 구축</h2>
+      <p>JP↔EN 정렬표와 표시 그룹 단위 청크 DB를 구축하고, 주요 용어 61개와 캐릭터별 말투·호칭 기준을 정리했습니다.</p>
+      <p class="fine-print">JP 원문을 우선 기준으로 사용하고 EN판은 정렬과 의미 확인에 보조적으로 활용합니다.</p>
     </article>
   </section>
 
   <section class="box" id="pipeline">
-    <div class="section-head"><div><p class="eyebrow">ANALYSIS PIPELINE</p><h2>초기 분석 파이프라인</h2></div></div>
+    <div class="section-head"><div><p class="eyebrow">TECHNICAL FOUNDATION</p><h2>확보된 기술 기반</h2></div></div>
     <div class="milestone-grid">
-      <div class="milestone"><span class="check">01</span><strong>Fingerprint</strong><small>원본 파일·해시 기준 고정</small></div>
-      <div class="milestone"><span class="check">02</span><strong>Inventory</strong><small>분석 대상 파일 구조화</small></div>
-      <div class="milestone"><span class="check">03</span><strong>Probe</strong><small>포맷 특성 초기 확인</small></div>
-      <div class="milestone"><span class="check">04</span><strong>Format</strong><small>텍스트·아카이브 구조 확정</small></div>
-      <div class="milestone"><span class="check">05</span><strong>Font</strong><small>폰트·문자 매핑 분석</small></div>
-      <div class="milestone"><span class="check">06</span><strong>Glyph POC</strong><small>한글 표시 최소 검증</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>42 / 42</strong><small>ISO 왕복 파일 MD5 일치</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>59,876</strong><small>시나리오 UTF-8 문자열 추출</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>23,756</strong><small>VM 레코드 파싱 · 오류 0</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>2,350</strong><small>한글 글리프 슬롯 주입</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>29,177</strong><small>번역 단위 청크 DB</small></div>
+      <div class="milestone"><span class="check">✓</span><strong>61</strong><small>확정 용어집 항목</small></div>
     </div>
   </section>
 
-  <section class="box preview-card" aria-label="게임 플레이 화면 준비 상태">
+  <section class="box preview-card" aria-label="게임 플레이 화면 상태">
     <div>
       <p class="eyebrow">ACTUAL GAMEPLAY</p>
-      <h2>한글 적용 화면은 기술 검증 후 공개합니다</h2>
-      <p>현재는 구조 분석 단계이므로 실제 게임 화면을 진행률 근거로 사용하지 않습니다.</p>
+      <h2>한글 글리프 인게임 표시 확인</h2>
+      <p>폰트 패치와 스크립트 재삽입 시험본에서 한글 표시 경로가 동작하는 것을 확인했습니다. 대표 화면은 정리 후 추가합니다.</p>
     </div>
-    <div class="preview-mark">SN5</div>
+    <div class="preview-mark">F3</div>
   </section>
 
   <section class="detail-stack" id="details">
     <details>
-      <summary><span>번역 범위와 기준</span><small>분석 완료 후 확정</small></summary>
+      <summary><span>번역 범위와 기준</span><small>텍스트·폰트·이미지</small></summary>
       <div class="details-body">
-        <p>스토리 대사, 시스템 텍스트, 메뉴, 아이템·스킬, 전투 문구, 이미지 텍스트를 후보 범위로 두고 있습니다. 실제 포함 범위는 추출·재삽입 가능 여부와 게임 내 검증 결과를 기준으로 확정합니다.</p>
+        <p>스토리 대사와 시스템 텍스트를 우선 대상으로 하며 메뉴·아이템·전투 문구·이미지 라벨까지 순차적으로 확인합니다. JP 원문을 기준으로 번역하고 EN판은 정렬 및 의미 확인에 보조적으로 사용합니다.</p>
       </div>
     </details>
     <details>
-      <summary><span>지원 원본 및 배포 방식</span><small>첫 공개 전 미확정</small></summary>
+      <summary><span>남은 기술 과제</span><small>화자·이미지·창 폭</small></summary>
       <div class="details-body">
-        <p>지원할 원본 판본과 해시는 분석 및 테스트 후 확정합니다. 패치 적용에는 사용자가 직접 보유한 지원 버전의 원본 게임 데이터가 필요합니다.</p>
+        <ul><li>씬 로컬 화자 ID와 이름 테이블 연결 규칙 확정</li><li>폰트 크기 15px·16px 최종 선택</li><li>메뉴·전투 메시지 창 폭 측정</li><li>약어·전투 라벨 등 이미지 텍스처 디코드</li><li>미분석 대용량 GAME.DAT 중복 여부 확인</li></ul>
+      </div>
+    </details>
+    <details>
+      <summary><span>지원 원본 및 배포 방식</span><small>첫 공개 전</small></summary>
+      <div class="details-body">
+        <p>지원 원본과 배포 패치 형식은 전체 빌드·플레이 검증 단계에서 확정합니다. 패치 적용에는 사용자가 직접 보유한 지원 버전의 원본 게임 데이터가 필요합니다.</p>
       </div>
     </details>
     <details>

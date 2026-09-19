@@ -37,7 +37,7 @@
     "platform": "PSP",
     "type": "한국어 패치",
     "releasePrefix": "sn5-",
-    "description": "신규 프로젝트 · 포맷·폰트 구조 분석 및 한글 glyph POC 준비",
+    "description": "Phase 1 돌파 · 시나리오 전량 추출·재삽입 및 한글 글리프 표시 확인",
     "keywords": [
       "서몬 나이트 5",
       "서몬나이트5",
