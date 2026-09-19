@@ -1,0 +1,53 @@
+name: Update homepage project index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "projects/**"
+      - "assets/data/projects.config.json"
+      - "scripts/generate-projects.mjs"
+      - ".github/workflows/update-project-index.yml"
+  release:
+    types: [published, edited, deleted]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: homepage-project-index
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate project index
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/generate-projects.mjs
+
+      - name: Commit generated data
+        run: |
+          if git diff --quiet -- assets/data/projects.generated.json; then
+            echo "No generated-data changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/data/projects.generated.json
+          git commit -m "chore: refresh homepage project index"
+          git push
