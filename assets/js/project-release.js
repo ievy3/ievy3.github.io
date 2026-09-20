@@ -23,6 +23,55 @@
       : project.version;
   }
 
+  function selectReleaseAsset(release, preferredName = "") {
+    const assets = (release.assets || []).filter(asset =>
+      !/^source code/i.test(asset.name)
+      && !/(?:^|[-_.])(license|readme|default)(?:[-_.]|$)/i.test(asset.name)
+    );
+
+    if (preferredName) {
+      const preferred = assets.find(asset => asset.name === preferredName);
+      if (preferred) return preferred;
+    }
+
+    for (const pattern of [/\.zip$/i, /\.exe$/i, /\.7z$/i]) {
+      const asset = assets.find(candidate => pattern.test(candidate.name));
+      if (asset) return asset;
+    }
+
+    return null;
+  }
+
+  async function refreshLiveReleaseAsset(project) {
+    if (!project.latestReleaseTag) return;
+
+    try {
+      const response = await fetch(
+        `https://api.github.com/repos/ievy3/ievy3.github.io/releases/tags/${encodeURIComponent(project.latestReleaseTag)}`,
+        { headers: { Accept: "application/vnd.github+json" } }
+      );
+      if (!response.ok) throw new Error(`GitHub release API ${response.status}`);
+
+      const release = await response.json();
+      const asset = selectReleaseAsset(release, project.downloadAsset);
+      if (!asset) return;
+
+      const download = document.querySelector("[data-release-download]");
+      if (download) {
+        download.href = asset.browser_download_url;
+        download.removeAttribute("aria-disabled");
+        download.classList.remove("disabled");
+      }
+
+      const count = document.querySelector("[data-release-download-count]");
+      if (count) {
+        count.textContent = `다운로드 ${(Number(asset.download_count) || 0).toLocaleString("ko-KR")}회`;
+      }
+    } catch (error) {
+      console.warn("Live GitHub release metadata unavailable; keeping generated metadata.", error);
+    }
+  }
+
   async function loadReleaseMetadata() {
     try {
       const response = await fetch("/assets/data/projects.generated.json", { cache: "no-store" });
@@ -64,6 +113,8 @@
       if (count && Number.isFinite(project.downloadCount)) {
         count.textContent = `다운로드 ${project.downloadCount.toLocaleString("ko-KR")}회`;
       }
+
+      refreshLiveReleaseAsset(project);
     } catch (error) {
       console.warn("Release metadata unavailable; keeping static fallback.", error);
     }
