@@ -91,7 +91,8 @@ function selectReleaseAsset(release) {
 
 function versionFromRelease(release, prefix, asset = null) {
   if (asset) {
-    const match = asset.name.match(/v\d+(?:\.\d+)+(?:-[A-Za-z0-9.]+)?/i);
+    const stem = asset.name.replace(/\.(?:zip|exe|7z)$/i, "");
+    const match = stem.match(/v\d+(?:\.\d+)+(?:-[A-Za-z0-9.]+)?$/i);
     if (match) return match[0];
   }
 
