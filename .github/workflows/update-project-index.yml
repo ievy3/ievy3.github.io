@@ -32,7 +32,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Generate project index
         env:
@@ -40,6 +40,8 @@ jobs:
         run: node scripts/generate-projects.mjs
 
       - name: Commit generated data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if git diff --quiet -- assets/data/projects.generated.json; then
             echo "No generated-data changes."
@@ -50,4 +52,25 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/data/projects.generated.json
           git commit -m "chore: refresh homepage project index"
-          git push
+
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+
+            echo "Push raced with another main update; regenerating on latest main (attempt ${attempt}/3)."
+            git fetch origin main
+            git reset --hard origin/main
+            node scripts/generate-projects.mjs
+
+            if git diff --quiet -- assets/data/projects.generated.json; then
+              echo "Remote main already contains equivalent generated data."
+              exit 0
+            fi
+
+            git add assets/data/projects.generated.json
+            git commit -m "chore: refresh homepage project index"
+          done
+
+          echo "Failed to publish generated project index after 3 attempts."
+          exit 1
