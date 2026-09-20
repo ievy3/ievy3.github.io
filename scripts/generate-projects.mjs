@@ -75,10 +75,23 @@ function releaseDate(release) {
   return (release.published_at || release.created_at || "").slice(0, 10);
 }
 
-function versionFromRelease(release, prefix) {
-  const zip = (release.assets || []).find(asset => /\.zip$/i.test(asset.name));
-  if (zip) {
-    const match = zip.name.match(/v\d+(?:\.\d+)+(?:-[A-Za-z0-9.]+)?(?=\.zip$)/i);
+function selectReleaseAsset(release) {
+  const assets = (release.assets || []).filter(asset =>
+    !/^source code/i.test(asset.name)
+    && !/(?:^|[-_.])(license|readme|default)(?:[-_.]|$)/i.test(asset.name)
+  );
+
+  for (const pattern of [/\.zip$/i, /\.exe$/i, /\.7z$/i]) {
+    const asset = assets.find(candidate => pattern.test(candidate.name));
+    if (asset) return asset;
+  }
+
+  return null;
+}
+
+function versionFromRelease(release, prefix, asset = null) {
+  if (asset) {
+    const match = asset.name.match(/v\d+(?:\.\d+)+(?:-[A-Za-z0-9.]+)?/i);
     if (match) return match[0];
   }
 
@@ -112,10 +125,8 @@ for (const project of config) {
     release => !release.draft && release.tag_name.startsWith(project.releasePrefix)
   );
   const release = latestReleaseFor(project, releases);
-  const version = release ? versionFromRelease(release, project.releasePrefix) : "첫 공개 전";
-  const zip = release
-    ? (release.assets || []).find(asset => /\.zip$/i.test(asset.name) && !/^source code/i.test(asset.name))
-    : null;
+  const asset = release ? selectReleaseAsset(release) : null;
+  const version = release ? versionFromRelease(release, project.releasePrefix, asset) : "첫 공개 전";
   const updated = newestDate(release ? releaseDate(release) : "", worklog?.date);
 
   generated.push({
@@ -128,7 +139,16 @@ for (const project of config) {
     status: release ? "public" : "development",
     statusLabel: release ? (release.prerelease ? "베타 공개" : "공개 중") : "개발 중",
     version,
-    ...(zip ? { download: zip.browser_download_url } : {}),
+    ...(asset ? {
+      download: asset.browser_download_url,
+      downloadAsset: asset.name,
+      downloadCount: Number(asset.download_count) || 0
+    } : {}),
+    ...(release ? {
+      releaseUrl: release.html_url,
+      releaseName: release.name || version,
+      releasePublishedAt: release.published_at || release.created_at || null
+    } : {}),
     updated,
     publicBuilds: matchingReleases.length,
     description: project.description || (release
