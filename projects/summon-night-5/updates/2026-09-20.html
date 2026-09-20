@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 9월 20일 Summon Night 5 한국어 패치 작업일지">
+  <title>2026.09.20 작업일지 | Summon Night 5</title>
+  <link rel="stylesheet" href="/assets/css/project.css?v=19">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/summon-night-5/updates/">← 전체 작업일지</a>
+
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.09.20</p>
+    <h1>번역 양산 체제 전환과<br>범용 대사 삽입</h1>
+    <p>번역·기술·이미지 3개 병렬 트랙을 구축하고 본문 번역 컨베이어를 가동했습니다. s1~s145를 처리했으며, 기술 트랙은 이름·지명·필드 메뉴와 번역 대사를 실제 게임에 연속 삽입할 수 있는 F19 파이프라인까지 도달했습니다.</p>
+    <div class="badges">
+      <span class="badge badge-live"><i></i>번역 양산 단계</span>
+      <span class="badge">2026.09.20 19:09 KST 기준</span>
+    </div>
+  </header>
+
+  <section class="entry-summary">
+    <div><strong>145</strong><span>스크립트 처리 범위</span></div>
+    <div><strong>~14K</strong><span>번역 처리 그룹</span></div>
+    <div><strong>138</strong><span>한글 이름 테이블</span></div>
+  </section>
+
+  <section class="box entry-section">
+    <p class="eyebrow">TODAY'S WORK</p>
+    <h2>주요 작업</h2>
+    <ul class="compact-list">
+      <li><code>trans / tech / img</code> 3개 worktree 기반 병렬 작업 체제를 구축했습니다.</li>
+      <li>s1~s145를 1차 번역 → JP 원문 대조 → 2차 수정 방식으로 처리했습니다.</li>
+      <li>이름 138개 전량 한글화, 지명 58개와 필드 메뉴 21개를 실제 빌드에 반영했습니다.</li>
+      <li>F16 프리즈 원인을 이름·순차 대사 블록 경계 문제로 특정하고 보호 로직을 추가했습니다.</li>
+      <li>F18에서 script-1 번역문을 실제 게임에 삽입하고, F19에서 전 스크립트용 범용 삽입 경로로 일반화했습니다.</li>
+      <li>아카이브와 type-05 텍스처 포맷을 해독하고 PPSSPP 덤프↔원본 위치 매칭 체인을 확립했습니다.</li>
+    </ul>
+  </section>
+
+  <section class="box entry-section log-gallery">
+    <div class="section-head"><div><p class="eyebrow">ACTUAL GAMEPLAY</p><h2>작업 화면</h2></div></div>
+    <div class="preview-grid two-up">
+      <figure>
+        <img src="/assets/images/summon-night-5/2026-09-20-dialogue.webp" alt="이벤트 대사와 이름표 한글 출력 화면" loading="lazy">
+        <figcaption><strong>이벤트 대사·이름표</strong><span>번역 대사와 한글 화자명의 실제 출력 확인</span></figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/images/summon-night-5/2026-09-20-menu.webp" alt="캐릭터와 시스템 메뉴 한글 출력 화면" loading="lazy">
+        <figcaption><strong>캐릭터·시스템 메뉴</strong><span>이름·클래스·메뉴·장비 등 시스템 텍스트 출력 확인</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">VERIFIED</p>
+      <h2>확인 결과</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>이름 테이블 138개 전 복제본 한글화</li>
+        <li><span>✓</span>지명 58엔트리·필드 메뉴 21항목 반영</li>
+        <li><span>✓</span>script-1 실제 대사 삽입 및 ISO 검증</li>
+        <li><span>✓</span>F19 범용 스크립트 삽입 파이프라인 구축</li>
+        <li><span>✓</span>type-05 텍스처 무손실 왕복 검증</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">REMAINING</p>
+      <h2>남은 작업</h2>
+      <ul class="log-checklist pending-list">
+        <li><span>○</span>s146~s164 잔여 스크립트 번역</li>
+        <li><span>○</span>02.DAT 별도 대사 약 3,577개 조사·편입</li>
+        <li><span>○</span>잔여 이미지 라벨 한글화</li>
+        <li><span>○</span>메뉴·전투 메시지 창 폭 및 런타임 검증</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="box entry-section">
+    <p class="eyebrow">CURRENT ASSESSMENT</p>
+    <h2>현재 상태</h2>
+    <p><strong>역공학 중심 단계에서 번역 양산 단계로 전환했습니다.</strong> 이제 번역 결과를 실제 게임에 반복 삽입할 수 있는 기술 경로가 확보됐으며, 잔여 본문·별도 대사·이미지 작업과 전체 플레이 검증이 다음 핵심 과제입니다.</p>
+  </section>
+
+  <p class="fine-print log-disclaimer">완료 수치는 정적·부분 런타임 검증 범위입니다. 전체 번역과 전체 플레이 검증 완료를 의미하지 않습니다.</p>
+  <footer class="footer-note">SUMMON NIGHT 5 DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+</body>
+</html>
