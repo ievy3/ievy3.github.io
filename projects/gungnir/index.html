@@ -7,7 +7,7 @@
   <title>Gungnir | Noctil Patchworks</title>
   <link rel="stylesheet" href="/assets/css/project.css?v=17">
 </head>
-<body class="project-page">
+<body class="project-page" data-project-slug="gungnir">
 <main>
   <a class="back" href="/">← Noctil Patchworks</a>
 
@@ -17,9 +17,9 @@
       <h1>Gungnir</h1>
       <div class="badges">
         <span class="badge badge-live"><i></i>개발 중</span>
-        <span class="badge">v0.8.0 공개 검수판</span>
+        <span class="badge" data-release-version-label>v0.8.0 공개 검수판</span>
         <span class="badge">플레이 검증 진행 필요</span>
-        <span class="badge">2026.09.20 업데이트</span>
+        <span class="badge" data-release-date-badge>2026.09.20 업데이트</span>
       </div>
     </div>
     <div class="hero-stat" aria-label="전체 프로젝트 진행률 집계 중">
@@ -30,9 +30,9 @@
 
   <section class="project-facts" aria-label="프로젝트 핵심 정보">
     <div><span>상태</span><strong class="fact-development">개발 중</strong></div>
-    <div><span>최신 버전</span><strong>v0.8.0 공개 검수판</strong></div>
+    <div><span>최신 버전</span><strong data-release-version-label>v0.8.0 공개 검수판</strong></div>
     <div><span>전체 진행률</span><strong>집계 중</strong></div>
-    <div><span>마지막 업데이트</span><strong>2026.09.20</strong></div>
+    <div><span>마지막 업데이트</span><strong data-release-date>2026.09.20</strong></div>
   </section>
 
   <nav class="nav" aria-label="페이지 목차">
@@ -85,9 +85,11 @@
     </article>
     <article class="box release-card" id="release">
       <p class="eyebrow">RELEASE</p>
-      <h2>v0.8.0 공개 검수판</h2>
+      <h2 data-release-title>v0.8.0 공개 검수판</h2>
       <p>정적 구조와 ISO 생성은 안정적으로 완료됐고 초반부 플레이도 확인했습니다. 다만 개발 과정에서 패치 구조를 한 차례 전면 재정비했기 때문에 이후 구간의 안정성은 아직 보장하기 어렵습니다. 전체 런타임 검증과 이미지 검수는 계속 진행합니다.</p>
-      <span class="button disabled" aria-disabled="true">v0.8.0 배포 파일 등록 전</span>
+      <a class="button" data-release-download href="https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.8.0/Noctil_Patchworks_Gungnir_Offline_v0.8.0.exe">v0.8.0 패처 다운로드 (.exe)</a>
+      <small data-release-download-count>다운로드 횟수 확인 중…</small>
+      <a class="text-link" data-release-notes href="https://github.com/ievy3/ievy3.github.io/releases/tag/gungnir-v0.8.0" target="_blank" rel="noopener">GitHub 릴리스 노트 ↗</a>
       <small>공개 검수용 버전입니다. 진행 불가, 표시 오류, 이미지·텍스트 이상이 발생할 수 있습니다.</small>
     </article>
   </section>
@@ -95,7 +97,7 @@
   <section class="box" id="patch-history">
     <div class="section-head">
       <div><p class="eyebrow">PATCH HISTORY</p><h2>패치 이력</h2></div>
-      <span class="line-count">v0.8.0 · 공개 검수판</span>
+      <span class="line-count"><span data-release-history-version>v0.8.0</span> · 공개 검수판</span>
     </div>
     <div class="kv compact-kv">
       <div>v0.8.0</div><div><strong>공개 검수판</strong> · 초반부 플레이 및 정적 검증 완료, 전체 런타임 QA 진행 중</div>
@@ -206,5 +208,6 @@
 
   <footer class="footer-note">GUNGNIR KOREAN TRANSLATION · NOCTIL PATCHWORKS</footer>
 </main>
+<script src="/assets/js/project-release.js?v=1" defer></script>
 </body>
 </html>
