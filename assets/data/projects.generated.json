@@ -42,7 +42,7 @@
       "type": "한국어 패치",
       "status": "public",
       "statusLabel": "베타 공개",
-      "version": "v0.9.2-beta.1.zip",
+      "version": "v0.9.2-beta.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.2/Noctil_Patchworks_Offline_v0.9.2-beta.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_v0.9.2-beta.1.zip",
       "downloadCount": 327,
@@ -51,7 +51,7 @@
       "releasePublishedAt": "2026-09-19T01:11:19Z",
       "updated": "2026-09-19",
       "publicBuilds": 3,
-      "description": "v0.9.2-beta.1.zip 공개 · 전체 플레이 QA 진행 중",
+      "description": "v0.9.2-beta.1 공개 · 전체 플레이 QA 진행 중",
       "keywords": [
         "엑시즈 포스",
         "hexyz",
