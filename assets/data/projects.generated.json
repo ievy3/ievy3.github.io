@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T17:55:59.229Z",
+  "generatedAt": "2026-09-20T14:20:59.365Z",
   "projects": [
     {
       "title": "Gungnir",
@@ -11,9 +11,9 @@
       "status": "development",
       "statusLabel": "개발 중",
       "version": "첫 공개 전",
-      "updated": "2026-09-19",
+      "updated": "2026-09-20",
       "publicBuilds": 0,
-      "description": "크래시 원인 규명과 전수 감사, 이미지 아틀라스 재작업 · 플레이 QA 진행 필요",
+      "description": "최신 이미지 에셋 통합과 시험 ISO 정적 검증 · 플레이 QA 진행 필요",
       "keywords": [
         "궁그닐",
         "gungnir",
@@ -21,9 +21,9 @@
         "atlus"
       ],
       "latestWorklog": {
-        "date": "2026-09-19",
-        "title": "크래시 원인 규명과 전수 감사, 이미지 아틀라스 재작업",
-        "href": "/projects/gungnir/updates/2026-09-19.html"
+        "date": "2026-09-20",
+        "title": "최신 이미지 에셋 통합과 시험 ISO 정적 검증",
+        "href": "/projects/gungnir/updates/2026-09-20.html"
       },
       "latestReleaseTag": null
     },
