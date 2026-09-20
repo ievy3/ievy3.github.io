@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T14:55:44.213Z",
+  "generatedAt": "2026-09-20T15:06:12.984Z",
   "projects": [
     {
       "title": "Gungnir",
@@ -11,6 +11,12 @@
       "status": "public",
       "statusLabel": "베타 공개",
       "version": "v0.8.0",
+      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.8.0/Noctil_Patchworks_Gungnir_Offline_v0.8.0.exe",
+      "downloadAsset": "Noctil_Patchworks_Gungnir_Offline_v0.8.0.exe",
+      "downloadCount": 1,
+      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gungnir-v0.8.0",
+      "releaseName": "Gungnir 한글 패치 v0.8.0 — 공개 검수판 (260920)",
+      "releasePublishedAt": "2026-09-20T14:38:19Z",
       "updated": "2026-09-20",
       "publicBuilds": 1,
       "description": "v0.8.0 공개 · 전체 플레이 QA 진행 중",
@@ -36,11 +42,16 @@
       "type": "한국어 패치",
       "status": "public",
       "statusLabel": "베타 공개",
-      "version": "v0.9.2-beta.1",
+      "version": "v0.9.2-beta.1.zip",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.2/Noctil_Patchworks_Offline_v0.9.2-beta.1.zip",
+      "downloadAsset": "Noctil_Patchworks_Offline_v0.9.2-beta.1.zip",
+      "downloadCount": 327,
+      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.2",
+      "releaseName": "Hexyz Force 한글 패치 v0.9.2 — 공개 검수판 (260919)",
+      "releasePublishedAt": "2026-09-19T01:11:19Z",
       "updated": "2026-09-19",
       "publicBuilds": 3,
-      "description": "v0.9.2-beta.1 공개 · 전체 플레이 QA 진행 중",
+      "description": "v0.9.2-beta.1.zip 공개 · 전체 플레이 QA 진행 중",
       "keywords": [
         "엑시즈 포스",
         "hexyz",
