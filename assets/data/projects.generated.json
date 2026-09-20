@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T14:26:58.633Z",
+  "generatedAt": "2026-09-20T14:38:31.758Z",
   "projects": [
     {
       "title": "Gungnir",
@@ -8,12 +8,12 @@
       "imageAlt": "궁그닐 첫 한글 대사 적용 화면",
       "platform": "PSP",
       "type": "한국어 패치",
-      "status": "development",
-      "statusLabel": "개발 중",
-      "version": "첫 공개 전",
+      "status": "public",
+      "statusLabel": "베타 공개",
+      "version": "v0.8.0",
       "updated": "2026-09-20",
-      "publicBuilds": 0,
-      "description": "최신 이미지 에셋 통합과 시험 ISO 정적 검증 · 플레이 QA 진행 필요",
+      "publicBuilds": 1,
+      "description": "v0.8.0 공개 · 전체 플레이 QA 진행 중",
       "keywords": [
         "궁그닐",
         "gungnir",
@@ -25,7 +25,7 @@
         "title": "최신 이미지 에셋 통합과 시험 ISO 정적 검증",
         "href": "/projects/gungnir/updates/2026-09-20.html"
       },
-      "latestReleaseTag": null
+      "latestReleaseTag": "gungnir-v0.8.0"
     },
     {
       "title": "Hexyz Force",
