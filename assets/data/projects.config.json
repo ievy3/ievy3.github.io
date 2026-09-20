@@ -17,8 +17,8 @@
   {
     "slug": "gungnir",
     "title": "Gungnir",
-    "image": "/assets/images/gungnir/worklog-2026-09-13/01-first-korean-dialogue.png",
-    "imageAlt": "궁그닐 첫 한글 대사 적용 화면",
+    "image": "/assets/images/gungnir/latest-2026-09-20-battle.jpg",
+    "imageAlt": "궁그닐 v0.8.0 공개 검수판 전투 화면",
     "platform": "PSP",
     "type": "한국어 패치",
     "releasePrefix": "gungnir-",
