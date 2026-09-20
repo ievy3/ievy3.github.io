@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 9월 20일 Gungnir 한국어 패치 작업일지">
+  <title>2026.09.20 작업일지 | Gungnir</title>
+  <link rel="stylesheet" href="/assets/css/project.css?v=17">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/gungnir/updates/">← 전체 작업일지</a>
+
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.09.20</p>
+    <h1>최신 이미지 에셋 통합과<br>시험 ISO 정적 검증</h1>
+    <p>B0 안정본을 기준으로 최신 이미지 에셋 1,106페이지를 반영하고 시험 ISO를 생성했습니다. 파일 구조와 크기는 유지됐지만 일부 영어 이미지가 섞여 있어 현재 빌드는 배포 보류 상태입니다.</p>
+    <div class="badges">
+      <span class="badge badge-live"><i></i>1,106페이지 적용 · 정적 검증 완료</span>
+      <span class="badge">런타임 검증 필요</span>
+    </div>
+  </header>
+
+  <section class="entry-summary">
+    <div><strong>1,106</strong><span>이미지 페이지 적용</span></div>
+    <div><strong>761</strong><span>아카이브 멤버 패치</span></div>
+    <div><strong>328</strong><span>영문 동일 페이지 확인</span></div>
+  </section>
+
+  <section class="box entry-section">
+    <p class="eyebrow">TODAY'S WORK</p>
+    <h2>주요 작업</h2>
+    <ul class="compact-list">
+      <li>B0 안정본에 최신 이미지 작업 결과물을 페이지 단위로 인코딩해 반영했습니다.</li>
+      <li><code>data.dar</code> 758개, <code>ini.dar</code> 3개 등 총 761개 멤버를 패치했으며 아카이브 크기는 B0와 동일하게 유지했습니다.</li>
+      <li>1,106페이지 전부 멤버 존재·페이지 범위·원본 치수 검사를 통과했고 스킵 또는 거부된 페이지는 없었습니다.</li>
+      <li>빌드된 아카이브를 다시 디코드해 대표 한글 이미지와 타이틀 로고가 정상적으로 유지되는 것을 확인했습니다.</li>
+    </ul>
+  </section>
+
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">VERIFIED</p>
+      <h2>확인 결과</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>1,106페이지 전량 구조 검증 통과</li>
+        <li><span>✓</span>ISO 내부 69파일 중 교체 4 · 원본 보존 65 확인</li>
+        <li><span>✓</span>아카이브 크기 불변 · 고정 레이아웃 유지</li>
+        <li><span>✓</span>번역 대상 1,173페이지 중 1,043페이지 변경 확인</li>
+      </ul>
+    </article>
+
+    <article class="box entry-section">
+      <p class="eyebrow">REMAINING</p>
+      <h2>남은 작업</h2>
+      <ul class="log-checklist pending-list">
+        <li><span>○</span>부팅·타이틀·전투·설정·월드맵·튜토리얼 런타임 확인</li>
+        <li><span>○</span>영문 동일 328페이지의 의도 및 미작업 여부 확인</li>
+        <li><span>○</span>필요 시 한글 제작분만 적용한 필터 빌드 생성</li>
+        <li><span>○</span>win·chapter 계열 잔여 이미지 한글화 방침 결정</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="box entry-section">
+    <p class="eyebrow">CURRENT ASSESSMENT</p>
+    <h2>현재 판단</h2>
+    <p>정적 구조와 ISO 생성 자체는 안정적으로 완료됐습니다. 다만 최신 에셋에 영문 이미지가 혼재하고 전체 런타임 검증이 끝나지 않았으므로 현 시험 ISO는 배포하지 않습니다. 다음 단계는 실제 플레이 확인 후 필요 시 영문 동일 328페이지를 제외한 한글 전용 필터 빌드를 만드는 것입니다.</p>
+  </section>
+
+  <p class="fine-print log-disclaimer">게임 원본 데이터와 패치 적용 결과물은 배포하지 않으며, 정적 검증 완료는 전체 플레이 검증 완료를 의미하지 않습니다.</p>
+  <footer class="footer-note">GUNGNIR DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+</body>
+</html>
