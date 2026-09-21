@@ -47,7 +47,7 @@
 
     try {
       const response = await fetch(
-        `https://api.github.com/repos/ievy3/ievy3.github.io/releases/tags/${encodeURIComponent(project.latestReleaseTag)}`,
+        `https://api.github.com/repos/${project.releaseRepository || "ievy3/ievy3.github.io"}/releases/tags/${encodeURIComponent(project.latestReleaseTag)}`,
         { headers: { Accept: "application/vnd.github+json" } }
       );
       if (!response.ok) throw new Error(`GitHub release API ${response.status}`);
