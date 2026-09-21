@@ -4,7 +4,7 @@ import path from "node:path";
 const root = process.cwd();
 const configPath = path.join(root, "assets/data/projects.config.json");
 const outputPath = path.join(root, "assets/data/projects.generated.json");
-const repository = process.env.GITHUB_REPOSITORY || "ievy3/ievy3.github.io";
+const defaultReleaseRepository = process.env.GITHUB_REPOSITORY || "ievy3/ievy3.github.io";
 const token = process.env.GITHUB_TOKEN || "";
 
 function stripHtml(value = "") {
@@ -20,7 +20,7 @@ function stripHtml(value = "") {
     .trim();
 }
 
-async function fetchAllReleases() {
+async function fetchAllReleases(repository) {
   const releases = [];
   for (let page = 1; ; page += 1) {
     const response = await fetch(
@@ -117,10 +117,22 @@ function newestDate(...dates) {
 }
 
 const config = JSON.parse(await readFile(configPath, "utf8"));
-const releases = await fetchAllReleases();
+const releaseCache = new Map();
 const generated = [];
 
+async function releasesFor(project) {
+  const repository = project.releaseRepository || project.repository || defaultReleaseRepository;
+  if (!releaseCache.has(repository)) {
+    releaseCache.set(repository, fetchAllReleases(repository));
+  }
+  return {
+    repository,
+    releases: await releaseCache.get(repository)
+  };
+}
+
 for (const project of config) {
+  const { repository: releaseRepository, releases } = await releasesFor(project);
   const worklog = await latestWorklog(project.slug);
   const matchingReleases = releases.filter(
     release => !release.draft && release.tag_name.startsWith(project.releasePrefix)
@@ -133,6 +145,10 @@ for (const project of config) {
   generated.push({
     title: project.title,
     href: `/projects/${project.slug}/`,
+    repository: project.repository || null,
+    repositoryUrl: project.repository ? `https://github.com/${project.repository}` : null,
+    issuesUrl: project.repository ? `https://github.com/${project.repository}/issues` : null,
+    releaseRepository,
     image: project.image,
     imageAlt: project.imageAlt,
     platform: project.platform,
