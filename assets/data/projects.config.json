@@ -12,7 +12,9 @@
       "hexyz",
       "rpg",
       "atlus"
-    ]
+    ],
+    "repository": "ievy3/hexyz-force-korean",
+    "releaseRepository": "ievy3/ievy3.github.io"
   },
   {
     "slug": "gungnir",
@@ -27,7 +29,9 @@
       "gungnir",
       "srpg",
       "atlus"
-    ]
+    ],
+    "repository": "ievy3/gungnir-korean",
+    "releaseRepository": "ievy3/ievy3.github.io"
   },
   {
     "slug": "summon-night-5",
@@ -45,6 +49,8 @@
       "summonnight",
       "srpg",
       "felistella"
-    ]
+    ],
+    "repository": "ievy3/summon-night-5-korean",
+    "releaseRepository": "ievy3/ievy3.github.io"
   }
 ]
