@@ -16,9 +16,9 @@
 
 ## Projects
 
-- Hexyz Force (PSP) — In Progress
-- Gungnir (PSP) — In Progress
-- Summon Night 5 (PSP) — In Progress
+- Hexyz Force (PSP) — v0.9.2-beta.1
+- Gungnir (PSP) — v0.9.0
+- Summon Night 5 (PSP) — F19
 
 각 프로젝트 페이지는 [Noctil Patchworks](https://ievy3.github.io/)에서 확인할 수 있습니다.
 
