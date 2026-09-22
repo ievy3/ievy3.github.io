@@ -20,8 +20,8 @@ const fallbackProjects = [
   {
     title: "Gungnir",
     href: "/projects/gungnir/",
-    image: "/assets/images/gungnir/latest-2026-09-20-battle.webp",
-    imageAlt: "궁그닐 v0.8.0 공개 검수판 전투 화면",
+    image: "/assets/images/gungnir/latest-2026-09-23-title.webp",
+    imageAlt: "궁그닐 v0.9.0 공개 검수판 한글 타이틀 화면",
     platform: "PSP",
     type: "한국어 패치",
     status: "public",
