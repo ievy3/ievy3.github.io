@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T19:52:46.327Z",
+  "generatedAt": "2026-09-22T19:54:35.312Z",
   "projects": [
     {
       "title": "Gungnir",
@@ -32,7 +32,7 @@
       ],
       "latestWorklog": {
         "date": "2026-09-22",
-        "title": "이미지 191장 최신화와 통합 ISO 정적 검증",
+        "title": "튜토리얼·메뉴·챕터 이미지 개선",
         "href": "/projects/gungnir/updates/2026-09-22.html"
       },
       "latestReleaseTag": "gungnir-v0.8.0"
