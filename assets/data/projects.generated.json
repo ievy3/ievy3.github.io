@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T19:54:57.714Z",
+  "generatedAt": "2026-09-22T20:02:52.944Z",
   "projects": [
     {
       "title": "Gungnir",
@@ -14,16 +14,16 @@
       "type": "한국어 패치",
       "status": "public",
       "statusLabel": "베타 공개",
-      "version": "v0.8.0",
-      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.8.0/Noctil_Patchworks_Gungnir_Offline_v0.8.0.exe",
-      "downloadAsset": "Noctil_Patchworks_Gungnir_Offline_v0.8.0.exe",
-      "downloadCount": 680,
-      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gungnir-v0.8.0",
-      "releaseName": "Gungnir 한글 패치 v0.8.0 — 공개 검수판 (260920)",
-      "releasePublishedAt": "2026-09-20T14:38:19Z",
+      "version": "v0.9.0",
+      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
+      "downloadAsset": "Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
+      "downloadCount": 0,
+      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gungnir-v0.9.0",
+      "releaseName": "Gungnir 한글 패치 v0.9.0 — 공개 검수판 (260922)",
+      "releasePublishedAt": "2026-09-22T20:02:45Z",
       "updated": "2026-09-22",
-      "publicBuilds": 1,
-      "description": "v0.8.0 공개 · 전체 플레이 QA 진행 중",
+      "publicBuilds": 2,
+      "description": "v0.9.0 공개 · 전체 플레이 QA 진행 중",
       "keywords": [
         "궁그닐",
         "gungnir",
@@ -35,7 +35,7 @@
         "title": "튜토리얼·메뉴·챕터 이미지 개선",
         "href": "/projects/gungnir/updates/2026-09-22.html"
       },
-      "latestReleaseTag": "gungnir-v0.8.0"
+      "latestReleaseTag": "gungnir-v0.9.0"
     },
     {
       "title": "Summon Night 5",
