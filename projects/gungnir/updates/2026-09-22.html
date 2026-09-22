@@ -13,110 +13,51 @@
 
   <header class="entry-hero">
     <p class="eyebrow">DEVELOPMENT LOG · 2026.09.22</p>
-    <h1>이미지 191장 최신화와<br>통합 ISO 정적 검증</h1>
-    <p>튜토리얼 57장을 Pretendard 기반으로 전면 재생성하고 승리 결과·준비 메뉴·챕터 이미지까지 최신화했습니다. 9월 20일 이미지 에셋에 총 191장을 선별 병합한 뒤 기준 ISO에 통합했으며, ISO 재추출을 포함한 정적 검증을 완료했습니다. 실제 게임 화면과 진행 안정성은 사용자 플레이 확인이 필요합니다.</p>
+    <h1>튜토리얼·메뉴·챕터<br>이미지 개선</h1>
+    <p>튜토리얼의 한글 글꼴과 배치를 다시 다듬고, 승리 결과·준비 메뉴·챕터 이미지를 최신 한글화본으로 교체했습니다. 이번 작업으로 총 191장의 이미지가 갱신됐으며 최신 시험 빌드에 반영했습니다.</p>
     <div class="badges">
-      <span class="badge badge-live"><i></i>191장 갱신 · ISO 재추출 검증 완료</span>
-      <span class="badge">런타임 확인 대기</span>
+      <span class="badge badge-live"><i></i>이미지 191장 갱신</span>
+      <span class="badge">플레이 검수 진행 중</span>
     </div>
   </header>
 
   <section class="entry-summary">
-    <div><strong>191</strong><span>최신 이미지 갱신</span></div>
-    <div><strong>57 / 57</strong><span>튜토리얼 Pretendard 전환</span></div>
-    <div><strong>123</strong><span>TPL 교체 대상</span></div>
+    <div><strong>191장</strong><span>이미지 갱신</span></div>
+    <div><strong>57 / 57</strong><span>튜토리얼 개선</span></div>
+    <div><strong>28개</strong><span>챕터 이미지 반영</span></div>
   </section>
 
   <section class="box entry-section">
-    <p class="eyebrow">PROGRESS</p>
-    <h2>진행 상황</h2>
-    <div class="kv compact-kv">
-      <div>튜토리얼 글꼴 전환</div><div><strong>57 / 57</strong> · Pretendard 적용·정적 검수·빌드 입력 발행 완료</div>
-      <div>승리 결과 이미지</div><div><strong>74 / 74</strong> · 일본어 텍스트 한글 이미지 반영</div>
-      <div>준비 메뉴 이미지</div><div><strong>4 / 4</strong> · 13~16페이지 최신본 반영</div>
-      <div>챕터 이미지</div><div><strong>56 / 56</strong> · 28개 챕터 제목·잔상 반영</div>
-      <div>9월 20일 에셋 갱신</div><div><strong>191 / 191</strong> · PNG 1,106장 중 대상만 선별 교체</div>
-      <div>통합 ISO</div><div><strong>1 / 1</strong> · 생성 및 재추출 정적 검증 완료</div>
-      <div>게임 실행 검증</div><div><strong>대기</strong> · 사용자 실제 화면 확인 필요</div>
-    </div>
-  </section>
-
-  <section class="box entry-section">
-    <p class="eyebrow">TUTORIAL</p>
-    <h2>튜토리얼 57장 Pretendard 전환</h2>
+    <p class="eyebrow">TODAY'S UPDATE</p>
+    <h2>주요 변경사항</h2>
     <ul class="compact-list">
-      <li>실제 480×272 화면 크기로 비교한 뒤 본문은 <strong>Pretendard SemiBold(600) 15px</strong>, 빨간 소제목은 <strong>Pretendard Bold(700) 20px</strong>로 확정했습니다.</li>
-      <li>기존 navigation-safe 배치, 번역문, 줄바꿈, 그림 크롭, 강조색과 소제목의 -3px 세로 보정을 유지했습니다.</li>
-      <li>이전 빌더에서 그대로 복사되던 4장을 포함해 57장 전체가 새 글꼴로 다시 생성되도록 빌드 경로를 수정했습니다.</li>
-      <li>두 글꼴의 OS/2 굵기와 튜토리얼 사용 문자 474개의 Unicode cmap 지원을 확인했습니다.</li>
-      <li>하단 게임 오버레이 영역 <code>y=240..271</code>, 그림 크롭, 글자 영역 밖 픽셀이 기존 navigation-safe 기준과 동일한지 검사했으며 화면 밖 글자와 새 겹침은 발견되지 않았습니다.</li>
-      <li>이미지 57장, 검수 시트 5장, PNG 패키지, 글꼴·설정 해시를 포함한 검증 기록을 생성하고 최종 이미지 에셋 입력에 반영했습니다.</li>
+      <li><strong>튜토리얼 57장</strong>의 한글 글꼴을 Pretendard로 변경하고 본문·소제목의 가독성을 개선했습니다.</li>
+      <li><strong>승리 결과 이미지 74장</strong>의 일본어 제목과 안내문을 최신 한글화본으로 교체했습니다.</li>
+      <li><strong>준비 메뉴 4장</strong>의 제목·안내문·확인창 등을 최신 작업본으로 반영했습니다.</li>
+      <li><strong>28개 챕터의 제목과 잔상 이미지 56장</strong>을 최신 한글화본으로 교체했습니다.</li>
+      <li>이미 한글화된 이미지가 다시 일본어 이미지로 되돌아가지 않도록 적용 대상을 정리했습니다.</li>
     </ul>
   </section>
 
   <section class="box entry-section">
-    <p class="eyebrow">IMAGE UPDATE</p>
-    <h2>승리 결과·준비 메뉴·챕터 이미지 최신화</h2>
+    <p class="eyebrow">VISUAL QUALITY</p>
+    <h2>표시 품질 개선</h2>
     <ul class="compact-list">
-      <li>승리 결과 이미지 74장에 일본어 제목과 안내문을 한글화한 최신 렌더를 반영하고 영문·숫자·그래픽과 비대상 페이지는 유지했습니다.</li>
-      <li>준비 메뉴 13~14페이지는 Noto 계열 재작업본, 15페이지는 한글 최신본, 16페이지는 Noto Sans KR 900 적용본을 사용했습니다. 속성 표기 <code>火 水 地 風</code>은 원본 한자를 유지했습니다.</li>
-      <li>28개 챕터의 제목과 잔상 이미지 56장에 송명체 최신본을 반영하고 각 챕터의 비대상 page_01은 9월 20일 상태를 보존했습니다.</li>
-      <li>새 패키지에 포함된 무수정 일본어 복사본은 적용 대상에서 제외해 기존 한글 에셋이 되돌아가지 않도록 했습니다.</li>
+      <li>튜토리얼 배경에 나타나던 얼룩과 색 띠 문제를 수정했습니다.</li>
+      <li>본문과 소제목의 줄바꿈, 이미지 영역, 하단 페이지 표시와의 겹침을 다시 확인했습니다.</li>
+      <li>한글화하지 않은 영문·숫자·그래픽 요소는 기존 상태를 유지했습니다.</li>
+      <li>갱신된 이미지가 최신 시험 빌드에 정상적으로 반영되는지 정적 검증을 완료했습니다.</li>
     </ul>
   </section>
 
   <section class="box entry-section">
-    <p class="eyebrow">ASSET MERGE</p>
-    <h2>9월 20일 에셋에 이미지 191장 병합</h2>
-    <ul class="compact-list">
-      <li>기존 PNG 1,106장을 기준으로 튜토리얼 57장, 승리 결과 74장, 준비 메뉴 4장, 챕터 제목·잔상 56장만 선별 갱신했습니다.</li>
-      <li>변경 전 대상 파일은 별도 백업하고 입력·출력 해시를 기록해 재현 가능한 비교 기준을 남겼습니다.</li>
-      <li>재현 설정과 전용 빌더, 비교 시트 생성기를 추가해 동일 조건에서 다시 검증할 수 있도록 정리했습니다.</li>
-    </ul>
+    <p class="eyebrow">CURRENT STATUS</p>
+    <h2>현재 상태</h2>
+    <p>9월 22일 이미지 작업분은 최신 시험 빌드에 모두 반영됐습니다. 이미지 파일 자체의 검증은 완료했지만, 실제 게임에서의 표시 상태와 전체 진행 안정성은 아직 검수 중입니다.</p>
+    <p>특히 튜토리얼, 준비 메뉴, 챕터 전환, 승리 결과 화면을 중심으로 실제 플레이 화면을 계속 확인할 예정입니다.</p>
   </section>
 
-  <section class="box entry-section">
-    <p class="eyebrow">ISO INTEGRATION</p>
-    <h2>최종 ISO 생성과 구조 검증</h2>
-    <ul class="compact-list">
-      <li>9월 20일 기준 ISO에 이번 이미지 갱신분을 통합해 최종 시험 ISO를 생성했습니다.</li>
-      <li>SHA-256: <code>7080e4bdbb99fb4c56daa5436a8435eff4463294f27a291ffc091d22c408d03f</code></li>
-      <li>크기: <strong>955,148,288바이트</strong></li>
-      <li>TPL 123개에서 PNG 191장을 교체했습니다. ISO 파일 69개를 비교한 결과 <code>data.dar</code>만 변경됐고 나머지 68개 파일은 보존됐습니다.</li>
-      <li>새 <code>data.dar</code>가 기존 할당 공간보다 커져 ISO 끝에 추가하고 디렉터리 레코드와 볼륨 크기만 갱신했습니다.</li>
-      <li>대사, 맵, 게임 폰트, BOOT/EBOOT, OP와 비대상 DAR 멤버를 보존했습니다. 첫 맵 <code>map/sf_a01_1.bin</code>의 SHA-256도 기준 ISO와 동일함을 확인했습니다.</li>
-    </ul>
-  </section>
-
-  <section class="entry-grid validation-grid">
-    <article class="box entry-section">
-      <p class="eyebrow">STATIC VALIDATION</p>
-      <h2>정적 검증</h2>
-      <ul class="log-checklist">
-        <li><span>✓</span>준비·승리 결과·챕터 134장 기존 팔레트 무손실 인코딩</li>
-        <li><span>✓</span>튜토리얼 57장 페이지별 256색 팔레트 재구성</li>
-        <li><span>✓</span>튜토리얼 알파 값 정확 보존</li>
-        <li><span>✓</span>RGB 채널당 페이지 평균 절대 오차 최댓값 3.323141 / 255</li>
-        <li><span>✓</span>TPL 헤더·비대상 팔레트·비대상 페이지·선택 영역 밖 픽셀 보존 검사</li>
-        <li><span>✓</span>ISO에서 191장 재추출 후 기록 해시와 전량 일치</li>
-      </ul>
-    </article>
-
-  </section>
-
-  <section class="box entry-section">
-    <p class="eyebrow">PALETTE ISSUE</p>
-    <h2>기존 팔레트 방식 폐기</h2>
-    <p>기존 팔레트를 고정한 첫 시도는 구조 검사 자체는 통과했지만 튜토리얼 배경에 얼룩과 색 띠가 확인되어 사용하지 않기로 했습니다. 최종본은 튜토리얼 페이지별 팔레트를 다시 구성하는 방식으로 변경해 해당 시각 문제를 해소했습니다.</p>
-  </section>
-
-  <section class="box entry-section">
-    <p class="eyebrow">CURRENT ASSESSMENT</p>
-    <h2>현재 판단</h2>
-    <p>9월 22일 이미지 갱신분 191장은 9월 20일 에셋과 기준 ISO에 병합됐고 ISO 재추출을 포함한 정적 검증을 통과했습니다. 튜토리얼의 기존 팔레트 문제는 페이지별 팔레트 재구성으로 해소했으며, 비대상 게임 데이터와 첫 맵 고정 레이아웃은 보존했습니다. <strong>실제 게임에서의 표시 상태와 진행 안정성은 아직 확인되지 않았습니다.</strong></p>
-  </section>
-
-  <p class="fine-print log-disclaimer">게임 원본 데이터와 패치 적용 결과물은 배포하지 않으며 OP 영상은 한글화 대상에서 제외합니다. 정적 검증 완료는 전체 플레이 검증 완료를 의미하지 않습니다.</p>
+  <p class="fine-print log-disclaimer">게임 원본 데이터와 패치 적용 결과물은 작업일지에서 배포하지 않습니다. OP 영상은 한글화 대상에서 제외합니다.</p>
   <footer class="footer-note">GUNGNIR DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
 </main>
 </body>
