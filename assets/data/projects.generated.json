@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T22:06:28.459Z",
+  "generatedAt": "2026-09-22T22:15:21.476Z",
   "projects": [
     {
       "title": "Gungnir",
@@ -51,7 +51,7 @@
       "status": "development",
       "statusLabel": "개발 중",
       "version": "첫 공개 전",
-      "updated": "2026-09-20",
+      "updated": "2026-09-22",
       "publicBuilds": 0,
       "description": "Phase 1 돌파 · 시나리오 전량 추출·재삽입 및 한글 글리프 표시 확인",
       "keywords": [
@@ -63,9 +63,9 @@
         "felistella"
       ],
       "latestWorklog": {
-        "date": "2026-09-20",
-        "title": "번역 양산 체제 전환과 범용 대사 삽입",
-        "href": "/projects/summon-night-5/updates/2026-09-20.html"
+        "date": "2026-09-22",
+        "title": "슬롯 문제 해결과 통합·검증 단계 진입",
+        "href": "/projects/summon-night-5/updates/2026-09-22.html"
       },
       "latestReleaseTag": null
     },
