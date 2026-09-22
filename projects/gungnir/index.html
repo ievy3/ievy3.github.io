@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Gungnir PSP 비공식 한국어 번역 프로젝트 진행 현황">
   <title>Gungnir | Noctil Patchworks</title>
-  <link rel="stylesheet" href="/assets/css/project.css?v=17">
+  <link rel="stylesheet" href="/assets/css/project.css?v=19">
 </head>
 <body class="project-page" data-project-slug="gungnir">
 <main>
@@ -98,13 +98,38 @@
   <section class="box" id="patch-history">
     <div class="section-head">
       <div><p class="eyebrow">PATCH HISTORY</p><h2>패치 이력</h2></div>
-      <span class="line-count"><span data-release-history-version>v0.9.0</span> · 공개 검수판</span>
+      <span class="line-count">최근 버전순</span>
     </div>
-    <div class="kv compact-kv">
-      <div>v0.9.0</div><div><strong>공개 검수판</strong> · 이미지 191장 갱신, 타이틀·엔딩 로고 표기 수정, 캐릭터 대사 10행 교정, 오프라인 패처 갱신</div>
-      <div>v0.8.0</div><div><strong>첫 공개 검수판</strong> · 주요 대사·메뉴·전투 문구 통합, 초반부 플레이 및 정적 검증 완료</div>
+    <div class="release-history-list">
+      <article class="release-history-item">
+        <div class="release-history-version">
+          <strong>v0.9.0</strong>
+          <span>BETA</span>
+        </div>
+        <div class="release-history-meta">
+          <time datetime="2026-09-22">2026.09.22</time>
+          <small data-release-tag="gungnir-v0.9.0">다운로드 횟수 확인 중…</small>
+        </div>
+        <p>튜토리얼·승리 결과·준비 메뉴·챕터 이미지 갱신과 타이틀 표기·일부 대사 교정</p>
+        <a class="release-detail-link" href="/projects/gungnir/releases/v0.9.0/">자세히 보기 <span>→</span></a>
+      </article>
+
+      <article class="release-history-item">
+        <div class="release-history-version">
+          <strong>v0.8.0</strong>
+          <span>BETA</span>
+        </div>
+        <div class="release-history-meta">
+          <time datetime="2026-09-20">2026.09.20</time>
+          <small data-release-tag="gungnir-v0.8.0">다운로드 횟수 확인 중…</small>
+        </div>
+        <p>주요 대사·메뉴·전투 문구를 통합한 첫 공개 검수판</p>
+        <a class="release-detail-link" href="/projects/gungnir/releases/v0.8.0/">자세히 보기 <span>→</span></a>
+      </article>
     </div>
-    <p class="fine-print">v0.9.0은 v0.8.0과 동일한 일본어판 원본(ULJM-05779)을 대상으로 하며, 전체 게임 플레이와 중·후반 구간의 안정성 검수는 계속 진행 중입니다.</p>
+    <div class="version-actions">
+      <a class="button secondary" href="/projects/gungnir/releases/">전체 패치 이력 보기</a>
+    </div>
   </section>
 
   <section class="box preview-section" id="preview">
@@ -211,5 +236,35 @@
   <footer class="footer-note">GUNGNIR KOREAN TRANSLATION · NOCTIL PATCHWORKS</footer>
 </main>
 <script src="/assets/js/project-release.js?v=1" defer></script>
+<script>
+(() => {
+  const repository = 'ievy3/ievy3.github.io';
+  const releaseCache = new Map();
+
+  function fetchRelease(tag) {
+    if (!releaseCache.has(tag)) {
+      releaseCache.set(tag, fetch(`https://api.github.com/repos/${repository}/releases/tags/${encodeURIComponent(tag)}`)
+        .then(response => {
+          if (!response.ok) throw new Error(`GitHub API ${response.status}`);
+          return response.json();
+        }));
+    }
+    return releaseCache.get(tag);
+  }
+
+  document.querySelectorAll('[data-release-tag]').forEach(element => {
+    fetchRelease(element.dataset.releaseTag)
+      .then(release => {
+        const count = (release.assets || [])
+          .filter(asset => /\.exe$/i.test(asset.name) && !/^source code/i.test(asset.name))
+          .reduce((total, asset) => total + (Number(asset.download_count) || 0), 0);
+        element.textContent = `다운로드 ${count.toLocaleString('ko-KR')}회`;
+      })
+      .catch(() => {
+        element.textContent = '다운로드 횟수 확인 불가';
+      });
+  });
+})();
+</script>
 </body>
 </html>
