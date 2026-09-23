@@ -19,6 +19,7 @@
 - Hexyz Force (PSP) — v0.9.2-beta.1
 - Gungnir (PSP) — v0.9.0
 - Summon Night 5 (PSP) — F19
+- Generation of Chaos 6 (PSP) — 텍스트 추출·재삽입 검증
 
 각 프로젝트 페이지는 [Noctil Patchworks](https://ievy3.github.io/)에서 확인할 수 있습니다.
 

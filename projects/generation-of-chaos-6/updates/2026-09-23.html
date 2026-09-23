@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 9월 23일 Generation of Chaos 6 한국어 패치 작업일지">
+  <title>2026.09.23 작업일지 | Generation of Chaos 6</title>
+  <link rel="stylesheet" href="/assets/css/project.css?v=20">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/generation-of-chaos-6/updates/">← 전체 작업일지</a>
+
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.09.23</p>
+    <h1>구조 분석을 끝내고<br>텍스트 재삽입 단계로</h1>
+    <p>첫날에는 게임 데이터 구조를 안정적으로 다시 만들 수 있는 기반을 확보하고, 이벤트와 전투 텍스트의 추출·재삽입 경로를 구축했습니다. 일본판 원문을 기준으로 번역을 진행하기 위한 캐릭터 말투와 고유명사 표기 기준도 정리했습니다.</p>
+    <div class="badges">
+      <span class="badge badge-live"><i></i>텍스트 파이프라인 구축</span>
+      <span class="badge">첫 공개 전</span>
+    </div>
+  </header>
+
+  <section class="entry-summary">
+    <div><strong>82 / 82</strong><span>이벤트 파일 파싱</span></div>
+    <div><strong>10,401</strong><span>일본판 텍스트 추출</span></div>
+    <div><strong>EVENT</strong><span>가변 재삽입 통과</span></div>
+  </section>
+
+  <section class="box entry-section">
+    <p class="eyebrow">TODAY'S WORK</p>
+    <h2>주요 작업</h2>
+    <ul class="compact-list">
+      <li>ISO와 내부 DAR 데이터를 원본과 동일하게 다시 만들 수 있는 재빌드 경로를 확인하고, 데이터 위치가 바뀌어도 게임이 새 위치를 정상적으로 읽는 것을 검증했습니다.</li>
+      <li><strong>이벤트 파일 82개 전체</strong>를 파싱해 미해석 구간 없이 텍스트 구조를 확보했습니다.</li>
+      <li>일본판에서 <strong>이벤트 7,184개 + 전투 3,217개</strong> 텍스트를 추출했으며, 북미판 텍스트는 의미와 누락을 대조하는 참고 자료로 정렬했습니다.</li>
+      <li>이벤트 텍스트의 길이를 변경한 뒤 다시 삽입하는 시험을 통과했습니다. 전투 텍스트도 정적 구조 검증은 통과했으며 실제 화면 확인만 남았습니다.</li>
+      <li>캐릭터별 말투·호칭 기준과 일본어 원문 중심의 고유명사 표기 원칙을 확정하고, 번역 데이터의 혼입·손상을 점검하는 QA 경로를 마련했습니다.</li>
+    </ul>
+  </section>
+
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">VERIFIED</p>
+      <h2>확인된 내용</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>ISO·DAR 재빌드 및 데이터 재배치 확인</li>
+        <li><span>✓</span>이벤트 82 / 82 파일 파싱</li>
+        <li><span>✓</span>일본판 event+btl 10,401개 추출</li>
+        <li><span>✓</span>이벤트 가변 길이 재삽입 통과</li>
+        <li><span>✓</span>현재 QA 검사 오류 0</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">REMAINING</p>
+      <h2>다음 작업</h2>
+      <ul class="log-checklist pending-list">
+        <li><span>○</span>전투 텍스트 재삽입 결과 실제 화면 확인</li>
+        <li><span>○</span>chrMes·gameParam·EBOOT·zna 잔여 텍스트 추출</li>
+        <li><span>○</span>한글 폰트 슬롯 조사와 실제 한글 표시 PoC</li>
+        <li><span>○</span>미확정 용어 정리와 전체 플레이 QA</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="box entry-section">
+    <p class="eyebrow">CURRENT STATUS</p>
+    <h2>현재 상태</h2>
+    <p><strong>기초 역공학 단계는 마무리됐고, 실제 한국어 텍스트를 넣기 위한 추출·재삽입 검증 단계에 들어갔습니다.</strong> 아직 한글 폰트 표시와 전체 플레이 검증이 남아 있으므로 공개 패치를 배포하는 단계는 아닙니다.</p>
+  </section>
+
+  <p class="fine-print log-disclaimer">위 내용은 2026년 9월 23일 작업 범위입니다. 내부 세션·이슈 관리 정보는 제외하고 사용자에게 필요한 진행 상황만 정리했습니다.</p>
+  <footer class="footer-note">GENERATION OF CHAOS 6 DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+</body>
+</html>

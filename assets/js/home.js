@@ -47,6 +47,21 @@ const fallbackProjects = [
     publicBuilds: 0,
     description: "Phase 1 돌파 · 시나리오 전량 추출·재삽입 및 한글 글리프 표시 확인",
     keywords: ["서몬 나이트 5", "서몬나이트5", "summon night 5", "summonnight", "srpg", "felistella"]
+  },
+  {
+    title: "Generation of Chaos 6",
+    href: "/projects/generation-of-chaos-6/",
+    image: "https://www.ideaf.co.jp/game/platform/img/psp/goc6.jpg",
+    imageAlt: "Generation of Chaos 6 일본판 PSP 공식 제품 이미지",
+    platform: "PSP",
+    type: "한국어 패치",
+    status: "development",
+    statusLabel: "개발 중",
+    version: "첫 공개 전",
+    updated: "2026-09-23",
+    publicBuilds: 0,
+    description: "구조 분석 완료 · 이벤트·전투 텍스트 추출 및 재삽입 검증 진행 중",
+    keywords: ["제네레이션 오브 카오스 6", "제네레이션오브카오스6", "generation of chaos 6", "goc6", "srpg", "sting", "idea factory"]
   }
 ];
 
