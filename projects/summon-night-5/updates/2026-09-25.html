@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 9월 25일 Summon Night 5 한국어 패치 작업일지">
+  <title>2026.09.25 작업일지 | Summon Night 5</title>
+  <link rel="stylesheet" href="/assets/css/project.css?v=20">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/summon-night-5/updates/">← 전체 작업일지</a>
+
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.09.25</p>
+    <h1>F20 문제 조사와<br>기준선 재정립</h1>
+    <p>시험 빌드에서 튜토리얼 조작 불가, 글자 깨짐, 일본어 잔존과 일부 이미지·메뉴 오류가 확인돼 원본 대조와 재구성 실험을 진행했습니다. 문제를 그대로 덮지 않고 재현 가능한 입력 상태를 새 기준선으로 고정했습니다.</p>
+    <div class="badges">
+      <span class="badge badge-live"><i></i>문제 조사·재현</span>
+      <span class="badge">기준선 동결</span>
+    </div>
+  </header>
+
+  <section class="entry-summary">
+    <div><strong>218 / 218</strong><span>이미지 구조 확인</span></div>
+    <div><strong>0</strong><span>시스템 정적 오류</span></div>
+    <div><strong>25</strong><span>재구성 시험 ISO</span></div>
+  </section>
+
+  <section class="box entry-section">
+    <p class="eyebrow">TODAY'S WORK</p>
+    <h2>주요 작업</h2>
+    <ul class="compact-list">
+      <li>F20에서 확인된 튜토리얼·메뉴 문제를 원본과 이전 빌드에 대조해 변경 범위를 좁혔습니다.</li>
+      <li>튜토리얼과 시스템 데이터의 재구성 방법을 달리한 여러 시험 빌드를 만들어 원인 후보를 분리했습니다.</li>
+      <li>이미지 218개와 패치 레코드 319개는 구조상 모두 정상임을 확인했습니다.</li>
+      <li>텍스트 정적 검사를 다시 수행해 슬롯 초과가 없음을 확인하고, 잘못된 검사 기준으로 잡히던 대량 오류를 정정했습니다.</li>
+      <li>이후 작업이 같은 입력에서 재현되도록 기준 파일과 해시를 고정했습니다.</li>
+    </ul>
+  </section>
+
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CONFIRMED</p>
+      <h2>확인된 내용</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>이미지 218 / 218 구조 검증 통과</li>
+        <li><span>✓</span>이미지 패치 319 / 319 레코드 일치</li>
+        <li><span>✓</span>대사·시스템 텍스트 정적 오류 0</li>
+        <li><span>✓</span>재현 가능한 기준 입력 상태 고정</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">KNOWN ISSUES</p>
+      <h2>남은 문제</h2>
+      <ul class="log-checklist pending-list">
+        <li><span>○</span>튜토리얼 취소 동작 이상</li>
+        <li><span>○</span>일부 화면 넘침과 강조 표시 차이</li>
+        <li><span>○</span>일부 데이터 경계 손상 가능성</li>
+        <li><span>○</span>이미지 시각 품질 최종 판정</li>
+      </ul>
+    </article>
+  </section>
+
+  <footer class="footer-note">SUMMON NIGHT 5 DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+</body>
+</html>

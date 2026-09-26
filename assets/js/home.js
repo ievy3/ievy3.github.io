@@ -43,9 +43,9 @@ const fallbackProjects = [
     status: "development",
     statusLabel: "개발 중",
     version: "첫 공개 전",
-    updated: "2026-09-19",
+    updated: "2026-09-26",
     publicBuilds: 0,
-    description: "Phase 1 돌파 · 시나리오 전량 추출·재삽입 및 한글 글리프 표시 확인",
+    description: "최종 통합 완료 · 이미지 218/218 확정 · 최종 ISO 및 런타임 검증 진행 중",
     keywords: ["서몬 나이트 5", "서몬나이트5", "summon night 5", "summonnight", "srpg", "felistella"]
   },
   {
