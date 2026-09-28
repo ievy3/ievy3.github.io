@@ -5,8 +5,8 @@ const fallbackProjects = [
   {
     title: "Summon Night 5",
     href: "/projects/summon-night-5/",
-    image: "/assets/images/summon-night-5/2026-09-20-dialogue.webp",
-    imageAlt: "Summon Night 5 한글 대사 적용 화면",
+    image: "/assets/images/summon-night-5/2026-09-28-title.webp",
+    imageAlt: "Summon Night 5 v0.7.0 베타 한글 타이틀 화면",
     platform: "PSP",
     type: "한국어 패치",
     status: "public",
