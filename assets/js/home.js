@@ -42,10 +42,10 @@ const fallbackProjects = [
     type: "한국어 패치",
     status: "development",
     statusLabel: "개발 중",
-    version: "첫 공개 전",
-    updated: "2026-09-27",
+    version: "v0.7.0 베타",
+    updated: "2026-09-28",
     publicBuilds: 0,
-    description: "파티능력 크래시·PS Vita 부팅 문제 해결 · 실제 게임 회귀 테스트 진행 중",
+    description: "v0.7.0 베타 배포본 확정 · Vita 실기 검증 및 오프라인 패처 검사 완료",
     keywords: ["서몬 나이트 5", "서몬나이트5", "summon night 5", "summonnight", "srpg", "felistella"]
   },
   {
