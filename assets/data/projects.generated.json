@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T12:01:11.106Z",
+  "generatedAt": "2026-09-28T23:59:59.000Z",
   "projects": [
     {
       "title": "Summon Night 5",
@@ -15,9 +15,9 @@
       "status": "development",
       "statusLabel": "개발 중",
       "version": "첫 공개 전",
-      "updated": "2026-09-27",
+      "updated": "2026-09-28",
       "publicBuilds": 0,
-      "description": "파티능력 크래시·PS Vita 부팅 문제 해결 · 실제 게임 회귀 테스트 진행 중",
+      "description": "v0.7.0 베타 배포본 확정 · Vita 실기 검증 및 오프라인 패처 검사 완료",
       "keywords": [
         "서몬 나이트 5",
         "서몬나이트5",
@@ -27,9 +27,9 @@
         "felistella"
       ],
       "latestWorklog": {
-        "date": "2026-09-27",
-        "title": "실행 오류 수정과 Vita 부팅 복구",
-        "href": "/projects/summon-night-5/updates/2026-09-27.html"
+        "date": "2026-09-28",
+        "title": "최종 실기 검증을 마치고 v0.7.0 베타 확정",
+        "href": "/projects/summon-night-5/updates/2026-09-28.html"
       },
       "latestReleaseTag": null
     },
