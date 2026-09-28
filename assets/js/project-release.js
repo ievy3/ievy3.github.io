@@ -83,10 +83,18 @@
 
       const label = versionLabel(project);
       setText("[data-release-version-label]", label);
+      setText("[data-release-version]", project.version || "");
+      setText("[data-release-status-label]", project.statusLabel || "");
       setText("[data-release-date]", formatDate(project.updated));
       setText("[data-release-date-badge]", project.updated ? `${formatDate(project.updated)} 업데이트` : "");
       setText("[data-release-title]", label);
       setText("[data-release-history-version]", project.version || "");
+
+      document.querySelectorAll("[data-release-status]").forEach(element => {
+        element.dataset.releaseStatus = project.status || "";
+        element.classList.toggle("fact-live", project.status === "public");
+        element.classList.toggle("fact-development", project.status !== "public");
+      });
 
       const download = document.querySelector("[data-release-download]");
       if (download) {
