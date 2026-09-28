@@ -1,43 +1,12 @@
 let projects = [];
+let activeStatus = "all";
 
 const fallbackProjects = [
   {
-    title: "Hexyz Force",
-    href: "/projects/hexyz-force/",
-    image: "/assets/images/hexyz-force/worklog-2026-09-13/01-title-screen.webp",
-    imageAlt: "엑시즈 포스 한글 타이틀 화면",
-    platform: "PSP",
-    type: "한국어 패치",
-    status: "public",
-    statusLabel: "베타 공개",
-    version: "v0.9.2-beta.1",
-    download: "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.2/Noctil_Patchworks_Offline_v0.9.2-beta.1.zip",
-    updated: "2026-09-19",
-    publicBuilds: 3,
-    description: "v0.9.2-beta.1 공개 · 전체 플레이 QA 진행 중",
-    keywords: ["엑시즈 포스", "hexyz", "rpg", "atlus"]
-  },
-  {
-    title: "Gungnir",
-    href: "/projects/gungnir/",
-    image: "/assets/images/gungnir/latest-2026-09-23-title.webp",
-    imageAlt: "궁그닐 v0.9.0 공개 검수판 한글 타이틀 화면",
-    platform: "PSP",
-    type: "한국어 패치",
-    status: "public",
-    statusLabel: "베타 공개",
-    version: "v0.9.0",
-    download: "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
-    updated: "2026-09-22",
-    publicBuilds: 2,
-    description: "v0.9.0 공개 · 전체 플레이 QA 진행 중",
-    keywords: ["궁그닐", "gungnir", "srpg", "atlus"]
-  },
-  {
     title: "Summon Night 5",
     href: "/projects/summon-night-5/",
-    image: "https://s.pacn.ws/1/p/fv/Summon_Night_5_285867.9.jpg?crop=1500%2C1500&v=mjp2zz&width=300",
-    imageAlt: "Summon Night 5 일본판 PSP 게임 커버",
+    image: "/assets/images/summon-night-5/2026-09-20-dialogue.webp",
+    imageAlt: "Summon Night 5 한글 대사 적용 화면",
     platform: "PSP",
     type: "한국어 패치",
     status: "development",
@@ -62,114 +31,118 @@ const fallbackProjects = [
     publicBuilds: 0,
     description: "게임 데이터 구조 분석 완료 · 대사 추출·재삽입 테스트 진행 중",
     keywords: ["제네레이션 오브 카오스 6", "제네레이션오브카오스6", "generation of chaos 6", "goc6", "srpg", "sting", "idea factory"]
+  },
+  {
+    title: "Gungnir",
+    href: "/projects/gungnir/",
+    image: "/assets/images/gungnir/latest-2026-09-23-title.webp",
+    imageAlt: "궁그닐 v0.9.0 공개 검수판 한글 타이틀 화면",
+    platform: "PSP",
+    type: "한국어 패치",
+    status: "public",
+    statusLabel: "베타 공개",
+    version: "v0.9.0",
+    download: "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
+    updated: "2026-09-22",
+    publicBuilds: 2,
+    description: "v0.9.0 공개 · 전체 플레이 QA 진행 중",
+    keywords: ["궁그닐", "gungnir", "srpg", "atlus"]
+  },
+  {
+    title: "Hexyz Force",
+    href: "/projects/hexyz-force/",
+    image: "/assets/images/hexyz-force/worklog-2026-09-13/01-title-screen.webp",
+    imageAlt: "엑시즈 포스 한글 타이틀 화면",
+    platform: "PSP",
+    type: "한국어 패치",
+    status: "public",
+    statusLabel: "베타 공개",
+    version: "v0.9.2-beta.1",
+    download: "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.2/Noctil_Patchworks_Offline_v0.9.2-beta.1.zip",
+    updated: "2026-09-19",
+    publicBuilds: 3,
+    description: "v0.9.2-beta.1 공개 · 전체 플레이 QA 진행 중",
+    keywords: ["엑시즈 포스", "hexyz", "rpg", "atlus"]
   }
 ];
 
 const grid = document.querySelector("#project-grid");
 const emptyState = document.querySelector("#empty-state");
 const resultCount = document.querySelector("#result-count");
-const resetButton = document.querySelector("#reset-filters");
-const filterToggle = document.querySelector("#filter-toggle");
-const filterBar = document.querySelector("#project-filters");
-const controls = {
-  sort: document.querySelector("#sort-projects"),
-  status: document.querySelector("#filter-status"),
-  search: document.querySelector("#project-search")
-};
-
-function addOptions(select, values) {
-  values
-    .sort((a, b) => a.localeCompare(b, "ko"))
-    .forEach(value => {
-      const option = document.createElement("option");
-      option.value = value;
-      option.textContent = value;
-      select.append(option);
-    });
-}
+const searchInput = document.querySelector("#project-search");
+const statusButtons = [...document.querySelectorAll("[data-status-filter]")];
 
 function formatDate(date) {
   return date ? date.replaceAll("-", ".") : "—";
-}
-
-function issueUrl(project) {
-  return `https://github.com/ievy3/ievy3.github.io/issues/new?title=${encodeURIComponent(`[${project.title}] 오류 제보`)}`;
-}
-
-function card(project) {
-  const article = document.createElement("article");
-  article.className = "project-card";
-  const cardImage = project.title === "Summon Night 5"
-    ? "/assets/images/summon-night-5/2026-09-20-dialogue.webp"
-    : project.image;
-  article.innerHTML = `
-    <a class="project-cover" style="--card-image:url('${cardImage}')" href="${project.href}" aria-label="${project.title} 프로젝트 보기"><img src="${cardImage}" alt="${project.imageAlt}" loading="lazy"${cardImage.startsWith("http") ? ' referrerpolicy="no-referrer"' : ""}></a>
-    <div class="project-info">
-      <span class="project-kicker">${project.platform} · ${project.type}</span>
-      <h3><a href="${project.href}">${project.title}</a></h3>
-      <p class="project-desc">${project.description}</p>
-      <div class="project-tags"><span class="tag version">${project.version}</span><span class="tag type">${project.type}</span></div>
-      <div class="project-foot">
-        <div><span class="project-state ${project.status}"><i></i>${project.statusLabel}</span><time class="project-date" datetime="${project.updated}">업데이트 ${formatDate(project.updated)}</time></div>
-        <div class="project-actions">
-          <a class="card-button secondary" href="${project.href}">프로젝트 보기</a>
-          ${project.status === "public" ? `<a class="card-button secondary report" href="${issueUrl(project)}" target="_blank" rel="noopener">오류 제보</a>` : ""}
-          ${project.download ? `<a class="card-button download" href="${project.download}" download>최신 패치 ↓</a>` : ""}
-        </div>
-      </div>
-    </div>`;
-  return article;
 }
 
 function normalized(value) {
   return value.toLocaleLowerCase("ko").replace(/\s+/g, "");
 }
 
+function card(project) {
+  const article = document.createElement("article");
+  article.className = "project-card";
+
+  const cardImage = project.image;
+  const containImage = project.title === "Generation of Chaos 6";
+  const imageClass = containImage ? "contain" : "";
+
+  article.innerHTML = `
+    <a class="project-cover" style="--card-image:url('${cardImage}')" href="${project.href}" aria-label="${project.title} 프로젝트 보기">
+      <img class="${imageClass}" src="${cardImage}" alt="${project.imageAlt}" loading="lazy"${cardImage.startsWith("http") ? ' referrerpolicy="no-referrer"' : ""}>
+    </a>
+    <div class="project-info">
+      <span class="project-kicker">${project.platform}</span>
+      <div class="project-title-row">
+        <h3><a href="${project.href}">${project.title}</a></h3>
+        <span class="version-pill">${project.version}</span>
+      </div>
+      <p class="project-desc">${project.description}</p>
+      <div class="project-foot">
+        <div>
+          <span class="project-state ${project.status}"><i></i>${project.statusLabel}</span>
+          <time class="project-date" datetime="${project.updated}">업데이트 ${formatDate(project.updated)}</time>
+        </div>
+        <div class="project-actions">
+          <a class="card-button secondary" href="${project.href}">프로젝트 보기</a>
+          ${project.download ? `<a class="card-button download" href="${project.download}" download>패치 다운로드 ↓</a>` : ""}
+        </div>
+      </div>
+    </div>`;
+  return article;
+}
+
 function render() {
-  const query = normalized(controls.search.value.trim());
-  const filtered = projects.filter(project => {
-    const haystack = normalized([
-      project.title,
-      project.platform,
-      project.type,
-      project.statusLabel,
-      ...(project.keywords || [])
-    ].join(" "));
+  const query = normalized(searchInput?.value.trim() || "");
+  const filtered = projects
+    .filter(project => {
+      const haystack = normalized([
+        project.title,
+        project.platform,
+        project.statusLabel,
+        ...(project.keywords || [])
+      ].join(" "));
 
-    return (controls.status.value === "all" || project.status === controls.status.value)
-      && (!query || haystack.includes(query));
-  });
-
-  const statusOrder = { public: 0, development: 1 };
-  filtered.sort((a, b) => {
-    if (controls.sort.value === "title-asc") return a.title.localeCompare(b.title, "ko");
-    if (controls.sort.value === "status") {
-      return (statusOrder[a.status] ?? 99) - (statusOrder[b.status] ?? 99)
-        || b.updated.localeCompare(a.updated);
-    }
-    return b.updated.localeCompare(a.updated);
-  });
+      return (activeStatus === "all" || project.status === activeStatus)
+        && (!query || haystack.includes(query));
+    })
+    .sort((a, b) => b.updated.localeCompare(a.updated) || a.title.localeCompare(b.title, "ko"));
 
   grid.replaceChildren(...filtered.map(card));
   emptyState.hidden = filtered.length !== 0;
   resultCount.innerHTML = filtered.length === projects.length
     ? `전체 <strong>${projects.length}</strong>개 프로젝트`
     : `전체 ${projects.length}개 중 <strong>${filtered.length}</strong>개 표시`;
-  resetButton.hidden = controls.status.value === "all"
-    && !query;
 }
 
-function setFilterOpen(open) {
-  if (!filterToggle || !filterBar) return;
-  filterBar.classList.toggle("is-open", open);
-  filterToggle.setAttribute("aria-expanded", String(open));
-  filterToggle.textContent = open ? "필터 및 검색 닫기" : "필터 및 검색 열기";
-}
-
-function reset() {
-  controls.sort.value = "updated-desc";
-  controls.status.value = "all";
-  controls.search.value = "";
+function setStatus(status) {
+  activeStatus = status;
+  statusButtons.forEach(button => {
+    const active = button.dataset.statusFilter === status;
+    button.classList.toggle("is-active", active);
+    button.setAttribute("aria-pressed", String(active));
+  });
   render();
 }
 
@@ -191,57 +164,17 @@ async function loadProjects() {
 async function init() {
   projects = await loadProjects();
 
-  document.querySelector("#project-count").textContent = String(projects.length).padStart(2, "0");
-  document.querySelector("#platform-count").textContent = String(new Set(projects.map(project => project.platform)).size).padStart(2, "0");
-  document.querySelector("#release-count").textContent = String(
-    projects.reduce((total, project) => total + (project.publicBuilds || 0), 0)
-  ).padStart(2, "0");
+  const platforms = [...new Set(projects.map(project => project.platform))];
+  const platformLabel = platforms.length === 1 ? platforms[0] : `${platforms.length} Platforms`;
+  const heroSummary = document.querySelector("#hero-summary");
+  if (heroSummary) heroSummary.textContent = `${projects.length} Projects · ${platformLabel}`;
 
-  Object.values(controls).forEach(control => {
-    control.addEventListener(control === controls.search ? "input" : "change", render);
+  statusButtons.forEach(button => {
+    button.addEventListener("click", () => setStatus(button.dataset.statusFilter));
   });
-  resetButton.addEventListener("click", reset);
-  if (filterToggle && filterBar) {
-    filterToggle.addEventListener("click", () => setFilterOpen(filterToggle.getAttribute("aria-expanded") !== "true"));
-    setFilterOpen(false);
-  }
+  searchInput?.addEventListener("input", render);
 
-  render();
+  setStatus("all");
 }
 
 init();
-
-function localizeHcb() {
-  const box = document.querySelector("#HCB_comment_box");
-  if (!box) return;
-
-  box.querySelectorAll('input[placeholder="Name"]').forEach(el => el.placeholder = "이름");
-  box.querySelectorAll('textarea[placeholder="Enter your comment here"]').forEach(el => el.placeholder = "메시지를 남겨 주세요");
-
-  box.querySelectorAll("button,input[type=submit]").forEach(el => {
-    const label = (el.textContent || el.value || "").trim();
-    if (label === "Comment") {
-      if ("value" in el) el.value = "등록";
-      if (el.textContent) el.textContent = "등록";
-    }
-    if (label === "Add Image") {
-      if ("value" in el) el.value = "이미지 첨부";
-      if (el.textContent) el.textContent = "이미지 첨부";
-    }
-  });
-
-  box.querySelectorAll("*").forEach(el => {
-    if (el.children.length) return;
-    const text = (el.textContent || "").trim();
-    if (text === "Comments") el.style.display = "none";
-    if (text === "Not using HtmlCommentBox yet?") el.parentElement?.style.setProperty("display", "none");
-    if (text === "No one has commented yet. Be the first!") el.textContent = "아직 작성된 글이 없습니다. 첫 메시지를 남겨 주세요.";
-  });
-}
-
-const hcbTarget = document.querySelector("#HCB_comment_box");
-if (hcbTarget) {
-  const hcbObserver = new MutationObserver(localizeHcb);
-  hcbObserver.observe(hcbTarget, { childList: true, subtree: true });
-  localizeHcb();
-}
