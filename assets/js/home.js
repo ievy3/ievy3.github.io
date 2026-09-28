@@ -26,11 +26,11 @@ const fallbackProjects = [
     type: "한국어 패치",
     status: "public",
     statusLabel: "베타 공개",
-    version: "v0.8.0",
-    download: "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.8.0/Noctil_Patchworks_Gungnir_Offline_v0.8.0.exe",
-    updated: "2026-09-20",
-    publicBuilds: 1,
-    description: "v0.8.0 공개 · 전체 플레이 QA 진행 중",
+    version: "v0.9.0",
+    download: "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
+    updated: "2026-09-22",
+    publicBuilds: 2,
+    description: "v0.9.0 공개 · 전체 플레이 QA 진행 중",
     keywords: ["궁그닐", "gungnir", "srpg", "atlus"]
   },
   {
@@ -45,7 +45,7 @@ const fallbackProjects = [
     version: "첫 공개 전",
     updated: "2026-09-27",
     publicBuilds: 0,
-    description: "G6 런타임 수정 진행 · 파티능력 크래시·Vita 부팅 문제 해결 · 회귀 검증 진행 중",
+    description: "파티능력 크래시·PS Vita 부팅 문제 해결 · 실제 게임 회귀 테스트 진행 중",
     keywords: ["서몬 나이트 5", "서몬나이트5", "summon night 5", "summonnight", "srpg", "felistella"]
   },
   {
@@ -60,7 +60,7 @@ const fallbackProjects = [
     version: "첫 공개 전",
     updated: "2026-09-23",
     publicBuilds: 0,
-    description: "구조 분석 완료 · 이벤트·전투 텍스트 추출 및 재삽입 검증 진행 중",
+    description: "게임 데이터 구조 분석 완료 · 대사 추출·재삽입 테스트 진행 중",
     keywords: ["제네레이션 오브 카오스 6", "제네레이션오브카오스6", "generation of chaos 6", "goc6", "srpg", "sting", "idea factory"]
   }
 ];
@@ -69,6 +69,8 @@ const grid = document.querySelector("#project-grid");
 const emptyState = document.querySelector("#empty-state");
 const resultCount = document.querySelector("#result-count");
 const resetButton = document.querySelector("#reset-filters");
+const filterToggle = document.querySelector("#filter-toggle");
+const filterBar = document.querySelector("#project-filters");
 const controls = {
   sort: document.querySelector("#sort-projects"),
   status: document.querySelector("#filter-status"),
@@ -92,6 +94,10 @@ function formatDate(date) {
   return date ? date.replaceAll("-", ".") : "—";
 }
 
+function issueUrl(project) {
+  return `https://github.com/ievy3/ievy3.github.io/issues/new?title=${encodeURIComponent(`[${project.title}] 오류 제보`)}`;
+}
+
 function card(project) {
   const article = document.createElement("article");
   article.className = "project-card";
@@ -106,6 +112,7 @@ function card(project) {
         <div><span class="project-state ${project.status}"><i></i>${project.statusLabel}</span><time class="project-date" datetime="${project.updated}">업데이트 ${formatDate(project.updated)}</time></div>
         <div class="project-actions">
           <a class="card-button secondary" href="${project.href}">프로젝트 보기</a>
+          ${project.status === "public" ? `<a class="card-button secondary report" href="${issueUrl(project)}" target="_blank" rel="noopener">오류 제보</a>` : ""}
           ${project.download ? `<a class="card-button download" href="${project.download}" download>최신 패치 ↓</a>` : ""}
         </div>
       </div>
@@ -155,6 +162,13 @@ function render() {
     && !query;
 }
 
+function setFilterOpen(open) {
+  if (!filterToggle || !filterBar) return;
+  filterBar.classList.toggle("is-open", open);
+  filterToggle.setAttribute("aria-expanded", String(open));
+  filterToggle.textContent = open ? "필터 및 검색 닫기" : "필터 및 검색 열기";
+}
+
 function reset() {
   controls.sort.value = "updated-desc";
   controls.status.value = "all";
@@ -195,6 +209,10 @@ async function init() {
     control.addEventListener(control === controls.search ? "input" : "change", render);
   });
   resetButton.addEventListener("click", reset);
+  if (filterToggle && filterBar) {
+    filterToggle.addEventListener("click", () => setFilterOpen(filterToggle.getAttribute("aria-expanded") !== "true"));
+    setFilterOpen(false);
+  }
 
   render();
 }
