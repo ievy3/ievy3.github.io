@@ -155,6 +155,7 @@ for (const project of config) {
     releaseRepository,
     image: project.image,
     imageAlt: project.imageAlt,
+    imageFit: project.imageFit || "cover",
     platform: project.platform,
     type: project.type,
     status: release ? "public" : "development",
