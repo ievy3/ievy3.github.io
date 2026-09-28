@@ -41,7 +41,7 @@
     "platform": "PSP",
     "type": "한국어 패치",
     "releasePrefix": "sn5-",
-    "description": "G6 런타임 수정 진행 · 파티능력 크래시·Vita 부팅 문제 해결 · 회귀 검증 진행 중",
+    "description": "파티능력 크래시·PS Vita 부팅 문제 해결 · 실제 게임 회귀 테스트 진행 중",
     "keywords": [
       "서몬 나이트 5",
       "서몬나이트5",
@@ -61,7 +61,7 @@
     "platform": "PSP",
     "type": "한국어 패치",
     "releasePrefix": "goc6-",
-    "description": "구조 분석 완료 · 이벤트·전투 텍스트 추출 및 재삽입 검증 진행 중",
+    "description": "게임 데이터 구조 분석 완료 · 대사 추출·재삽입 테스트 진행 중",
     "keywords": [
       "제네레이션 오브 카오스 6",
       "제네레이션오브카오스6",
