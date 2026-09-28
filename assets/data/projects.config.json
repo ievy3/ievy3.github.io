@@ -58,8 +58,8 @@
   {
     "slug": "generation-of-chaos-6",
     "title": "Generation of Chaos 6",
-    "image": "https://www.ideaf.co.jp/game/platform/img/psp/goc6.jpg",
-    "imageAlt": "Generation of Chaos 6 일본판 PSP 공식 제품 이미지",
+    "image": "https://www.ideaf.co.jp/game/spec/psp/goc6/img/ss1.jpg",
+    "imageAlt": "Generation of Chaos 6 일본판 PSP 공식 게임 화면",
     "platform": "PSP",
     "type": "한국어 패치",
     "releasePrefix": "goc6-",
@@ -73,7 +73,6 @@
       "sting",
       "idea factory"
     ],
-    "releaseRepository": "ievy3/ievy3.github.io",
-    "imageFit": "poster"
+    "releaseRepository": "ievy3/ievy3.github.io"
   }
 ]
