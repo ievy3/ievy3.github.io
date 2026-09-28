@@ -21,8 +21,8 @@ const fallbackProjects = [
   {
     title: "Generation of Chaos 6",
     href: "/projects/generation-of-chaos-6/",
-    image: "https://www.ideaf.co.jp/game/spec/psp/goc6/img/ss1.jpg",
-    imageAlt: "Generation of Chaos 6 일본판 PSP 공식 게임 화면",
+    image: "https://images.launchbox-app.com/d4799dcc-27cf-4a16-b315-c3bbbf6a3292.png",
+    imageAlt: "Generation of Chaos 6 대표 PSP 타이틀 화면",
     platform: "PSP",
     type: "한국어 패치",
     status: "development",
@@ -87,9 +87,6 @@ function card(project) {
   article.className = "project-card";
 
   const cardImage = project.image;
-  const posterImage = project.imageFit === "poster";
-  const imageClass = posterImage ? "contain" : "";
-  const posterCopy = "";
   let displayDescription = project.description || "";
   if (project.version && displayDescription.startsWith(project.version)) {
     displayDescription = displayDescription.slice(project.version.length).trim();
@@ -97,9 +94,8 @@ function card(project) {
   }
 
   article.innerHTML = `
-    <a class="project-cover ${posterImage ? "poster" : ""}" style="--card-image:url('${cardImage}')" href="${project.href}" aria-label="${project.title} 프로젝트 보기">
-      ${posterCopy}
-      <img class="${imageClass}" src="${cardImage}" alt="${project.imageAlt}" loading="lazy"${cardImage.startsWith("http") ? ' referrerpolicy="no-referrer"' : ""}>
+    <a class="project-cover" style="--card-image:url('${cardImage}')" href="${project.href}" aria-label="${project.title} 프로젝트 보기">
+      <img src="${cardImage}" alt="${project.imageAlt}" loading="lazy"${cardImage.startsWith("http") ? ' referrerpolicy="no-referrer"' : ""}>
     </a>
     <div class="project-info">
       <span class="project-kicker">${project.platform}</span>

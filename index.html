@@ -18,8 +18,8 @@
   <meta name="twitter:title" content="Noctil Patchworks">
   <meta name="twitter:description" content="비공식 한국어 게임 번역 패치와 제작 기록을 공개하는 아카이브">
   <meta name="twitter:image" content="https://ievy3.github.io/assets/images/gungnir/latest-2026-09-23-title.webp">
-  <link rel="stylesheet" href="/assets/css/home.css?v=14">
-  <script src="/assets/js/home.js?v=11" defer></script>
+  <link rel="stylesheet" href="/assets/css/home.css?v=15">
+  <script src="/assets/js/home.js?v=12" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -37,35 +37,35 @@
 
   <main>
     <section class="hero" aria-labelledby="hero-title">
-      <p class="eyebrow">UNOFFICIAL KOREAN GAME TRANSLATION</p>
-      <h1 id="hero-title">잊힌 게임을,<br><em>다시 읽을 수 있게.</em></h1>
-      <div class="hero-bottom">
-        <p>비공식 한국어 게임 번역 패치와 제작 기록을 공개하는 아카이브입니다.</p>
-        <span class="hero-summary" id="hero-summary">4 Projects · PSP</span>
+      <div class="hero-copy">
+        <p class="eyebrow">UNOFFICIAL KOREAN GAME TRANSLATION</p>
+        <h1 id="hero-title">잊힌 게임을,<br><em>다시 읽을 수 있게.</em></h1>
+        <div class="hero-bottom">
+          <p class="hero-lead">비공식 한국어 게임 번역 패치와 제작 기록을 공개하는 아카이브입니다.</p>
+          <span id="hero-summary" class="hero-pill">4 PROJECTS · PSP</span>
+        </div>
       </div>
     </section>
 
     <section class="archive" id="patches">
-      <div class="archive-head">
-        <div>
+      <div class="archive-top">
+        <div class="archive-heading">
           <p class="eyebrow">PATCH ARCHIVE</p>
           <h2>패치 목록</h2>
+          <p id="result-count" class="archive-count" aria-live="polite">전체 4개 프로젝트</p>
         </div>
-        <div class="archive-tools">
-          <div class="status-filters" role="group" aria-label="프로젝트 상태">
-            <button class="is-active" type="button" data-status-filter="all">전체</button>
-            <button type="button" data-status-filter="public">공개</button>
-            <button type="button" data-status-filter="development">개발 중</button>
+
+        <div class="archive-controls">
+          <div class="archive-filters" role="group" aria-label="프로젝트 상태">
+            <button class="status-filter is-active" type="button" data-status-filter="all" aria-pressed="true">전체</button>
+            <button class="status-filter" type="button" data-status-filter="public" aria-pressed="false">공개</button>
+            <button class="status-filter" type="button" data-status-filter="development" aria-pressed="false">개발 중</button>
           </div>
           <label class="search-box" hidden>
             <span class="sr-only">프로젝트 검색</span>
             <input id="project-search" type="search" placeholder="게임명 검색" autocomplete="off">
           </label>
         </div>
-      </div>
-
-      <div class="archive-meta">
-        <p id="result-count" aria-live="polite">전체 4개 프로젝트</p>
       </div>
 
       <div class="projects" id="project-grid">
