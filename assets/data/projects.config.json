@@ -14,7 +14,8 @@
       "atlus"
     ],
     "repository": "ievy3/hexyz-force-korean",
-    "releaseRepository": "ievy3/ievy3.github.io"
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "description": "전체 플레이 QA와 잔여 문자열 검수 진행 중"
   },
   {
     "slug": "gungnir",
@@ -31,7 +32,8 @@
       "atlus"
     ],
     "repository": "ievy3/gungnir-korean",
-    "releaseRepository": "ievy3/ievy3.github.io"
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "description": "전체 플레이 QA 및 실제 화면 검수 진행 중"
   },
   {
     "slug": "summon-night-5",
@@ -41,7 +43,7 @@
     "platform": "PSP",
     "type": "한국어 패치",
     "releasePrefix": "sn5-",
-    "description": "v0.7.0 베타 배포본 확정 · Vita 실기 검증 및 오프라인 패처 검사 완료",
+    "description": "Vita 실기 검증 및 오프라인 패처 검사 완료",
     "keywords": [
       "서몬 나이트 5",
       "서몬나이트5",
@@ -71,6 +73,7 @@
       "sting",
       "idea factory"
     ],
-    "releaseRepository": "ievy3/ievy3.github.io"
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "imageFit": "poster"
   }
 ]
