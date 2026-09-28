@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&family=Noto+Serif+KR:wght@500;600;700&display=swap");
+
 :root{
   color-scheme:dark;
   --bg:#090a0e;
@@ -21,7 +23,7 @@ body{
     radial-gradient(circle at -8% 38%,rgba(217,184,116,.07),transparent 28rem),
     var(--bg);
   color:var(--text);
-  font-family:Inter,Pretendard,"Noto Sans KR",Arial,sans-serif;
+  font-family:"Noto Sans KR",Inter,Pretendard,Arial,sans-serif;
   line-height:1.55;
 }
 body:before{
@@ -38,6 +40,7 @@ body:before{
 }
 a{color:inherit}
 button,input{font:inherit}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 
 .site-header{
@@ -77,7 +80,7 @@ main{position:relative;max-width:1180px;margin:0 auto;padding:14px 24px 76px}
 
 .hero{
   max-width:920px;
-  padding:34px 0 42px;
+  padding:28px 0 34px;
   border-bottom:1px solid var(--line);
 }
 .eyebrow{
@@ -90,7 +93,7 @@ main{position:relative;max-width:1180px;margin:0 auto;padding:14px 24px 76px}
 }
 .hero h1{
   margin:0;
-  font:500 clamp(44px,6vw,68px)/.98 Georgia,"Times New Roman",serif;
+  font:500 clamp(42px,5.6vw,62px)/.98 "Noto Serif KR",Georgia,"Times New Roman",serif;
   letter-spacing:-.05em;
 }
 .hero h1 em{color:var(--gold);font-weight:500}
@@ -119,7 +122,7 @@ main{position:relative;max-width:1180px;margin:0 auto;padding:14px 24px 76px}
   text-transform:uppercase;
 }
 
-.archive{scroll-margin-top:24px;padding-top:38px}
+.archive{scroll-margin-top:24px;padding-top:30px}
 .archive-head{
   display:flex;
   align-items:flex-end;
@@ -130,7 +133,7 @@ main{position:relative;max-width:1180px;margin:0 auto;padding:14px 24px 76px}
 .guestbook-cta h2,
 .guestbook-page-head h1{
   margin:0;
-  font:500 clamp(32px,4vw,44px)/1.04 Georgia,serif;
+  font:500 clamp(32px,4vw,44px)/1.04 "Noto Serif KR",Georgia,serif;
   letter-spacing:-.04em;
 }
 .archive-tools{display:flex;align-items:center;gap:9px}
@@ -158,6 +161,7 @@ main{position:relative;max-width:1180px;margin:0 auto;padding:14px 24px 76px}
 .status-filters button:hover{color:var(--text)}
 .status-filters button.is-active{background:#ece8df;color:#111}
 .search-box{display:block}
+.search-box[hidden]{display:none!important}
 .search-box input{
   width:190px;
   height:40px;
@@ -243,6 +247,42 @@ main{position:relative;max-width:1180px;margin:0 auto;padding:14px 24px 76px}
   object-fit:contain;
   padding:12px 20px;
 }
+.project-cover.poster{
+  background:linear-gradient(135deg,#18141a 0%,#111923 52%,#14242a 100%);
+}
+.project-cover.poster:before{opacity:.34;filter:blur(28px) saturate(.72)}
+.project-cover.poster img{
+  width:37%;
+  height:calc(100% - 26px);
+  margin:13px 9% 13px auto;
+  object-fit:contain;
+  padding:0;
+  border-radius:3px;
+  box-shadow:0 14px 34px rgba(0,0,0,.34);
+}
+.poster-copy{
+  position:absolute;
+  z-index:2;
+  left:28px;
+  top:50%;
+  width:43%;
+  transform:translateY(-50%);
+}
+.poster-copy small{
+  display:block;
+  margin-bottom:8px;
+  color:var(--gold);
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+}
+.poster-copy strong{
+  display:block;
+  font:600 clamp(20px,2.4vw,30px)/1.12 "Noto Serif KR",Georgia,serif;
+  letter-spacing:-.035em;
+  text-wrap:balance;
+}
 .project-card:hover .project-cover img{transform:scale(1.012)}
 
 .project-info{
@@ -268,7 +308,7 @@ main{position:relative;max-width:1180px;margin:0 auto;padding:14px 24px 76px}
 .project-info h3{
   min-width:0;
   margin:0;
-  font:500 27px/1.12 Georgia,serif;
+  font:500 27px/1.12 "Noto Serif KR",Georgia,serif;
   letter-spacing:-.03em;
 }
 .project-info h3 a{text-decoration:none}
@@ -281,7 +321,7 @@ main{position:relative;max-width:1180px;margin:0 auto;padding:14px 24px 76px}
   border:1px solid var(--line);
   border-radius:999px;
   color:#cfc8ba;
-  font-size:9px;
+  font-size:10px;
   font-weight:750;
   text-overflow:ellipsis;
   white-space:nowrap;
@@ -319,7 +359,7 @@ main{position:relative;max-width:1180px;margin:0 auto;padding:14px 24px 76px}
 }
 .project-state.development{color:#d1c9ff}
 .project-state.development i{background:var(--violet);box-shadow:0 0 8px var(--violet)}
-.project-date{display:block;margin-top:2px;color:#747782;font-size:9px;white-space:nowrap}
+.project-date{display:block;margin-top:2px;color:#747782;font-size:10px;white-space:nowrap}
 .project-actions{display:flex;justify-content:flex-end;gap:6px}
 .card-button{
   display:inline-flex;
@@ -426,8 +466,8 @@ footer{
   padding:20px 24px 32px;
   border-top:1px solid var(--line);
   color:#656874;
-  font-size:9px;
-  letter-spacing:.12em;
+  font-size:10px;
+  letter-spacing:.1em;
 }
 footer a{color:var(--gold);text-decoration:none}
 footer a:hover{text-decoration:underline}
@@ -498,15 +538,18 @@ footer a:hover{text-decoration:underline}
   .site-nav{gap:0}
   .site-nav a{padding:6px 7px;font-size:11px}
   main{padding:8px 14px 56px}
-  .hero{padding:26px 0 32px}
+  .hero{padding:22px 0 28px}
   .hero h1{font-size:clamp(40px,12vw,54px)}
   .hero-bottom{display:block;margin-top:18px}
   .hero-summary{display:inline-flex;margin-top:12px}
-  .archive{padding-top:30px}
+  .archive{padding-top:26px}
   .archive-tools{display:block}
   .status-filters{width:max-content;max-width:100%}
   .search-box{margin-top:8px}
   .project-info{padding:15px}
+  .poster-copy{left:20px;width:45%}
+  .poster-copy small{font-size:8px}
+  .project-cover.poster img{width:38%;margin-right:7%}
   .project-title-row{display:block}
   .version-pill{display:inline-flex;max-width:100%;margin-top:7px}
   .project-foot{align-items:flex-start;flex-direction:column}
