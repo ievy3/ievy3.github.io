@@ -9,12 +9,13 @@ const fallbackProjects = [
     imageAlt: "Summon Night 5 한글 대사 적용 화면",
     platform: "PSP",
     type: "한국어 패치",
-    status: "development",
-    statusLabel: "개발 중",
-    version: "v0.7.0 베타",
+    status: "public",
+    statusLabel: "베타 공개",
+    version: "v0.7.0",
+    download: "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.7.0/Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
     updated: "2026-09-28",
-    publicBuilds: 0,
-    description: "v0.7.0 베타 배포본 확정 · Vita 실기 검증 및 오프라인 패처 검사 완료",
+    publicBuilds: 1,
+    description: "v0.7.0 베타 공개 · PPSSPP·PS Vita 주요 기능 검증 완료, 전체 플레이 QA 진행 중",
     keywords: ["서몬 나이트 5", "서몬나이트5", "summon night 5", "summonnight", "srpg", "felistella"]
   },
   {
