@@ -74,8 +74,6 @@ const filterBar = document.querySelector("#project-filters");
 const controls = {
   sort: document.querySelector("#sort-projects"),
   status: document.querySelector("#filter-status"),
-  platform: document.querySelector("#filter-platform"),
-  type: document.querySelector("#filter-type"),
   search: document.querySelector("#project-search")
 };
 
@@ -101,8 +99,11 @@ function issueUrl(project) {
 function card(project) {
   const article = document.createElement("article");
   article.className = "project-card";
+  const cardImage = project.title === "Summon Night 5"
+    ? "/assets/images/summon-night-5/2026-09-20-dialogue.webp"
+    : project.image;
   article.innerHTML = `
-    <a class="project-cover" href="${project.href}" aria-label="${project.title} 프로젝트 보기"><img src="${project.image}" alt="${project.imageAlt}" loading="lazy"${project.image.startsWith("http") ? ' referrerpolicy="no-referrer"' : ""}></a>
+    <a class="project-cover" style="--card-image:url('${cardImage}')" href="${project.href}" aria-label="${project.title} 프로젝트 보기"><img src="${cardImage}" alt="${project.imageAlt}" loading="lazy"${cardImage.startsWith("http") ? ' referrerpolicy="no-referrer"' : ""}></a>
     <div class="project-info">
       <span class="project-kicker">${project.platform} · ${project.type}</span>
       <h3><a href="${project.href}">${project.title}</a></h3>
@@ -136,8 +137,6 @@ function render() {
     ].join(" "));
 
     return (controls.status.value === "all" || project.status === controls.status.value)
-      && (controls.platform.value === "all" || project.platform === controls.platform.value)
-      && (controls.type.value === "all" || project.type === controls.type.value)
       && (!query || haystack.includes(query));
   });
 
@@ -157,8 +156,6 @@ function render() {
     ? `전체 <strong>${projects.length}</strong>개 프로젝트`
     : `전체 ${projects.length}개 중 <strong>${filtered.length}</strong>개 표시`;
   resetButton.hidden = controls.status.value === "all"
-    && controls.platform.value === "all"
-    && controls.type.value === "all"
     && !query;
 }
 
@@ -172,8 +169,6 @@ function setFilterOpen(open) {
 function reset() {
   controls.sort.value = "updated-desc";
   controls.status.value = "all";
-  controls.platform.value = "all";
-  controls.type.value = "all";
   controls.search.value = "";
   render();
 }
@@ -196,9 +191,6 @@ async function loadProjects() {
 async function init() {
   projects = await loadProjects();
 
-  addOptions(controls.platform, [...new Set(projects.map(project => project.platform))]);
-  addOptions(controls.type, [...new Set(projects.map(project => project.type))]);
-
   document.querySelector("#project-count").textContent = String(projects.length).padStart(2, "0");
   document.querySelector("#platform-count").textContent = String(new Set(projects.map(project => project.platform)).size).padStart(2, "0");
   document.querySelector("#release-count").textContent = String(
@@ -218,3 +210,38 @@ async function init() {
 }
 
 init();
+
+function localizeHcb() {
+  const box = document.querySelector("#HCB_comment_box");
+  if (!box) return;
+
+  box.querySelectorAll('input[placeholder="Name"]').forEach(el => el.placeholder = "이름");
+  box.querySelectorAll('textarea[placeholder="Enter your comment here"]').forEach(el => el.placeholder = "메시지를 남겨 주세요");
+
+  box.querySelectorAll("button,input[type=submit]").forEach(el => {
+    const label = (el.textContent || el.value || "").trim();
+    if (label === "Comment") {
+      if ("value" in el) el.value = "등록";
+      if (el.textContent) el.textContent = "등록";
+    }
+    if (label === "Add Image") {
+      if ("value" in el) el.value = "이미지 첨부";
+      if (el.textContent) el.textContent = "이미지 첨부";
+    }
+  });
+
+  box.querySelectorAll("*").forEach(el => {
+    if (el.children.length) return;
+    const text = (el.textContent || "").trim();
+    if (text === "Comments") el.style.display = "none";
+    if (text === "Not using HtmlCommentBox yet?") el.parentElement?.style.setProperty("display", "none");
+    if (text === "No one has commented yet. Be the first!") el.textContent = "아직 작성된 글이 없습니다. 첫 메시지를 남겨 주세요.";
+  });
+}
+
+const hcbTarget = document.querySelector("#HCB_comment_box");
+if (hcbTarget) {
+  const hcbObserver = new MutationObserver(localizeHcb);
+  hcbObserver.observe(hcbTarget, { childList: true, subtree: true });
+  localizeHcb();
+}
