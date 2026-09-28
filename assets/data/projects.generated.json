@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T10:22:29.519Z",
+  "generatedAt": "2026-09-28T11:56:01.393Z",
   "projects": [
     {
       "title": "Summon Night 5",
@@ -82,7 +82,7 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
       "downloadAsset": "Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
-      "downloadCount": 299,
+      "downloadCount": 301,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gungnir-v0.9.0",
       "releaseName": "Gungnir 한글 패치 v0.9.0 — 공개 검수판 (260922)",
       "releasePublishedAt": "2026-09-22T20:02:45Z",
