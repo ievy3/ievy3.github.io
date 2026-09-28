@@ -63,10 +63,9 @@
         download.classList.remove("disabled");
       }
 
-      const count = document.querySelector("[data-release-download-count]");
-      if (count) {
+      document.querySelectorAll("[data-release-download-count]").forEach(count => {
         count.textContent = `다운로드 ${(Number(asset.download_count) || 0).toLocaleString("ko-KR")}회`;
-      }
+      });
     } catch (error) {
       console.warn("Live GitHub release metadata unavailable; keeping generated metadata.", error);
     }
@@ -117,9 +116,10 @@
         releaseLink.hidden = false;
       }
 
-      const count = document.querySelector("[data-release-download-count]");
-      if (count && Number.isFinite(project.downloadCount)) {
-        count.textContent = `다운로드 ${project.downloadCount.toLocaleString("ko-KR")}회`;
+      if (Number.isFinite(project.downloadCount)) {
+        document.querySelectorAll("[data-release-download-count]").forEach(count => {
+          count.textContent = `다운로드 ${project.downloadCount.toLocaleString("ko-KR")}회`;
+        });
       }
 
       refreshLiveReleaseAsset(project);
