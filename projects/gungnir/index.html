@@ -18,7 +18,7 @@
   <meta name="twitter:title" content="Gungnir | Noctil Patchworks">
   <meta name="twitter:description" content="Gungnir PSP 비공식 한국어 번역 프로젝트와 v0.9.0 공개 검수판">
   <meta name="twitter:image" content="https://ievy3.github.io/assets/images/gungnir/latest-2026-09-23-title.webp">
-  <link rel="stylesheet" href="/assets/css/project.css?v=21">
+  <link rel="stylesheet" href="/assets/css/project.css?v=22">
 </head>
 <body class="project-page" data-project-slug="gungnir">
 <main>
@@ -29,8 +29,8 @@
       <p class="eyebrow">PSP FAN TRANSLATION · BY NOCTIL</p>
       <h1>Gungnir</h1>
       <div class="badges">
-        <span class="badge badge-live"><i></i>개발 중</span>
-        <span class="badge" data-release-version-label>v0.9.0 공개 검수판</span>
+        <span class="badge badge-live"><i></i><span data-release-status-label>베타 공개</span></span>
+        <span class="badge"><span data-release-version>v0.9.0</span> 공개 검수판</span>
         <span class="badge">플레이 검증 진행 필요</span>
         <span class="badge" data-release-date-badge>2026.09.22 업데이트</span>
       </div>
@@ -38,8 +38,8 @@
   </header>
 
   <section class="project-facts" aria-label="프로젝트 핵심 정보">
-    <div><span>상태</span><strong class="fact-development">개발 중</strong></div>
-    <div><span>최신 버전</span><strong data-release-version-label>v0.9.0 공개 검수판</strong></div>
+    <div><span>상태</span><strong class="fact-live" data-release-status data-release-status-label>베타 공개</strong></div>
+    <div><span>최신 버전</span><strong><span data-release-version>v0.9.0</span> 공개 검수판</strong></div>
     <div><span>마지막 업데이트</span><strong data-release-date>2026.09.22</strong></div>
   </section>
 
@@ -94,7 +94,7 @@
     </article>
     <article class="box release-card" id="release">
       <p class="eyebrow">RELEASE</p>
-      <h2 data-release-title>v0.9.0 공개 검수판</h2>
+      <h2><span data-release-version>v0.9.0</span> 공개 검수판</h2>
       <p>v0.8.0 이후 튜토리얼·준비 메뉴·승리 결과·챕터 이미지 191장과 타이틀·엔딩 로고 표기를 갱신하고, 캐릭터 대사 10행을 교정했습니다. 정적 구조와 패처 결과 일치 검증은 완료했으며 전체 런타임 QA와 실제 화면 검수는 계속 진행합니다.</p>
       <a class="button" data-release-download href="https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe">v0.9.0 패처 다운로드 (.exe)</a>
       <small data-release-download-count>다운로드 횟수 확인 중…</small>
@@ -114,7 +114,7 @@
     <div class="release-history-list">
       <article class="release-history-item">
         <div class="release-history-version">
-          <strong>v0.9.0</strong>
+          <strong data-release-history-version>v0.9.0</strong>
           <span>BETA</span>
         </div>
         <div class="release-history-meta">
@@ -246,7 +246,7 @@
 
   <footer class="footer-note">GUNGNIR KOREAN TRANSLATION · NOCTIL PATCHWORKS</footer>
 </main>
-<script src="/assets/js/project-release.js?v=1" defer></script>
+<script src="/assets/js/project-release.js?v=2" defer></script>
 <script>
 (() => {
   const repository = 'ievy3/ievy3.github.io';
