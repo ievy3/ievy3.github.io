@@ -15,7 +15,7 @@ const fallbackProjects = [
     download: "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.7.0/Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
     updated: "2026-09-28",
     publicBuilds: 1,
-    description: "v0.7.0 베타 공개 · PPSSPP·PS Vita 주요 기능 검증 완료, 전체 플레이 QA 진행 중",
+    description: "Vita 실기 검증 및 오프라인 패처 검사 완료",
     keywords: ["서몬 나이트 5", "서몬나이트5", "summon night 5", "summonnight", "srpg", "felistella"]
   },
   {
@@ -23,6 +23,7 @@ const fallbackProjects = [
     href: "/projects/generation-of-chaos-6/",
     image: "https://www.ideaf.co.jp/game/platform/img/psp/goc6.jpg",
     imageAlt: "Generation of Chaos 6 일본판 PSP 공식 제품 이미지",
+    imageFit: "poster",
     platform: "PSP",
     type: "한국어 패치",
     status: "development",
@@ -46,7 +47,7 @@ const fallbackProjects = [
     download: "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
     updated: "2026-09-22",
     publicBuilds: 2,
-    description: "v0.9.0 공개 · 전체 플레이 QA 진행 중",
+    description: "전체 플레이 QA 및 실제 화면 검수 진행 중",
     keywords: ["궁그닐", "gungnir", "srpg", "atlus"]
   },
   {
@@ -62,7 +63,7 @@ const fallbackProjects = [
     download: "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.2/Noctil_Patchworks_Offline_v0.9.2-beta.1.zip",
     updated: "2026-09-19",
     publicBuilds: 3,
-    description: "v0.9.2-beta.1 공개 · 전체 플레이 QA 진행 중",
+    description: "전체 플레이 QA와 잔여 문자열 검수 진행 중",
     keywords: ["엑시즈 포스", "hexyz", "rpg", "atlus"]
   }
 ];
@@ -71,6 +72,7 @@ const grid = document.querySelector("#project-grid");
 const emptyState = document.querySelector("#empty-state");
 const resultCount = document.querySelector("#result-count");
 const searchInput = document.querySelector("#project-search");
+const searchBox = document.querySelector(".search-box");
 const statusButtons = [...document.querySelectorAll("[data-status-filter]")];
 
 function formatDate(date) {
@@ -86,11 +88,20 @@ function card(project) {
   article.className = "project-card";
 
   const cardImage = project.image;
-  const containImage = project.title === "Generation of Chaos 6";
-  const imageClass = containImage ? "contain" : "";
+  const posterImage = project.imageFit === "poster" || project.title === "Generation of Chaos 6";
+  const imageClass = posterImage ? "contain" : "";
+  const posterCopy = posterImage
+    ? `<span class="poster-copy"><small>${project.platform} · ${project.statusLabel}</small><strong>${project.title}</strong></span>`
+    : "";
+  let displayDescription = project.description || "";
+  if (project.version && displayDescription.startsWith(project.version)) {
+    displayDescription = displayDescription.slice(project.version.length).trim();
+    displayDescription = displayDescription.replace(/^(?:베타\s+)?(?:배포본\s+확정|공개)\s*·\s*/, "");
+  }
 
   article.innerHTML = `
-    <a class="project-cover" style="--card-image:url('${cardImage}')" href="${project.href}" aria-label="${project.title} 프로젝트 보기">
+    <a class="project-cover ${posterImage ? "poster" : ""}" style="--card-image:url('${cardImage}')" href="${project.href}" aria-label="${project.title} 프로젝트 보기">
+      ${posterCopy}
       <img class="${imageClass}" src="${cardImage}" alt="${project.imageAlt}" loading="lazy"${cardImage.startsWith("http") ? ' referrerpolicy="no-referrer"' : ""}>
     </a>
     <div class="project-info">
@@ -99,7 +110,7 @@ function card(project) {
         <h3><a href="${project.href}">${project.title}</a></h3>
         <span class="version-pill">${project.version}</span>
       </div>
-      <p class="project-desc">${project.description}</p>
+      <p class="project-desc">${displayDescription}</p>
       <div class="project-foot">
         <div>
           <span class="project-state ${project.status}"><i></i>${project.statusLabel}</span>
@@ -128,7 +139,11 @@ function render() {
       return (activeStatus === "all" || project.status === activeStatus)
         && (!query || haystack.includes(query));
     })
-    .sort((a, b) => b.updated.localeCompare(a.updated) || a.title.localeCompare(b.title, "ko"));
+    .sort((a, b) => {
+      const statusOrder = { public: 0, development: 1 };
+      const statusDelta = (statusOrder[a.status] ?? 9) - (statusOrder[b.status] ?? 9);
+      return statusDelta || b.updated.localeCompare(a.updated) || a.title.localeCompare(b.title, "ko");
+    });
 
   grid.replaceChildren(...filtered.map(card));
   emptyState.hidden = filtered.length !== 0;
@@ -169,6 +184,7 @@ async function init() {
   const platformLabel = platforms.length === 1 ? platforms[0] : `${platforms.length} Platforms`;
   const heroSummary = document.querySelector("#hero-summary");
   if (heroSummary) heroSummary.textContent = `${projects.length} Projects · ${platformLabel}`;
+  if (searchBox) searchBox.hidden = projects.length < 6;
 
   statusButtons.forEach(button => {
     button.addEventListener("click", () => setStatus(button.dataset.statusFilter));
