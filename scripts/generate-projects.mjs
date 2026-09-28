@@ -75,6 +75,10 @@ function releaseDate(release) {
   return (release.published_at || release.created_at || "").slice(0, 10);
 }
 
+function tagMatchesPrefix(tag, prefix) {
+  return tag.toLocaleLowerCase("en-US").startsWith(prefix.toLocaleLowerCase("en-US"));
+}
+
 function selectReleaseAsset(release) {
   const assets = (release.assets || []).filter(asset =>
     !/^source code/i.test(asset.name)
@@ -96,7 +100,7 @@ function versionFromRelease(release, prefix, asset = null) {
     if (match) return match[0];
   }
 
-  const raw = release.tag_name.startsWith(prefix)
+  const raw = tagMatchesPrefix(release.tag_name, prefix)
     ? release.tag_name.slice(prefix.length)
     : release.tag_name;
   return raw.startsWith("v") ? raw : `v${raw}`;
@@ -104,7 +108,7 @@ function versionFromRelease(release, prefix, asset = null) {
 
 function latestReleaseFor(project, releases) {
   return releases
-    .filter(release => !release.draft && release.tag_name.startsWith(project.releasePrefix))
+    .filter(release => !release.draft && tagMatchesPrefix(release.tag_name, project.releasePrefix))
     .sort((a, b) => {
       const aTime = a.published_at || a.created_at || "";
       const bTime = b.published_at || b.created_at || "";
@@ -135,7 +139,7 @@ for (const project of config) {
   const { repository: releaseRepository, releases } = await releasesFor(project);
   const worklog = await latestWorklog(project.slug);
   const matchingReleases = releases.filter(
-    release => !release.draft && release.tag_name.startsWith(project.releasePrefix)
+    release => !release.draft && tagMatchesPrefix(release.tag_name, project.releasePrefix)
   );
   const release = latestReleaseFor(project, releases);
   const asset = release ? selectReleaseAsset(release) : null;
