@@ -247,42 +247,6 @@ main{position:relative;max-width:1180px;margin:0 auto;padding:14px 24px 76px}
   object-fit:contain;
   padding:12px 20px;
 }
-.project-cover.poster{
-  background:linear-gradient(135deg,#18141a 0%,#111923 52%,#14242a 100%);
-}
-.project-cover.poster:before{opacity:.34;filter:blur(28px) saturate(.72)}
-.project-cover.poster img{
-  width:37%;
-  height:calc(100% - 26px);
-  margin:13px 9% 13px auto;
-  object-fit:contain;
-  padding:0;
-  border-radius:3px;
-  box-shadow:0 14px 34px rgba(0,0,0,.34);
-}
-.poster-copy{
-  position:absolute;
-  z-index:2;
-  left:28px;
-  top:50%;
-  width:43%;
-  transform:translateY(-50%);
-}
-.poster-copy small{
-  display:block;
-  margin-bottom:8px;
-  color:var(--gold);
-  font-size:9px;
-  font-weight:800;
-  letter-spacing:.14em;
-  text-transform:uppercase;
-}
-.poster-copy strong{
-  display:block;
-  font:600 clamp(20px,2.4vw,30px)/1.12 Georgia,"Noto Serif KR",serif;
-  letter-spacing:-.035em;
-  text-wrap:balance;
-}
 .project-card:hover .project-cover img{transform:scale(1.012)}
 
 .project-info{
@@ -547,9 +511,6 @@ footer a:hover{text-decoration:underline}
   .status-filters{width:max-content;max-width:100%}
   .search-box{margin-top:8px}
   .project-info{padding:15px}
-  .poster-copy{left:20px;width:45%}
-  .poster-copy small{font-size:8px}
-  .project-cover.poster img{width:38%;margin-right:7%}
   .project-title-row{display:block}
   .version-pill{display:inline-flex;max-width:100%;margin-top:7px}
   .project-foot{align-items:flex-start;flex-direction:column}
