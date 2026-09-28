@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Noctil이 제작하는 비공식 한국어 게임 번역 패치 아카이브">
   <title>Noctil Patchworks</title>
-  <link rel="stylesheet" href="/assets/css/home.css?v=10">
-  <script src="/assets/js/home.js?v=7" defer></script>
+  <link rel="stylesheet" href="/assets/css/home.css?v=11">
+  <script src="/assets/js/home.js?v=8" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -18,7 +18,7 @@
       <a href="#patches">패치 목록</a>
       <a href="#support">후원</a>
       <a href="#guestbook">방명록</a>
-      <a href="https://github.com/ievy3/ievy3.github.io" target="_blank" rel="noopener">GitHub ↗</a>
+      <a class="nav-github" href="https://github.com/ievy3/ievy3.github.io" target="_blank" rel="noopener">GitHub ↗</a>
     </nav>
   </header>
 
@@ -33,7 +33,7 @@
         <div class="hero-stats" aria-label="아카이브 개요">
           <div><strong id="project-count">04</strong><span>Projects</span></div>
           <div><strong id="platform-count">01</strong><span>Platforms</span></div>
-          <div><strong id="release-count">05</strong><span>Public builds</span></div>
+          <div><strong id="release-count">05</strong><span>Releases</span></div>
         </div>
       </div>
     </section>
@@ -47,7 +47,8 @@
         <p>작업 중인 프로젝트와 공개된 패치를 한곳에서 확인할 수 있습니다.</p>
       </div>
 
-      <div class="filter-bar" aria-label="패치 목록 필터">
+      <button class="filter-toggle" id="filter-toggle" type="button" aria-expanded="false" aria-controls="project-filters">필터 및 검색 열기</button>
+      <div class="filter-bar" id="project-filters" aria-label="패치 목록 필터">
         <label>
           <span>정렬</span>
           <select id="sort-projects">
@@ -100,7 +101,7 @@
 
     <section class="principles" aria-label="배포 원칙">
       <div class="principle"><b>01</b><div><strong>패치 파일 및 적용 도구 배포</strong><span>원본 게임 데이터와 적용 결과물은 포함하지 않습니다.</span></div></div>
-      <div class="principle"><b>02</b><div><strong>비공식·비영리</strong><span>개인이 운영하는 팬 번역 프로젝트입니다.</span></div></div>
+      <div class="principle"><b>02</b><div><strong>비공식 팬 프로젝트</strong><span>패치는 무료로 공개하며 후원은 선택 사항입니다.</span></div></div>
       <div class="principle"><b>03</b><div><strong>과정까지 기록</strong><span>날짜별 작업일지와 검증 결과를 남깁니다.</span></div></div>
     </section>
 
@@ -117,7 +118,7 @@
 
     <section class="guestbook" id="guestbook">
       <div class="section-head guestbook-head">
-        <div><p class="eyebrow">LEAVE A MESSAGE</p><h2>Guestbook</h2></div>
+        <div><p class="eyebrow">LEAVE A MESSAGE</p><h2>방명록</h2></div>
         <p>번역 프로젝트에 관한 응원이나 의견을 자유롭게 남겨 주세요.</p>
       </div>
       <div class="guestbook-panel">
@@ -141,7 +142,7 @@
 
   <footer>
     <span>© 2026 NOCTIL PATCHWORKS</span>
-    <span>NOT AFFILIATED WITH THE ORIGINAL DEVELOPERS OR PUBLISHERS</span>
+    <span><a href="https://github.com/ievy3/ievy3.github.io/issues/new" target="_blank" rel="noopener">오류 제보 ↗</a> · NOT AFFILIATED WITH THE ORIGINAL DEVELOPERS OR PUBLISHERS</span>
   </footer>
 </body>
 </html>
