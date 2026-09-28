@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Noctil Patchworks 방명록">
+  <title>방명록 | Noctil Patchworks</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/home.css?v=13">
+  <script src="/assets/js/guestbook.js?v=1" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">
+      <span class="brand-mark">NP</span>
+      <span class="brand-name">Noctil Patchworks</span>
+    </a>
+    <nav class="site-nav" aria-label="주요 메뉴">
+      <a href="/#patches">패치</a>
+      <a href="/#support">후원</a>
+      <a href="/guestbook/" aria-current="page">방명록</a>
+      <a class="nav-github" href="https://github.com/ievy3/ievy3.github.io" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main class="guestbook-main">
+    <a class="back-link" href="/">← 패치 목록으로 돌아가기</a>
+
+    <header class="guestbook-page-head">
+      <p class="eyebrow">LEAVE A MESSAGE</p>
+      <h1>방명록</h1>
+      <p>번역 프로젝트에 관한 응원이나 의견을 자유롭게 남겨 주세요. 오류 제보는 GitHub Issues를 이용하면 프로젝트별로 추적하기 쉽습니다.</p>
+    </header>
+
+    <section class="guestbook-panel" aria-label="방명록 작성 및 목록">
+      <div id="HCB_comment_box"><a href="https://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+      <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0">
+      <script type="text/javascript" id="hcb">
+        if(!window.hcb_user){hcb_user={};}
+        hcb_user.PAGE="https://ievy3.github.io/";
+        hcb_user.PAGE_TITLE="Noctil Patchworks 방명록";
+        hcb_user.WEBSITE="https://ievy3.github.io/";
+        (function(){
+          var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";
+          s.setAttribute("type","text/javascript");
+          s.setAttribute("src",h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24kHaIjI8Ixmze9N%2FKElWkL.&opts=16798&num=10&ts=1790570372623");
+          document.getElementsByTagName("head")[0].appendChild(s);
+        })();
+      </script>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 NOCTIL PATCHWORKS</span>
+    <span><a href="https://github.com/ievy3/ievy3.github.io/issues/new" target="_blank" rel="noopener">오류 제보 ↗</a> · NOT AFFILIATED WITH THE ORIGINAL DEVELOPERS OR PUBLISHERS</span>
+  </footer>
+</body>
+</html>
