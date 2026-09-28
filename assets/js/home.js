@@ -21,9 +21,8 @@ const fallbackProjects = [
   {
     title: "Generation of Chaos 6",
     href: "/projects/generation-of-chaos-6/",
-    image: "https://www.ideaf.co.jp/game/platform/img/psp/goc6.jpg",
-    imageAlt: "Generation of Chaos 6 일본판 PSP 공식 제품 이미지",
-    imageFit: "poster",
+    image: "https://www.ideaf.co.jp/game/spec/psp/goc6/img/ss1.jpg",
+    imageAlt: "Generation of Chaos 6 일본판 PSP 공식 게임 화면",
     platform: "PSP",
     type: "한국어 패치",
     status: "development",
@@ -88,11 +87,9 @@ function card(project) {
   article.className = "project-card";
 
   const cardImage = project.image;
-  const posterImage = project.imageFit === "poster" || project.title === "Generation of Chaos 6";
+  const posterImage = project.imageFit === "poster";
   const imageClass = posterImage ? "contain" : "";
-  const posterCopy = posterImage
-    ? `<span class="poster-copy"><small>${project.platform} · ${project.statusLabel}</small><strong>${project.title}</strong></span>`
-    : "";
+  const posterCopy = "";
   let displayDescription = project.description || "";
   if (project.version && displayDescription.startsWith(project.version)) {
     displayDescription = displayDescription.slice(project.version.length).trim();
