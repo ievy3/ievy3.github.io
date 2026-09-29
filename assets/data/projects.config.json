@@ -78,8 +78,8 @@
   {
     "slug": "sol-trigger",
     "title": "Sol Trigger",
-    "image": "https://images.launchbox-app.com//4825b434-0f9f-4d93-9317-c5758507cb49.png",
-    "imageAlt": "Sol Trigger PSP 타이틀 화면",
+    "image": "https://images.staticjw.com/jrp/6922/04146dc4e9077c394ee47b353a7ba4481af6.jpg",
+    "imageAlt": "Sol Trigger 공식 프로모션 이미지",
     "platform": "PSP",
     "type": "한국어 패치",
     "releasePrefix": "sol-trigger-",
@@ -91,6 +91,7 @@
       "jrpg",
       "imageepoch"
     ],
-    "releaseRepository": "ievy3/ievy3.github.io"
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "imageFit": "cover"
   }
 ]
