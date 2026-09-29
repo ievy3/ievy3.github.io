@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T14:14:24.760Z",
+  "generatedAt": "2026-09-29T14:31:08.669Z",
   "projects": [
     {
       "title": "Sol Trigger",
@@ -8,8 +8,8 @@
       "repositoryUrl": null,
       "issuesUrl": null,
       "releaseRepository": "ievy3/ievy3.github.io",
-      "image": "https://images.launchbox-app.com//4825b434-0f9f-4d93-9317-c5758507cb49.png",
-      "imageAlt": "Sol Trigger PSP 타이틀 화면",
+      "image": "https://images.staticjw.com/jrp/6922/04146dc4e9077c394ee47b353a7ba4481af6.jpg",
+      "imageAlt": "Sol Trigger 공식 프로모션 이미지",
       "imageFit": "cover",
       "platform": "PSP",
       "type": "한국어 패치",
@@ -50,7 +50,7 @@
       "version": "v0.7.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.7.0/Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
-      "downloadCount": 466,
+      "downloadCount": 471,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.7.0",
       "releaseName": "서몬나이트 5 (Summon Night 5) 한글 패치 v0.7.0 — 베타",
       "releasePublishedAt": "2026-09-28T11:55:53Z",
