@@ -30,7 +30,7 @@
       <h1>Sol Trigger</h1>
       <div class="badges">
         <span class="badge badge-live"><i></i><span data-release-status-label>개발 중</span></span>
-        <span class="badge">신규 프로젝트</span>
+        <span class="badge">v0.1.0 후보</span>
         <span class="badge" data-release-version>첫 공개 전</span>
         <span class="badge" data-release-date-badge>2026.09.29 업데이트</span>
       </div>
@@ -40,7 +40,7 @@
   <section class="project-facts" aria-label="프로젝트 핵심 정보">
     <div><span>상태</span><strong class="fact-development" data-release-status data-release-status-label>개발 중</strong></div>
     <div><span>최신 버전</span><strong data-release-version>첫 공개 전</strong></div>
-    <div><span>현재 단계</span><strong>프로젝트 등록 · 사전 조사</strong></div>
+    <div><span>현재 단계</span><strong>베타 후보 · 잔여 번역 정리</strong></div>
     <div><span>마지막 업데이트</span><strong data-release-date>2026.09.29</strong></div>
   </section>
 
@@ -78,20 +78,20 @@
   <section class="split-grid" id="recent-update">
     <article class="box">
       <p class="eyebrow">RECENT UPDATE</p>
-      <h2>9월 29일 프로젝트 등록</h2>
+      <h2>9월 29일 v0.1.0 후보 빌드</h2>
       <ul class="compact-list">
-        <li>Noctil Patchworks의 다섯 번째 PSP 한국어 패치 프로젝트로 Sol Trigger를 추가</li>
-        <li>프로젝트 페이지와 작업일지 구조를 생성하고 일본판 공식 패키지 아트를 등록</li>
-        <li>원작 기본 정보와 일본판 제품 코드(ULJM-06093)를 정리</li>
-        <li>다음 단계에서 게임 데이터 구조, 텍스트 인코딩, 폰트와 재삽입 경로를 조사할 예정</li>
+        <li>스토리·시스템·전투·메뉴 등 <strong>13,430행</strong>의 텍스트를 게임 데이터에 반영</li>
+        <li>필요한 한글 글리프를 모두 확보해 현재 번역본 기준 폰트 부족 0자 확인</li>
+        <li>50개 이미지 패키지의 <strong>234개 텍스처</strong>를 한국어화하고 캐릭터 카드 11장 사용자 검수 완료</li>
+        <li>내부 베타 후보를 생성했으며, 현재 화면 표시 일본어 <strong>2,407행</strong>과 실기 검증을 남겨둔 상태</li>
       </ul>
       <a class="log-link" href="/projects/sol-trigger/updates/2026-09-29.html">9월 29일 상세 작업일지 <span>→</span></a>
     </article>
 
     <article class="box release-card" id="release">
       <p class="eyebrow">RELEASE</p>
-      <h2>첫 공개 전</h2>
-      <p>현재는 프로젝트 등록과 사전 조사 단계입니다. 지원 원본, 한글 표시 방식, 텍스트 재삽입 및 빌드 검증 범위가 확정된 뒤 공개 패치를 준비합니다.</p>
+      <h2>v0.1.0 후보 · 아직 미배포</h2>
+      <p>통합 빌드와 오프라인 패치 후보는 준비됐지만 공개 버전은 아닙니다. 화면 표시 일본어 잔존분을 정리하고 실제 게임 플레이 검증을 마친 뒤 첫 배포본을 공개할 예정입니다.</p>
       <span class="button disabled" aria-disabled="true">아직 다운로드할 수 없습니다</span>
       <small>원본 ROM·ISO 및 패치 적용 결과물은 배포하지 않습니다.</small>
     </article>
@@ -100,18 +100,18 @@
   <section class="summary-grid progress-followup" id="now">
     <article class="box">
       <p class="eyebrow">NOW WORKING ON</p>
-      <h2>다음 조사 항목</h2>
+      <h2>공개 전 남은 작업</h2>
       <ol class="task-list">
-        <li class="active"><span>01</span><div><strong>게임 데이터 구조 확인</strong><small>아카이브·스크립트·메시지 파일의 위치와 형식을 조사</small></div></li>
-        <li><span>02</span><div><strong>텍스트·폰트 분석</strong><small>문자 인코딩과 글리프 구조, 한글 표시 가능 경로를 확인</small></div></li>
-        <li><span>03</span><div><strong>추출·재삽입 PoC</strong><small>원문 추출과 길이가 달라진 번역문 재삽입이 가능한지 검증</small></div></li>
+        <li class="active"><span>01</span><div><strong>화면 표시 일본어 정리</strong><small>단어집·전투 대사·메뉴 등 남은 2,407행을 우선 처리</small></div></li>
+        <li><span>02</span><div><strong>통합 재빌드 재검증</strong><small>잔여 텍스트와 이미지 수정분을 합친 뒤 표시 문제와 회귀 여부를 확인</small></div></li>
+        <li><span>03</span><div><strong>실제 게임 플레이 검증</strong><small>부팅과 주요 화면부터 실제 플레이 구간까지 확인한 뒤 공개 여부를 결정</small></div></li>
       </ol>
     </article>
     <article class="box focus-card">
-      <p class="eyebrow">PROJECT POLICY</p>
-      <h2>일본판 기준으로 시작</h2>
-      <p>초기 기술 분석은 일본판 PSP 버전(ULJM-06093)을 기준으로 진행합니다. 번역·표기 원칙과 지원 범위는 실제 추출 데이터가 확보된 뒤 확정합니다.</p>
-      <p class="fine-print">현재 표시된 항목은 프로젝트 시작 시점의 계획이며 완료 수치가 아닙니다.</p>
+      <p class="eyebrow">CURRENT CANDIDATE</p>
+      <h2>첫 베타 후보는 내부 검수용</h2>
+      <p>한글 표시 기반과 대량 번역·이미지 반영은 통합됐습니다. 다만 현재 v0.1.0 후보는 공개 배포본이 아니며, 남은 일본어와 실제 플레이 검증 결과에 따라 내용이 계속 바뀔 수 있습니다.</p>
+      <p class="fine-print">진행 수치는 2026년 9월 29일 종료 시점의 정적 검사·통합 빌드 기준입니다.</p>
     </article>
   </section>
 
@@ -119,7 +119,7 @@
     <details>
       <summary><span>지원 원본 및 배포 방식</span><small>첫 공개 전</small></summary>
       <div class="details-body">
-        <p>현재 조사 기준은 일본판 PSP 버전(ULJM-06093)입니다. 실제 지원 원본과 패치 형식은 구조 분석과 빌드 검증 후 확정합니다.</p>
+        <p>현재 기술 작업은 일본판 PSP 버전을 기준으로 진행 중입니다. 실제 공개 패치의 지원 원본과 적용 조건은 최종 검증 후 확정합니다.</p>
         <p>배포 시에도 사용자가 직접 보유한 지원 버전의 원본 게임 데이터가 필요하며, ROM·ISO나 패치 적용이 완료된 게임 이미지는 제공하지 않습니다.</p>
       </div>
     </details>
