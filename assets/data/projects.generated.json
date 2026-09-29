@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-09-28T14:43:54.976Z",
+  "generatedAt": "2026-09-29T14:14:24.760Z",
   "projects": [
+    {
+      "title": "Sol Trigger",
+      "href": "/projects/sol-trigger/",
+      "repository": null,
+      "repositoryUrl": null,
+      "issuesUrl": null,
+      "releaseRepository": "ievy3/ievy3.github.io",
+      "image": "https://images.launchbox-app.com//4825b434-0f9f-4d93-9317-c5758507cb49.png",
+      "imageAlt": "Sol Trigger PSP 타이틀 화면",
+      "imageFit": "cover",
+      "platform": "PSP",
+      "type": "한국어 패치",
+      "status": "development",
+      "statusLabel": "개발 중",
+      "version": "첫 공개 전",
+      "updated": "2026-09-29",
+      "publicBuilds": 0,
+      "description": "신규 프로젝트 등록 · 기술 구조와 번역 파이프라인 조사 예정",
+      "keywords": [
+        "솔 트리거",
+        "솔트리거",
+        "sol trigger",
+        "jrpg",
+        "imageepoch"
+      ],
+      "latestWorklog": {
+        "date": "2026-09-29",
+        "title": "Sol Trigger 한국어 패치 프로젝트 시작",
+        "href": "/projects/sol-trigger/updates/2026-09-29.html"
+      },
+      "latestReleaseTag": null
+    },
     {
       "title": "Summon Night 5",
       "href": "/projects/summon-night-5/",
@@ -18,7 +50,7 @@
       "version": "v0.7.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.7.0/Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
-      "downloadCount": 0,
+      "downloadCount": 466,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.7.0",
       "releaseName": "서몬나이트 5 (Summon Night 5) 한글 패치 v0.7.0 — 베타",
       "releasePublishedAt": "2026-09-28T11:55:53Z",
@@ -91,7 +123,7 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
       "downloadAsset": "Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
-      "downloadCount": 303,
+      "downloadCount": 315,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gungnir-v0.9.0",
       "releaseName": "Gungnir 한글 패치 v0.9.0 — 공개 검수판 (260922)",
       "releasePublishedAt": "2026-09-22T20:02:45Z",
@@ -128,7 +160,7 @@
       "version": "v0.9.2-beta.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.2/Noctil_Patchworks_Offline_v0.9.2-beta.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_v0.9.2-beta.1.zip",
-      "downloadCount": 422,
+      "downloadCount": 432,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.2",
       "releaseName": "Hexyz Force 한글 패치 v0.9.2 — 공개 검수판 (260919)",
       "releasePublishedAt": "2026-09-19T01:11:19Z",
