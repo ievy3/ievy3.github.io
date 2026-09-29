@@ -3,6 +3,21 @@ let activeStatus = "all";
 
 const fallbackProjects = [
   {
+    title: "Sol Trigger",
+    href: "/projects/sol-trigger/",
+    image: "https://images.launchbox-app.com//4825b434-0f9f-4d93-9317-c5758507cb49.png",
+    imageAlt: "Sol Trigger PSP 타이틀 화면",
+    platform: "PSP",
+    type: "한국어 패치",
+    status: "development",
+    statusLabel: "개발 중",
+    version: "첫 공개 전",
+    updated: "2026-09-29",
+    publicBuilds: 0,
+    description: "신규 프로젝트 등록 · 기술 구조와 번역 파이프라인 조사 예정",
+    keywords: ["솔 트리거", "솔트리거", "sol trigger", "jrpg", "imageepoch"]
+  },
+  {
     title: "Summon Night 5",
     href: "/projects/summon-night-5/",
     image: "/assets/images/summon-night-5/2026-09-28-title.webp",
