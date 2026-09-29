@@ -5,8 +5,9 @@ const fallbackProjects = [
   {
     title: "Sol Trigger",
     href: "/projects/sol-trigger/",
-    image: "https://images.staticjw.com/jrp/6922/04146dc4e9077c394ee47b353a7ba4481af6.jpg",
-    imageAlt: "Sol Trigger 공식 프로모션 이미지",
+    image: "https://images.launchbox-app.com/c6f98fbe-3ada-41ea-bd51-ccfc5cbf3a17.jpg",
+    imageAlt: "Sol Trigger 일본판 공식 패키지 아트",
+    imageFit: "contain",
     platform: "PSP",
     type: "한국어 패치",
     status: "development",
@@ -110,7 +111,7 @@ function card(project) {
 
   article.innerHTML = `
     <a class="project-cover" style="--card-image:url('${cardImage}')" href="${project.href}" aria-label="${project.title} 프로젝트 보기">
-      <img src="${cardImage}" alt="${project.imageAlt}" loading="lazy"${cardImage.startsWith("http") ? ' referrerpolicy="no-referrer"' : ""}>
+      <img src="${cardImage}" alt="${project.imageAlt}" loading="lazy" style="object-fit:${project.imageFit || "cover"}"${cardImage.startsWith("http") ? ' referrerpolicy="no-referrer"' : ""}>
     </a>
     <div class="project-info">
       <span class="project-kicker">${project.platform}</span>
