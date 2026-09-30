@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T16:33:08.052Z",
+  "generatedAt": "2026-09-30T16:40:25.623Z",
   "projects": [
     {
       "title": "Generation of Chaos 6",
@@ -30,7 +30,7 @@
       ],
       "latestWorklog": {
         "date": "2026-09-29",
-        "title": "번역·윤문 완료, 첫 전체 한국어 빌드까지",
+        "title": "번역 초벌·전체 윤문을 마치고 첫 전체 한국어 빌드까지",
         "href": "/projects/generation-of-chaos-6/updates/2026-09-29.html"
       },
       "latestReleaseTag": null
