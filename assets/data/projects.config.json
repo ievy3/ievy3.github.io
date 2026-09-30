@@ -82,8 +82,8 @@
     "imageAlt": "Sol Trigger 일본판 공식 패키지 아트",
     "platform": "PSP",
     "type": "한국어 패치",
-    "releasePrefix": "sol-trigger-",
-    "description": "신규 프로젝트 등록 · 기술 구조와 번역 파이프라인 조사 예정",
+    "releasePrefix": "soltrigger-",
+    "description": "v0.9.1 베타 공개 · 전체 플레이 QA 진행 중",
     "keywords": [
       "솔 트리거",
       "솔트리거",
