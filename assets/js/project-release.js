@@ -101,7 +101,9 @@
           download.href = project.download;
           download.removeAttribute("aria-disabled");
           download.classList.remove("disabled");
-          download.textContent = `${project.version} 패처 다운로드${project.downloadAsset?.toLowerCase().endsWith(".exe") ? " (.exe)" : ""}`;
+          const extMatch = project.downloadAsset?.match(/\.(zip|exe|7z)$/i);
+          const extLabel = extMatch ? ` (.${extMatch[1].toLowerCase()})` : "";
+          download.textContent = `${project.version} 패처 다운로드${extLabel}`;
         } else {
           download.removeAttribute("href");
           download.setAttribute("aria-disabled", "true");
