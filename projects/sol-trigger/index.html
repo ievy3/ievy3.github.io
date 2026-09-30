@@ -29,25 +29,26 @@
       <p class="eyebrow">PSP FAN TRANSLATION · BY NOCTIL</p>
       <h1>Sol Trigger</h1>
       <div class="badges">
-        <span class="badge badge-live"><i></i><span data-release-status-label>개발 중</span></span>
-        <span class="badge">v0.1.0 후보</span>
-        <span class="badge" data-release-version>첫 공개 전</span>
-        <span class="badge" data-release-date-badge>2026.09.29 업데이트</span>
+        <span class="badge badge-live"><i></i><span data-release-status-label>베타 공개</span></span>
+        <span class="badge">첫 공개 베타</span>
+        <span class="badge" data-release-version>v0.9.1</span>
+        <span class="badge" data-release-date-badge>2026.09.30 업데이트</span>
       </div>
     </div>
   </header>
 
   <section class="project-facts" aria-label="프로젝트 핵심 정보">
-    <div><span>상태</span><strong class="fact-development" data-release-status data-release-status-label>개발 중</strong></div>
-    <div><span>최신 버전</span><strong data-release-version>첫 공개 전</strong></div>
-    <div><span>현재 단계</span><strong>베타 후보 · 잔여 번역 정리</strong></div>
-    <div><span>마지막 업데이트</span><strong data-release-date>2026.09.29</strong></div>
+    <div><span>상태</span><strong class="fact-live" data-release-status data-release-status-label>베타 공개</strong></div>
+    <div><span>최신 버전</span><strong data-release-version>v0.9.1</strong></div>
+    <div><span>현재 단계</span><strong>첫 공개 베타 · 전체 플레이 QA</strong></div>
+    <div><span>마지막 업데이트</span><strong data-release-date>2026.09.30</strong></div>
   </section>
 
   <nav class="nav" aria-label="페이지 목차">
     <a href="#game-info">게임 정보</a>
     <a href="#recent-update">최근 업데이트</a>
     <a href="#release">패치 다운로드</a>
+    <a href="#patch-history">패치 이력</a>
     <a href="#now">현재 작업</a>
     <a href="/projects/sol-trigger/updates/">작업일지</a>
     <a href="https://github.com/ievy3/ievy3.github.io" target="_blank" rel="noopener">Noctil Patchworks GitHub</a>
@@ -78,49 +79,68 @@
   <section class="split-grid" id="recent-update">
     <article class="box">
       <p class="eyebrow">RECENT UPDATE</p>
-      <h2>9월 29일 v0.1.0 후보 빌드</h2>
+      <h2>v0.9.1 첫 공개 베타</h2>
       <ul class="compact-list">
-        <li>스토리·시스템·전투·메뉴 등 <strong>13,430행</strong>의 텍스트를 게임 데이터에 반영</li>
-        <li>필요한 한글 글리프를 모두 확보해 현재 번역본 기준 폰트 부족 0자 확인</li>
-        <li>50개 이미지 패키지의 <strong>234개 텍스처</strong>를 한국어화하고 캐릭터 카드 11장 사용자 검수 완료</li>
-        <li>내부 베타 후보를 생성했으며, 현재 화면 표시 일본어 <strong>2,407행</strong>과 실기 검증을 남겨둔 상태</li>
+        <li>본편·외전 스토리와 메뉴·전투·아이템·스킬·튜토리얼·시스템 문구까지 한국어화</li>
+        <li>타이틀·챕터·캐릭터 카드·UI 등 <strong>235개 이미지</strong>를 한글로 교체</li>
+        <li>애니메이션 컷신 <strong>10개</strong>에 한국어 자막 적용</li>
+        <li>Noto Sans KR / Noto Serif KR 기반 한글 <strong>1,108자</strong>를 추가하고 자간 조정</li>
+        <li>PPSSPP와 PS Vita Adrenaline에서 부팅·전투·저장·컷신 등 주요 기능 확인</li>
       </ul>
       <a class="log-link" href="/projects/sol-trigger/updates/2026-09-29.html">9월 29일 상세 작업일지 <span>→</span></a>
     </article>
 
     <article class="box release-card" id="release">
-      <p class="eyebrow">RELEASE</p>
-      <h2>v0.1.0 후보 · 아직 미배포</h2>
-      <p>통합 빌드와 오프라인 패치 후보는 준비됐지만 공개 버전은 아닙니다. 화면 표시 일본어 잔존분을 정리하고 실제 게임 플레이 검증을 마친 뒤 첫 배포본을 공개할 예정입니다.</p>
-      <span class="button disabled" aria-disabled="true">아직 다운로드할 수 없습니다</span>
-      <small>원본 ROM·ISO 및 패치 적용 결과물은 배포하지 않습니다.</small>
+      <p class="eyebrow">RELEASE · <span data-release-version>v0.9.1</span> BETA</p>
+      <h2><span data-release-version>v0.9.1</span> 베타 공개</h2>
+      <p>스토리·시스템·이미지·컷신 자막을 통합한 첫 공개 베타입니다. 주요 실행 환경 검증을 마쳤으며, 전체 플레이 피드백을 반영해 v1.0.0을 준비합니다.</p>
+      <a class="button" data-release-download href="https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.1/Noctil_Patchworks_Offline_SolTrigger_v0.9.1.zip">v0.9.1 패처 다운로드 (.zip)</a>
+      <small class="line-count" data-release-download-count>다운로드 횟수 확인 중…</small>
+      <small>배포 형식: Noctil Patchworks 오프라인 패처 · 원본 ROM/ISO는 포함하지 않습니다.</small>
+      <a class="text-link" data-release-notes href="https://github.com/ievy3/ievy3.github.io/releases/tag/soltrigger-v0.9.1" target="_blank" rel="noopener">GitHub 릴리스 노트 ↗</a>
+      <small>베타 버전으로 전체 플레이 중 추가 오류가 발견될 수 있습니다.</small>
     </article>
+  </section>
+
+  <section class="box" id="patch-history">
+    <div class="section-head">
+      <div><p class="eyebrow">PATCH HISTORY</p><h2>패치 이력</h2></div>
+      <span class="line-count">최근 버전순</span>
+    </div>
+    <div class="release-history-list">
+      <article class="release-history-item">
+        <div class="release-history-version"><strong data-release-history-version>v0.9.1</strong><span>BETA</span></div>
+        <div class="release-history-meta"><time datetime="2026-09-30">2026.09.30</time><small data-release-download-count>다운로드 횟수 확인 중…</small></div>
+        <p>스토리·시스템·이미지·컷신 자막을 통합하고 PPSSPP·PS Vita 주요 기능 검증을 마친 첫 공개 베타</p>
+        <a class="release-detail-link" href="https://github.com/ievy3/ievy3.github.io/releases/tag/soltrigger-v0.9.1" target="_blank" rel="noopener">릴리스 보기 <span>→</span></a>
+      </article>
+    </div>
   </section>
 
   <section class="summary-grid progress-followup" id="now">
     <article class="box">
       <p class="eyebrow">NOW WORKING ON</p>
-      <h2>공개 전 남은 작업</h2>
+      <h2>공개 후 진행 중</h2>
       <ol class="task-list">
-        <li class="active"><span>01</span><div><strong>화면 표시 일본어 정리</strong><small>단어집·전투 대사·메뉴 등 남은 2,407행을 우선 처리</small></div></li>
-        <li><span>02</span><div><strong>통합 재빌드 재검증</strong><small>잔여 텍스트와 이미지 수정분을 합친 뒤 표시 문제와 회귀 여부를 확인</small></div></li>
-        <li><span>03</span><div><strong>실제 게임 플레이 검증</strong><small>부팅과 주요 화면부터 실제 플레이 구간까지 확인한 뒤 공개 여부를 결정</small></div></li>
+        <li class="active"><span>01</span><div><strong>전체 플레이 QA</strong><small>중·후반부 이벤트와 전투에서 남은 표시·진행 문제를 확인</small></div></li>
+        <li><span>02</span><div><strong>사용자 피드백 반영</strong><small>오탈자·줄바꿈·표시 문제와 재현 가능한 오류를 순차 수정</small></div></li>
+        <li><span>03</span><div><strong>v1.0.0 준비</strong><small>전체 플레이 검수와 수정 사항을 반영한 정식판 후보를 준비</small></div></li>
       </ol>
     </article>
     <article class="box focus-card">
-      <p class="eyebrow">CURRENT CANDIDATE</p>
-      <h2>첫 베타 후보는 내부 검수용</h2>
-      <p>한글 표시 기반과 대량 번역·이미지 반영은 통합됐습니다. 다만 현재 v0.1.0 후보는 공개 배포본이 아니며, 남은 일본어와 실제 플레이 검증 결과에 따라 내용이 계속 바뀔 수 있습니다.</p>
-      <p class="fine-print">진행 수치는 2026년 9월 29일 종료 시점의 정적 검사·통합 빌드 기준입니다.</p>
+      <p class="eyebrow">CURRENT RELEASE</p>
+      <h2>v0.9.1 첫 공개 베타</h2>
+      <p>스토리·시스템 텍스트, 주요 이미지와 컷신 자막까지 통합된 공개 검수판입니다. PPSSPP와 PS Vita Adrenaline에서 주요 기능을 확인했으며, 게임 전체를 처음부터 끝까지 진행하는 최종 QA는 계속 진행합니다.</p>
+      <p class="fine-print">실물 PSP와 전체 플레이 완주는 아직 검증하지 않았습니다.</p>
     </article>
   </section>
 
   <section class="detail-stack" id="details">
     <details>
-      <summary><span>지원 원본 및 배포 방식</span><small>첫 공개 전</small></summary>
+      <summary><span>지원 원본 및 배포 방식</span><small>v0.9.1 베타</small></summary>
       <div class="details-body">
-        <p>현재 기술 작업은 일본판 PSP 버전을 기준으로 진행 중입니다. 실제 공개 패치의 지원 원본과 적용 조건은 최종 검증 후 확정합니다.</p>
-        <p>배포 시에도 사용자가 직접 보유한 지원 버전의 원본 게임 데이터가 필요하며, ROM·ISO나 패치 적용이 완료된 게임 이미지는 제공하지 않습니다.</p>
+        <p>지원 원본은 <strong>솔 트리거 일본어 PSN판(NPJH50619)</strong>입니다. 패처가 원본 크기와 SHA-256을 확인하며, 영문 팬 패치가 적용된 ISO나 다른 판본에는 적용할 수 없습니다.</p>
+        <p>Windows에서는 ZIP에 포함된 오프라인 패처를 사용하고, macOS·Linux·안드로이드에서는 릴리스에 포함된 xdelta 파일을 이용할 수 있습니다. 원본 ROM·ISO와 패치 적용 완료 이미지는 배포하지 않습니다.</p>
       </div>
     </details>
     <details>
