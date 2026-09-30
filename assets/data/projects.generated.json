@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-09-30T17:44:19.827Z",
+  "generatedAt": "2026-09-30T17:46:19.805Z",
   "projects": [
+    {
+      "title": "Generation of Chaos 6",
+      "href": "/projects/generation-of-chaos-6/",
+      "repository": null,
+      "repositoryUrl": null,
+      "issuesUrl": null,
+      "releaseRepository": "ievy3/ievy3.github.io",
+      "image": "https://images.launchbox-app.com/d4799dcc-27cf-4a16-b315-c3bbbf6a3292.png",
+      "imageAlt": "Generation of Chaos 6 대표 PSP 타이틀 화면",
+      "imageFit": "cover",
+      "platform": "PSP",
+      "type": "한국어 패치",
+      "status": "development",
+      "statusLabel": "개발 중",
+      "version": "첫 공개 전",
+      "updated": "2026-09-30",
+      "publicBuilds": 0,
+      "description": "게임 데이터 구조 분석 완료 · 대사 추출·재삽입 테스트 진행 중",
+      "keywords": [
+        "제네레이션 오브 카오스 6",
+        "제네레이션오브카오스6",
+        "generation of chaos 6",
+        "goc6",
+        "srpg",
+        "sting",
+        "idea factory"
+      ],
+      "latestWorklog": {
+        "date": "2026-09-30",
+        "title": "전투 진입 문제를 해결하고 폰트·이미지 한글화 마감 단계로",
+        "href": "/projects/generation-of-chaos-6/updates/2026-09-30.html"
+      },
+      "latestReleaseTag": null
+    },
     {
       "title": "Sol Trigger",
       "href": "/projects/sol-trigger/",
@@ -38,40 +72,6 @@
         "href": "/projects/sol-trigger/updates/2026-09-30.html"
       },
       "latestReleaseTag": "soltrigger-v0.9.1"
-    },
-    {
-      "title": "Generation of Chaos 6",
-      "href": "/projects/generation-of-chaos-6/",
-      "repository": null,
-      "repositoryUrl": null,
-      "issuesUrl": null,
-      "releaseRepository": "ievy3/ievy3.github.io",
-      "image": "https://images.launchbox-app.com/d4799dcc-27cf-4a16-b315-c3bbbf6a3292.png",
-      "imageAlt": "Generation of Chaos 6 대표 PSP 타이틀 화면",
-      "imageFit": "cover",
-      "platform": "PSP",
-      "type": "한국어 패치",
-      "status": "development",
-      "statusLabel": "개발 중",
-      "version": "첫 공개 전",
-      "updated": "2026-09-29",
-      "publicBuilds": 0,
-      "description": "게임 데이터 구조 분석 완료 · 대사 추출·재삽입 테스트 진행 중",
-      "keywords": [
-        "제네레이션 오브 카오스 6",
-        "제네레이션오브카오스6",
-        "generation of chaos 6",
-        "goc6",
-        "srpg",
-        "sting",
-        "idea factory"
-      ],
-      "latestWorklog": {
-        "date": "2026-09-29",
-        "title": "번역 초벌·전체 윤문을 마치고 첫 전체 한국어 빌드까지",
-        "href": "/projects/generation-of-chaos-6/updates/2026-09-29.html"
-      },
-      "latestReleaseTag": null
     },
     {
       "title": "Summon Night 5",
