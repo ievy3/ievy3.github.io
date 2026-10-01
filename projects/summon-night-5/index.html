@@ -40,7 +40,7 @@
   <section class="project-facts" aria-label="프로젝트 핵심 정보">
     <div><span>상태</span><strong class="fact-live" data-release-status data-release-status-label>베타 공개</strong></div>
     <div><span>최신 버전</span><strong><span data-release-version>v0.7.0</span> 베타</strong></div>
-    <div><span>현재 단계</span><strong>공개 베타 QA</strong></div>
+    <div><span>현재 단계</span><strong>v0.9.0 후보 · 실기 검증 대기</strong></div>
     <div><span>마지막 업데이트</span><strong data-release-date>2026.09.28</strong></div>
   </section>
 
@@ -82,15 +82,15 @@
   <section class="split-grid" id="recent-update">
     <article class="box">
       <p class="eyebrow">RECENT UPDATE</p>
-      <h2>9월 28일 주요 변경</h2>
+      <h2>10월 1일 주요 변경</h2>
       <ul class="compact-list">
-        <li>대사 문장부호·용어·표현을 추가 정리하고 최종 후보를 반복 검증</li>
-        <li>이전 이미지가 섞인 회귀 71곳을 발견해 최종 이미지 319패치 기준으로 복구</li>
-        <li>튜토리얼 강조색 202구간을 다시 매핑해 원본 연출에 맞게 수정</li>
-        <li>PS Vita 실기에서 부팅·프롤로그·파티능력·튜토리얼·세이브/로드 최종 확인</li>
-        <li>v0.7.0 베타 오프라인 패처를 제작하고 8개 검사와 결과 ISO 일치 검증 완료</li>
+        <li>스토리 번역투와 인물 말투를 중심으로 <strong>총 382줄</strong> 추가 윤문</li>
+        <li>v0.7.0에 섞여 있던 지명 2곳을 <strong>「대장거리」·「변두리」</strong>로 수정</li>
+        <li>v0.7.0 배포본을 다시 재구성해 동일한 결과가 만들어지는지 재현성 확인</li>
+        <li>지원 원본 2경로에서 오프라인 패처를 검사해 <strong>16 / 16 통과</strong></li>
+        <li><strong>v0.9.0 배포 후보</strong> 확정 · PPSSPP·PS Vita 실제 플레이 검증 대기</li>
       </ul>
-      <a class="log-link" href="/projects/summon-night-5/updates/2026-09-28.html">9월 28일 상세 작업일지 <span>→</span></a>
+      <a class="log-link" href="/projects/summon-night-5/updates/2026-10-01.html">10월 1일 상세 작업일지 <span>→</span></a>
     </article>
     <article class="box release-card" id="release">
       <p class="eyebrow">RELEASE · <span data-release-version>v0.7.0</span> BETA</p>
@@ -122,14 +122,15 @@
   <section class="box overall-progress" id="progress">
     <div class="section-head">
       <div><p class="eyebrow">OVERALL PROJECT STATUS</p><h2>전체 프로젝트 현황</h2></div>
-      <span class="line-count">2026.09.28 종료 기준</span>
+      <span class="line-count">2026.10.01 종료 기준</span>
     </div>
-    <p><strong>현재 단계: v0.7.0 베타 공개 · 사용자 플레이 QA 진행</strong></p>
+    <p><strong>현재 단계: v0.7.0 공개 유지 · v0.9.0 배포 후보 실기 검증 대기</strong></p>
     <div class="overall-list">
       <div class="overall-row"><div class="overall-label"><span>Vita 실기 검증</span><strong>주요 기능 최종 PASS</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
       <div class="overall-row"><div class="overall-label"><span>이미지 통합</span><strong>319 / 319 최종 기준 일치</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
       <div class="overall-row"><div class="overall-label"><span>튜토리얼 강조색</span><strong>202구간 재생성·검증</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
-      <div class="overall-row"><div class="overall-label"><span>오프라인 패처</span><strong>8개 검사 통과</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>스토리·말투 윤문</span><strong>v0.7.0 대비 382줄 추가 교정</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
+      <div class="overall-row"><div class="overall-label"><span>오프라인 패처</span><strong>지원 원본 2경로 · 16 / 16 검사 통과</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
       <div class="overall-row"><div class="overall-label"><span>패처 결과 ISO</span><strong>최종 기준 ISO와 일치</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
       <div class="overall-row"><div class="overall-label"><span>공개 배포</span><strong>v0.7.0 베타 GitHub Release 게시 완료</strong></div><div class="progress progress-green"><span style="width:100%"></span></div></div>
     </div>
@@ -141,16 +142,16 @@
       <p class="eyebrow">NOW WORKING ON</p>
       <h2>현재 작업</h2>
       <ol class="task-list">
-        <li class="active"><span>01</span><div><strong>베타 피드백 수집</strong><small>실제 플레이에서 발견되는 표시·진행 문제를 순차 반영</small></div></li>
-        <li><span>02</span><div><strong>스토리 윤문</strong><small>남아 있는 번역투와 관계별 말투를 차기 버전에서 추가 교정</small></div></li>
-        <li><span>03</span><div><strong>잔여 이미지 개선</strong><small>세이브 썸네일 등 현재 남겨 둔 일부 일본어 요소를 후속 검토</small></div></li>
+        <li class="active"><span>01</span><div><strong>v0.9.0 플레이 검증</strong><small>PPSSPP와 PS Vita Adrenaline에서 부팅·진행·세이브/로드를 재확인</small></div></li>
+        <li><span>02</span><div><strong>잔여 표시 확인</strong><small>일부 확인창과 긴 문장의 줄바꿈·폭을 추가 점검</small></div></li>
+        <li><span>03</span><div><strong>전체 플레이 QA</strong><small>실제 플레이에서 발견되는 오탈자와 진행 문제를 후속 반영</small></div></li>
       </ol>
     </article>
     <article class="box focus-card">
-      <p class="eyebrow">BUILD PIPELINE</p>
-      <h2>v0.7.0 베타 공개</h2>
-      <p>실기 회귀 검증과 이미지·튜토리얼 보정을 마친 첫 공개 버전입니다. GitHub Releases에서 오프라인 패처 ZIP을 바로 내려받을 수 있습니다.</p>
-      <p class="fine-print">전체 스토리 윤문과 일부 보조 이미지 개선은 이후 v0.8.x 계열에서 계속 진행합니다.</p>
+      <p class="eyebrow">NEXT RELEASE</p>
+      <h2>v0.9.0 배포 후보</h2>
+      <p>스토리 윤문 382줄과 지명 수정, 패처 2경로 검증까지 반영한 다음 공개본 후보입니다. 현재 공개 다운로드는 v0.7.0을 유지합니다.</p>
+      <p class="fine-print">v0.9.0은 후보 자체의 PPSSPP·PS Vita 플레이 확인이 끝난 뒤 공개할 예정입니다.</p>
     </article>
   </section>
 
@@ -188,9 +189,9 @@
       </div>
     </details>
     <details>
-      <summary><span>남은 기술 과제</span><small>G6 회귀·UI·세이브 이미지</small></summary>
+      <summary><span>남은 확인 항목</span><small>v0.9.0 실기·UI 검증</small></summary>
       <div class="details-body">
-        <ul><li>G6 후보의 PPSSPP·PS Vita 전체 회귀 검증</li><li>튜토리얼 강조색과 일부 라벨·문장 표시 교정</li><li>세이브 조각 이미지의 용량·배치 문제 해결</li><li>잔여 일본어·말투·문장부호 전수 확인</li><li>최종 xdelta 생성과 실제 기기 배포 전 검증</li></ul>
+        <ul><li>v0.9.0 후보의 PPSSPP·PS Vita 실제 플레이 검증</li><li>일부 확인창과 긴 문장의 표시 상태 추가 확인</li><li>전체 플레이 과정의 오탈자·진행 문제 확인</li><li>세이브 슬롯의 「第1話」 등 썸네일 표기는 번역 범위에서 제외하고 원본 유지</li></ul>
       </div>
     </details>
     <details id="support">
