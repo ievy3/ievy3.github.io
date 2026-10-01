@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 10월 1일 Summon Night 5 한국어 패치 작업일지">
+  <title>2026.10.01 작업일지 | Summon Night 5</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/project.css?v=22">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/summon-night-5/updates/">← 전체 작업일지</a>
+
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.10.01</p>
+    <h1>스토리 윤문을 확대하고<br>v0.9.0 배포 후보 확정</h1>
+    <p>기존 v0.7.0 배포본의 재현성을 다시 확인한 뒤 스토리 번역투와 인물 말투를 대폭 다듬었습니다. 이전 빌드에 섞여 있던 지명 표기 2곳도 바로잡았으며, 두 종류의 지원 원본에서 패처 검사를 모두 통과한 v0.9.0 배포 후보를 완성했습니다.</p>
+    <div class="badges">
+      <span class="badge badge-live"><i></i>v0.9.0 배포 후보</span>
+      <span class="badge">실기 검증 대기</span>
+    </div>
+  </header>
+
+  <section class="entry-summary">
+    <div><strong>382줄</strong><span>스토리·말투 윤문</span></div>
+    <div><strong>16 / 16</strong><span>패처 검사 통과</span></div>
+    <div><strong>2곳</strong><span>지명 표기 수정</span></div>
+  </section>
+
+  <section class="box entry-section">
+    <p class="eyebrow">TODAY'S WORK</p>
+    <h2>주요 작업</h2>
+    <ul class="compact-list">
+      <li>v0.7.0 배포본을 다시 재구성해 <strong>동일한 결과 ISO가 만들어지는 것</strong>을 확인하고, 이후 수정본도 같은 기준으로 관리할 수 있도록 배포 경로를 정리했습니다.</li>
+      <li>v0.7.0에서 이전 표기가 섞여 있던 지명 2곳을 발견해 <strong>「대장거리」·「변두리」</strong>로 바로잡았습니다.</li>
+      <li>스토리 대사에서 번역투가 강한 문장과 반복 표현을 중심으로 <strong>296줄</strong>을 윤문했습니다.</li>
+      <li>추가 검수에서 인물 말투와 남은 문장을 다시 정리해 <strong>86줄</strong>을 더 수정했습니다. 특히 옌파가 주인공에게 쓰는 말투를 반말 기준으로 통일했습니다.</li>
+      <li>두 종류의 지원 원본을 대상으로 오프라인 패처를 각각 8개 항목씩 검사해 <strong>총 16 / 16 통과</strong>했고, 두 경로 모두 동일한 v0.9.0 결과를 생성하는 것을 확인했습니다.</li>
+    </ul>
+  </section>
+
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">READY</p>
+      <h2>v0.9.0 후보에 반영된 내용</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>스토리·인물 말투 총 382줄 추가 윤문</li>
+        <li><span>✓</span>잘못 들어간 지명 2곳 정본 표기로 수정</li>
+        <li><span>✓</span>지원 원본 2경로에서 동일 결과 ISO 생성 확인</li>
+        <li><span>✓</span>오프라인 패처 검사 16 / 16 통과</li>
+        <li><span>✓</span>기존 파일 배치를 유지한 상태로 결과 검증 완료</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NEXT CHECK</p>
+      <h2>공개 전 남은 확인</h2>
+      <ul class="log-checklist pending-list">
+        <li><span>○</span>PPSSPP에서 v0.9.0 후보 실제 플레이 확인</li>
+        <li><span>○</span>PS Vita Adrenaline 실기에서 부팅·진행·세이브/로드 재확인</li>
+        <li><span>○</span>일부 확인창과 긴 문장의 표시 상태 추가 점검</li>
+        <li><span>○</span>전체 플레이 과정에서 발견되는 오탈자·표시 문제 후속 수정</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="box entry-section">
+    <p class="eyebrow">SCOPE</p>
+    <h2>원본을 유지하는 부분</h2>
+    <p>세이브 슬롯에 표시되는 <strong>「第1話」 등의 썸네일 표기는 번역 대상에서 제외</strong>했습니다. 기술적으로 남은 미완료 항목이 아니라, 원본 디자인을 유지하기로 확정한 부분입니다.</p>
+  </section>
+
+  <section class="box entry-section">
+    <p class="eyebrow">CURRENT STATUS</p>
+    <h2>현재 상태</h2>
+    <p><strong>v0.9.0은 배포 파일 구성과 패처 검증까지 끝난 공개 후보 상태입니다.</strong> 다만 아직 이 후보 자체의 PPSSPP·PS Vita 플레이 확인은 완료되지 않았으므로, 현재 공개 버전은 v0.7.0을 유지합니다. v0.9.0은 실기 검증 후 다음 공개본으로 진행할 예정입니다.</p>
+  </section>
+
+  <p class="fine-print log-disclaimer">위 내용은 2026년 10월 1일 작업 종료 시점 기준입니다. v0.9.0은 배포 후보이며 실제 플레이 검증 전 상태입니다.</p>
+  <footer class="footer-note">SUMMON NIGHT 5 DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+</body>
+</html>
