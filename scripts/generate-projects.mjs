@@ -138,10 +138,31 @@ async function releasesFor(project) {
 for (const project of config) {
   const { repository: releaseRepository, releases } = await releasesFor(project);
   const worklog = await latestWorklog(project.slug);
-  const matchingReleases = releases.filter(
-    release => !release.draft && tagMatchesPrefix(release.tag_name, project.releasePrefix)
-  );
-  const release = latestReleaseFor(project, releases);
+  const matchingReleases = releases
+    .filter(release => !release.draft && tagMatchesPrefix(release.tag_name, project.releasePrefix))
+    .sort((a, b) => {
+      const aTime = a.published_at || a.created_at || "";
+      const bTime = b.published_at || b.created_at || "";
+      return bTime.localeCompare(aTime);
+    });
+  const releaseHistory = matchingReleases.map(item => {
+    const historyAsset = selectReleaseAsset(item);
+    return {
+      version: versionFromRelease(item, project.releasePrefix, historyAsset),
+      tag: item.tag_name,
+      releaseName: item.name || item.tag_name,
+      releaseUrl: item.html_url,
+      publishedAt: item.published_at || item.created_at || null,
+      date: releaseDate(item),
+      prerelease: Boolean(item.prerelease),
+      ...(historyAsset ? {
+        download: historyAsset.browser_download_url,
+        downloadAsset: historyAsset.name,
+        downloadCount: Number(historyAsset.download_count) || 0
+      } : {})
+    };
+  });
+  const release = matchingReleases[0] || null;
   const asset = release ? selectReleaseAsset(release) : null;
   const version = release ? versionFromRelease(release, project.releasePrefix, asset) : "첫 공개 전";
   const updated = newestDate(release ? releaseDate(release) : "", worklog?.date);
@@ -173,6 +194,7 @@ for (const project of config) {
     } : {}),
     updated,
     publicBuilds: matchingReleases.length,
+    releaseHistory,
     description: project.description || (release
       ? `${version} 공개 · 전체 플레이 QA 진행 중`
       : worklog

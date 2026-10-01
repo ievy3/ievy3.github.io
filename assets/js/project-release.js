@@ -23,6 +23,40 @@
       : project.version;
   }
 
+  function escapeHtml(value = "") {
+    return String(value)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#39;");
+  }
+
+  function renderReleaseHistory(project) {
+    const host = document.querySelector("[data-release-history]");
+    if (!host || !Array.isArray(project.releaseHistory) || !project.releaseHistory.length) return;
+
+    host.innerHTML = project.releaseHistory.map(release => {
+      const version = escapeHtml(release.version || release.tag || "릴리스");
+      const badge = release.prerelease ? "BETA" : "RELEASE";
+      const date = escapeHtml(formatDate(release.date || (release.publishedAt || "").slice(0, 10)));
+      const count = Number.isFinite(release.downloadCount)
+        ? `다운로드 ${release.downloadCount.toLocaleString("ko-KR")}회`
+        : "다운로드 파일 없음";
+      const summary = escapeHtml(release.releaseName || `${version} 릴리스`);
+      const url = escapeHtml(release.releaseUrl || "#");
+
+      return `
+        <article class="release-history-item">
+          <div class="release-history-version"><strong>${version}</strong><span>${badge}</span></div>
+          <div class="release-history-meta"><time>${date}</time><small>${count}</small></div>
+          <p>${summary}</p>
+          <a class="release-detail-link" href="${url}" target="_blank" rel="noopener">릴리스 보기 <span>→</span></a>
+        </article>
+      `;
+    }).join("");
+  }
+
   function selectReleaseAsset(release, preferredName = "") {
     const assets = (release.assets || []).filter(asset =>
       !/^source code/i.test(asset.name)
@@ -88,6 +122,7 @@
       setText("[data-release-date-badge]", project.updated ? `${formatDate(project.updated)} 업데이트` : "");
       setText("[data-release-title]", label);
       setText("[data-release-history-version]", project.version || "");
+      renderReleaseHistory(project);
 
       document.querySelectorAll("[data-release-status]").forEach(element => {
         element.dataset.releaseStatus = project.status || "";
