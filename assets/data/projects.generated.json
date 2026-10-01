@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T13:51:56.769Z",
+  "generatedAt": "2026-10-01T14:01:16.146Z",
   "projects": [
     {
       "title": "Sol Trigger",
@@ -47,7 +47,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.2/Noctil_Patchworks_Offline_SolTrigger_v0.9.2.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.2.zip",
-          "downloadCount": 225
+          "downloadCount": 228
         },
         {
           "version": "v0.9.1",
@@ -71,9 +71,9 @@
         "imageepoch"
       ],
       "latestWorklog": {
-        "date": "2026-09-30",
-        "title": "전체 번역·실행 검증을 마치고 v0.9.1 첫 공개 베타 배포",
-        "href": "/projects/sol-trigger/updates/2026-09-30.html"
+        "date": "2026-10-01",
+        "title": "공개 제보 4건을 수정하고 v0.9.3 배포 후보까지 정리",
+        "href": "/projects/sol-trigger/updates/2026-10-01.html"
       },
       "latestReleaseTag": "soltrigger-v0.9.3"
     },
