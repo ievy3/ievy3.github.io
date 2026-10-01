@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T10:31:13.110Z",
+  "generatedAt": "2026-10-01T13:51:31.706Z",
   "projects": [
     {
       "title": "Sol Trigger",
@@ -15,16 +15,28 @@
       "type": "한국어 패치",
       "status": "public",
       "statusLabel": "베타 공개",
-      "version": "v0.9.2",
-      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.2/Noctil_Patchworks_Offline_SolTrigger_v0.9.2.zip",
-      "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.2.zip",
+      "version": "v0.9.3",
+      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
+      "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
       "downloadCount": 0,
-      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/soltrigger-v0.9.2",
-      "releaseName": "솔 트리거 (SOL TRIGGER) 한글 패치 v0.9.2",
-      "releasePublishedAt": "2026-10-01T10:23:47Z",
+      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/soltrigger-v0.9.3",
+      "releaseName": "솔 트리거 (SOL TRIGGER) 한글 패치 v0.9.3",
+      "releasePublishedAt": "2026-10-01T13:51:21Z",
       "updated": "2026-10-01",
-      "publicBuilds": 2,
+      "publicBuilds": 3,
       "releaseHistory": [
+        {
+          "version": "v0.9.3",
+          "tag": "soltrigger-v0.9.3",
+          "releaseName": "솔 트리거 (SOL TRIGGER) 한글 패치 v0.9.3",
+          "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/soltrigger-v0.9.3",
+          "publishedAt": "2026-10-01T13:51:21Z",
+          "date": "2026-10-01",
+          "prerelease": true,
+          "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
+          "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
+          "downloadCount": 0
+        },
         {
           "version": "v0.9.2",
           "tag": "soltrigger-v0.9.2",
@@ -35,7 +47,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.2/Noctil_Patchworks_Offline_SolTrigger_v0.9.2.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.2.zip",
-          "downloadCount": 0
+          "downloadCount": 225
         },
         {
           "version": "v0.9.1",
@@ -47,7 +59,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.1/Noctil_Patchworks_Offline_SolTrigger_v0.9.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.1.zip",
-          "downloadCount": 385
+          "downloadCount": 389
         }
       ],
       "description": "v0.9.2 수정 베타 공개 · 전체 플레이 QA 진행 중",
@@ -63,7 +75,7 @@
         "title": "전체 번역·실행 검증을 마치고 v0.9.1 첫 공개 베타 배포",
         "href": "/projects/sol-trigger/updates/2026-09-30.html"
       },
-      "latestReleaseTag": "soltrigger-v0.9.2"
+      "latestReleaseTag": "soltrigger-v0.9.3"
     },
     {
       "title": "Generation of Chaos 6",
@@ -117,7 +129,7 @@
       "version": "v0.7.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.7.0/Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
-      "downloadCount": 560,
+      "downloadCount": 564,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.7.0",
       "releaseName": "서몬나이트 5 (Summon Night 5) 한글 패치 v0.7.0 — 베타",
       "releasePublishedAt": "2026-09-28T11:55:53Z",
@@ -134,7 +146,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.7.0/Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
-          "downloadCount": 560
+          "downloadCount": 564
         }
       ],
       "description": "Vita 실기 검증 및 오프라인 패처 검사 완료",
@@ -170,7 +182,7 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
       "downloadAsset": "Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
-      "downloadCount": 331,
+      "downloadCount": 332,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gungnir-v0.9.0",
       "releaseName": "Gungnir 한글 패치 v0.9.0 — 공개 검수판 (260922)",
       "releasePublishedAt": "2026-09-22T20:02:45Z",
@@ -187,7 +199,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
           "downloadAsset": "Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
-          "downloadCount": 331
+          "downloadCount": 332
         },
         {
           "version": "v0.8.0",
@@ -233,7 +245,7 @@
       "version": "v0.9.2-beta.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.2/Noctil_Patchworks_Offline_v0.9.2-beta.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_v0.9.2-beta.1.zip",
-      "downloadCount": 445,
+      "downloadCount": 452,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.2",
       "releaseName": "Hexyz Force 한글 패치 v0.9.2 — 공개 검수판 (260919)",
       "releasePublishedAt": "2026-09-19T01:11:19Z",
@@ -250,7 +262,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.2/Noctil_Patchworks_Offline_v0.9.2-beta.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_v0.9.2-beta.1.zip",
-          "downloadCount": 445
+          "downloadCount": 452
         },
         {
           "version": "v0.9.1-beta.1",
