@@ -33,7 +33,7 @@
   }
 
   function renderReleaseHistory(project) {
-    const host = document.querySelector("[data-release-history]");
+    const host = document.querySelector("[data-release-history], .release-history-list");
     if (!host || !Array.isArray(project.releaseHistory) || !project.releaseHistory.length) return;
 
     host.innerHTML = project.releaseHistory.map(release => {
@@ -121,8 +121,10 @@
       setText("[data-release-date]", formatDate(project.updated));
       setText("[data-release-date-badge]", project.updated ? `${formatDate(project.updated)} 업데이트` : "");
       setText("[data-release-title]", label);
-      setText("[data-release-history-version]", project.version || "");
       renderReleaseHistory(project);
+      if (!Array.isArray(project.releaseHistory) || !project.releaseHistory.length) {
+        setText("[data-release-history-version]", project.version || "");
+      }
 
       document.querySelectorAll("[data-release-status]").forEach(element => {
         element.dataset.releaseStatus = project.status || "";
