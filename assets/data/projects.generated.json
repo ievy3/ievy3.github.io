@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T14:57:32.521Z",
+  "generatedAt": "2026-10-01T15:02:49.656Z",
   "projects": [
     {
       "title": "Sol Trigger",
@@ -18,7 +18,7 @@
       "version": "v0.9.3",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
-      "downloadCount": 30,
+      "downloadCount": 34,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/soltrigger-v0.9.3",
       "releaseName": "솔 트리거 (SOL TRIGGER) 한글 패치 v0.9.3",
       "releasePublishedAt": "2026-10-01T13:51:21Z",
@@ -35,7 +35,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
-          "downloadCount": 30
+          "downloadCount": 34
         },
         {
           "version": "v0.9.2",
@@ -78,6 +78,71 @@
       "latestReleaseTag": "soltrigger-v0.9.3"
     },
     {
+      "title": "Summon Night 5",
+      "href": "/projects/summon-night-5/",
+      "repository": "ievy3/summon-night-5-korean",
+      "repositoryUrl": "https://github.com/ievy3/summon-night-5-korean",
+      "issuesUrl": "https://github.com/ievy3/summon-night-5-korean/issues",
+      "releaseRepository": "ievy3/ievy3.github.io",
+      "image": "/assets/images/summon-night-5/2026-09-28-title.webp",
+      "imageAlt": "Summon Night 5 v0.7.0 베타 한글 타이틀 화면",
+      "imageFit": "cover",
+      "platform": "PSP",
+      "type": "한국어 패치",
+      "status": "public",
+      "statusLabel": "베타 공개",
+      "version": "v0.9.0",
+      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
+      "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
+      "downloadCount": 0,
+      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.9.0",
+      "releaseName": "서몬나이트 5 (Summon Night 5) 한글 패치 v0.9.0",
+      "releasePublishedAt": "2026-10-01T15:02:39Z",
+      "updated": "2026-10-01",
+      "publicBuilds": 2,
+      "releaseHistory": [
+        {
+          "version": "v0.9.0",
+          "tag": "SN5-v0.9.0",
+          "releaseName": "서몬나이트 5 (Summon Night 5) 한글 패치 v0.9.0",
+          "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.9.0",
+          "publishedAt": "2026-10-01T15:02:39Z",
+          "date": "2026-10-01",
+          "prerelease": true,
+          "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
+          "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
+          "downloadCount": 0
+        },
+        {
+          "version": "v0.7.0",
+          "tag": "SN5-v0.7.0",
+          "releaseName": "서몬나이트 5 (Summon Night 5) 한글 패치 v0.7.0 — 베타",
+          "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.7.0",
+          "publishedAt": "2026-09-28T11:55:53Z",
+          "date": "2026-09-28",
+          "prerelease": true,
+          "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.7.0/Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
+          "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
+          "downloadCount": 567
+        }
+      ],
+      "description": "Vita 실기 검증 및 오프라인 패처 검사 완료",
+      "keywords": [
+        "서몬 나이트 5",
+        "서몬나이트5",
+        "summon night 5",
+        "summonnight",
+        "srpg",
+        "felistella"
+      ],
+      "latestWorklog": {
+        "date": "2026-09-28",
+        "title": "최종 실기 검증을 마치고 v0.7.0 베타 확정",
+        "href": "/projects/summon-night-5/updates/2026-09-28.html"
+      },
+      "latestReleaseTag": "SN5-v0.9.0"
+    },
+    {
       "title": "Generation of Chaos 6",
       "href": "/projects/generation-of-chaos-6/",
       "repository": null,
@@ -111,59 +176,6 @@
         "href": "/projects/generation-of-chaos-6/updates/2026-09-30.html"
       },
       "latestReleaseTag": null
-    },
-    {
-      "title": "Summon Night 5",
-      "href": "/projects/summon-night-5/",
-      "repository": "ievy3/summon-night-5-korean",
-      "repositoryUrl": "https://github.com/ievy3/summon-night-5-korean",
-      "issuesUrl": "https://github.com/ievy3/summon-night-5-korean/issues",
-      "releaseRepository": "ievy3/ievy3.github.io",
-      "image": "/assets/images/summon-night-5/2026-09-28-title.webp",
-      "imageAlt": "Summon Night 5 v0.7.0 베타 한글 타이틀 화면",
-      "imageFit": "cover",
-      "platform": "PSP",
-      "type": "한국어 패치",
-      "status": "public",
-      "statusLabel": "베타 공개",
-      "version": "v0.7.0",
-      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.7.0/Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
-      "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
-      "downloadCount": 567,
-      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.7.0",
-      "releaseName": "서몬나이트 5 (Summon Night 5) 한글 패치 v0.7.0 — 베타",
-      "releasePublishedAt": "2026-09-28T11:55:53Z",
-      "updated": "2026-09-28",
-      "publicBuilds": 1,
-      "releaseHistory": [
-        {
-          "version": "v0.7.0",
-          "tag": "SN5-v0.7.0",
-          "releaseName": "서몬나이트 5 (Summon Night 5) 한글 패치 v0.7.0 — 베타",
-          "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.7.0",
-          "publishedAt": "2026-09-28T11:55:53Z",
-          "date": "2026-09-28",
-          "prerelease": true,
-          "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.7.0/Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
-          "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
-          "downloadCount": 567
-        }
-      ],
-      "description": "Vita 실기 검증 및 오프라인 패처 검사 완료",
-      "keywords": [
-        "서몬 나이트 5",
-        "서몬나이트5",
-        "summon night 5",
-        "summonnight",
-        "srpg",
-        "felistella"
-      ],
-      "latestWorklog": {
-        "date": "2026-09-28",
-        "title": "최종 실기 검증을 마치고 v0.7.0 베타 확정",
-        "href": "/projects/summon-night-5/updates/2026-09-28.html"
-      },
-      "latestReleaseTag": "SN5-v0.7.0"
     },
     {
       "title": "Gungnir",
