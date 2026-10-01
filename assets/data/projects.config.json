@@ -63,7 +63,7 @@
     "platform": "PSP",
     "type": "한국어 패치",
     "releasePrefix": "goc6-",
-    "description": "전투 진입 문제 해결 · 폰트 확정 · 이미지 한글화 마감 단계",
+    "description": "최종 통합 빌드 확인 · 382장 이미지 준비 · 배포 전 회귀 QA 진행 중",
     "keywords": [
       "제네레이션 오브 카오스 6",
       "제네레이션오브카오스6",
