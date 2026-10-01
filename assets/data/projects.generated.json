@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T14:01:16.146Z",
+  "generatedAt": "2026-10-01T14:52:06.941Z",
   "projects": [
     {
       "title": "Sol Trigger",
@@ -18,7 +18,7 @@
       "version": "v0.9.3",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
-      "downloadCount": 0,
+      "downloadCount": 30,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/soltrigger-v0.9.3",
       "releaseName": "솔 트리거 (SOL TRIGGER) 한글 패치 v0.9.3",
       "releasePublishedAt": "2026-10-01T13:51:21Z",
@@ -35,7 +35,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
-          "downloadCount": 0
+          "downloadCount": 30
         },
         {
           "version": "v0.9.2",
@@ -129,7 +129,7 @@
       "version": "v0.7.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.7.0/Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
-      "downloadCount": 564,
+      "downloadCount": 567,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.7.0",
       "releaseName": "서몬나이트 5 (Summon Night 5) 한글 패치 v0.7.0 — 베타",
       "releasePublishedAt": "2026-09-28T11:55:53Z",
@@ -146,7 +146,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.7.0/Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
-          "downloadCount": 564
+          "downloadCount": 567
         }
       ],
       "description": "Vita 실기 검증 및 오프라인 패처 검사 완료",
