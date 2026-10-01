@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T15:05:02.015Z",
+  "generatedAt": "2026-10-01T15:06:12.283Z",
   "projects": [
     {
       "title": "Sol Trigger",
@@ -126,7 +126,7 @@
           "downloadCount": 567
         }
       ],
-      "description": "v0.9.0 배포 후보 확정 · PPSSPP·PS Vita 실기 검증 대기",
+      "description": "v0.9.0 베타 공개 · PPSSPP·PS Vita 플레이 QA 진행 중",
       "keywords": [
         "서몬 나이트 5",
         "서몬나이트5",
