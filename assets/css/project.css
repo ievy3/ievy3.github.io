@@ -41,6 +41,11 @@ a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-of
 main{position:relative;max-width:1140px;margin:0 auto;padding:30px 22px 90px}
 .back{display:inline-flex;color:var(--muted);text-decoration:none;margin-bottom:14px;font-size:13px;transition:.2s}
 .back:hover{color:var(--text);transform:translateX(-3px)}
+.project-topbar{position:relative;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:14px}
+.project-topbar .back{flex:0 0 auto;margin-bottom:0;white-space:nowrap}
+.project-global-nav{display:flex;min-width:0;align-items:center;justify-content:flex-end;gap:4px}
+.project-global-nav a{flex:0 0 auto;padding:7px 9px;border-radius:7px;color:var(--muted);font-size:12px;text-decoration:none;transition:.18s}
+.project-global-nav a:hover{background:rgba(255,255,255,.045);color:var(--text)}
 .hero{
   position:relative;
   padding:28px 32px;
@@ -181,6 +186,10 @@ main > .box{margin-top:16px}
 }
 @media(max-width:620px){
   main{padding:18px 14px 60px}
+  .project-topbar{gap:10px;margin-bottom:12px}
+  .project-global-nav{overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .project-global-nav::-webkit-scrollbar{display:none}
+  .project-global-nav a{padding:7px 8px;font-size:11px}
   .hero{padding:22px 18px;border-radius:17px}
   .hero-dashboard{display:block}
   .hero-stat{display:inline-grid;margin-top:28px;padding:0;border-left:0}
