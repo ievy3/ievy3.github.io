@@ -106,12 +106,23 @@ const fallbackProjects = [
   }
 ];
 
+const fallbackVerificationByHref = {
+  "/projects/genso-suikoden-100-years/": ["PPSSPP"],
+  "/projects/sol-trigger/": ["PPSSPP", "PS Vita"],
+  "/projects/summon-night-5/": ["PS Vita"],
+  "/projects/hexyz-force/": ["PPSSPP"]
+};
+fallbackProjects.forEach(project => {
+  project.verification = fallbackVerificationByHref[project.href] || [];
+});
+
 const grid = document.querySelector("#project-grid");
 const emptyState = document.querySelector("#empty-state");
 const resultCount = document.querySelector("#result-count");
 const searchInput = document.querySelector("#project-search");
 const searchBox = document.querySelector(".search-box");
 const statusButtons = [...document.querySelectorAll("[data-status-filter]")];
+const recentUpdateList = document.querySelector("#latest-update-list");
 
 function formatDate(date) {
   return date ? date.replaceAll("-", ".") : "—";
@@ -121,11 +132,51 @@ function normalized(value) {
   return value.toLocaleLowerCase("ko").replace(/\s+/g, "");
 }
 
+function renderRecentUpdates() {
+  if (!recentUpdateList) return;
+
+  const recent = [...projects]
+    .map(project => {
+      const releaseDate = (project.releasePublishedAt || "").slice(0, 10);
+      const worklogDate = project.latestWorklog?.date || "";
+      const useRelease = Boolean(project.releaseUrl) && releaseDate >= worklogDate;
+      return {
+        project,
+        date: useRelease ? releaseDate : (worklogDate || project.updated),
+        summary: useRelease
+          ? `${project.version} ${project.statusLabel}`
+          : (project.latestWorklog?.title || project.description || "프로젝트 업데이트")
+      };
+    })
+    .sort((a, b) => b.date.localeCompare(a.date) || a.project.title.localeCompare(b.project.title, "ko"))
+    .slice(0, 3);
+
+  recentUpdateList.replaceChildren(...recent.map(item => {
+    const link = document.createElement("a");
+    link.className = "latest-update-card";
+    link.href = item.project.href;
+    link.innerHTML = `
+      <time class="latest-update-date" datetime="${item.date}">${formatDate(item.date)}</time>
+      <span class="latest-update-copy">
+        <strong>${item.project.title}</strong>
+        <span>${item.summary}</span>
+      </span>
+      <span class="latest-update-arrow" aria-hidden="true">→</span>`;
+    return link;
+  }));
+}
+
 function card(project) {
   const article = document.createElement("article");
   article.className = "project-card";
 
   const cardImage = project.image;
+  const verificationMarkup = (project.verification || []).length
+    ? `<div class="project-verify" aria-label="확인된 실행 환경">
+        <span class="project-verify-label">검증 환경</span>
+        ${project.verification.map(environment => `<span class="verify-badge">${environment} ✓</span>`).join("")}
+      </div>`
+    : "";
   let displayDescription = project.description || "";
   if (project.version && displayDescription.startsWith(project.version)) {
     displayDescription = displayDescription.slice(project.version.length).trim();
@@ -143,6 +194,7 @@ function card(project) {
         <span class="version-pill">${project.version}</span>
       </div>
       <p class="project-desc">${displayDescription}</p>
+      ${verificationMarkup}
       <div class="project-foot">
         <div>
           <span class="project-state ${project.status}"><i></i>${project.statusLabel}</span>
@@ -218,6 +270,13 @@ async function init() {
   const heroSummary = document.querySelector("#hero-summary");
   if (heroSummary) heroSummary.textContent = `${projects.length} Projects · ${platformLabel}`;
   if (searchBox) searchBox.hidden = projects.length < 6;
+
+  statusButtons.forEach(button => {
+    const status = button.dataset.statusFilter;
+    if (status !== "all") button.hidden = !projects.some(project => project.status === status);
+  });
+
+  renderRecentUpdates();
 
   statusButtons.forEach(button => {
     button.addEventListener("click", () => setStatus(button.dataset.statusFilter));
