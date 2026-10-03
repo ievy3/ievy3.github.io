@@ -16,7 +16,10 @@
     "repository": "ievy3/hexyz-force-korean",
     "releaseRepository": "ievy3/ievy3.github.io",
     "description": "두 주인공의 시점으로 세계의 창조와 파괴를 그리는 던전 탐험형 JRPG",
-    "genre": "JRPG"
+    "genre": "JRPG",
+    "verification": [
+      "PPSSPP"
+    ]
   },
   {
     "slug": "gungnir",
@@ -35,7 +38,8 @@
     "repository": "ievy3/gungnir-korean",
     "releaseRepository": "ievy3/ievy3.github.io",
     "description": "신화의 창 ‘궁그닐’을 손에 넣은 소년과 반란군의 전쟁을 그린 전술 RPG",
-    "genre": "전술 RPG"
+    "genre": "전술 RPG",
+    "verification": []
   },
   {
     "slug": "summon-night-5",
@@ -56,7 +60,10 @@
     ],
     "repository": "ievy3/summon-night-5-korean",
     "releaseRepository": "ievy3/ievy3.github.io",
-    "genre": "SRPG"
+    "genre": "SRPG",
+    "verification": [
+      "PS Vita"
+    ]
   },
   {
     "slug": "generation-of-chaos-6",
@@ -77,7 +84,8 @@
       "idea factory"
     ],
     "releaseRepository": "ievy3/ievy3.github.io",
-    "genre": "전략 RPG"
+    "genre": "전략 RPG",
+    "verification": []
   },
   {
     "slug": "sol-trigger",
@@ -97,7 +105,11 @@
     ],
     "releaseRepository": "ievy3/ievy3.github.io",
     "imageFit": "cover",
-    "genre": "JRPG"
+    "genre": "JRPG",
+    "verification": [
+      "PPSSPP",
+      "PS Vita"
+    ]
   },
   {
     "slug": "genso-suikoden-100-years",
@@ -121,6 +133,9 @@
     ],
     "releaseRepository": "ievy3/ievy3.github.io",
     "imageFit": "cover",
-    "genre": "JRPG"
+    "genre": "JRPG",
+    "verification": [
+      "PPSSPP"
+    ]
   }
 ]
