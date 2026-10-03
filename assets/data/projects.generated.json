@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T07:34:23.259Z",
+  "generatedAt": "2026-10-03T07:34:38.002Z",
   "projects": [
     {
       "title": "환상수호전 이어지는 백 년의 시간",
@@ -9,7 +9,7 @@
       "issuesUrl": null,
       "releaseRepository": "ievy3/ievy3.github.io",
       "image": "/assets/images/genso-suikoden-100-years/2026-10-03-title.webp",
-      "imageAlt": "환상수호전 이어지는 백 년의 시간 한글 타이틀 화면",
+      "imageAlt": "환상수호전 이어지는 백 년의 시간 v0.9.0 베타 한글 타이틀 화면",
       "imageFit": "cover",
       "platform": "PSP",
       "type": "한국어 패치",
