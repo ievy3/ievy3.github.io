@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T07:32:21.547Z",
+  "generatedAt": "2026-10-03T07:34:23.259Z",
   "projects": [
     {
       "title": "환상수호전 이어지는 백 년의 시간",
@@ -13,12 +13,31 @@
       "imageFit": "cover",
       "platform": "PSP",
       "type": "한국어 패치",
-      "status": "development",
-      "statusLabel": "개발 중",
-      "version": "첫 공개 전",
-      "updated": "2026-10-02",
-      "publicBuilds": 0,
-      "releaseHistory": [],
+      "status": "public",
+      "statusLabel": "베타 공개",
+      "version": "v0.9.0",
+      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SuikodenTHT-v0.9.0/Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
+      "downloadAsset": "Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
+      "downloadCount": 0,
+      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SuikodenTHT-v0.9.0",
+      "releaseName": "환상수호전 이어지는 백 년의 시간 한글 패치 v0.9.0",
+      "releasePublishedAt": "2026-10-03T07:27:19Z",
+      "updated": "2026-10-03",
+      "publicBuilds": 1,
+      "releaseHistory": [
+        {
+          "version": "v0.9.0",
+          "tag": "SuikodenTHT-v0.9.0",
+          "releaseName": "환상수호전 이어지는 백 년의 시간 한글 패치 v0.9.0",
+          "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SuikodenTHT-v0.9.0",
+          "publishedAt": "2026-10-03T07:27:19Z",
+          "date": "2026-10-03",
+          "prerelease": true,
+          "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SuikodenTHT-v0.9.0/Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
+          "downloadAsset": "Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
+          "downloadCount": 0
+        }
+      ],
       "description": "100년의 시간을 넘어 서로 다른 시대의 동료들과 인연을 잇는 스토리 중심 JRPG",
       "keywords": [
         "환상수호전 이어지는 백 년의 시간",
@@ -36,7 +55,7 @@
         "title": "전체 한국어 빌드 검증과 세이브·표시 호환성 정리",
         "href": "/projects/genso-suikoden-100-years/updates/2026-10-02.html"
       },
-      "latestReleaseTag": null
+      "latestReleaseTag": "SuikodenTHT-v0.9.0"
     },
     {
       "title": "Generation of Chaos 6",
