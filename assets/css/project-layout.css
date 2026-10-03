@@ -1,0 +1,31 @@
+/* Reader-first project pages: development information stays below user help. */
+.development-details > details > summary > span {
+  min-width: 0;
+}
+.development-details > details > summary::after {
+  flex: 0 0 auto;
+}
+.development-details-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  padding: 16px;
+  color: var(--text);
+  font-size: inherit;
+}
+.development-details-body > :is(#progress, #now, #pipeline, #milestones) {
+  min-width: 0;
+  margin: 0;
+}
+.development-details-body .milestone strong {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 620px) {
+  .development-details-body {
+    gap: 12px;
+    padding: 12px;
+  }
+  .development-details-body .box {
+    padding: 18px 14px;
+  }
+}
