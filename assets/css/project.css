@@ -145,16 +145,19 @@ details[open] summary:after{content:"−"}
 summary span{font-size:14px;font-weight:750}
 summary small{margin-left:auto;color:var(--muted);font-size:11px}
 .details-body{padding:2px 20px 20px;border-top:1px solid var(--line);color:#c3c5cc;font-size:13px;line-height:1.65}
-.game-detail-layout{display:grid;grid-template-columns:minmax(180px,260px) 1fr;gap:24px;align-items:start;padding-top:18px}
-.game-cover-wrap{margin:0}
-.game-cover{display:block;width:100%;max-height:360px;object-fit:contain;border:1px solid var(--line);border-radius:12px;background:#0b0c10}
-.game-cover-wrap figcaption{margin-top:6px;color:var(--muted);font-size:10px;text-align:center}
-@media(min-width:621px){
-  .game-info-compact .game-detail-layout{grid-template-columns:150px minmax(0,1fr);gap:22px;padding-top:14px}
-  .game-info-compact .game-cover-wrap{width:140px;max-width:100%}
-  .game-info-compact .game-cover{width:140px;max-width:100%;height:auto;max-height:none}
-  .game-info-compact .compact-kv{margin:8px 0 14px}
+.game-detail-layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:24px;align-items:start;padding-top:18px}
+.game-cover-wrap{width:220px;max-width:100%;margin:0}
+.game-cover{
+  display:block;
+  width:100%;
+  aspect-ratio:1 / 1;
+  object-fit:contain;
+  object-position:center;
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:#0b0c10;
 }
+.game-cover-wrap figcaption{margin-top:6px;color:var(--muted);font-size:10px;text-align:center}
 .kv{display:grid;grid-template-columns:170px 1fr;gap:8px 14px}
 .kv div:nth-child(odd){color:var(--muted)}
 .compact-kv{margin:18px 0}
@@ -182,7 +185,8 @@ main > .box{margin-top:16px}
   .summary-grid{grid-template-columns:1fr}
   .milestone-grid{grid-template-columns:repeat(3,1fr)}
   .preview-grid{grid-template-columns:1fr 1fr}
-  .game-detail-layout{grid-template-columns:210px 1fr}
+  .game-detail-layout{grid-template-columns:190px minmax(0,1fr)}
+  .game-cover-wrap{width:190px}
 }
 @media(max-width:620px){
   main{padding:18px 14px 60px}
@@ -205,7 +209,8 @@ main > .box{margin-top:16px}
   .preview-mark{width:72px;height:72px;border-radius:20px;font-size:24px}
   .preview-grid,.preview-grid.two-up{grid-template-columns:1fr}
   .game-detail-layout{grid-template-columns:1fr}
-  .game-cover{max-height:300px}
+  .game-cover-wrap{width:min(240px,100%);margin-inline:auto}
+  .game-cover{width:100%;aspect-ratio:1 / 1;max-height:none}
   summary small{display:none}
   .kv{grid-template-columns:1fr;gap:2px}
   .kv div:nth-child(odd){margin-top:10px}
