@@ -16,7 +16,7 @@ const fallbackProjects = [
     download: "https://github.com/ievy3/ievy3.github.io/releases/download/SuikodenTHT-v0.9.0/Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
     updated: "2026-10-03",
     publicBuilds: 1,
-    description: "100년의 시간을 넘어 서로 다른 시대의 동료들과 인연을 잇는 스토리 중심 JRPG",
+    description: "요구하는 것은 질서인가, 자유인가. 시간을 넘어 방어되는 새로운 백만 세계의 이야기.",
     keywords: ["환상수호전 이어지는 백 년의 시간", "환상수호전 이어지는 백년의 시간", "환상수호전", "gensosuikoden", "genso suikoden", "suikoden", "jrpg", "konami"]
   },
   {
