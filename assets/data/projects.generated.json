@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T06:50:50.635Z",
+  "generatedAt": "2026-10-03T07:03:05.458Z",
   "projects": [
     {
       "title": "환상수호전 이어지는 백 년의 시간",
@@ -166,7 +166,7 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
-      "downloadCount": 340,
+      "downloadCount": 341,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.9.0",
       "releaseName": "서몬나이트 5 (Summon Night 5) 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-01T15:02:39Z",
@@ -183,7 +183,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
-          "downloadCount": 340
+          "downloadCount": 341
         },
         {
           "version": "v0.7.0",
