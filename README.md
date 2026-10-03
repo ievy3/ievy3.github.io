@@ -19,7 +19,7 @@
 현재 공개 허브에서 관리하는 프로젝트는 6개입니다.
 
 - 환상수호전 이어지는 백 년의 시간 (PSP) — 첫 공개 전 · 전체 한국어 빌드 검증·콘텐츠 검수
-- Generation of Chaos 6 (PSP) — 첫 공개 전 · v0.9.0 배포 후보 검수
+- Generation of Chaos 6 (PSP) — v0.9.0
 - Sol Trigger (PSP) — v0.9.3
 - Summon Night 5 (PSP) — v0.9.0
 - Gungnir (PSP) — v0.9.0
