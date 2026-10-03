@@ -3,6 +3,22 @@ let activeStatus = "all";
 
 const fallbackProjects = [
   {
+    title: "환상수호전 이어지는 백 년의 시간",
+    href: "/projects/genso-suikoden-100-years/",
+    image: "/assets/images/genso-suikoden-100-years/2026-10-03-title.webp",
+    imageAlt: "환상수호전 이어지는 백 년의 시간 한글 타이틀 화면",
+    imageFit: "cover",
+    platform: "PSP",
+    type: "한국어 패치",
+    status: "development",
+    statusLabel: "개발 중",
+    version: "첫 공개 전",
+    updated: "2026-10-02",
+    publicBuilds: 0,
+    description: "100년의 시간을 넘어 서로 다른 시대의 동료들과 인연을 잇는 스토리 중심 JRPG",
+    keywords: ["환상수호전 이어지는 백 년의 시간", "환상수호전 이어지는 백년의 시간", "환상수호전", "gensosuikoden", "genso suikoden", "suikoden", "jrpg", "konami"]
+  },
+  {
     title: "Sol Trigger",
     href: "/projects/sol-trigger/",
     image: "/assets/images/sol-trigger/2026-10-01-title.webp",

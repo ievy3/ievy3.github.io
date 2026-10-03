@@ -93,5 +93,28 @@
     ],
     "releaseRepository": "ievy3/ievy3.github.io",
     "imageFit": "cover"
+  },
+  {
+    "slug": "genso-suikoden-100-years",
+    "title": "환상수호전 이어지는 백 년의 시간",
+    "image": "/assets/images/genso-suikoden-100-years/2026-10-03-title.webp",
+    "imageAlt": "환상수호전 이어지는 백 년의 시간 한글 타이틀 화면",
+    "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "gensosuikoden-",
+    "description": "100년의 시간을 넘어 서로 다른 시대의 동료들과 인연을 잇는 스토리 중심 JRPG",
+    "keywords": [
+      "환상수호전 이어지는 백 년의 시간",
+      "환상수호전 이어지는 백년의 시간",
+      "환상수호전",
+      "gensosuikoden",
+      "genso suikoden",
+      "tsumugareshi hyakunen no toki",
+      "suikoden",
+      "jrpg",
+      "konami"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "imageFit": "cover"
   }
 ]
