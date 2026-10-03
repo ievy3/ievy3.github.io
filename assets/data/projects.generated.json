@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T06:06:12.913Z",
+  "generatedAt": "2026-10-03T06:22:07.545Z",
   "projects": [
     {
       "title": "환상수호전 이어지는 백 년의 시간",
@@ -90,7 +90,7 @@
       "version": "v0.9.3",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
-      "downloadCount": 388,
+      "downloadCount": 389,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/soltrigger-v0.9.3",
       "releaseName": "솔 트리거 (SOL TRIGGER) 한글 패치 v0.9.3",
       "releasePublishedAt": "2026-10-01T13:51:21Z",
@@ -107,7 +107,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
-          "downloadCount": 388
+          "downloadCount": 389
         },
         {
           "version": "v0.9.2",
