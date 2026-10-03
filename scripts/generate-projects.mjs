@@ -178,6 +178,7 @@ for (const project of config) {
     imageAlt: project.imageAlt,
     imageFit: project.imageFit || "cover",
     platform: project.platform,
+    genre: project.genre || "RPG",
     type: project.type,
     status: release ? "public" : "development",
     statusLabel: release ? (release.prerelease ? "베타 공개" : "공개 중") : "개발 중",
