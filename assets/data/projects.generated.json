@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T07:34:38.002Z",
+  "generatedAt": "2026-10-03T07:45:24.703Z",
   "projects": [
     {
       "title": "환상수호전 이어지는 백 년의 시간",
@@ -9,7 +9,7 @@
       "issuesUrl": null,
       "releaseRepository": "ievy3/ievy3.github.io",
       "image": "/assets/images/genso-suikoden-100-years/2026-10-03-title.webp",
-      "imageAlt": "환상수호전 이어지는 백 년의 시간 v0.9.0 베타 한글 타이틀 화면",
+      "imageAlt": "환상수호전 이어지는 백 년의 시간 한글 타이틀 화면",
       "imageFit": "cover",
       "platform": "PSP",
       "type": "한국어 패치",
@@ -38,7 +38,7 @@
           "downloadCount": 0
         }
       ],
-      "description": "100년의 시간을 넘어 서로 다른 시대의 동료들과 인연을 잇는 스토리 중심 JRPG",
+      "description": "요구하는 것은 질서인가, 자유인가. 시간을 넘어 방어되는 새로운 백만 세계의 이야기.",
       "keywords": [
         "환상수호전 이어지는 백 년의 시간",
         "환상수호전 이어지는 백년의 시간",
@@ -69,12 +69,31 @@
       "imageFit": "cover",
       "platform": "PSP",
       "type": "한국어 패치",
-      "status": "development",
-      "statusLabel": "개발 중",
-      "version": "첫 공개 전",
-      "updated": "2026-10-02",
-      "publicBuilds": 0,
-      "releaseHistory": [],
+      "status": "public",
+      "statusLabel": "베타 공개",
+      "version": "v0.9.0",
+      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
+      "downloadAsset": "Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
+      "downloadCount": 0,
+      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/GOC6-v0.9.0",
+      "releaseName": "제네레이션 오브 카오스 6 한글 패치 v0.9.0",
+      "releasePublishedAt": "2026-10-03T07:45:14Z",
+      "updated": "2026-10-03",
+      "publicBuilds": 1,
+      "releaseHistory": [
+        {
+          "version": "v0.9.0",
+          "tag": "GOC6-v0.9.0",
+          "releaseName": "제네레이션 오브 카오스 6 한글 패치 v0.9.0",
+          "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/GOC6-v0.9.0",
+          "publishedAt": "2026-10-03T07:45:14Z",
+          "date": "2026-10-03",
+          "prerelease": true,
+          "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
+          "downloadAsset": "Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
+          "downloadCount": 0
+        }
+      ],
       "description": "대륙 제패를 목표로 내정·부대 운용·전투를 병행하는 판타지 전략 RPG",
       "keywords": [
         "제네레이션 오브 카오스 6",
@@ -90,7 +109,7 @@
         "title": "인스톨 데이터 부팅 문제를 해결하고 v0.9.0 배포 후보를 준비",
         "href": "/projects/generation-of-chaos-6/updates/2026-10-02.html"
       },
-      "latestReleaseTag": null
+      "latestReleaseTag": "GOC6-v0.9.0"
     },
     {
       "title": "Sol Trigger",
@@ -185,7 +204,7 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
-      "downloadCount": 341,
+      "downloadCount": 343,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.9.0",
       "releaseName": "서몬나이트 5 (Summon Night 5) 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-01T15:02:39Z",
@@ -202,7 +221,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
-          "downloadCount": 341
+          "downloadCount": 343
         },
         {
           "version": "v0.7.0",
