@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Noctil Patchworks 비공식 한국어 게임 패치 공통 적용 가이드">
+  <title>패치 적용 가이드 | Noctil Patchworks</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/guide/">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/home.css?v=17">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">
+      <span class="brand-mark">NP</span>
+      <span class="brand-name">Noctil Patchworks</span>
+    </a>
+    <nav class="site-nav" aria-label="주요 메뉴">
+      <a href="/#patches">패치</a>
+      <a href="/#support">후원</a>
+      <a href="/guestbook/">방명록</a>
+      <a class="nav-github" href="https://github.com/ievy3/ievy3.github.io" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main class="guide-main">
+    <header class="guide-page-head">
+      <a class="back-link" href="/">← Noctil Patchworks</a>
+      <p class="eyebrow">PATCH GUIDE</p>
+      <h1>패치 적용 가이드</h1>
+      <p>각 프로젝트의 지원 원본과 주의사항이 우선입니다. 아래 내용은 Noctil Patchworks 패치를 처음 적용할 때 공통으로 확인할 기본 순서입니다.</p>
+    </header>
+
+    <section class="guide-section" aria-labelledby="guide-order">
+      <p class="eyebrow">BASIC FLOW</p>
+      <h2 id="guide-order">기본 적용 순서</h2>
+      <p class="guide-section-lead">프로젝트 페이지의 최신 버전과 지원 원본을 먼저 확인한 뒤 진행하세요.</p>
+      <div class="guide-steps">
+        <article class="guide-step">
+          <strong>지원 원본 확인</strong>
+          <p>게임명만 같아도 지역·제품 코드·PSN/UMD 판본에 따라 패치 대상이 다를 수 있습니다. 각 프로젝트의 ‘지원 원본’을 기준으로 준비합니다.</p>
+        </article>
+        <article class="guide-step">
+          <strong>깨끗한 원본 준비</strong>
+          <p>이전 한글 패치가 적용되지 않은 원본을 사용합니다. Noctil Patchworks는 원본 ROM·ISO나 패치 적용 완료 이미지를 제공하지 않습니다.</p>
+        </article>
+        <article class="guide-step">
+          <strong>최신 패치 다운로드</strong>
+          <p>프로젝트 페이지의 ‘패치 다운로드’ 버튼에서 최신 공개본을 받습니다. 이전 버전이 필요한 경우 해당 프로젝트의 패치 이력을 확인합니다.</p>
+        </article>
+        <article class="guide-step">
+          <strong>패처 실행 및 결과 확인</strong>
+          <p>배포 파일의 안내에 따라 패처를 실행합니다. 패치가 끝나면 새로 생성된 결과물을 사용하며, 기존 패치본 위에 새 버전을 덧씌우지 않습니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="guide-section" aria-labelledby="guide-check">
+      <p class="eyebrow">BEFORE YOU PLAY</p>
+      <h2 id="guide-check">실행 전 확인</h2>
+      <div class="guide-checks">
+        <div class="guide-check">
+          <strong>ISO 형식</strong>
+          <span>CHD·CSO 등 압축 형식은 프로젝트에 따라 직접 입력할 수 없습니다. 안내에 별도 언급이 있으면 ISO로 변환한 뒤 적용하세요.</span>
+        </div>
+        <div class="guide-check">
+          <strong>PPSSPP</strong>
+          <span>패치 적용 후 새 게임 이미지로 실행합니다. 문제가 생기면 사용 중인 PPSSPP 버전과 발생 위치를 함께 기록해 주세요.</span>
+        </div>
+        <div class="guide-check">
+          <strong>PSP / PS Vita</strong>
+          <span>실기 호환 여부는 프로젝트별 검증 범위가 다릅니다. 대문 카드와 프로젝트 페이지의 검증 상태를 먼저 확인하세요.</span>
+        </div>
+        <div class="guide-check">
+          <strong>세이브·인스톨 데이터</strong>
+          <span>기존 데이터와의 호환성이나 주의사항이 있는 작품은 프로젝트 페이지 안내가 우선입니다. 이상이 있으면 새 데이터로 재현 여부를 확인해 주세요.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="guide-section" aria-labelledby="guide-report">
+      <p class="eyebrow">REPORT A PROBLEM</p>
+      <h2 id="guide-report">문제가 발생했나요?</h2>
+      <p class="guide-section-lead">패치 버전, 실행 환경, 발생 장소와 상황, 재현 방법, 가능하면 스크린샷을 함께 남겨 주면 확인이 빨라집니다.</p>
+      <div class="guide-report">
+        <p>원본 게임 파일은 첨부하지 마세요. 프로젝트별 오류 제보 링크가 있으면 해당 링크를 우선 사용해 주세요.</p>
+        <a href="https://github.com/ievy3/ievy3.github.io/issues/new" target="_blank" rel="noopener">GitHub Issues에서 제보 ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 NOCTIL PATCHWORKS</span>
+    <span>UNOFFICIAL · NON-COMMERCIAL FAN TRANSLATION</span>
+  </footer>
+</body>
+</html>
