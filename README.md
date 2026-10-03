@@ -16,11 +16,14 @@
 
 ## Projects
 
-- Sol Trigger (PSP) — 첫 공개 전 · 프로젝트 시작
-- Hexyz Force (PSP) — v0.9.2-beta.1
+현재 공개 허브에서 관리하는 프로젝트는 6개입니다.
+
+- 환상수호전 이어지는 백 년의 시간 (PSP) — 첫 공개 전 · 전체 한국어 빌드 검증·콘텐츠 QA
+- Generation of Chaos 6 (PSP) — 첫 공개 전 · v0.9.0 배포 후보 QA
+- Sol Trigger (PSP) — v0.9.3
+- Summon Night 5 (PSP) — v0.9.0
 - Gungnir (PSP) — v0.9.0
-- Summon Night 5 (PSP) — v0.7.0
-- Generation of Chaos 6 (PSP) — 첫 공개 전 · 텍스트 추출·재삽입 검증
+- Hexyz Force (PSP) — v0.9.2-beta.1
 
 각 프로젝트 페이지는 [Noctil Patchworks](https://ievy3.github.io/)에서 확인할 수 있습니다.
 
