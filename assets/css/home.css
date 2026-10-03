@@ -49,7 +49,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
   display:flex;
   align-items:center;
   justify-content:space-between;
-  max-width:1180px;
+  max-width:1320px;
   margin:0 auto;
   padding:20px 24px;
 }
@@ -76,7 +76,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 }
 .site-nav a:hover{background:rgba(255,255,255,.045);color:var(--text)}
 
-main{position:relative;max-width:1180px;margin:0 auto;padding:14px 24px 76px}
+main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
 
 .hero{
   max-width:900px;
@@ -265,11 +265,15 @@ main{position:relative;max-width:1180px;margin:0 auto;padding:14px 24px 76px}
   padding:17px 18px 16px;
 }
 .project-kicker{
+  display:flex;
+  align-items:center;
+  gap:6px;
   color:var(--muted);
   font-size:10px;
   font-weight:800;
   letter-spacing:.1em;
 }
+.project-kicker i{color:#555963;font-style:normal;letter-spacing:0}
 .project-title-row{
   display:flex;
   align-items:center;
@@ -433,7 +437,7 @@ footer{
   align-items:center;
   justify-content:space-between;
   gap:18px;
-  max-width:1180px;
+  max-width:1320px;
   margin:0 auto;
   padding:20px 24px 32px;
   border-top:1px solid var(--line);
@@ -496,6 +500,10 @@ footer a:hover{text-decoration:underline}
 }
 #HCB_comment_box .btn:hover,#HCB_comment_box input[type="submit"]:hover{background:rgba(217,184,116,.2)!important}
 
+@media(min-width:1280px){
+  .projects{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+  .project-info h3{font-size:24px}
+}
 @media(max-width:900px){
   .hero{max-width:none}
   .archive-top{flex-direction:column;align-items:flex-start}
