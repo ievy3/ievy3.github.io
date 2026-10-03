@@ -9,6 +9,7 @@ const fallbackProjects = [
     imageAlt: "환상수호전 이어지는 백 년의 시간 v0.9.0 베타 한글 타이틀 화면",
     imageFit: "cover",
     platform: "PSP",
+    genre: "JRPG",
     type: "한국어 패치",
     status: "public",
     statusLabel: "베타 공개",
@@ -26,6 +27,7 @@ const fallbackProjects = [
     imageAlt: "Sol Trigger v0.9.1 한글 타이틀 화면",
     imageFit: "cover",
     platform: "PSP",
+    genre: "JRPG",
     type: "한국어 패치",
     status: "development",
     statusLabel: "개발 중",
@@ -41,6 +43,7 @@ const fallbackProjects = [
     image: "/assets/images/summon-night-5/2026-09-28-title.webp",
     imageAlt: "Summon Night 5 v0.7.0 베타 한글 타이틀 화면",
     platform: "PSP",
+    genre: "SRPG",
     type: "한국어 패치",
     status: "public",
     statusLabel: "베타 공개",
@@ -57,6 +60,7 @@ const fallbackProjects = [
     image: "https://images.launchbox-app.com/d4799dcc-27cf-4a16-b315-c3bbbf6a3292.png",
     imageAlt: "Generation of Chaos 6 대표 PSP 타이틀 화면",
     platform: "PSP",
+    genre: "전략 RPG",
     type: "한국어 패치",
     status: "development",
     statusLabel: "개발 중",
@@ -72,6 +76,7 @@ const fallbackProjects = [
     image: "/assets/images/gungnir/latest-2026-09-23-title.webp",
     imageAlt: "궁그닐 v0.9.0 공개 검수판 한글 타이틀 화면",
     platform: "PSP",
+    genre: "전술 RPG",
     type: "한국어 패치",
     status: "public",
     statusLabel: "베타 공개",
@@ -88,6 +93,7 @@ const fallbackProjects = [
     image: "/assets/images/hexyz-force/worklog-2026-09-13/01-title-screen.webp",
     imageAlt: "엑시즈 포스 한글 타이틀 화면",
     platform: "PSP",
+    genre: "JRPG",
     type: "한국어 패치",
     status: "public",
     statusLabel: "베타 공개",
@@ -131,7 +137,7 @@ function card(project) {
       <img src="${cardImage}" alt="${project.imageAlt}" loading="lazy" style="object-fit:${project.imageFit || "cover"}"${cardImage.startsWith("http") ? ' referrerpolicy="no-referrer"' : ""}>
     </a>
     <div class="project-info">
-      <span class="project-kicker">${project.platform}</span>
+      <span class="project-kicker">${project.platform}<i aria-hidden="true">·</i>${project.genre || "RPG"}</span>
       <div class="project-title-row">
         <h3><a href="${project.href}">${project.title}</a></h3>
         <span class="version-pill">${project.version}</span>
@@ -158,6 +164,7 @@ function render() {
       const haystack = normalized([
         project.title,
         project.platform,
+        project.genre,
         project.statusLabel,
         ...(project.keywords || [])
       ].join(" "));
