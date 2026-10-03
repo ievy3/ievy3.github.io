@@ -15,7 +15,7 @@ const fallbackProjects = [
     version: "첫 공개 전",
     updated: "2026-09-29",
     publicBuilds: 0,
-    description: "신규 프로젝트 등록 · 기술 구조와 번역 파이프라인 조사 예정",
+    description: "에너지 ‘솔’을 둘러싼 지배와 저항의 이야기를 그린 스토리 중심 JRPG",
     keywords: ["솔 트리거", "솔트리거", "sol trigger", "jrpg", "imageepoch"]
   },
   {
@@ -31,7 +31,7 @@ const fallbackProjects = [
     download: "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.7.0/Noctil_Patchworks_Offline_SN5_v0.7.0.zip",
     updated: "2026-09-28",
     publicBuilds: 1,
-    description: "Vita 실기 검증 및 오프라인 패처 검사 완료",
+    description: "소환술과 파트너 시스템을 중심으로 전개되는 판타지 전략 RPG",
     keywords: ["서몬 나이트 5", "서몬나이트5", "summon night 5", "summonnight", "srpg", "felistella"]
   },
   {
@@ -46,7 +46,7 @@ const fallbackProjects = [
     version: "첫 공개 전",
     updated: "2026-09-23",
     publicBuilds: 0,
-    description: "게임 데이터 구조 분석 완료 · 대사 추출·재삽입 테스트 진행 중",
+    description: "대륙 제패를 목표로 내정·부대 운용·전투를 병행하는 판타지 전략 RPG",
     keywords: ["제네레이션 오브 카오스 6", "제네레이션오브카오스6", "generation of chaos 6", "goc6", "srpg", "sting", "idea factory"]
   },
   {
@@ -62,7 +62,7 @@ const fallbackProjects = [
     download: "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
     updated: "2026-09-22",
     publicBuilds: 2,
-    description: "전체 플레이 QA 및 실제 화면 검수 진행 중",
+    description: "신화의 창 ‘궁그닐’을 손에 넣은 소년과 반란군의 전쟁을 그린 전술 RPG",
     keywords: ["궁그닐", "gungnir", "srpg", "atlus"]
   },
   {
@@ -78,7 +78,7 @@ const fallbackProjects = [
     download: "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.2/Noctil_Patchworks_Offline_v0.9.2-beta.1.zip",
     updated: "2026-09-19",
     publicBuilds: 3,
-    description: "전체 플레이 QA와 잔여 문자열 검수 진행 중",
+    description: "두 주인공의 시점으로 세계의 창조와 파괴를 그리는 던전 탐험형 JRPG",
     keywords: ["엑시즈 포스", "hexyz", "rpg", "atlus"]
   }
 ];
