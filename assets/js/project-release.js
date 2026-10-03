@@ -1,3 +1,110 @@
+/* Shared project landing-page layout. Keep this synchronous and independent
+   of release API requests so the reading order also works when they fail. */
+(() => {
+  const main = document.querySelector("body.project-page main");
+  const recent = main?.querySelector(":scope > #recent-update");
+  if (!recent || main.dataset.projectLayout === "reader-first") return;
+
+  const nav = main.querySelector(":scope > .nav");
+  const preview = main.querySelector(":scope > .preview-section");
+  const developmentSections = Array.from(main.children).filter(element =>
+    element.matches("#progress, #now, #pipeline, #milestones")
+  );
+
+  // Move the original nodes, preserving images, IDs, links and event handlers.
+  if (preview) {
+    if (!preview.id) preview.id = "preview";
+    recent.after(preview);
+    if (nav) {
+      let link = Array.from(nav.querySelectorAll("a")).find(element =>
+        element.getAttribute("href") === `#${preview.id}`
+      );
+      if (!link) link = document.createElement("a");
+      link.href = `#${preview.id}`;
+      link.textContent = "게임 내 적용 화면";
+      const previous = nav.querySelector('a[href="#release"]')
+        || nav.querySelector('a[href="#recent-update"]');
+      if (previous) previous.after(link);
+      else nav.append(link);
+    }
+  }
+
+  if (developmentSections.length) {
+    const stack = document.createElement("section");
+    stack.className = "detail-stack development-details";
+    stack.setAttribute("aria-label", "개발 상세 정보");
+
+    const details = document.createElement("details");
+    details.id = "development-details";
+    // No `open` attribute: the entire development area starts collapsed.
+    const summary = document.createElement("summary");
+    const title = document.createElement("span");
+    title.textContent = "개발 상세 정보";
+    const hint = document.createElement("small");
+    hint.textContent = "진행 현황 · 현재 작업 · 번역 기준 · 기술 기반";
+    summary.append(title, hint);
+
+    const body = document.createElement("div");
+    body.className = "details-body development-details-body";
+    body.append(...developmentSections);
+    details.append(summary, body);
+    stack.append(details);
+    const footer = main.querySelector(":scope > footer");
+    if (footer) footer.before(stack);
+    else main.append(stack);
+
+    if (nav) {
+      const movedIds = new Set(developmentSections.map(element => `#${element.id}`));
+      nav.querySelectorAll("a").forEach(link => {
+        if (movedIds.has(link.getAttribute("href"))) link.remove();
+      });
+      const link = document.createElement("a");
+      link.href = "#development-details";
+      link.textContent = "개발 상세 정보";
+      nav.append(link);
+    }
+
+    if (!document.querySelector("link[data-project-layout-styles]")) {
+      const stylesheet = document.createElement("link");
+      stylesheet.rel = "stylesheet";
+      stylesheet.href = "/assets/css/project-layout.css?v=1";
+      stylesheet.dataset.projectLayoutStyles = "";
+      document.head.append(stylesheet);
+    }
+  }
+
+  // Keep old #progress/#now/#pipeline/#milestones links usable inside details.
+  // Also handle clicking the same anchor after the user closes its disclosure.
+  function revealHashTarget(hash) {
+    let target;
+    try {
+      target = hash && document.getElementById(decodeURIComponent(hash.slice(1)));
+    } catch {
+      return;
+    }
+    if (!target || !main.contains(target)) return;
+    let disclosure = target.closest("details");
+    let changed = false;
+    while (disclosure) {
+      if (!disclosure.open) {
+        disclosure.open = true;
+        changed = true;
+      }
+      disclosure = disclosure.parentElement?.closest("details");
+    }
+    if (changed) requestAnimationFrame(() => target.scrollIntoView({ block: "start", behavior: "instant" }));
+  }
+
+  nav?.addEventListener("click", event => {
+    if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    const link = event.target.closest('a[href^="#"]');
+    if (link) revealHashTarget(link.getAttribute("href"));
+  });
+  window.addEventListener("hashchange", () => revealHashTarget(window.location.hash));
+  main.dataset.projectLayout = "reader-first";
+  revealHashTarget(window.location.hash);
+})();
+
 (() => {
   const host = document.querySelector("[data-project-slug]");
   if (!host) return;
