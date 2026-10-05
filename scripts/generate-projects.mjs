@@ -72,7 +72,17 @@ async function latestWorklog(slug) {
 }
 
 function releaseDate(release) {
-  return (release.published_at || release.created_at || "").slice(0, 10);
+  const value = release.published_at || release.created_at || "";
+  if (!value) return "";
+
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(new Date(value));
+  const map = Object.fromEntries(parts.map(part => [part.type, part.value]));
+  return `${map.year}-${map.month}-${map.day}`;
 }
 
 function tagMatchesPrefix(tag, prefix) {
