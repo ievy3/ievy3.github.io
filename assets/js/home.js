@@ -3,6 +3,23 @@ let activeStatus = "all";
 
 const fallbackProjects = [
   {
+    title: "사키 포터블",
+    href: "/projects/saki-portable/",
+    image: "/assets/images/saki-portable/2026-10-05-title.webp",
+    imageAlt: "사키 포터블 한글 타이틀 화면",
+    imageFit: "cover",
+    platform: "PSP",
+    genre: "마작",
+    type: "한국어 패치",
+    status: "development",
+    statusLabel: "개발 중",
+    version: "첫 공개 전",
+    updated: "2026-10-05",
+    publicBuilds: 0,
+    description: "TV 애니메이션을 바탕으로 캐릭터별 능력과 스토리를 재현한 대전 마작 게임",
+    keywords: ["사키 포터블", "사키", "咲-Saki- Portable", "saki portable", "mahjong", "alchemist"]
+  },
+  {
     title: "환상수호전 이어지는 백 년의 시간",
     href: "/projects/genso-suikoden-100-years/",
     image: "/assets/images/genso-suikoden-100-years/2026-10-03-title.webp",
@@ -107,6 +124,7 @@ const fallbackProjects = [
 ];
 
 const fallbackVerificationByHref = {
+  "/projects/saki-portable/": ["PPSSPP"],
   "/projects/genso-suikoden-100-years/": ["PPSSPP"],
   "/projects/sol-trigger/": ["PPSSPP", "PS Vita"],
   "/projects/summon-night-5/": ["PS Vita"],
