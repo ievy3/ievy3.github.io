@@ -5,8 +5,8 @@ const fallbackProjects = [
   {
     title: "사키 포터블",
     href: "/projects/saki-portable/",
-    image: "/assets/images/saki-portable/2026-10-05-title.webp",
-    imageAlt: "사키 포터블 한글 타이틀 화면",
+    image: "/assets/images/saki-portable/official-cover-square.webp",
+    imageAlt: "사키 포터블 일본판 PSP 공식 패키지 이미지",
     imageFit: "cover",
     platform: "PSP",
     genre: "마작",
