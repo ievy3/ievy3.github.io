@@ -6,19 +6,33 @@
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/css/project.css?v=24">
 </head><body class="project-page log-page"><main class="log-entry-page">
 <a class="back" href="/projects/jinguji-ashes-and-diamonds/updates/">← 전체 작업일지</a>
-<header class="entry-hero"><p class="eyebrow">DEVELOPMENT LOG · 2026.10.05</p><h1>선택지 처리 결함과<br>배포 위험 수정</h1>
-<p>플레이 중 특정 소지품을 제시하면 리셋되던 문제를 재현해 선택지 주소 재배치 누락으로 원인을 확정했습니다. 수정 뒤 배포 위험을 별도로 점검해 EBOOT 문자열 배치 문제까지 해결하고 세이브·로드 회귀 확인과 화면 정렬 점검으로 넘어갔습니다.</p>
-<div class="badges"><span class="badge badge-live"><i></i>STABILITY FIX</span><span class="badge">c_smoke_008</span></div></header>
-<section class="entry-summary"><div><strong>56,122건</strong><span>선택지 주소 검증</span></div><div><strong>59 / 59</strong><span>시스템 문구 통합</span></div><div><strong>8차</strong><span>통합 빌드</span></div></section>
+<header class="entry-hero"><p class="eyebrow">DEVELOPMENT LOG · 2026.10.05</p><h1>플레이 리셋 수정과<br>배포 전 화면 정비</h1>
+<p>플레이 중 특정 소지품을 제시하면 게임이 리셋되던 중대 결함을 수정하고, 배포 전 안전성 점검에서 발견된 데이터 충돌 가능성도 함께 해결했습니다. 이후 일본어판과 한국어판 화면을 비교해 UI·영상·아이콘의 정렬과 일본어 잔존을 정리했으며, PSP 실기에서 오프닝까지 정상 실행되는 것을 확인했습니다.</p>
+<div class="badges"><span class="badge badge-live"><i></i>RELEASE QA</span><span class="badge">PSP 실기 실행 확인</span></div></header>
+<section class="entry-summary"><div><strong>1건</strong><span>플레이 리셋 결함 수정</span></div><div><strong>47개</strong><span>UI·이미지 자산 보정</span></div><div><strong>PSP</strong><span>오프닝까지 실행 확인</span></div></section>
 <section class="box entry-section"><p class="eyebrow">TODAY'S WORK</p><h2>주요 변경</h2><ul class="compact-list">
-<li>첫날 사무소에서 특정 사진을 제시하면 리셋되던 문제를 추적해 <strong>선택지 명령의 대본 주소 재배치 누락</strong>을 수정했습니다.</li>
-<li>전체 DAT에서 관련 주소 <strong>56,122건</strong>을 다시 계산하고 이전 주소가 남은 항목이 없는지 전수 검사했습니다.</li>
-<li>배포 위험 검토에서 발견된 <strong>EBOOT 문자열 재배치 영역의 데이터 덮어쓰기 가능성</strong>을 제거하고 문자열 전용 슬롯으로 제한했습니다.</li>
-<li>세이브 슬롯 저장·재시작·불러오기와 이동 경로를 다시 확인하고 시스템 문구 <strong>59/59건</strong>을 포함한 통합 빌드를 c_smoke_008까지 갱신했습니다.</li>
-<li>첫 공개 전 화면 확인 범위를 공통 자산 종류별로 정리하고 일본어판 대비 <strong>UI 정렬 차이 2px 이내</strong>를 목표로 전수 점검을 시작했습니다.</li>
+<li>첫날 사무소에서 특정 사진을 제시하면 게임이 리셋되던 문제의 원인을 찾아 수정했고, 같은 구간에서 문제가 다시 발생하지 않는지 확인했습니다.</li>
+<li>시스템 문구를 옮기는 과정에서 다른 게임 데이터를 덮을 수 있던 위험을 제거하고, 저장·불러오기와 이동 경로를 다시 점검했습니다.</li>
+<li>일본어판과 한국어판의 화면 위치를 전수 비교해 <strong>47개 UI·이미지 자산</strong>의 글자 정렬과 배경 손상을 보정했습니다.</li>
+<li>추리 화면의 답 위치, <strong>NO DATA</strong> 아이콘, 장 제목 영상 6편 등 실제 플레이에서 눈에 띄는 일본어 잔존과 표시 어긋남을 추가로 수정했습니다.</li>
+<li>재인코딩한 영상 20편의 재생 여부를 확인했고, PSP 실기에서도 현재 빌드가 오프닝까지 정상 실행되는 것을 확인했습니다. 영상의 음성·싱크와 저장 기능은 실기에서 추가 확인합니다.</li>
 </ul></section>
 <section class="entry-grid validation-grid">
-<article class="box entry-section"><p class="eyebrow">VERIFIED</p><h2>확인 완료</h2><ul class="log-checklist"><li><span>✓</span>선택지 재배치 누락 수정 · stale 주소 0</li><li><span>✓</span>문제 장면 교정 빌드 회귀 확인</li><li><span>✓</span>EBOOT 문자열 영역 안전성 검사</li><li><span>✓</span>세이브·재시작·불러오기 확인</li></ul></article>
-<article class="box entry-section"><p class="eyebrow">NEXT</p><h2>첫 공개 전 남은 확인</h2><ul class="log-checklist pending-list"><li><span>○</span>일본어판 대비 UI·이미지 정렬 전수 보정</li><li><span>○</span>공통 화면 자산 종류별 런타임 확인</li><li><span>○</span>PSP·PS Vita 부팅·폰트·영상·세이브/로드 실기 확인</li><li><span>○</span>첫 공개용 패처와 안내문 확정</li></ul></article>
-</section><p class="fine-print log-disclaimer">2026년 10월 5일 15:11 기준 작업을 사용자에게 필요한 변경 사항 중심으로 정리했습니다.</p>
+<article class="box entry-section"><p class="eyebrow">VERIFIED</p><h2>현재까지 확인</h2><ul class="log-checklist">
+<li><span>✓</span>특정 소지품 제시 후 리셋 결함 수정</li>
+<li><span>✓</span>배포 데이터가 다른 영역을 덮을 수 있던 위험 제거</li>
+<li><span>✓</span>UI·이미지 정렬 전수 비교와 주요 자산 보정</li>
+<li><span>✓</span>PSP 실기에서 부팅 및 오프닝 진입 확인</li>
+</ul></article>
+<article class="box entry-section"><p class="eyebrow">NEXT</p><h2>첫 공개 전 남은 확인</h2><ul class="log-checklist pending-list">
+<li><span>○</span>가운데 맞춤 패치와 특수 화면 5종의 PSP 실기 확인</li>
+<li><span>○</span>저장 → 재시작 → 불러오기 실기 확인</li>
+<li><span>○</span>재인코딩 영상의 음성·싱크 확인</li>
+<li><span>○</span>첫 공개용 패처와 새 게임 시작 안내 확정</li>
+</ul></article>
+</section>
+<section class="box entry-section"><p class="eyebrow">SAVE COMPATIBILITY</p><h2>저장 데이터 안내</h2>
+<p>대본 위치가 빌드마다 달라질 수 있어 개발 중 빌드의 저장 데이터는 서로 호환되지 않을 수 있습니다. 첫 공개판에서도 기존 저장 데이터를 이어 쓰기보다 <strong>새 게임으로 시작</strong>하도록 안내할 예정입니다.</p>
+</section>
+<p class="fine-print log-disclaimer">2026년 10월 5일 작업 결과와 10월 6일 자정 직후의 PSP 실기 확인을 반영했습니다. 내부 트랙 번호·커밋·빌드 코드·정적 검사 수치는 사용자에게 필요한 결과만 남기고 제외했습니다.</p>
 <footer class="footer-note">JINGUJI SABURO DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer></main></body></html>
