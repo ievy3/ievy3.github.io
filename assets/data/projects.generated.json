@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T15:18:55.846Z",
+  "generatedAt": "2026-10-05T15:19:23.062Z",
   "projects": [
     {
       "title": "사키 포터블",
@@ -17,6 +17,12 @@
       "status": "public",
       "statusLabel": "베타 공개",
       "version": "v0.9.5",
+      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiP-v0.9.5/Saki_Portable_Korean_Patch_v0.9.5.zip",
+      "downloadAsset": "Saki_Portable_Korean_Patch_v0.9.5.zip",
+      "downloadCount": 0,
+      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiP-v0.9.5",
+      "releaseName": "사키 포터블 한글 패치 v0.9.5 Pre-release",
+      "releasePublishedAt": "2026-10-05T15:07:34Z",
       "updated": "2026-10-06",
       "publicBuilds": 1,
       "releaseHistory": [
@@ -51,13 +57,7 @@
         "title": "v0.9.5 첫 프리릴리즈 공개",
         "href": "/projects/saki-portable/updates/2026-10-06.html"
       },
-      "latestReleaseTag": "sakiP-v0.9.5",
-      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiP-v0.9.5/Saki_Portable_Korean_Patch_v0.9.5.zip",
-      "downloadAsset": "Saki_Portable_Korean_Patch_v0.9.5.zip",
-      "downloadCount": 0,
-      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiP-v0.9.5",
-      "releaseName": "사키 포터블 한글 패치 v0.9.5 Pre-release",
-      "releasePublishedAt": "2026-10-05T15:07:34Z"
+      "latestReleaseTag": "sakiP-v0.9.5"
     },
     {
       "title": "탐정 진구지 사부로: 재와 다이아몬드",
@@ -117,7 +117,7 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SuikodenTHT-v0.9.0/Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
-      "downloadCount": 657,
+      "downloadCount": 658,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SuikodenTHT-v0.9.0",
       "releaseName": "환상수호전 이어지는 백 년의 시간 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-03T07:27:19Z",
@@ -134,7 +134,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SuikodenTHT-v0.9.0/Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
-          "downloadCount": 657
+          "downloadCount": 658
         }
       ],
       "description": "요구하는 것은 질서인가, 자유인가. 시간을 넘어 방어되는 새로운 백만 세계의 이야기.",
