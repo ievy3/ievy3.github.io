@@ -137,5 +137,29 @@
     "verification": [
       "PPSSPP"
     ]
+  },
+  {
+    "slug": "saki-portable",
+    "title": "사키 포터블",
+    "image": "/assets/images/saki-portable/2026-10-05-title.webp",
+    "imageAlt": "사키 포터블 한글 타이틀 화면",
+    "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "SakiPortable-",
+    "description": "TV 애니메이션을 바탕으로 캐릭터별 능력과 스토리를 재현한 대전 마작 게임",
+    "keywords": [
+      "사키 포터블",
+      "사키",
+      "咲-Saki- Portable",
+      "saki portable",
+      "mahjong",
+      "alchemist"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "imageFit": "cover",
+    "genre": "마작",
+    "verification": [
+      "PPSSPP"
+    ]
   }
 ]
