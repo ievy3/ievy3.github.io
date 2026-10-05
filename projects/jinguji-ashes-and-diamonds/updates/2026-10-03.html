@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="2026년 10월 3일 탐정 진구지 사부로 재와 다이아몬드 한국어 패치 작업일지">
+<title>2026.10.03 작업일지 | 재와 다이아몬드</title>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/css/project.css?v=24">
+</head><body class="project-page log-page"><main class="log-entry-page">
+<a class="back" href="/projects/jinguji-ashes-and-diamonds/updates/">← 전체 작업일지</a>
+<header class="entry-hero"><p class="eyebrow">DEVELOPMENT LOG · 2026.10.03</p>
+<h1>분석 기반 구축과<br>대본 번역 97.8%</h1>
+<p>기존 사전 분석을 키트 구조로 정리하고 실제 한국어 빌드에 필요한 스크립트·폰트·이미지·영상 처리 경로를 구축했습니다. 원문 추출과 재삽입의 무수정 왕복을 확인한 뒤 번역 기준을 확정하고 대본 양산에 들어갔습니다.</p>
+<div class="badges"><span class="badge badge-live"><i></i>FOUNDATION</span><span class="badge">DAY 1</span></div></header>
+<section class="entry-summary"><div><strong>990,626</strong><span>추출 문자열 필드</span></div><div><strong>97.8%</strong><span>대본 번역 진행</span></div><div><strong>1,878</strong><span>이미지 프레임 확인</span></div></section>
+<section class="box entry-section"><p class="eyebrow">TODAY'S WORK</p><h2>주요 변경</h2><ul class="compact-list">
+<li>DAT 스크립트의 가변 명령 구조와 문자열 형식을 정리하고 <strong>추출·재삽입 도구</strong>를 구축했습니다.</li>
+<li>원문 990,626개 문자열 필드를 다시 인코딩해 <strong>원본 DAT와 바이트 단위 일치</strong>하는지 확인했습니다.</li>
+<li>PSP 시스템 폰트 대신 <strong>Noto Sans KR 기반 자체 PGF</strong>를 ISO에 넣어 한글을 표시하는 경로를 확정했습니다.</li>
+<li>GIM 이미지와 PSMF 영상 자막의 처리 경로를 마련하고 타이틀·UI·소품 이미지 한글화를 시작했습니다.</li>
+<li>PS2 정식 한글판 표기를 참고해 인명·호칭·지명 기준을 정리한 뒤 대본 번역을 <strong>97.8%</strong>까지 진행했습니다.</li>
+</ul></section>
+<section class="entry-grid validation-grid">
+<article class="box entry-section"><p class="eyebrow">VERIFIED</p><h2>확인 완료</h2><ul class="log-checklist"><li><span>✓</span>원본 ISO 해시 유지</li><li><span>✓</span>DAT 추출·재삽입 무수정 왕복</li><li><span>✓</span>ISO 내장 한글 PGF 표시</li><li><span>✓</span>이미지·영상 변환 기본 경로</li></ul></article>
+<article class="box entry-section"><p class="eyebrow">NEXT</p><h2>다음 단계</h2><ul class="log-checklist pending-list"><li><span>○</span>남은 대본 번역 마감</li><li><span>○</span>장면 순서 통독과 용어 통합</li><li><span>○</span>이미지·영상 자산 통합</li><li><span>○</span>첫 통합 한국어 빌드 런타임 확인</li></ul></article>
+</section><p class="fine-print log-disclaimer">내부 트랙 번호·모델 배정·커밋 수 등 사용자가 확인할 필요가 없는 운영 기록은 제외하고 결과 중심으로 정리했습니다.</p>
+<footer class="footer-note">JINGUJI SABURO DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer></main></body></html>
