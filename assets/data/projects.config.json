@@ -145,7 +145,7 @@
     "imageAlt": "사키 포터블 한글 타이틀 화면",
     "platform": "PSP",
     "type": "한국어 패치",
-    "releasePrefix": "SakiPortable-",
+    "releasePrefix": "sakiP-",
     "description": "TV 애니메이션을 바탕으로 캐릭터별 능력과 스토리를 재현한 대전 마작 게임",
     "keywords": [
       "사키 포터블",
@@ -159,7 +159,8 @@
     "imageFit": "cover",
     "genre": "마작",
     "verification": [
-      "PPSSPP"
+      "PPSSPP",
+      "PSP-1000"
     ]
   },
   {

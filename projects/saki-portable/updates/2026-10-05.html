@@ -13,46 +13,49 @@
   <a class="back" href="/projects/saki-portable/updates/">← 전체 작업일지</a>
   <header class="entry-hero">
     <p class="eyebrow">DEVELOPMENT LOG · 2026.10.05</p>
-    <h1>그림 글자의 정렬과 원본 손상을<br>전수 재검사</h1>
-    <p>갤러리와 실제 게임 화면을 다시 비교하면서 이미지 한글화의 미세한 위치 어긋남과 원본 배경 손상을 집중적으로 수정했습니다. 대국 버튼, 룰 항목, 경고 표시, 소품 컷처럼 실제 플레이에서 눈에 띄는 부분을 다시 측정하고 다음 배포 후보에 반영하고 있습니다.</p>
-    <div class="badges"><span class="badge badge-live"><i></i>VISUAL QA</span><span class="badge">v0.9.3 후보 검수</span></div>
+    <h1>전수 시각 검수와 PSP-1000 확인,<br>v0.9.5 배포판 완성</h1>
+    <p>그림 글자의 정렬과 원본 배경 손상을 전수 재검사한 뒤 실제 PSP-1000에서 구동과 한글 표시를 확인했습니다. 마지막으로 Windows 오프라인 패처까지 검증해 첫 공개용 v0.9.5 배포 폴더를 완성했습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>RELEASE CANDIDATE</span><span class="badge">v0.9.5 완성</span><span class="badge">PSP-1000 확인</span></div>
   </header>
   <section class="entry-summary">
-    <div><strong>121칸</strong><span>표시 영역 재측정</span></div>
-    <div><strong>62칸</strong><span>원본 그림 복원</span></div>
-    <div><strong>v0.9.3</strong><span>현재 배포 후보</span></div>
+    <div><strong>v12</strong><span>최종 게임 빌드</span></div>
+    <div><strong>PSP-1000</strong><span>실기 구동 확인</span></div>
+    <div><strong>8 / 8</strong><span>패처 검증 통과</span></div>
   </section>
   <section class="box entry-section">
-    <p class="eyebrow">TODAY'S WORK</p><h2>주요 변경</h2>
+    <p class="eyebrow">VISUAL REVIEW</p><h2>그림 글자와 원본 UI 전수 재검사</h2>
     <ul class="compact-list">
-      <li>원본 이미지의 글자 상자와 실제 게임 배치를 다시 비교해 <strong>UI 글자의 중심·좌우 정렬을 대규모로 재조정</strong>했습니다.</li>
-      <li>대국의 「치」「깡」 버튼처럼 측정 범위가 이웃 픽셀까지 포함돼 중심이 틀어졌던 부분을 찾아 <strong>121개 영역을 다시 측정</strong>했습니다.</li>
-      <li>경고 표시의 세모 잘림, 타원형 순서판 테두리 덮임, 룰 항목의 흰 구분선 손실 등 <strong>원본 UI 구조가 손상된 부분을 복원</strong>했습니다.</li>
-      <li>글자를 지우는 과정에서 함께 사라진 원본 그림을 찾아 <strong>62개 영역의 배경을 복원</strong>하고 자동 검사도 보강했습니다.</li>
-      <li>소품 컷의 글자 잘림과 종이 가장자리 어긋남을 수정 중이며, 추가 수정 사항을 통합한 다음 빌드를 준비하고 있습니다.</li>
+      <li>그림 글자 수백 개를 원본 UI의 실제 배치 기준으로 다시 비교해 중심·좌우 정렬을 조정했습니다.</li>
+      <li>대국의 「치」「깡」 버튼처럼 이웃 픽셀 때문에 측정이 틀어진 영역 <strong>121곳을 다시 측정</strong>하고 위치를 보정했습니다.</li>
+      <li>글자를 지우는 과정에서 함께 손상된 원본 그림 <strong>62개 영역</strong>을 복원하고, 경고 표시·순서판·룰 항목의 테두리와 구분선도 다시 확인했습니다.</li>
+      <li>소품 컷의 글자 잘림과 가장자리 계단, 작은 순위 글자의 외곽선 찌꺼기까지 추가로 정리했습니다.</li>
     </ul>
   </section>
   <section class="entry-grid validation-grid">
     <article class="box entry-section">
-      <p class="eyebrow">CURRENT CANDIDATE</p><h2>현재 배포 후보</h2>
+      <p class="eyebrow">HARDWARE CHECK</p><h2>PSP-1000 실기 확인</h2>
       <ul class="log-checklist">
-        <li><span>✓</span>v10 빌드와 v0.9.3 배포 묶음 준비</li>
-        <li><span>✓</span>대국 버튼·경고·순서판 등 추가 화면 확인</li>
-        <li><span>✓</span>원본 배경 손상 전수 검사 보강</li>
-        <li><span>✓</span>10월 5일 주요 이미지 수정 다수 반영</li>
+        <li><span>✓</span>실제 PSP-1000에서 게임 구동 확인</li>
+        <li><span>✓</span>한글 표시 확인</li>
+        <li><span>✓</span>첫 실행 기본 이름을 「플레이어」로 지정</li>
+        <li><span>✓</span>원본 ISO와 주요 화면을 반복 비교</li>
       </ul>
     </article>
     <article class="box entry-section">
-      <p class="eyebrow">NEXT CHECK</p><h2>첫 공개 전 남은 확인</h2>
-      <ul class="log-checklist pending-list">
-        <li><span>○</span>소품 컷과 룰 화면 추가 수정 완료</li>
-        <li><span>○</span>추가 수정 사항을 통합한 다음 빌드 생성</li>
-        <li><span>○</span>전체 화면 회귀 확인</li>
-        <li><span>○</span>PSP·PS Vita 실기 일괄 확인 후 공개 결정</li>
+      <p class="eyebrow">OFFLINE PATCHER</p><h2>v0.9.5 배포 묶음 완성</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>Windows용 Noctil Patchworks 오프라인 패처 제작</li>
+        <li><span>✓</span>8개 패처 검증 케이스 모두 통과</li>
+        <li><span>✓</span>xdelta·해시·라이선스·사용 안내 포함</li>
+        <li><span>✓</span>첫 공개용 v0.9.5 폴더 최종 생성</li>
       </ul>
     </article>
   </section>
-  <p class="fine-print log-disclaimer">2026년 10월 5일 15:10 기준입니다. 내부 작업 번호·커밋·도구 실행 기록은 사용자에게 필요한 결과만 남기고 제외했습니다.</p>
+  <section class="box entry-section">
+    <p class="eyebrow">REMAINING CHECKS</p><h2>프리릴리즈에서 계속 확인할 부분</h2>
+    <p>작은 순위 결과 화면, 의상 화면, 이름 입력 취소 경로, 통신 알림·경고 띠 일부는 추가 확인 대상으로 남겨 두었습니다. 통신 알림 판의 붉은 공 가장자리에는 작은 시각적 흠이 남아 있으며 게임 진행에는 영향이 없습니다.</p>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호·커밋·도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 변경과 검증 결과만 정리했습니다.</p>
   <footer class="footer-note">SAKI PORTABLE DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
 </main>
 </body>

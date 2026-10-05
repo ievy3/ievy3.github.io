@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T15:07:59.228Z",
+  "generatedAt": "2026-10-05T15:18:55.846Z",
   "projects": [
     {
       "title": "사키 포터블",
@@ -14,12 +14,25 @@
       "platform": "PSP",
       "genre": "마작",
       "type": "한국어 패치",
-      "status": "development",
-      "statusLabel": "개발 중",
-      "version": "첫 공개 전",
-      "updated": "2026-10-05",
-      "publicBuilds": 0,
-      "releaseHistory": [],
+      "status": "public",
+      "statusLabel": "베타 공개",
+      "version": "v0.9.5",
+      "updated": "2026-10-06",
+      "publicBuilds": 1,
+      "releaseHistory": [
+        {
+          "version": "v0.9.5",
+          "tag": "sakiP-v0.9.5",
+          "releaseName": "사키 포터블 한글 패치 v0.9.5 Pre-release",
+          "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiP-v0.9.5",
+          "publishedAt": "2026-10-05T15:07:34Z",
+          "date": "2026-10-05",
+          "prerelease": true,
+          "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiP-v0.9.5/Saki_Portable_Korean_Patch_v0.9.5.zip",
+          "downloadAsset": "Saki_Portable_Korean_Patch_v0.9.5.zip",
+          "downloadCount": 0
+        }
+      ],
       "description": "TV 애니메이션을 바탕으로 캐릭터별 능력과 스토리를 재현한 대전 마작 게임",
       "keywords": [
         "사키 포터블",
@@ -30,14 +43,21 @@
         "alchemist"
       ],
       "verification": [
-        "PPSSPP"
+        "PPSSPP",
+        "PSP-1000"
       ],
       "latestWorklog": {
-        "date": "2026-10-05",
-        "title": "그림 글자의 정렬과 원본 손상을 전수 재검사",
-        "href": "/projects/saki-portable/updates/2026-10-05.html"
+        "date": "2026-10-06",
+        "title": "v0.9.5 첫 프리릴리즈 공개",
+        "href": "/projects/saki-portable/updates/2026-10-06.html"
       },
-      "latestReleaseTag": null
+      "latestReleaseTag": "sakiP-v0.9.5",
+      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiP-v0.9.5/Saki_Portable_Korean_Patch_v0.9.5.zip",
+      "downloadAsset": "Saki_Portable_Korean_Patch_v0.9.5.zip",
+      "downloadCount": 0,
+      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiP-v0.9.5",
+      "releaseName": "사키 포터블 한글 패치 v0.9.5 Pre-release",
+      "releasePublishedAt": "2026-10-05T15:07:34Z"
     },
     {
       "title": "탐정 진구지 사부로: 재와 다이아몬드",
