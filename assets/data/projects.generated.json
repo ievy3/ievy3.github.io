@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T06:43:22.116Z",
+  "generatedAt": "2026-10-05T07:18:27.566Z",
   "projects": [
     {
       "title": "사키 포터블",
@@ -8,8 +8,8 @@
       "repositoryUrl": null,
       "issuesUrl": null,
       "releaseRepository": "ievy3/ievy3.github.io",
-      "image": "/assets/images/saki-portable/2026-10-05-title.webp",
-      "imageAlt": "사키 포터블 한글 타이틀 화면",
+      "image": "/assets/images/saki-portable/official-cover-square.webp",
+      "imageAlt": "사키 포터블 일본판 PSP 공식 패키지 이미지",
       "imageFit": "cover",
       "platform": "PSP",
       "genre": "마작",
@@ -57,7 +57,7 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SuikodenTHT-v0.9.0/Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
-      "downloadCount": 633,
+      "downloadCount": 634,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SuikodenTHT-v0.9.0",
       "releaseName": "환상수호전 이어지는 백 년의 시간 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-03T07:27:19Z",
@@ -74,7 +74,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SuikodenTHT-v0.9.0/Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
-          "downloadCount": 633
+          "downloadCount": 634
         }
       ],
       "description": "요구하는 것은 질서인가, 자유인가. 시간을 넘어 방어되는 새로운 백만 세계의 이야기.",
@@ -323,7 +323,7 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
       "downloadAsset": "Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
-      "downloadCount": 357,
+      "downloadCount": 358,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gungnir-v0.9.0",
       "releaseName": "Gungnir 한글 패치 v0.9.0 — 공개 검수판 (260922)",
       "releasePublishedAt": "2026-09-22T20:02:45Z",
@@ -340,7 +340,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
           "downloadAsset": "Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
-          "downloadCount": 357
+          "downloadCount": 358
         },
         {
           "version": "v0.8.0",
