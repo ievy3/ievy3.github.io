@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T07:25:41.118Z",
+  "generatedAt": "2026-10-05T07:27:27.722Z",
   "projects": [
     {
       "title": "사키 포터블",
@@ -36,6 +36,46 @@
         "date": "2026-10-05",
         "title": "그림 글자의 정렬과 원본 손상을 전수 재검사",
         "href": "/projects/saki-portable/updates/2026-10-05.html"
+      },
+      "latestReleaseTag": null
+    },
+    {
+      "title": "탐정 진구지 사부로: 재와 다이아몬드",
+      "href": "/projects/jinguji-ashes-and-diamonds/",
+      "repository": null,
+      "repositoryUrl": null,
+      "issuesUrl": null,
+      "releaseRepository": "ievy3/ievy3.github.io",
+      "image": "/assets/images/jinguji-ashes-and-diamonds/2026-10-05-title.webp",
+      "imageAlt": "탐정 진구지 사부로 재와 다이아몬드 한글 타이틀 화면",
+      "imageFit": "cover",
+      "platform": "PSP",
+      "genre": "추리 ADV",
+      "type": "한국어 패치",
+      "status": "development",
+      "statusLabel": "개발 중",
+      "version": "첫 공개 전",
+      "updated": "2026-10-05",
+      "publicBuilds": 0,
+      "releaseHistory": [],
+      "description": "가부키초를 무대로 여러 의뢰와 인물의 이해관계가 교차하는 하드보일드 추리 어드벤처",
+      "keywords": [
+        "탐정 진구지 사부로",
+        "재와 다이아몬드",
+        "灰とダイヤモンド",
+        "jinguji saburo",
+        "ashes and diamonds",
+        "adventure",
+        "workjam",
+        "arc system works"
+      ],
+      "verification": [
+        "PPSSPP"
+      ],
+      "latestWorklog": {
+        "date": "2026-10-05",
+        "title": "선택지 처리 결함과 배포 위험 수정",
+        "href": "/projects/jinguji-ashes-and-diamonds/updates/2026-10-05.html"
       },
       "latestReleaseTag": null
     },
