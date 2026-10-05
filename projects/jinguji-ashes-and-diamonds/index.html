@@ -35,7 +35,7 @@
       <div class="badges">
         <span class="badge"><i></i><span data-release-status-label>개발 중</span></span>
         <span class="badge">첫 공개 전</span>
-        <span class="badge">통합 빌드 8차</span>
+        <span class="badge">배포 후보 검수</span>
         <span class="badge" data-release-date-badge>2026.10.05 업데이트</span>
       </div>
     </div>
@@ -44,7 +44,7 @@
   <section class="project-facts" aria-label="프로젝트 핵심 정보">
     <div><span>상태</span><strong class="fact-development" data-release-status data-release-status-label>개발 중</strong></div>
     <div><span>공개 버전</span><strong data-release-version>첫 공개 전</strong></div>
-    <div><span>현재 단계</span><strong>번역 1차 완료 · 통합·화면 검수</strong></div>
+    <div><span>현재 단계</span><strong>번역 1차 완료 · 배포 전 화면·실기 검수</strong></div>
     <div><span>마지막 업데이트</span><strong data-release-date>2026.10.05</strong></div>
   </section>
 
@@ -86,20 +86,21 @@
       <p class="eyebrow">RECENT UPDATE</p>
       <h2>10월 5일 주요 변경</h2>
       <ul class="compact-list">
-        <li>특정 소지품을 제시하면 리셋되던 문제를 추적해 선택지 주소 재배치 누락을 수정</li>
-        <li>시스템 문자열을 옮기는 과정에서 다른 데이터를 덮을 수 있던 배포 위험을 제거</li>
-        <li>세이브·로드와 이동 경로를 다시 확인하고 통합 빌드를 <strong>c_smoke_008</strong>까지 갱신</li>
-        <li>일본어판과 한국어판의 UI 위치를 비교해 글자·버튼 정렬을 전수 점검 중</li>
+        <li>특정 소지품 제시 뒤 게임이 리셋되던 중대 결함을 수정하고 같은 구간의 재발 여부를 다시 확인</li>
+        <li>시스템 문구 수정이 다른 데이터를 침범할 수 있던 배포 위험을 제거하고 세이브·로드 경로를 재점검</li>
+        <li>일본어판과 한국어판 화면을 전수 비교해 <strong>47개 UI·이미지 자산</strong>의 정렬과 배경 손상을 보정</li>
+        <li>추리 화면 답 맞춤, NO DATA 아이콘, 장 제목 영상 6편 등 눈에 띄는 일본어 잔존과 표시 어긋남을 추가 수정</li>
+        <li>PSP 실기에서 현재 빌드가 오프닝까지 정상 실행되는 것을 확인했으며 저장·재인코딩 영상 등은 추가 확인 중</li>
       </ul>
       <a class="log-link" href="/projects/jinguji-ashes-and-diamonds/updates/2026-10-05.html">10월 5일 상세 작업일지 <span>→</span></a>
     </article>
 
     <article class="box release-card" id="release">
       <p class="eyebrow">PRE-RELEASE</p>
-      <h2>첫 공개 전 통합 검수 중</h2>
+      <h2>첫 공개 전 최종 검수 중</h2>
       <a class="button disabled" data-release-download aria-disabled="true">배포 파일 등록 전</a>
-      <small class="line-count">최신 내부 통합: c_smoke_008</small>
-      <p class="notice release-notice"><strong>배포 상태</strong> · 번역 1차와 주요 한글 표시 기반은 완료됐습니다. 공통 화면 확인, 정렬 보정, PSP·PS Vita 실기 확인을 마친 뒤 첫 공개판을 결정합니다.</p>
+      <small class="line-count">PSP 실기 부팅·오프닝 확인</small>
+      <p class="notice release-notice"><strong>배포 상태</strong> · 번역 1차와 주요 한글 표시 기반은 완료됐고, 플레이 중 리셋 결함과 배포 데이터 위험도 수정했습니다. PSP 실기에서 오프닝까지 실행을 확인했으며 저장·영상·특수 화면을 추가 확인한 뒤 첫 공개판을 결정합니다.</p>
     </article>
   </section>
 
@@ -128,15 +129,15 @@
           <div class="overall-row"><div class="overall-label"><span>대본·시스템 번역</span><strong>1차 번역 완료 · 전수 정적 검사 통과</strong></div></div>
           <div class="overall-row"><div class="overall-label"><span>한글 표시</span><strong>자체 PGF 폰트·EBOOT 표시 경로 적용</strong></div></div>
           <div class="overall-row"><div class="overall-label"><span>이미지·영상</span><strong>타이틀·UI·소품·영상 자막 통합</strong></div></div>
-          <div class="overall-row is-pending"><div class="overall-label"><span>최종 확인</span><strong>화면 정렬 전수 점검 · 공통 화면 확인 · 실기 검증 예정</strong></div></div>
+          <div class="overall-row is-pending"><div class="overall-label"><span>최종 확인</span><strong>화면 정렬 보정 · PSP 실기 확인 · 배포 문서 정리 진행 중</strong></div></div>
         </div>
         <div class="progress-dashboard">
           <section class="progress-panel">
             <p class="eyebrow">NOW WORKING ON</p><h3>현재 작업</h3>
             <ol class="task-list">
-              <li class="active"><span>01</span><div><strong>화면 정렬 전수 점검</strong><small>일본어판 대비 기준점 차이를 2px 이내로 맞춤</small></div></li>
-              <li><span>02</span><div><strong>공통 화면 확인</strong><small>메뉴·설정·장소 설명·세이브 등 자산 종류별 확인</small></div></li>
-              <li><span>03</span><div><strong>실기 검증</strong><small>PSP·PS Vita에서 부팅·폰트·영상·세이브/로드 확인</small></div></li>
+              <li class="active"><span>01</span><div><strong>가운데 맞춤 패치 최종 확인</strong><small>일본어판 대비 화면 위치가 자연스러운지 PSP 실기에서 비교</small></div></li>
+              <li><span>02</span><div><strong>특수 화면 추가 확인</strong><small>편지·메모·평면도·요약·CASE FILE과 추리 화면 표시 점검</small></div></li>
+              <li><span>03</span><div><strong>PSP 실기 검증 마무리</strong><small>저장→재시작→불러오기와 재인코딩 영상의 재생·음성·싱크 확인</small></div></li>
             </ol>
           </section>
           <section class="progress-panel">
@@ -161,7 +162,7 @@
 
     <details>
       <summary><span>남은 작업</span><small>정렬 · 공통 화면 · 실기 · 첫 공개</small></summary>
-      <div class="details-body"><ul><li>일본어판과 한국어판의 UI·이미지 정렬 차이 전수 보정</li><li>공통 화면 자산 종류별 런타임 확인</li><li>PSP·PS Vita에서 부팅·영상·세이브/로드 최종 확인</li><li>첫 공개용 패처와 안내문 확정</li></ul></div>
+      <div class="details-body"><ul><li>가운데 맞춤 패치와 특수 화면 표시의 PSP 실기 확인</li><li>재인코딩 영상의 재생·음성·싱크 확인</li><li>저장 → 재시작 → 불러오기 실기 확인</li><li>첫 공개용 패처와 새 게임 시작 안내를 포함한 배포 문서 확정</li></ul></div>
     </details>
 
     <details id="support">
@@ -173,7 +174,7 @@
           <div>배포 방식</div><div>첫 공개 시 오프라인 패처와 xdelta 제공 예정</div>
           <div>오류 제보</div><div><a class="text-link" href="https://github.com/ievy3/ievy3.github.io/issues/new?title=%5B진구지%20사부로%20재와%20다이아몬드%5D%20오류%20제보" target="_blank" rel="noopener">GitHub Issues ↗</a></div>
         </div>
-        <p class="notice">원본 ROM·ISO는 제공하지 않습니다. 개발 중 빌드 사이에서는 세이브 호환을 보장하지 않으며, 첫 공개판 안내에 지원 조건을 명시합니다.</p>
+        <p class="notice">원본 ROM·ISO는 제공하지 않습니다. 대본 구조가 바뀌어 기존 저장 데이터와의 호환을 보장할 수 없으므로 첫 공개판 적용 시에는 새 게임으로 시작하도록 안내할 예정입니다.</p>
       </div>
     </details>
 
