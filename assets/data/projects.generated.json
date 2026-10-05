@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T07:18:27.566Z",
+  "generatedAt": "2026-10-05T07:21:33.943Z",
   "projects": [
     {
       "title": "사키 포터블",
@@ -8,8 +8,8 @@
       "repositoryUrl": null,
       "issuesUrl": null,
       "releaseRepository": "ievy3/ievy3.github.io",
-      "image": "/assets/images/saki-portable/official-cover-square.webp",
-      "imageAlt": "사키 포터블 일본판 PSP 공식 패키지 이미지",
+      "image": "/assets/images/saki-portable/2026-10-05-title.webp",
+      "imageAlt": "사키 포터블 한글 타이틀 화면",
       "imageFit": "cover",
       "platform": "PSP",
       "genre": "마작",
@@ -173,7 +173,7 @@
       "version": "v0.9.3",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
-      "downloadCount": 474,
+      "downloadCount": 475,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/soltrigger-v0.9.3",
       "releaseName": "솔 트리거 (SOL TRIGGER) 한글 패치 v0.9.3",
       "releasePublishedAt": "2026-10-01T13:51:21Z",
@@ -190,7 +190,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
-          "downloadCount": 474
+          "downloadCount": 475
         },
         {
           "version": "v0.9.2",
