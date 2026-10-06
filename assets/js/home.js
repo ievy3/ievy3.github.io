@@ -3,6 +3,23 @@ let activeStatus = "all";
 
 const fallbackProjects = [
   {
+    title: "사키 -Saki- 아치가편 episode of side-A Portable",
+    href: "/projects/saki-achiga-portable/",
+    image: "/assets/images/saki-achiga-portable/2026-10-06-title.webp",
+    imageAlt: "사키 아치가편 episode of side-A Portable 한글 타이틀 화면",
+    imageFit: "cover",
+    platform: "PSP",
+    genre: "마작",
+    type: "한국어 패치",
+    status: "development",
+    statusLabel: "개발 중",
+    version: "첫 공개 전",
+    updated: "2026-10-06",
+    publicBuilds: 0,
+    description: "아치가 여학원의 소녀들이 전국 무대를 향해 나아가는 이야기를 바탕으로 한 대전 마작 게임",
+    keywords: ["사키 아치가편", "사키 -Saki- 아치가편", "episode of side-A", "saki achiga portable", "mahjong", "alchemist"]
+  },
+  {
     title: "사키 포터블",
     href: "/projects/saki-portable/",
     image: "/assets/images/saki-portable/2026-10-05-title.webp",
@@ -124,6 +141,7 @@ const fallbackProjects = [
 ];
 
 const fallbackVerificationByHref = {
+  "/projects/saki-achiga-portable/": ["PPSSPP"],
   "/projects/saki-portable/": ["PPSSPP"],
   "/projects/genso-suikoden-100-years/": ["PPSSPP"],
   "/projects/sol-trigger/": ["PPSSPP", "PS Vita"],

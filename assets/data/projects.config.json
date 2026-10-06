@@ -188,5 +188,30 @@
     "verification": [
       "PPSSPP"
     ]
+  },
+  {
+    "slug": "saki-achiga-portable",
+    "title": "사키 -Saki- 아치가편 episode of side-A Portable",
+    "image": "/assets/images/saki-achiga-portable/2026-10-06-title.webp",
+    "imageAlt": "사키 아치가편 episode of side-A Portable 한글 타이틀 화면",
+    "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "sakiA-",
+    "description": "아치가 여학원의 소녀들이 전국 무대를 향해 나아가는 이야기를 바탕으로 한 대전 마작 게임",
+    "keywords": [
+      "사키 아치가편",
+      "사키 -Saki- 아치가편",
+      "episode of side-A",
+      "Saki Achiga-hen episode of side-A Portable",
+      "saki achiga portable",
+      "mahjong",
+      "alchemist"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "imageFit": "cover",
+    "genre": "마작",
+    "verification": [
+      "PPSSPP"
+    ]
   }
 ]
