@@ -114,10 +114,10 @@ const fallbackProjects = [
     type: "한국어 패치",
     status: "public",
     statusLabel: "베타 공개",
-    version: "v0.9.2-beta.1",
-    download: "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.2/Noctil_Patchworks_Offline_v0.9.2-beta.1.zip",
-    updated: "2026-09-19",
-    publicBuilds: 3,
+    version: "v0.9.3-beta.1",
+    download: "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.3/Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
+    updated: "2026-10-06",
+    publicBuilds: 4,
     description: "두 주인공의 시점으로 세계의 창조와 파괴를 그리는 던전 탐험형 JRPG",
     keywords: ["엑시즈 포스", "hexyz", "rpg", "atlus"]
   }
