@@ -1,6 +1,43 @@
 {
-  "generatedAt": "2026-10-06T17:10:35.308Z",
+  "generatedAt": "2026-10-06T17:20:00.000Z",
   "projects": [
+    {
+      "title": "내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어",
+      "href": "/projects/oreimo-portable-tsuzuku/",
+      "repository": null,
+      "repositoryUrl": null,
+      "issuesUrl": null,
+      "releaseRepository": "ievy3/ievy3.github.io",
+      "image": "/assets/images/oreimo-portable-tsuzuku/official-cover-square.webp",
+      "imageAlt": "내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어 PSP 패키지 이미지",
+      "imageFit": "contain",
+      "platform": "PSP",
+      "genre": "연애 ADV",
+      "type": "한국어 패치",
+      "status": "development",
+      "statusLabel": "개발 중",
+      "version": "첫 공개 전",
+      "updated": "2026-10-06",
+      "publicBuilds": 0,
+      "releaseHistory": [],
+      "description": "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",
+      "keywords": [
+        "내 여동생이 이렇게 귀여울 리가 없어",
+        "포터블이 계속될 리가 없어",
+        "俺の妹がこんなに可愛いわけがない",
+        "oreimo",
+        "oreimo portable",
+        "adventure",
+        "bandai namco"
+      ],
+      "verification": [],
+      "latestWorklog": {
+        "date": "2026-10-06",
+        "title": "전 대본 한국어화 완료와 UI·이미지 통합",
+        "href": "/projects/oreimo-portable-tsuzuku/updates/2026-10-06.html"
+      },
+      "latestReleaseTag": null
+    },
     {
       "title": "사키 -Saki- 아치가편 episode of side-A Portable",
       "href": "/projects/saki-achiga-portable/",

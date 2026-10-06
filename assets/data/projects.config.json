@@ -213,5 +213,28 @@
     "verification": [
       "PPSSPP"
     ]
+  },
+  {
+    "slug": "oreimo-portable-tsuzuku",
+    "title": "내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어",
+    "image": "/assets/images/oreimo-portable-tsuzuku/official-cover-square.webp",
+    "imageAlt": "내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어 PSP 패키지 이미지",
+    "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "oreimo2-",
+    "description": "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",
+    "keywords": [
+      "내 여동생이 이렇게 귀여울 리가 없어",
+      "포터블이 계속될 리가 없어",
+      "俺の妹がこんなに可愛いわけがない",
+      "oreimo",
+      "oreimo portable",
+      "adventure",
+      "bandai namco"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "imageFit": "contain",
+    "genre": "연애 ADV",
+    "verification": []
   }
 ]

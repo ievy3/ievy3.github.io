@@ -3,6 +3,23 @@ let activeStatus = "all";
 
 const fallbackProjects = [
   {
+    title: "내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어",
+    href: "/projects/oreimo-portable-tsuzuku/",
+    image: "/assets/images/oreimo-portable-tsuzuku/official-cover-square.webp",
+    imageAlt: "내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어 PSP 패키지 이미지",
+    imageFit: "contain",
+    platform: "PSP",
+    genre: "연애 ADV",
+    type: "한국어 패치",
+    status: "development",
+    statusLabel: "개발 중",
+    version: "첫 공개 전",
+    updated: "2026-10-06",
+    publicBuilds: 0,
+    description: "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",
+    keywords: ["내 여동생이 이렇게 귀여울 리가 없어", "포터블이 계속될 리가 없어", "oreimo", "adventure"]
+  },
+  {
     title: "사키 -Saki- 아치가편 episode of side-A Portable",
     href: "/projects/saki-achiga-portable/",
     image: "/assets/images/saki-achiga-portable/2026-10-06-title.webp",
@@ -141,6 +158,7 @@ const fallbackProjects = [
 ];
 
 const fallbackVerificationByHref = {
+  "/projects/oreimo-portable-tsuzuku/": [],
   "/projects/saki-achiga-portable/": ["PPSSPP"],
   "/projects/saki-portable/": ["PPSSPP"],
   "/projects/genso-suikoden-100-years/": ["PPSSPP"],

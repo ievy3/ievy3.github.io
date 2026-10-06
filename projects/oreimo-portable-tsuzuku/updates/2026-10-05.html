@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="2026년 10월 5일 내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어 한국어 패치 작업일지">
+<title>2026.10.05 작업일지 | 내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어</title>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/css/project.css?v=24">
+</head><body class="project-page log-page"><main class="log-entry-page">
+<a class="back" href="/projects/oreimo-portable-tsuzuku/updates/">← 전체 작업일지</a>
+<header class="entry-hero"><p class="eyebrow">DEVELOPMENT LOG · 2026.10.05</p>
+<h1>Disc 2 구조 검증과<br>재조립 기반 확보</h1>
+<p>Disc 2의 대본과 리소스 구조를 확인하고, 수정하지 않은 상태에서 원본과 같은 ISO를 다시 만드는 기준을 확보했습니다. 이후 긴 대사·루비·저장/불러오기와 설치 데이터 경로까지 확인해 한국어화 작업을 시작할 수 있는 기반을 만들었습니다.</p>
+<div class="badges"><span class="badge badge-live"><i></i>FOUNDATION</span><span class="badge">DISC 2</span></div></header>
+<section class="entry-summary"><div><strong>18,663줄</strong><span>대사 구조 확인</span></div><div><strong>동일 해시</strong><span>무수정 재조립 검증</span></div><div><strong>ON / OFF</strong><span>설치 데이터 확인</span></div></section>
+<section class="box entry-section"><p class="eyebrow">TODAY'S WORK</p><h2>주요 변경</h2><ul class="compact-list">
+<li>Disc 2 내부 구조를 대조해 <strong>대본 269개, 대사 18,663줄</strong>을 포함한 번역 대상 구조를 확인했습니다.</li>
+<li>아무것도 바꾸지 않은 재조립 ISO가 원본과 같은 SHA-256을 내는 것을 확인하고 부팅과 첫 대사까지 검증했습니다.</li>
+<li>기존보다 두 배 긴 대사, 루비 표시, 저장·불러오기, 파일 끝 경계 문자열을 시험해 기본 표시 경로를 확인했습니다.</li>
+<li>설치 데이터 사용 시 발생하던 오류가 무결성 검사 맵과 관련 있음을 확인하고 갱신해 <strong>설치 ON/OFF 모두 통과</strong>했습니다.</li>
+<li>시험 과정의 임시 ISO와 잘못된 캡처를 정리하고 검증된 기준 빌드만 남겼습니다.</li>
+</ul></section>
+<section class="entry-grid validation-grid">
+<article class="box entry-section"><p class="eyebrow">VERIFIED</p><h2>확인된 기반</h2><ul class="log-checklist">
+<li><span>✓</span>Disc 2 대본·명령 구조 추출</li><li><span>✓</span>무수정 재조립 원본 일치</li>
+<li><span>✓</span>긴 문자열·루비·저장/불러오기</li><li><span>✓</span>설치 데이터 ON/OFF 경로</li>
+</ul></article>
+<article class="box entry-section"><p class="eyebrow">NEXT</p><h2>다음 단계</h2><ul class="log-checklist pending-list">
+<li><span>○</span>한글 PGF 배치 공간과 메모리 한도 확인</li><li><span>○</span>RES.DAT 주변의 제한된 여유 공간을 고려한 재배치 전략 확정</li>
+<li><span>○</span>전체 문자열 추출과 번역 기준 확정</li>
+</ul></article>
+</section>
+<p class="fine-print log-disclaimer">내부 트랙 번호·세션 운영·시험 빌드 번호 등은 제외하고 사용자에게 필요한 결과만 정리했습니다.</p>
+<footer class="footer-note">OREIMO PORTABLE TSUZUKU DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main></body></html>
