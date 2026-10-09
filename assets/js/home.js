@@ -11,11 +11,15 @@ const fallbackProjects = [
     platform: "PSP",
     genre: "연애 ADV",
     type: "한국어 패치",
-    status: "development",
-    statusLabel: "개발 중",
-    version: "첫 공개 전",
-    updated: "2026-10-06",
-    publicBuilds: 0,
+    status: "public",
+    statusLabel: "베타 공개",
+    version: "v1.0.0",
+    updated: "2026-10-09",
+    publicBuilds: 1,
+    downloadMode: "release-page",
+    releaseUrl: "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
+    releasePublishedAt: "2026-10-09T01:10:57Z",
+    download: "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
     description: "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",
     keywords: ["내 여동생이 이렇게 귀여울 리가 없어", "포터블이 계속될 리가 없어", "oreimo", "adventure"]
   },
@@ -162,7 +166,7 @@ const fallbackProjects = [
 ];
 
 const fallbackVerificationByHref = {
-  "/projects/oreimo-portable-tsuzuku/": [],
+  "/projects/oreimo-portable-tsuzuku/": ["PPSSPP"],
   "/projects/saki-achiga-portable/": ["PPSSPP"],
   "/projects/saki-portable/": ["PPSSPP"],
   "/projects/genso-suikoden-100-years/": ["PPSSPP"],
@@ -260,7 +264,7 @@ function card(project) {
         </div>
         <div class="project-actions">
           <a class="card-button secondary" href="${project.href}">프로젝트 보기</a>
-          ${project.download ? `<a class="card-button download" href="${project.download}" download>패치 다운로드 ↓</a>` : ""}
+          ${project.download ? (project.downloadMode === "release-page" && project.releaseUrl ? `<a class="card-button download" href="${project.releaseUrl}">배포 파일 보기 ↗</a>` : `<a class="card-button download" href="${project.download}" download>패치 다운로드 ↓</a>`) : ""}
         </div>
       </div>
     </div>`;

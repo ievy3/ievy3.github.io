@@ -49,13 +49,16 @@
         "adventure",
         "bandai namco"
       ],
-      "verification": [],
+      "verification": [
+        "PPSSPP"
+      ],
       "latestWorklog": {
         "date": "2026-10-06",
         "title": "전 대본 한국어화 완료와 UI·이미지 통합",
         "href": "/projects/oreimo-portable-tsuzuku/updates/2026-10-06.html"
       },
-      "latestReleaseTag": "oreimo2-v1.0.0"
+      "latestReleaseTag": "oreimo2-v1.0.0",
+      "downloadMode": "release-page"
     },
     {
       "title": "사키 아치가편 포터블",

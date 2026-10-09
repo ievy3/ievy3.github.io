@@ -184,6 +184,7 @@ for (const project of config) {
     repositoryUrl: project.repository ? `https://github.com/${project.repository}` : null,
     issuesUrl: project.repository ? `https://github.com/${project.repository}/issues` : null,
     releaseRepository,
+    ...(project.downloadMode ? { downloadMode: project.downloadMode } : {}),
     image: project.image,
     imageAlt: project.imageAlt,
     imageFit: project.imageFit || "cover",

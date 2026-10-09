@@ -236,6 +236,9 @@
     "releaseRepository": "ievy3/ievy3.github.io",
     "imageFit": "contain",
     "genre": "연애 ADV",
-    "verification": []
+    "verification": [
+      "PPSSPP"
+    ],
+    "downloadMode": "release-page"
   }
 ]
