@@ -2,14 +2,14 @@
   "generatedAt": "2026-10-09T00:19:58.465Z",
   "projects": [
     {
-      "title": "사키 -Saki- 아치가편 episode of side-A Portable",
+      "title": "사키 아치가편 포터블",
       "href": "/projects/saki-achiga-portable/",
       "repository": null,
       "repositoryUrl": null,
       "issuesUrl": null,
       "releaseRepository": "ievy3/ievy3.github.io",
-      "image": "/assets/images/saki-achiga-portable/2026-10-06-title.webp",
-      "imageAlt": "사키 아치가편 episode of side-A Portable 한글 타이틀 화면",
+      "image": "/assets/images/saki-achiga-portable/2026-10-09-title.webp",
+      "imageAlt": "사키 아치가편 포터블 한글 타이틀 화면",
       "imageFit": "cover",
       "platform": "PSP",
       "genre": "마작",
@@ -41,6 +41,7 @@
       ],
       "description": "아치가 여학원의 소녀들이 전국 무대를 향해 나아가는 이야기를 바탕으로 한 대전 마작 게임",
       "keywords": [
+        "사키 아치가편 포터블",
         "사키 아치가편",
         "사키 -Saki- 아치가편",
         "episode of side-A",

@@ -20,10 +20,10 @@ const fallbackProjects = [
     keywords: ["내 여동생이 이렇게 귀여울 리가 없어", "포터블이 계속될 리가 없어", "oreimo", "adventure"]
   },
   {
-    title: "사키 -Saki- 아치가편 episode of side-A Portable",
+    title: "사키 아치가편 포터블",
     href: "/projects/saki-achiga-portable/",
-    image: "/assets/images/saki-achiga-portable/2026-10-06-title.webp",
-    imageAlt: "사키 아치가편 episode of side-A Portable 한글 타이틀 화면",
+    image: "/assets/images/saki-achiga-portable/2026-10-09-title.webp",
+    imageAlt: "사키 아치가편 포터블 한글 타이틀 화면",
     imageFit: "cover",
     platform: "PSP",
     genre: "마작",
