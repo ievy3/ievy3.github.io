@@ -264,8 +264,8 @@
   {
     "slug": "magical-vacation",
     "title": "Magical Vacation",
-    "image": "/assets/images/magical-vacation/project-cover.svg",
-    "imageAlt": "Magical Vacation 한국어 번역 프로젝트 대표 이미지",
+    "image": "/assets/images/magical-vacation/title-screen.webp",
+    "imageAlt": "매지컬 베케이션 GBA 타이틀 화면",
     "platform": "GBA",
     "type": "한국어 패치",
     "releasePrefix": "mv-",
@@ -287,8 +287,8 @@
   {
     "slug": "never7",
     "title": "Never 7: The End of Infinity",
-    "image": "/assets/images/never7/project-cover.svg",
-    "imageAlt": "Never 7: The End of Infinity 한국어 번역 프로젝트 대표 이미지",
+    "image": "/assets/images/never7/title-screen.webp",
+    "imageAlt": "Never 7: The End of Infinity PSP 타이틀 화면",
     "platform": "PSP",
     "type": "한국어 패치",
     "releasePrefix": "never7-",
@@ -336,8 +336,8 @@
   {
     "slug": "shadow-of-memories",
     "title": "Shadow of Memories",
-    "image": "/assets/images/shadow-of-memories/project-cover.svg",
-    "imageAlt": "Shadow of Memories 한국어 번역 프로젝트 대표 이미지",
+    "image": "/assets/images/shadow-of-memories/official-cover.webp",
+    "imageAlt": "Shadow of Memories PSP 패키지 이미지",
     "platform": "PSP",
     "type": "한국어 패치",
     "releasePrefix": "som-",
@@ -354,6 +354,7 @@
     "genre": "어드벤처",
     "stage": 1,
     "updated": "2026-10-09",
-    "verification": []
+    "verification": [],
+    "imageFit": "contain"
   }
 ]
