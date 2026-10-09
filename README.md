@@ -60,3 +60,16 @@
 Unofficial Korean game translation projects by Noctil Patchworks.
 
 Original game files, ROMs, and ISOs are not distributed through this project.
+
+## Site navigation and visitor statistics
+
+All HTML pages load the shared `assets/css/site-ui.css` and `assets/js/site-ui.js`. The quick dock provides home, latest published patch, patch archive, a current project's download section (where available), issue reporting, and back-to-top navigation. The latest patch is selected from `assets/data/projects.generated.json` by `releasePublishedAt` (not by worklog date). The homepage also shows the newest released project in a highlighted banner and marks its archive card.
+
+GoatCounter integration is **prepared but disabled** until an actual site code is configured. No third-party analytics request is sent while the code is blank.
+
+1. Register a site at https://www.goatcounter.com/ and set its website to `https://ievy3.github.io/`.
+2. Set `goatcounterSiteCode` in `assets/data/analytics.config.json` to the real allocated code (the `MYCODE` in `https://MYCODE.goatcounter.com`). Never use a guessed code.
+3. Under GoatCounter site settings, enable **Allow adding visitor counts on your website** to allow public homepage counts.
+4. Commit the configuration update. The script runs only on `trackingHostnames`; pageviews from all site pages are tracked, while public today/all-time counters appear only on the homepage. GoatCounter public counters may be cached for up to four hours.
+
+These numbers are **pageviews**, not unique visitors. Aggregation begins once the real account code is enabled. Do not commit API tokens or other secrets into a public GitHub Pages repository.
