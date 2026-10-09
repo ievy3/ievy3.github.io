@@ -5,8 +5,24 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-10-06T00:00:00+09:00</updated>
+  <updated>2026-10-09T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[바케모노가타리 포터블] 구조 분석과 한글 폰트 확장 시험</title>
+    <link href="https://ievy3.github.io/projects/bakemonogatari-portable/updates/2026-10-09.html"/>
+    <id>https://ievy3.github.io/projects/bakemonogatari-portable/updates/2026-10-09.html</id>
+    <updated>2026-10-09T00:00:00+09:00</updated>
+    <category term="바케모노가타리 포터블"/>
+    <summary>게임 데이터와 대사 구조를 분석하고, 한글 11,172자를 담은 확장 폰트가 실제 게임 화면에 표시되는 것을 확인했습니다. 번역 방침도 정했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Magical Vacation] 프로젝트 시작과 구조 분석·수정 안전성 확인</title>
+    <link href="https://ievy3.github.io/projects/magical-vacation/updates/2026-10-08.html"/>
+    <id>https://ievy3.github.io/projects/magical-vacation/updates/2026-10-08.html</id>
+    <updated>2026-10-08T00:00:00+09:00</updated>
+    <category term="Magical Vacation"/>
+    <summary>일본어판 롬을 기준으로 대사·폰트·그림 구조를 분석하고, 대사를 고치거나 늘려도 게임이 정상 동작하는지 시험했습니다.</summary>
+  </entry>
   <entry>
     <title>[내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어] 전 대본 한국어화 완료와 UI·이미지 통합</title>
     <link href="https://ievy3.github.io/projects/oreimo-portable-tsuzuku/updates/2026-10-06.html"/>
@@ -94,6 +110,14 @@
     <updated>2026-10-03T00:00:00+09:00</updated>
     <category term="사키 포터블"/>
     <summary>프로젝트 착수 당일 게임의 대본·이미지·실행 구조를 분석하고 한글 표시 경로와 이름 입력 방식을 확정했습니다. 이후 번역 기준을 정리한 뒤 스토리 대본 전체 7,129줄을 한국어로 옮기고 첫 전체 한국어 빌드까지 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Shadow of Memories] 원본 구조 분석과 한글화 기반 확인</title>
+    <link href="https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-03.html"/>
+    <id>https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-03.html</id>
+    <updated>2026-10-03T00:00:00+09:00</updated>
+    <category term="Shadow of Memories"/>
+    <summary>일본어판을 기준으로 대사·폰트·이미지·빌드 경로를 분석해, 한글화에 필요한 기술 기반을 대부분 확인했습니다.</summary>
   </entry>
   <entry>
     <title>[Generation of Chaos 6] 인스톨 데이터 부팅 문제를 해결하고 v0.9.0 배포 후보를 준비</title>
@@ -302,29 +326,5 @@
     <updated>2026-09-16T00:00:00+09:00</updated>
     <category term="Gungnir"/>
     <summary>이벤트·맵·EBOOT·폰트·이미지를 다시 통합하고, 누락됐던 맵 대사와 보조 표시문을 반영한 최신 시험 ISO를 생성했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Gungnir] 스토리 원고 전량 검토와 통합 준비</title>
-    <link href="https://ievy3.github.io/projects/gungnir/updates/2026-09-15.html"/>
-    <id>https://ievy3.github.io/projects/gungnir/updates/2026-09-15.html</id>
-    <updated>2026-09-15T00:00:00+09:00</updated>
-    <category term="Gungnir"/>
-    <summary>전체 85개 장면의 대사·이름표 검토를 마치고, EBOOT 원고 감사와 튜토리얼 이미지 정적 생성을 완료했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Gungnir] 장면 번역 확대와 EBOOT 초벌 정리</title>
-    <link href="https://ievy3.github.io/projects/gungnir/updates/2026-09-14.html"/>
-    <id>https://ievy3.github.io/projects/gungnir/updates/2026-09-14.html</id>
-    <updated>2026-09-14T00:00:00+09:00</updated>
-    <category term="Gungnir"/>
-    <summary>partA14까지 장면 번역을 확대하고, EBOOT 문자열 초벌과 튜토리얼 이미지 정적 검토를 진행했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Hexyz Force] 두 판본 오프라인 패처 완성과 공개 검수판 배포</title>
-    <link href="https://ievy3.github.io/projects/hexyz-force/updates/2026-09-14.html"/>
-    <id>https://ievy3.github.io/projects/hexyz-force/updates/2026-09-14.html</id>
-    <updated>2026-09-14T00:00:00+09:00</updated>
-    <category term="Hexyz Force"/>
-    <summary>PSN판과 UMD판을 자동 판별하는 Windows용 오프라인 패처를 제작하고, 안전장치와 결과 해시를 검증한 v0.9.0 검수판을 GitHub에 공개했습니다.</summary>
   </entry>
 </feed>

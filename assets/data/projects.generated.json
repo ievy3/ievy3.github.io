@@ -92,7 +92,11 @@
         "어드벤처"
       ],
       "verification": [],
-      "latestWorklog": null,
+      "latestWorklog": {
+        "date": "2026-10-09",
+        "title": "구조 분석과 한글 폰트 확장 시험",
+        "href": "/projects/bakemonogatari-portable/updates/2026-10-09.html"
+      },
       "latestReleaseTag": null
     },
     {
@@ -247,7 +251,11 @@
         "rpg"
       ],
       "verification": [],
-      "latestWorklog": null,
+      "latestWorklog": {
+        "date": "2026-10-08",
+        "title": "프로젝트 시작과 구조 분석·수정 안전성 확인",
+        "href": "/projects/magical-vacation/updates/2026-10-08.html"
+      },
       "latestReleaseTag": null
     },
     {
@@ -315,7 +323,11 @@
         "어드벤처"
       ],
       "verification": [],
-      "latestWorklog": null,
+      "latestWorklog": {
+        "date": "2026-10-03",
+        "title": "원본 구조 분석과 한글화 기반 확인",
+        "href": "/projects/shadow-of-memories/updates/2026-10-03.html"
+      },
       "latestReleaseTag": null
     },
     {

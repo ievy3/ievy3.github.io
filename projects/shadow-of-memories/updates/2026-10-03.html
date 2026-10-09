@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 10월 3일 Shadow of Memories 한국어 패치 작업일지">
+  <title>2026.10.03 작업일지 | Shadow of Memories</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-03.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.10.03 작업일지 | Shadow of Memories">
+  <meta property="og:description" content="2026년 10월 3일 Shadow of Memories 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-03.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/shadow-of-memories/title-screen.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.10.03 작업일지 | Shadow of Memories">
+  <meta name="twitter:description" content="2026년 10월 3일 Shadow of Memories 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/shadow-of-memories/title-screen.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=25">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=1">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/shadow-of-memories/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.10.03</p>
+    <h1>원본 구조 분석과<br>한글화 기반 확인</h1>
+    <p>일본어판을 기준으로 대사·폰트·이미지·빌드 경로를 분석해, 한글화에 필요한 기술 기반을 대부분 확인했습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>ANALYSIS</span><span class="badge">일본어판 기준</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>6,732</strong><span>대사 항목</span></div>
+    <div><strong>1,057</strong><span>일본어 글자 확인</span></div>
+    <div><strong>204</strong><span>그림 속 글자 대상</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">BASE VERSION</p><h2>기준판과 북미판 비교</h2>
+    <ul class="compact-list">
+      <li>일본어판 PSP를 기준으로 작업하며, 북미판(ULUS10459)과 파일 단위로 비교했습니다.</li>
+      <li>두 판은 대사 묶음·영상·음성 등 본편 데이터가 같고 <strong>19개 파일만 다릅니다</strong>.</li>
+      <li>일본어·영어 그림 자료가 게임 데이터 안에 짝으로 들어 있어 그림 속 글자 범위를 빠르게 파악할 수 있었습니다.</li>
+      <li>일본어판 옵션 메뉴에 언어(일본어/영어) 항목이 있는 것으로 보여 추가로 확인할 예정입니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">TEXT</p><h2>대사</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>대사 묶음 26개 · 6,732항목 추출과 재삽입 왕복 확인</li>
+        <li><span>✓</span>대본 3,366항목(고유 문장 2,510개) 통독</li>
+        <li><span>✓</span>용어 142개 · 인물 관계 78건 초안</li>
+        <li><span>✓</span>번역 샘플 3장면 작성 (검토 예정)</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">FONT & IMAGE</p><h2>폰트·그림</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>원본 폰트 리소스와 표시 방식 확정</li>
+        <li><span>✓</span>일본어 글자 1,057자 대조 · 오독 2건 발견</li>
+        <li><span>✓</span>그림 16,787장 해독과 왕복 확인</li>
+        <li><span>✓</span>한글화가 필요한 그림 속 글자 204건 분류</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">IMAGE TEXT</p><h2>그림으로 된 글자</h2>
+    <ul class="compact-list">
+      <li>대사 파일에 없는 문구 상당수가 그림으로 들어 있습니다.</li>
+      <li>대상: 타이틀 로고, 타이머, 세이브 확인창, HOW TO PLAY 6쪽, 지명 23장, 엔딩 독백 6장, 게임 속 문서·편지 등</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">BUILD</p><h2>빌드와 실행 확인</h2>
+    <ul class="log-checklist">
+      <li><span>✓</span>수정 없이 다시 만든 게임 이미지가 원본과 완전히 같음</li>
+      <li><span>✓</span>패처 기본 구조 준비</li>
+      <li><span>✓</span>PPSSPP에서 원본 부팅·타이틀·새 게임·프롤로그 확인</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NEXT</p><h2>남은 과제</h2>
+    <ul class="compact-list">
+      <li>현재 판단한 한글화 난이도는 <strong>중간</strong>입니다. 형식 해독은 대부분 끝났고, 아래 항목이 남았습니다.</li>
+      <li>폰트 공간(약 1,223칸) 안에 필요한 한글 글자를 담는 방법</li>
+      <li>그림 속 글자 분량(HOW TO PLAY·지명·엔딩 독백·문서)</li>
+      <li>풀 보이스 대사에 맞춘 페이지 나눔과 띄어쓰기 폭</li>
+      <li>다음 작업은 번역 샘플 검토, 한글 폰트 선택, 그림 한글화 범위 결정입니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">SHADOW OF MEMORIES DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=1" defer></script>
+</body>
+</html>
