@@ -112,7 +112,8 @@
     eyebrow.textContent='LATEST PATCH';
     var label=document.createElement('span');
     label.className='np-latest-tag';
-    label.textContent='NEW RELEASE';
+    var isRecent=Date.now()-Date.parse(latest.releasePublishedAt) < 14*24*60*60*1000;
+    label.textContent=isRecent?'NEW RELEASE':'LATEST RELEASE';
     heading.append(eyebrow,label);
     var link=document.createElement('a');
     link.className='np-latest-link';
@@ -145,7 +146,7 @@
           if (!kicker) return;
           flag=document.createElement('span');
           flag.className='np-latest-project-badge';
-          flag.textContent='NEW';
+          flag.textContent=Date.now()-Date.parse(latest.releasePublishedAt) < 14*24*60*60*1000?'NEW':'LATEST';
           kicker.appendChild(flag);
         } else if (!active && flag) flag.remove();
       });
