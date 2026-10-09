@@ -193,6 +193,7 @@ for (const project of config) {
     type: project.type,
     status: release ? "public" : "development",
     statusLabel: release ? (release.prerelease ? "베타 공개" : "공개 중") : "개발 중",
+    ...(Number.isInteger(project.stage) && project.stage >= 1 && project.stage <= 6 ? { stage: project.stage } : {}),
     version,
     ...(asset ? {
       download: asset.browser_download_url,

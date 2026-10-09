@@ -46,6 +46,8 @@
 - `scripts/generate-projects.mjs` — Release 정보를 모아 홈페이지 프로젝트 목록(`assets/data/projects.generated.json`) 갱신
 - `scripts/build-site-files.mjs` — 각 페이지의 공유 미리보기(Open Graph)·canonical 태그 보강, 공용 CSS/JS 캐시 버전 통일, `sitemap.xml`과 작업일지 피드(`feed.xml`) 생성
 
+각 프로젝트의 현재 제작 단계(1~6단계)는 `assets/data/projects.config.json`의 `stage` 값으로 지정하며, 대문 프로젝트 카드에 표시됩니다.
+
 작업일지 새 소식은 [Atom 피드](https://ievy3.github.io/feed.xml)로 구독할 수 있습니다.
 
 ## Repository Scope
