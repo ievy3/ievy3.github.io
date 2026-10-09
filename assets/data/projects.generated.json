@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:11:05.525Z",
+  "generatedAt": "2026-10-09T01:16:29.654Z",
   "projects": [
     {
       "title": "내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어",
@@ -8,6 +8,7 @@
       "repositoryUrl": null,
       "issuesUrl": null,
       "releaseRepository": "ievy3/ievy3.github.io",
+      "downloadMode": "release-page",
       "image": "/assets/images/oreimo-portable-tsuzuku/official-cover-square.webp",
       "imageAlt": "내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어 PSP 패키지 이미지",
       "imageFit": "contain",
@@ -57,8 +58,7 @@
         "title": "전 대본 한국어화 완료와 UI·이미지 통합",
         "href": "/projects/oreimo-portable-tsuzuku/updates/2026-10-06.html"
       },
-      "latestReleaseTag": "oreimo2-v1.0.0",
-      "downloadMode": "release-page"
+      "latestReleaseTag": "oreimo2-v1.0.0"
     },
     {
       "title": "사키 아치가편 포터블",
@@ -386,7 +386,7 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
-      "downloadCount": 583,
+      "downloadCount": 584,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/GOC6-v0.9.0",
       "releaseName": "제네레이션 오브 카오스 6 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-03T07:45:14Z",
@@ -403,7 +403,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
-          "downloadCount": 583
+          "downloadCount": 584
         }
       ],
       "description": "대륙 제패를 목표로 내정·부대 운용·전투를 병행하는 판타지 전략 RPG",
