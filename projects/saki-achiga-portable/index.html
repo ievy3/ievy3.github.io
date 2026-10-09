@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="사키 -Saki- 아치가편 episode of side-A Portable PSP 비공식 한국어 번역 프로젝트 진행 현황">
+  <meta name="description" content="사키 -Saki- 아치가편 episode of side-A Portable PSP 비공식 한국어 패치 v0.9.0-rc7 프리릴리즈 배포 안내">
   <title>사키 -Saki- 아치가편 episode of side-A Portable | Noctil Patchworks</title>
   <meta name="theme-color" content="#090a0e">
   <link rel="canonical" href="https://ievy3.github.io/projects/saki-achiga-portable/">
@@ -11,7 +11,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Noctil Patchworks">
   <meta property="og:title" content="사키 -Saki- 아치가편 episode of side-A Portable | Noctil Patchworks">
-  <meta property="og:description" content="PSP 비공식 한국어 번역 프로젝트 진행 현황">
+  <meta property="og:description" content="PSP 비공식 한국어 패치 v0.9.0-rc7 프리릴리즈 배포 안내">
   <meta property="og:url" content="https://ievy3.github.io/projects/saki-achiga-portable/">
   <meta property="og:image" content="https://ievy3.github.io/assets/images/saki-achiga-portable/official-cover-square.webp">
   <meta name="twitter:card" content="summary_large_image">
@@ -33,19 +33,19 @@
       <p class="eyebrow">PSP FAN TRANSLATION · BY NOCTIL</p>
       <h1>사키 -Saki- 아치가편<br><span style="font-size:.52em">episode of side-A Portable</span></h1>
       <div class="badges">
-        <span class="badge"><i></i><span data-release-status-label>개발 중</span></span>
-        <span class="badge">첫 공개 전</span>
+        <span class="badge"><i></i><span data-release-status-label>베타 공개</span></span>
+        <span class="badge">첫 공개 베타</span>
         <span class="badge">PPSSPP 확인</span>
-        <span class="badge" data-release-date-badge>2026.10.06 업데이트</span>
+        <span class="badge" data-release-date-badge>2026.10.09 업데이트</span>
       </div>
     </div>
   </header>
 
   <section class="project-facts" aria-label="프로젝트 핵심 정보">
-    <div><span>상태</span><strong class="fact-development" data-release-status data-release-status-label>개발 중</strong></div>
-    <div><span>공개 버전</span><strong data-release-version>첫 공개 전</strong></div>
+    <div><span>상태</span><strong class="fact-live" data-release-status="public" data-release-status-label>베타 공개</strong></div>
+    <div><span>공개 버전</span><strong data-release-version>v0.9.0-rc7</strong></div>
     <div><span>지원 원본</span><strong>일본어판 · NPJH-50803 v1.01</strong></div>
-    <div><span>마지막 업데이트</span><strong data-release-date>2026.10.06</strong></div>
+    <div><span>마지막 업데이트</span><strong data-release-date>2026.10.09</strong></div>
   </section>
 
   <nav class="nav" aria-label="페이지 목차">
@@ -53,6 +53,7 @@
     <a href="#recent-update">최근 업데이트</a>
     <a href="#release">배포 상태</a>
     <a href="#preview">게임 화면</a>
+    <a href="#patch-history">패치 이력</a>
     <a href="#details">개발 상세 정보</a>
     <a href="#support">패치·오류 제보</a>
     <a href="/projects/saki-achiga-portable/updates/">작업일지</a>
@@ -73,9 +74,9 @@
           <div>제작 / 퍼블리셔</div><div>Alchemist</div>
           <div>플랫폼 / 장르</div><div>PSP / 대전 마작</div>
           <div>개발 기준판</div><div>일본판 NPJH-50803 v1.01</div>
-          <div>프로젝트 상태</div><div>한국어 통합 빌드 검수·이미지 한글화 보완 중</div>
+          <div>프로젝트 상태</div><div>v0.9.0-rc7 프리릴리즈 배포 중</div>
         </div>
-        <p>아치가 여학원의 소녀들이 전국 무대를 향해 나아가는 이야기를 바탕으로 한 대전 마작 게임입니다. 현재 프로젝트는 대본·시스템 표시와 이미지 자산을 한국어로 통합하고, 화면별 표시와 저장 호환성을 점검하는 단계입니다.</p>
+        <p>아치가 여학원의 소녀들이 전국 무대를 향해 나아가는 이야기를 바탕으로 한 대전 마작 게임입니다. 첫 공개 베타에서 한국어 이미지 1,220장과 Windows 오프라인 패처를 제공합니다. PPSSPP 주요 화면을 확인했으며 PSP·PS Vita 실기와 전체 진행 검증은 아직 완료되지 않았습니다.</p>
       </div>
     </div>
   </section>
@@ -83,28 +84,30 @@
   <section class="split-grid" id="recent-update">
     <article class="box">
       <p class="eyebrow">RECENT UPDATE</p>
-      <h2>10월 6일 · 첫 통합 빌드와 이미지 한글화 전수 정비</h2>
+      <h2>10월 9일 · v0.9.0-rc7 첫 공개 베타</h2>
       <ul class="compact-list">
-        <li>통합 빌드를 반복 갱신하며 정적 검사와 스모크 테스트를 통과</li>
-        <li>소극장·대국·시스템 화면의 남은 일본어와 표시 문제를 추가 수정</li>
-        <li>카드·프로필·도장·로고 등 이미지 자산을 전수 재검사해 반영</li>
-        <li>세이브 호환성과 주요 대국·메뉴 흐름을 PPSSPP에서 확인</li>
+        <li>문구 이미지 1,331장 중 1,220장을 한국어로 교체하고 나머지 111장은 원본 유지</li>
+        <li>소극장·메뉴·대국 UI·캐릭터 프로필·갤러리 등에 한국어 적용</li>
+        <li>Windows 오프라인 패처 ZIP과 직접 적용용 xdelta 파일 배포</li>
+        <li>PPSSPP 주요 화면과 패처 출력 확인 · 실기 및 게임 전체 진행은 추가 확인 필요</li>
       </ul>
-      <a class="log-link" href="/projects/saki-achiga-portable/updates/2026-10-06.html">10월 6일 상세 작업일지 <span>→</span></a>
+      <a class="log-link" href="/projects/saki-achiga-portable/updates/2026-10-06.html">이전 개발 기록 · 10월 6일 작업일지 <span>→</span></a>
     </article>
 
     <article class="box release-card" id="release">
-      <p class="eyebrow">DEVELOPMENT BUILD</p>
-      <h2>첫 공개 전 · 배포 후보 보완 중</h2>
-      <span class="button disabled" aria-disabled="true">패치 배포 전</span>
-      <p class="notice release-notice"><strong>배포 안내</strong> · PPSSPP 기반 통합 검수는 진행 중이며, 실기 확인은 배포 직전 최종 단계에서 진행할 예정입니다. 원본 ROM·ISO는 제공하지 않습니다.</p>
+      <p class="eyebrow">PRE-RELEASE · <span data-release-version>v0.9.0-rc7</span></p>
+      <h2>첫 공개 베타 배포 중</h2>
+      <a class="button" data-release-download href="https://github.com/ievy3/ievy3.github.io/releases/download/sakiA-v0.9.0/Saki_Achiga_Korean_Patch_v0.9.0-rc7.zip">v0.9.0-rc7 패처 다운로드 (.zip)</a>
+      <small class="line-count" data-release-download-count>다운로드 횟수 확인 중…</small>
+      <p class="notice release-notice"><strong>베타 안내</strong> · 일본어판 NPJH-50803 v1.01 원본 ISO에 적용합니다. PPSSPP 주요 화면은 확인했지만 PSP·PS Vita 실기 및 전체 진행은 아직 확인하지 못했습니다. 원본 게임 파일은 제공하지 않습니다.</p>
+      <a class="log-link" data-release-notes href="https://github.com/ievy3/ievy3.github.io/releases/tag/sakiA-v0.9.0" target="_blank" rel="noopener">적용 방법 및 릴리즈 노트 <span>↗</span></a>
     </article>
   </section>
 
   <section class="box preview-section" id="preview" aria-label="사키 아치가편 한글 패치 게임 내 적용 화면">
     <div class="section-head">
       <div><p class="eyebrow">GAME SCREENS</p><h2>게임 내 적용 화면</h2></div>
-      <span class="line-count">2026.10.06 작업 빌드</span>
+      <span class="line-count">2026.10.06 게임 화면 예시</span>
     </div>
     <div class="preview-grid two-up">
       <figure>
@@ -118,65 +121,55 @@
     </div>
   </section>
 
-  <section class="box overall-progress" id="progress">
+  <section class="box" id="patch-history">
     <div class="section-head">
-      <div><p class="eyebrow">PROJECT STATUS</p><h2>현재 프로젝트 현황</h2></div>
-      <span class="line-count">첫 공개 전</span>
+      <div><p class="eyebrow">PATCH HISTORY</p><h2>패치 이력</h2></div>
+      <span class="line-count">최신 버전순</span>
     </div>
-    <div class="overall-list">
-      <div class="overall-row"><div class="overall-label"><span>게임 구조 분석</span><strong>CPK·HDG·GIM·폰트 구조 및 재빌드 경로 확보</strong></div></div>
-      <div class="overall-row"><div class="overall-label"><span>한국어 표시</span><strong>타이틀·메뉴·대사·시스템 UI 통합 빌드 반영</strong></div></div>
-      <div class="overall-row"><div class="overall-label"><span>이미지 한글화</span><strong>카드·프로필·도장·말풍선·로고 전수 정비 진행</strong></div></div>
-      <div class="overall-row"><div class="overall-label"><span>검수</span><strong>정적 검사·스모크·세이브 호환성 및 주요 화면 확인</strong></div></div>
-      <div class="overall-row is-pending"><div class="overall-label"><span>최종 확인</span><strong>잔여 이미지 반영과 배포 전 실기 검증 예정</strong></div></div>
-    </div>
-  </section>
-
-  <section class="box" id="now">
-    <p class="eyebrow">NOW WORKING ON</p><h2>현재 작업</h2>
-    <ol class="task-list">
-      <li class="active"><span>01</span><div><strong>잔여 이미지 자산 마무리</strong><small>카드 로고·프로필·작은 UI의 누락과 원본 손상을 최종 정리</small></div></li>
-      <li><span>02</span><div><strong>화면별 표시 재검사</strong><small>드문 결과 화면과 통신·경고 UI 등 남은 화면을 추가 확인</small></div></li>
-      <li><span>03</span><div><strong>배포 후보 확정</strong><small>최종 빌드 후 실기 구동·표시를 확인하고 첫 공개 여부 결정</small></div></li>
-    </ol>
-  </section>
-
-  <section class="box" id="pipeline">
-    <p class="eyebrow">VERIFIED</p><h2>확보된 기술 기반</h2>
-    <div class="verified-list">
-      <div><strong>CPK</strong><span>아카이브 구조 분석·재빌드</span></div>
-      <div><strong>HDG / GIM</strong><span>이미지 추출·분류·재삽입</span></div>
-      <div><strong>FONT</strong><span>한글 글꼴 표시 및 UI별 글꼴 적용</span></div>
-      <div><strong>EBOOT</strong><span>표시 문자열과 시스템 UI 패치</span></div>
-      <div><strong>SAVE</strong><span>통합 빌드 간 저장 데이터 호환 확인</span></div>
-      <div><strong>QA</strong><span>정적 검사·스모크·주요 화면 자동/수동 확인</span></div>
+    <div class="release-history-list" data-release-history>
+      <article class="release-history-item">
+        <div class="release-history-version"><strong>v0.9.0-rc7</strong><span>BETA</span></div>
+        <div class="release-history-meta"><time datetime="2026-10-09">2026.10.09</time><small>첫 공개</small></div>
+        <p>그림 자산 1,220장 한국어화, 주요 화면 확인 및 오프라인 패처를 포함한 첫 베타</p>
+        <a class="release-detail-link" href="https://github.com/ievy3/ievy3.github.io/releases/tag/sakiA-v0.9.0" target="_blank" rel="noopener">릴리즈 보기 <span>→</span></a>
+      </article>
     </div>
   </section>
 
   <section class="detail-stack" id="details">
     <details>
-      <summary><span>번역·표시 기준</span><small>정본 · 마작 용어 · 캐릭터 말투</small></summary>
-      <div class="details-body"><p>인명·용어는 기존 사키 포터블 프로젝트의 정본을 우선하며, 아치가편 게임 원문의 호칭과 인물 관계를 함께 반영합니다. 그림 속 동·남·서·북 등 일부 마작 표기는 원본의 한자 표기를 유지하고, 실제 화면 폭과 글자 크기에 맞춰 문장을 다듬습니다.</p></div>
-    </details>
-    <details>
-      <summary><span>개발 상세 정보</span><small>분석 · 통합 · 이미지 · 검수</small></summary>
-      <div class="details-body"><p>초기 분석에서 CPK 3,635항목, HDG 168개·6,339항목, GIM 4,955 인스턴스와 자체 폰트 구조를 확인했습니다. 이후 대표 표시 경로를 검증하고 번역·이미지 트랙을 통합해 반복 빌드와 화면 검수를 진행했습니다.</p></div>
+      <summary><span>개발 상세 정보</span><small>프로젝트 현황 · 번역 기준 · 기술 기반 · 남은 검증</small></summary>
+      <div class="details-body">
+        <h3>프로젝트 현황</h3>
+        <ul class="status-list">
+          <li>이미지 1,331장 분류 완료 · 1,220장 한국어 교체, 111장 원본 유지</li>
+          <li>소극장 말풍선 190장, 메뉴·도움말·대국 UI·프로필·갤러리 이미지 등 반영</li>
+          <li>빌드 검사 1,683개와 패처 검사 8개 통과 · 결과 ISO의 SHA-256 일치 확인</li>
+          <li>PPSSPP 주요 화면 확인 · PSP·PS Vita 실기 및 전체 진행은 미확인</li>
+        </ul>
+        <h3>일본판 원문 및 번역 기준</h3>
+        <p>일본어판 NPJH-50803 v1.01 기준입니다. 인명·마작 용어는 기존 사키 포터블 정본을 따르되, 아치가편의 호칭·인물 관계와 원문 맥락을 반영했습니다. 동·남·서·북 및 점수·국면 표기 등 일부 마작 한자는 원본을 유지합니다.</p>
+        <h3>확보된 기술 기반</h3>
+        <p>CPK 아카이브 및 HDG/GIM 이미지 추출·재삽입, 한글 표시 자산 제작, EBOOT 패치, 원본 구조 보존 재빌드와 오프라인 xdelta 패처를 확보했습니다.</p>
+        <h3>현재 추가 확인 사항</h3>
+        <p>PSP·PS Vita 실기 구동, 게임 전체 진행, 일부 선언·경고·결과·통신 화면의 표시를 추가 확인해야 합니다. 베타 공개 이후 발견된 오류는 차기 패치에 반영합니다.</p>
+      </div>
     </details>
     <details id="support">
       <summary><span>패치 및 오류 제보</span><small>지원 원본 · 배포 방식 · 제보</small></summary>
       <div class="details-body">
         <div class="kv compact-kv">
-          <div>현재 상태</div><div>첫 공개 전 · 통합 검수 중</div>
-          <div>지원 원본</div><div>咲-Saki- 阿知賀編 episode of side-A Portable 일본판 · NPJH-50803 v1.01</div>
-          <div>배포 방식</div><div>첫 공개 시 패치 파일 형태로 제공 예정</div>
+          <div>현재 상태</div><div>v0.9.0-rc7 프리릴리즈 공개</div>
+          <div>지원 원본</div><div>咲-Saki- 阿知賀編 episode of side-A Portable 일본 UMD판 · NPJH-50803 v1.01</div>
+          <div>배포 방식</div><div><a class="text-link" href="https://github.com/ievy3/ievy3.github.io/releases/download/sakiA-v0.9.0/Saki_Achiga_Korean_Patch_v0.9.0-rc7.zip" target="_blank" rel="noopener">Windows 오프라인 패처 ZIP</a> · <a class="text-link" href="https://github.com/ievy3/ievy3.github.io/releases/tag/sakiA-v0.9.0" target="_blank" rel="noopener">xdelta 및 적용 안내</a></div>
           <div>오류 제보</div><div><a class="text-link" href="https://github.com/ievy3/ievy3.github.io/issues/new?title=%5B%EC%82%AC%ED%82%A4%20%EC%95%84%EC%B9%98%EA%B0%80%ED%8E%B8%5D%20%EC%98%A4%EB%A5%98%20%EC%A0%9C%EB%B3%B4" target="_blank" rel="noopener">GitHub Issues ↗</a></div>
         </div>
-        <p class="notice">원본 ROM·ISO와 패치 적용 결과물은 제공하지 않습니다. 첫 공개 전까지 지원 원본과 적용 절차를 최종 검증합니다.</p>
+        <p class="notice">한글판은 기존 설치 데이터를 사용하지 않습니다. 일본어판 세이브는 PPSSPP에서 이어 쓰는 것을 확인했습니다. 이름은 영문·숫자 최대 6자까지 입력할 수 있습니다. 원본 ISO와 패치 적용 결과물은 제공하지 않습니다.</p>
       </div>
     </details>
     <details>
-      <summary><span>Credits & Disclaimer</span><small>제작 및 권리 고지</small></summary>
-      <div class="details-body"><p>번역 / 패치 제작: <strong>Noctil</strong></p><p>개인이 제작하는 비공식·비영리 팬 번역 프로젝트이며 원작 개발사·퍼블리셔와 공식적인 관련이 없습니다. 게임 및 관련 콘텐츠의 권리는 각 권리자에게 있습니다.</p></div>
+      <summary><span>Credits &amp; Disclaimer</span><small>제작 및 권리 고지</small></summary>
+      <div class="details-body"><p>번역 / 패치 제작: <strong>NP · Noctil Patchworks</strong></p><p>개인이 제작하는 비공식·비영리 팬 번역 프로젝트이며 원작 개발사·퍼블리셔와 공식적인 관련이 없습니다. 게임 및 관련 콘텐츠의 권리는 각 권리자에게 있습니다.</p></div>
     </details>
   </section>
 
