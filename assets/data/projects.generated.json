@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:58:12.217Z",
+  "generatedAt": "2026-10-09T03:02:44.911Z",
   "projects": [
     {
       "title": "내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어",
@@ -19,7 +19,7 @@
       "version": "v1.0.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
       "downloadAsset": "OreImoDisc2KrPatcher.zip",
-      "downloadCount": 1,
+      "downloadCount": 45,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
       "releaseName": "내 여동생이 이렇게 귀여울 리가 없어 포터블이 계속될 리가 없어 Disc 2 한글 패치",
       "releasePublishedAt": "2026-10-09T01:10:57Z",
@@ -36,7 +36,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
           "downloadAsset": "OreImoDisc2KrPatcher.zip",
-          "downloadCount": 1
+          "downloadCount": 45
         }
       ],
       "description": "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",
@@ -77,7 +77,7 @@
       "version": "v0.9.0-rc7",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiA-v0.9.0/Saki_Achiga_Korean_Patch_v0.9.0-rc7.zip",
       "downloadAsset": "Saki_Achiga_Korean_Patch_v0.9.0-rc7.zip",
-      "downloadCount": 33,
+      "downloadCount": 55,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiA-v0.9.0",
       "releaseName": "사키 아치가편 포터블 한글 패치 v0.9.0-rc7",
       "releasePublishedAt": "2026-10-09T00:16:57Z",
@@ -94,7 +94,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiA-v0.9.0/Saki_Achiga_Korean_Patch_v0.9.0-rc7.zip",
           "downloadAsset": "Saki_Achiga_Korean_Patch_v0.9.0-rc7.zip",
-          "downloadCount": 33
+          "downloadCount": 55
         }
       ],
       "description": "아치가 여학원의 소녀들이 전국 무대를 향해 나아가는 이야기를 바탕으로 한 대전 마작 게임",
@@ -119,6 +119,65 @@
       "latestReleaseTag": "sakiA-v0.9.0"
     },
     {
+      "title": "탐정 진구지 사부로: 재와 다이아몬드",
+      "href": "/projects/jinguji-ashes-and-diamonds/",
+      "repository": null,
+      "repositoryUrl": null,
+      "issuesUrl": null,
+      "releaseRepository": "ievy3/ievy3.github.io",
+      "image": "/assets/images/jinguji-ashes-and-diamonds/2026-10-05-title.webp",
+      "imageAlt": "탐정 진구지 사부로 재와 다이아몬드 한글 타이틀 화면",
+      "imageFit": "cover",
+      "platform": "PSP",
+      "genre": "추리 ADV",
+      "type": "한국어 패치",
+      "status": "public",
+      "statusLabel": "베타 공개",
+      "version": "v0.9.0",
+      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
+      "downloadAsset": "TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
+      "downloadCount": 0,
+      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/JingujiAD-v0.9.0",
+      "releaseName": "탐정 진구지 사부로: 재와 다이아몬드 한글 패치 v0.9.0",
+      "releasePublishedAt": "2026-10-09T03:02:35Z",
+      "updated": "2026-10-09",
+      "publicBuilds": 1,
+      "releaseHistory": [
+        {
+          "version": "v0.9.0",
+          "tag": "JingujiAD-v0.9.0",
+          "releaseName": "탐정 진구지 사부로: 재와 다이아몬드 한글 패치 v0.9.0",
+          "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/JingujiAD-v0.9.0",
+          "publishedAt": "2026-10-09T03:02:35Z",
+          "date": "2026-10-09",
+          "prerelease": true,
+          "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
+          "downloadAsset": "TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
+          "downloadCount": 0
+        }
+      ],
+      "description": "가부키초를 무대로 여러 의뢰와 인물의 이해관계가 교차하는 하드보일드 추리 어드벤처",
+      "keywords": [
+        "탐정 진구지 사부로",
+        "재와 다이아몬드",
+        "灰とダイヤモンド",
+        "jinguji saburo",
+        "ashes and diamonds",
+        "adventure",
+        "workjam",
+        "arc system works"
+      ],
+      "verification": [
+        "PPSSPP"
+      ],
+      "latestWorklog": {
+        "date": "2026-10-05",
+        "title": "플레이 리셋 수정과 배포 전 화면 정비",
+        "href": "/projects/jinguji-ashes-and-diamonds/updates/2026-10-05.html"
+      },
+      "latestReleaseTag": "JingujiAD-v0.9.0"
+    },
+    {
       "title": "사키 포터블",
       "href": "/projects/saki-portable/",
       "repository": null,
@@ -136,7 +195,7 @@
       "version": "v0.9.5",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiP-v0.9.5/Saki_Portable_Korean_Patch_v0.9.5.zip",
       "downloadAsset": "Saki_Portable_Korean_Patch_v0.9.5.zip",
-      "downloadCount": 386,
+      "downloadCount": 388,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiP-v0.9.5",
       "releaseName": "사키 포터블 한글 패치 v0.9.5 Pre-release",
       "releasePublishedAt": "2026-10-05T15:07:34Z",
@@ -153,7 +212,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiP-v0.9.5/Saki_Portable_Korean_Patch_v0.9.5.zip",
           "downloadAsset": "Saki_Portable_Korean_Patch_v0.9.5.zip",
-          "downloadCount": 386
+          "downloadCount": 388
         }
       ],
       "description": "TV 애니메이션을 바탕으로 캐릭터별 능력과 스토리를 재현한 대전 마작 게임",
@@ -194,7 +253,7 @@
       "version": "v0.9.3-beta.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.3/Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
-      "downloadCount": 293,
+      "downloadCount": 298,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.3",
       "releaseName": "Hexyz Force 한글 패치 v0.9.3 — 공개 검수판 (261006)",
       "releasePublishedAt": "2026-10-06T02:04:52Z",
@@ -211,7 +270,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.3/Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
-          "downloadCount": 293
+          "downloadCount": 298
         },
         {
           "version": "v0.9.2-beta.1",
@@ -268,46 +327,6 @@
       "latestReleaseTag": "hexyz-v0.9.3"
     },
     {
-      "title": "탐정 진구지 사부로: 재와 다이아몬드",
-      "href": "/projects/jinguji-ashes-and-diamonds/",
-      "repository": null,
-      "repositoryUrl": null,
-      "issuesUrl": null,
-      "releaseRepository": "ievy3/ievy3.github.io",
-      "image": "/assets/images/jinguji-ashes-and-diamonds/2026-10-05-title.webp",
-      "imageAlt": "탐정 진구지 사부로 재와 다이아몬드 한글 타이틀 화면",
-      "imageFit": "cover",
-      "platform": "PSP",
-      "genre": "추리 ADV",
-      "type": "한국어 패치",
-      "status": "development",
-      "statusLabel": "개발 중",
-      "version": "첫 공개 전",
-      "updated": "2026-10-05",
-      "publicBuilds": 0,
-      "releaseHistory": [],
-      "description": "가부키초를 무대로 여러 의뢰와 인물의 이해관계가 교차하는 하드보일드 추리 어드벤처",
-      "keywords": [
-        "탐정 진구지 사부로",
-        "재와 다이아몬드",
-        "灰とダイヤモンド",
-        "jinguji saburo",
-        "ashes and diamonds",
-        "adventure",
-        "workjam",
-        "arc system works"
-      ],
-      "verification": [
-        "PPSSPP"
-      ],
-      "latestWorklog": {
-        "date": "2026-10-05",
-        "title": "플레이 리셋 수정과 배포 전 화면 정비",
-        "href": "/projects/jinguji-ashes-and-diamonds/updates/2026-10-05.html"
-      },
-      "latestReleaseTag": null
-    },
-    {
       "title": "환상수호전 이어지는 백 년의 시간",
       "href": "/projects/genso-suikoden-100-years/",
       "repository": null,
@@ -325,7 +344,7 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SuikodenTHT-v0.9.0/Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
-      "downloadCount": 733,
+      "downloadCount": 734,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SuikodenTHT-v0.9.0",
       "releaseName": "환상수호전 이어지는 백 년의 시간 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-03T07:27:19Z",
@@ -342,7 +361,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SuikodenTHT-v0.9.0/Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
-          "downloadCount": 733
+          "downloadCount": 734
         }
       ],
       "description": "요구하는 것은 질서인가, 자유인가. 시간을 넘어 방어되는 새로운 백만 세계의 이야기.",
@@ -441,7 +460,7 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
-      "downloadCount": 452,
+      "downloadCount": 454,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.9.0",
       "releaseName": "서몬나이트 5 (Summon Night 5) 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-01T15:02:39Z",
@@ -458,7 +477,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
-          "downloadCount": 452
+          "downloadCount": 454
         },
         {
           "version": "v0.7.0",
@@ -510,7 +529,7 @@
       "version": "v0.9.3",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
-      "downloadCount": 520,
+      "downloadCount": 522,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/soltrigger-v0.9.3",
       "releaseName": "솔 트리거 (SOL TRIGGER) 한글 패치 v0.9.3",
       "releasePublishedAt": "2026-10-01T13:51:21Z",
@@ -527,7 +546,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
-          "downloadCount": 520
+          "downloadCount": 522
         },
         {
           "version": "v0.9.2",
@@ -591,7 +610,7 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
       "downloadAsset": "Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
-      "downloadCount": 373,
+      "downloadCount": 374,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gungnir-v0.9.0",
       "releaseName": "Gungnir 한글 패치 v0.9.0 — 공개 검수판 (260922)",
       "releasePublishedAt": "2026-09-22T20:02:45Z",
@@ -608,7 +627,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
           "downloadAsset": "Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
-          "downloadCount": 373
+          "downloadCount": 374
         },
         {
           "version": "v0.8.0",
