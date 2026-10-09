@@ -1,0 +1,75 @@
+name: 번역·패치 오류 제보
+description: 오역, 깨진 글자, 적용 실패, 진행 불가 등 패치 문제를 알려 주세요.
+title: "[오류] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        제보해 주셔서 감사합니다. 게임 ROM·ISO 파일이나 다운로드 링크는 첨부하지 마세요.
+  - type: dropdown
+    id: project
+    attributes:
+      label: 프로젝트
+      options:
+        - "Hexyz Force"
+        - "Gungnir"
+        - "Summon Night 5"
+        - "Generation of Chaos 6"
+        - "Sol Trigger"
+        - "환상수호전 이어지는 백 년의 시간"
+        - "사키 포터블"
+        - "탐정 진구지 사부로: 재와 다이아몬드"
+        - "사키 아치가편 포터블"
+        - "내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어"
+        - 기타 / 사이트 문제
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 패치 버전
+      description: 프로젝트 페이지 또는 Release 이름에 적힌 버전
+      placeholder: 예) v0.9.0
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 문제 종류
+      options:
+        - 오역·오탈자·어색한 문장
+        - 글자 깨짐·잘림·표시 오류
+        - 이미지 한글화 문제
+        - 패치 적용 실패
+        - 멈춤·진행 불가·크래시
+        - 기타
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: 실행 환경
+      options:
+        - PPSSPP (PC)
+        - PPSSPP (Android)
+        - PPSSPP (iOS)
+        - PSP 실기
+        - PS Vita (Adrenaline)
+        - 기타
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: 발생 위치
+      description: 챕터, 장면, 메뉴 이름 등 문제를 재현할 수 있는 위치
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 내용
+      description: 현재 표시되는 문장과 기대하는 문장, 또는 증상을 적어 주세요. 스크린샷을 끌어다 놓으면 첨부됩니다.
+    validations:
+      required: true

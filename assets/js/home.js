@@ -190,6 +190,16 @@ const searchBox = document.querySelector(".search-box");
 const statusButtons = [...document.querySelectorAll("[data-status-filter]")];
 const recentUpdateList = document.querySelector("#latest-update-list");
 
+// 대문 "한글 패치는 이렇게 만들어집니다"의 여섯 단계와 같은 순서입니다.
+const PATCH_STAGES = ["게임 분석", "번역 준비", "대사 번역", "화면 한글화", "실행 검수", "패치 배포"];
+
+function stageMarkup(stage) {
+  if (!Number.isInteger(stage) || stage < 1 || stage > PATCH_STAGES.length) return "";
+  const name = PATCH_STAGES[stage - 1];
+  const dots = PATCH_STAGES.map((_, index) => `<b class="${index < stage ? "is-done" : ""}"></b>`).join("");
+  return `<a class="project-stage" href="#patch-workflow" title="제작 단계 ${stage}/${PATCH_STAGES.length} · ${name}" aria-label="제작 단계 ${stage}단계: ${name}"><span class="stage-dots" aria-hidden="true">${dots}</span>${stage}단계 · ${name}</a>`;
+}
+
 function formatDate(date) {
   return date ? date.replaceAll("-", ".") : "—";
 }
@@ -254,7 +264,7 @@ function card(project) {
       <img src="${cardImage}" alt="${project.imageAlt}" loading="lazy" style="object-fit:${project.imageFit || "cover"}"${cardImage.startsWith("http") ? ' referrerpolicy="no-referrer"' : ""}>
     </a>
     <div class="project-info">
-      <span class="project-kicker">${project.platform}<i aria-hidden="true">·</i>${project.genre || "RPG"}</span>
+      <span class="project-kicker">${project.platform}<i aria-hidden="true">·</i>${project.genre || "RPG"}${stageMarkup(project.stage)}</span>
       <div class="project-title-row">
         <h3><a href="${project.href}">${project.title}</a></h3>
         <span class="version-pill">${project.version}</span>

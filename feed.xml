@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
+  <title>Noctil Patchworks 작업일지</title>
+  <subtitle>비공식 한국어 게임 번역 패치 작업일지</subtitle>
+  <link href="https://ievy3.github.io/feed.xml" rel="self"/>
+  <link href="https://ievy3.github.io/"/>
+  <id>https://ievy3.github.io/</id>
+  <updated>2026-10-06T00:00:00+09:00</updated>
+  <author><name>Noctil</name></author>
+  <entry>
+    <title>[내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어] 전 대본 한국어화 완료와 UI·이미지 통합</title>
+    <link href="https://ievy3.github.io/projects/oreimo-portable-tsuzuku/updates/2026-10-06.html"/>
+    <id>https://ievy3.github.io/projects/oreimo-portable-tsuzuku/updates/2026-10-06.html</id>
+    <updated>2026-10-06T00:00:00+09:00</updated>
+    <category term="내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어"/>
+    <summary>Disc 2의 전체 대사를 한국어화하고 선택지·알림·플로차트·앨범 등 대사 밖 표시까지 통합 범위를 넓혔습니다. 한글 폰트와 이미지 글자를 반영한 뒤 실제 화면 폭을 기준으로 줄바꿈 규칙을 다시 잡고, XMB 제목까지 한국어 표시를 적용했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[사키 아치가편 포터블] 첫 통합 빌드와 이미지 한글화 전수 정비</title>
+    <link href="https://ievy3.github.io/projects/saki-achiga-portable/updates/2026-10-06.html"/>
+    <id>https://ievy3.github.io/projects/saki-achiga-portable/updates/2026-10-06.html</id>
+    <updated>2026-10-06T00:00:00+09:00</updated>
+    <category term="사키 아치가편 포터블"/>
+    <summary>번역·시스템·이미지 자산을 한 빌드로 묶고 반복 검수했습니다. 남은 일본어 표시와 이미지 품질 문제를 수정하면서 첫 공개 전 배포 후보 수준까지 정리했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[사키 포터블] v0.9.5 첫 프리릴리즈 공개</title>
+    <link href="https://ievy3.github.io/projects/saki-portable/updates/2026-10-06.html"/>
+    <id>https://ievy3.github.io/projects/saki-portable/updates/2026-10-06.html</id>
+    <updated>2026-10-06T00:00:00+09:00</updated>
+    <category term="사키 포터블"/>
+    <summary>전날 완성한 v0.9.5 배포 묶음을 GitHub Releases에 첫 공개했습니다. Windows용 오프라인 패처와 xdelta를 함께 제공하며, PSP-1000 실기 확인까지 마친 상태에서 공개 검수를 시작합니다.</summary>
+  </entry>
+  <entry>
+    <title>[탐정 진구지 사부로: 재와 다이아몬드] 플레이 리셋 수정과 배포 전 화면 정비</title>
+    <link href="https://ievy3.github.io/projects/jinguji-ashes-and-diamonds/updates/2026-10-05.html"/>
+    <id>https://ievy3.github.io/projects/jinguji-ashes-and-diamonds/updates/2026-10-05.html</id>
+    <updated>2026-10-05T00:00:00+09:00</updated>
+    <category term="탐정 진구지 사부로: 재와 다이아몬드"/>
+    <summary>플레이 중 특정 소지품을 제시하면 게임이 리셋되던 중대 결함을 수정하고, 배포 전 안전성 점검에서 발견된 데이터 충돌 가능성도 함께 해결했습니다. 이후 일본어판과 한국어판 화면을 비교해 UI·영상·아이콘의 정렬과 일본어 잔존을 정리했으며, PSP 실기에서 오프닝까지 정상 실행되는 것을 확인했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어] Disc 2 구조 검증과 재조립 기반 확보</title>
+    <link href="https://ievy3.github.io/projects/oreimo-portable-tsuzuku/updates/2026-10-05.html"/>
+    <id>https://ievy3.github.io/projects/oreimo-portable-tsuzuku/updates/2026-10-05.html</id>
+    <updated>2026-10-05T00:00:00+09:00</updated>
+    <category term="내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어"/>
+    <summary>Disc 2의 대본과 리소스 구조를 확인하고, 수정하지 않은 상태에서 원본과 같은 ISO를 다시 만드는 기준을 확보했습니다. 이후 긴 대사·루비·저장/불러오기와 설치 데이터 경로까지 확인해 한국어화 작업을 시작할 수 있는 기반을 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[사키 아치가편 포터블] 게임 구조 분석과 한글화 기반 확정</title>
+    <link href="https://ievy3.github.io/projects/saki-achiga-portable/updates/2026-10-05.html"/>
+    <id>https://ievy3.github.io/projects/saki-achiga-portable/updates/2026-10-05.html</id>
+    <updated>2026-10-05T00:00:00+09:00</updated>
+    <category term="사키 아치가편 포터블"/>
+    <summary>원본 데이터 구조와 표시 경로를 먼저 검증하고, 이후 번역과 이미지 한글화를 안전하게 반복 적용할 수 있는 기반을 마련했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[사키 포터블] 전수 시각 검수와 PSP-1000 확인, v0.9.5 배포판 완성</title>
+    <link href="https://ievy3.github.io/projects/saki-portable/updates/2026-10-05.html"/>
+    <id>https://ievy3.github.io/projects/saki-portable/updates/2026-10-05.html</id>
+    <updated>2026-10-05T00:00:00+09:00</updated>
+    <category term="사키 포터블"/>
+    <summary>그림 글자의 정렬과 원본 배경 손상을 전수 재검사한 뒤 실제 PSP-1000에서 구동과 한글 표시를 확인했습니다. 마지막으로 Windows 오프라인 패처까지 검증해 첫 공개용 v0.9.5 배포 폴더를 완성했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[탐정 진구지 사부로: 재와 다이아몬드] 번역 1차 완료와 통합 빌드 안정화</title>
+    <link href="https://ievy3.github.io/projects/jinguji-ashes-and-diamonds/updates/2026-10-04.html"/>
+    <id>https://ievy3.github.io/projects/jinguji-ashes-and-diamonds/updates/2026-10-04.html</id>
+    <updated>2026-10-04T00:00:00+09:00</updated>
+    <category term="탐정 진구지 사부로: 재와 다이아몬드"/>
+    <summary>남은 대본 번역을 마치고 장면 순서 통독과 용어 통합으로 넘어갔습니다. 이미지 통합 과정의 검은 화면 문제를 해결하고 EBOOT에 남아 있던 시스템 문구까지 번역 대상으로 확장했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[사키 포터블] 15국 전 화면 검사를 마치고 첫 배포 후보를 완성</title>
+    <link href="https://ievy3.github.io/projects/saki-portable/updates/2026-10-04.html"/>
+    <id>https://ievy3.github.io/projects/saki-portable/updates/2026-10-04.html</id>
+    <updated>2026-10-04T00:00:00+09:00</updated>
+    <category term="사키 포터블"/>
+    <summary>스토리 전체를 자동으로 순회하며 실제 대사창 표시를 점검하고, 숫자 높이·세이브 아이콘·UI 이미지 등 화면에서 드러난 문제를 수정했습니다. 이후 최종 문장 검수와 패처 검증을 거쳐 첫 배포 후보를 준비했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[탐정 진구지 사부로: 재와 다이아몬드] 분석 기반 구축과 대본 번역 97.8%</title>
+    <link href="https://ievy3.github.io/projects/jinguji-ashes-and-diamonds/updates/2026-10-03.html"/>
+    <id>https://ievy3.github.io/projects/jinguji-ashes-and-diamonds/updates/2026-10-03.html</id>
+    <updated>2026-10-03T00:00:00+09:00</updated>
+    <category term="탐정 진구지 사부로: 재와 다이아몬드"/>
+    <summary>기존 사전 분석을 키트 구조로 정리하고 실제 한국어 빌드에 필요한 스크립트·폰트·이미지·영상 처리 경로를 구축했습니다. 원문 추출과 재삽입의 무수정 왕복을 확인한 뒤 번역 기준을 확정하고 대본 양산에 들어갔습니다.</summary>
+  </entry>
+  <entry>
+    <title>[사키 포터블] 한글 표시 기반을 만들고 대본 7,129줄 번역 완료</title>
+    <link href="https://ievy3.github.io/projects/saki-portable/updates/2026-10-03.html"/>
+    <id>https://ievy3.github.io/projects/saki-portable/updates/2026-10-03.html</id>
+    <updated>2026-10-03T00:00:00+09:00</updated>
+    <category term="사키 포터블"/>
+    <summary>프로젝트 착수 당일 게임의 대본·이미지·실행 구조를 분석하고 한글 표시 경로와 이름 입력 방식을 확정했습니다. 이후 번역 기준을 정리한 뒤 스토리 대본 전체 7,129줄을 한국어로 옮기고 첫 전체 한국어 빌드까지 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Generation of Chaos 6] 인스톨 데이터 부팅 문제를 해결하고 v0.9.0 배포 후보를 준비</title>
+    <link href="https://ievy3.github.io/projects/generation-of-chaos-6/updates/2026-10-02.html"/>
+    <id>https://ievy3.github.io/projects/generation-of-chaos-6/updates/2026-10-02.html</id>
+    <updated>2026-10-02T00:00:00+09:00</updated>
+    <category term="Generation of Chaos 6"/>
+    <summary>배포 전 실제 플레이 검증에서 인스톨 데이터와 시스템 세이브가 함께 있을 때 한글판이 부팅되지 않는 문제를 발견했습니다. 첫 공개 후보에서는 인스톨 데이터 사용을 비활성화해 문제를 해결했고, 여러 세이브 상태에서 정상 부팅을 확인했습니다. 이후 v0.9.0 배포 후보를 만들고 초반 스테이지를 직접 진행하며 남은 표시 문제를 점검했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[환상수호전 이어지는 백 년의 시간] 전체 한국어 빌드 검증과 세이브·표시 호환성 정리</title>
+    <link href="https://ievy3.github.io/projects/genso-suikoden-100-years/updates/2026-10-02.html"/>
+    <id>https://ievy3.github.io/projects/genso-suikoden-100-years/updates/2026-10-02.html</id>
+    <updated>2026-10-02T00:00:00+09:00</updated>
+    <category term="환상수호전 이어지는 백 년의 시간"/>
+    <summary>전체 한국어 빌드를 만든 뒤 실제 게임 표시 한도, 세이브 이름 호환성, 설치 데이터 충돌 가능성을 집중적으로 확인했습니다. 텍스트 쪽은 통합 검사를 통과했고 이미지 한글화도 첫 사용자 검토 단계에 들어갔습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Generation of Chaos 6] 최종 통합 빌드를 검증하고 배포 전 QA를 한 단계 강화</title>
+    <link href="https://ievy3.github.io/projects/generation-of-chaos-6/updates/2026-10-01.html"/>
+    <id>https://ievy3.github.io/projects/generation-of-chaos-6/updates/2026-10-01.html</id>
+    <updated>2026-10-01T00:00:00+09:00</updated>
+    <category term="Generation of Chaos 6"/>
+    <summary>번역 수정과 한글 이미지, 게임명을 모두 넣은 통합 빌드를 만들고 주요 화면을 실제 실행으로 확인했습니다. 이후 누락된 튜토리얼 이미지 27장을 추가 제작하고, 말풍선 넘침과 용어 가독성을 다시 정리했습니다. 공개 후 문제가 생길 가능성을 줄이기 위해 남은 일본어와 UI별 표시 한도를 배포 전에 더 엄격하게 검사하는 절차도 추가했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[환상수호전 이어지는 백 년의 시간] 검수 기준 정비와 용어 읽힘 점검 재개</title>
+    <link href="https://ievy3.github.io/projects/genso-suikoden-100-years/updates/2026-10-01.html"/>
+    <id>https://ievy3.github.io/projects/genso-suikoden-100-years/updates/2026-10-01.html</id>
+    <updated>2026-10-01T00:00:00+09:00</updated>
+    <category term="환상수호전 이어지는 백 년의 시간"/>
+    <summary>이날은 대규모 통합 작업보다 배포 전 검수 기준을 정비하는 데 집중했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Sol Trigger] 공개 제보 4건을 수정하고 v0.9.3 배포 후보까지 정리</title>
+    <link href="https://ievy3.github.io/projects/sol-trigger/updates/2026-10-01.html"/>
+    <id>https://ievy3.github.io/projects/sol-trigger/updates/2026-10-01.html</id>
+    <updated>2026-10-01T00:00:00+09:00</updated>
+    <category term="Sol Trigger"/>
+    <summary>v0.9.1 공개 후 들어온 튜토리얼 누락, 용어집 정지, 스킬 정보 공란, 전투 말풍선 문제를 차례로 수정했습니다. 표시 한도를 화면별로 다시 점검하고 용어 표현도 전수 정리해, v0.9.2 수정 베타에 이어 전투·필드 메시지까지 보강한 v0.9.3 배포 후보를 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Summon Night 5] 스토리 윤문을 확대하고 v0.9.0 배포 후보 확정</title>
+    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-10-01.html"/>
+    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-10-01.html</id>
+    <updated>2026-10-01T00:00:00+09:00</updated>
+    <category term="Summon Night 5"/>
+    <summary>기존 v0.7.0 배포본의 재현성을 다시 확인한 뒤 스토리 번역투와 인물 말투를 대폭 다듬었습니다. 이전 빌드에 섞여 있던 지명 표기 2곳도 바로잡았으며, 두 종류의 지원 원본에서 패처 검사를 모두 통과한 v0.9.0 배포 후보를 완성했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Generation of Chaos 6] 전투 진입 문제를 해결하고 폰트·이미지 한글화 마감 단계로</title>
+    <link href="https://ievy3.github.io/projects/generation-of-chaos-6/updates/2026-09-30.html"/>
+    <id>https://ievy3.github.io/projects/generation-of-chaos-6/updates/2026-09-30.html</id>
+    <updated>2026-09-30T00:00:00+09:00</updated>
+    <category term="Generation of Chaos 6"/>
+    <summary>전체 한국어 빌드의 첫 전투 진입 문제를 해결하고 실제 실행 확인까지 마쳤습니다. 실행 화면에 남은 일본어를 다시 추적해 누락 텍스트 35행을 추가했으며, 한글 폰트의 자간·이름표·대사·메뉴 표시도 확정했습니다. 이후 장 제목·목표 배너·전투 및 메뉴 라벨 등 이미지 한글화를 집중적으로 진행해 최종 검수 단계에 들어갔습니다.</summary>
+  </entry>
+  <entry>
+    <title>[환상수호전 이어지는 백 년의 시간] 텍스트 추출·재삽입 기반 구축과 초벌 번역 완료</title>
+    <link href="https://ievy3.github.io/projects/genso-suikoden-100-years/updates/2026-09-30.html"/>
+    <id>https://ievy3.github.io/projects/genso-suikoden-100-years/updates/2026-09-30.html</id>
+    <updated>2026-09-30T00:00:00+09:00</updated>
+    <category term="환상수호전 이어지는 백 년의 시간"/>
+    <summary>게임 데이터 구조를 분석해 번역 데이터를 안전하게 추출하고 다시 넣는 기반을 만들었습니다. 같은 날 번역 표기 기준과 폰트를 확정하고 전체 텍스트의 초벌 번역까지 진행했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Sol Trigger] 전체 번역·실행 검증을 마치고 v0.9.1 첫 공개 베타 배포</title>
+    <link href="https://ievy3.github.io/projects/sol-trigger/updates/2026-09-30.html"/>
+    <id>https://ievy3.github.io/projects/sol-trigger/updates/2026-09-30.html</id>
+    <updated>2026-09-30T00:00:00+09:00</updated>
+    <category term="Sol Trigger"/>
+    <summary>전날 내부 후보에서 남아 있던 화면 표시 일본어와 표시 문제를 정리하고, 이미지·컷신 자막·폰트·패처를 최종 통합했습니다. PPSSPP와 PS Vita Adrenaline에서 주요 기능을 확인한 뒤 v0.9.1을 첫 공개 베타로 배포했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Generation of Chaos 6] 번역 초벌·전체 윤문을 마치고 첫 전체 한국어 빌드까지</title>
+    <link href="https://ievy3.github.io/projects/generation-of-chaos-6/updates/2026-09-29.html"/>
+    <id>https://ievy3.github.io/projects/generation-of-chaos-6/updates/2026-09-29.html</id>
+    <updated>2026-09-29T00:00:00+09:00</updated>
+    <category term="Generation of Chaos 6"/>
+    <summary>프로젝트 착수 첫날에 텍스트 추출·재삽입 기반을 마련하고, 대사와 시스템 문구의 번역 초벌 및 전체 윤문을 완료했습니다. 한글 폰트까지 통합한 첫 전체 한국어 빌드도 생성했으며, 현재는 실행 검증과 이미지 한글화를 남겨두고 있습니다.</summary>
+  </entry>
+  <entry>
+    <title>[환상수호전 이어지는 백 년의 시간] 프로젝트 시작과 일본판 기준판 정리</title>
+    <link href="https://ievy3.github.io/projects/genso-suikoden-100-years/updates/2026-09-29.html"/>
+    <id>https://ievy3.github.io/projects/genso-suikoden-100-years/updates/2026-09-29.html</id>
+    <updated>2026-09-29T00:00:00+09:00</updated>
+    <category term="환상수호전 이어지는 백 년의 시간"/>
+    <summary>새 번역 프로젝트의 기본 구조를 만들고, 앞으로의 추출·번역·검증 작업이 같은 원본을 기준으로 진행되도록 기준판과 비교 자료를 정리했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Sol Trigger] 첫날부터 대규모 번역·이미지 한글화, v0.1.0 후보 빌드까지</title>
+    <link href="https://ievy3.github.io/projects/sol-trigger/updates/2026-09-29.html"/>
+    <id>https://ievy3.github.io/projects/sol-trigger/updates/2026-09-29.html</id>
+    <updated>2026-09-29T00:00:00+09:00</updated>
+    <category term="Sol Trigger"/>
+    <summary>프로젝트 착수 첫날에 스토리·시스템 텍스트 번역, 한글 폰트 적용, 이미지 한글화를 함께 진행해 내부 베타 후보까지 만들었습니다. 다만 화면에 남아 있는 일본어와 실제 플레이 검증이 남아 있어 아직 공개 배포 전 단계입니다.</summary>
+  </entry>
+  <entry>
+    <title>[Summon Night 5] 최종 실기 검증을 마치고 v0.7.0 베타 확정</title>
+    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-09-28.html"/>
+    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-09-28.html</id>
+    <updated>2026-09-28T00:00:00+09:00</updated>
+    <category term="Summon Night 5"/>
+    <summary>문장·이미지·튜토리얼 표시를 다시 다듬고 최종 후보를 PS Vita 실기에서 검증했습니다. Noctil Patchworks 오프라인 패처까지 재현 검증을 마쳐 첫 베타 배포본으로 확정했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Summon Night 5] 실행 오류 수정과 Vita 부팅 복구</title>
+    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-09-27.html"/>
+    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-09-27.html</id>
+    <updated>2026-09-27T00:00:00+09:00</updated>
+    <category term="Summon Night 5"/>
+    <summary>최종 ISO의 정적 검증을 마친 뒤 실제 게임 실행 QA를 시작했습니다. 이 과정에서 파티능력 화면 크래시, 여성 주인공 경로의 대량 누락, PS Vita 부팅 불가 문제가 확인됐고 당일 원인을 추적해 수정했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Summon Night 5] 이미지 218개 확정과 최종 통합 완료</title>
+    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-09-26.html"/>
+    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-09-26.html</id>
+    <updated>2026-09-26T00:00:00+09:00</updated>
+    <category term="Summon Night 5"/>
+    <summary>전날 고정한 기준선에서 번역·기술·이미지 작업을 다시 검증하고 하나의 통합본으로 묶었습니다. 이미지 218개를 최종 확정했으며 텍스트 전 범위의 정적 검증도 통과했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Summon Night 5] F20 문제 조사와 기준선 재정립</title>
+    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-09-25.html"/>
+    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-09-25.html</id>
+    <updated>2026-09-25T00:00:00+09:00</updated>
+    <category term="Summon Night 5"/>
+    <summary>시험 빌드에서 튜토리얼 조작 불가, 글자 깨짐, 일본어 잔존과 일부 이미지·메뉴 오류가 확인돼 원본 대조와 재구성 실험을 진행했습니다. 문제를 그대로 덮지 않고 재현 가능한 입력 상태를 새 기준선으로 고정했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Summon Night 5] 이미지 재생성과 폰트 확정본 반영</title>
+    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-09-24.html"/>
+    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-09-24.html</id>
+    <updated>2026-09-24T00:00:00+09:00</updated>
+    <category term="Summon Night 5"/>
+    <summary>이미지 재생성분을 대규모로 반영하고 최종 폰트 패키지를 검증해 다시 주입했습니다. 이미지 대상과 패치 수는 그대로 유지하면서 실제 빌드에 들어갈 자산을 정리했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Generation of Chaos 6] 구조 분석을 끝내고 텍스트 재삽입 단계로</title>
+    <link href="https://ievy3.github.io/projects/generation-of-chaos-6/updates/2026-09-23.html"/>
+    <id>https://ievy3.github.io/projects/generation-of-chaos-6/updates/2026-09-23.html</id>
+    <updated>2026-09-23T00:00:00+09:00</updated>
+    <category term="Generation of Chaos 6"/>
+    <summary>첫날에는 게임 데이터 구조를 안정적으로 다시 만들 수 있는 기반을 확보하고, 이벤트와 전투 텍스트의 추출·재삽입 경로를 구축했습니다. 일본판 원문을 기준으로 번역을 진행하기 위한 캐릭터 말투와 고유명사 표기 기준도 정리했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Summon Night 5] 정본 통합과 이미지 트랙 마감</title>
+    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-09-23.html"/>
+    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-09-23.html</id>
+    <updated>2026-09-23T00:00:00+09:00</updated>
+    <category term="Summon Night 5"/>
+    <summary>번역·용어·이름표 기준을 메인 작업본으로 통합하고 이미지 한글화 작업을 마감했습니다. 당일 네 차례 통합 빌드를 진행했으며, 마지막 F19a16을 현재 최신 안정 빌드로 유지하고 있습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Gungnir] 튜토리얼·메뉴·챕터 이미지 개선</title>
+    <link href="https://ievy3.github.io/projects/gungnir/updates/2026-09-22.html"/>
+    <id>https://ievy3.github.io/projects/gungnir/updates/2026-09-22.html</id>
+    <updated>2026-09-22T00:00:00+09:00</updated>
+    <category term="Gungnir"/>
+    <summary>튜토리얼의 한글 글꼴과 배치를 다시 다듬고, 승리 결과·준비 메뉴·챕터 이미지를 최신 한글화본으로 교체했습니다. 이번 작업으로 총 191장의 이미지가 갱신됐으며 최신 시험 빌드에 반영했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Summon Night 5] 슬롯 문제 해결과 통합·검증 단계 진입</title>
+    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-09-22.html"/>
+    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-09-22.html</id>
+    <updated>2026-09-22T00:00:00+09:00</updated>
+    <category term="Summon Night 5"/>
+    <summary>번역문을 실제 게임에 안정적으로 넣는 통합 작업을 진행했습니다. 여주인공 루트 등에서 빠져 있던 중복 대사를 보완해 용량 초과 문제를 해결했고, 당일 최종 F19a12 빌드에서 문제가 있던 8개 스크립트 모두의 한국어 삽입을 확인했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Gungnir] 최신 이미지 에셋 통합과 시험 ISO 정적 검증</title>
+    <link href="https://ievy3.github.io/projects/gungnir/updates/2026-09-20.html"/>
+    <id>https://ievy3.github.io/projects/gungnir/updates/2026-09-20.html</id>
+    <updated>2026-09-20T00:00:00+09:00</updated>
+    <category term="Gungnir"/>
+    <summary>B0 안정본을 기준으로 최신 이미지 에셋 1,106페이지를 반영하고 시험 ISO를 생성했습니다. 파일 구조와 크기는 유지됐고 초반부 진행 및 정적 검증까지 완료했습니다. 일부 영어 이미지가 남아 있고 전체 런타임 검증은 끝나지 않았지만, 공개 검수를 위해 v0.8.0 버전으로 공개합니다.</summary>
+  </entry>
+  <entry>
+    <title>[Summon Night 5] 번역 양산 체제 전환과 범용 대사 삽입</title>
+    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-09-20.html"/>
+    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-09-20.html</id>
+    <updated>2026-09-20T00:00:00+09:00</updated>
+    <category term="Summon Night 5"/>
+    <summary>번역·기술·이미지 3개 병렬 트랙을 구축하고 본문 번역 컨베이어를 가동했습니다. s1~s145를 처리했으며, 기술 트랙은 이름·지명·필드 메뉴와 번역 대사를 실제 게임에 연속 삽입할 수 있는 F19 파이프라인까지 도달했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Gungnir] 크래시 원인 규명과 전수 감사, 이미지 아틀라스 재작업</title>
+    <link href="https://ievy3.github.io/projects/gungnir/updates/2026-09-19.html"/>
+    <id>https://ievy3.github.io/projects/gungnir/updates/2026-09-19.html</id>
+    <updated>2026-09-19T00:00:00+09:00</updated>
+    <category term="Gungnir"/>
+    <summary>데이터 포인터 누락으로 발생하던 PPSSPP 크래시를 수정하고, data.dar·ini.dar·EBOOT의 잔존 일본어를 전수 감사한 뒤 이미지 기반 작업을 P1 아틀라스 재구축 단계까지 진행했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Summon Night 5] 텍스트 전량 추출·재삽입과 한글 글리프 표시</title>
+    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-09-19.html"/>
+    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-09-19.html</id>
+    <updated>2026-09-19T00:00:00+09:00</updated>
+    <category term="Summon Night 5"/>
+    <summary>Phase 0와 Gate 0을 마친 뒤 시나리오 텍스트의 추출·재삽입 전체 경로를 실증하고, 폰트 구조를 역공학해 한글 글리프의 인게임 표시까지 확인했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Gungnir] 최종 통합본 생성과 첫 맵 안정화</title>
+    <link href="https://ievy3.github.io/projects/gungnir/updates/2026-09-16.html"/>
+    <id>https://ievy3.github.io/projects/gungnir/updates/2026-09-16.html</id>
+    <updated>2026-09-16T00:00:00+09:00</updated>
+    <category term="Gungnir"/>
+    <summary>이벤트·맵·EBOOT·폰트·이미지를 다시 통합하고, 누락됐던 맵 대사와 보조 표시문을 반영한 최신 시험 ISO를 생성했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Gungnir] 스토리 원고 전량 검토와 통합 준비</title>
+    <link href="https://ievy3.github.io/projects/gungnir/updates/2026-09-15.html"/>
+    <id>https://ievy3.github.io/projects/gungnir/updates/2026-09-15.html</id>
+    <updated>2026-09-15T00:00:00+09:00</updated>
+    <category term="Gungnir"/>
+    <summary>전체 85개 장면의 대사·이름표 검토를 마치고, EBOOT 원고 감사와 튜토리얼 이미지 정적 생성을 완료했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Gungnir] 장면 번역 확대와 EBOOT 초벌 정리</title>
+    <link href="https://ievy3.github.io/projects/gungnir/updates/2026-09-14.html"/>
+    <id>https://ievy3.github.io/projects/gungnir/updates/2026-09-14.html</id>
+    <updated>2026-09-14T00:00:00+09:00</updated>
+    <category term="Gungnir"/>
+    <summary>partA14까지 장면 번역을 확대하고, EBOOT 문자열 초벌과 튜토리얼 이미지 정적 검토를 진행했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Hexyz Force] 두 판본 오프라인 패처 완성과 공개 검수판 배포</title>
+    <link href="https://ievy3.github.io/projects/hexyz-force/updates/2026-09-14.html"/>
+    <id>https://ievy3.github.io/projects/hexyz-force/updates/2026-09-14.html</id>
+    <updated>2026-09-14T00:00:00+09:00</updated>
+    <category term="Hexyz Force"/>
+    <summary>PSN판과 UMD판을 자동 판별하는 Windows용 오프라인 패처를 제작하고, 안전장치와 결과 해시를 검증한 v0.9.0 검수판을 GitHub에 공개했습니다.</summary>
+  </entry>
+</feed>
