@@ -620,6 +620,36 @@ footer a:hover{text-decoration:underline}
 .guide-cta>a span{font-size:16px;transition:transform .18s}
 .guide-cta>a:hover span{transform:translateX(3px)}
 
+/* Align the content rows of archive cards without truncating long titles.
+   Nested subgrids share the title, description, verification, and action tracks
+   within each desktop grid row. The original flex layout remains the fallback. */
+@supports (grid-template-rows: subgrid) {
+  @media (min-width:901px) {
+    .projects{row-gap:0}
+    .project-card{
+      display:grid;
+      grid-row:span 6;
+      grid-template-rows:subgrid;
+      row-gap:0;
+      margin-bottom:16px;
+    }
+    .project-info{
+      display:grid;
+      grid-row:span 5;
+      grid-template-rows:subgrid;
+      row-gap:0;
+    }
+    .project-kicker{grid-row:1}
+    .project-title-row{grid-row:2;align-items:flex-start}
+    .project-desc{grid-row:3;min-height:0}
+    .project-verify{grid-row:4}
+    .project-foot{grid-row:5;margin-top:0}
+  }
+  @media (min-width:1280px) {
+    .project-card{margin-bottom:18px}
+  }
+}
+
 /* Patch guide */
 .guide-main{max-width:960px;padding-top:28px}
 .guide-page-head{padding:20px 0 24px;border-bottom:1px solid var(--line)}
