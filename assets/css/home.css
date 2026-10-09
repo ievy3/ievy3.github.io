@@ -620,34 +620,63 @@ footer a:hover{text-decoration:underline}
 .guide-cta>a span{font-size:16px;transition:transform .18s}
 .guide-cta>a:hover span{transform:translateX(3px)}
 
-/* Align the content rows of archive cards without truncating long titles.
-   Nested subgrids share the title, description, verification, and action tracks
-   within each desktop grid row. The original flex layout remains the fallback. */
-@supports (grid-template-rows: subgrid) {
-  @media (min-width:901px) {
-    .projects{row-gap:0}
-    .project-card{
-      display:grid;
-      grid-row:span 6;
-      grid-template-rows:subgrid;
-      row-gap:0;
-      margin-bottom:16px;
-    }
-    .project-info{
-      display:grid;
-      grid-row:span 5;
-      grid-template-rows:subgrid;
-      row-gap:0;
-    }
-    .project-kicker{grid-row:1}
-    .project-title-row{grid-row:2;align-items:flex-start}
-    .project-desc{grid-row:3;min-height:0}
-    .project-verify{grid-row:4}
-    .project-foot{grid-row:5;margin-top:0}
+/* Use a compact, equal-height information panel for every archive card.
+   Two-line limits keep long titles from increasing the entire grid row.
+   Explicit tracks also reserve a verification slot when none is listed. */
+@media (min-width:621px){
+  .project-info{
+    display:grid;
+    flex:0 0 216px;
+    height:216px;
+    grid-template-rows:15px 66px 41px 26px 38px;
+    padding:15px 16px;
   }
-  @media (min-width:1280px) {
-    .project-card{margin-bottom:18px}
+  .project-kicker{grid-row:1;line-height:15px}
+  .project-title-row{
+    grid-row:2;
+    min-height:0;
+    align-items:flex-start;
+    margin-top:5px;
   }
+  .project-info h3{
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    overflow:hidden;
+  }
+  .project-desc{
+    display:-webkit-box;
+    grid-row:3;
+    min-height:0;
+    margin:3px 0 0;
+    overflow:hidden;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+  }
+  .project-verify{
+    grid-row:4;
+    min-height:20px;
+    align-self:start;
+    margin-top:3px;
+  }
+  .project-foot{
+    grid-row:5;
+    min-height:0;
+    align-self:end;
+    margin-top:0;
+    padding-top:0;
+  }
+}
+@media (min-width:1280px){
+  .project-info{
+    flex-basis:194px;
+    height:194px;
+    grid-template-rows:14px 56px 37px 24px 36px;
+    padding:14px 16px 13px;
+  }
+  .project-kicker{line-height:14px}
+  .project-info h3{font-size:22px}
+  .project-desc{font-size:11px;line-height:1.45}
 }
 
 /* Patch guide */
