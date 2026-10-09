@@ -267,6 +267,9 @@ function card(project) {
         </div>
       </div>
     </div>`;
+  // Clamped card text remains readable in full on hover.
+  article.querySelector(".project-title-row h3 a").title = project.title;
+  article.querySelector(".project-desc").title = displayDescription;
   return article;
 }
 
