@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:24:07.249Z",
+  "generatedAt": "2026-10-09T01:24:21.508Z",
   "projects": [
     {
       "title": "내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어",
@@ -18,6 +18,9 @@
       "status": "public",
       "statusLabel": "베타 공개",
       "version": "v1.0.0",
+      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
+      "downloadAsset": "OreImoDisc2KrPatcher.zip",
+      "downloadCount": 0,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
       "releaseName": "내 여동생이 이렇게 귀여울 리가 없어 포터블이 계속될 리가 없어 Disc 2 한글 패치",
       "releasePublishedAt": "2026-10-09T01:10:57Z",
@@ -31,7 +34,10 @@
           "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
           "publishedAt": "2026-10-09T01:10:57Z",
           "date": "2026-10-09",
-          "prerelease": true
+          "prerelease": true,
+          "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
+          "downloadAsset": "OreImoDisc2KrPatcher.zip",
+          "downloadCount": 0
         }
       ],
       "description": "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",
