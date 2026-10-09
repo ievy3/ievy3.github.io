@@ -30,8 +30,8 @@
 - [Gungnir](https://ievy3.github.io/projects/gungnir/) (PSP) — **v0.9.0** · 베타 공개
 - [매지컬 베케이션 (Magical Vacation)](https://ievy3.github.io/projects/magical-vacation/) (GBA) — 개발 중 · 4단계 화면 한글화
 - [Never 7: The End of Infinity](https://ievy3.github.io/projects/never7/) (PSP) — 개발 중 · 3단계 대사 번역
-- [바케모노가타리 포터블](https://ievy3.github.io/projects/bakemonogatari-portable/) (PSP) — 개발 중 · 1단계 게임 분석
-- [Shadow of Memories](https://ievy3.github.io/projects/shadow-of-memories/) (PSP) — 개발 중 · 1단계 게임 분석
+- [바케모노가타리 포터블](https://ievy3.github.io/projects/bakemonogatari-portable/) (PSP) — 개발 중 · 2단계 번역 준비
+- [Shadow of Memories](https://ievy3.github.io/projects/shadow-of-memories/) (PSP) — 개발 중 · 2단계 번역 준비
 
 최신 다운로드 링크와 패치 이력, 적용 안내, 작업 기록은 각 프로젝트 페이지에서 확인할 수 있습니다.
 
