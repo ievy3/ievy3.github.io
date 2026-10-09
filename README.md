@@ -16,7 +16,7 @@
 
 ## Projects
 
-현재 공개 허브에서 관리하는 프로젝트는 **10개**입니다. 모두 PSP용 한국어 패치로, 아래 버전은 공개된 최신 베타 배포본을 기준으로 합니다.
+현재 공개 허브에서 관리하는 프로젝트는 **14개**입니다. 아래 버전은 공개된 최신 베타 배포본을 기준으로 합니다.
 
 - [내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어](https://ievy3.github.io/projects/oreimo-portable-tsuzuku/) (PSP) — **v1.0.0** · 베타 공개
 - [사키 아치가편 포터블](https://ievy3.github.io/projects/saki-achiga-portable/) (PSP) — **v0.9.0-rc7** · 베타 공개
@@ -28,6 +28,10 @@
 - [Summon Night 5](https://ievy3.github.io/projects/summon-night-5/) (PSP) — **v0.9.0** · 베타 공개
 - [Sol Trigger](https://ievy3.github.io/projects/sol-trigger/) (PSP) — **v0.9.3** · 베타 공개
 - [Gungnir](https://ievy3.github.io/projects/gungnir/) (PSP) — **v0.9.0** · 베타 공개
+- [매지컬 베케이션 (Magical Vacation)](https://ievy3.github.io/projects/magical-vacation/) (GBA) — 개발 중 · 4단계 화면 한글화
+- [Never 7: The End of Infinity](https://ievy3.github.io/projects/never7/) (PSP) — 개발 중 · 3단계 대사 번역
+- [바케모노가타리 포터블](https://ievy3.github.io/projects/bakemonogatari-portable/) (PSP) — 개발 중 · 1단계 게임 분석
+- [Shadow of Memories](https://ievy3.github.io/projects/shadow-of-memories/) (PSP) — 개발 중 · 1단계 게임 분석
 
 최신 다운로드 링크와 패치 이력, 적용 안내, 작업 기록은 각 프로젝트 페이지에서 확인할 수 있습니다.
 

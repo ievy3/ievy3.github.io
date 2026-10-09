@@ -22,6 +22,10 @@ body:
         - "탐정 진구지 사부로: 재와 다이아몬드"
         - "사키 아치가편 포터블"
         - "내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어"
+        - "Magical Vacation"
+        - "Never 7: The End of Infinity"
+        - "바케모노가타리 포터블"
+        - "Shadow of Memories"
         - 기타 / 사이트 문제
     validations:
       required: true
@@ -55,6 +59,8 @@ body:
         - PPSSPP (Android)
         - PPSSPP (iOS)
         - PSP 실기
+        - mGBA 등 GBA 에뮬레이터
+        - GBA 실기
         - PS Vita (Adrenaline)
         - 기타
     validations:

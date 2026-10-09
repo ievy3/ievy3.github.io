@@ -260,5 +260,100 @@
       "PPSSPP",
       "PSP-1000"
     ]
+  },
+  {
+    "slug": "magical-vacation",
+    "title": "Magical Vacation",
+    "image": "/assets/images/magical-vacation/title-screen.webp",
+    "imageAlt": "매지컬 베케이션 GBA 타이틀 화면",
+    "platform": "GBA",
+    "type": "한국어 패치",
+    "releasePrefix": "mv-",
+    "description": "마법 학교 학생들의 모험을 그린 브라우니 브라운의 GBA RPG",
+    "keywords": [
+      "매지컬 베케이션",
+      "매지컬 바케이션",
+      "magical vacation",
+      "マジカルバケーション",
+      "brownie brown",
+      "rpg"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "genre": "RPG",
+    "stage": 4,
+    "updated": "2026-10-09",
+    "verification": []
+  },
+  {
+    "slug": "never7",
+    "title": "Never 7: The End of Infinity",
+    "image": "/assets/images/never7/title-screen.webp",
+    "imageAlt": "Never 7: The End of Infinity PSP 타이틀 화면",
+    "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "never7-",
+    "description": "섬에서 보내는 합숙의 날들과 반복되는 시간의 수수께끼를 그린 인피니티 시리즈 첫 작품",
+    "keywords": [
+      "네버7",
+      "네버 세븐",
+      "never7",
+      "never 7",
+      "infinity",
+      "인피니티",
+      "kid",
+      "어드벤처"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "genre": "어드벤처",
+    "stage": 3,
+    "updated": "2026-10-09",
+    "verification": []
+  },
+  {
+    "slug": "bakemonogatari-portable",
+    "title": "바케모노가타리 포터블",
+    "image": "/assets/images/bakemonogatari-portable/title-screen.webp",
+    "imageAlt": "바케모노가타리 포터블 PSP 타이틀 화면",
+    "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "bakemono-",
+    "description": "니시오 이신의 소설 『바케모노가타리』를 바탕으로 한 PSP 어드벤처 게임",
+    "keywords": [
+      "바케모노가타리",
+      "괴물이야기",
+      "bakemonogatari",
+      "化物語",
+      "monogatari",
+      "모노가타리",
+      "어드벤처"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "genre": "어드벤처",
+    "stage": 1,
+    "updated": "2026-10-09",
+    "verification": []
+  },
+  {
+    "slug": "shadow-of-memories",
+    "title": "Shadow of Memories",
+    "image": "/assets/images/shadow-of-memories/title-screen.webp",
+    "imageAlt": "Shadow of Memories PSP 타이틀 화면",
+    "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "som-",
+    "description": "살해당한 주인공이 시간을 거슬러 자신의 죽음을 막으려 하는 시간 여행 어드벤처",
+    "keywords": [
+      "섀도우 오브 메모리즈",
+      "쉐도우 오브 메모리즈",
+      "shadow of memories",
+      "shadow of destiny",
+      "konami",
+      "어드벤처"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "genre": "어드벤처",
+    "stage": 1,
+    "updated": "2026-10-09",
+    "verification": []
   }
 ]
