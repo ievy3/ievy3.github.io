@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 10월 9일 매지컬 베케이션 한국어 패치 작업일지">
+  <title>2026.10.09 작업일지 | 매지컬 베케이션</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/magical-vacation/updates/2026-10-09.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.10.09 작업일지 | 매지컬 베케이션">
+  <meta property="og:description" content="2026년 10월 9일 매지컬 베케이션 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/magical-vacation/updates/2026-10-09.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/magical-vacation/title-screen.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.10.09 작업일지 | 매지컬 베케이션">
+  <meta name="twitter:description" content="2026년 10월 9일 매지컬 베케이션 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/magical-vacation/title-screen.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=25">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=1">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/magical-vacation/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.10.09</p>
+    <h1>번역 100% 완료와<br>첫 통합 빌드 검수</h1>
+    <p>번역 방침을 확정하고 전체 7,612행을 번역했습니다. 한글 이름 입력과 메뉴 그림까지 넣은 통합 빌드를 만들어 화면 검수와 배포 전 독립 검수를 진행했습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>TRANSLATION & QA</span><span class="badge">배포 전</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>7,612</strong><span>번역 완료 행 (100%)</span></div>
+    <div><strong>13,793</strong><span>자동 화면 검사 쪽</span></div>
+    <div><strong>282</strong><span>독립 검수 지적</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">TRANSLATION POLICY</p><h2>확정한 번역 방침</h2>
+    <ul class="compact-list">
+      <li>호칭은 인물 사이 나이 차에 맞춰 형·누나·오빠·언니로 옮깁니다(관계표 290건).</li>
+      <li>지명에 담긴 말장난은 한국어로 다시 만들어 옮깁니다(지명 16개).</li>
+      <li>용어집 312개와 문체 규칙을 정리했습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">TRANSLATION</p><h2>번역</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>주 대사 5,086행 포함 전체 7,612행 번역</li>
+        <li><span>✓</span>이름·전투·메뉴·설명문·컷신 번역</li>
+        <li><span>✓</span>번역 담당 간 용어·말투·호칭 통일 검수</li>
+        <li><span>✓</span>원문보다 쪽 수가 늘어난 대사 0건으로 정리</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">KOREAN DISPLAY</p><h2>한글 표시</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>폰트를 4,096칸으로 늘려 한글 음절 수용</li>
+        <li><span>✓</span>띄어쓰기 폭을 줄여 원문과 같은 줄 수 유지</li>
+        <li><span>✓</span>속성 이름 표시를 ‘불속성’처럼 자연스럽게 정리</li>
+        <li><span>✓</span>컷신 글자 간격 조정</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NAME ENTRY & IMAGES</p><h2>이름 입력과 그림</h2>
+    <ul class="compact-list">
+      <li>초성 탭을 고른 뒤 음절을 고르는 방식의 한글 이름 입력 자판을 만들었습니다. 이름은 최대 6글자입니다.</li>
+      <li>이름 입력 탭 버튼(한1·한2·ABC·초성·뒤로·결정), 타이틀 버튼, 메뉴 라벨, 능력치 라벨(힘·방·속·정)을 한글 그림으로 바꿨습니다.</li>
+      <li>타이틀 로고는 현재 임시안이며 별도로 제작할 예정입니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">SCREEN QA</p><h2>화면 검수</h2>
+    <ul class="compact-list">
+      <li>실제 플레이로 약 195쪽을 확인하고, 전체 대사를 넣어 13,793쪽을 자동 화면 검사했습니다.</li>
+      <li>4줄 초과·창 밖 넘침·깨진 글자는 0건입니다.</li>
+      <li>이름 입력, 메뉴 14화면, 컷신, 선택지, 기존 세이브 불러오기를 확인했습니다.</li>
+      <li>화면 검수에서 나온 결함 9건(이름 입력 칸, 메뉴 라벨, 쪽 넘침 등)을 고쳤습니다.</li>
+      <li>개발용 디버그 메뉴 22행은 번역하지 않습니다. 일반 플레이에서는 보이지 않습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">REVIEW</p><h2>배포 전 독립 검수</h2>
+    <ul class="compact-list">
+      <li>번역 담당과 다른 검수자가 전체 대사·이름·메뉴·그림 문구·안내문을 다시 읽었습니다.</li>
+      <li>지적 282건 중 심각한 6건(뜻이 뒤집힌 대사 4건, 안내문 오류 2건)을 찾았고, 대사 4건은 고쳤습니다.</li>
+      <li>나머지 지적과 안내문 정정은 반영 중입니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NEXT</p><h2>다음 작업</h2>
+    <ul class="compact-list">
+      <li>남은 검수 지적 반영과 안내문 정정</li>
+      <li>수정한 빌드로 화면 검수를 다시 진행</li>
+      <li>타이틀 로고 제작 후 공개 검수판 배포</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">MAGICAL VACATION DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=1" defer></script>
+</body>
+</html>

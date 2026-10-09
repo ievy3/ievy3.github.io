@@ -16,6 +16,14 @@
     <summary>게임 데이터와 대사 구조를 분석하고, 한글 11,172자를 담은 확장 폰트가 실제 게임 화면에 표시되는 것을 확인했습니다. 번역 방침도 정했습니다.</summary>
   </entry>
   <entry>
+    <title>[Magical Vacation] 번역 100% 완료와 첫 통합 빌드 검수</title>
+    <link href="https://ievy3.github.io/projects/magical-vacation/updates/2026-10-09.html"/>
+    <id>https://ievy3.github.io/projects/magical-vacation/updates/2026-10-09.html</id>
+    <updated>2026-10-09T00:00:00+09:00</updated>
+    <category term="Magical Vacation"/>
+    <summary>번역 방침을 확정하고 전체 7,612행을 번역했습니다. 한글 이름 입력과 메뉴 그림까지 넣은 통합 빌드를 만들어 화면 검수와 배포 전 독립 검수를 진행했습니다.</summary>
+  </entry>
+  <entry>
     <title>[Never 7: The End of Infinity] 구조 분석 완료와 초벌 번역 70% 진행</title>
     <link href="https://ievy3.github.io/projects/never7/updates/2026-10-09.html"/>
     <id>https://ievy3.github.io/projects/never7/updates/2026-10-09.html</id>
@@ -318,13 +326,5 @@
     <updated>2026-09-19T00:00:00+09:00</updated>
     <category term="Gungnir"/>
     <summary>데이터 포인터 누락으로 발생하던 PPSSPP 크래시를 수정하고, data.dar·ini.dar·EBOOT의 잔존 일본어를 전수 감사한 뒤 이미지 기반 작업을 P1 아틀라스 재구축 단계까지 진행했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Summon Night 5] 텍스트 전량 추출·재삽입과 한글 글리프 표시</title>
-    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-09-19.html"/>
-    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-09-19.html</id>
-    <updated>2026-09-19T00:00:00+09:00</updated>
-    <category term="Summon Night 5"/>
-    <summary>Phase 0와 Gate 0을 마친 뒤 시나리오 텍스트의 추출·재삽입 전체 경로를 실증하고, 폰트 구조를 역공학해 한글 글리프의 인게임 표시까지 확인했습니다.</summary>
   </entry>
 </feed>
