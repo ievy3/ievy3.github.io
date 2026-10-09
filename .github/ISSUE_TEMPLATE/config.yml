@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 패치 적용 가이드
+    url: https://ievy3.github.io/guide/
+    about: 적용 방법과 자주 묻는 질문을 먼저 확인해 주세요.
+  - name: 방명록
+    url: https://ievy3.github.io/guestbook/
+    about: 응원이나 일반 의견은 방명록에 남겨 주세요.

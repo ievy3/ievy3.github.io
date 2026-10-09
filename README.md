@@ -39,6 +39,15 @@
 
 게임 ROM, ISO 및 기타 원본 게임 데이터나 패치 적용이 완료된 게임 이미지는 제공하지 않습니다.
 
+## Site Automation
+
+`main` 브랜치에 페이지가 추가·수정되면 GitHub Actions가 다음 작업을 자동으로 수행합니다.
+
+- `scripts/generate-projects.mjs` — Release 정보를 모아 홈페이지 프로젝트 목록(`assets/data/projects.generated.json`) 갱신
+- `scripts/build-site-files.mjs` — 각 페이지의 공유 미리보기(Open Graph)·canonical 태그 보강, 공용 CSS/JS 캐시 버전 통일, `sitemap.xml`과 작업일지 피드(`feed.xml`) 생성
+
+작업일지 새 소식은 [Atom 피드](https://ievy3.github.io/feed.xml)로 구독할 수 있습니다.
+
 ## Repository Scope
 
 이 공개 저장소의 목적은 배포와 기록입니다.
