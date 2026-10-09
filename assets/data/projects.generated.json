@@ -290,7 +290,11 @@
         "어드벤처"
       ],
       "verification": [],
-      "latestWorklog": null,
+      "latestWorklog": {
+        "date": "2026-10-09",
+        "title": "구조 분석 완료와 초벌 번역 70% 진행",
+        "href": "/projects/never7/updates/2026-10-09.html"
+      },
       "latestReleaseTag": null
     },
     {

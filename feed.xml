@@ -16,6 +16,14 @@
     <summary>게임 데이터와 대사 구조를 분석하고, 한글 11,172자를 담은 확장 폰트가 실제 게임 화면에 표시되는 것을 확인했습니다. 번역 방침도 정했습니다.</summary>
   </entry>
   <entry>
+    <title>[Never 7: The End of Infinity] 구조 분석 완료와 초벌 번역 70% 진행</title>
+    <link href="https://ievy3.github.io/projects/never7/updates/2026-10-09.html"/>
+    <id>https://ievy3.github.io/projects/never7/updates/2026-10-09.html</id>
+    <updated>2026-10-09T00:00:00+09:00</updated>
+    <category term="Never 7: The End of Infinity"/>
+    <summary>대사·폰트·화면 표시 한도를 확인해 번역 준비 단계를 마치고, 첫 장 문체를 확정한 뒤 전체 대본 초벌 번역을 진행했습니다.</summary>
+  </entry>
+  <entry>
     <title>[Magical Vacation] 프로젝트 시작과 구조 분석·수정 안전성 확인</title>
     <link href="https://ievy3.github.io/projects/magical-vacation/updates/2026-10-08.html"/>
     <id>https://ievy3.github.io/projects/magical-vacation/updates/2026-10-08.html</id>
@@ -318,13 +326,5 @@
     <updated>2026-09-19T00:00:00+09:00</updated>
     <category term="Summon Night 5"/>
     <summary>Phase 0와 Gate 0을 마친 뒤 시나리오 텍스트의 추출·재삽입 전체 경로를 실증하고, 폰트 구조를 역공학해 한글 글리프의 인게임 표시까지 확인했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Gungnir] 최종 통합본 생성과 첫 맵 안정화</title>
-    <link href="https://ievy3.github.io/projects/gungnir/updates/2026-09-16.html"/>
-    <id>https://ievy3.github.io/projects/gungnir/updates/2026-09-16.html</id>
-    <updated>2026-09-16T00:00:00+09:00</updated>
-    <category term="Gungnir"/>
-    <summary>이벤트·맵·EBOOT·폰트·이미지를 다시 통합하고, 누락됐던 맵 대사와 보조 표시문을 반영한 최신 시험 ISO를 생성했습니다.</summary>
   </entry>
 </feed>
