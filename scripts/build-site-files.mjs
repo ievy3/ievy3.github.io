@@ -1,7 +1,6 @@
 // 정적 페이지 공통 처리: <head> 메타 태그 보강, 공용 CSS/JS 캐시 버전 통일,
-// sitemap.xml 과 feed.xml(Atom) 생성. 여러 번 실행해도 결과가 같도록 작성했습니다.
+// 검색엔진 색인 제외(noindex), feed.xml(Atom) 생성. 여러 번 실행해도 결과가 같도록 작성했습니다.
 import { readFile, writeFile, readdir } from "node:fs/promises";
-import { execFileSync } from "node:child_process";
 import path from "node:path";
 
 const root = process.cwd();
@@ -61,14 +60,6 @@ function absolute(src) {
   return siteUrl + (src.startsWith("/") ? src : "/" + src);
 }
 
-function gitDate(file) {
-  try {
-    return execFileSync("git", ["log", "-1", "--format=%cs", "--", file], { cwd: root, encoding: "utf8" }).trim();
-  } catch {
-    return "";
-  }
-}
-
 const files = (await walkHtml(root)).sort();
 const pages = [];
 for (const file of files) {
@@ -110,6 +101,7 @@ function headMeta(page, info) {
   const ogType = info.kind === "worklog" || info.kind === "release" ? "article" : "website";
 
   return [
+    ["robots", `<meta name="robots" content="noindex">`, /<meta name="robots"/i],
     ["theme-color", `<meta name="theme-color" content="#090a0e">`, /<meta name="theme-color"/i],
     ["canonical", `<link rel="canonical" href="${url}">`, /<link rel="canonical"/i],
     ["icon", `<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">`, /<link rel="icon"/i],
@@ -166,23 +158,6 @@ for (const page of pages) {
   }
 }
 
-// sitemap.xml
-const sitemapEntries = pages
-  .filter(page => page.rel !== "404.html")
-  .map(page => {
-    const info = pageKind(page.rel);
-    const lastmod = info.date || gitDate(page.rel);
-    return { loc: pageUrl(page.rel), lastmod };
-  })
-  .sort((a, b) => a.loc.localeCompare(b.loc));
-
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${sitemapEntries.map(entry => `  <url><loc>${escapeXml(entry.loc)}</loc>${entry.lastmod ? `<lastmod>${entry.lastmod}</lastmod>` : ""}</url>`).join("\n")}
-</urlset>
-`;
-await writeFile(path.join(root, "sitemap.xml"), sitemap, "utf8");
-
 // feed.xml (Atom) — 프로젝트별 날짜 작업일지를 최신순으로
 const worklogs = pages
   .map(page => ({ page, info: pageKind(page.rel) }))
@@ -226,4 +201,4 @@ ${worklogs.map(item => `  <entry>
 `;
 await writeFile(path.join(root, "feed.xml"), feed, "utf8");
 
-console.log(`Normalized ${changedPages} page(s); sitemap ${sitemapEntries.length} URLs; feed ${worklogs.length} entries.`);
+console.log(`Normalized ${changedPages} page(s); feed ${worklogs.length} entries.`);
