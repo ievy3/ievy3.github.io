@@ -227,7 +227,8 @@
         var day=new Intl.DateTimeFormat('sv-SE',{
           timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'
         }).format(new Date());
-        var dailyUrl=endpoint+'?start='+encodeURIComponent(day)+'&end='+encodeURIComponent(day);
+        // Open-ended end includes today's traffic; equal start/end could select an empty interval.
+        var dailyUrl=endpoint+'?start='+encodeURIComponent(day);
         await Promise.all([
           loadCount(dailyUrl,panel.querySelector('[data-np-views-today]')),
           loadCount(endpoint,panel.querySelector('[data-np-views-total]'))
