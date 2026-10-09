@@ -344,8 +344,8 @@ async function loadProjects() {
 async function init() {
   projects = await loadProjects();
 
-  const platforms = [...new Set(projects.map(project => project.platform))];
-  const platformLabel = platforms.length === 1 ? platforms[0] : `${platforms.length} Platforms`;
+  const platformCounts = projects.reduce((counts, project) => counts.set(project.platform, (counts.get(project.platform) || 0) + 1), new Map());
+  const platformLabel = [...platformCounts.keys()].sort((a, b) => platformCounts.get(b) - platformCounts.get(a)).join(" · ");
   const heroSummary = document.querySelector("#hero-summary");
   if (heroSummary) heroSummary.textContent = `${projects.length} Projects · ${platformLabel}`;
   if (searchBox) searchBox.hidden = projects.length < 6;

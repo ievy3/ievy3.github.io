@@ -175,7 +175,7 @@ for (const project of config) {
   const release = matchingReleases[0] || null;
   const asset = release ? selectReleaseAsset(release) : null;
   const version = release ? versionFromRelease(release, project.releasePrefix, asset) : "첫 공개 전";
-  const updated = newestDate(release ? releaseDate(release) : "", worklog?.date);
+  const updated = newestDate(release ? releaseDate(release) : "", worklog?.date, project.updated);
 
   generated.push({
     title: project.title,
@@ -214,7 +214,7 @@ for (const project of config) {
         ? `${worklog.title} · 추가 검수 예정`
         : "개발 진행 중"),
     keywords: project.keywords || [],
-    verification: [...new Set([...(project.platform === "PSP" ? ["PPSSPP"] : []), ...(project.verification || [])])],
+    verification: [...new Set([...(release && project.platform === "PSP" ? ["PPSSPP"] : []), ...(project.verification || [])])],
     latestWorklog: worklog,
     latestReleaseTag: release?.tag_name || null
   });
