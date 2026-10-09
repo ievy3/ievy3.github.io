@@ -16,18 +16,20 @@
 
 ## Projects
 
-현재 공개 허브에서 관리하는 프로젝트는 8개입니다.
+현재 공개 허브에서 관리하는 프로젝트는 **10개**입니다. 모두 PSP용 한국어 패치로, 아래 버전은 공개된 최신 베타 배포본을 기준으로 합니다.
 
-- 탐정 진구지 사부로: 재와 다이아몬드 (PSP) — 첫 공개 전 · 통합 빌드 및 화면 정렬 검수
-- 사키 포터블 (PSP) — 첫 공개 전 · 시각 자산 검수 및 실기 확인 준비
-- 환상수호전 이어지는 백 년의 시간 (PSP) — v0.9.0
-- Generation of Chaos 6 (PSP) — v0.9.0
-- Sol Trigger (PSP) — v0.9.3
-- Summon Night 5 (PSP) — v0.9.0
-- Gungnir (PSP) — v0.9.0
-- Hexyz Force (PSP) — v0.9.2-beta.1
+- [내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어](https://ievy3.github.io/projects/oreimo-portable-tsuzuku/) (PSP) — **v1.0.0** · 베타 공개
+- [사키 아치가편 포터블](https://ievy3.github.io/projects/saki-achiga-portable/) (PSP) — **v0.9.0-rc7** · 베타 공개
+- [탐정 진구지 사부로: 재와 다이아몬드](https://ievy3.github.io/projects/jinguji-ashes-and-diamonds/) (PSP) — **v0.9.0** · 베타 공개
+- [사키 포터블](https://ievy3.github.io/projects/saki-portable/) (PSP) — **v0.9.5** · 베타 공개
+- [Hexyz Force](https://ievy3.github.io/projects/hexyz-force/) (PSP) — **v0.9.3-beta.1** · 베타 공개
+- [환상수호전 이어지는 백 년의 시간](https://ievy3.github.io/projects/genso-suikoden-100-years/) (PSP) — **v0.9.0** · 베타 공개
+- [Generation of Chaos 6](https://ievy3.github.io/projects/generation-of-chaos-6/) (PSP) — **v0.9.0** · 베타 공개
+- [Summon Night 5](https://ievy3.github.io/projects/summon-night-5/) (PSP) — **v0.9.0** · 베타 공개
+- [Sol Trigger](https://ievy3.github.io/projects/sol-trigger/) (PSP) — **v0.9.3** · 베타 공개
+- [Gungnir](https://ievy3.github.io/projects/gungnir/) (PSP) — **v0.9.0** · 베타 공개
 
-각 프로젝트 페이지는 [Noctil Patchworks](https://ievy3.github.io/)에서 확인할 수 있습니다.
+최신 다운로드 링크와 패치 이력, 적용 안내, 작업 기록은 각 프로젝트 페이지에서 확인할 수 있습니다.
 
 ## Patch Distribution
 
