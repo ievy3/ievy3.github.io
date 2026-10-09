@@ -16,7 +16,6 @@ const fallbackProjects = [
     version: "v1.0.0",
     updated: "2026-10-09",
     publicBuilds: 1,
-    downloadMode: "release-page",
     releaseUrl: "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
     releasePublishedAt: "2026-10-09T01:10:57Z",
     download: "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
