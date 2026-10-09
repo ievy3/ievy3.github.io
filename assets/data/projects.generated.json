@@ -50,7 +50,8 @@
         "bandai namco"
       ],
       "verification": [
-        "PPSSPP"
+        "PPSSPP",
+        "PSP-1000"
       ],
       "latestWorklog": {
         "date": "2026-10-06",
@@ -109,7 +110,8 @@
         "alchemist"
       ],
       "verification": [
-        "PPSSPP"
+        "PPSSPP",
+        "PSP-1000"
       ],
       "latestWorklog": {
         "date": "2026-10-06",
@@ -168,7 +170,8 @@
         "arc system works"
       ],
       "verification": [
-        "PPSSPP"
+        "PPSSPP",
+        "PSP-1000"
       ],
       "latestWorklog": {
         "date": "2026-10-05",
@@ -317,7 +320,8 @@
         "atlus"
       ],
       "verification": [
-        "PPSSPP"
+        "PPSSPP",
+        "PSP-1000"
       ],
       "latestWorklog": {
         "date": "2026-09-14",
@@ -377,7 +381,8 @@
         "konami"
       ],
       "verification": [
-        "PPSSPP"
+        "PPSSPP",
+        "PSP-1000"
       ],
       "latestWorklog": {
         "date": "2026-10-02",
@@ -434,7 +439,10 @@
         "sting",
         "idea factory"
       ],
-      "verification": [],
+      "verification": [
+        "PPSSPP",
+        "PSP-1000"
+      ],
       "latestWorklog": {
         "date": "2026-10-02",
         "title": "인스톨 데이터 부팅 문제를 해결하고 v0.9.0 배포 후보를 준비",
@@ -502,6 +510,7 @@
         "felistella"
       ],
       "verification": [
+        "PPSSPP",
         "PS Vita"
       ],
       "latestWorklog": {
@@ -649,7 +658,9 @@
         "srpg",
         "atlus"
       ],
-      "verification": [],
+      "verification": [
+        "PPSSPP"
+      ],
       "latestWorklog": {
         "date": "2026-09-22",
         "title": "튜토리얼·메뉴·챕터 이미지 개선",

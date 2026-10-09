@@ -18,7 +18,8 @@
     "description": "두 주인공의 시점으로 세계의 창조와 파괴를 그리는 던전 탐험형 JRPG",
     "genre": "JRPG",
     "verification": [
-      "PPSSPP"
+      "PPSSPP",
+      "PSP-1000"
     ]
   },
   {
@@ -39,7 +40,9 @@
     "releaseRepository": "ievy3/ievy3.github.io",
     "description": "신화의 창 ‘궁그닐’을 손에 넣은 소년과 반란군의 전쟁을 그린 전술 RPG",
     "genre": "전술 RPG",
-    "verification": []
+    "verification": [
+      "PPSSPP"
+    ]
   },
   {
     "slug": "summon-night-5",
@@ -62,6 +65,7 @@
     "releaseRepository": "ievy3/ievy3.github.io",
     "genre": "SRPG",
     "verification": [
+      "PPSSPP",
       "PS Vita"
     ]
   },
@@ -85,7 +89,10 @@
     ],
     "releaseRepository": "ievy3/ievy3.github.io",
     "genre": "전략 RPG",
-    "verification": []
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ]
   },
   {
     "slug": "sol-trigger",
@@ -135,7 +142,8 @@
     "imageFit": "cover",
     "genre": "JRPG",
     "verification": [
-      "PPSSPP"
+      "PPSSPP",
+      "PSP-1000"
     ]
   },
   {
@@ -186,7 +194,8 @@
     "imageFit": "cover",
     "genre": "추리 ADV",
     "verification": [
-      "PPSSPP"
+      "PPSSPP",
+      "PSP-1000"
     ]
   },
   {
@@ -212,7 +221,8 @@
     "imageFit": "cover",
     "genre": "마작",
     "verification": [
-      "PPSSPP"
+      "PPSSPP",
+      "PSP-1000"
     ]
   },
   {
@@ -237,7 +247,8 @@
     "imageFit": "cover",
     "genre": "연애 ADV",
     "verification": [
-      "PPSSPP"
+      "PPSSPP",
+      "PSP-1000"
     ]
   }
 ]

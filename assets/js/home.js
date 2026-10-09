@@ -164,17 +164,22 @@ const fallbackProjects = [
   }
 ];
 
-const fallbackVerificationByHref = {
-  "/projects/oreimo-portable-tsuzuku/": ["PPSSPP"],
-  "/projects/saki-achiga-portable/": ["PPSSPP"],
-  "/projects/saki-portable/": ["PPSSPP"],
-  "/projects/genso-suikoden-100-years/": ["PPSSPP"],
-  "/projects/sol-trigger/": ["PPSSPP", "PS Vita"],
-  "/projects/summon-night-5/": ["PS Vita"],
-  "/projects/hexyz-force/": ["PPSSPP"]
+const additionalVerificationByHref = {
+  "/projects/oreimo-portable-tsuzuku/": ["PSP-1000"],
+  "/projects/saki-achiga-portable/": ["PSP-1000"],
+  "/projects/saki-portable/": ["PSP-1000"],
+  "/projects/jinguji-ashes-and-diamonds/": ["PSP-1000"],
+  "/projects/hexyz-force/": ["PSP-1000"],
+  "/projects/genso-suikoden-100-years/": ["PSP-1000"],
+  "/projects/generation-of-chaos-6/": ["PSP-1000"],
+  "/projects/sol-trigger/": ["PS Vita"],
+  "/projects/summon-night-5/": ["PS Vita"]
 };
 fallbackProjects.forEach(project => {
-  project.verification = fallbackVerificationByHref[project.href] || [];
+  project.verification = [...new Set([
+    ...(project.platform === "PSP" ? ["PPSSPP"] : []),
+    ...(additionalVerificationByHref[project.href] || [])
+  ])];
 });
 
 const grid = document.querySelector("#project-grid");

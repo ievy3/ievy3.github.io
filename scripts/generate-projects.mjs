@@ -213,7 +213,7 @@ for (const project of config) {
         ? `${worklog.title} · 추가 검수 예정`
         : "개발 진행 중"),
     keywords: project.keywords || [],
-    verification: project.verification || [],
+    verification: [...new Set([...(project.platform === "PSP" ? ["PPSSPP"] : []), ...(project.verification || [])])],
     latestWorklog: worklog,
     latestReleaseTag: release?.tag_name || null
   });
