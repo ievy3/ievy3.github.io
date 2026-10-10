@@ -392,9 +392,10 @@
     "slug": "marvel-ultimate-alliance",
     "title": "마블 얼티밋 얼라이언스",
     "status": "planned",
-    "imageAlt": "마블 얼티밋 얼라이언스 PSP 패키지",
+    "imageAlt": "마블 얼티밋 얼라이언스 국내판 PSP 패키지",
     "platform": "PSP",
     "genre": "RPG",
-    "subgenre": "액션"
+    "subgenre": "액션",
+    "image": "/assets/images/marvel-ultimate-alliance/official-cover.webp"
   }
 ]

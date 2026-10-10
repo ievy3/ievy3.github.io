@@ -901,8 +901,8 @@
     {
       "title": "마블 얼티밋 얼라이언스",
       "slug": "marvel-ultimate-alliance",
-      "image": null,
-      "imageAlt": "마블 얼티밋 얼라이언스 PSP 패키지",
+      "image": "/assets/images/marvel-ultimate-alliance/official-cover.webp",
+      "imageAlt": "마블 얼티밋 얼라이언스 국내판 PSP 패키지",
       "platform": "PSP",
       "genre": "RPG",
       "subgenre": "액션",
