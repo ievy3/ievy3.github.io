@@ -223,6 +223,7 @@ function pickFromCard(event) {
   const tag = event.target.closest(".kicker-tag");
   if (!tag) return;
   const pick = (container, value) => container?.querySelector(`[data-facet="${CSS.escape(value)}"]`)?.click();
+  event.stopPropagation();
   if (tag.dataset.pickPlatform) pick(platformFilters, tag.dataset.pickPlatform);
   if (tag.dataset.pickGenre) pick(genreFilters, tag.dataset.pickGenre);
   if (tag.dataset.pickSearch && searchInput) {
@@ -375,33 +376,91 @@ function collapsedLimit() {
   return columns === 1 ? 6 : columns * 3;
 }
 
-// 기종·장르 버튼 줄을 데이터에서 만듭니다. 항목이 하나뿐이면 줄 자체를 숨깁니다.
-function buildFacet(container, { key, allLabel, order, label = value => value, onSelect }) {
+// 기종·장르 선택지를 데이터에서 만듭니다. 항목이 하나뿐이면 줄 자체를 숨깁니다.
+// dropdown이면 버튼 하나만 보이고, 누르면 선택지가 세로로 펼쳐집니다.
+function buildFacet(container, { key, allLabel, order, label = value => value, onSelect, dropdown = false }) {
   if (!container) return;
   const counts = projects.reduce((map, project) => map.set(project[key], (map.get(project[key]) || 0) + 1), new Map());
   if (counts.size < 2) { container.hidden = true; return; }
   const values = [...counts.keys()].sort((a, b) => order(a, b, counts));
-  const buttons = [["all", allLabel], ...values.map(value => [value, label(value)])].map(([value, text]) => {
+  const entries = [["all", allLabel, projects.length], ...values.map(value => [value, label(value), counts.get(value)])];
+
+  let toggle, menu, toggleText;
+  const setOpen = open => {
+    if (!menu) return;
+    menu.hidden = !open;
+    toggle.setAttribute("aria-expanded", String(open));
+  };
+
+  const buttons = entries.map(([value, text, count]) => {
     const button = document.createElement("button");
     button.type = "button";
-    button.className = "status-filter";
     button.dataset.facet = value;
-    button.textContent = text;
+    if (dropdown) {
+      button.className = "facet-option";
+      button.setAttribute("role", "option");
+      button.innerHTML = `<span>${text}</span><small>${count}</small>`;
+    } else {
+      button.className = "status-filter";
+      button.textContent = text;
+    }
     button.addEventListener("click", () => {
       buttons.forEach(other => {
         const active = other === button;
         other.classList.toggle("is-active", active);
-        other.setAttribute("aria-pressed", String(active));
+        other.setAttribute(dropdown ? "aria-selected" : "aria-pressed", String(active));
       });
+      if (dropdown) {
+        toggleText.textContent = text;
+        toggle.classList.toggle("is-active", value !== "all");
+        setOpen(false);
+      }
       onSelect(value);
       render();
     });
     const active = value === "all";
     button.classList.toggle("is-active", active);
-    button.setAttribute("aria-pressed", String(active));
+    button.setAttribute(dropdown ? "aria-selected" : "aria-pressed", String(active));
     return button;
   });
-  container.querySelector(".facet-buttons").replaceChildren(...buttons);
+
+  const slot = container.querySelector(".facet-buttons");
+  if (!dropdown) {
+    slot.replaceChildren(...buttons);
+  } else {
+    const wrap = document.createElement("div");
+    wrap.className = "facet-dropdown";
+    toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "status-filter facet-toggle";
+    toggle.setAttribute("aria-haspopup", "listbox");
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.innerHTML = `<span>${allLabel}</span><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg>`;
+    toggleText = toggle.querySelector("span");
+    menu = document.createElement("div");
+    menu.className = "facet-menu";
+    menu.setAttribute("role", "listbox");
+    menu.setAttribute("aria-labelledby", container.getAttribute("aria-labelledby") || "");
+    menu.hidden = true;
+    menu.append(...buttons);
+    wrap.append(toggle, menu);
+    slot.replaceChildren(wrap);
+
+    toggle.addEventListener("click", () => {
+      const open = menu.hidden;
+      setOpen(open);
+      if (open) (buttons.find(button => button.classList.contains("is-active")) || buttons[0]).focus();
+    });
+    document.addEventListener("click", event => { if (!wrap.contains(event.target)) setOpen(false); });
+    wrap.addEventListener("keydown", event => {
+      if (event.key === "Escape" && !menu.hidden) { setOpen(false); toggle.focus(); return; }
+      if (menu.hidden || !["ArrowDown", "ArrowUp"].includes(event.key)) return;
+      event.preventDefault();
+      const index = buttons.indexOf(document.activeElement);
+      const next = event.key === "ArrowDown" ? Math.min(buttons.length - 1, index + 1) : Math.max(0, index - 1);
+      buttons[next].focus();
+    });
+  }
   container.hidden = false;
 }
 
@@ -417,7 +476,8 @@ function buildFacets() {
     allLabel: "전체",
     order: (a, b) => (GENRES.indexOf(a) + 1 || 99) - (GENRES.indexOf(b) + 1 || 99),
     label: value => GENRE_NAMES[value] || value,
-    onSelect: value => { activeGenre = value; }
+    onSelect: value => { activeGenre = value; },
+    dropdown: true
   });
 }
 
