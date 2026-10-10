@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T01:13:51.704Z",
+  "generatedAt": "2026-10-10T01:41:08.866Z",
   "projects": [
     {
       "title": "내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어",
@@ -20,7 +20,7 @@
       "version": "v1.0.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
       "downloadAsset": "OreImoDisc2KrPatcher.zip",
-      "downloadCount": 247,
+      "downloadCount": 248,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
       "releaseName": "내 여동생이 이렇게 귀여울 리가 없어 포터블이 계속될 리가 없어 Disc 2 한글 패치",
       "releasePublishedAt": "2026-10-09T01:10:57Z",
@@ -37,7 +37,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
           "downloadAsset": "OreImoDisc2KrPatcher.zip",
-          "downloadCount": 247
+          "downloadCount": 248
         }
       ],
       "description": "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",
@@ -179,7 +179,7 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
       "downloadAsset": "TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
-      "downloadCount": 555,
+      "downloadCount": 563,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/JingujiAD-v0.9.0",
       "releaseName": "탐정 진구지 사부로: 재와 다이아몬드 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-09T03:02:35Z",
@@ -196,7 +196,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
           "downloadAsset": "TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
-          "downloadCount": 555
+          "downloadCount": 563
         }
       ],
       "description": "가부키초를 무대로 여러 의뢰와 인물의 이해관계가 교차하는 하드보일드 추리 어드벤처",
