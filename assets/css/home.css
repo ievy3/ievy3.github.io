@@ -203,6 +203,8 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
 .facet[hidden]{display:none!important}
 .facet-label{color:var(--muted);font-size:10px;font-weight:800;letter-spacing:.12em;white-space:nowrap}
 .facet .status-filter{min-height:30px;padding:5px 10px}
+.kicker-tag{padding:0;border:0;background:none;color:inherit;font:inherit;letter-spacing:inherit;cursor:pointer;text-underline-offset:3px}
+.kicker-tag:hover,.kicker-tag:focus-visible{color:var(--gold);text-decoration:underline}
 .project-subgenre{color:#8d8a84;letter-spacing:.04em}
 .archive-more{display:flex;justify-content:center;margin-top:22px}
 .archive-more[hidden]{display:none}

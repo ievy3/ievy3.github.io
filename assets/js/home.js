@@ -210,10 +210,26 @@ const PATCH_STAGES = ["게임 분석", "번역 준비", "대사 번역", "화면
 const GENRES = ["RPG", "SRPG", "어드벤처", "테이블"];
 const GENRE_NAMES = { RPG: "롤플레잉", SRPG: "시뮬레이션 RPG", 어드벤처: "어드벤처", 테이블: "테이블 게임" };
 
+// 카드의 기종·장르·세부 장르를 누르면 그 조건으로 목록을 거릅니다.
 function genreMarkup(project) {
   const genre = project.genre || "RPG";
-  const sub = project.subgenre ? `<i aria-hidden="true">·</i><span class="project-subgenre">${project.subgenre}</span>` : "";
-  return `<span title="${GENRE_NAMES[genre] || genre}">${genre}</span>${sub}`;
+  const sub = project.subgenre
+    ? `<i aria-hidden="true">·</i><button class="kicker-tag project-subgenre" type="button" data-pick-search="${project.subgenre}" title="${project.subgenre} 프로젝트만 보기">${project.subgenre}</button>`
+    : "";
+  return `<button class="kicker-tag" type="button" data-pick-genre="${genre}" title="${GENRE_NAMES[genre] || genre} 프로젝트만 보기">${genre}</button>${sub}`;
+}
+
+function pickFromCard(event) {
+  const tag = event.target.closest(".kicker-tag");
+  if (!tag) return;
+  const pick = (container, value) => container?.querySelector(`[data-facet="${CSS.escape(value)}"]`)?.click();
+  if (tag.dataset.pickPlatform) pick(platformFilters, tag.dataset.pickPlatform);
+  if (tag.dataset.pickGenre) pick(genreFilters, tag.dataset.pickGenre);
+  if (tag.dataset.pickSearch && searchInput) {
+    searchInput.value = tag.dataset.pickSearch;
+    render();
+  }
+  document.querySelector(".archive-facets")?.scrollIntoView({ block: "center", behavior: "smooth" });
 }
 
 function stageMarkup(stage) {
@@ -287,7 +303,7 @@ function card(project) {
       <img src="${cardImage}" alt="${project.imageAlt}" loading="lazy" style="object-fit:${project.imageFit || "cover"}"${cardImage.startsWith("http") ? ' referrerpolicy="no-referrer"' : ""}>
     </a>
     <div class="project-info">
-      <span class="project-kicker">${project.platform}<i aria-hidden="true">·</i>${genreMarkup(project)}${stageMarkup(project.stage)}</span>
+      <span class="project-kicker"><button class="kicker-tag" type="button" data-pick-platform="${project.platform}" title="${project.platform} 프로젝트만 보기">${project.platform}</button><i aria-hidden="true">·</i>${genreMarkup(project)}${stageMarkup(project.stage)}</span>
       <div class="project-title-row">
         <h3><a href="${project.href}">${project.title}</a></h3>
         <span class="version-pill">${project.version}</span>
@@ -450,6 +466,7 @@ async function init() {
     button.addEventListener("click", () => setStatus(button.dataset.statusFilter));
   });
   searchInput?.addEventListener("input", render);
+  grid.addEventListener("click", pickFromCard);
   buildFacets();
   moreButton?.addEventListener("click", () => {
     showAllProjects = !showAllProjects;
