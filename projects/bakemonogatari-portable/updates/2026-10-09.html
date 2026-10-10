@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 10월 9일 바케모노가타리 포터블 한국어 패치 작업일지">
+  <title>2026.10.09 작업일지 | 바케모노가타리 포터블</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/bakemonogatari-portable/updates/2026-10-09.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.10.09 작업일지 | 바케모노가타리 포터블">
+  <meta property="og:description" content="2026년 10월 9일 바케모노가타리 포터블 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/bakemonogatari-portable/updates/2026-10-09.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/bakemonogatari-portable/title-screen.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.10.09 작업일지 | 바케모노가타리 포터블">
+  <meta name="twitter:description" content="2026년 10월 9일 바케모노가타리 포터블 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/bakemonogatari-portable/title-screen.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=25">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=1">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/bakemonogatari-portable/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.10.09</p>
+    <h1>구조 분석과<br>한글 폰트 확장 시험</h1>
+    <p>게임 데이터와 대사 구조를 분석하고, 한글 11,172자를 담은 확장 폰트가 실제 게임 화면에 표시되는 것을 확인했습니다. 번역 방침도 정했습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>ANALYSIS & PREP</span><span class="badge">일본어판 기준</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>4,913</strong><span>대사·UI 문자열</span></div>
+    <div><strong>12,954</strong><span>확장 폰트 글자</span></div>
+    <div><strong>18</strong><span>화면 대응 확인</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">BASE VERSION</p><h2>기준판과 원본 확인</h2>
+    <ul class="compact-list">
+      <li>일본어판을 기준으로 작업하며, 영어판과 파일 단위로 비교했습니다. 공개된 영어 번역 프로젝트의 기술 자료도 참고합니다.</li>
+      <li>수정 없이 다시 만든 게임 이미지가 원본과 완전히 같다는 것을 확인했습니다.</li>
+      <li>PPSSPP에서 원본 타이틀·메뉴·새 게임·튜토리얼 진행을 확인했습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">TEXT</p><h2>대사·문자열</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>게임 데이터 14,424항목 분류</li>
+        <li><span>✓</span>대사·UI 문자열 4,913행 추출</li>
+        <li><span>✓</span>재삽입 후에도 원본과 동일함을 확인</li>
+        <li><span>✓</span>도움말 문장을 2배로 늘려도 정상 표시</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">FONT</p><h2>한글 폰트</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>원본 폰트 1,782자 확인</li>
+        <li><span>✓</span>한글 11,172자 추가 · 총 12,954자</li>
+        <li><span>✓</span>도움말 화면에 한글 표시 확인</li>
+        <li><span>○</span>실기 동작과 최종 글꼴 품질은 확인 예정</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">SCREEN LIMITS</p><h2>화면별 표시 한도</h2>
+    <ul class="compact-list">
+      <li>하단 대사창: 한 줄 32자에서 잘리고, 16자씩 두 줄로 나누면 완전히 표시됩니다.</li>
+      <li>메뉴 설명은 3줄, 안내창은 4줄까지 여유 있게 표시됩니다.</li>
+      <li>도움말은 한 줄이 길면 셋째 줄 뒤쪽이 잘려 줄바꿈 기준이 필요합니다.</li>
+      <li>목록 항목은 22자까지 표시되고 넘치면 말줄임표로 바뀝니다.</li>
+      <li>실제 게임 화면 18곳에서 원문과 표시 위치를 연결했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">TRANSLATION POLICY</p><h2>확정한 번역 방침</h2>
+    <ul class="compact-list">
+      <li>기존 한국어판에서 확인되는 표기를 우선합니다.</li>
+      <li>원문의 호칭과 경어 차이를 살립니다.</li>
+      <li>말장난은 한국어로 다시 만들어 옮깁니다.</li>
+      <li>口撃은 ‘말싸움’, 語録은 ‘대사 덱’으로 옮깁니다.</li>
+      <li>글꼴은 Noto Sans CJK KR Regular를 사용합니다.</li>
+      <li>용어 107개와 인물 관계 18건을 정리했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NEXT</p><h2>다음 작업</h2>
+    <ul class="compact-list">
+      <li>선택한 글꼴의 렌더 설정을 고정하고 화면별 한도를 다시 측정합니다.</li>
+      <li>첫 장의 번역 초안을 만들어 전체를 읽어 본 뒤, 승인 후 본격 번역에 들어갑니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">BAKEMONOGATARI PORTABLE DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=1" defer></script>
+</body>
+</html>
