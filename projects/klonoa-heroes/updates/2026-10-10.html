@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 10월 10일 크로노아 히어로즈 한국어 패치 작업일지">
+  <title>2026.10.10 작업일지 | 크로노아 히어로즈</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/klonoa-heroes/updates/2026-10-10.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.10.10 작업일지 | 크로노아 히어로즈">
+  <meta property="og:description" content="2026년 10월 10일 크로노아 히어로즈 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/klonoa-heroes/updates/2026-10-10.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/klonoa-heroes/2026-10-10-title-ko.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.10.10 작업일지 | 크로노아 히어로즈">
+  <meta name="twitter:description" content="2026년 10월 10일 크로노아 히어로즈 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/klonoa-heroes/2026-10-10-title-ko.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=27">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=1">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=1">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/klonoa-heroes/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.10.10</p>
+    <h1>프로젝트 시작,<br>본편 번역과 그림 한글화</h1>
+    <p>첫날 구조 분석부터 한글 글꼴, 본편 대사 번역, 그림 한글화까지 진행했습니다. 지금은 아이템·도감 문구를 마무리하고 있습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>KOREAN SCREENS</span><span class="badge">일본어판 기준</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>월드 1~8</strong><span>본편 컷신 번역</span></div>
+    <div><strong>약 300장</strong><span>그림 한글화</span></div>
+    <div><strong>12px</strong><span>한글 글꼴</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">BASE VERSION</p><h2>기준판과 참고 자료</h2>
+    <ul class="compact-list">
+      <li>일본판 GBA 롬(AK7J, rev.0)을 기준으로 작업합니다.</li>
+      <li>영문 팬 번역 도구 <a class="text-link" href="https://github.com/RayCarrot/KlonoaHeroesPatcher" target="_blank" rel="noopener">KlonoaHeroesPatcher</a>(RayCarrot)의 자료를 구조 분석에 참고했습니다.</li>
+      <li>수정 없이 다시 만든 롬이 원본과 같고, 글을 뽑았다 다시 넣어도 그대로인 것을 확인했습니다.</li>
+      <li>실기는 확인하지 않고, 에뮬레이터에서만 확인합니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">FONT</p><h2>한글 표시</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>대사·메뉴: 12px 한글 글꼴(코드 패치)</li>
+        <li><span>✓</span>아이템 설명: 8×8 작은 글꼴</li>
+        <li><span>✓</span>아이템 이름: 최대 64px(약 5글자)</li>
+        <li><span>✓</span>긴 대사의 쪽 넘김</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">FIXES</p><h2>화면 손질</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>가게 메뉴·사고팔기 확인 글자 잘림 해결</li>
+        <li><span>✓</span>일시정지 메뉴 표시 오류 해결</li>
+        <li><span>✓</span>월드맵 지명 한글 조립</li>
+        <li><span>✓</span>효과음 글자 한글화</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">TRANSLATION</p><h2>번역 진행</h2>
+    <ul class="compact-list">
+      <li>본편 컷신 월드 1~8과 덧붙은 컷신 111개 장면의 번역을 마쳤습니다.</li>
+      <li>마을 대화, 튜토리얼, 컷신 다시보기, 두 하우스의 글도 번역했습니다.</li>
+      <li>아이템 이름·설명, 가게 설명, 도감은 번역 중입니다.</li>
+      <li>인물 이름은 2022년 정식 한국어판 표기를 따르고, 「와후!」처럼 고유한 말은 소리 그대로 옮깁니다. 롤로는 크로노아를 「크로노아 씨」라고 부르며 해요체를 씁니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">GRAPHICS</p><h2>그림 한글화</h2>
+    <ul class="compact-list">
+      <li>장 제목 카드, 월드맵, 메뉴, 이름표 등 그림 약 300장을 한글로 바꿔 시험판에 넣었습니다.</li>
+      <li>효과음 글자는 「콰앙!」「사뿐!」「휘익!」「퍼억!」「까아앙!」「획득!」으로 옮겼습니다.</li>
+      <li>타이틀 로고와 메뉴 배경 로고는 직접 그린 한글 로고로 바꿨습니다.</li>
+      <li>게임 속 제작진 크레딧은 원문 그대로 둡니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NEXT</p><h2>남은 작업</h2>
+    <ul class="compact-list">
+      <li>아이템·도감·가게 문구 마무리와 전체 용어 통일 검수</li>
+      <li>스테이지 통과·엔딩·EXTRA 등 아직 확인하지 못한 화면 점검</li>
+      <li>전체 플레이 검수 후 공개 검수판 배포</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">KLONOA HEROES DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=2" defer></script>
+</body>
+</html>
