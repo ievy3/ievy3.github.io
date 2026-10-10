@@ -897,6 +897,18 @@
       "status": "planned",
       "statusLabel": "작업 예정",
       "updated": ""
+    },
+    {
+      "title": "마블 얼티밋 얼라이언스",
+      "slug": "marvel-ultimate-alliance",
+      "image": null,
+      "imageAlt": "마블 얼티밋 얼라이언스 PSP 패키지",
+      "platform": "PSP",
+      "genre": "RPG",
+      "subgenre": "액션",
+      "status": "planned",
+      "statusLabel": "작업 예정",
+      "updated": ""
     }
   ]
 }

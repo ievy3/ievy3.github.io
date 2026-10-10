@@ -387,5 +387,14 @@
     "platform": "PSP",
     "genre": "어드벤처",
     "subgenre": "코미디"
+  },
+  {
+    "slug": "marvel-ultimate-alliance",
+    "title": "마블 얼티밋 얼라이언스",
+    "status": "planned",
+    "imageAlt": "마블 얼티밋 얼라이언스 PSP 패키지",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "액션"
   }
 ]
