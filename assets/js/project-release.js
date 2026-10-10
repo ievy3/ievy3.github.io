@@ -32,14 +32,14 @@
   if (developmentSections.length) {
     const stack = document.createElement("section");
     stack.className = "detail-stack development-details";
-    stack.setAttribute("aria-label", "개발 상세 정보");
+    stack.setAttribute("aria-label", "작업 상세 정보");
 
     const details = document.createElement("details");
     details.id = "development-details";
     // No `open` attribute: the entire development area starts collapsed.
     const summary = document.createElement("summary");
     const title = document.createElement("span");
-    title.textContent = "개발 상세 정보";
+    title.textContent = "작업 상세 정보";
     const hint = document.createElement("small");
     hint.textContent = "진행 현황 · 현재 작업 · 번역 기준 · 기술 기반";
     summary.append(title, hint);
@@ -60,7 +60,7 @@
       });
       const link = document.createElement("a");
       link.href = "#development-details";
-      link.textContent = "개발 상세 정보";
+      link.textContent = "작업 상세 정보";
       nav.append(link);
     }
 

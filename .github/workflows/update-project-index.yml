@@ -14,6 +14,9 @@ on:
       - ".github/workflows/update-project-index.yml"
   release:
     types: [published, edited, deleted]
+  # 대문 "인기 패치"의 다운로드 수를 하루 한 번 갱신합니다(한국 시간 03:17).
+  schedule:
+    - cron: "17 18 * * *"
   workflow_dispatch:
 
 permissions:

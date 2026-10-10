@@ -59,7 +59,7 @@ const fallbackProjects = [
     subgenre: "마작",
     type: "한국어 패치",
     status: "development",
-    statusLabel: "개발 중",
+    statusLabel: "작업 중",
     version: "첫 공개 전",
     updated: "2026-10-05",
     publicBuilds: 0,
@@ -94,7 +94,7 @@ const fallbackProjects = [
     genre: "RPG",
     type: "한국어 패치",
     status: "development",
-    statusLabel: "개발 중",
+    statusLabel: "작업 중",
     version: "첫 공개 전",
     updated: "2026-09-29",
     publicBuilds: 0,
@@ -128,7 +128,7 @@ const fallbackProjects = [
     subgenre: "전략",
     type: "한국어 패치",
     status: "development",
-    statusLabel: "개발 중",
+    statusLabel: "작업 중",
     version: "첫 공개 전",
     updated: "2026-09-23",
     publicBuilds: 0,
@@ -201,7 +201,10 @@ const platformFilters = document.querySelector("#platform-filters");
 const genreFilters = document.querySelector("#genre-filters");
 const moreWrap = document.querySelector("#archive-more");
 const moreButton = document.querySelector("#archive-more-button");
-const recentUpdateList = document.querySelector("#latest-update-list");
+const popularList = document.querySelector("#popular-list");
+const plannedSection = document.querySelector("#planned");
+const plannedList = document.querySelector("#planned-list");
+let plannedProjects = [];
 
 // 대문 "한글 패치는 이렇게 만들어집니다"의 여섯 단계와 같은 순서입니다.
 const PATCH_STAGES = ["게임 분석", "번역 준비", "대사 번역", "화면 한글화", "실행 검수", "패치 배포"];
@@ -248,37 +251,46 @@ function normalized(value) {
   return value.toLocaleLowerCase("ko").replace(/\s+/g, "");
 }
 
-function renderRecentUpdates() {
-  if (!recentUpdateList) return;
+// 인기 패치: 모든 공개 버전의 GitHub 누적 다운로드 수가 많은 순서로 세 개를 보여 줍니다.
+function downloadsOf(project) {
+  return project.totalDownloads ?? project.downloadCount ?? 0;
+}
 
-  const recent = [...projects]
-    .map(project => {
-      const releaseDate = (project.releasePublishedAt || "").slice(0, 10);
-      const worklogDate = project.latestWorklog?.date || "";
-      const useRelease = Boolean(project.releaseUrl) && releaseDate >= worklogDate;
-      return {
-        project,
-        date: useRelease ? releaseDate : (worklogDate || project.updated),
-        summary: useRelease
-          ? `${project.version} ${project.statusLabel}`
-          : (project.latestWorklog?.title || project.description || "프로젝트 업데이트")
-      };
-    })
-    .sort((a, b) => b.date.localeCompare(a.date) || a.project.title.localeCompare(b.project.title, "ko"))
+function renderPopular() {
+  if (!popularList) return;
+  const popular = projects
+    .filter(project => project.status === "public" && downloadsOf(project) > 0)
+    .sort((a, b) => downloadsOf(b) - downloadsOf(a) || a.title.localeCompare(b.title, "ko"))
     .slice(0, 3);
 
-  recentUpdateList.replaceChildren(...recent.map(item => {
+  popularList.replaceChildren(...popular.map((project, index) => {
     const link = document.createElement("a");
-    link.className = "latest-update-card";
-    link.href = item.project.href;
+    link.className = "latest-update-card popular-card";
+    link.href = project.href;
     link.innerHTML = `
-      <time class="latest-update-date" datetime="${item.date}">${formatDate(item.date)}</time>
+      <span class="popular-rank" aria-label="${index + 1}위">${index + 1}</span>
       <span class="latest-update-copy">
-        <strong>${item.project.title}</strong>
-        <span>${item.summary}</span>
+        <strong>${project.title}</strong>
+        <span>${project.platform} · ${GENRE_NAMES[project.genre] || project.genre} · 다운로드 ${downloadsOf(project).toLocaleString("ko-KR")}회</span>
       </span>
       <span class="latest-update-arrow" aria-hidden="true">→</span>`;
     return link;
+  }));
+}
+
+// 작업 예정: 아직 페이지가 없으므로 링크 없이 표지와 기본 정보만 보여 줍니다.
+function renderPlanned() {
+  if (!plannedSection || !plannedList) return;
+  plannedSection.hidden = plannedProjects.length === 0;
+  plannedList.replaceChildren(...plannedProjects.map(project => {
+    const item = document.createElement("li");
+    item.className = "planned-item";
+    item.innerHTML = `
+      <span class="planned-cover">${project.image ? `<img src="${project.image}" alt="${project.imageAlt || project.title}" loading="lazy">` : `<b aria-hidden="true">${project.platform}</b>`}</span>
+      <strong>${project.title}</strong>
+      <small>${project.platform} · ${GENRE_NAMES[project.genre] || project.genre}${project.subgenre ? ` · ${project.subgenre}` : ""}</small>
+      ${project.note ? `<p>${project.note}</p>` : ""}`;
+    return item;
   }));
 }
 
@@ -508,7 +520,9 @@ async function loadProjects() {
 }
 
 async function init() {
-  projects = await loadProjects();
+  const loaded = await loadProjects();
+  projects = loaded.filter(project => project.status !== "planned");
+  plannedProjects = loaded.filter(project => project.status === "planned");
 
   const platformCounts = projects.reduce((counts, project) => counts.set(project.platform, (counts.get(project.platform) || 0) + 1), new Map());
   const platformLabel = [...platformCounts.keys()].sort((a, b) => platformCounts.get(b) - platformCounts.get(a)).join(" · ");
@@ -521,7 +535,8 @@ async function init() {
     if (status !== "all") button.hidden = !projects.some(project => project.status === status);
   });
 
-  renderRecentUpdates();
+  renderPopular();
+  renderPlanned();
 
   statusButtons.forEach(button => {
     button.addEventListener("click", () => setStatus(button.dataset.statusFilter));

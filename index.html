@@ -19,8 +19,8 @@
   <meta name="twitter:title" content="Noctil Patchworks">
   <meta name="twitter:description" content="비공식 한국어 게임 번역 패치와 제작 기록을 공개하는 아카이브">
   <meta name="twitter:image" content="https://ievy3.github.io/assets/images/genso-suikoden-100-years/2026-10-03-title.webp">
-  <link rel="stylesheet" href="/assets/css/home.css?v=27">
-  <script src="/assets/js/home.js?v=30" defer></script>
+  <link rel="stylesheet" href="/assets/css/home.css?v=28">
+  <script src="/assets/js/home.js?v=31" defer></script>
   <link rel="stylesheet" href="/assets/css/site-ui.css?v=1">
   <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=1">
 </head>
@@ -50,15 +50,15 @@
       </div>
     </section>
 
-    <section class="latest-updates" aria-labelledby="latest-updates-title">
+    <section class="latest-updates popular-patches" aria-labelledby="popular-title">
       <div class="latest-updates-head">
         <div>
-          <p class="eyebrow">LATEST UPDATES</p>
-          <h2 id="latest-updates-title">최근 업데이트</h2>
+          <p class="eyebrow">POPULAR PATCHES</p>
+          <h2 id="popular-title">인기 패치</h2>
         </div>
-        <span>최근 변경 3건</span>
+        <span>누적 다운로드 기준</span>
       </div>
-      <div class="latest-update-list" id="latest-update-list" aria-live="polite"></div>
+      <div class="latest-update-list" id="popular-list" aria-live="polite"></div>
     </section>
 
     <section class="archive" id="patches">
@@ -73,7 +73,7 @@
           <div class="archive-filters" role="group" aria-label="프로젝트 상태">
             <button class="status-filter is-active" type="button" data-status-filter="all" aria-pressed="true">전체</button>
             <button class="status-filter" type="button" data-status-filter="public" aria-pressed="false">공개</button>
-            <button class="status-filter" type="button" data-status-filter="development" aria-pressed="false">개발 중</button>
+            <button class="status-filter" type="button" data-status-filter="development" aria-pressed="false">작업 중</button>
           </div>
           <div class="facet" id="platform-filters" role="group" aria-labelledby="facet-platform-label" hidden>
             <span class="facet-label sr-only" id="facet-platform-label">기종</span>
@@ -112,6 +112,17 @@
       <div class="archive-more" id="archive-more" hidden>
         <button class="archive-more-button" id="archive-more-button" type="button" aria-controls="project-grid" aria-expanded="false">더 보기</button>
       </div>
+    </section>
+
+    <section class="planned" id="planned" aria-labelledby="planned-title" hidden>
+      <div class="latest-updates-head">
+        <div>
+          <p class="eyebrow">COMING UP</p>
+          <h2 id="planned-title">작업 예정</h2>
+        </div>
+        <span>예정은 바뀔 수 있습니다</span>
+      </div>
+      <ul class="planned-list" id="planned-list"></ul>
     </section>
 
     <section class="patch-workflow" id="patch-workflow" aria-labelledby="patch-workflow-title">
