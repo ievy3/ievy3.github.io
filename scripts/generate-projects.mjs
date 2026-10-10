@@ -146,6 +146,24 @@ async function releasesFor(project) {
 }
 
 for (const project of config) {
+  // 작업 예정 작품은 아직 페이지·릴리스가 없으므로 대문 "작업 예정" 목록에 필요한 정보만 넘깁니다.
+  if (project.status === "planned") {
+    generated.push({
+      title: project.title,
+      slug: project.slug,
+      image: project.image || null,
+      imageAlt: project.imageAlt || project.title,
+      platform: project.platform,
+      genre: project.genre || "RPG",
+      ...(project.subgenre ? { subgenre: project.subgenre } : {}),
+      status: "planned",
+      statusLabel: "작업 예정",
+      ...(project.note ? { note: project.note } : {}),
+      updated: project.updated || ""
+    });
+    continue;
+  }
+
   const { repository: releaseRepository, releases } = await releasesFor(project);
   const worklog = await latestWorklog(project.slug);
   const matchingReleases = releases
@@ -193,7 +211,7 @@ for (const project of config) {
     ...(project.subgenre ? { subgenre: project.subgenre } : {}),
     type: project.type,
     status: release ? "public" : "development",
-    statusLabel: release ? (release.prerelease ? "베타 공개" : "공개 중") : "개발 중",
+    statusLabel: release ? (release.prerelease ? "베타 공개" : "공개 중") : "작업 중",
     ...(Number.isInteger(project.stage) && project.stage >= 1 && project.stage <= 6 ? { stage: project.stage } : {}),
     version,
     ...(asset ? {
@@ -208,12 +226,13 @@ for (const project of config) {
     } : {}),
     updated,
     publicBuilds: matchingReleases.length,
+    totalDownloads: releaseHistory.reduce((sum, item) => sum + (item.downloadCount || 0), 0),
     releaseHistory,
     description: project.description || (release
       ? `${version} 공개 · 추가 검수 진행 중`
       : worklog
         ? `${worklog.title} · 추가 검수 예정`
-        : "개발 진행 중"),
+        : "작업 진행 중"),
     keywords: project.keywords || [],
     verification: [...new Set([...(release && project.platform === "PSP" ? ["PPSSPP"] : []), ...(project.verification || [])])],
     latestWorklog: worklog,

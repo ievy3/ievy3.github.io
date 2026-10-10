@@ -26,6 +26,7 @@
       "releasePublishedAt": "2026-10-10T02:48:17Z",
       "updated": "2026-10-10",
       "publicBuilds": 1,
+      "totalDownloads": 340,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -85,6 +86,7 @@
       "releasePublishedAt": "2026-10-09T01:10:57Z",
       "updated": "2026-10-09",
       "publicBuilds": 1,
+      "totalDownloads": 279,
       "releaseHistory": [
         {
           "version": "v1.0.0",
@@ -135,11 +137,12 @@
       "subgenre": "노벨",
       "type": "한국어 패치",
       "status": "development",
-      "statusLabel": "개발 중",
+      "statusLabel": "작업 중",
       "stage": 2,
       "version": "첫 공개 전",
       "updated": "2026-10-09",
       "publicBuilds": 0,
+      "totalDownloads": 0,
       "releaseHistory": [],
       "description": "니시오 이신의 소설 『바케모노가타리』를 바탕으로 한 PSP 어드벤처 게임",
       "keywords": [
@@ -185,6 +188,7 @@
       "releasePublishedAt": "2026-10-09T00:16:57Z",
       "updated": "2026-10-09",
       "publicBuilds": 1,
+      "totalDownloads": 178,
       "releaseHistory": [
         {
           "version": "v0.9.0-rc7",
@@ -247,6 +251,7 @@
       "releasePublishedAt": "2026-10-09T03:02:35Z",
       "updated": "2026-10-09",
       "publicBuilds": 1,
+      "totalDownloads": 633,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -298,11 +303,12 @@
       "subgenre": "연애",
       "type": "한국어 패치",
       "status": "development",
-      "statusLabel": "개발 중",
+      "statusLabel": "작업 중",
       "stage": 3,
       "version": "첫 공개 전",
       "updated": "2026-10-09",
       "publicBuilds": 0,
+      "totalDownloads": 0,
       "releaseHistory": [],
       "description": "섬에서 보내는 합숙의 날들과 반복되는 시간의 수수께끼를 그린 인피니티 시리즈 첫 작품",
       "keywords": [
@@ -338,11 +344,12 @@
       "subgenre": "미스터리",
       "type": "한국어 패치",
       "status": "development",
-      "statusLabel": "개발 중",
+      "statusLabel": "작업 중",
       "stage": 2,
       "version": "첫 공개 전",
       "updated": "2026-10-09",
       "publicBuilds": 0,
+      "totalDownloads": 0,
       "releaseHistory": [],
       "description": "살해당한 주인공이 시간을 거슬러 자신의 죽음을 막으려 하는 시간 여행 어드벤처",
       "keywords": [
@@ -387,6 +394,7 @@
       "releasePublishedAt": "2026-10-05T15:07:34Z",
       "updated": "2026-10-06",
       "publicBuilds": 1,
+      "totalDownloads": 410,
       "releaseHistory": [
         {
           "version": "v0.9.5",
@@ -447,6 +455,7 @@
       "releasePublishedAt": "2026-10-06T02:04:52Z",
       "updated": "2026-10-06",
       "publicBuilds": 4,
+      "totalDownloads": 1707,
       "releaseHistory": [
         {
           "version": "v0.9.3-beta.1",
@@ -540,6 +549,7 @@
       "releasePublishedAt": "2026-10-03T07:27:19Z",
       "updated": "2026-10-03",
       "publicBuilds": 1,
+      "totalDownloads": 757,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -603,6 +613,7 @@
       "releasePublishedAt": "2026-10-03T07:45:14Z",
       "updated": "2026-10-03",
       "publicBuilds": 1,
+      "totalDownloads": 601,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -663,6 +674,7 @@
       "releasePublishedAt": "2026-10-01T15:02:39Z",
       "updated": "2026-10-02",
       "publicBuilds": 2,
+      "totalDownloads": 1038,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -734,6 +746,7 @@
       "releasePublishedAt": "2026-10-01T13:51:21Z",
       "updated": "2026-10-01",
       "publicBuilds": 3,
+      "totalDownloads": 1155,
       "releaseHistory": [
         {
           "version": "v0.9.3",
@@ -817,6 +830,7 @@
       "releasePublishedAt": "2026-09-22T20:02:45Z",
       "updated": "2026-09-23",
       "publicBuilds": 2,
+      "totalDownloads": 1097,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -859,6 +873,42 @@
         "href": "/projects/gungnir/updates/2026-09-22.html"
       },
       "latestReleaseTag": "gungnir-v0.9.0"
+    },
+    {
+      "title": "듀라라라!! 3way standoff",
+      "slug": "durarara-3way-standoff",
+      "image": "/assets/images/durarara-3way-standoff/official-cover.webp",
+      "imageAlt": "듀라라라!! 3way standoff 일본판 PSP 패키지",
+      "platform": "PSP",
+      "genre": "어드벤처",
+      "subgenre": "노벨",
+      "status": "planned",
+      "statusLabel": "작업 예정",
+      "updated": ""
+    },
+    {
+      "title": "일상 (우주인)",
+      "slug": "nichijou-uchuujin",
+      "image": "/assets/images/nichijou-uchuujin/official-cover.webp",
+      "imageAlt": "일상 (우주인) 일본판 PSP 패키지",
+      "platform": "PSP",
+      "genre": "어드벤처",
+      "subgenre": "코미디",
+      "status": "planned",
+      "statusLabel": "작업 예정",
+      "updated": ""
+    },
+    {
+      "title": "마블 얼티밋 얼라이언스",
+      "slug": "marvel-ultimate-alliance",
+      "image": "/assets/images/marvel-ultimate-alliance/official-cover.webp",
+      "imageAlt": "마블 얼티밋 얼라이언스 국내판 PSP 패키지",
+      "platform": "PSP",
+      "genre": "RPG",
+      "subgenre": "액션",
+      "status": "planned",
+      "statusLabel": "작업 예정",
+      "updated": ""
     }
   ]
 }
