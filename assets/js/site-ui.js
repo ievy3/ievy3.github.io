@@ -13,7 +13,9 @@
     report:'<path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5 9 9 0 0 1-4.4-1.2L3 21l1.7-4.7A8.5 8.5 0 1 1 21 11.5Z"/><path d="M8 11h8M8 14h5"/>',
     top:'<path d="m6 14 6-6 6 6M12 8v13M5 3h14"/>',
     menu:'<path d="M4 7h16M4 12h16M4 17h16"/>',
-    close:'<path d="M5 5l14 14M19 5 5 19"/>'
+    close:'<path d="M5 5l14 14M19 5 5 19"/>',
+    sun:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+    moon:'<path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/>'
   };
   function icon(name) {
     return '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + shapes[name] + '</svg>';
@@ -59,6 +61,29 @@
   var reportLink = dockItem(nav,'report','오류 제보',
     projectBase ? projectBase + '#support' : 'https://github.com/ievy3/ievy3.github.io/issues/new');
   if (!projectBase) {reportLink.target='_blank';reportLink.rel='noopener noreferrer';}
+  // 밝은/어두운 화면 전환. 선택은 이 브라우저에만 저장되고, 첫 화면은 각 페이지 <head>의 짧은 스크립트가 적용합니다.
+  var themeButton = dockItem(nav,'sun','밝은 화면',null);
+  themeButton.classList.add('np-dock-theme');
+  function currentTheme() {return document.documentElement.dataset.theme==='light'?'light':'dark';}
+  function renderThemeButton() {
+    var light=currentTheme()==='light';
+    var label=light?'어두운 화면':'밝은 화면';
+    themeButton.setAttribute('aria-label',label);
+    themeButton.title=label;
+    themeButton.setAttribute('aria-pressed',String(light));
+    themeButton.querySelector('.np-dock-icon').innerHTML=icon(light?'moon':'sun');
+    themeButton.querySelector('.np-dock-text').textContent=label;
+    var meta=document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content',light?'#f1f2f6':'#090a0e');
+  }
+  themeButton.addEventListener('click',function () {
+    var next=currentTheme()==='light'?'dark':'light';
+    if (next==='light') document.documentElement.dataset.theme='light';
+    else delete document.documentElement.dataset.theme;
+    try {localStorage.setItem('np-theme',next);} catch (error) {}
+    renderThemeButton();
+  });
+  renderThemeButton();
   var topButton = dockItem(nav,'top','맨 위로',null);
   topButton.hidden = true;
   dock.append(toggle,nav);

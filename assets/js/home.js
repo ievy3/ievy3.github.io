@@ -1,5 +1,7 @@
 let projects = [];
 let activeStatus = "all";
+let activePlatform = "all";
+let showAllProjects = false;
 
 const fallbackProjects = [
   {
@@ -188,6 +190,10 @@ const resultCount = document.querySelector("#result-count");
 const searchInput = document.querySelector("#project-search");
 const searchBox = document.querySelector(".search-box");
 const statusButtons = [...document.querySelectorAll("[data-status-filter]")];
+const platformFilters = document.querySelector("#platform-filters");
+const moreWrap = document.querySelector("#archive-more");
+const moreButton = document.querySelector("#archive-more-button");
+let platformButtons = [];
 const recentUpdateList = document.querySelector("#latest-update-list");
 
 // 대문 "한글 패치는 이렇게 만들어집니다"의 여섯 단계와 같은 순서입니다.
@@ -301,6 +307,7 @@ function render() {
       ].join(" "));
 
       return (activeStatus === "all" || project.status === activeStatus)
+        && (activePlatform === "all" || project.platform === activePlatform)
         && (!query || haystack.includes(query));
     })
     .sort((a, b) => {
@@ -309,11 +316,56 @@ function render() {
       return statusDelta || b.updated.localeCompare(a.updated) || a.title.localeCompare(b.title, "ko");
     });
 
-  grid.replaceChildren(...filtered.map(card));
+  // 필터·검색을 쓰지 않을 때는 처음 세 줄(1열 화면은 6개)만 보여 주고 나머지는 「더 보기」로 펼칩니다.
+  const filtering = Boolean(query) || activeStatus !== "all" || activePlatform !== "all";
+  const limit = collapsedLimit();
+  const collapsible = !filtering && filtered.length > limit;
+  const visible = collapsible && !showAllProjects ? filtered.slice(0, limit) : filtered;
+
+  grid.replaceChildren(...visible.map(card));
   emptyState.hidden = filtered.length !== 0;
+  if (moreWrap && moreButton) {
+    moreWrap.hidden = !collapsible;
+    moreButton.textContent = showAllProjects ? "접기" : `더 보기 (+${filtered.length - limit})`;
+    moreButton.setAttribute("aria-expanded", String(showAllProjects));
+  }
   resultCount.innerHTML = filtered.length === projects.length
     ? `전체 <strong>${projects.length}</strong>개 프로젝트`
     : `전체 ${projects.length}개 중 <strong>${filtered.length}</strong>개 표시`;
+}
+
+function collapsedLimit() {
+  const columns = getComputedStyle(grid).gridTemplateColumns.split(" ").filter(Boolean).length || 1;
+  return columns === 1 ? 6 : columns * 3;
+}
+
+function setPlatform(platform) {
+  activePlatform = platform;
+  platformButtons.forEach(button => {
+    const active = button.dataset.platformFilter === platform;
+    button.classList.toggle("is-active", active);
+    button.setAttribute("aria-pressed", String(active));
+  });
+  render();
+}
+
+function buildPlatformFilters() {
+  if (!platformFilters) return;
+  const counts = projects.reduce((map, project) => map.set(project.platform, (map.get(project.platform) || 0) + 1), new Map());
+  if (counts.size < 2) { platformFilters.hidden = true; return; }
+  const platforms = [...counts.keys()].sort((a, b) => counts.get(b) - counts.get(a));
+  platformButtons = [["all", "모든 기종"], ...platforms.map(name => [name, name])].map(([value, label]) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "status-filter";
+    button.dataset.platformFilter = value;
+    button.textContent = label;
+    button.addEventListener("click", () => setPlatform(value));
+    return button;
+  });
+  platformFilters.replaceChildren(...platformButtons);
+  platformFilters.hidden = false;
+  setPlatform(activePlatform);
 }
 
 function setStatus(status) {
@@ -361,6 +413,17 @@ async function init() {
     button.addEventListener("click", () => setStatus(button.dataset.statusFilter));
   });
   searchInput?.addEventListener("input", render);
+  buildPlatformFilters();
+  moreButton?.addEventListener("click", () => {
+    showAllProjects = !showAllProjects;
+    render();
+    if (!showAllProjects) document.querySelector("#patches")?.scrollIntoView({ block: "start" });
+  });
+  let resizeTimer;
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(render, 150);
+  });
 
   setStatus("all");
 }

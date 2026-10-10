@@ -52,6 +52,8 @@
 
 각 프로젝트의 현재 제작 단계(1~6단계)는 `assets/data/projects.config.json`의 `stage` 값으로 지정하며, 대문 프로젝트 카드에 표시됩니다.
 
+사이드 메뉴의 「밝은 화면」 버튼으로 밝은 테마를 고를 수 있습니다. 밝은 테마 CSS(`assets/css/theme-light.css`)는 `scripts/build-light-theme.mjs`가 기본 CSS에서 자동으로 만들며, 손으로 보정할 부분은 `assets/css/theme-light.extra.css`에 둡니다.
+
 작업일지 새 소식은 [Atom 피드](https://ievy3.github.io/feed.xml)로 구독할 수 있습니다.
 
 ## Repository Scope
