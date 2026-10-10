@@ -76,7 +76,7 @@ for (const file of files) {
 }
 
 // 공용 자산은 사이트 전체에서 가장 높은 버전 번호로 맞춥니다.
-const versionedAssets = ["home.css", "project.css", "site-ui.css", "site-ui.js", "home.js", "project-release.js", "guestbook.js"];
+const versionedAssets = ["home.css", "project.css", "site-ui.css", "theme-light.css", "site-ui.js", "home.js", "project-release.js", "guestbook.js"];
 const latestVersion = new Map();
 for (const { html } of pages) {
   for (const asset of versionedAssets) {
@@ -153,6 +153,12 @@ for (const page of pages) {
         html = html.replace(head, head.replace("</title>", "</title>" + missing));
       }
     }
+  }
+
+  // 밝은 테마: 저장된 선택을 첫 화면 그리기 전에 적용하고, 덮어쓰기 CSS를 마지막에 불러옵니다.
+  if (!html.includes("theme-light.css")) {
+    const themeTags = `<script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=${latestVersion.get("theme-light.css") || 1}">`;
+    html = html.replace(/(\n?)([ \t]*)<\/head>/, (m, nl, indent) => nl ? `\n  ${themeTags}\n${indent}</head>` : `${themeTags}</head>`);
   }
 
   if (info.kind === "worklog" || info.kind === "release") {

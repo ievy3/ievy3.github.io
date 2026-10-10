@@ -9,6 +9,8 @@ on:
       - "assets/data/projects.config.json"
       - "scripts/generate-projects.mjs"
       - "scripts/build-site-files.mjs"
+      - "scripts/build-light-theme.mjs"
+      - "assets/css/**"
       - ".github/workflows/update-project-index.yml"
   release:
     types: [published, edited, deleted]
@@ -67,6 +69,7 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
             node scripts/generate-projects.mjs
+            node scripts/build-light-theme.mjs
             node scripts/build-site-files.mjs
 
             if [ -z "$(git status --porcelain)" ]; then
