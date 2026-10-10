@@ -19,8 +19,8 @@
   <meta name="twitter:title" content="Noctil Patchworks">
   <meta name="twitter:description" content="비공식 한국어 게임 번역 패치와 제작 기록을 공개하는 아카이브">
   <meta name="twitter:image" content="https://ievy3.github.io/assets/images/genso-suikoden-100-years/2026-10-03-title.webp">
-  <link rel="stylesheet" href="/assets/css/home.css?v=21">
-  <script src="/assets/js/home.js?v=24" defer></script>
+  <link rel="stylesheet" href="/assets/css/home.css?v=22">
+  <script src="/assets/js/home.js?v=25" defer></script>
   <link rel="stylesheet" href="/assets/css/site-ui.css?v=1">
   <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=1">
 </head>
@@ -75,6 +75,7 @@
             <button class="status-filter" type="button" data-status-filter="public" aria-pressed="false">공개</button>
             <button class="status-filter" type="button" data-status-filter="development" aria-pressed="false">개발 중</button>
           </div>
+          <div class="archive-filters platform-filters" id="platform-filters" role="group" aria-label="기종" hidden></div>
           <label class="search-box" hidden>
             <span class="sr-only">프로젝트 검색</span>
             <input id="project-search" type="search" placeholder="게임명 검색" autocomplete="off">
@@ -101,6 +102,9 @@
         </noscript>
       </div>
       <p class="empty-state" id="empty-state" hidden>조건에 맞는 프로젝트가 없습니다.</p>
+      <div class="archive-more" id="archive-more" hidden>
+        <button class="archive-more-button" id="archive-more-button" type="button" aria-controls="project-grid" aria-expanded="false">더 보기</button>
+      </div>
     </section>
 
     <section class="patch-workflow" id="patch-workflow" aria-labelledby="patch-workflow-title">
