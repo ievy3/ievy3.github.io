@@ -2,6 +2,48 @@
   "generatedAt": "2026-10-10T15:15:43.619Z",
   "projects": [
     {
+      "title": "크로노아 히어로즈: 전설의 스타 메달",
+      "href": "/projects/klonoa-heroes/",
+      "repository": null,
+      "repositoryUrl": null,
+      "issuesUrl": null,
+      "releaseRepository": "ievy3/ievy3.github.io",
+      "image": "/assets/images/klonoa-heroes/2026-10-10-title-ko.webp",
+      "imageAlt": "크로노아 히어로즈 한글 타이틀 화면",
+      "imageFit": "cover",
+      "platform": "GBA",
+      "genre": "RPG",
+      "subgenre": "액션",
+      "type": "한국어 패치",
+      "status": "development",
+      "statusLabel": "작업 중",
+      "stage": 4,
+      "version": "첫 공개 전",
+      "updated": "2026-10-10",
+      "publicBuilds": 0,
+      "totalDownloads": 0,
+      "releaseHistory": [],
+      "description": "『바람의 크로노아』 시리즈의 캐릭터들이 등장하는 남코의 GBA 액션 RPG",
+      "keywords": [
+        "크로노아 히어로즈",
+        "크로노아",
+        "바람의 크로노아",
+        "klonoa heroes",
+        "klonoa",
+        "クロノアヒーローズ",
+        "전설의 스타 메달",
+        "namco",
+        "남코"
+      ],
+      "verification": [],
+      "latestWorklog": {
+        "date": "2026-10-10",
+        "title": "프로젝트 시작, 본편 번역과 그림 한글화",
+        "href": "/projects/klonoa-heroes/updates/2026-10-10.html"
+      },
+      "latestReleaseTag": null
+    },
+    {
       "title": "Magical Vacation",
       "href": "/projects/magical-vacation/",
       "repository": null,

@@ -8,6 +8,14 @@
   <updated>2026-10-10T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
   <entry>
+    <title>[크로노아 히어로즈: 전설의 스타 메달] 프로젝트 시작, 본편 번역과 그림 한글화</title>
+    <link href="https://ievy3.github.io/projects/klonoa-heroes/updates/2026-10-10.html"/>
+    <id>https://ievy3.github.io/projects/klonoa-heroes/updates/2026-10-10.html</id>
+    <updated>2026-10-10T00:00:00+09:00</updated>
+    <category term="크로노아 히어로즈: 전설의 스타 메달"/>
+    <summary>첫날 구조 분석부터 한글 글꼴, 본편 대사 번역, 그림 한글화까지 진행했습니다. 지금은 아이템·도감 문구를 마무리하고 있습니다.</summary>
+  </entry>
+  <entry>
     <title>[Magical Vacation] 타이틀 로고 완성과 v0.9.0 첫 공개</title>
     <link href="https://ievy3.github.io/projects/magical-vacation/updates/2026-10-10.html"/>
     <id>https://ievy3.github.io/projects/magical-vacation/updates/2026-10-10.html</id>
@@ -318,13 +326,5 @@
     <updated>2026-09-20T00:00:00+09:00</updated>
     <category term="Gungnir"/>
     <summary>B0 안정본을 기준으로 최신 이미지 에셋 1,106페이지를 반영하고 시험 ISO를 생성했습니다. 파일 구조와 크기는 유지됐고 초반부 진행 및 정적 검증까지 완료했습니다. 일부 영어 이미지가 남아 있고 전체 런타임 검증은 끝나지 않았지만, 공개 검수를 위해 v0.8.0 버전으로 공개합니다.</summary>
-  </entry>
-  <entry>
-    <title>[Summon Night 5] 번역 양산 체제 전환과 범용 대사 삽입</title>
-    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-09-20.html"/>
-    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-09-20.html</id>
-    <updated>2026-09-20T00:00:00+09:00</updated>
-    <category term="Summon Night 5"/>
-    <summary>번역·기술·이미지 3개 병렬 트랙을 구축하고 본문 번역 컨베이어를 가동했습니다. s1~s145를 처리했으며, 기술 트랙은 이름·지명·필드 메뉴와 번역 대사를 실제 게임에 연속 삽입할 수 있는 F19 파이프라인까지 도달했습니다.</summary>
   </entry>
 </feed>
