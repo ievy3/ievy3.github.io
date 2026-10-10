@@ -340,3 +340,38 @@ main > .box{margin-top:16px}
 .button.secondary{border:1px solid var(--line-strong);background:transparent;color:#d2d3d8}
 .button.secondary:hover{background:rgba(255,255,255,.045)}
 @media(max-width:760px){.release-history-item{grid-template-columns:1fr auto;gap:8px 14px}.release-history-meta{grid-column:1}.release-history-item>p{grid-column:1/-1}.release-detail-link{grid-column:2;grid-row:1/3}.version-download{display:block}.version-download .button{margin-top:14px}}
+
+/* Project comments (HtmlCommentBox) */
+.comments-section{margin-top:16px}
+.comments-section .fine-print{margin-top:6px}
+#HCB_comment_box{
+  min-height:180px;margin-top:14px;
+  color:var(--text);
+  font-family:Inter,Pretendard,"Noto Sans KR",Arial,sans-serif;
+}
+#HCB_comment_box a{color:var(--gold)}
+#HCB_comment_box h3,#HCB_comment_box .hcb-comment-tb{color:var(--text)}
+#HCB_comment_box input[type="text"],
+#HCB_comment_box input[type="email"],
+#HCB_comment_box textarea{
+  width:100%;
+  border:1px solid var(--line)!important;
+  border-radius:10px!important;
+  background:#0b0c11!important;
+  color:var(--text)!important;
+  box-shadow:none!important;
+  font:400 14px/1.55 Inter,Pretendard,"Noto Sans KR",Arial,sans-serif!important;
+}
+#HCB_comment_box input[type="text"],#HCB_comment_box input[type="email"]{min-height:42px;padding:9px 12px!important}
+#HCB_comment_box textarea{min-height:130px;padding:12px!important;resize:vertical}
+#HCB_comment_box input::placeholder,#HCB_comment_box textarea::placeholder{color:#70737e}
+#HCB_comment_box .btn,#HCB_comment_box input[type="submit"]{
+  border:1px solid rgba(217,184,116,.38)!important;
+  border-radius:9px!important;
+  background:rgba(217,184,116,.12)!important;
+  color:var(--gold)!important;
+  box-shadow:none!important;
+  font-weight:700!important;
+  text-shadow:none!important;
+}
+#HCB_comment_box .btn:hover,#HCB_comment_box input[type="submit"]:hover{background:rgba(217,184,116,.2)!important}
