@@ -230,7 +230,7 @@ function pickFromCard(event) {
     searchInput.value = tag.dataset.pickSearch;
     render();
   }
-  document.querySelector(".archive-facets")?.scrollIntoView({ block: "center", behavior: "smooth" });
+  document.querySelector(".archive-controls")?.scrollIntoView({ block: "center", behavior: "smooth" });
 }
 
 function stageMarkup(stage) {
@@ -467,13 +467,13 @@ function buildFacet(container, { key, allLabel, order, label = value => value, o
 function buildFacets() {
   buildFacet(platformFilters, {
     key: "platform",
-    allLabel: "전체",
+    allLabel: "모든 기종",
     order: (a, b, counts) => counts.get(b) - counts.get(a),
     onSelect: value => { activePlatform = value; }
   });
   buildFacet(genreFilters, {
     key: "genre",
-    allLabel: "전체",
+    allLabel: "모든 장르",
     order: (a, b) => (GENRES.indexOf(a) + 1 || 99) - (GENRES.indexOf(b) + 1 || 99),
     label: value => GENRE_NAMES[value] || value,
     onSelect: value => { activeGenre = value; },

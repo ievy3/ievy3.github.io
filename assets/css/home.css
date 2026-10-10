@@ -197,14 +197,11 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
 .search-box input::placeholder{color:#686b76}
 .search-box input:hover,.search-box input:focus{border-color:rgba(217,184,116,.42)}
 
-.archive-facets{display:flex;flex-wrap:wrap;gap:10px 22px;margin:-6px 0 20px}
-.facet{display:flex;align-items:center;gap:10px;min-width:0}
-.facet .facet-buttons{flex:1 1 auto;flex-wrap:wrap}
+/* 기종 버튼과 장르 드롭다운은 상태 필터 오른쪽에 구분선을 두고 이어 붙입니다. */
+.facet{display:flex;align-items:center;min-width:0;padding-left:9px;border-left:1px solid var(--line)}
 .facet[hidden]{display:none!important}
-.facet-label{color:var(--muted);font-size:10px;font-weight:800;letter-spacing:.12em;white-space:nowrap}
-.facet .status-filter{min-height:30px;padding:5px 10px}
 .facet-dropdown{position:relative}
-.facet-toggle{display:inline-flex;align-items:center;gap:8px;min-width:132px;justify-content:space-between}
+.facet-toggle{display:inline-flex;align-items:center;gap:8px;min-width:118px;justify-content:space-between}
 .facet-toggle svg{width:11px;height:11px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;transition:transform .18s}
 .facet-toggle[aria-expanded="true"] svg{transform:rotate(180deg)}
 .facet-toggle[aria-expanded="true"]:not(.is-active){border-color:var(--line-strong);color:var(--text)}
@@ -927,8 +924,7 @@ footer a:hover{text-decoration:underline}
   .projects{grid-template-columns:1fr}
 }
 @media(max-width:620px){
-  .facet{align-items:flex-start}
-  .facet-label{min-width:26px;line-height:30px}
+  .facet{padding-left:0;border-left:0;margin-top:8px}
   .site-header{padding:15px 14px}
   .brand-name{display:none}
   .site-nav{gap:0}
