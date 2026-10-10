@@ -376,7 +376,7 @@ function collapsedLimit() {
   return columns === 1 ? 6 : columns * 3;
 }
 
-// 기종·장르 선택지를 데이터에서 만듭니다. 항목이 하나뿐이면 줄 자체를 숨깁니다.
+// 기종·장르 선택지를 데이터에서 만듭니다. 항목이 하나뿐이면 숨깁니다.
 // dropdown이면 버튼 하나만 보이고, 누르면 선택지가 세로로 펼쳐집니다.
 function buildFacet(container, { key, allLabel, order, label = value => value, onSelect, dropdown = false }) {
   if (!container) return;
@@ -469,7 +469,8 @@ function buildFacets() {
     key: "platform",
     allLabel: "모든 기종",
     order: (a, b, counts) => counts.get(b) - counts.get(a),
-    onSelect: value => { activePlatform = value; }
+    onSelect: value => { activePlatform = value; },
+    dropdown: true
   });
   buildFacet(genreFilters, {
     key: "genre",

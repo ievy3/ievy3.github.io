@@ -924,7 +924,7 @@ footer a:hover{text-decoration:underline}
   .projects{grid-template-columns:1fr}
 }
 @media(max-width:620px){
-  .facet{padding-left:0;border-left:0;margin-top:8px}
+  .facet{display:inline-flex;vertical-align:top;padding-left:0;border-left:0;margin:8px 8px 0 0}
   .site-header{padding:15px 14px}
   .brand-name{display:none}
   .site-nav{gap:0}
