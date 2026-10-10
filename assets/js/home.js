@@ -325,7 +325,7 @@ function card(project) {
       ${verificationMarkup}
       <div class="project-foot">
         <div>
-          <span class="project-state ${project.status}"><i></i>${project.statusLabel}</span>
+          <span class="project-state ${project.status}"><i></i>${project.status === "public" ? "공개" : project.statusLabel}</span>
           <time class="project-date" datetime="${project.updated}">업데이트 ${formatDate(project.updated)}</time>
         </div>
         <div class="project-actions">
