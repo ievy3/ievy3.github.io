@@ -190,6 +190,7 @@ for (const project of config) {
     imageFit: project.imageFit || "cover",
     platform: project.platform,
     genre: project.genre || "RPG",
+    ...(project.subgenre ? { subgenre: project.subgenre } : {}),
     type: project.type,
     status: release ? "public" : "development",
     statusLabel: release ? (release.prerelease ? "베타 공개" : "공개 중") : "개발 중",

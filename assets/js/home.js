@@ -1,6 +1,7 @@
 let projects = [];
 let activeStatus = "all";
 let activePlatform = "all";
+let activeGenre = "all";
 let showAllProjects = false;
 
 const fallbackProjects = [
@@ -11,7 +12,8 @@ const fallbackProjects = [
     imageAlt: "내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어 한글 타이틀 화면",
     imageFit: "cover",
     platform: "PSP",
-    genre: "연애 ADV",
+    genre: "어드벤처",
+    subgenre: "연애",
     type: "한국어 패치",
     status: "public",
     statusLabel: "베타 공개",
@@ -31,7 +33,8 @@ const fallbackProjects = [
     imageAlt: "사키 아치가편 포터블 한글 타이틀 화면",
     imageFit: "cover",
     platform: "PSP",
-    genre: "마작",
+    genre: "테이블",
+    subgenre: "마작",
     type: "한국어 패치",
     status: "public",
     statusLabel: "베타 공개",
@@ -52,7 +55,8 @@ const fallbackProjects = [
     imageAlt: "사키 포터블 한글 타이틀 화면",
     imageFit: "cover",
     platform: "PSP",
-    genre: "마작",
+    genre: "테이블",
+    subgenre: "마작",
     type: "한국어 패치",
     status: "development",
     statusLabel: "개발 중",
@@ -69,7 +73,7 @@ const fallbackProjects = [
     imageAlt: "환상수호전 이어지는 백 년의 시간 v0.9.0 베타 한글 타이틀 화면",
     imageFit: "cover",
     platform: "PSP",
-    genre: "JRPG",
+    genre: "RPG",
     type: "한국어 패치",
     status: "public",
     statusLabel: "베타 공개",
@@ -87,7 +91,7 @@ const fallbackProjects = [
     imageAlt: "Sol Trigger v0.9.1 한글 타이틀 화면",
     imageFit: "cover",
     platform: "PSP",
-    genre: "JRPG",
+    genre: "RPG",
     type: "한국어 패치",
     status: "development",
     statusLabel: "개발 중",
@@ -120,7 +124,8 @@ const fallbackProjects = [
     image: "https://images.launchbox-app.com/d4799dcc-27cf-4a16-b315-c3bbbf6a3292.png",
     imageAlt: "Generation of Chaos 6 대표 PSP 타이틀 화면",
     platform: "PSP",
-    genre: "전략 RPG",
+    genre: "SRPG",
+    subgenre: "전략",
     type: "한국어 패치",
     status: "development",
     statusLabel: "개발 중",
@@ -136,7 +141,8 @@ const fallbackProjects = [
     image: "/assets/images/gungnir/latest-2026-09-23-title.webp",
     imageAlt: "궁그닐 v0.9.0 공개 검수판 한글 타이틀 화면",
     platform: "PSP",
-    genre: "전술 RPG",
+    genre: "SRPG",
+    subgenre: "전술",
     type: "한국어 패치",
     status: "public",
     statusLabel: "베타 공개",
@@ -153,7 +159,8 @@ const fallbackProjects = [
     image: "/assets/images/hexyz-force/worklog-2026-09-13/01-title-screen.webp",
     imageAlt: "엑시즈 포스 한글 타이틀 화면",
     platform: "PSP",
-    genre: "JRPG",
+    genre: "RPG",
+    subgenre: "던전 탐험",
     type: "한국어 패치",
     status: "public",
     statusLabel: "베타 공개",
@@ -191,13 +198,40 @@ const searchInput = document.querySelector("#project-search");
 const searchBox = document.querySelector(".search-box");
 const statusButtons = [...document.querySelectorAll("[data-status-filter]")];
 const platformFilters = document.querySelector("#platform-filters");
+const genreFilters = document.querySelector("#genre-filters");
 const moreWrap = document.querySelector("#archive-more");
 const moreButton = document.querySelector("#archive-more-button");
-let platformButtons = [];
 const recentUpdateList = document.querySelector("#latest-update-list");
 
 // 대문 "한글 패치는 이렇게 만들어집니다"의 여섯 단계와 같은 순서입니다.
 const PATCH_STAGES = ["게임 분석", "번역 준비", "대사 번역", "화면 한글화", "실행 검수", "패치 배포"];
+
+// 장르는 이 네 가지 큰 분류로만 묶고, 마작·추리·연애 같은 세부 장르는 subgenre에 둡니다.
+const GENRES = ["RPG", "SRPG", "어드벤처", "테이블"];
+const GENRE_NAMES = { RPG: "롤플레잉", SRPG: "시뮬레이션 RPG", 어드벤처: "어드벤처", 테이블: "테이블 게임" };
+
+// 카드의 기종·장르·세부 장르를 누르면 그 조건으로 목록을 거릅니다.
+function genreMarkup(project) {
+  const genre = project.genre || "RPG";
+  const sub = project.subgenre
+    ? `<i aria-hidden="true">·</i><button class="kicker-tag project-subgenre" type="button" data-pick-search="${project.subgenre}" title="${project.subgenre} 프로젝트만 보기">${project.subgenre}</button>`
+    : "";
+  return `<button class="kicker-tag" type="button" data-pick-genre="${genre}" title="${GENRE_NAMES[genre] || genre} 프로젝트만 보기">${genre}</button>${sub}`;
+}
+
+function pickFromCard(event) {
+  const tag = event.target.closest(".kicker-tag");
+  if (!tag) return;
+  const pick = (container, value) => container?.querySelector(`[data-facet="${CSS.escape(value)}"]`)?.click();
+  event.stopPropagation();
+  if (tag.dataset.pickPlatform) pick(platformFilters, tag.dataset.pickPlatform);
+  if (tag.dataset.pickGenre) pick(genreFilters, tag.dataset.pickGenre);
+  if (tag.dataset.pickSearch && searchInput) {
+    searchInput.value = tag.dataset.pickSearch;
+    render();
+  }
+  document.querySelector(".archive-controls")?.scrollIntoView({ block: "center", behavior: "smooth" });
+}
 
 function stageMarkup(stage) {
   if (!Number.isInteger(stage) || stage < 1 || stage > PATCH_STAGES.length) return "";
@@ -270,7 +304,7 @@ function card(project) {
       <img src="${cardImage}" alt="${project.imageAlt}" loading="lazy" style="object-fit:${project.imageFit || "cover"}"${cardImage.startsWith("http") ? ' referrerpolicy="no-referrer"' : ""}>
     </a>
     <div class="project-info">
-      <span class="project-kicker">${project.platform}<i aria-hidden="true">·</i>${project.genre || "RPG"}${stageMarkup(project.stage)}</span>
+      <span class="project-kicker"><button class="kicker-tag" type="button" data-pick-platform="${project.platform}" title="${project.platform} 프로젝트만 보기">${project.platform}</button><i aria-hidden="true">·</i>${genreMarkup(project)}${stageMarkup(project.stage)}</span>
       <div class="project-title-row">
         <h3><a href="${project.href}">${project.title}</a></h3>
         <span class="version-pill">${project.version}</span>
@@ -302,12 +336,15 @@ function render() {
         project.title,
         project.platform,
         project.genre,
+        GENRE_NAMES[project.genre] || "",
+        project.subgenre || "",
         project.statusLabel,
         ...(project.keywords || [])
       ].join(" "));
 
       return (activeStatus === "all" || project.status === activeStatus)
         && (activePlatform === "all" || project.platform === activePlatform)
+        && (activeGenre === "all" || project.genre === activeGenre)
         && (!query || haystack.includes(query));
     })
     .sort((a, b) => {
@@ -317,7 +354,7 @@ function render() {
     });
 
   // 필터·검색을 쓰지 않을 때는 처음 세 줄(1열 화면은 6개)만 보여 주고 나머지는 「더 보기」로 펼칩니다.
-  const filtering = Boolean(query) || activeStatus !== "all" || activePlatform !== "all";
+  const filtering = Boolean(query) || activeStatus !== "all" || activePlatform !== "all" || activeGenre !== "all";
   const limit = collapsedLimit();
   const collapsible = !filtering && filtered.length > limit;
   const visible = collapsible && !showAllProjects ? filtered.slice(0, limit) : filtered;
@@ -339,33 +376,110 @@ function collapsedLimit() {
   return columns === 1 ? 6 : columns * 3;
 }
 
-function setPlatform(platform) {
-  activePlatform = platform;
-  platformButtons.forEach(button => {
-    const active = button.dataset.platformFilter === platform;
-    button.classList.toggle("is-active", active);
-    button.setAttribute("aria-pressed", String(active));
-  });
-  render();
-}
+// 기종·장르 선택지를 데이터에서 만듭니다. 항목이 하나뿐이면 숨깁니다.
+// dropdown이면 버튼 하나만 보이고, 누르면 선택지가 세로로 펼쳐집니다.
+function buildFacet(container, { key, allLabel, order, label = value => value, onSelect, dropdown = false }) {
+  if (!container) return;
+  const counts = projects.reduce((map, project) => map.set(project[key], (map.get(project[key]) || 0) + 1), new Map());
+  if (counts.size < 2) { container.hidden = true; return; }
+  const values = [...counts.keys()].sort((a, b) => order(a, b, counts));
+  const entries = [["all", allLabel, projects.length], ...values.map(value => [value, label(value), counts.get(value)])];
 
-function buildPlatformFilters() {
-  if (!platformFilters) return;
-  const counts = projects.reduce((map, project) => map.set(project.platform, (map.get(project.platform) || 0) + 1), new Map());
-  if (counts.size < 2) { platformFilters.hidden = true; return; }
-  const platforms = [...counts.keys()].sort((a, b) => counts.get(b) - counts.get(a));
-  platformButtons = [["all", "모든 기종"], ...platforms.map(name => [name, name])].map(([value, label]) => {
+  let toggle, menu, toggleText;
+  const setOpen = open => {
+    if (!menu) return;
+    menu.hidden = !open;
+    toggle.setAttribute("aria-expanded", String(open));
+  };
+
+  const buttons = entries.map(([value, text, count]) => {
     const button = document.createElement("button");
     button.type = "button";
-    button.className = "status-filter";
-    button.dataset.platformFilter = value;
-    button.textContent = label;
-    button.addEventListener("click", () => setPlatform(value));
+    button.dataset.facet = value;
+    if (dropdown) {
+      button.className = "facet-option";
+      button.setAttribute("role", "option");
+      button.innerHTML = `<span>${text}</span><small>${count}</small>`;
+    } else {
+      button.className = "status-filter";
+      button.textContent = text;
+    }
+    button.addEventListener("click", () => {
+      buttons.forEach(other => {
+        const active = other === button;
+        other.classList.toggle("is-active", active);
+        other.setAttribute(dropdown ? "aria-selected" : "aria-pressed", String(active));
+      });
+      if (dropdown) {
+        toggleText.textContent = text;
+        toggle.classList.toggle("is-active", value !== "all");
+        setOpen(false);
+      }
+      onSelect(value);
+      render();
+    });
+    const active = value === "all";
+    button.classList.toggle("is-active", active);
+    button.setAttribute(dropdown ? "aria-selected" : "aria-pressed", String(active));
     return button;
   });
-  platformFilters.replaceChildren(...platformButtons);
-  platformFilters.hidden = false;
-  setPlatform(activePlatform);
+
+  const slot = container.querySelector(".facet-buttons");
+  if (!dropdown) {
+    slot.replaceChildren(...buttons);
+  } else {
+    const wrap = document.createElement("div");
+    wrap.className = "facet-dropdown";
+    toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "status-filter facet-toggle";
+    toggle.setAttribute("aria-haspopup", "listbox");
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.innerHTML = `<span>${allLabel}</span><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg>`;
+    toggleText = toggle.querySelector("span");
+    menu = document.createElement("div");
+    menu.className = "facet-menu";
+    menu.setAttribute("role", "listbox");
+    menu.setAttribute("aria-labelledby", container.getAttribute("aria-labelledby") || "");
+    menu.hidden = true;
+    menu.append(...buttons);
+    wrap.append(toggle, menu);
+    slot.replaceChildren(wrap);
+
+    toggle.addEventListener("click", () => {
+      const open = menu.hidden;
+      setOpen(open);
+      if (open) (buttons.find(button => button.classList.contains("is-active")) || buttons[0]).focus();
+    });
+    document.addEventListener("click", event => { if (!wrap.contains(event.target)) setOpen(false); });
+    wrap.addEventListener("keydown", event => {
+      if (event.key === "Escape" && !menu.hidden) { setOpen(false); toggle.focus(); return; }
+      if (menu.hidden || !["ArrowDown", "ArrowUp"].includes(event.key)) return;
+      event.preventDefault();
+      const index = buttons.indexOf(document.activeElement);
+      const next = event.key === "ArrowDown" ? Math.min(buttons.length - 1, index + 1) : Math.max(0, index - 1);
+      buttons[next].focus();
+    });
+  }
+  container.hidden = false;
+}
+
+function buildFacets() {
+  buildFacet(platformFilters, {
+    key: "platform",
+    allLabel: "모든 기종",
+    order: (a, b, counts) => counts.get(b) - counts.get(a),
+    onSelect: value => { activePlatform = value; },
+    dropdown: true
+  });
+  buildFacet(genreFilters, {
+    key: "genre",
+    allLabel: "모든 장르",
+    order: (a, b) => (GENRES.indexOf(a) + 1 || 99) - (GENRES.indexOf(b) + 1 || 99),
+    label: value => GENRE_NAMES[value] || value,
+    onSelect: value => { activeGenre = value; },
+    dropdown: true
+  });
 }
 
 function setStatus(status) {
@@ -413,7 +527,8 @@ async function init() {
     button.addEventListener("click", () => setStatus(button.dataset.statusFilter));
   });
   searchInput?.addEventListener("input", render);
-  buildPlatformFilters();
+  grid.addEventListener("click", pickFromCard);
+  buildFacets();
   moreButton?.addEventListener("click", () => {
     showAllProjects = !showAllProjects;
     render();
