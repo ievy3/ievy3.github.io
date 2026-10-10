@@ -5,8 +5,16 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-10-09T00:00:00+09:00</updated>
+  <updated>2026-10-10T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[Magical Vacation] 타이틀 로고 완성과 v0.9.0 배포 준비</title>
+    <link href="https://ievy3.github.io/projects/magical-vacation/updates/2026-10-10.html"/>
+    <id>https://ievy3.github.io/projects/magical-vacation/updates/2026-10-10.html</id>
+    <updated>2026-10-10T00:00:00+09:00</updated>
+    <category term="Magical Vacation"/>
+    <summary>한글 타이틀 로고를 넣고 검수 지적 반영을 마쳤습니다. 영어 팬 번역판과 대조해 그림 10장을 더 한글화한 뒤, 첫 공개판 v0.9.0의 오프라인 패처를 준비했습니다.</summary>
+  </entry>
   <entry>
     <title>[바케모노가타리 포터블] 구조 분석과 한글 폰트 확장 시험</title>
     <link href="https://ievy3.github.io/projects/bakemonogatari-portable/updates/2026-10-09.html"/>
@@ -318,13 +326,5 @@
     <updated>2026-09-20T00:00:00+09:00</updated>
     <category term="Summon Night 5"/>
     <summary>번역·기술·이미지 3개 병렬 트랙을 구축하고 본문 번역 컨베이어를 가동했습니다. s1~s145를 처리했으며, 기술 트랙은 이름·지명·필드 메뉴와 번역 대사를 실제 게임에 연속 삽입할 수 있는 F19 파이프라인까지 도달했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Gungnir] 크래시 원인 규명과 전수 감사, 이미지 아틀라스 재작업</title>
-    <link href="https://ievy3.github.io/projects/gungnir/updates/2026-09-19.html"/>
-    <id>https://ievy3.github.io/projects/gungnir/updates/2026-09-19.html</id>
-    <updated>2026-09-19T00:00:00+09:00</updated>
-    <category term="Gungnir"/>
-    <summary>데이터 포인터 누락으로 발생하던 PPSSPP 크래시를 수정하고, data.dar·ini.dar·EBOOT의 잔존 일본어를 전수 감사한 뒤 이미지 기반 작업을 P1 아틀라스 재구축 단계까지 진행했습니다.</summary>
   </entry>
 </feed>
