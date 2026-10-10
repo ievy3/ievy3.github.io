@@ -873,6 +873,30 @@
         "href": "/projects/gungnir/updates/2026-09-22.html"
       },
       "latestReleaseTag": "gungnir-v0.9.0"
+    },
+    {
+      "title": "듀라라라!! 3way standoff",
+      "slug": "durarara-3way-standoff",
+      "image": "/assets/images/durarara-3way-standoff/official-cover.webp",
+      "imageAlt": "듀라라라!! 3way standoff 일본판 PSP 패키지",
+      "platform": "PSP",
+      "genre": "어드벤처",
+      "subgenre": "노벨",
+      "status": "planned",
+      "statusLabel": "작업 예정",
+      "updated": ""
+    },
+    {
+      "title": "일상 (우주인)",
+      "slug": "nichijou-uchuujin",
+      "image": "/assets/images/nichijou-uchuujin/official-cover.webp",
+      "imageAlt": "일상 (우주인) 일본판 PSP 패키지",
+      "platform": "PSP",
+      "genre": "어드벤처",
+      "subgenre": "코미디",
+      "status": "planned",
+      "statusLabel": "작업 예정",
+      "updated": ""
     }
   ]
 }
