@@ -280,9 +280,11 @@
     ],
     "releaseRepository": "ievy3/ievy3.github.io",
     "genre": "RPG",
-    "stage": 4,
+    "stage": 6,
     "updated": "2026-10-09",
-    "verification": []
+    "verification": [
+      "mGBA"
+    ]
   },
   {
     "slug": "never7",

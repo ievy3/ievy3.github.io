@@ -16,7 +16,7 @@
       "type": "한국어 패치",
       "status": "public",
       "statusLabel": "베타 공개",
-      "stage": 4,
+      "stage": 6,
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mv-v0.9.0/MagicalVacation_KrPatcher_v0.9.0.zip",
       "downloadAsset": "MagicalVacation_KrPatcher_v0.9.0.zip",
@@ -49,11 +49,13 @@
         "brownie brown",
         "rpg"
       ],
-      "verification": [],
+      "verification": [
+        "mGBA"
+      ],
       "latestWorklog": {
-        "date": "2026-10-09",
-        "title": "번역 100% 완료와 첫 통합 빌드 검수",
-        "href": "/projects/magical-vacation/updates/2026-10-09.html"
+        "date": "2026-10-10",
+        "title": "타이틀 로고 완성과 v0.9.0 첫 공개",
+        "href": "/projects/magical-vacation/updates/2026-10-10.html"
       },
       "latestReleaseTag": "mv-v0.9.0"
     },
