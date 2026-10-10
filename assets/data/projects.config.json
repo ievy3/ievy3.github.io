@@ -264,8 +264,8 @@
   {
     "slug": "magical-vacation",
     "title": "Magical Vacation",
-    "image": "/assets/images/magical-vacation/title-screen.webp",
-    "imageAlt": "매지컬 베케이션 GBA 타이틀 화면",
+    "image": "/assets/images/magical-vacation/2026-10-09-title-ko.webp",
+    "imageAlt": "매지컬 베케이션 한글 타이틀 화면",
     "platform": "GBA",
     "type": "한국어 패치",
     "releasePrefix": "mv-",
