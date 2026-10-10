@@ -43,6 +43,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/generate-projects.mjs
 
+      - name: Build light theme overrides
+        run: node scripts/build-light-theme.mjs
+
       - name: Build sitemap, feed and page metadata
         run: node scripts/build-site-files.mjs
 
