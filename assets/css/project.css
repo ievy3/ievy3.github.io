@@ -133,6 +133,7 @@ p{margin:8px 0 14px;line-height:1.65}
 .preview-grid.two-up{grid-template-columns:repeat(2,minmax(0,1fr))}
 .preview-grid figure{margin:0;overflow:hidden;border:1px solid var(--line);border-radius:13px;background:rgba(0,0,0,.16)}
 .preview-grid img{display:block;width:100%;aspect-ratio:240/136;object-fit:cover;background:#0b0c10}
+.preview-grid figure.screen-fit img{object-fit:contain}
 .preview-grid figcaption{display:grid;gap:2px;padding:11px 12px}
 .preview-grid figcaption strong{font-size:12px}
 .preview-grid figcaption span{color:var(--muted);font-size:10px;line-height:1.45}
