@@ -1,6 +1,68 @@
 {
-  "generatedAt": "2026-10-10T21:39:45.146Z",
+  "generatedAt": "2026-10-11T00:19:24.678Z",
   "projects": [
+    {
+      "title": "Never 7: The End of Infinity",
+      "href": "/projects/never7/",
+      "repository": null,
+      "repositoryUrl": null,
+      "issuesUrl": null,
+      "releaseRepository": "ievy3/ievy3.github.io",
+      "image": "/assets/images/never7/title-screen.webp",
+      "imageAlt": "Never 7: The End of Infinity PSP 타이틀 화면",
+      "imageFit": "cover",
+      "platform": "PSP",
+      "genre": "어드벤처",
+      "subgenre": "연애",
+      "type": "한국어 패치",
+      "status": "public",
+      "statusLabel": "베타 공개",
+      "stage": 3,
+      "version": "v0.9.0",
+      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/never7-v0.9.0/Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
+      "downloadAsset": "Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
+      "downloadCount": 0,
+      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/never7-v0.9.0",
+      "releaseName": "Never7 -the end of infinity- 한글 패치 v0.9.0",
+      "releasePublishedAt": "2026-10-11T00:19:13Z",
+      "updated": "2026-10-11",
+      "publicBuilds": 1,
+      "totalDownloads": 0,
+      "releaseHistory": [
+        {
+          "version": "v0.9.0",
+          "tag": "never7-v0.9.0",
+          "releaseName": "Never7 -the end of infinity- 한글 패치 v0.9.0",
+          "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/never7-v0.9.0",
+          "publishedAt": "2026-10-11T00:19:13Z",
+          "date": "2026-10-11",
+          "prerelease": true,
+          "download": "https://github.com/ievy3/ievy3.github.io/releases/download/never7-v0.9.0/Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
+          "downloadAsset": "Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
+          "downloadCount": 0
+        }
+      ],
+      "description": "섬에서 보내는 합숙의 날들과 반복되는 시간의 수수께끼를 그린 인피니티 시리즈 첫 작품",
+      "keywords": [
+        "네버7",
+        "네버 세븐",
+        "never7",
+        "never 7",
+        "infinity",
+        "인피니티",
+        "kid",
+        "어드벤처"
+      ],
+      "verification": [
+        "PPSSPP"
+      ],
+      "latestWorklog": {
+        "date": "2026-10-09",
+        "title": "구조 분석 완료와 초벌 번역 70% 진행",
+        "href": "/projects/never7/updates/2026-10-09.html"
+      },
+      "latestReleaseTag": "never7-v0.9.0"
+    },
     {
       "title": "크로노아 히어로즈: 전설의 스타 메달",
       "href": "/projects/klonoa-heroes/",
@@ -62,13 +124,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mv-v0.9.0/MagicalVacation_KrPatcher_v0.9.0.zip",
       "downloadAsset": "MagicalVacation_KrPatcher_v0.9.0.zip",
-      "downloadCount": 392,
+      "downloadCount": 399,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mv-v0.9.0",
       "releaseName": "매지컬 베케이션 한글 패치 v0.9.0 ",
       "releasePublishedAt": "2026-10-10T02:48:17Z",
       "updated": "2026-10-10",
       "publicBuilds": 1,
-      "totalDownloads": 392,
+      "totalDownloads": 399,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -80,7 +142,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mv-v0.9.0/MagicalVacation_KrPatcher_v0.9.0.zip",
           "downloadAsset": "MagicalVacation_KrPatcher_v0.9.0.zip",
-          "downloadCount": 392
+          "downloadCount": 399
         }
       ],
       "description": "마법 학교 학생들의 모험을 그린 브라우니 브라운의 GBA RPG",
@@ -287,13 +349,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
       "downloadAsset": "TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
-      "downloadCount": 651,
+      "downloadCount": 652,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/JingujiAD-v0.9.0",
       "releaseName": "탐정 진구지 사부로: 재와 다이아몬드 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-09T03:02:35Z",
       "updated": "2026-10-09",
       "publicBuilds": 1,
-      "totalDownloads": 651,
+      "totalDownloads": 652,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -305,7 +367,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
           "downloadAsset": "TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
-          "downloadCount": 651
+          "downloadCount": 652
         }
       ],
       "description": "가부키초를 무대로 여러 의뢰와 인물의 이해관계가 교차하는 하드보일드 추리 어드벤처",
@@ -329,47 +391,6 @@
         "href": "/projects/jinguji-ashes-and-diamonds/updates/2026-10-05.html"
       },
       "latestReleaseTag": "JingujiAD-v0.9.0"
-    },
-    {
-      "title": "Never 7: The End of Infinity",
-      "href": "/projects/never7/",
-      "repository": null,
-      "repositoryUrl": null,
-      "issuesUrl": null,
-      "releaseRepository": "ievy3/ievy3.github.io",
-      "image": "/assets/images/never7/title-screen.webp",
-      "imageAlt": "Never 7: The End of Infinity PSP 타이틀 화면",
-      "imageFit": "cover",
-      "platform": "PSP",
-      "genre": "어드벤처",
-      "subgenre": "연애",
-      "type": "한국어 패치",
-      "status": "development",
-      "statusLabel": "작업 중",
-      "stage": 3,
-      "version": "첫 공개 전",
-      "updated": "2026-10-09",
-      "publicBuilds": 0,
-      "totalDownloads": 0,
-      "releaseHistory": [],
-      "description": "섬에서 보내는 합숙의 날들과 반복되는 시간의 수수께끼를 그린 인피니티 시리즈 첫 작품",
-      "keywords": [
-        "네버7",
-        "네버 세븐",
-        "never7",
-        "never 7",
-        "infinity",
-        "인피니티",
-        "kid",
-        "어드벤처"
-      ],
-      "verification": [],
-      "latestWorklog": {
-        "date": "2026-10-09",
-        "title": "구조 분석 완료와 초벌 번역 70% 진행",
-        "href": "/projects/never7/updates/2026-10-09.html"
-      },
-      "latestReleaseTag": null
     },
     {
       "title": "Shadow of Memories",
@@ -491,13 +512,13 @@
       "version": "v0.9.3-beta.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.3/Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
-      "downloadCount": 327,
+      "downloadCount": 328,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.3",
       "releaseName": "Hexyz Force 한글 패치 v0.9.3 — 공개 검수판 (261006)",
       "releasePublishedAt": "2026-10-06T02:04:52Z",
       "updated": "2026-10-06",
       "publicBuilds": 4,
-      "totalDownloads": 1710,
+      "totalDownloads": 1711,
       "releaseHistory": [
         {
           "version": "v0.9.3-beta.1",
@@ -509,7 +530,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.3/Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
-          "downloadCount": 327
+          "downloadCount": 328
         },
         {
           "version": "v0.9.2-beta.1",
