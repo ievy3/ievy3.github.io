@@ -565,10 +565,10 @@ const fallbackProjects = [
     }
   },
   {
-    "title": "듀라라라!! 3way standoff",
-    "href": "/projects/durarara-3way-standoff/",
-    "image": "/assets/images/durarara-3way-standoff/official-cover.webp",
-    "imageAlt": "듀라라라!! 3way standoff 일본판 PSP 패키지",
+    "title": "듀라라라!! 3way standoff -alley-",
+    "href": "/projects/durarara-3way-standoff-alley/",
+    "image": "/assets/images/durarara-3way-standoff-alley/official-cover.webp",
+    "imageAlt": "듀라라라!! 3way standoff -alley- 일본판 PSP 패키지",
     "imageFit": "contain",
     "platform": "PSP",
     "genre": "어드벤처",
@@ -594,7 +594,7 @@ const fallbackProjects = [
     "latestWorklog": {
       "date": "2026-10-11",
       "title": "구조 분석부터 전체 번역·검수까지",
-      "href": "/projects/durarara-3way-standoff/updates/2026-10-11.html"
+      "href": "/projects/durarara-3way-standoff-alley/updates/2026-10-11.html"
     }
   },
   {

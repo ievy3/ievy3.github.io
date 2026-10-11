@@ -398,10 +398,10 @@
     "verification": []
   },
   {
-    "slug": "durarara-3way-standoff",
-    "title": "듀라라라!! 3way standoff",
-    "image": "/assets/images/durarara-3way-standoff/official-cover.webp",
-    "imageAlt": "듀라라라!! 3way standoff 일본판 PSP 패키지",
+    "slug": "durarara-3way-standoff-alley",
+    "title": "듀라라라!! 3way standoff -alley-",
+    "image": "/assets/images/durarara-3way-standoff-alley/official-cover.webp",
+    "imageAlt": "듀라라라!! 3way standoff -alley- 일본판 PSP 패키지",
     "platform": "PSP",
     "genre": "어드벤처",
     "subgenre": "노벨",
@@ -416,7 +416,9 @@
       "デュラララ",
       "3way standoff",
       "나리타 료우고",
-      "어드벤처"
+      "어드벤처",
+      "alley",
+      "앨리"
     ],
     "releaseRepository": "ievy3/ievy3.github.io",
     "stage": 4,
