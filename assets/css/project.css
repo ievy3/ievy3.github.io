@@ -26,6 +26,10 @@ body{
   line-height:1.6;
   word-break:keep-all;
 }
+/* 줄바꿈 다듬기: 제목은 줄 길이를 고르게, 본문은 마지막 줄에 한 낱말만 남지 않게 */
+h1,h2,h3,.project-card h3,.latest-update-copy strong,figcaption strong,summary span,.project-facts strong{text-wrap:balance}
+.project-facts strong span{display:inline;color:inherit;font-size:inherit;font-weight:inherit;letter-spacing:inherit}
+p,li,figcaption span,small,.notice,.project-desc,.kv>div{text-wrap:pretty}
 body:before{
   content:"";
   position:fixed;
@@ -90,7 +94,7 @@ p{margin:8px 0 14px;line-height:1.65}
 .split-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:stretch;margin-top:16px}
 .split-grid>.box{display:flex;flex-direction:column}
 .split-grid .log-link{margin-top:auto}
-.section-head{display:flex;align-items:flex-start;justify-content:space-between;gap:20px}
+.section-head{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:8px 20px}
 .line-count{color:var(--muted);font-size:12px;white-space:nowrap}
 .route-grid{display:grid;gap:22px;margin-top:24px}
 .route-title{display:flex;justify-content:space-between;gap:16px;margin-bottom:7px}
