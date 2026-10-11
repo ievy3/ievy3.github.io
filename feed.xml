@@ -5,8 +5,16 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-10-10T00:00:00+09:00</updated>
+  <updated>2026-10-11T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[Never 7: The End of Infinity] 소개 영상 한글화와 v0.9.0 공개 준비</title>
+    <link href="https://ievy3.github.io/projects/never7/updates/2026-10-11.html"/>
+    <id>https://ievy3.github.io/projects/never7/updates/2026-10-11.html</id>
+    <updated>2026-10-11T00:00:00+09:00</updated>
+    <category term="Never 7: The End of Infinity"/>
+    <summary>게임 시작 때 나오는 소개 영상을 한글화하고, 첫 공개판 v0.9.0 패치 꾸러미를 준비했습니다.</summary>
+  </entry>
   <entry>
     <title>[크로노아 히어로즈: 전설의 스타 메달] 프로젝트 시작, 본편 번역과 그림 한글화</title>
     <link href="https://ievy3.github.io/projects/klonoa-heroes/updates/2026-10-10.html"/>
@@ -22,6 +30,14 @@
     <updated>2026-10-10T00:00:00+09:00</updated>
     <category term="Magical Vacation"/>
     <summary>한글 타이틀 로고를 넣고 검수 지적 반영을 마쳤습니다. 영어 팬 번역판과 대조해 그림 10장을 더 한글화한 뒤, 첫 공개판 v0.9.0을 프리릴리즈로 배포했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Never 7: The End of Infinity] 한글 빌드 완성과 전체 통독 검수</title>
+    <link href="https://ievy3.github.io/projects/never7/updates/2026-10-10.html"/>
+    <id>https://ievy3.github.io/projects/never7/updates/2026-10-10.html</id>
+    <updated>2026-10-10T00:00:00+09:00</updated>
+    <category term="Never 7: The End of Infinity"/>
+    <summary>번역문을 게임에 넣은 첫 한글 빌드를 만들고, 본편·외전·메뉴 문구를 모두 읽으며 다듬었습니다. PSP 실기에서 부팅과 저장·불러오기도 확인했습니다.</summary>
   </entry>
   <entry>
     <title>[바케모노가타리 포터블] 구조 분석과 한글 폰트 확장 시험</title>
@@ -310,21 +326,5 @@
     <updated>2026-09-22T00:00:00+09:00</updated>
     <category term="Gungnir"/>
     <summary>튜토리얼의 한글 글꼴과 배치를 다시 다듬고, 승리 결과·준비 메뉴·챕터 이미지를 최신 한글화본으로 교체했습니다. 이번 작업으로 총 191장의 이미지가 갱신됐으며 최신 시험 빌드에 반영했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Summon Night 5] 슬롯 문제 해결과 통합·검증 단계 진입</title>
-    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-09-22.html"/>
-    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-09-22.html</id>
-    <updated>2026-09-22T00:00:00+09:00</updated>
-    <category term="Summon Night 5"/>
-    <summary>번역문을 실제 게임에 안정적으로 넣는 통합 작업을 진행했습니다. 여주인공 루트 등에서 빠져 있던 중복 대사를 보완해 용량 초과 문제를 해결했고, 당일 최종 F19a12 빌드에서 문제가 있던 8개 스크립트 모두의 한국어 삽입을 확인했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Gungnir] 최신 이미지 에셋 통합과 시험 ISO 정적 검증</title>
-    <link href="https://ievy3.github.io/projects/gungnir/updates/2026-09-20.html"/>
-    <id>https://ievy3.github.io/projects/gungnir/updates/2026-09-20.html</id>
-    <updated>2026-09-20T00:00:00+09:00</updated>
-    <category term="Gungnir"/>
-    <summary>B0 안정본을 기준으로 최신 이미지 에셋 1,106페이지를 반영하고 시험 ISO를 생성했습니다. 파일 구조와 크기는 유지됐고 초반부 진행 및 정적 검증까지 완료했습니다. 일부 영어 이미지가 남아 있고 전체 런타임 검증은 끝나지 않았지만, 공개 검수를 위해 v0.8.0 버전으로 공개합니다.</summary>
   </entry>
 </feed>
