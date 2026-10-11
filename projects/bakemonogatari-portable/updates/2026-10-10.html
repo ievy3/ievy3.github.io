@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 10월 10일 바케모노가타리 포터블 한국어 패치 작업일지">
+  <title>2026.10.10 작업일지 | 바케모노가타리 포터블</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/bakemonogatari-portable/updates/2026-10-10.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.10.10 작업일지 | 바케모노가타리 포터블">
+  <meta property="og:description" content="2026년 10월 10일 바케모노가타리 포터블 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/bakemonogatari-portable/updates/2026-10-10.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/bakemonogatari-portable/title-screen.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.10.10 작업일지 | 바케모노가타리 포터블">
+  <meta name="twitter:description" content="2026년 10월 10일 바케모노가타리 포터블 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/bakemonogatari-portable/title-screen.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=28">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=1">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=1">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/bakemonogatari-portable/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.10.10</p>
+    <h1>첫 장 문체 확정과<br>본격 번역 시작</h1>
+    <p>한글 글꼴 표시 문제를 정리하고 첫 장 번역과 문체를 확정한 뒤, 전체 대사 번역을 시작했습니다. 하루 동안 전체의 절반을 넘겼습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>TRANSLATION</span><span class="badge">일본어판 기준</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>2,775 / 4,913</strong><span>번역 반영 행</span></div>
+    <div><strong>약 56%</strong><span>번역 진행률</span></div>
+    <div><strong>21px</strong><span>한글 글꼴 크기</span></div>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">FONT</p><h2>한글 표시</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>Noto Sans CJK KR 21px로 확정 · 필요한 글자를 모두 담을 수 있음</li>
+        <li><span>✓</span>세로 선택창에서 한글 오른쪽 획이 잘리던 문제 해결</li>
+        <li><span>✓</span>일반 대사 두 줄 표시 확인(한 줄 380px)</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">SPEAKERS</p><h2>화자 연결</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>대사마다 말하는 인물을 게임 데이터에서 확정</li>
+        <li><span>✓</span>일반 대사 3,690행의 화자 확인</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">CHAPTER 1</p><h2>첫 장 문체 확정</h2>
+    <ul class="compact-list">
+      <li>첫 장 284행을 번역해 한국어로 읽기 좋은 문서로 만들고, 전체를 읽은 뒤 문체를 확정했습니다.</li>
+      <li>확정한 문체를 기준으로 나머지 대사 번역을 시작했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">TRANSLATION</p><h2>번역 진행</h2>
+    <ul class="compact-list">
+      <li>UI 보상·시스템 문구와 코요미·히타기·블랙 하네카와 파트를 번역해 <strong>4,913행 중 2,775행(약 56%)</strong>을 번역표에 반영했습니다.</li>
+      <li>마요이·카렌, 나데코·츠키히, 칸바루·메메 파트 약 2,000행도 번역과 표시 길이 검사를 마쳤고, 번역표에 합치는 일만 남았습니다.</li>
+      <li>화면 종류를 아직 확인하지 못한 UI 27행과 쓰이는 곳을 확인하지 못한 90행은 따로 두었습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">ISSUE</p><h2>확인된 문제</h2>
+    <ul class="compact-list">
+      <li>한글을 넣은 문자열 묶음 하나가 압축한 뒤에도 원래 자리보다 78바이트 커서 그대로는 들어가지 않습니다.</li>
+      <li>더 작게 압축하는 방법과, 파일 끝에 옮겨 담는 방법을 준비해 두었습니다. 검증 뒤 하나를 적용합니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NEXT</p><h2>다음 작업</h2>
+    <ul class="compact-list">
+      <li>번역을 마친 세 파트를 번역표에 합치고 남은 번역 진행</li>
+      <li>문자열 묶음 크기 문제 해결</li>
+      <li>게임에 한글을 넣어 화면별로 확인</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">BAKEMONOGATARI PORTABLE DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=2" defer></script>
+</body>
+</html>

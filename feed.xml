@@ -16,6 +16,14 @@
     <summary>게임 시작 때 나오는 소개 영상을 한글화하고, 첫 공개판 v0.9.0 패치 꾸러미를 준비했습니다.</summary>
   </entry>
   <entry>
+    <title>[바케모노가타리 포터블] 첫 장 문체 확정과 본격 번역 시작</title>
+    <link href="https://ievy3.github.io/projects/bakemonogatari-portable/updates/2026-10-10.html"/>
+    <id>https://ievy3.github.io/projects/bakemonogatari-portable/updates/2026-10-10.html</id>
+    <updated>2026-10-10T00:00:00+09:00</updated>
+    <category term="바케모노가타리 포터블"/>
+    <summary>한글 글꼴 표시 문제를 정리하고 첫 장 번역과 문체를 확정한 뒤, 전체 대사 번역을 시작했습니다. 하루 동안 전체의 절반을 넘겼습니다.</summary>
+  </entry>
+  <entry>
     <title>[크로노아 히어로즈: 전설의 스타 메달] 프로젝트 시작, 본편 번역과 그림 한글화</title>
     <link href="https://ievy3.github.io/projects/klonoa-heroes/updates/2026-10-10.html"/>
     <id>https://ievy3.github.io/projects/klonoa-heroes/updates/2026-10-10.html</id>
@@ -318,13 +326,5 @@
     <updated>2026-09-23T00:00:00+09:00</updated>
     <category term="Summon Night 5"/>
     <summary>번역·용어·이름표 기준을 메인 작업본으로 통합하고 이미지 한글화 작업을 마감했습니다. 당일 네 차례 통합 빌드를 진행했으며, 마지막 F19a16을 현재 최신 안정 빌드로 유지하고 있습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Gungnir] 튜토리얼·메뉴·챕터 이미지 개선</title>
-    <link href="https://ievy3.github.io/projects/gungnir/updates/2026-09-22.html"/>
-    <id>https://ievy3.github.io/projects/gungnir/updates/2026-09-22.html</id>
-    <updated>2026-09-22T00:00:00+09:00</updated>
-    <category term="Gungnir"/>
-    <summary>튜토리얼의 한글 글꼴과 배치를 다시 다듬고, 승리 결과·준비 메뉴·챕터 이미지를 최신 한글화본으로 교체했습니다. 이번 작업으로 총 191장의 이미지가 갱신됐으며 최신 시험 빌드에 반영했습니다.</summary>
   </entry>
 </feed>

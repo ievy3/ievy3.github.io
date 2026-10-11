@@ -170,9 +170,9 @@ const fallbackProjects = [
     "type": "한국어 패치",
     "status": "development",
     "statusLabel": "작업 중",
-    "stage": 2,
+    "stage": 3,
     "version": "첫 공개 전",
-    "updated": "2026-10-09",
+    "updated": "2026-10-10",
     "totalDownloads": 0,
     "description": "니시오 이신의 소설 『바케모노가타리』를 바탕으로 한 PSP 어드벤처 게임",
     "keywords": [
@@ -186,9 +186,9 @@ const fallbackProjects = [
     ],
     "verification": [],
     "latestWorklog": {
-      "date": "2026-10-09",
-      "title": "구조 분석과 한글 폰트 확장 시험",
-      "href": "/projects/bakemonogatari-portable/updates/2026-10-09.html"
+      "date": "2026-10-10",
+      "title": "첫 장 문체 확정과 본격 번역 시작",
+      "href": "/projects/bakemonogatari-portable/updates/2026-10-10.html"
     }
   },
   {
