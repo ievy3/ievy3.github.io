@@ -172,6 +172,39 @@ for (const page of pages) {
   }
 }
 
+// 대문: 자바스크립트가 목록을 그리기 전에 보이는 숫자·noscript 목록과 home.js 예비 데이터를
+// projects.generated.json에 맞춥니다.
+const generatedIndex = JSON.parse(await readFile(path.join(root, "assets/data/projects.generated.json"), "utf8").catch(() => "{}"));
+const listed = (generatedIndex.projects || []).filter(project => project.status !== "planned" && project.href);
+if (listed.length) {
+  const platformCounts = listed.reduce((map, project) => map.set(project.platform, (map.get(project.platform) || 0) + 1), new Map());
+  const platformLabel = [...platformCounts.keys()].sort((a, b) => platformCounts.get(b) - platformCounts.get(a)).join(" · ");
+  const home = pages.find(page => page.rel === "index.html");
+  if (home) {
+    let html = home.html
+      .replace(/(<span id="hero-summary"[^>]*>)[^<]*(<\/span>)/, `$1${listed.length} Projects · ${platformLabel}$2`)
+      .replace(/(<p id="result-count"[^>]*>)[\s\S]*?(<\/p>)/, `$1전체 <strong>${listed.length}</strong>개 프로젝트$2`)
+      .replace(/(<noscript>\n)[\s\S]*?(\n[ \t]*<\/noscript>)/, (m, open, close) =>
+        open + listed.map(project => `          <a href="${project.href}">${escapeXml(project.title)}</a>`).join("\n") + close);
+    if (html !== home.html) {
+      home.html = html;
+      await writeFile(home.file, html, "utf8");
+      changedPages += 1;
+    }
+  }
+
+  const fallbackKeys = ["title", "slug", "href", "image", "imageAlt", "imageFit", "platform", "genre", "subgenre", "type", "status", "statusLabel",
+    "stage", "version", "updated", "download", "downloadMode", "releaseUrl", "releasePublishedAt", "totalDownloads", "description", "note",
+    "keywords", "verification", "latestWorklog"];
+  const fallback = (generatedIndex.projects || []).map(project =>
+    Object.fromEntries(fallbackKeys.filter(key => project[key] !== undefined && project[key] !== null).map(key => [key, project[key]])));
+  const homeJsPath = path.join(root, "assets/js/home.js");
+  const homeJs = await readFile(homeJsPath, "utf8");
+  const nextJs = homeJs.replace(/(\/\/ BEGIN fallback projects\n)[\s\S]*?(\/\/ END fallback projects)/,
+    `$1const fallbackProjects = ${JSON.stringify(fallback, null, 2)};\n$2`);
+  if (nextJs !== homeJs) await writeFile(homeJsPath, nextJs, "utf8");
+}
+
 // sitemap.xml
 const sitemapEntries = pages
   .filter(page => page.rel !== "404.html")
