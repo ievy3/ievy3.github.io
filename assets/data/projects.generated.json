@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T00:37:16.253Z",
+  "generatedAt": "2026-10-11T00:55:46.534Z",
   "projects": [
     {
       "title": "Never 7: The End of Infinity",
@@ -21,13 +21,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/never7-v0.9.0/Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
-      "downloadCount": 0,
+      "downloadCount": 5,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/never7-v0.9.0",
       "releaseName": "Never7 -the end of infinity- 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-11T00:19:13Z",
       "updated": "2026-10-11",
       "publicBuilds": 1,
-      "totalDownloads": 0,
+      "totalDownloads": 5,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -39,7 +39,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/never7-v0.9.0/Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
-          "downloadCount": 0
+          "downloadCount": 5
         }
       ],
       "description": "섬에서 보내는 합숙의 날들과 반복되는 시간의 수수께끼를 그린 인피니티 시리즈 첫 작품",
@@ -607,13 +607,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SuikodenTHT-v0.9.0/Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
-      "downloadCount": 759,
+      "downloadCount": 761,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SuikodenTHT-v0.9.0",
       "releaseName": "환상수호전 이어지는 백 년의 시간 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-03T07:27:19Z",
       "updated": "2026-10-03",
       "publicBuilds": 1,
-      "totalDownloads": 759,
+      "totalDownloads": 761,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -625,7 +625,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SuikodenTHT-v0.9.0/Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
-          "downloadCount": 759
+          "downloadCount": 761
         }
       ],
       "description": "요구하는 것은 질서인가, 자유인가. 시간을 넘어 방어되는 새로운 백만 세계의 이야기.",
