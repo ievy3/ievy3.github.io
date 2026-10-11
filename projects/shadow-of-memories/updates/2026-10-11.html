@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 10월 11일 Shadow of Memories 한국어 패치 작업일지">
+  <title>2026.10.11 작업일지 | Shadow of Memories</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-11.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.10.11 작업일지 | Shadow of Memories">
+  <meta property="og:description" content="2026년 10월 11일 Shadow of Memories 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-11.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/shadow-of-memories/title-screen.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.10.11 작업일지 | Shadow of Memories">
+  <meta name="twitter:description" content="2026년 10월 11일 Shadow of Memories 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/shadow-of-memories/title-screen.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=28">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=1">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=1">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/shadow-of-memories/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.10.11</p>
+    <h1>한국어판 완성과<br>화면 검증 마무리</h1>
+    <p>대사가 실제로 그려지는 위치를 다시 찾아 한국어 빌드를 만들고, 번역·그림·화면 검증과 최종 검수까지 마쳤습니다. 지금은 공개 전 마무리 단계입니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>KOREAN BUILD</span><span class="badge">일본어판 기준</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>3,731</strong><span>대사 번역 항목</span></div>
+    <div><strong>87곳</strong><span>그림 한글화</span></div>
+    <div><strong>0</strong><span>열린 결함</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">FINDING</p><h2>대사 위치 바로잡기</h2>
+    <ul class="compact-list">
+      <li>처음 분석 때 대사가 들어 있다고 본 데이터 묶음은, 화면에 쓰이지 않는 사본이었습니다.</li>
+      <li>실제 대사는 각 장의 데이터와 실행 파일 안에서 그려진다는 것을 화면으로 확인하고, 이 위치에 한국어를 넣도록 도구를 다시 만들었습니다.</li>
+      <li>한국어 글을 넣어도 파일 크기는 원본과 같게 유지합니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">FONT</p><h2>한글 표시</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>본문 글꼴 Mulmaru 12px · 한 쪽 2줄</li>
+        <li><span>✓</span>글자 폭에 맞춘 가변폭 표시와 6px 띄어쓰기</li>
+        <li><span>✓</span>굵은 그림 글자는 Pretendard Bold</li>
+        <li><span>✓</span>글자 칸을 1,521자까지 확장</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">SCREEN CHECK</p><h2>화면 검증</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>EXTRA 242개·BGM·엔딩·1~8장과 에필로그 표본</li>
+        <li><span>✓</span>메모 60쪽·아이템 창·시간 이동 화면</li>
+        <li><span>✓</span>그림 72장 중 62장을 게임 화면에서 확인</li>
+        <li><span>✓</span>부팅·저장·불러오기 정상, 일본어 남음·깨짐·넘침 0</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">TRANSLATION</p><h2>번역과 검수</h2>
+    <ul class="compact-list">
+      <li>대사 3,731항목을 번역하고 검수에서 408항목을 고쳤습니다. 인물별 말투 11가지 기준을 정했습니다.</li>
+      <li>메뉴·아이템·메모 등 자막 밖 문구 약 550개와 세이브 문구도 번역했습니다.</li>
+      <li>공개 전 최종 읽기 검수를 세 갈래로 나눠 진행했고, 지적 122건 중 115건을 반영했습니다.</li>
+      <li>말하는 인물이 헷갈리던 줄은 이벤트 데이터와 음성을 대조해 확인했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">GRAPHICS</p><h2>그림 한글화</h2>
+    <ul class="compact-list">
+      <li>문서·편지, 엔딩 독백, 지도 이름, 시간 제한 표시(「남은 N 초」) 등 그림 87곳을 한글로 바꿨습니다.</li>
+      <li>엔딩 독백은 원본과 같은 가운데 정렬로, 지도 이름은 원본처럼 오른쪽 맞춤으로 맞췄습니다.</li>
+      <li>타이틀 로고의 부제와 PSP 홈 화면 아이콘에 한글 제목을 넣었습니다.</li>
+      <li>옵션의 언어 칸은 「한국어 / ENGLISH」로 표시합니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">SAVE DATA</p><h2>세이브 데이터</h2>
+    <ul class="compact-list">
+      <li>북미판 세이브 데이터는 폴더 이름만 바꾸면 한국어판에서 그대로 읽히는 것을 확인했습니다.</li>
+      <li>아이콘 그림의 크기가 원본과 다르면 게임이 시작되지 않는 문제를 찾아, 원본과 같은 크기로 맞춰 해결했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NEXT</p><h2>남은 작업</h2>
+    <ul class="compact-list">
+      <li>HOW TO PLAY의 예시 화면을 한국어 화면으로 교체</li>
+      <li>자동으로 띄울 수 없는 일부 화면을 직접 플레이로 확인</li>
+      <li>PSP 실기 확인과 공개 패치 준비</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">SHADOW OF MEMORIES DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=2" defer></script>
+</body>
+</html>

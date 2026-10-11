@@ -283,9 +283,9 @@ const fallbackProjects = [
     "type": "한국어 패치",
     "status": "development",
     "statusLabel": "작업 중",
-    "stage": 2,
+    "stage": 5,
     "version": "첫 공개 전",
-    "updated": "2026-10-09",
+    "updated": "2026-10-11",
     "totalDownloads": 0,
     "description": "살해당한 주인공이 시간을 거슬러 자신의 죽음을 막으려 하는 시간 여행 어드벤처",
     "keywords": [
@@ -298,9 +298,9 @@ const fallbackProjects = [
     ],
     "verification": [],
     "latestWorklog": {
-      "date": "2026-10-03",
-      "title": "원본 구조 분석과 한글화 기반 확인",
-      "href": "/projects/shadow-of-memories/updates/2026-10-03.html"
+      "date": "2026-10-11",
+      "title": "한국어판 완성과 화면 검증 마무리",
+      "href": "/projects/shadow-of-memories/updates/2026-10-11.html"
     }
   },
   {
@@ -566,15 +566,36 @@ const fallbackProjects = [
   },
   {
     "title": "듀라라라!! 3way standoff",
-    "slug": "durarara-3way-standoff",
+    "href": "/projects/durarara-3way-standoff/",
     "image": "/assets/images/durarara-3way-standoff/official-cover.webp",
     "imageAlt": "듀라라라!! 3way standoff 일본판 PSP 패키지",
+    "imageFit": "contain",
     "platform": "PSP",
     "genre": "어드벤처",
     "subgenre": "노벨",
-    "status": "planned",
-    "statusLabel": "작업 예정",
-    "updated": ""
+    "type": "한국어 패치",
+    "status": "development",
+    "statusLabel": "작업 중",
+    "stage": 4,
+    "version": "첫 공개 전",
+    "updated": "2026-10-11",
+    "totalDownloads": 0,
+    "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",
+    "keywords": [
+      "듀라라라",
+      "듀라라라!!",
+      "durarara",
+      "デュラララ",
+      "3way standoff",
+      "나리타 료우고",
+      "어드벤처"
+    ],
+    "verification": [],
+    "latestWorklog": {
+      "date": "2026-10-11",
+      "title": "구조 분석부터 전체 번역·검수까지",
+      "href": "/projects/durarara-3way-standoff/updates/2026-10-11.html"
+    }
   },
   {
     "title": "마블 얼티밋 얼라이언스",

@@ -366,8 +366,8 @@
     "releaseRepository": "ievy3/ievy3.github.io",
     "genre": "어드벤처",
     "subgenre": "미스터리",
-    "stage": 2,
-    "updated": "2026-10-09",
+    "stage": 5,
+    "updated": "2026-10-11",
     "verification": []
   },
   {
@@ -400,12 +400,28 @@
   {
     "slug": "durarara-3way-standoff",
     "title": "듀라라라!! 3way standoff",
-    "status": "planned",
     "image": "/assets/images/durarara-3way-standoff/official-cover.webp",
     "imageAlt": "듀라라라!! 3way standoff 일본판 PSP 패키지",
     "platform": "PSP",
     "genre": "어드벤처",
-    "subgenre": "노벨"
+    "subgenre": "노벨",
+    "imageFit": "contain",
+    "type": "한국어 패치",
+    "releasePrefix": "dura-",
+    "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",
+    "keywords": [
+      "듀라라라",
+      "듀라라라!!",
+      "durarara",
+      "デュラララ",
+      "3way standoff",
+      "나리타 료우고",
+      "어드벤처"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "stage": 4,
+    "updated": "2026-10-11",
+    "verification": []
   },
   {
     "slug": "nichijou-uchuujin",

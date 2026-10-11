@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 10월 11일 듀라라라!! 3way standoff 한국어 패치 작업일지">
+  <title>2026.10.11 작업일지 | 듀라라라!! 3way standoff</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/durarara-3way-standoff/updates/2026-10-11.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.10.11 작업일지 | 듀라라라!! 3way standoff">
+  <meta property="og:description" content="2026년 10월 11일 듀라라라!! 3way standoff 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/durarara-3way-standoff/updates/2026-10-11.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/durarara-3way-standoff/official-cover.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.10.11 작업일지 | 듀라라라!! 3way standoff">
+  <meta name="twitter:description" content="2026년 10월 11일 듀라라라!! 3way standoff 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/durarara-3way-standoff/official-cover.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=28">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=1">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=1">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/durarara-3way-standoff/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.10.11</p>
+    <h1>구조 분석부터<br>전체 번역·검수까지</h1>
+    <p>게임 구조 분석과 한글 표시 준비를 마치고, 첫 장 말투를 정한 뒤 대사 전체를 번역해 한 차례 검수까지 진행했습니다. 첫 한국어 빌드도 화면에서 확인했습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>TRANSLATION</span><span class="badge">일본어판 기준</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>98.7%</strong><span>번역 반영</span></div>
+    <div><strong>18,500여 행</strong><span>대사 전체 검수</span></div>
+    <div><strong>77장</strong><span>그림 한글화</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">BASE VERSION</p><h2>기준판과 구조</h2>
+    <ul class="compact-list">
+      <li>일본판 PSP NPJH-50484를 기준으로 작업합니다.</li>
+      <li>대사·서술 약 18,800개, 선택지 469개, 스마트폰(PDA) 글이 게임 스크립트에 들어 있는 것을 확인하고, 모두 뽑았다가 원본과 똑같이 되넣을 수 있음을 확인했습니다.</li>
+      <li>그림 3,573장 가운데 글자가 든 그림 441장을 분류했습니다. 거리 풍경 속 글자 등은 원본을 유지합니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">FONT</p><h2>한글 표시</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>본문 글꼴 Neo둥근모 Pro(16px)</li>
+        <li><span>✓</span>타이틀 메뉴 Galmuri11 Bold · 버튼 안내 Galmuri9</li>
+        <li><span>✓</span>한글 2,657자 수록</li>
+        <li><span>✓</span>전각 공백으로 가운데 놓는 줄의 위치 보정</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">SCREEN LIMITS</p><h2>대사창 한도</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>대사창 2줄 · 첫 줄 27자, 둘째 줄 26자</li>
+        <li><span>!</span>한 줄이 32자를 넘으면 진행이 멈춤 → 자동 검사로 방지</li>
+        <li><span>✓</span>채팅 장면의 3줄 대사는 원문 줄 수·폭 이하로 번역</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">TRANSLATION</p><h2>번역</h2>
+    <ul class="compact-list">
+      <li>이름·용어는 정식 소설판 표기를 따르고, 장 제목은 한자음 네 글자로 옮겼습니다.</li>
+      <li>첫 장 말투를 확정한 뒤 본편, alley 본편, 우정 이벤트·주별 맵·주민 잡담, 듀라도라, 후일담·의뢰까지 번역했습니다.</li>
+      <li>전체 147,365행 가운데 145,513행을 반영했습니다. 디버그 화면과 제작 메모는 번역하지 않습니다.</li>
+      <li>채팅의 「ｗ」는 「ㅋㅋ」로, 「장군」과 「쇼군」은 문맥에 따라 구분합니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">REVIEW</p><h2>전체 검수</h2>
+    <ul class="compact-list">
+      <li>대사·서술 18,500여 행과 대사 밖 문구 1,676행을 모두 읽고 검수했습니다.</li>
+      <li>지적은 일괄 치환 없이 한 줄씩 판단해 약 300행을 고쳤습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">KOREAN BUILD</p><h2>한국어 빌드</h2>
+    <ul class="log-checklist">
+      <li><span>✓</span>새 게임 진행, 대사·이름표·서술 한국어 표시</li>
+      <li><span>✓</span>대사 중 메뉴·대화 기록·설정 화면 한국어</li>
+      <li><span>✓</span>설정 화면 글자가 흐리게 나오던 문제 해결</li>
+      <li><span>✓</span>저장 등 시스템 대화상자 한글 시험 성공</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTICE</p><h2>데이터 설치 안내</h2>
+    <ul class="compact-list">
+      <li>이 게임의 「데이터 설치」를 켠 상태에서는 패치판으로 새 게임을 시작하면 멈추는 것을 확인했습니다.</li>
+      <li>설정에서 데이터 설치를 OFF로 바꾸고 ○ 버튼으로 확정하면 정상입니다(× 버튼으로 나가면 저장되지 않습니다). 패치 공개 때 함께 안내합니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NEXT</p><h2>남은 작업</h2>
+    <ul class="compact-list">
+      <li>스마트폰 제목 49개 번역과 채팅 3줄 대사 화면 확인</li>
+      <li>튜토리얼 그림 등 남은 그림 한글화</li>
+      <li>PSP-1000 실기 확인과 공개 패치(xdelta) 준비</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">DURARARA!! 3WAY STANDOFF DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=2" defer></script>
+</body>
+</html>
