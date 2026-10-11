@@ -14,6 +14,10 @@
   --green:#7bd9a4;
 }
 *{box-sizing:border-box}
+/* 줄바꿈 다듬기: 제목은 줄 길이를 고르게, 본문은 마지막 줄에 한 낱말만 남지 않게 */
+h1,h2,h3,.project-card h3,.latest-update-copy strong,figcaption strong,summary span{text-wrap:balance}
+p,li,figcaption span,small,.notice,.project-desc,.kv>div{text-wrap:pretty}
+
 html{scroll-behavior:smooth}
 body{
   margin:0;
