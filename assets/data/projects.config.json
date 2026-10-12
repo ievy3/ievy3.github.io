@@ -421,9 +421,11 @@
       "앨리"
     ],
     "releaseRepository": "ievy3/ievy3.github.io",
-    "stage": 4,
-    "updated": "2026-10-11",
-    "verification": []
+    "stage": 6,
+    "updated": "2026-10-13",
+    "verification": [
+      "PSP-1000"
+    ]
   },
   {
     "slug": "nichijou-uchuujin",

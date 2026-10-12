@@ -20,9 +20,9 @@ const fallbackProjects = [
     "type": "한국어 패치",
     "status": "development",
     "statusLabel": "작업 중",
-    "stage": 4,
+    "stage": 6,
     "version": "첫 공개 전",
-    "updated": "2026-10-11",
+    "updated": "2026-10-13",
     "totalDownloads": 0,
     "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",
     "keywords": [
@@ -36,11 +36,13 @@ const fallbackProjects = [
       "alley",
       "앨리"
     ],
-    "verification": [],
+    "verification": [
+      "PSP-1000"
+    ],
     "latestWorklog": {
-      "date": "2026-10-11",
-      "title": "구조 분석부터 전체 번역·검수까지",
-      "href": "/projects/durarara-3way-standoff-alley/updates/2026-10-11.html"
+      "date": "2026-10-13",
+      "title": "v0.9.0 첫 공개",
+      "href": "/projects/durarara-3way-standoff-alley/updates/2026-10-13.html"
     }
   },
   {
