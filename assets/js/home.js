@@ -86,8 +86,8 @@ const fallbackProjects = [
   {
     "title": "Shadow of Memories",
     "href": "/projects/shadow-of-memories/",
-    "image": "/assets/images/shadow-of-memories/title-screen.webp",
-    "imageAlt": "Shadow of Memories PSP 타이틀 화면",
+    "image": "/assets/images/shadow-of-memories/2026-10-12-title-ko.webp",
+    "imageAlt": "Shadow of Memories 한글 부제가 들어간 타이틀 화면",
     "imageFit": "cover",
     "platform": "PSP",
     "genre": "어드벤처",
