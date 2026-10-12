@@ -322,7 +322,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/JingujiAD-v0.9.0",
     "releasePublishedAt": "2026-10-09T03:02:35Z",
-    "totalDownloads": 727,
+    "totalDownloads": 728,
     "description": "가부키초를 무대로 여러 의뢰와 인물의 이해관계가 교차하는 하드보일드 추리 어드벤처",
     "keywords": [
       "탐정 진구지 사부로",
@@ -362,7 +362,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiP-v0.9.5/Saki_Portable_Korean_Patch_v0.9.5.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiP-v0.9.5",
     "releasePublishedAt": "2026-10-05T15:07:34Z",
-    "totalDownloads": 426,
+    "totalDownloads": 427,
     "description": "TV 애니메이션을 바탕으로 캐릭터별 능력과 스토리를 재현한 대전 마작 게임",
     "keywords": [
       "사키 포터블",
