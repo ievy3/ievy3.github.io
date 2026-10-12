@@ -26,7 +26,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
     "releasePublishedAt": "2026-10-12T15:30:13Z",
-    "totalDownloads": 0,
+    "totalDownloads": 37,
     "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",
     "keywords": [
       "듀라라라",
@@ -47,46 +47,6 @@ const fallbackProjects = [
       "date": "2026-10-13",
       "title": "v0.9.0 첫 공개",
       "href": "/projects/durarara-3way-standoff-alley/updates/2026-10-13.html"
-    }
-  },
-  {
-    "title": "Never 7: The End of Infinity",
-    "href": "/projects/never7/",
-    "image": "/assets/images/never7/title-screen.webp",
-    "imageAlt": "Never 7: The End of Infinity PSP 타이틀 화면",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "어드벤처",
-    "subgenre": "연애",
-    "type": "한국어 패치",
-    "status": "public",
-    "statusLabel": "베타 공개",
-    "stage": 6,
-    "version": "v0.9.0",
-    "updated": "2026-10-11",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/never7-v0.9.0/Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/never7-v0.9.0",
-    "releasePublishedAt": "2026-10-11T00:19:13Z",
-    "totalDownloads": 465,
-    "description": "섬에서 보내는 합숙의 날들과 반복되는 시간의 수수께끼를 그린 인피니티 시리즈 첫 작품",
-    "keywords": [
-      "네버7",
-      "네버 세븐",
-      "never7",
-      "never 7",
-      "infinity",
-      "인피니티",
-      "kid",
-      "어드벤처"
-    ],
-    "verification": [
-      "PPSSPP",
-      "PSP-1000"
-    ],
-    "latestWorklog": {
-      "date": "2026-10-11",
-      "title": "소개 영상 한글화와 v0.9.0 공개 준비",
-      "href": "/projects/never7/updates/2026-10-11.html"
     }
   },
   {
@@ -119,6 +79,46 @@ const fallbackProjects = [
       "date": "2026-10-12",
       "title": "말투 정리와 HOW TO PLAY 한글화",
       "href": "/projects/shadow-of-memories/updates/2026-10-12.html"
+    }
+  },
+  {
+    "title": "Never 7: The End of Infinity",
+    "href": "/projects/never7/",
+    "image": "/assets/images/never7/title-screen.webp",
+    "imageAlt": "Never 7: The End of Infinity PSP 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "연애",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.0",
+    "updated": "2026-10-11",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/never7-v0.9.0/Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/never7-v0.9.0",
+    "releasePublishedAt": "2026-10-11T00:19:13Z",
+    "totalDownloads": 468,
+    "description": "섬에서 보내는 합숙의 날들과 반복되는 시간의 수수께끼를 그린 인피니티 시리즈 첫 작품",
+    "keywords": [
+      "네버7",
+      "네버 세븐",
+      "never7",
+      "never 7",
+      "infinity",
+      "인피니티",
+      "kid",
+      "어드벤처"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-10-11",
+      "title": "소개 영상 한글화와 v0.9.0 공개 준비",
+      "href": "/projects/never7/updates/2026-10-11.html"
     }
   },
   {
@@ -206,7 +206,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mv-v0.9.0/MagicalVacation_KrPatcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mv-v0.9.0",
     "releasePublishedAt": "2026-10-10T02:48:17Z",
-    "totalDownloads": 481,
+    "totalDownloads": 482,
     "description": "마법 학교 학생들의 모험을 그린 브라우니 브라운의 GBA RPG",
     "keywords": [
       "매지컬 베케이션",
@@ -243,7 +243,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
     "releasePublishedAt": "2026-10-09T01:10:57Z",
-    "totalDownloads": 335,
+    "totalDownloads": 338,
     "description": "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",
     "keywords": [
       "내 여동생이 이렇게 귀여울 리가 없어",
@@ -282,7 +282,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiA-v0.9.0/Saki_Achiga_Korean_Patch_v0.9.0-rc7.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiA-v0.9.0",
     "releasePublishedAt": "2026-10-09T00:16:57Z",
-    "totalDownloads": 206,
+    "totalDownloads": 207,
     "description": "아치가 여학원의 소녀들이 전국 무대를 향해 나아가는 이야기를 바탕으로 한 대전 마작 게임",
     "keywords": [
       "사키 아치가편 포터블",
@@ -362,7 +362,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiP-v0.9.5/Saki_Portable_Korean_Patch_v0.9.5.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiP-v0.9.5",
     "releasePublishedAt": "2026-10-05T15:07:34Z",
-    "totalDownloads": 427,
+    "totalDownloads": 428,
     "description": "TV 애니메이션을 바탕으로 캐릭터별 능력과 스토리를 재현한 대전 마작 게임",
     "keywords": [
       "사키 포터블",
