@@ -61,7 +61,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/never7-v0.9.0/Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/never7-v0.9.0",
     "releasePublishedAt": "2026-10-11T00:19:13Z",
-    "totalDownloads": 413,
+    "totalDownloads": 416,
     "description": "섬에서 보내는 합숙의 날들과 반복되는 시간의 수수께끼를 그린 인피니티 시리즈 첫 작품",
     "keywords": [
       "네버7",
@@ -316,7 +316,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/JingujiAD-v0.9.0",
     "releasePublishedAt": "2026-10-09T03:02:35Z",
-    "totalDownloads": 701,
+    "totalDownloads": 703,
     "description": "가부키초를 무대로 여러 의뢰와 인물의 이해관계가 교차하는 하드보일드 추리 어드벤처",
     "keywords": [
       "탐정 진구지 사부로",
