@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T01:11:05.132Z",
+  "generatedAt": "2026-10-12T15:30:22.961Z",
   "projects": [
     {
       "title": "듀라라라!! 3way standoff -alley-",
@@ -15,14 +15,33 @@
       "genre": "어드벤처",
       "subgenre": "노벨",
       "type": "한국어 패치",
-      "status": "development",
-      "statusLabel": "작업 중",
+      "status": "public",
+      "statusLabel": "베타 공개",
       "stage": 6,
-      "version": "첫 공개 전",
+      "version": "v0.9.0",
+      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
+      "downloadAsset": "Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
+      "downloadCount": 0,
+      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
+      "releaseName": "듀라라라!! 3way standoff -alley- 한글 패치 v0.9.0",
+      "releasePublishedAt": "2026-10-12T15:30:13Z",
       "updated": "2026-10-13",
-      "publicBuilds": 0,
+      "publicBuilds": 1,
       "totalDownloads": 0,
-      "releaseHistory": [],
+      "releaseHistory": [
+        {
+          "version": "v0.9.0",
+          "tag": "dura-v0.9.0",
+          "releaseName": "듀라라라!! 3way standoff -alley- 한글 패치 v0.9.0",
+          "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
+          "publishedAt": "2026-10-12T15:30:13Z",
+          "date": "2026-10-13",
+          "prerelease": true,
+          "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
+          "downloadAsset": "Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
+          "downloadCount": 0
+        }
+      ],
       "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",
       "keywords": [
         "듀라라라",
@@ -36,6 +55,7 @@
         "앨리"
       ],
       "verification": [
+        "PPSSPP",
         "PSP-1000"
       ],
       "latestWorklog": {
@@ -43,7 +63,7 @@
         "title": "v0.9.0 첫 공개",
         "href": "/projects/durarara-3way-standoff-alley/updates/2026-10-13.html"
       },
-      "latestReleaseTag": null
+      "latestReleaseTag": "dura-v0.9.0"
     },
     {
       "title": "Never 7: The End of Infinity",
@@ -65,13 +85,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/never7-v0.9.0/Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
-      "downloadCount": 416,
+      "downloadCount": 465,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/never7-v0.9.0",
       "releaseName": "Never7 -the end of infinity- 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-11T00:19:13Z",
       "updated": "2026-10-11",
       "publicBuilds": 1,
-      "totalDownloads": 416,
+      "totalDownloads": 465,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -83,7 +103,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/never7-v0.9.0/Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
-          "downloadCount": 416
+          "downloadCount": 465
         }
       ],
       "description": "섬에서 보내는 합숙의 날들과 반복되는 시간의 수수께끼를 그린 인피니티 시리즈 첫 작품",
@@ -248,13 +268,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mv-v0.9.0/MagicalVacation_KrPatcher_v0.9.0.zip",
       "downloadAsset": "MagicalVacation_KrPatcher_v0.9.0.zip",
-      "downloadCount": 463,
+      "downloadCount": 481,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mv-v0.9.0",
       "releaseName": "매지컬 베케이션 한글 패치 v0.9.0 ",
       "releasePublishedAt": "2026-10-10T02:48:17Z",
       "updated": "2026-10-10",
       "publicBuilds": 1,
-      "totalDownloads": 463,
+      "totalDownloads": 481,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -266,7 +286,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mv-v0.9.0/MagicalVacation_KrPatcher_v0.9.0.zip",
           "downloadAsset": "MagicalVacation_KrPatcher_v0.9.0.zip",
-          "downloadCount": 463
+          "downloadCount": 481
         }
       ],
       "description": "마법 학교 학생들의 모험을 그린 브라우니 브라운의 GBA RPG",
@@ -308,13 +328,13 @@
       "version": "v1.0.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
       "downloadAsset": "OreImoDisc2KrPatcher.zip",
-      "downloadCount": 316,
+      "downloadCount": 335,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
       "releaseName": "내 여동생이 이렇게 귀여울 리가 없어 포터블이 계속될 리가 없어 Disc 2 한글 패치",
       "releasePublishedAt": "2026-10-09T01:10:57Z",
       "updated": "2026-10-09",
       "publicBuilds": 1,
-      "totalDownloads": 316,
+      "totalDownloads": 335,
       "releaseHistory": [
         {
           "version": "v1.0.0",
@@ -326,7 +346,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
           "downloadAsset": "OreImoDisc2KrPatcher.zip",
-          "downloadCount": 316
+          "downloadCount": 335
         }
       ],
       "description": "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",
@@ -370,13 +390,13 @@
       "version": "v0.9.0-rc7",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiA-v0.9.0/Saki_Achiga_Korean_Patch_v0.9.0-rc7.zip",
       "downloadAsset": "Saki_Achiga_Korean_Patch_v0.9.0-rc7.zip",
-      "downloadCount": 196,
+      "downloadCount": 206,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiA-v0.9.0",
       "releaseName": "사키 아치가편 포터블 한글 패치 v0.9.0-rc7",
       "releasePublishedAt": "2026-10-09T00:16:57Z",
       "updated": "2026-10-09",
       "publicBuilds": 1,
-      "totalDownloads": 196,
+      "totalDownloads": 206,
       "releaseHistory": [
         {
           "version": "v0.9.0-rc7",
@@ -388,7 +408,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiA-v0.9.0/Saki_Achiga_Korean_Patch_v0.9.0-rc7.zip",
           "downloadAsset": "Saki_Achiga_Korean_Patch_v0.9.0-rc7.zip",
-          "downloadCount": 196
+          "downloadCount": 206
         }
       ],
       "description": "아치가 여학원의 소녀들이 전국 무대를 향해 나아가는 이야기를 바탕으로 한 대전 마작 게임",
@@ -433,13 +453,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
       "downloadAsset": "TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
-      "downloadCount": 703,
+      "downloadCount": 727,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/JingujiAD-v0.9.0",
       "releaseName": "탐정 진구지 사부로: 재와 다이아몬드 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-09T03:02:35Z",
       "updated": "2026-10-09",
       "publicBuilds": 1,
-      "totalDownloads": 703,
+      "totalDownloads": 727,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -451,7 +471,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
           "downloadAsset": "TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
-          "downloadCount": 703
+          "downloadCount": 727
         }
       ],
       "description": "가부키초를 무대로 여러 의뢰와 인물의 이해관계가 교차하는 하드보일드 추리 어드벤처",
@@ -496,13 +516,13 @@
       "version": "v0.9.5",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiP-v0.9.5/Saki_Portable_Korean_Patch_v0.9.5.zip",
       "downloadAsset": "Saki_Portable_Korean_Patch_v0.9.5.zip",
-      "downloadCount": 420,
+      "downloadCount": 426,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiP-v0.9.5",
       "releaseName": "사키 포터블 한글 패치 v0.9.5 Pre-release",
       "releasePublishedAt": "2026-10-05T15:07:34Z",
       "updated": "2026-10-06",
       "publicBuilds": 1,
-      "totalDownloads": 420,
+      "totalDownloads": 426,
       "releaseHistory": [
         {
           "version": "v0.9.5",
@@ -514,7 +534,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiP-v0.9.5/Saki_Portable_Korean_Patch_v0.9.5.zip",
           "downloadAsset": "Saki_Portable_Korean_Patch_v0.9.5.zip",
-          "downloadCount": 420
+          "downloadCount": 426
         }
       ],
       "description": "TV 애니메이션을 바탕으로 캐릭터별 능력과 스토리를 재현한 대전 마작 게임",
@@ -557,13 +577,13 @@
       "version": "v0.9.3-beta.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.3/Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
-      "downloadCount": 341,
+      "downloadCount": 347,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.3",
       "releaseName": "Hexyz Force 한글 패치 v0.9.3 — 공개 검수판 (261006)",
       "releasePublishedAt": "2026-10-06T02:04:52Z",
       "updated": "2026-10-06",
       "publicBuilds": 4,
-      "totalDownloads": 1724,
+      "totalDownloads": 1730,
       "releaseHistory": [
         {
           "version": "v0.9.3-beta.1",
@@ -575,7 +595,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.3/Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
-          "downloadCount": 341
+          "downloadCount": 347
         },
         {
           "version": "v0.9.2-beta.1",
@@ -651,13 +671,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SuikodenTHT-v0.9.0/Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
-      "downloadCount": 773,
+      "downloadCount": 776,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SuikodenTHT-v0.9.0",
       "releaseName": "환상수호전 이어지는 백 년의 시간 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-03T07:27:19Z",
       "updated": "2026-10-03",
       "publicBuilds": 1,
-      "totalDownloads": 773,
+      "totalDownloads": 776,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -669,7 +689,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SuikodenTHT-v0.9.0/Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
-          "downloadCount": 773
+          "downloadCount": 776
         }
       ],
       "description": "요구하는 것은 질서인가, 자유인가. 시간을 넘어 방어되는 새로운 백만 세계의 이야기.",
@@ -715,13 +735,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
-      "downloadCount": 612,
+      "downloadCount": 614,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/GOC6-v0.9.0",
       "releaseName": "제네레이션 오브 카오스 6 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-03T07:45:14Z",
       "updated": "2026-10-03",
       "publicBuilds": 1,
-      "totalDownloads": 612,
+      "totalDownloads": 614,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -733,7 +753,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
-          "downloadCount": 612
+          "downloadCount": 614
         }
       ],
       "description": "대륙 제패를 목표로 내정·부대 운용·전투를 병행하는 판타지 전략 RPG",
@@ -776,13 +796,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
-      "downloadCount": 480,
+      "downloadCount": 485,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.9.0",
       "releaseName": "서몬나이트 5 (Summon Night 5) 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-01T15:02:39Z",
       "updated": "2026-10-02",
       "publicBuilds": 2,
-      "totalDownloads": 1050,
+      "totalDownloads": 1055,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -794,7 +814,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
-          "downloadCount": 480
+          "downloadCount": 485
         },
         {
           "version": "v0.7.0",
@@ -848,13 +868,13 @@
       "version": "v0.9.3",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
-      "downloadCount": 543,
+      "downloadCount": 546,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/soltrigger-v0.9.3",
       "releaseName": "솔 트리거 (SOL TRIGGER) 한글 패치 v0.9.3",
       "releasePublishedAt": "2026-10-01T13:51:21Z",
       "updated": "2026-10-01",
       "publicBuilds": 3,
-      "totalDownloads": 1165,
+      "totalDownloads": 1168,
       "releaseHistory": [
         {
           "version": "v0.9.3",
@@ -866,7 +886,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
-          "downloadCount": 543
+          "downloadCount": 546
         },
         {
           "version": "v0.9.2",
