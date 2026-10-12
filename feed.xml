@@ -5,8 +5,24 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-10-11T00:00:00+09:00</updated>
+  <updated>2026-10-13T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[듀라라라!! 3way standoff -alley-] v0.9.0 첫 공개</title>
+    <link href="https://ievy3.github.io/projects/durarara-3way-standoff-alley/updates/2026-10-13.html"/>
+    <id>https://ievy3.github.io/projects/durarara-3way-standoff-alley/updates/2026-10-13.html</id>
+    <updated>2026-10-13T00:00:00+09:00</updated>
+    <category term="듀라라라!! 3way standoff -alley-"/>
+    <summary>오프라인 패처와 xdelta 패치를 담은 첫 공개판 v0.9.0을 준비했습니다. 패치를 원본에 적용한 결과가 실기에서 확인한 빌드와 같은지 확인했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[듀라라라!! 3way standoff -alley-] 채팅 화면 수리와 그림 전면 재제작</title>
+    <link href="https://ievy3.github.io/projects/durarara-3way-standoff-alley/updates/2026-10-12.html"/>
+    <id>https://ievy3.github.io/projects/durarara-3way-standoff-alley/updates/2026-10-12.html</id>
+    <updated>2026-10-12T00:00:00+09:00</updated>
+    <category term="듀라라라!! 3way standoff -alley-"/>
+    <summary>채팅 화면 결함을 고치고 남은 번역을 모두 마쳤습니다. 로고·장 제목·튜토리얼 등 그림 글자를 다시 만들고, 릴리스 후보를 PSP 실기에서 확인했습니다.</summary>
+  </entry>
   <entry>
     <title>[듀라라라!! 3way standoff -alley-] 구조 분석부터 전체 번역·검수까지</title>
     <link href="https://ievy3.github.io/projects/durarara-3way-standoff-alley/updates/2026-10-11.html"/>
@@ -310,21 +326,5 @@
     <updated>2026-09-26T00:00:00+09:00</updated>
     <category term="Summon Night 5"/>
     <summary>전날 고정한 기준선에서 번역·기술·이미지 작업을 다시 검증하고 하나의 통합본으로 묶었습니다. 이미지 218개를 최종 확정했으며 텍스트 전 범위의 정적 검증도 통과했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Summon Night 5] F20 문제 조사와 기준선 재정립</title>
-    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-09-25.html"/>
-    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-09-25.html</id>
-    <updated>2026-09-25T00:00:00+09:00</updated>
-    <category term="Summon Night 5"/>
-    <summary>시험 빌드에서 튜토리얼 조작 불가, 글자 깨짐, 일본어 잔존과 일부 이미지·메뉴 오류가 확인돼 원본 대조와 재구성 실험을 진행했습니다. 문제를 그대로 덮지 않고 재현 가능한 입력 상태를 새 기준선으로 고정했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Summon Night 5] 이미지 재생성과 폰트 확정본 반영</title>
-    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-09-24.html"/>
-    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-09-24.html</id>
-    <updated>2026-09-24T00:00:00+09:00</updated>
-    <category term="Summon Night 5"/>
-    <summary>이미지 재생성분을 대규모로 반영하고 최종 폰트 패키지를 검증해 다시 주입했습니다. 이미지 대상과 패치 수는 그대로 유지하면서 실제 빌드에 들어갈 자산을 정리했습니다.</summary>
   </entry>
 </feed>

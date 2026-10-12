@@ -20,7 +20,7 @@ const fallbackProjects = [
     "type": "한국어 패치",
     "status": "public",
     "statusLabel": "베타 공개",
-    "stage": 4,
+    "stage": 6,
     "version": "v0.9.0",
     "updated": "2026-10-13",
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
@@ -40,12 +40,13 @@ const fallbackProjects = [
       "앨리"
     ],
     "verification": [
-      "PPSSPP"
+      "PPSSPP",
+      "PSP-1000"
     ],
     "latestWorklog": {
-      "date": "2026-10-11",
-      "title": "구조 분석부터 전체 번역·검수까지",
-      "href": "/projects/durarara-3way-standoff-alley/updates/2026-10-11.html"
+      "date": "2026-10-13",
+      "title": "v0.9.0 첫 공개",
+      "href": "/projects/durarara-3way-standoff-alley/updates/2026-10-13.html"
     }
   },
   {
@@ -91,8 +92,8 @@ const fallbackProjects = [
   {
     "title": "Shadow of Memories",
     "href": "/projects/shadow-of-memories/",
-    "image": "/assets/images/shadow-of-memories/title-screen.webp",
-    "imageAlt": "Shadow of Memories PSP 타이틀 화면",
+    "image": "/assets/images/shadow-of-memories/2026-10-12-title-ko.webp",
+    "imageAlt": "Shadow of Memories 한글 부제가 들어간 타이틀 화면",
     "imageFit": "cover",
     "platform": "PSP",
     "genre": "어드벤처",
