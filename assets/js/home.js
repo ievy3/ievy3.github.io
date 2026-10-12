@@ -103,7 +103,7 @@ const fallbackProjects = [
     "statusLabel": "작업 중",
     "stage": 5,
     "version": "첫 공개 전",
-    "updated": "2026-10-11",
+    "updated": "2026-10-12",
     "totalDownloads": 0,
     "description": "살해당한 주인공이 시간을 거슬러 자신의 죽음을 막으려 하는 시간 여행 어드벤처",
     "keywords": [
@@ -116,9 +116,9 @@ const fallbackProjects = [
     ],
     "verification": [],
     "latestWorklog": {
-      "date": "2026-10-11",
-      "title": "한국어판 완성과 화면 검증 마무리",
-      "href": "/projects/shadow-of-memories/updates/2026-10-11.html"
+      "date": "2026-10-12",
+      "title": "말투 정리와 HOW TO PLAY 한글화",
+      "href": "/projects/shadow-of-memories/updates/2026-10-12.html"
     }
   },
   {
