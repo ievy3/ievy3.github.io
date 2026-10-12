@@ -198,6 +198,30 @@ if (listed.length) {
     "keywords", "verification", "latestWorklog"];
   const fallback = (generatedIndex.projects || []).map(project =>
     Object.fromEntries(fallbackKeys.filter(key => project[key] !== undefined && project[key] !== null).map(key => [key, project[key]])));
+  // README.md의 프로젝트 목록: 공개 → 작업 중 → 작업 예정 순서.
+  const stageNames = ["게임 분석", "번역 준비", "대사 번역", "화면 한글화", "실행 검수", "패치 배포"];
+  const byUpdated = (a, b) => (b.updated || "").localeCompare(a.updated || "") || a.title.localeCompare(b.title, "ko");
+  const projectLink = project => `[${project.title}](${siteUrl}${project.href}) (${project.platform})`;
+  const publicList = listed.filter(project => project.status === "public").sort(byUpdated)
+    .map(project => `- ${projectLink(project)} — **${project.version}** · ${project.statusLabel}`);
+  const workingList = listed.filter(project => project.status !== "public").sort((a, b) => (b.stage || 0) - (a.stage || 0) || byUpdated(a, b))
+    .map(project => `- ${projectLink(project)} — 작업 중${project.stage ? ` · ${project.stage}단계 ${stageNames[project.stage - 1]}` : ""}`);
+  const plannedList = (generatedIndex.projects || []).filter(project => project.status === "planned")
+    .map(project => `- ${project.title} (${project.platform})`);
+  const readmeBlock = [
+    `현재 공개 허브에서 관리하는 프로젝트는 **${listed.length}개**입니다(공개 ${publicList.length} · 작업 중 ${workingList.length}). 버전은 공개된 최신 배포본 기준입니다.`,
+    "",
+    "### 공개",
+    "",
+    ...publicList,
+    ...(workingList.length ? ["", "### 작업 중", "", ...workingList] : []),
+    ...(plannedList.length ? ["", "### 작업 예정", "", ...plannedList] : [])
+  ].join("\n");
+  const readmePath = path.join(root, "README.md");
+  const readme = await readFile(readmePath, "utf8").catch(() => "");
+  const nextReadme = readme.replace(/(<!-- BEGIN projects[^\n]*-->\n)[\s\S]*?(<!-- END projects -->)/, `$1${readmeBlock}\n$2`);
+  if (readme && nextReadme !== readme) await writeFile(readmePath, nextReadme, "utf8");
+
   const homeJsPath = path.join(root, "assets/js/home.js");
   const homeJs = await readFile(homeJsPath, "utf8");
   const nextJs = homeJs.replace(/(\/\/ BEGIN fallback projects\n)[\s\S]*?(\/\/ END fallback projects)/,

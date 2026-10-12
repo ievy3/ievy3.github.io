@@ -16,9 +16,14 @@
 
 ## Projects
 
-현재 공개 허브에서 관리하는 프로젝트는 **14개**입니다. 아래 버전은 공개된 최신 베타 배포본을 기준으로 합니다.
+<!-- BEGIN projects (scripts/build-site-files.mjs가 projects.generated.json으로 자동 갱신합니다) -->
+현재 공개 허브에서 관리하는 프로젝트는 **16개**입니다(공개 13 · 작업 중 3). 버전은 공개된 최신 배포본 기준입니다.
 
-- [매지컬 베케이션 (Magical Vacation)](https://ievy3.github.io/projects/magical-vacation/) (GBA) — **v0.9.0** · 베타 공개
+### 공개
+
+- [듀라라라!! 3way standoff -alley-](https://ievy3.github.io/projects/durarara-3way-standoff-alley/) (PSP) — **v0.9.0** · 베타 공개
+- [Never 7: The End of Infinity](https://ievy3.github.io/projects/never7/) (PSP) — **v0.9.0** · 베타 공개
+- [Magical Vacation](https://ievy3.github.io/projects/magical-vacation/) (GBA) — **v0.9.0** · 베타 공개
 - [내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어](https://ievy3.github.io/projects/oreimo-portable-tsuzuku/) (PSP) — **v1.0.0** · 베타 공개
 - [사키 아치가편 포터블](https://ievy3.github.io/projects/saki-achiga-portable/) (PSP) — **v0.9.0-rc7** · 베타 공개
 - [탐정 진구지 사부로: 재와 다이아몬드](https://ievy3.github.io/projects/jinguji-ashes-and-diamonds/) (PSP) — **v0.9.0** · 베타 공개
@@ -29,9 +34,18 @@
 - [Summon Night 5](https://ievy3.github.io/projects/summon-night-5/) (PSP) — **v0.9.0** · 베타 공개
 - [Sol Trigger](https://ievy3.github.io/projects/sol-trigger/) (PSP) — **v0.9.3** · 베타 공개
 - [Gungnir](https://ievy3.github.io/projects/gungnir/) (PSP) — **v0.9.0** · 베타 공개
-- [Never 7: The End of Infinity](https://ievy3.github.io/projects/never7/) (PSP) — 개발 중 · 3단계 대사 번역
-- [바케모노가타리 포터블](https://ievy3.github.io/projects/bakemonogatari-portable/) (PSP) — 개발 중 · 2단계 번역 준비
-- [Shadow of Memories](https://ievy3.github.io/projects/shadow-of-memories/) (PSP) — 개발 중 · 2단계 번역 준비
+
+### 작업 중
+
+- [Shadow of Memories](https://ievy3.github.io/projects/shadow-of-memories/) (PSP) — 작업 중 · 5단계 실행 검수
+- [크로노아 히어로즈: 전설의 스타 메달](https://ievy3.github.io/projects/klonoa-heroes/) (GBA) — 작업 중 · 4단계 화면 한글화
+- [바케모노가타리 포터블](https://ievy3.github.io/projects/bakemonogatari-portable/) (PSP) — 작업 중 · 3단계 대사 번역
+
+### 작업 예정
+
+- 마블 얼티밋 얼라이언스 (PSP)
+- 일상 (우주인) (PSP)
+<!-- END projects -->
 
 최신 다운로드 링크와 패치 이력, 적용 안내, 작업 기록은 각 프로젝트 페이지에서 확인할 수 있습니다.
 
@@ -45,14 +59,19 @@
 
 ## Site Automation
 
-`main` 브랜치에 페이지가 추가·수정되면 GitHub Actions가 다음 작업을 자동으로 수행합니다.
+`main` 브랜치에 페이지가 추가·수정되거나 Release가 올라오면 GitHub Actions(`update-project-index.yml`)가 다음 작업을 자동으로 수행합니다. 다운로드 수 갱신을 위해 매일 한 번(한국 시간 03:17)도 실행됩니다.
 
-- `scripts/generate-projects.mjs` — Release 정보를 모아 홈페이지 프로젝트 목록(`assets/data/projects.generated.json`) 갱신
-- `scripts/build-site-files.mjs` — 각 페이지의 공유 미리보기(Open Graph)·canonical 태그 보강, 공용 CSS/JS 캐시 버전 통일, `sitemap.xml`과 작업일지 피드(`feed.xml`) 생성
+- `scripts/generate-projects.mjs` — Release 정보와 작업일지를 모아 홈페이지 프로젝트 목록(`assets/data/projects.generated.json`)을 갱신합니다. 누적 다운로드 수는 대문 「인기 패치」에 쓰입니다.
+- `scripts/localize-images.mjs` — 프로젝트 페이지가 외부 사이트에서 불러오는 그림을 내려받아 사이트 안에 저장합니다.
+- `scripts/build-light-theme.mjs` — 기본 CSS에서 밝은 테마(`assets/css/theme-light.css`)를 만듭니다. 손으로 보정할 부분은 `assets/css/theme-light.extra.css`에 둡니다.
+- `scripts/build-site-files.mjs` — 공유 미리보기(Open Graph)·canonical 태그 보강, 공용 CSS/JS 캐시 버전 통일, `sitemap.xml`·작업일지 피드(`feed.xml`) 생성, 대문의 프로젝트 수·noscript 목록·예비 데이터와 이 README의 프로젝트 목록 갱신.
 
-각 프로젝트의 현재 제작 단계(1~6단계)는 `assets/data/projects.config.json`의 `stage` 값으로 지정하며, 대문 프로젝트 카드에 표시됩니다.
+프로젝트 정보는 `assets/data/projects.config.json`에서 관리합니다.
 
-사이드 메뉴의 「밝은 화면」 버튼으로 밝은 테마를 고를 수 있습니다. 밝은 테마 CSS(`assets/css/theme-light.css`)는 `scripts/build-light-theme.mjs`가 기본 CSS에서 자동으로 만들며, 손으로 보정할 부분은 `assets/css/theme-light.extra.css`에 둡니다.
+- `stage` — 제작 단계(1~6). 대문 카드와 프로젝트 페이지에 표시됩니다.
+- `genre` / `subgenre` — 대분류(RPG·SRPG·어드벤처·테이블)와 세부 장르. 대문의 장르 필터에 쓰입니다.
+- `status: "planned"` — 대문 「작업 예정」 목록에만 표시합니다.
+- `releasePrefix` — 이 접두사로 시작하는 Release 태그(예: `never7-v0.9.0`)를 그 프로젝트의 배포본으로 인식합니다.
 
 작업일지 새 소식은 [Atom 피드](https://ievy3.github.io/feed.xml)로 구독할 수 있습니다.
 
