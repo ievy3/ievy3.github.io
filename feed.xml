@@ -8,12 +8,36 @@
   <updated>2026-10-11T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
   <entry>
+    <title>[듀라라라!! 3way standoff -alley-] 구조 분석부터 전체 번역·검수까지</title>
+    <link href="https://ievy3.github.io/projects/durarara-3way-standoff-alley/updates/2026-10-11.html"/>
+    <id>https://ievy3.github.io/projects/durarara-3way-standoff-alley/updates/2026-10-11.html</id>
+    <updated>2026-10-11T00:00:00+09:00</updated>
+    <category term="듀라라라!! 3way standoff -alley-"/>
+    <summary>게임 구조 분석과 한글 표시 준비를 마치고, 첫 장 말투를 정한 뒤 대사 전체를 번역해 한 차례 검수까지 진행했습니다. 첫 한국어 빌드도 화면에서 확인했습니다.</summary>
+  </entry>
+  <entry>
     <title>[Never 7: The End of Infinity] 소개 영상 한글화와 v0.9.0 공개 준비</title>
     <link href="https://ievy3.github.io/projects/never7/updates/2026-10-11.html"/>
     <id>https://ievy3.github.io/projects/never7/updates/2026-10-11.html</id>
     <updated>2026-10-11T00:00:00+09:00</updated>
     <category term="Never 7: The End of Infinity"/>
     <summary>게임 시작 때 나오는 소개 영상을 한글화하고, 첫 공개판 v0.9.0 패치 꾸러미를 준비했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[Shadow of Memories] 한국어판 완성과 화면 검증 마무리</title>
+    <link href="https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-11.html"/>
+    <id>https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-11.html</id>
+    <updated>2026-10-11T00:00:00+09:00</updated>
+    <category term="Shadow of Memories"/>
+    <summary>대사가 실제로 그려지는 위치를 다시 찾아 한국어 빌드를 만들고, 번역·그림·화면 검증과 최종 검수까지 마쳤습니다. 지금은 공개 전 마무리 단계입니다.</summary>
+  </entry>
+  <entry>
+    <title>[바케모노가타리 포터블] 첫 장 문체 확정과 본격 번역 시작</title>
+    <link href="https://ievy3.github.io/projects/bakemonogatari-portable/updates/2026-10-10.html"/>
+    <id>https://ievy3.github.io/projects/bakemonogatari-portable/updates/2026-10-10.html</id>
+    <updated>2026-10-10T00:00:00+09:00</updated>
+    <category term="바케모노가타리 포터블"/>
+    <summary>한글 글꼴 표시 문제를 정리하고 첫 장 번역과 문체를 확정한 뒤, 전체 대사 번역을 시작했습니다. 하루 동안 전체의 절반을 넘겼습니다.</summary>
   </entry>
   <entry>
     <title>[크로노아 히어로즈: 전설의 스타 메달] 프로젝트 시작, 본편 번역과 그림 한글화</title>
@@ -302,29 +326,5 @@
     <updated>2026-09-24T00:00:00+09:00</updated>
     <category term="Summon Night 5"/>
     <summary>이미지 재생성분을 대규모로 반영하고 최종 폰트 패키지를 검증해 다시 주입했습니다. 이미지 대상과 패치 수는 그대로 유지하면서 실제 빌드에 들어갈 자산을 정리했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Generation of Chaos 6] 구조 분석을 끝내고 텍스트 재삽입 단계로</title>
-    <link href="https://ievy3.github.io/projects/generation-of-chaos-6/updates/2026-09-23.html"/>
-    <id>https://ievy3.github.io/projects/generation-of-chaos-6/updates/2026-09-23.html</id>
-    <updated>2026-09-23T00:00:00+09:00</updated>
-    <category term="Generation of Chaos 6"/>
-    <summary>첫날에는 게임 데이터 구조를 안정적으로 다시 만들 수 있는 기반을 확보하고, 이벤트와 전투 텍스트의 추출·재삽입 경로를 구축했습니다. 일본판 원문을 기준으로 번역을 진행하기 위한 캐릭터 말투와 고유명사 표기 기준도 정리했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Summon Night 5] 정본 통합과 이미지 트랙 마감</title>
-    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-09-23.html"/>
-    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-09-23.html</id>
-    <updated>2026-09-23T00:00:00+09:00</updated>
-    <category term="Summon Night 5"/>
-    <summary>번역·용어·이름표 기준을 메인 작업본으로 통합하고 이미지 한글화 작업을 마감했습니다. 당일 네 차례 통합 빌드를 진행했으며, 마지막 F19a16을 현재 최신 안정 빌드로 유지하고 있습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Gungnir] 튜토리얼·메뉴·챕터 이미지 개선</title>
-    <link href="https://ievy3.github.io/projects/gungnir/updates/2026-09-22.html"/>
-    <id>https://ievy3.github.io/projects/gungnir/updates/2026-09-22.html</id>
-    <updated>2026-09-22T00:00:00+09:00</updated>
-    <category term="Gungnir"/>
-    <summary>튜토리얼의 한글 글꼴과 배치를 다시 다듬고, 승리 결과·준비 메뉴·챕터 이미지를 최신 한글화본으로 교체했습니다. 이번 작업으로 총 191장의 이미지가 갱신됐으며 최신 시험 빌드에 반영했습니다.</summary>
   </entry>
 </feed>
