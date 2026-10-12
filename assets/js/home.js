@@ -11,9 +11,9 @@ const fallbackProjects = [
   {
     "title": "듀라라라!! 3way standoff -alley-",
     "href": "/projects/durarara-3way-standoff-alley/",
-    "image": "/assets/images/durarara-3way-standoff-alley/official-cover.webp",
-    "imageAlt": "듀라라라!! 3way standoff -alley- 일본판 PSP 패키지",
-    "imageFit": "contain",
+    "image": "/assets/images/durarara-3way-standoff-alley/2026-10-12-title-ko.webp",
+    "imageAlt": "듀라라라!! 3way standoff -alley- 한글 타이틀 화면",
+    "imageFit": "cover",
     "platform": "PSP",
     "genre": "어드벤처",
     "subgenre": "노벨",
