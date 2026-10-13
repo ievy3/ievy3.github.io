@@ -61,7 +61,7 @@ const fallbackProjects = [
     "type": "한국어 패치",
     "status": "public",
     "statusLabel": "베타 공개",
-    "stage": 5,
+    "stage": 6,
     "version": "v0.9.0",
     "updated": "2026-10-13",
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/som-v0.9.0/Noctil_Patchworks_Offline_SoM_v0.9.0.zip",
@@ -78,12 +78,13 @@ const fallbackProjects = [
       "어드벤처"
     ],
     "verification": [
-      "PPSSPP"
+      "PPSSPP",
+      "PSP-1000"
     ],
     "latestWorklog": {
-      "date": "2026-10-12",
-      "title": "말투 정리와 HOW TO PLAY 한글화",
-      "href": "/projects/shadow-of-memories/updates/2026-10-12.html"
+      "date": "2026-10-13",
+      "title": "실기 확인과 v0.9.0 공개 준비",
+      "href": "/projects/shadow-of-memories/updates/2026-10-13.html"
     }
   },
   {
