@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T13:15:49.577Z",
+  "generatedAt": "2026-10-13T13:34:59.046Z",
   "projects": [
     {
       "title": "듀라라라!! 3way standoff -alley-",
@@ -21,13 +21,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
-      "downloadCount": 186,
+      "downloadCount": 189,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
       "releaseName": "듀라라라!! 3way standoff -alley- 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-12T15:30:13Z",
       "updated": "2026-10-13",
       "publicBuilds": 1,
-      "totalDownloads": 186,
+      "totalDownloads": 189,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -39,7 +39,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
-          "downloadCount": 186
+          "downloadCount": 189
         }
       ],
       "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",
@@ -146,13 +146,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/never7-v0.9.0/Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
-      "downloadCount": 482,
+      "downloadCount": 486,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/never7-v0.9.0",
       "releaseName": "Never7 -the end of infinity- 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-11T00:19:13Z",
       "updated": "2026-10-11",
       "publicBuilds": 1,
-      "totalDownloads": 482,
+      "totalDownloads": 486,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -164,7 +164,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/never7-v0.9.0/Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
-          "downloadCount": 482
+          "downloadCount": 486
         }
       ],
       "description": "섬에서 보내는 합숙의 날들과 반복되는 시간의 수수께끼를 그린 인피니티 시리즈 첫 작품",
@@ -350,13 +350,13 @@
       "version": "v1.0.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
       "downloadAsset": "OreImoDisc2KrPatcher.zip",
-      "downloadCount": 352,
+      "downloadCount": 353,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
       "releaseName": "내 여동생이 이렇게 귀여울 리가 없어 포터블이 계속될 리가 없어 Disc 2 한글 패치",
       "releasePublishedAt": "2026-10-09T01:10:57Z",
       "updated": "2026-10-09",
       "publicBuilds": 1,
-      "totalDownloads": 352,
+      "totalDownloads": 353,
       "releaseHistory": [
         {
           "version": "v1.0.0",
@@ -368,7 +368,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
           "downloadAsset": "OreImoDisc2KrPatcher.zip",
-          "downloadCount": 352
+          "downloadCount": 353
         }
       ],
       "description": "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",

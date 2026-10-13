@@ -26,7 +26,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
     "releasePublishedAt": "2026-10-12T15:30:13Z",
-    "totalDownloads": 186,
+    "totalDownloads": 189,
     "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",
     "keywords": [
       "듀라라라",
@@ -105,7 +105,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/never7-v0.9.0/Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/never7-v0.9.0",
     "releasePublishedAt": "2026-10-11T00:19:13Z",
-    "totalDownloads": 482,
+    "totalDownloads": 486,
     "description": "섬에서 보내는 합숙의 날들과 반복되는 시간의 수수께끼를 그린 인피니티 시리즈 첫 작품",
     "keywords": [
       "네버7",
@@ -249,7 +249,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
     "releasePublishedAt": "2026-10-09T01:10:57Z",
-    "totalDownloads": 352,
+    "totalDownloads": 353,
     "description": "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",
     "keywords": [
       "내 여동생이 이렇게 귀여울 리가 없어",
