@@ -16,6 +16,14 @@
     <summary>오프라인 패처와 xdelta 패치를 담은 첫 공개판 v0.9.0을 준비했습니다. 패치를 원본에 적용한 결과가 실기에서 확인한 빌드와 같은지 확인했습니다.</summary>
   </entry>
   <entry>
+    <title>[Shadow of Memories] 실기 확인과 v0.9.0 공개 준비</title>
+    <link href="https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-13.html"/>
+    <id>https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-13.html</id>
+    <updated>2026-10-13T00:00:00+09:00</updated>
+    <category term="Shadow of Memories"/>
+    <summary>말투 정리를 마무리하고 PSP 실기에서 확인한 뒤, 첫 공개판 v0.9.0 패치 꾸러미를 만들었습니다.</summary>
+  </entry>
+  <entry>
     <title>[듀라라라!! 3way standoff -alley-] 채팅 화면 수리와 그림 전면 재제작</title>
     <link href="https://ievy3.github.io/projects/durarara-3way-standoff-alley/updates/2026-10-12.html"/>
     <id>https://ievy3.github.io/projects/durarara-3way-standoff-alley/updates/2026-10-12.html</id>
@@ -318,13 +326,5 @@
     <updated>2026-09-28T00:00:00+09:00</updated>
     <category term="Summon Night 5"/>
     <summary>문장·이미지·튜토리얼 표시를 다시 다듬고 최종 후보를 PS Vita 실기에서 검증했습니다. Noctil Patchworks 오프라인 패처까지 재현 검증을 마쳐 첫 베타 배포본으로 확정했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Summon Night 5] 실행 오류 수정과 Vita 부팅 복구</title>
-    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-09-27.html"/>
-    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-09-27.html</id>
-    <updated>2026-09-27T00:00:00+09:00</updated>
-    <category term="Summon Night 5"/>
-    <summary>최종 ISO의 정적 검증을 마친 뒤 실제 게임 실행 QA를 시작했습니다. 이 과정에서 파티능력 화면 크래시, 여성 주인공 경로의 대량 누락, PS Vita 부팅 불가 문제가 확인됐고 당일 원인을 추적해 수정했습니다.</summary>
   </entry>
 </feed>
