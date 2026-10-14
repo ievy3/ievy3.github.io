@@ -5,8 +5,16 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-10-13T00:00:00+09:00</updated>
+  <updated>2026-10-14T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[Shadow of Memories] 공개 뒤 번역 다듬기와 v0.9.1 공개</title>
+    <link href="https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-14.html"/>
+    <id>https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-14.html</id>
+    <updated>2026-10-14T00:00:00+09:00</updated>
+    <category term="Shadow of Memories"/>
+    <summary>v0.9.0 공개 뒤 번역을 다시 읽으며 고칠 곳을 골라 44행을 다듬고, 수정판 v0.9.1을 만들었습니다. 그림·글꼴·실행 코드는 v0.9.0과 같습니다.</summary>
+  </entry>
   <entry>
     <title>[듀라라라!! 3way standoff -alley-] v0.9.0 첫 공개</title>
     <link href="https://ievy3.github.io/projects/durarara-3way-standoff-alley/updates/2026-10-13.html"/>
@@ -318,13 +326,5 @@
     <updated>2026-09-29T00:00:00+09:00</updated>
     <category term="Sol Trigger"/>
     <summary>프로젝트 착수 첫날에 스토리·시스템 텍스트 번역, 한글 폰트 적용, 이미지 한글화를 함께 진행해 내부 베타 후보까지 만들었습니다. 다만 화면에 남아 있는 일본어와 실제 플레이 검증이 남아 있어 아직 공개 배포 전 단계입니다.</summary>
-  </entry>
-  <entry>
-    <title>[Summon Night 5] 최종 실기 검증을 마치고 v0.7.0 베타 확정</title>
-    <link href="https://ievy3.github.io/projects/summon-night-5/updates/2026-09-28.html"/>
-    <id>https://ievy3.github.io/projects/summon-night-5/updates/2026-09-28.html</id>
-    <updated>2026-09-28T00:00:00+09:00</updated>
-    <category term="Summon Night 5"/>
-    <summary>문장·이미지·튜토리얼 표시를 다시 다듬고 최종 후보를 PS Vita 실기에서 검증했습니다. Noctil Patchworks 오프라인 패처까지 재현 검증을 마쳐 첫 베타 배포본으로 확정했습니다.</summary>
   </entry>
 </feed>
