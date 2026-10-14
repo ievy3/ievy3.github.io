@@ -5,8 +5,16 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-10-14T00:00:00+09:00</updated>
+  <updated>2026-10-15T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[무쌍 오로치 2 스페셜] 화면 결함 수정과 v0.9.0 공개</title>
+    <link href="https://ievy3.github.io/projects/musou-orochi2-special/updates/2026-10-15.html"/>
+    <id>https://ievy3.github.io/projects/musou-orochi2-special/updates/2026-10-15.html</id>
+    <updated>2026-10-15T00:00:00+09:00</updated>
+    <category term="무쌍 오로치 2 스페셜"/>
+    <summary>통합 빌드를 화면으로 확인하며 나온 결함을 고치고, 실행 파일 패치 2건을 넣었습니다. 최종 검수와 PSP 실기 확인을 마친 뒤 첫 공개판 v0.9.0을 내놓았습니다.</summary>
+  </entry>
   <entry>
     <title>[Shadow of Memories] 공개 뒤 번역 다듬기와 v0.9.1 공개</title>
     <link href="https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-14.html"/>
@@ -318,13 +326,5 @@
     <updated>2026-09-29T00:00:00+09:00</updated>
     <category term="환상수호전 이어지는 백 년의 시간"/>
     <summary>새 번역 프로젝트의 기본 구조를 만들고, 앞으로의 추출·번역·검증 작업이 같은 원본을 기준으로 진행되도록 기준판과 비교 자료를 정리했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Sol Trigger] 첫날부터 대규모 번역·이미지 한글화, v0.1.0 후보 빌드까지</title>
-    <link href="https://ievy3.github.io/projects/sol-trigger/updates/2026-09-29.html"/>
-    <id>https://ievy3.github.io/projects/sol-trigger/updates/2026-09-29.html</id>
-    <updated>2026-09-29T00:00:00+09:00</updated>
-    <category term="Sol Trigger"/>
-    <summary>프로젝트 착수 첫날에 스토리·시스템 텍스트 번역, 한글 폰트 적용, 이미지 한글화를 함께 진행해 내부 베타 후보까지 만들었습니다. 다만 화면에 남아 있는 일본어와 실제 플레이 검증이 남아 있어 아직 공개 배포 전 단계입니다.</summary>
   </entry>
 </feed>

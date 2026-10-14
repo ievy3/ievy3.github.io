@@ -9,6 +9,46 @@ let showAllProjects = false;
 // BEGIN fallback projects
 const fallbackProjects = [
   {
+    "title": "무쌍 오로치 2 스페셜",
+    "href": "/projects/musou-orochi2-special/",
+    "image": "/assets/images/musou-orochi2-special/project-cover.svg",
+    "imageAlt": "무쌍 오로치 2 스페셜 한국어 패치 대표 이미지",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "액션",
+    "subgenre": "무쌍",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.0",
+    "updated": "2026-10-15",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.0/Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/orochi2-v0.9.0",
+    "releasePublishedAt": "2026-10-14T23:09:03Z",
+    "totalDownloads": 0,
+    "description": "삼국지·전국 무장과 신화 속 영웅이 함께 싸우는 코에이 테크모의 PSP 무쌍 액션",
+    "keywords": [
+      "무쌍 오로치",
+      "무쌍 오로치 2",
+      "무쌍 orochi",
+      "musou orochi",
+      "warriors orochi",
+      "無双OROCHI2",
+      "코에이",
+      "액션"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-10-15",
+      "title": "화면 결함 수정과 v0.9.0 공개",
+      "href": "/projects/musou-orochi2-special/updates/2026-10-15.html"
+    }
+  },
+  {
     "title": "Shadow of Memories",
     "href": "/projects/shadow-of-memories/",
     "image": "/assets/images/shadow-of-memories/2026-10-12-title-ko.webp",
@@ -656,9 +696,9 @@ let plannedProjects = [];
 // 대문 "한글 패치는 이렇게 만들어집니다"의 여섯 단계와 같은 순서입니다.
 const PATCH_STAGES = ["게임 분석", "번역 준비", "대사 번역", "화면 한글화", "실행 검수", "패치 배포"];
 
-// 장르는 이 네 가지 큰 분류로만 묶고, 마작·추리·연애 같은 세부 장르는 subgenre에 둡니다.
-const GENRES = ["RPG", "SRPG", "어드벤처", "테이블"];
-const GENRE_NAMES = { RPG: "롤플레잉", SRPG: "시뮬레이션 RPG", 어드벤처: "어드벤처", 테이블: "테이블 게임" };
+// 장르는 이 다섯 가지 큰 분류로만 묶고, 마작·추리·연애 같은 세부 장르는 subgenre에 둡니다.
+const GENRES = ["RPG", "SRPG", "액션", "어드벤처", "테이블"];
+const GENRE_NAMES = { RPG: "롤플레잉", SRPG: "시뮬레이션 RPG", 액션: "액션", 어드벤처: "어드벤처", 테이블: "테이블 게임" };
 
 // 카드의 기종·장르·세부 장르를 누르면 그 조건으로 목록을 거릅니다.
 function genreMarkup(project) {
