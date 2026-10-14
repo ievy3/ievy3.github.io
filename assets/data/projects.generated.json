@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T21:38:32.886Z",
+  "generatedAt": "2026-10-14T23:09:12.820Z",
   "projects": [
     {
       "title": "Shadow of Memories",
@@ -21,13 +21,13 @@
       "version": "v0.9.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/som-v0.9.1/Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
-      "downloadCount": 45,
+      "downloadCount": 46,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/som-v0.9.1",
       "releaseName": "[PSP] 섀도우 오브 메모리즈 (SHADOW OF MEMORIES) 한글 패치 v0.9.1",
       "releasePublishedAt": "2026-10-14T11:50:48Z",
       "updated": "2026-10-14",
       "publicBuilds": 2,
-      "totalDownloads": 432,
+      "totalDownloads": 433,
       "releaseHistory": [
         {
           "version": "v0.9.1",
@@ -39,7 +39,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/som-v0.9.1/Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
-          "downloadCount": 45
+          "downloadCount": 46
         },
         {
           "version": "v0.9.0",
@@ -94,13 +94,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
-      "downloadCount": 289,
+      "downloadCount": 297,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
       "releaseName": "듀라라라!! 3way standoff -alley- 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-12T15:30:13Z",
       "updated": "2026-10-13",
       "publicBuilds": 1,
-      "totalDownloads": 289,
+      "totalDownloads": 297,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -112,7 +112,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
-          "downloadCount": 289
+          "downloadCount": 297
         }
       ],
       "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",
@@ -550,13 +550,13 @@
       "version": "v0.9.5",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiP-v0.9.5/Saki_Portable_Korean_Patch_v0.9.5.zip",
       "downloadAsset": "Saki_Portable_Korean_Patch_v0.9.5.zip",
-      "downloadCount": 439,
+      "downloadCount": 440,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiP-v0.9.5",
       "releaseName": "사키 포터블 한글 패치 v0.9.5 Pre-release",
       "releasePublishedAt": "2026-10-05T15:07:34Z",
       "updated": "2026-10-06",
       "publicBuilds": 1,
-      "totalDownloads": 439,
+      "totalDownloads": 440,
       "releaseHistory": [
         {
           "version": "v0.9.5",
@@ -568,7 +568,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiP-v0.9.5/Saki_Portable_Korean_Patch_v0.9.5.zip",
           "downloadAsset": "Saki_Portable_Korean_Patch_v0.9.5.zip",
-          "downloadCount": 439
+          "downloadCount": 440
         }
       ],
       "description": "TV 애니메이션을 바탕으로 캐릭터별 능력과 스토리를 재현한 대전 마작 게임",
