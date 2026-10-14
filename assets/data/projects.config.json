@@ -430,6 +430,34 @@
     ]
   },
   {
+    "slug": "musou-orochi2-special",
+    "title": "무쌍 오로치 2 스페셜",
+    "image": "/assets/images/musou-orochi2-special/project-cover.svg",
+    "imageAlt": "무쌍 오로치 2 스페셜 한국어 패치 대표 이미지",
+    "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "orochi2-",
+    "description": "삼국지·전국 무장과 신화 속 영웅이 함께 싸우는 코에이 테크모의 PSP 무쌍 액션",
+    "keywords": [
+      "무쌍 오로치",
+      "무쌍 오로치 2",
+      "무쌍 orochi",
+      "musou orochi",
+      "warriors orochi",
+      "無双OROCHI2",
+      "코에이",
+      "액션"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "genre": "액션",
+    "subgenre": "무쌍",
+    "stage": 6,
+    "updated": "2026-10-15",
+    "verification": [
+      "PSP-1000"
+    ]
+  },
+  {
     "slug": "nichijou-uchuujin",
     "title": "일상 (우주인)",
     "status": "planned",
