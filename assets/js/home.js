@@ -11,8 +11,8 @@ const fallbackProjects = [
   {
     "title": "무쌍 오로치 2 스페셜",
     "href": "/projects/musou-orochi2-special/",
-    "image": "/assets/images/musou-orochi2-special/project-cover.svg",
-    "imageAlt": "무쌍 오로치 2 스페셜 한국어 패치 대표 이미지",
+    "image": "/assets/images/musou-orochi2-special/2026-10-15-title.webp",
+    "imageAlt": "무쌍 오로치 2 스페셜 타이틀 화면",
     "imageFit": "cover",
     "platform": "PSP",
     "genre": "액션",
