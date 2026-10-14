@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T23:17:20.101Z",
+  "generatedAt": "2026-10-14T23:54:02.232Z",
   "projects": [
     {
       "title": "무쌍 오로치 2 스페셜",
@@ -21,13 +21,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.0/Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
-      "downloadCount": 0,
+      "downloadCount": 19,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/orochi2-v0.9.0",
       "releaseName": "[PSP] 무쌍 오로치 2 스페셜 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-14T23:09:03Z",
       "updated": "2026-10-15",
       "publicBuilds": 1,
-      "totalDownloads": 0,
+      "totalDownloads": 19,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -39,7 +39,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.0/Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
-          "downloadCount": 0
+          "downloadCount": 19
         }
       ],
       "description": "삼국지·전국 무장과 신화 속 영웅이 함께 싸우는 코에이 테크모의 PSP 무쌍 액션",
@@ -84,13 +84,13 @@
       "version": "v0.9.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/som-v0.9.1/Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
-      "downloadCount": 46,
+      "downloadCount": 50,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/som-v0.9.1",
       "releaseName": "[PSP] 섀도우 오브 메모리즈 (SHADOW OF MEMORIES) 한글 패치 v0.9.1",
       "releasePublishedAt": "2026-10-14T11:50:48Z",
       "updated": "2026-10-14",
       "publicBuilds": 2,
-      "totalDownloads": 433,
+      "totalDownloads": 437,
       "releaseHistory": [
         {
           "version": "v0.9.1",
@@ -102,7 +102,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/som-v0.9.1/Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
-          "downloadCount": 46
+          "downloadCount": 50
         },
         {
           "version": "v0.9.0",
@@ -157,13 +157,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
-      "downloadCount": 297,
+      "downloadCount": 300,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
       "releaseName": "듀라라라!! 3way standoff -alley- 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-12T15:30:13Z",
       "updated": "2026-10-13",
       "publicBuilds": 1,
-      "totalDownloads": 297,
+      "totalDownloads": 300,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -175,7 +175,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
-          "downloadCount": 297
+          "downloadCount": 300
         }
       ],
       "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",
@@ -425,13 +425,13 @@
       "version": "v1.0.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
       "downloadAsset": "OreImoDisc2KrPatcher.zip",
-      "downloadCount": 369,
+      "downloadCount": 370,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
       "releaseName": "내 여동생이 이렇게 귀여울 리가 없어 포터블이 계속될 리가 없어 Disc 2 한글 패치",
       "releasePublishedAt": "2026-10-09T01:10:57Z",
       "updated": "2026-10-09",
       "publicBuilds": 1,
-      "totalDownloads": 369,
+      "totalDownloads": 370,
       "releaseHistory": [
         {
           "version": "v1.0.0",
@@ -443,7 +443,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
           "downloadAsset": "OreImoDisc2KrPatcher.zip",
-          "downloadCount": 369
+          "downloadCount": 370
         }
       ],
       "description": "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",
@@ -550,13 +550,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
       "downloadAsset": "TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
-      "downloadCount": 770,
+      "downloadCount": 772,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/JingujiAD-v0.9.0",
       "releaseName": "탐정 진구지 사부로: 재와 다이아몬드 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-09T03:02:35Z",
       "updated": "2026-10-09",
       "publicBuilds": 1,
-      "totalDownloads": 770,
+      "totalDownloads": 772,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -568,7 +568,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
           "downloadAsset": "TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
-          "downloadCount": 770
+          "downloadCount": 772
         }
       ],
       "description": "가부키초를 무대로 여러 의뢰와 인물의 이해관계가 교차하는 하드보일드 추리 어드벤처",
@@ -832,13 +832,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
-      "downloadCount": 624,
+      "downloadCount": 625,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/GOC6-v0.9.0",
       "releaseName": "제네레이션 오브 카오스 6 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-03T07:45:14Z",
       "updated": "2026-10-03",
       "publicBuilds": 1,
-      "totalDownloads": 624,
+      "totalDownloads": 625,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -850,7 +850,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
-          "downloadCount": 624
+          "downloadCount": 625
         }
       ],
       "description": "대륙 제패를 목표로 내정·부대 운용·전투를 병행하는 판타지 전략 RPG",
@@ -1049,13 +1049,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
       "downloadAsset": "Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
-      "downloadCount": 402,
+      "downloadCount": 403,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gungnir-v0.9.0",
       "releaseName": "Gungnir 한글 패치 v0.9.0 — 공개 검수판 (260922)",
       "releasePublishedAt": "2026-09-22T20:02:45Z",
       "updated": "2026-09-23",
       "publicBuilds": 2,
-      "totalDownloads": 1112,
+      "totalDownloads": 1113,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -1067,7 +1067,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
           "downloadAsset": "Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
-          "downloadCount": 402
+          "downloadCount": 403
         },
         {
           "version": "v0.8.0",

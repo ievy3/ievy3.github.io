@@ -26,7 +26,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.0/Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/orochi2-v0.9.0",
     "releasePublishedAt": "2026-10-14T23:09:03Z",
-    "totalDownloads": 0,
+    "totalDownloads": 19,
     "description": "삼국지·전국 무장과 신화 속 영웅이 함께 싸우는 코에이 테크모의 PSP 무쌍 액션",
     "keywords": [
       "무쌍 오로치",
@@ -66,7 +66,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/som-v0.9.1/Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/som-v0.9.1",
     "releasePublishedAt": "2026-10-14T11:50:48Z",
-    "totalDownloads": 433,
+    "totalDownloads": 437,
     "description": "살해당한 주인공이 시간을 거슬러 자신의 죽음을 막으려 하는 시간 여행 어드벤처",
     "keywords": [
       "섀도우 오브 메모리즈",
@@ -104,7 +104,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
     "releasePublishedAt": "2026-10-12T15:30:13Z",
-    "totalDownloads": 297,
+    "totalDownloads": 300,
     "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",
     "keywords": [
       "듀라라라",
@@ -289,7 +289,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
     "releasePublishedAt": "2026-10-09T01:10:57Z",
-    "totalDownloads": 369,
+    "totalDownloads": 370,
     "description": "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",
     "keywords": [
       "내 여동생이 이렇게 귀여울 리가 없어",
@@ -368,7 +368,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/JingujiAD-v0.9.0",
     "releasePublishedAt": "2026-10-09T03:02:35Z",
-    "totalDownloads": 770,
+    "totalDownloads": 772,
     "description": "가부키초를 무대로 여러 의뢰와 인물의 이해관계가 교차하는 하드보일드 추리 어드벤처",
     "keywords": [
       "탐정 진구지 사부로",
@@ -522,7 +522,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/GOC6-v0.9.0",
     "releasePublishedAt": "2026-10-03T07:45:14Z",
-    "totalDownloads": 624,
+    "totalDownloads": 625,
     "description": "대륙 제패를 목표로 내정·부대 운용·전투를 병행하는 판타지 전략 RPG",
     "keywords": [
       "제네레이션 오브 카오스 6",
@@ -634,7 +634,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gungnir-v0.9.0",
     "releasePublishedAt": "2026-09-22T20:02:45Z",
-    "totalDownloads": 1112,
+    "totalDownloads": 1113,
     "description": "신화의 창 ‘궁그닐’을 손에 넣은 소년과 반란군의 전쟁을 그린 전술 RPG",
     "keywords": [
       "궁그닐",
