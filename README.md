@@ -21,8 +21,8 @@
 
 ### 공개
 
+- [Shadow of Memories](https://ievy3.github.io/projects/shadow-of-memories/) (PSP) — **v0.9.1** · 베타 공개
 - [듀라라라!! 3way standoff -alley-](https://ievy3.github.io/projects/durarara-3way-standoff-alley/) (PSP) — **v0.9.0** · 베타 공개
-- [Shadow of Memories](https://ievy3.github.io/projects/shadow-of-memories/) (PSP) — **v0.9.0** · 베타 공개
 - [Never 7: The End of Infinity](https://ievy3.github.io/projects/never7/) (PSP) — **v0.9.0** · 베타 공개
 - [Magical Vacation](https://ievy3.github.io/projects/magical-vacation/) (GBA) — **v0.9.0** · 베타 공개
 - [내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어](https://ievy3.github.io/projects/oreimo-portable-tsuzuku/) (PSP) — **v1.0.0** · 베타 공개
