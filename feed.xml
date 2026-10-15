@@ -8,6 +8,14 @@
   <updated>2026-10-15T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
   <entry>
+    <title>[크로노아 히어로즈: 전설의 스타 메달] v1.0 공개</title>
+    <link href="https://ievy3.github.io/projects/klonoa-heroes/updates/2026-10-15.html"/>
+    <id>https://ievy3.github.io/projects/klonoa-heroes/updates/2026-10-15.html</id>
+    <updated>2026-10-15T00:00:00+09:00</updated>
+    <category term="크로노아 히어로즈: 전설의 스타 메달"/>
+    <summary>남아 있던 아이템·도감·가게 문구를 마무리하고, 전체 용어를 맞춘 뒤 첫 공개판 v1.0을 내놓았습니다. 에뮬레이터(mGBA)에서 확인했습니다.</summary>
+  </entry>
+  <entry>
     <title>[무쌍 오로치 2 스페셜] 화면 결함 수정과 v0.9.0 공개</title>
     <link href="https://ievy3.github.io/projects/musou-orochi2-special/updates/2026-10-15.html"/>
     <id>https://ievy3.github.io/projects/musou-orochi2-special/updates/2026-10-15.html</id>
@@ -318,13 +326,5 @@
     <updated>2026-09-29T00:00:00+09:00</updated>
     <category term="Generation of Chaos 6"/>
     <summary>프로젝트 착수 첫날에 텍스트 추출·재삽입 기반을 마련하고, 대사와 시스템 문구의 번역 초벌 및 전체 윤문을 완료했습니다. 한글 폰트까지 통합한 첫 전체 한국어 빌드도 생성했으며, 현재는 실행 검증과 이미지 한글화를 남겨두고 있습니다.</summary>
-  </entry>
-  <entry>
-    <title>[환상수호전 이어지는 백 년의 시간] 프로젝트 시작과 일본판 기준판 정리</title>
-    <link href="https://ievy3.github.io/projects/genso-suikoden-100-years/updates/2026-09-29.html"/>
-    <id>https://ievy3.github.io/projects/genso-suikoden-100-years/updates/2026-09-29.html</id>
-    <updated>2026-09-29T00:00:00+09:00</updated>
-    <category term="환상수호전 이어지는 백 년의 시간"/>
-    <summary>새 번역 프로젝트의 기본 구조를 만들고, 앞으로의 추출·번역·검증 작업이 같은 원본을 기준으로 진행되도록 기준판과 비교 자료를 정리했습니다.</summary>
   </entry>
 </feed>

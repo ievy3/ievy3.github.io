@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="크로노아 히어로즈: 전설의 스타 메달 GBA 비공식 한국어 번역 프로젝트 진행 현황">
+  <meta name="description" content="크로노아 히어로즈: 전설의 스타 메달 GBA 비공식 한국어 패치 v1.0 배포">
   <title>크로노아 히어로즈: 전설의 스타 메달 | Noctil Patchworks</title>
   <meta name="theme-color" content="#090a0e">
   <link rel="canonical" href="https://ievy3.github.io/projects/klonoa-heroes/">
@@ -12,13 +12,13 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Noctil Patchworks">
   <meta property="og:title" content="크로노아 히어로즈: 전설의 스타 메달 | Noctil Patchworks">
-  <meta property="og:description" content="크로노아 히어로즈: 전설의 스타 메달 GBA 비공식 한국어 번역 프로젝트 진행 현황">
+  <meta property="og:description" content="크로노아 히어로즈: 전설의 스타 메달 GBA 비공식 한국어 패치 v1.0 배포">
   <meta property="og:url" content="https://ievy3.github.io/projects/klonoa-heroes/">
-  <meta property="og:image" content="https://ievy3.github.io/assets/images/klonoa-heroes/2026-10-10-title-ko.webp">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/klonoa-heroes/2026-10-15-title-ko.webp">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="크로노아 히어로즈: 전설의 스타 메달 | Noctil Patchworks">
-  <meta name="twitter:description" content="크로노아 히어로즈: 전설의 스타 메달 GBA 비공식 한국어 번역 프로젝트 진행 현황">
-  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/klonoa-heroes/2026-10-10-title-ko.webp">
+  <meta name="twitter:description" content="크로노아 히어로즈: 전설의 스타 메달 GBA 비공식 한국어 패치 v1.0 배포">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/klonoa-heroes/2026-10-15-title-ko.webp">
   <link rel="stylesheet" href="/assets/css/project.css?v=28">
   <link rel="stylesheet" href="/assets/css/site-ui.css?v=1">
   <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=1">
@@ -38,26 +38,29 @@
       <p class="eyebrow">GBA FAN TRANSLATION · BY NOCTIL</p>
       <h1>크로노아 히어로즈<br><span style="font-size:.52em">전설의 스타 메달</span></h1>
       <div class="badges">
-        <span class="badge"><i></i>작업 중</span>
-        <span class="badge">4단계 · 화면 한글화</span>
-        <span class="badge">2026.10.10 프로젝트 등록</span>
+        <span class="badge badge-live"><i></i><span data-release-status-label>베타 공개</span></span>
+        <span class="badge">첫 공개</span>
+        <span class="badge">mGBA 확인</span>
+        <span class="badge" data-release-date-badge>2026.10.15 업데이트</span>
       </div>
     </div>
   </header>
 
   <section class="project-facts" aria-label="프로젝트 핵심 정보">
-    <div><span>상태</span><strong class="fact-development">작업 중</strong></div>
-    <div><span>제작 단계</span><strong>4 / 6 · 화면 한글화</strong></div>
-    <div><span>공개 버전</span><strong>첫 공개 전</strong></div>
-    <div><span>마지막 업데이트</span><strong>2026.10.10</strong></div>
+    <div><span>상태</span><strong class="fact-live" data-release-status="public" data-release-status-label>베타 공개</strong></div>
+    <div><span>공개 버전</span><strong data-release-version>v1.0</strong></div>
+    <div><span>지원 원본</span><strong>일본판 · AK7J (rev.0)</strong></div>
+    <div><span>마지막 업데이트</span><strong data-release-date>2026.10.15</strong></div>
   </section>
 
   <nav class="nav" aria-label="페이지 목차">
     <a href="#game-info">게임 정보</a>
     <a href="#recent-update">최근 업데이트</a>
+    <a href="#release">배포 상태</a>
     <a href="#preview">게임 화면</a>
-    <a href="#progress">진행 단계</a>
-    <a href="#details">안내</a>
+    <a href="#patch-history">패치 이력</a>
+    <a href="#details">작업 상세 정보</a>
+    <a href="#support">패치·오류 제보</a>
     <a href="/projects/klonoa-heroes/updates/">작업일지</a>
     <a href="#comments">댓글</a>
   </nav>
@@ -76,66 +79,102 @@
         <div>제작 / 퍼블리셔</div><div>Namco</div>
         <div>플랫폼 / 장르</div><div>GBA / 액션 RPG</div>
         <div>원작</div><div>2002 · 게임보이 어드밴스 (일본 한정 발매)</div>
-        <div>작업 기준판</div><div>일본판 AK7J (rev.0)</div>
+        <div>검증 환경</div><div>mGBA (에뮬레이터)</div>
+        <div>지원 원본</div><div>일본판 AK7J (rev.0)</div>
       </div>
       <p>남코가 일본에서 발매한 게임보이 어드밴스용 액션 RPG입니다. 『바람의 크로노아』 시리즈의 크로노아와 동료들이 등장하며, 일본 외 지역에는 정식 발매되지 않았습니다.</p>
       </div>
     </div>
   </section>
 
+  <section class="split-grid" id="recent-update">
+    <article class="box">
+      <p class="eyebrow">RECENT UPDATE</p>
+      <h2>10월 15일 · v1.0 공개</h2>
+      <ul class="compact-list">
+        <li>본편·마을 대화·EXTRA 컷신, 튜토리얼, 아이템·도감·가게·메뉴 한글화</li>
+        <li>타이틀 로고·장 제목·지명 이름표·월드맵 창·효과음 글자 등 그림 한글화</li>
+        <li>고유명사는 2022년 정식 한국어판 표기(롤로, 팝카, 브리게일, 므우 등)</li>
+        <li>BPS·xdelta 패치 공개 · 일본판 세이브 이어서 사용 가능</li>
+      </ul>
+      <a class="log-link" href="/projects/klonoa-heroes/updates/2026-10-15.html">10월 15일 작업일지 <span>→</span></a>
+    </article>
+
+    <article class="box release-card" id="release">
+      <p class="eyebrow">PRE-RELEASE · <span data-release-version>v1.0</span></p>
+      <h2>첫 공개판 배포 중</h2>
+      <a class="button" data-release-download href="https://github.com/ievy3/ievy3.github.io/releases/download/kh-v1.0.0/KlonoaHeroes_KO_v1.0.zip">v1.0 패치 다운로드 (.zip)</a>
+      <small class="line-count" data-release-download-count>다운로드 횟수 확인 중…</small>
+      <p class="notice release-notice"><strong>안내</strong> · 일본판 AK7J (rev.0) 롬 전용입니다. 에뮬레이터(mGBA)에서 확인했으며, 적용 결과 롬은 32MB입니다. 롬 파일은 제공하지 않습니다.</p>
+      <a class="log-link" data-release-notes href="https://github.com/ievy3/ievy3.github.io/releases/tag/kh-v1.0.0" target="_blank" rel="noopener">적용 방법 및 릴리즈 노트 <span>↗</span></a>
+    </article>
+  </section>
+
   <section class="box preview-section" id="preview">
     <div class="section-head">
       <div><p class="eyebrow">GAME SCREENS</p><h2>게임 화면</h2></div>
-      <span class="line-count">작업 중 화면</span>
+      <span class="line-count">게임 화면 예시</span>
     </div>
     <div class="preview-grid two-up">
       <figure class="screen-fit">
-        <img src="/assets/images/klonoa-heroes/2026-10-10-title-ko.webp" alt="크로노아 히어로즈 한글 타이틀 화면" loading="lazy">
-        <figcaption><strong>타이틀 화면</strong><span>한글 로고를 넣은 작업 중 화면</span></figcaption>
+        <img src="/assets/images/klonoa-heroes/2026-10-15-title-ko.webp" alt="크로노아 히어로즈 전설의 스타 메달 한글 타이틀 화면" loading="lazy">
+        <figcaption><strong>타이틀 화면</strong><span>한글 로고로 바꾼 타이틀</span></figcaption>
+      </figure>
+      <figure class="screen-fit">
+        <img src="/assets/images/klonoa-heroes/2026-10-15-field-ko.webp" alt="크로노아 히어로즈 필드 화면 — 크로노아의 외침 「루프루두!」 말풍선" loading="lazy">
+        <figcaption><strong>필드 화면</strong><span>말풍선 외침이 한국어로 나오는 화면</span></figcaption>
       </figure>
     </div>
   </section>
 
-  <section class="box" id="recent-update">
+  <section class="box" id="patch-history">
     <div class="section-head">
-      <div><p class="eyebrow">RECENT UPDATE</p><h2>10월 10일 · 프로젝트 시작, 본편 번역과 그림 한글화</h2></div>
+      <div><p class="eyebrow">PATCH HISTORY</p><h2>패치 이력</h2></div>
+      <span class="line-count">최신 버전순</span>
     </div>
-    <ul class="compact-list">
-        <li>일본판 롬 구조 분석과 원본 그대로 다시 만들기 확인</li>
-        <li>대사·메뉴용 12px 한글 글꼴, 아이템 설명용 작은 글꼴 적용</li>
-        <li>본편 컷신 월드 1~8, 마을 대화·튜토리얼·컷신 다시보기 번역 완료</li>
-        <li>장 제목·월드맵·메뉴·효과음 등 그림 약 300장과 타이틀 로고 한글화</li>
-    </ul>
-      <a class="log-link" href="/projects/klonoa-heroes/updates/2026-10-10.html">10월 10일 작업일지 자세히 보기 <span>→</span></a>
-  </section>
-
-  <section class="box" id="progress">
-    <div class="section-head">
-      <div><p class="eyebrow">PROGRESS</p><h2>현재 진행 단계</h2></div>
-      <a class="text-link" href="/#patch-workflow">단계 설명 보기 →</a>
+    <div class="release-history-list" data-release-history>
+      <article class="release-history-item">
+        <div class="release-history-version"><strong>v1.0</strong><span>BETA</span></div>
+        <div class="release-history-meta"><time datetime="2026-10-15">2026.10.15</time><small>첫 공개</small></div>
+        <p>본편·마을 대화·EXTRA 컷신, 아이템·도감·메뉴와 글자가 든 그림을 한글화한 첫 공개판 · BPS·xdelta 패치</p>
+        <a class="release-detail-link" href="https://github.com/ievy3/ievy3.github.io/releases/tag/kh-v1.0.0" target="_blank" rel="noopener">릴리즈 보기 <span>→</span></a>
+      </article>
     </div>
-    <ul class="status-list">
-          <li>✓ <strong>1단계 · 게임 분석</strong></li>
-          <li>✓ <strong>2단계 · 번역 준비</strong></li>
-          <li>✓ <strong>3단계 · 대사 번역</strong></li>
-          <li>● <strong>4단계 · 화면 한글화</strong> — 현재 진행 중</li>
-          <li>○ <strong>5단계 · 실행 검수</strong></li>
-          <li>○ <strong>6단계 · 패치 배포</strong></li>
-    </ul>
-    <p class="fine-print">자세한 진행 기록은 <a class="text-link" href="/projects/klonoa-heroes/updates/">작업일지</a>에서 볼 수 있습니다.</p>
   </section>
 
   <section class="detail-stack" id="details">
-    <details open>
-      <summary><span>공개 안내</span><small>배포 · 의견</small></summary>
+    <details>
+      <summary><span>작업 상세 정보</span><small>한글화 범위 · 번역 기준 · 확인 범위 · 알려진 제한</small></summary>
       <div class="details-body">
-        <p>아직 공개된 패치가 없습니다. 공개 검수판이 준비되면 이 페이지와 GitHub Releases를 통해 배포합니다.</p>
-        <p>응원이나 의견은 <a class="text-link" href="/guestbook/">방명록</a> 또는 <a class="text-link" href="https://github.com/ievy3/ievy3.github.io/issues/new?title=%5B%ED%81%AC%EB%A1%9C%EB%85%B8%EC%95%84%20%ED%9E%88%EC%96%B4%EB%A1%9C%EC%A6%88%5D%20%EC%9D%98%EA%B2%AC" target="_blank" rel="noopener">GitHub Issues ↗</a>에 남겨 주세요.</p>
+        <h3>한글화 범위</h3>
+        <ul class="status-list">
+          <li>본편 컷신, 나레이션, 마을 대화, EXTRA 컷신</li>
+          <li>튜토리얼, 아이템 이름·설명, 환수 도감, 가게·여관·하우스, 메뉴, 세이브 확인창, 전투 중 외침</li>
+          <li>글자가 든 그림: 타이틀 로고, 장 제목 카드, 지명·화자 이름표, 메뉴 버튼, 월드맵 창, 레벨 업 딱지, 효과음 글자</li>
+        </ul>
+        <h3>번역 기준</h3>
+        <p>일본어 원문에서 번역했습니다. 고유명사는 2022년 정식 한국어판 표기를 따랐습니다(롤로, 팝카, 브리게일, 므우, 바람 구슬 등). 한글은 게임 글꼴 칸에 맞춘 12화소 화소 글꼴(Galmuri)로 넣었고, 작은 글씨 칸은 8화소 글꼴을 씁니다.</p>
+        <h3>확인 범위</h3>
+        <p>에뮬레이터(mGBA)에서만 확인했습니다. 실기·플래시 카트에서는 확인하지 않았습니다. EXTRA 비전이 게임 안에서 열리는 경로와 모든 비전을 깬 뒤의 엔딩 카드는 화면으로 확인하지 못했고(롬에는 한글로 들어가 있습니다), 대사 전체를 사람이 한 줄씩 읽는 최종 검수는 아직 거치지 않았습니다.</p>
+        <h3>알려진 제한</h3>
+        <p>스태프롤과 음악 플레이어의 곡 이름은 원문 그대로입니다. 한글 글꼴을 넣느라 롬이 32MB로 커져서, 32MB 롬을 지원하지 않는 카트에서는 동작하지 않습니다.</p>
+      </div>
+    </details>
+    <details id="support">
+      <summary><span>패치 및 오류 제보</span><small>지원 원본 · 배포 방식 · 제보</small></summary>
+      <div class="details-body">
+        <div class="kv compact-kv">
+          <div>현재 상태</div><div>v1.0 프리릴리즈 공개</div>
+          <div>지원 원본</div><div>クロノアヒーローズ 伝説のスターメダル 일본판 · AK7J (rev.0) · CRC32 E7EADDCC</div>
+          <div>배포 방식</div><div><a class="text-link" href="https://github.com/ievy3/ievy3.github.io/releases/download/kh-v1.0.0/KlonoaHeroes_KO_v1.0.zip" target="_blank" rel="noopener">BPS·xdelta 패치 ZIP</a> · <a class="text-link" href="https://github.com/ievy3/ievy3.github.io/releases/tag/kh-v1.0.0" target="_blank" rel="noopener">적용 안내</a></div>
+          <div>오류 제보</div><div><a class="text-link" href="https://github.com/ievy3/ievy3.github.io/issues/new/choose" target="_blank" rel="noopener">GitHub Issues ↗</a></div>
+        </div>
+        <p class="notice">BPS(권장)와 xdelta 중 하나만 쓰면 됩니다. BPS 패처는 원본이 다르면 알려 줍니다. 적용 결과 롬은 32MB, CRC32 FB345D34입니다. 세이브 방식은 원본과 같아 일본판 세이브를 그대로 이어서 쓸 수 있습니다. 어색한 문장, 잘린 글자, 남은 일본어를 발견하시면 화면과 함께 알려 주세요.</p>
       </div>
     </details>
     <details>
       <summary><span>Credits &amp; Disclaimer</span><small>제작 및 권리 고지</small></summary>
-      <div class="details-body"><p>번역 / 패치 제작: <strong>NP · Noctil Patchworks</strong></p><p>개인이 제작하는 비공식·비영리 팬 번역 프로젝트이며 원작 개발사·퍼블리셔와 공식적인 관련이 없습니다. 게임 및 관련 콘텐츠의 권리는 각 권리자에게 있습니다.</p></div>
+      <div class="details-body"><p>번역 / 패치 제작: <strong>NP · Noctil Patchworks</strong></p><p>사용 글꼴: Galmuri — SIL Open Font License 1.1.</p><p>개인이 제작하는 비공식·비영리 팬 번역 프로젝트이며 원작 개발사·퍼블리셔와 공식적인 관련이 없습니다. 게임 및 관련 콘텐츠의 권리는 각 권리자에게 있습니다.</p></div>
     </details>
   </section>
 
@@ -151,6 +190,7 @@
   <footer class="footer-note">KLONOA HEROES KOREAN TRANSLATION · NOCTIL PATCHWORKS</footer>
 </main>
 <script src="/assets/js/project-comments.js?v=1" defer></script>
+<script src="/assets/js/project-release.js?v=5" defer></script>
   <script src="/assets/js/site-ui.js?v=2" defer></script>
 </body>
 </html>

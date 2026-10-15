@@ -51,7 +51,7 @@ const fallbackProjects = [
   {
     "title": "크로노아 히어로즈: 전설의 스타 메달",
     "href": "/projects/klonoa-heroes/",
-    "image": "/assets/images/klonoa-heroes/2026-10-10-title-ko.webp",
+    "image": "/assets/images/klonoa-heroes/2026-10-15-title-ko.webp",
     "imageAlt": "크로노아 히어로즈 한글 타이틀 화면",
     "imageFit": "cover",
     "platform": "GBA",
@@ -60,7 +60,7 @@ const fallbackProjects = [
     "type": "한국어 패치",
     "status": "public",
     "statusLabel": "베타 공개",
-    "stage": 4,
+    "stage": 6,
     "version": "v1.0",
     "updated": "2026-10-15",
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/kh-v1.0.0/KlonoaHeroes_KO_v1.0.zip",
@@ -79,11 +79,13 @@ const fallbackProjects = [
       "namco",
       "남코"
     ],
-    "verification": [],
+    "verification": [
+      "mGBA"
+    ],
     "latestWorklog": {
-      "date": "2026-10-10",
-      "title": "프로젝트 시작, 본편 번역과 그림 한글화",
-      "href": "/projects/klonoa-heroes/updates/2026-10-10.html"
+      "date": "2026-10-15",
+      "title": "v1.0 공개",
+      "href": "/projects/klonoa-heroes/updates/2026-10-15.html"
     }
   },
   {

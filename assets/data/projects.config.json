@@ -375,7 +375,7 @@
   {
     "slug": "klonoa-heroes",
     "title": "크로노아 히어로즈: 전설의 스타 메달",
-    "image": "/assets/images/klonoa-heroes/2026-10-10-title-ko.webp",
+    "image": "/assets/images/klonoa-heroes/2026-10-15-title-ko.webp",
     "imageAlt": "크로노아 히어로즈 한글 타이틀 화면",
     "platform": "GBA",
     "type": "한국어 패치",
@@ -395,9 +395,11 @@
     "releaseRepository": "ievy3/ievy3.github.io",
     "genre": "RPG",
     "subgenre": "액션",
-    "stage": 4,
-    "updated": "2026-10-10",
-    "verification": []
+    "stage": 6,
+    "updated": "2026-10-15",
+    "verification": [
+      "mGBA"
+    ]
   },
   {
     "slug": "durarara-3way-standoff-alley",
