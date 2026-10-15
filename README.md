@@ -17,11 +17,12 @@
 ## Projects
 
 <!-- BEGIN projects (scripts/build-site-files.mjs가 projects.generated.json으로 자동 갱신합니다) -->
-현재 공개 허브에서 관리하는 프로젝트는 **17개**입니다(공개 15 · 작업 중 2). 버전은 공개된 최신 배포본 기준입니다.
+현재 공개 허브에서 관리하는 프로젝트는 **17개**입니다(공개 16 · 작업 중 1). 버전은 공개된 최신 배포본 기준입니다.
 
 ### 공개
 
 - [무쌍 오로치 2 스페셜](https://ievy3.github.io/projects/musou-orochi2-special/) (PSP) — **v0.9.0** · 베타 공개
+- [크로노아 히어로즈: 전설의 스타 메달](https://ievy3.github.io/projects/klonoa-heroes/) (GBA) — **v1.0** · 베타 공개
 - [Shadow of Memories](https://ievy3.github.io/projects/shadow-of-memories/) (PSP) — **v0.9.1** · 베타 공개
 - [듀라라라!! 3way standoff -alley-](https://ievy3.github.io/projects/durarara-3way-standoff-alley/) (PSP) — **v0.9.0** · 베타 공개
 - [Never 7: The End of Infinity](https://ievy3.github.io/projects/never7/) (PSP) — **v0.9.0** · 베타 공개
@@ -39,7 +40,6 @@
 
 ### 작업 중
 
-- [크로노아 히어로즈: 전설의 스타 메달](https://ievy3.github.io/projects/klonoa-heroes/) (GBA) — 작업 중 · 4단계 화면 한글화
 - [바케모노가타리 포터블](https://ievy3.github.io/projects/bakemonogatari-portable/) (PSP) — 작업 중 · 3단계 대사 번역
 
 ### 작업 예정
