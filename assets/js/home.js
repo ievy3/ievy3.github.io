@@ -43,9 +43,9 @@ const fallbackProjects = [
       "mGBA"
     ],
     "latestWorklog": {
-      "date": "2026-10-15",
-      "title": "v1.0 공개",
-      "href": "/projects/klonoa-heroes/updates/2026-10-15.html"
+      "date": "2026-10-17",
+      "title": "v1.0.1 수정판",
+      "href": "/projects/klonoa-heroes/updates/2026-10-17.html"
     }
   },
   {
