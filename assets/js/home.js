@@ -9,46 +9,6 @@ let showAllProjects = false;
 // BEGIN fallback projects
 const fallbackProjects = [
   {
-    "title": "무쌍 오로치 2 스페셜",
-    "href": "/projects/musou-orochi2-special/",
-    "image": "/assets/images/musou-orochi2-special/2026-10-15-title.webp",
-    "imageAlt": "무쌍 오로치 2 스페셜 타이틀 화면",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "액션",
-    "subgenre": "무쌍",
-    "type": "한국어 패치",
-    "status": "public",
-    "statusLabel": "베타 공개",
-    "stage": 6,
-    "version": "v0.9.0",
-    "updated": "2026-10-15",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.0/Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/orochi2-v0.9.0",
-    "releasePublishedAt": "2026-10-14T23:09:03Z",
-    "totalDownloads": 470,
-    "description": "삼국지·전국 무장과 신화 속 영웅이 함께 싸우는 코에이 테크모의 PSP 무쌍 액션",
-    "keywords": [
-      "무쌍 오로치",
-      "무쌍 오로치 2",
-      "무쌍 orochi",
-      "musou orochi",
-      "warriors orochi",
-      "無双OROCHI2",
-      "코에이",
-      "액션"
-    ],
-    "verification": [
-      "PPSSPP",
-      "PSP-1000"
-    ],
-    "latestWorklog": {
-      "date": "2026-10-15",
-      "title": "화면 결함 수정과 v0.9.0 공개",
-      "href": "/projects/musou-orochi2-special/updates/2026-10-15.html"
-    }
-  },
-  {
     "title": "크로노아 히어로즈: 전설의 스타 메달",
     "href": "/projects/klonoa-heroes/",
     "image": "/assets/images/klonoa-heroes/2026-10-15-title-ko.webp",
@@ -61,12 +21,12 @@ const fallbackProjects = [
     "status": "public",
     "statusLabel": "베타 공개",
     "stage": 6,
-    "version": "v1.0",
-    "updated": "2026-10-15",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/kh-v1.0.0/KlonoaHeroes_KO_v1.0.zip",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/kh-v1.0.0",
-    "releasePublishedAt": "2026-10-15T12:22:16Z",
-    "totalDownloads": 248,
+    "version": "v1.0.1",
+    "updated": "2026-10-17",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/kh-v1.0.1/KlonoaHeroes_KO_v1.0.1.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/kh-v1.0.1",
+    "releasePublishedAt": "2026-10-17T00:25:56Z",
+    "totalDownloads": 251,
     "description": "『바람의 크로노아』 시리즈의 캐릭터들이 등장하는 남코의 GBA 액션 RPG",
     "keywords": [
       "크로노아 히어로즈",
@@ -86,6 +46,46 @@ const fallbackProjects = [
       "date": "2026-10-15",
       "title": "v1.0 공개",
       "href": "/projects/klonoa-heroes/updates/2026-10-15.html"
+    }
+  },
+  {
+    "title": "무쌍 오로치 2 스페셜",
+    "href": "/projects/musou-orochi2-special/",
+    "image": "/assets/images/musou-orochi2-special/2026-10-15-title.webp",
+    "imageAlt": "무쌍 오로치 2 스페셜 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "액션",
+    "subgenre": "무쌍",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.0",
+    "updated": "2026-10-15",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.0/Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/orochi2-v0.9.0",
+    "releasePublishedAt": "2026-10-14T23:09:03Z",
+    "totalDownloads": 473,
+    "description": "삼국지·전국 무장과 신화 속 영웅이 함께 싸우는 코에이 테크모의 PSP 무쌍 액션",
+    "keywords": [
+      "무쌍 오로치",
+      "무쌍 오로치 2",
+      "무쌍 orochi",
+      "musou orochi",
+      "warriors orochi",
+      "無双OROCHI2",
+      "코에이",
+      "액션"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-10-15",
+      "title": "화면 결함 수정과 v0.9.0 공개",
+      "href": "/projects/musou-orochi2-special/updates/2026-10-15.html"
     }
   },
   {
@@ -144,7 +144,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
     "releasePublishedAt": "2026-10-12T15:30:13Z",
-    "totalDownloads": 403,
+    "totalDownloads": 405,
     "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",
     "keywords": [
       "듀라라라",
@@ -185,7 +185,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/never7-v0.9.0/Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/never7-v0.9.0",
     "releasePublishedAt": "2026-10-11T00:19:13Z",
-    "totalDownloads": 523,
+    "totalDownloads": 524,
     "description": "섬에서 보내는 합숙의 날들과 반복되는 시간의 수수께끼를 그린 인피니티 시리즈 첫 작품",
     "keywords": [
       "네버7",
@@ -257,7 +257,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mv-v0.9.0/MagicalVacation_KrPatcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mv-v0.9.0",
     "releasePublishedAt": "2026-10-10T02:48:17Z",
-    "totalDownloads": 542,
+    "totalDownloads": 543,
     "description": "마법 학교 학생들의 모험을 그린 브라우니 브라운의 GBA RPG",
     "keywords": [
       "매지컬 베케이션",
@@ -373,7 +373,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/JingujiAD-v0.9.0",
     "releasePublishedAt": "2026-10-09T03:02:35Z",
-    "totalDownloads": 790,
+    "totalDownloads": 791,
     "description": "가부키초를 무대로 여러 의뢰와 인물의 이해관계가 교차하는 하드보일드 추리 어드벤처",
     "keywords": [
       "탐정 진구지 사부로",
@@ -451,7 +451,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.3/Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.3",
     "releasePublishedAt": "2026-10-06T02:04:52Z",
-    "totalDownloads": 1752,
+    "totalDownloads": 1753,
     "description": "두 주인공의 시점으로 세계의 창조와 파괴를 그리는 던전 탐험형 JRPG",
     "keywords": [
       "엑시즈 포스",
@@ -527,7 +527,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/GOC6-v0.9.0",
     "releasePublishedAt": "2026-10-03T07:45:14Z",
-    "totalDownloads": 630,
+    "totalDownloads": 631,
     "description": "대륙 제패를 목표로 내정·부대 운용·전투를 병행하는 판타지 전략 RPG",
     "keywords": [
       "제네레이션 오브 카오스 6",
@@ -565,7 +565,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.9.0",
     "releasePublishedAt": "2026-10-01T15:02:39Z",
-    "totalDownloads": 1083,
+    "totalDownloads": 1084,
     "description": "소환술과 파트너 시스템을 중심으로 전개되는 판타지 전략 RPG",
     "keywords": [
       "서몬 나이트 5",
