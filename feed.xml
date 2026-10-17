@@ -5,8 +5,16 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-10-15T00:00:00+09:00</updated>
+  <updated>2026-10-17T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[크로노아 히어로즈: 전설의 스타 메달] v1.0.1 수정판</title>
+    <link href="https://ievy3.github.io/projects/klonoa-heroes/updates/2026-10-17.html"/>
+    <id>https://ievy3.github.io/projects/klonoa-heroes/updates/2026-10-17.html</id>
+    <updated>2026-10-17T00:00:00+09:00</updated>
+    <category term="크로노아 히어로즈: 전설의 스타 메달"/>
+    <summary>가게 화면에 일본어로 남아 있던 개수 단위를 고치고, 안내문의 원본 롬 해시를 바로잡은 수정판입니다.</summary>
+  </entry>
   <entry>
     <title>[크로노아 히어로즈: 전설의 스타 메달] v1.0 공개</title>
     <link href="https://ievy3.github.io/projects/klonoa-heroes/updates/2026-10-15.html"/>
@@ -318,13 +326,5 @@
     <updated>2026-09-30T00:00:00+09:00</updated>
     <category term="Sol Trigger"/>
     <summary>전날 내부 후보에서 남아 있던 화면 표시 일본어와 표시 문제를 정리하고, 이미지·컷신 자막·폰트·패처를 최종 통합했습니다. PPSSPP와 PS Vita Adrenaline에서 주요 기능을 확인한 뒤 v0.9.1을 첫 공개 베타로 배포했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Generation of Chaos 6] 번역 초벌·전체 윤문을 마치고 첫 전체 한국어 빌드까지</title>
-    <link href="https://ievy3.github.io/projects/generation-of-chaos-6/updates/2026-09-29.html"/>
-    <id>https://ievy3.github.io/projects/generation-of-chaos-6/updates/2026-09-29.html</id>
-    <updated>2026-09-29T00:00:00+09:00</updated>
-    <category term="Generation of Chaos 6"/>
-    <summary>프로젝트 착수 첫날에 텍스트 추출·재삽입 기반을 마련하고, 대사와 시스템 문구의 번역 초벌 및 전체 윤문을 완료했습니다. 한글 폰트까지 통합한 첫 전체 한국어 빌드도 생성했으며, 현재는 실행 검증과 이미지 한글화를 남겨두고 있습니다.</summary>
   </entry>
 </feed>
