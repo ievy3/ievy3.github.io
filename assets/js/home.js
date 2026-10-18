@@ -11,8 +11,8 @@ const fallbackProjects = [
   {
     "title": "사쿠라장의 애완 그녀",
     "href": "/projects/sakurasou-no-pet-na-kanojo/",
-    "image": "/assets/images/sakurasou-no-pet-na-kanojo/project-cover.svg",
-    "imageAlt": "사쿠라장의 애완 그녀 한국어 패치 대표 이미지",
+    "image": "/assets/images/sakurasou-no-pet-na-kanojo/2026-10-18-title-ko.webp",
+    "imageAlt": "사쿠라장의 애완 그녀 한글 타이틀 화면",
     "imageFit": "cover",
     "platform": "PSP",
     "genre": "어드벤처",
