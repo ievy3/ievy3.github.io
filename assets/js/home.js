@@ -89,6 +89,45 @@ const fallbackProjects = [
     }
   },
   {
+    "title": "사쿠라장의 애완 그녀",
+    "href": "/projects/sakurasou-no-pet-na-kanojo/",
+    "image": "/assets/images/sakurasou-no-pet-na-kanojo/project-cover.svg",
+    "imageAlt": "사쿠라장의 애완 그녀 한국어 패치 대표 이미지",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "연애",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.0",
+    "updated": "2026-10-18",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/spk-v0.9.0/Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/spk-v0.9.0",
+    "releasePublishedAt": "2026-10-18T15:08:35Z",
+    "totalDownloads": 0,
+    "description": "가모시다 하지메의 라이트 노벨이 원작인 PSP 학원 러브코미디 어드벤처",
+    "keywords": [
+      "사쿠라장의 애완 그녀",
+      "사쿠라장",
+      "애완 그녀",
+      "sakurasou",
+      "pet na kanojo",
+      "さくら荘のペットな彼女",
+      "시이나 마시로",
+      "러브코미디"
+    ],
+    "verification": [
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-10-18",
+      "title": "화면 검수·실기 확인과 v0.9.0 공개",
+      "href": "/projects/sakurasou-no-pet-na-kanojo/updates/2026-10-18.html"
+    }
+  },
+  {
     "title": "Shadow of Memories",
     "href": "/projects/shadow-of-memories/",
     "image": "/assets/images/shadow-of-memories/2026-10-12-title-ko.webp",

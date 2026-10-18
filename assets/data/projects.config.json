@@ -460,6 +460,34 @@
     ]
   },
   {
+    "slug": "sakurasou-no-pet-na-kanojo",
+    "title": "사쿠라장의 애완 그녀",
+    "image": "/assets/images/sakurasou-no-pet-na-kanojo/project-cover.svg",
+    "imageAlt": "사쿠라장의 애완 그녀 한국어 패치 대표 이미지",
+    "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "spk-",
+    "description": "가모시다 하지메의 라이트 노벨이 원작인 PSP 학원 러브코미디 어드벤처",
+    "keywords": [
+      "사쿠라장의 애완 그녀",
+      "사쿠라장",
+      "애완 그녀",
+      "sakurasou",
+      "pet na kanojo",
+      "さくら荘のペットな彼女",
+      "시이나 마시로",
+      "러브코미디"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "genre": "어드벤처",
+    "subgenre": "연애",
+    "stage": 6,
+    "updated": "2026-10-18",
+    "verification": [
+      "PSP-1000"
+    ]
+  },
+  {
     "slug": "nichijou-uchuujin",
     "title": "일상 (우주인)",
     "status": "planned",
