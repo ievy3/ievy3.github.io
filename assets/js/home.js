@@ -9,6 +9,46 @@ let showAllProjects = false;
 // BEGIN fallback projects
 const fallbackProjects = [
   {
+    "title": "사쿠라장의 애완 그녀",
+    "href": "/projects/sakurasou-no-pet-na-kanojo/",
+    "image": "/assets/images/sakurasou-no-pet-na-kanojo/project-cover.svg",
+    "imageAlt": "사쿠라장의 애완 그녀 한국어 패치 대표 이미지",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "연애",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.0",
+    "updated": "2026-10-19",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/spk-v0.9.0/Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/spk-v0.9.0",
+    "releasePublishedAt": "2026-10-18T15:08:35Z",
+    "totalDownloads": 0,
+    "description": "가모시다 하지메의 라이트 노벨이 원작인 PSP 학원 러브코미디 어드벤처",
+    "keywords": [
+      "사쿠라장의 애완 그녀",
+      "사쿠라장",
+      "애완 그녀",
+      "sakurasou",
+      "pet na kanojo",
+      "さくら荘のペットな彼女",
+      "시이나 마시로",
+      "러브코미디"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-10-18",
+      "title": "화면 검수·실기 확인과 v0.9.0 공개",
+      "href": "/projects/sakurasou-no-pet-na-kanojo/updates/2026-10-18.html"
+    }
+  },
+  {
     "title": "크로노아 히어로즈: 전설의 스타 메달",
     "href": "/projects/klonoa-heroes/",
     "image": "/assets/images/klonoa-heroes/2026-10-15-title-ko.webp",
@@ -66,7 +106,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.0/Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/orochi2-v0.9.0",
     "releasePublishedAt": "2026-10-14T23:09:03Z",
-    "totalDownloads": 533,
+    "totalDownloads": 534,
     "description": "삼국지·전국 무장과 신화 속 영웅이 함께 싸우는 코에이 테크모의 PSP 무쌍 액션",
     "keywords": [
       "무쌍 오로치",
@@ -86,45 +126,6 @@ const fallbackProjects = [
       "date": "2026-10-15",
       "title": "화면 결함 수정과 v0.9.0 공개",
       "href": "/projects/musou-orochi2-special/updates/2026-10-15.html"
-    }
-  },
-  {
-    "title": "사쿠라장의 애완 그녀",
-    "href": "/projects/sakurasou-no-pet-na-kanojo/",
-    "image": "/assets/images/sakurasou-no-pet-na-kanojo/project-cover.svg",
-    "imageAlt": "사쿠라장의 애완 그녀 한국어 패치 대표 이미지",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "어드벤처",
-    "subgenre": "연애",
-    "type": "한국어 패치",
-    "status": "public",
-    "statusLabel": "베타 공개",
-    "stage": 6,
-    "version": "v0.9.0",
-    "updated": "2026-10-18",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/spk-v0.9.0/Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/spk-v0.9.0",
-    "releasePublishedAt": "2026-10-18T15:08:35Z",
-    "totalDownloads": 0,
-    "description": "가모시다 하지메의 라이트 노벨이 원작인 PSP 학원 러브코미디 어드벤처",
-    "keywords": [
-      "사쿠라장의 애완 그녀",
-      "사쿠라장",
-      "애완 그녀",
-      "sakurasou",
-      "pet na kanojo",
-      "さくら荘のペットな彼女",
-      "시이나 마시로",
-      "러브코미디"
-    ],
-    "verification": [
-      "PSP-1000"
-    ],
-    "latestWorklog": {
-      "date": "2026-10-18",
-      "title": "화면 검수·실기 확인과 v0.9.0 공개",
-      "href": "/projects/sakurasou-no-pet-na-kanojo/updates/2026-10-18.html"
     }
   },
   {

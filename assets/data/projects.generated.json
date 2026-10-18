@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-10-18T15:15:05.336Z",
+  "generatedAt": "2026-10-18T15:19:28.509Z",
   "projects": [
+    {
+      "title": "사쿠라장의 애완 그녀",
+      "href": "/projects/sakurasou-no-pet-na-kanojo/",
+      "repository": null,
+      "repositoryUrl": null,
+      "issuesUrl": null,
+      "releaseRepository": "ievy3/ievy3.github.io",
+      "image": "/assets/images/sakurasou-no-pet-na-kanojo/project-cover.svg",
+      "imageAlt": "사쿠라장의 애완 그녀 한국어 패치 대표 이미지",
+      "imageFit": "cover",
+      "platform": "PSP",
+      "genre": "어드벤처",
+      "subgenre": "연애",
+      "type": "한국어 패치",
+      "status": "public",
+      "statusLabel": "베타 공개",
+      "stage": 6,
+      "version": "v0.9.0",
+      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/spk-v0.9.0/Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
+      "downloadAsset": "Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
+      "downloadCount": 0,
+      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/spk-v0.9.0",
+      "releaseName": "[PSP] 사쿠라장의 애완 그녀 한글 패치 v0.9.0",
+      "releasePublishedAt": "2026-10-18T15:08:35Z",
+      "updated": "2026-10-19",
+      "publicBuilds": 1,
+      "totalDownloads": 0,
+      "releaseHistory": [
+        {
+          "version": "v0.9.0",
+          "tag": "spk-v0.9.0",
+          "releaseName": "[PSP] 사쿠라장의 애완 그녀 한글 패치 v0.9.0",
+          "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/spk-v0.9.0",
+          "publishedAt": "2026-10-18T15:08:35Z",
+          "date": "2026-10-19",
+          "prerelease": true,
+          "download": "https://github.com/ievy3/ievy3.github.io/releases/download/spk-v0.9.0/Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
+          "downloadAsset": "Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
+          "downloadCount": 0
+        }
+      ],
+      "description": "가모시다 하지메의 라이트 노벨이 원작인 PSP 학원 러브코미디 어드벤처",
+      "keywords": [
+        "사쿠라장의 애완 그녀",
+        "사쿠라장",
+        "애완 그녀",
+        "sakurasou",
+        "pet na kanojo",
+        "さくら荘のペットな彼女",
+        "시이나 마시로",
+        "러브코미디"
+      ],
+      "verification": [
+        "PPSSPP",
+        "PSP-1000"
+      ],
+      "latestWorklog": {
+        "date": "2026-10-18",
+        "title": "화면 검수·실기 확인과 v0.9.0 공개",
+        "href": "/projects/sakurasou-no-pet-na-kanojo/updates/2026-10-18.html"
+      },
+      "latestReleaseTag": "spk-v0.9.0"
+    },
     {
       "title": "크로노아 히어로즈: 전설의 스타 메달",
       "href": "/projects/klonoa-heroes/",
@@ -96,13 +159,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.0/Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
-      "downloadCount": 533,
+      "downloadCount": 534,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/orochi2-v0.9.0",
       "releaseName": "[PSP] 무쌍 오로치 2 스페셜 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-14T23:09:03Z",
       "updated": "2026-10-15",
       "publicBuilds": 1,
-      "totalDownloads": 533,
+      "totalDownloads": 534,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -114,7 +177,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.0/Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
-          "downloadCount": 533
+          "downloadCount": 534
         }
       ],
       "description": "삼국지·전국 무장과 신화 속 영웅이 함께 싸우는 코에이 테크모의 PSP 무쌍 액션",
@@ -138,68 +201,6 @@
         "href": "/projects/musou-orochi2-special/updates/2026-10-15.html"
       },
       "latestReleaseTag": "orochi2-v0.9.0"
-    },
-    {
-      "title": "사쿠라장의 애완 그녀",
-      "href": "/projects/sakurasou-no-pet-na-kanojo/",
-      "repository": null,
-      "repositoryUrl": null,
-      "issuesUrl": null,
-      "releaseRepository": "ievy3/ievy3.github.io",
-      "image": "/assets/images/sakurasou-no-pet-na-kanojo/project-cover.svg",
-      "imageAlt": "사쿠라장의 애완 그녀 한국어 패치 대표 이미지",
-      "imageFit": "cover",
-      "platform": "PSP",
-      "genre": "어드벤처",
-      "subgenre": "연애",
-      "type": "한국어 패치",
-      "status": "public",
-      "statusLabel": "베타 공개",
-      "stage": 6,
-      "version": "v0.9.0",
-      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/spk-v0.9.0/Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
-      "downloadAsset": "Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
-      "downloadCount": 0,
-      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/spk-v0.9.0",
-      "releaseName": "[PSP] 사쿠라장의 애완 그녀 한글 패치 v0.9.0",
-      "releasePublishedAt": "2026-10-18T15:08:35Z",
-      "updated": "2026-10-18",
-      "publicBuilds": 1,
-      "totalDownloads": 0,
-      "releaseHistory": [
-        {
-          "version": "v0.9.0",
-          "tag": "spk-v0.9.0",
-          "releaseName": "[PSP] 사쿠라장의 애완 그녀 한글 패치 v0.9.0",
-          "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/spk-v0.9.0",
-          "publishedAt": "2026-10-18T15:08:35Z",
-          "date": "2026-10-18",
-          "prerelease": true,
-          "download": "https://github.com/ievy3/ievy3.github.io/releases/download/spk-v0.9.0/Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
-          "downloadAsset": "Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
-          "downloadCount": 0
-        }
-      ],
-      "description": "가모시다 하지메의 라이트 노벨이 원작인 PSP 학원 러브코미디 어드벤처",
-      "keywords": [
-        "사쿠라장의 애완 그녀",
-        "사쿠라장",
-        "애완 그녀",
-        "sakurasou",
-        "pet na kanojo",
-        "さくら荘のペットな彼女",
-        "시이나 마시로",
-        "러브코미디"
-      ],
-      "verification": [
-        "PSP-1000"
-      ],
-      "latestWorklog": {
-        "date": "2026-10-18",
-        "title": "화면 검수·실기 확인과 v0.9.0 공개",
-        "href": "/projects/sakurasou-no-pet-na-kanojo/updates/2026-10-18.html"
-      },
-      "latestReleaseTag": "spk-v0.9.0"
     },
     {
       "title": "Shadow of Memories",
