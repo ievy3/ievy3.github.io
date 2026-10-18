@@ -146,7 +146,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/som-v0.9.1/Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/som-v0.9.1",
     "releasePublishedAt": "2026-10-14T11:50:48Z",
-    "totalDownloads": 577,
+    "totalDownloads": 578,
     "description": "살해당한 주인공이 시간을 거슬러 자신의 죽음을 막으려 하는 시간 여행 어드벤처",
     "keywords": [
       "섀도우 오브 메모리즈",

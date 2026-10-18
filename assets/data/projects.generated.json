@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T15:19:28.509Z",
+  "generatedAt": "2026-10-18T15:27:04.488Z",
   "projects": [
     {
       "title": "사쿠라장의 애완 그녀",
@@ -222,13 +222,13 @@
       "version": "v0.9.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/som-v0.9.1/Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
-      "downloadCount": 189,
+      "downloadCount": 190,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/som-v0.9.1",
       "releaseName": "[PSP] 섀도우 오브 메모리즈 (SHADOW OF MEMORIES) 한글 패치 v0.9.1",
       "releasePublishedAt": "2026-10-14T11:50:48Z",
       "updated": "2026-10-14",
       "publicBuilds": 2,
-      "totalDownloads": 577,
+      "totalDownloads": 578,
       "releaseHistory": [
         {
           "version": "v0.9.1",
@@ -240,7 +240,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/som-v0.9.1/Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
-          "downloadCount": 189
+          "downloadCount": 190
         },
         {
           "version": "v0.9.0",
