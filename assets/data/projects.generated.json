@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T09:29:12.302Z",
+  "generatedAt": "2026-10-25T09:49:43.925Z",
   "projects": [
     {
       "title": "마블 얼티밋 얼라이언스",
@@ -21,13 +21,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mua-v0.9.0/Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
-      "downloadCount": 124,
+      "downloadCount": 132,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mua-v0.9.0",
       "releaseName": "[PSP] 마블 얼티밋 얼라이언스 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-25T03:47:32Z",
       "updated": "2026-10-25",
       "publicBuilds": 1,
-      "totalDownloads": 124,
+      "totalDownloads": 132,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -39,7 +39,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mua-v0.9.0/Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
-          "downloadCount": 124
+          "downloadCount": 132
         }
       ],
       "description": "마블의 영웅들로 팀을 짜 우주적 위협에 맞서는 액션 RPG",
@@ -223,13 +223,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.0/Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
-      "downloadCount": 595,
+      "downloadCount": 596,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/orochi2-v0.9.0",
       "releaseName": "[PSP] 무쌍 오로치 2 스페셜 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-14T23:09:03Z",
       "updated": "2026-10-15",
       "publicBuilds": 1,
-      "totalDownloads": 595,
+      "totalDownloads": 596,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -241,7 +241,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.0/Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
-          "downloadCount": 595
+          "downloadCount": 596
         }
       ],
       "description": "삼국지·전국 무장과 신화 속 영웅이 함께 싸우는 코에이 테크모의 PSP 무쌍 액션",
