@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 10월 25일 마블 얼티밋 얼라이언스 한국어 패치 작업일지">
+  <title>2026.10.25 작업일지 | 마블 얼티밋 얼라이언스</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/marvel-ultimate-alliance/updates/2026-10-25.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.10.25 작업일지 | 마블 얼티밋 얼라이언스">
+  <meta property="og:description" content="2026년 10월 25일 마블 얼티밋 얼라이언스 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/marvel-ultimate-alliance/updates/2026-10-25.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/marvel-ultimate-alliance/2026-10-25-title-ko.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.10.25 작업일지 | 마블 얼티밋 얼라이언스">
+  <meta name="twitter:description" content="2026년 10월 25일 마블 얼티밋 얼라이언스 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/marvel-ultimate-alliance/2026-10-25-title-ko.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=28">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=1">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=1">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/marvel-ultimate-alliance/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.10.25</p>
+    <h1>실기 확인 수정과<br>v0.9.0 배포 준비</h1>
+    <p>PSP 실기에서 확인하며 나온 문제를 고치고, 영상 자막 타이밍과 타이틀 로고의 반짝임을 다듬었습니다. 첫 공개판 v0.9.0 배포 꾸러미를 완성했습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>RELEASE PREP</span><span class="badge">v0.9.0 준비</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>504줄</strong><span>영상 자막 타이밍 조정</span></div>
+    <div><strong>152행</strong><span>빈 안내 막대 수정</span></div>
+    <div><strong>PSP-1000</strong><span>실기 확인</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">REAL HARDWARE</p><h2>실기에서 찾아 고친 것</h2>
+    <ul class="compact-list">
+      <li>게임 시작 직후 영상에서 화면이 검게 멈추던 문제를 고쳤습니다. 에뮬레이터에서는 나타나지 않고 실기에서만 생기던 문제였습니다.</li>
+      <li>「○ 문 열기」 같은 버튼 안내 막대에 글자가 나오지 않던 문제를 고쳤습니다. 같은 형태의 문장 152행이 함께 바로잡혔습니다.</li>
+      <li>로딩 팁 막대의 첫 줄이 위 테두리에 닿던 것을 여백을 주어 고쳤습니다.</li>
+      <li>영상 자막이 말보다 늦게 나오던 것을 줄마다 말이 시작하는 때에 맞췄습니다(504줄).</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">FIXES</p><h2>그 밖의 수정</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>빠져 있던 음성 자막 5줄 복구</li>
+        <li><span>✓</span>번역문에 섞인 메모·줄바꿈 오류 65곳</li>
+        <li><span>✓</span>퀴즈 답이 깨지던 문제</li>
+        <li><span>✓</span>영상 목록 로고 이름 한글화</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">TITLE</p><h2>타이틀 화면</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>직접 만든 한글 로고</li>
+        <li><span>✓</span>원본의 반짝임 효과 복원</li>
+        <li><span>✓</span>상·하단 금속 바는 원본 유지</li>
+        <li><span>✓</span>실기에서 확인</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>PSP 시스템이 그리는 세이브 목록에서는 한글이 깨지기 때문에 세이브 제목과 저장 안내 문구 일부는 영어로 두었습니다.</li>
+      <li>자막이 보이지 않으면 게임 옵션에서 자막이 켜져 있는지 확인해 주세요.</li>
+      <li>공개되면 이 페이지와 GitHub Releases에서 내려받을 수 있습니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">MARVEL ULTIMATE ALLIANCE DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=2" defer></script>
+</body>
+</html>
