@@ -500,11 +500,30 @@
   {
     "slug": "marvel-ultimate-alliance",
     "title": "마블 얼티밋 얼라이언스",
-    "status": "planned",
-    "imageAlt": "마블 얼티밋 얼라이언스 국내판 PSP 패키지",
+    "image": "/assets/images/marvel-ultimate-alliance/2026-10-25-title-ko.webp",
+    "imageAlt": "마블 얼티밋 얼라이언스 한글 타이틀 화면",
     "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "mua-",
+    "description": "마블의 영웅들로 팀을 짜 우주적 위협에 맞서는 액션 RPG",
+    "keywords": [
+      "마블 얼티밋 얼라이언스",
+      "얼티밋 얼라이언스",
+      "marvel ultimate alliance",
+      "mua",
+      "마블",
+      "액티비전",
+      "activision",
+      "스파이더맨",
+      "캡틴 아메리카"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
     "genre": "RPG",
     "subgenre": "액션",
-    "image": "/assets/images/marvel-ultimate-alliance/official-cover.webp"
+    "stage": 5,
+    "updated": "2026-10-25",
+    "verification": [
+      "PSP-1000"
+    ]
   }
 ]

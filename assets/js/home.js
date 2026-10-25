@@ -698,15 +698,40 @@ const fallbackProjects = [
   },
   {
     "title": "마블 얼티밋 얼라이언스",
-    "slug": "marvel-ultimate-alliance",
-    "image": "/assets/images/marvel-ultimate-alliance/official-cover.webp",
-    "imageAlt": "마블 얼티밋 얼라이언스 국내판 PSP 패키지",
+    "href": "/projects/marvel-ultimate-alliance/",
+    "image": "/assets/images/marvel-ultimate-alliance/2026-10-25-title-ko.webp",
+    "imageAlt": "마블 얼티밋 얼라이언스 한글 타이틀 화면",
+    "imageFit": "cover",
     "platform": "PSP",
     "genre": "RPG",
     "subgenre": "액션",
-    "status": "planned",
-    "statusLabel": "작업 예정",
-    "updated": ""
+    "type": "한국어 패치",
+    "status": "development",
+    "statusLabel": "작업 중",
+    "stage": 5,
+    "version": "첫 공개 전",
+    "updated": "2026-10-25",
+    "totalDownloads": 0,
+    "description": "마블의 영웅들로 팀을 짜 우주적 위협에 맞서는 액션 RPG",
+    "keywords": [
+      "마블 얼티밋 얼라이언스",
+      "얼티밋 얼라이언스",
+      "marvel ultimate alliance",
+      "mua",
+      "마블",
+      "액티비전",
+      "activision",
+      "스파이더맨",
+      "캡틴 아메리카"
+    ],
+    "verification": [
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-10-25",
+      "title": "실기 확인 수정과 v0.9.0 배포 준비",
+      "href": "/projects/marvel-ultimate-alliance/updates/2026-10-25.html"
+    }
   },
   {
     "title": "일상 (우주인)",
