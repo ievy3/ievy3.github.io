@@ -26,7 +26,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mua-v0.9.0/Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mua-v0.9.0",
     "releasePublishedAt": "2026-10-25T03:47:32Z",
-    "totalDownloads": 0,
+    "totalDownloads": 1,
     "description": "마블의 영웅들로 팀을 짜 우주적 위협에 맞서는 액션 RPG",
     "keywords": [
       "마블 얼티밋 얼라이언스",
@@ -67,7 +67,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/spk-v0.9.0/Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/spk-v0.9.0",
     "releasePublishedAt": "2026-10-18T15:08:35Z",
-    "totalDownloads": 241,
+    "totalDownloads": 243,
     "description": "가모시다 하지메의 라이트 노벨이 원작인 PSP 학원 러브코미디 어드벤처",
     "keywords": [
       "사쿠라장의 애완 그녀",
@@ -147,7 +147,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.0/Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/orochi2-v0.9.0",
     "releasePublishedAt": "2026-10-14T23:09:03Z",
-    "totalDownloads": 591,
+    "totalDownloads": 592,
     "description": "삼국지·전국 무장과 신화 속 영웅이 함께 싸우는 코에이 테크모의 PSP 무쌍 액션",
     "keywords": [
       "무쌍 오로치",
@@ -532,7 +532,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.3/Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.3",
     "releasePublishedAt": "2026-10-06T02:04:52Z",
-    "totalDownloads": 1783,
+    "totalDownloads": 1784,
     "description": "두 주인공의 시점으로 세계의 창조와 파괴를 그리는 던전 탐험형 JRPG",
     "keywords": [
       "엑시즈 포스",
@@ -646,7 +646,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.9.0",
     "releasePublishedAt": "2026-10-01T15:02:39Z",
-    "totalDownloads": 1122,
+    "totalDownloads": 1123,
     "description": "소환술과 파트너 시스템을 중심으로 전개되는 판타지 전략 RPG",
     "keywords": [
       "서몬 나이트 5",
