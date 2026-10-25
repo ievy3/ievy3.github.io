@@ -9,6 +9,47 @@ let showAllProjects = false;
 // BEGIN fallback projects
 const fallbackProjects = [
   {
+    "title": "마블 얼티밋 얼라이언스",
+    "href": "/projects/marvel-ultimate-alliance/",
+    "image": "/assets/images/marvel-ultimate-alliance/2026-10-25-title-ko.webp",
+    "imageAlt": "마블 얼티밋 얼라이언스 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "액션",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 5,
+    "version": "v0.9.0",
+    "updated": "2026-10-25",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mua-v0.9.0/Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mua-v0.9.0",
+    "releasePublishedAt": "2026-10-25T03:47:32Z",
+    "totalDownloads": 0,
+    "description": "마블의 영웅들로 팀을 짜 우주적 위협에 맞서는 액션 RPG",
+    "keywords": [
+      "마블 얼티밋 얼라이언스",
+      "얼티밋 얼라이언스",
+      "marvel ultimate alliance",
+      "mua",
+      "마블",
+      "액티비전",
+      "activision",
+      "스파이더맨",
+      "캡틴 아메리카"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-10-25",
+      "title": "실기 확인 수정과 v0.9.0 배포 준비",
+      "href": "/projects/marvel-ultimate-alliance/updates/2026-10-25.html"
+    }
+  },
+  {
     "title": "사쿠라장의 애완 그녀",
     "href": "/projects/sakurasou-no-pet-na-kanojo/",
     "image": "/assets/images/sakurasou-no-pet-na-kanojo/2026-10-18-title-ko.webp",
@@ -694,43 +735,6 @@ const fallbackProjects = [
       "date": "2026-09-22",
       "title": "튜토리얼·메뉴·챕터 이미지 개선",
       "href": "/projects/gungnir/updates/2026-09-22.html"
-    }
-  },
-  {
-    "title": "마블 얼티밋 얼라이언스",
-    "href": "/projects/marvel-ultimate-alliance/",
-    "image": "/assets/images/marvel-ultimate-alliance/2026-10-25-title-ko.webp",
-    "imageAlt": "마블 얼티밋 얼라이언스 한글 타이틀 화면",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "RPG",
-    "subgenre": "액션",
-    "type": "한국어 패치",
-    "status": "development",
-    "statusLabel": "작업 중",
-    "stage": 5,
-    "version": "첫 공개 전",
-    "updated": "2026-10-25",
-    "totalDownloads": 0,
-    "description": "마블의 영웅들로 팀을 짜 우주적 위협에 맞서는 액션 RPG",
-    "keywords": [
-      "마블 얼티밋 얼라이언스",
-      "얼티밋 얼라이언스",
-      "marvel ultimate alliance",
-      "mua",
-      "마블",
-      "액티비전",
-      "activision",
-      "스파이더맨",
-      "캡틴 아메리카"
-    ],
-    "verification": [
-      "PSP-1000"
-    ],
-    "latestWorklog": {
-      "date": "2026-10-25",
-      "title": "실기 확인 수정과 v0.9.0 배포 준비",
-      "href": "/projects/marvel-ultimate-alliance/updates/2026-10-25.html"
     }
   },
   {
