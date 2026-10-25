@@ -61,7 +61,7 @@ const fallbackProjects = [
     "type": "한국어 패치",
     "status": "public",
     "statusLabel": "베타 공개",
-    "stage": 5,
+    "stage": 6,
     "version": "v0.9.0",
     "updated": "2026-10-25",
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gtasc-v0.9.0/Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
@@ -82,12 +82,12 @@ const fallbackProjects = [
       "오픈 월드"
     ],
     "verification": [
-      "PPSSPP"
+      "PSP-1000"
     ],
     "latestWorklog": {
-      "date": "2026-10-24",
-      "title": "그림 한글화·번역 검수와 v0.9.0 배포 준비",
-      "href": "/projects/gta-sindacco-chronicles/updates/2026-10-24.html"
+      "date": "2026-10-25",
+      "title": "v0.9.0 공개",
+      "href": "/projects/gta-sindacco-chronicles/updates/2026-10-25.html"
     }
   },
   {

@@ -551,8 +551,10 @@
     "releaseRepository": "ievy3/ievy3.github.io",
     "genre": "액션",
     "subgenre": "오픈 월드",
-    "stage": 5,
-    "updated": "2026-10-24",
-    "verification": []
+    "stage": 6,
+    "updated": "2026-10-25",
+    "verification": [
+      "PSP-1000"
+    ]
   }
 ]
