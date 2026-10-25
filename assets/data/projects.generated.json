@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T09:29:00.454Z",
+  "generatedAt": "2026-10-25T09:29:12.302Z",
   "projects": [
     {
       "title": "마블 얼티밋 얼라이언스",
@@ -425,7 +425,7 @@
       "downloadAsset": "Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
       "downloadCount": 558,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/never7-v0.9.0",
-      "releaseName": "Never7 -the end of infinity- 한글 패치 v0.9.0",
+      "releaseName": "[PSP] Never7 -the end of infinity- 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-11T00:19:13Z",
       "updated": "2026-10-11",
       "publicBuilds": 1,
@@ -434,7 +434,7 @@
         {
           "version": "v0.9.0",
           "tag": "never7-v0.9.0",
-          "releaseName": "Never7 -the end of infinity- 한글 패치 v0.9.0",
+          "releaseName": "[PSP] Never7 -the end of infinity- 한글 패치 v0.9.0",
           "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/never7-v0.9.0",
           "publishedAt": "2026-10-11T00:19:13Z",
           "date": "2026-10-11",
