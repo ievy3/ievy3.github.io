@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T09:28:39.158Z",
+  "generatedAt": "2026-10-25T09:29:00.454Z",
   "projects": [
     {
       "title": "마블 얼티밋 얼라이언스",
@@ -361,7 +361,7 @@
       "downloadAsset": "Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
       "downloadCount": 448,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
-      "releaseName": "듀라라라!! 3way standoff -alley- 한글 패치 v0.9.0",
+      "releaseName": "[PSP] 듀라라라!! 3way standoff -alley- 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-12T15:30:13Z",
       "updated": "2026-10-13",
       "publicBuilds": 1,
@@ -370,7 +370,7 @@
         {
           "version": "v0.9.0",
           "tag": "dura-v0.9.0",
-          "releaseName": "듀라라라!! 3way standoff -alley- 한글 패치 v0.9.0",
+          "releaseName": "[PSP] 듀라라라!! 3way standoff -alley- 한글 패치 v0.9.0",
           "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
           "publishedAt": "2026-10-12T15:30:13Z",
           "date": "2026-10-13",
