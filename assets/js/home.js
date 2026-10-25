@@ -26,7 +26,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mua-v0.9.0/Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mua-v0.9.0",
     "releasePublishedAt": "2026-10-25T03:47:32Z",
-    "totalDownloads": 132,
+    "totalDownloads": 140,
     "description": "마블의 영웅들로 팀을 짜 우주적 위협에 맞서는 액션 RPG",
     "keywords": [
       "마블 얼티밋 얼라이언스",
@@ -59,11 +59,14 @@ const fallbackProjects = [
     "genre": "액션",
     "subgenre": "오픈 월드",
     "type": "한국어 패치",
-    "status": "development",
-    "statusLabel": "작업 중",
+    "status": "public",
+    "statusLabel": "베타 공개",
     "stage": 5,
-    "version": "첫 공개 전",
-    "updated": "2026-10-24",
+    "version": "v0.9.0",
+    "updated": "2026-10-25",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gtasc-v0.9.0/Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gtasc-v0.9.0",
+    "releasePublishedAt": "2026-10-25T09:49:09Z",
     "totalDownloads": 0,
     "description": "GTA 리버티 시티 스토리즈를 바탕으로 1998년 리버티 시티의 마피아 전쟁을 그린 팬 제작 토털 컨버전 모드",
     "keywords": [
@@ -78,7 +81,9 @@ const fallbackProjects = [
       "모드",
       "오픈 월드"
     ],
-    "verification": [],
+    "verification": [
+      "PPSSPP"
+    ],
     "latestWorklog": {
       "date": "2026-10-24",
       "title": "그림 한글화·번역 검수와 v0.9.0 배포 준비",
@@ -143,7 +148,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/kh-v1.0.1/KlonoaHeroes_KO_v1.0.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/kh-v1.0.1",
     "releasePublishedAt": "2026-10-17T00:25:56Z",
-    "totalDownloads": 546,
+    "totalDownloads": 547,
     "description": "『바람의 크로노아』 시리즈의 캐릭터들이 등장하는 남코의 GBA 액션 RPG",
     "keywords": [
       "크로노아 히어로즈",
