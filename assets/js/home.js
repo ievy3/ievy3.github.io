@@ -20,7 +20,7 @@ const fallbackProjects = [
     "type": "한국어 패치",
     "status": "public",
     "statusLabel": "베타 공개",
-    "stage": 5,
+    "stage": 6,
     "version": "v0.9.0",
     "updated": "2026-10-25",
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mua-v0.9.0/Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
@@ -45,7 +45,7 @@ const fallbackProjects = [
     ],
     "latestWorklog": {
       "date": "2026-10-25",
-      "title": "실기 확인 수정과 v0.9.0 배포 준비",
+      "title": "실기 확인 수정과 v0.9.0 공개",
       "href": "/projects/marvel-ultimate-alliance/updates/2026-10-25.html"
     }
   },
