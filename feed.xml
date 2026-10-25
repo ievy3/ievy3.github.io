@@ -8,6 +8,14 @@
   <updated>2026-10-25T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
   <entry>
+    <title>[GTA 신다코 크로니클] v0.9.0 공개</title>
+    <link href="https://ievy3.github.io/projects/gta-sindacco-chronicles/updates/2026-10-25.html"/>
+    <id>https://ievy3.github.io/projects/gta-sindacco-chronicles/updates/2026-10-25.html</id>
+    <updated>2026-10-25T00:00:00+09:00</updated>
+    <category term="GTA 신다코 크로니클"/>
+    <summary>PSP-1000 실기에서 부팅과 게임 실행을 확인하고, 첫 공개판 v0.9.0을 내놓았습니다. 영어판 v1.1 ISO 전용입니다.</summary>
+  </entry>
+  <entry>
     <title>[마블 얼티밋 얼라이언스] 실기 확인 수정과 v0.9.0 공개</title>
     <link href="https://ievy3.github.io/projects/marvel-ultimate-alliance/updates/2026-10-25.html"/>
     <id>https://ievy3.github.io/projects/marvel-ultimate-alliance/updates/2026-10-25.html</id>
@@ -318,13 +326,5 @@
     <updated>2026-10-03T00:00:00+09:00</updated>
     <category term="사키 포터블"/>
     <summary>프로젝트 착수 당일 게임의 대본·이미지·실행 구조를 분석하고 한글 표시 경로와 이름 입력 방식을 확정했습니다. 이후 번역 기준을 정리한 뒤 스토리 대본 전체 7,129줄을 한국어로 옮기고 첫 전체 한국어 빌드까지 만들었습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Shadow of Memories] 원본 구조 분석과 한글화 기반 확인</title>
-    <link href="https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-03.html"/>
-    <id>https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-03.html</id>
-    <updated>2026-10-03T00:00:00+09:00</updated>
-    <category term="Shadow of Memories"/>
-    <summary>일본어판을 기준으로 대사·폰트·이미지·빌드 경로를 분석해, 한글화에 필요한 기술 기반을 대부분 확인했습니다.</summary>
   </entry>
 </feed>
