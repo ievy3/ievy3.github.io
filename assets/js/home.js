@@ -52,9 +52,9 @@ const fallbackProjects = [
   {
     "title": "GTA 신다코 크로니클",
     "href": "/projects/gta-sindacco-chronicles/",
-    "image": "/assets/images/gta-sindacco-chronicles/mod-logo.webp",
-    "imageAlt": "Grand Theft Auto: Sindacco Chronicles 로고",
-    "imageFit": "contain",
+    "image": "/assets/images/gta-sindacco-chronicles/2026-10-24-loading-ko.webp",
+    "imageAlt": "GTA 신다코 크로니클 한글 로딩 화면",
+    "imageFit": "cover",
     "platform": "PSP",
     "genre": "액션",
     "subgenre": "오픈 월드",
