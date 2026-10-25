@@ -16,6 +16,14 @@
     <summary>PSP 실기 시험판에서 나온 문제를 고치고, 영상 자막 타이밍과 타이틀 로고의 반짝임을 다듬었습니다. 첫 공개판 v0.9.0을 내놓았습니다.</summary>
   </entry>
   <entry>
+    <title>[GTA 신다코 크로니클] 그림 한글화·번역 검수와 v0.9.0 배포 준비</title>
+    <link href="https://ievy3.github.io/projects/gta-sindacco-chronicles/updates/2026-10-24.html"/>
+    <id>https://ievy3.github.io/projects/gta-sindacco-chronicles/updates/2026-10-24.html</id>
+    <updated>2026-10-24T00:00:00+09:00</updated>
+    <category term="GTA 신다코 크로니클"/>
+    <summary>섬 이름 배너와 로딩 화면 등 그림을 한글로 바꾸고, 번역 전체를 검수했습니다. 첫 공개판 v0.9.0 배포 꾸러미를 만들었습니다. PSP 실기 확인은 아직입니다.</summary>
+  </entry>
+  <entry>
     <title>[마블 얼티밋 얼라이언스] 큰 글씨 한글화와 번역 전수 검수</title>
     <link href="https://ievy3.github.io/projects/marvel-ultimate-alliance/updates/2026-10-23.html"/>
     <id>https://ievy3.github.io/projects/marvel-ultimate-alliance/updates/2026-10-23.html</id>
@@ -38,6 +46,14 @@
     <updated>2026-10-18T00:00:00+09:00</updated>
     <category term="사쿠라장의 애완 그녀"/>
     <summary>그림 글자를 마무리하고, 화면 검수에서 나온 문제를 고친 뒤 PSP-1000 실기에서 확인했습니다. 첫 공개판 v0.9.0을 내놓았습니다.</summary>
+  </entry>
+  <entry>
+    <title>[GTA 신다코 크로니클] 프로젝트 시작, 번역 3,659행과 한글 표시</title>
+    <link href="https://ievy3.github.io/projects/gta-sindacco-chronicles/updates/2026-10-17.html"/>
+    <id>https://ievy3.github.io/projects/gta-sindacco-chronicles/updates/2026-10-17.html</id>
+    <updated>2026-10-17T00:00:00+09:00</updated>
+    <category term="GTA 신다코 크로니클"/>
+    <summary>영어판 1.1을 기준으로 작업을 시작했습니다. 게임에 한글을 표시하는 방법을 만들고, 게임 속 문장 3,659행의 번역을 마쳤습니다.</summary>
   </entry>
   <entry>
     <title>[크로노아 히어로즈: 전설의 스타 메달] v1.0.1 수정판</title>
@@ -310,21 +326,5 @@
     <updated>2026-10-03T00:00:00+09:00</updated>
     <category term="Shadow of Memories"/>
     <summary>일본어판을 기준으로 대사·폰트·이미지·빌드 경로를 분석해, 한글화에 필요한 기술 기반을 대부분 확인했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Generation of Chaos 6] 인스톨 데이터 부팅 문제를 해결하고 v0.9.0 배포 후보를 준비</title>
-    <link href="https://ievy3.github.io/projects/generation-of-chaos-6/updates/2026-10-02.html"/>
-    <id>https://ievy3.github.io/projects/generation-of-chaos-6/updates/2026-10-02.html</id>
-    <updated>2026-10-02T00:00:00+09:00</updated>
-    <category term="Generation of Chaos 6"/>
-    <summary>배포 전 실제 플레이 검증에서 인스톨 데이터와 시스템 세이브가 함께 있을 때 한글판이 부팅되지 않는 문제를 발견했습니다. 첫 공개 후보에서는 인스톨 데이터 사용을 비활성화해 문제를 해결했고, 여러 세이브 상태에서 정상 부팅을 확인했습니다. 이후 v0.9.0 배포 후보를 만들고 초반 스테이지를 직접 진행하며 남은 표시 문제를 점검했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[환상수호전 이어지는 백 년의 시간] 전체 한국어 빌드 검증과 세이브·표시 호환성 정리</title>
-    <link href="https://ievy3.github.io/projects/genso-suikoden-100-years/updates/2026-10-02.html"/>
-    <id>https://ievy3.github.io/projects/genso-suikoden-100-years/updates/2026-10-02.html</id>
-    <updated>2026-10-02T00:00:00+09:00</updated>
-    <category term="환상수호전 이어지는 백 년의 시간"/>
-    <summary>전체 한국어 빌드를 만든 뒤 실제 게임 표시 한도, 세이브 이름 호환성, 설치 데이터 충돌 가능성을 집중적으로 확인했습니다. 텍스트 쪽은 통합 검사를 통과했고 이미지 한글화도 첫 사용자 검토 단계에 들어갔습니다.</summary>
   </entry>
 </feed>

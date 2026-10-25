@@ -525,5 +525,34 @@
     "verification": [
       "PSP-1000"
     ]
+  },
+  {
+    "slug": "gta-sindacco-chronicles",
+    "title": "GTA 신다코 크로니클",
+    "image": "/assets/images/gta-sindacco-chronicles/mod-logo.webp",
+    "imageAlt": "Grand Theft Auto: Sindacco Chronicles 로고",
+    "imageFit": "contain",
+    "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "gtasc-",
+    "description": "GTA 리버티 시티 스토리즈를 바탕으로 1998년 리버티 시티의 마피아 전쟁을 그린 팬 제작 토털 컨버전 모드",
+    "keywords": [
+      "gta",
+      "신다코 크로니클",
+      "sindacco chronicles",
+      "그랜드 테프트 오토",
+      "grand theft auto",
+      "리버티 시티 스토리즈",
+      "liberty city stories",
+      "barcode studia",
+      "모드",
+      "오픈 월드"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "genre": "액션",
+    "subgenre": "오픈 월드",
+    "stage": 5,
+    "updated": "2026-10-24",
+    "verification": []
   }
 ]

@@ -50,6 +50,42 @@ const fallbackProjects = [
     }
   },
   {
+    "title": "GTA 신다코 크로니클",
+    "href": "/projects/gta-sindacco-chronicles/",
+    "image": "/assets/images/gta-sindacco-chronicles/mod-logo.webp",
+    "imageAlt": "Grand Theft Auto: Sindacco Chronicles 로고",
+    "imageFit": "contain",
+    "platform": "PSP",
+    "genre": "액션",
+    "subgenre": "오픈 월드",
+    "type": "한국어 패치",
+    "status": "development",
+    "statusLabel": "작업 중",
+    "stage": 5,
+    "version": "첫 공개 전",
+    "updated": "2026-10-24",
+    "totalDownloads": 0,
+    "description": "GTA 리버티 시티 스토리즈를 바탕으로 1998년 리버티 시티의 마피아 전쟁을 그린 팬 제작 토털 컨버전 모드",
+    "keywords": [
+      "gta",
+      "신다코 크로니클",
+      "sindacco chronicles",
+      "그랜드 테프트 오토",
+      "grand theft auto",
+      "리버티 시티 스토리즈",
+      "liberty city stories",
+      "barcode studia",
+      "모드",
+      "오픈 월드"
+    ],
+    "verification": [],
+    "latestWorklog": {
+      "date": "2026-10-24",
+      "title": "그림 한글화·번역 검수와 v0.9.0 배포 준비",
+      "href": "/projects/gta-sindacco-chronicles/updates/2026-10-24.html"
+    }
+  },
+  {
     "title": "사쿠라장의 애완 그녀",
     "href": "/projects/sakurasou-no-pet-na-kanojo/",
     "image": "/assets/images/sakurasou-no-pet-na-kanojo/2026-10-18-title-ko.webp",
