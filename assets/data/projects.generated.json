@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T15:12:50.687Z",
+  "generatedAt": "2026-10-26T15:13:02.763Z",
   "projects": [
     {
       "title": "신 우리들의 태양: 역습의 사바타",
@@ -969,7 +969,7 @@
       "downloadAsset": "Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
       "downloadCount": 408,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.3",
-      "releaseName": "Hexyz Force 한글 패치 v0.9.3 — 공개 검수판 (261006)",
+      "releaseName": "[PSP] Hexyz Force 한글 패치 v0.9.3 — 공개 검수판 (261006)",
       "releasePublishedAt": "2026-10-06T02:04:52Z",
       "updated": "2026-10-06",
       "publicBuilds": 4,
@@ -978,7 +978,7 @@
         {
           "version": "v0.9.3-beta.1",
           "tag": "hexyz-v0.9.3",
-          "releaseName": "Hexyz Force 한글 패치 v0.9.3 — 공개 검수판 (261006)",
+          "releaseName": "[PSP] Hexyz Force 한글 패치 v0.9.3 — 공개 검수판 (261006)",
           "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.3",
           "publishedAt": "2026-10-06T02:04:52Z",
           "date": "2026-10-06",
@@ -1125,13 +1125,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
-      "downloadCount": 660,
+      "downloadCount": 661,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/GOC6-v0.9.0",
       "releaseName": "제네레이션 오브 카오스 6 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-03T07:45:14Z",
       "updated": "2026-10-03",
       "publicBuilds": 1,
-      "totalDownloads": 660,
+      "totalDownloads": 661,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -1143,7 +1143,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
-          "downloadCount": 660
+          "downloadCount": 661
         }
       ],
       "description": "대륙 제패를 목표로 내정·부대 운용·전투를 병행하는 판타지 전략 RPG",
