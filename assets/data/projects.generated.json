@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T15:13:37.429Z",
+  "generatedAt": "2026-10-26T15:13:50.554Z",
   "projects": [
     {
       "title": "신 우리들의 태양: 역습의 사바타",
@@ -908,7 +908,7 @@
       "downloadAsset": "Saki_Portable_Korean_Patch_v0.9.5.zip",
       "downloadCount": 475,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiP-v0.9.5",
-      "releaseName": "사키 포터블 한글 패치 v0.9.5 Pre-release",
+      "releaseName": "[PSP] 사키 포터블 한글 패치 v0.9.5 Pre-release",
       "releasePublishedAt": "2026-10-05T15:07:34Z",
       "updated": "2026-10-06",
       "publicBuilds": 1,
@@ -917,7 +917,7 @@
         {
           "version": "v0.9.5",
           "tag": "sakiP-v0.9.5",
-          "releaseName": "사키 포터블 한글 패치 v0.9.5 Pre-release",
+          "releaseName": "[PSP] 사키 포터블 한글 패치 v0.9.5 Pre-release",
           "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiP-v0.9.5",
           "publishedAt": "2026-10-05T15:07:34Z",
           "date": "2026-10-06",
@@ -1063,7 +1063,7 @@
       "downloadAsset": "Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
       "downloadCount": 844,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SuikodenTHT-v0.9.0",
-      "releaseName": "환상수호전 이어지는 백 년의 시간 한글 패치 v0.9.0",
+      "releaseName": "[PSP] 환상수호전 이어지는 백 년의 시간 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-03T07:27:19Z",
       "updated": "2026-10-03",
       "publicBuilds": 1,
@@ -1072,7 +1072,7 @@
         {
           "version": "v0.9.0",
           "tag": "SuikodenTHT-v0.9.0",
-          "releaseName": "환상수호전 이어지는 백 년의 시간 한글 패치 v0.9.0",
+          "releaseName": "[PSP] 환상수호전 이어지는 백 년의 시간 한글 패치 v0.9.0",
           "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SuikodenTHT-v0.9.0",
           "publishedAt": "2026-10-03T07:27:19Z",
           "date": "2026-10-03",
