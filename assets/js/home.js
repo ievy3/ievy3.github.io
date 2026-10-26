@@ -26,7 +26,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sabata-v0.9.4/Boktai3SabatasCounterattack_KrPatcher_v0.9.4.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sabata-v0.9.4",
     "releasePublishedAt": "2026-10-26T09:47:38Z",
-    "totalDownloads": 0,
+    "totalDownloads": 25,
     "description": "태양빛으로 싸우는 코나미의 GBA 태양 액션 RPG, 『우리들의 태양』 시리즈 세 번째 작품",
     "keywords": [
       "신 우리들의 태양",
@@ -71,7 +71,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mua-v0.9.0/Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mua-v0.9.0",
     "releasePublishedAt": "2026-10-25T03:47:32Z",
-    "totalDownloads": 250,
+    "totalDownloads": 255,
     "description": "마블의 영웅들로 팀을 짜 우주적 위협에 맞서는 액션 RPG",
     "keywords": [
       "마블 얼티밋 얼라이언스",
@@ -112,7 +112,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gtasc-v0.9.0/Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gtasc-v0.9.0",
     "releasePublishedAt": "2026-10-25T09:49:09Z",
-    "totalDownloads": 51,
+    "totalDownloads": 53,
     "description": "GTA 리버티 시티 스토리즈를 바탕으로 1998년 리버티 시티의 마피아 전쟁을 그린 팬 제작 토털 컨버전 모드",
     "keywords": [
       "gta",
@@ -274,7 +274,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/som-v0.9.1/Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/som-v0.9.1",
     "releasePublishedAt": "2026-10-14T11:50:48Z",
-    "totalDownloads": 619,
+    "totalDownloads": 621,
     "description": "살해당한 주인공이 시간을 거슬러 자신의 죽음을 막으려 하는 시간 여행 어드벤처",
     "keywords": [
       "섀도우 오브 메모리즈",
@@ -312,7 +312,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
     "releasePublishedAt": "2026-10-12T15:30:13Z",
-    "totalDownloads": 454,
+    "totalDownloads": 455,
     "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",
     "keywords": [
       "듀라라라",
@@ -462,7 +462,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
     "releasePublishedAt": "2026-10-09T01:10:57Z",
-    "totalDownloads": 546,
+    "totalDownloads": 560,
     "description": "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",
     "keywords": [
       "내 여동생이 이렇게 귀여울 리가 없어",
@@ -619,7 +619,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.3/Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.3",
     "releasePublishedAt": "2026-10-06T02:04:52Z",
-    "totalDownloads": 1791,
+    "totalDownloads": 1792,
     "description": "두 주인공의 시점으로 세계의 창조와 파괴를 그리는 던전 탐험형 JRPG",
     "keywords": [
       "엑시즈 포스",
@@ -654,7 +654,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SuikodenTHT-v0.9.0/Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SuikodenTHT-v0.9.0",
     "releasePublishedAt": "2026-10-03T07:27:19Z",
-    "totalDownloads": 844,
+    "totalDownloads": 846,
     "description": "요구하는 것은 질서인가, 자유인가. 시간을 넘어 방어되는 새로운 백만 세계의 이야기.",
     "keywords": [
       "환상수호전 이어지는 백 년의 시간",
@@ -695,7 +695,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/GOC6-v0.9.0",
     "releasePublishedAt": "2026-10-03T07:45:14Z",
-    "totalDownloads": 661,
+    "totalDownloads": 662,
     "description": "대륙 제패를 목표로 내정·부대 운용·전투를 병행하는 판타지 전략 RPG",
     "keywords": [
       "제네레이션 오브 카오스 6",
@@ -733,7 +733,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.9.0",
     "releasePublishedAt": "2026-10-01T15:02:39Z",
-    "totalDownloads": 1132,
+    "totalDownloads": 1133,
     "description": "소환술과 파트너 시스템을 중심으로 전개되는 판타지 전략 RPG",
     "keywords": [
       "서몬 나이트 5",
@@ -770,7 +770,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/soltrigger-v0.9.3",
     "releasePublishedAt": "2026-10-01T13:51:21Z",
-    "totalDownloads": 1235,
+    "totalDownloads": 1236,
     "description": "에너지 ‘솔’을 둘러싼 지배와 저항의 이야기를 그린 스토리 중심 JRPG",
     "keywords": [
       "솔 트리거",
