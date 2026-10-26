@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T15:14:34.727Z",
+  "generatedAt": "2026-10-26T15:14:45.101Z",
   "projects": [
     {
       "title": "신 우리들의 태양: 역습의 사바타",
@@ -1209,7 +1209,7 @@
         {
           "version": "v0.7.0",
           "tag": "SN5-v0.7.0",
-          "releaseName": "서몬나이트 5 (Summon Night 5) 한글 패치 v0.7.0 — 베타",
+          "releaseName": "[PSP] 서몬나이트 5 (Summon Night 5) 한글 패치 v0.7.0 — 베타",
           "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.7.0",
           "publishedAt": "2026-09-28T11:55:53Z",
           "date": "2026-09-28",
@@ -1293,7 +1293,7 @@
         {
           "version": "v0.9.1",
           "tag": "soltrigger-v0.9.1",
-          "releaseName": "솔 트리거 (SOL TRIGGER) 한글 패치 v0.9.1",
+          "releaseName": "[PSP] 솔 트리거 (SOL TRIGGER) 한글 패치 v0.9.1",
           "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/soltrigger-v0.9.1",
           "publishedAt": "2026-09-30T16:55:52Z",
           "date": "2026-10-01",
