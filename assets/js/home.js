@@ -695,7 +695,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/GOC6-v0.9.0",
     "releasePublishedAt": "2026-10-03T07:45:14Z",
-    "totalDownloads": 660,
+    "totalDownloads": 661,
     "description": "대륙 제패를 목표로 내정·부대 운용·전투를 병행하는 판타지 전략 RPG",
     "keywords": [
       "제네레이션 오브 카오스 6",

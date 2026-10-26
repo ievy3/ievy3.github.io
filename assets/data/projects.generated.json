@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T15:13:02.763Z",
+  "generatedAt": "2026-10-26T15:13:37.429Z",
   "projects": [
     {
       "title": "신 우리들의 태양: 역습의 사바타",
@@ -23,7 +23,7 @@
       "downloadAsset": "Boktai3SabatasCounterattack_KrPatcher_v0.9.4.zip",
       "downloadCount": 204,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sabata-v0.9.4",
-      "releaseName": "신 우리들의 태양: 역습의 사바타 한글 패치 v0.9.4",
+      "releaseName": "[GBA] 신 우리들의 태양: 역습의 사바타 한글 패치 v0.9.4",
       "releasePublishedAt": "2026-10-26T09:47:38Z",
       "updated": "2026-10-26",
       "publicBuilds": 1,
@@ -32,7 +32,7 @@
         {
           "version": "v0.9.4",
           "tag": "sabata-v0.9.4",
-          "releaseName": "신 우리들의 태양: 역습의 사바타 한글 패치 v0.9.4",
+          "releaseName": "[GBA] 신 우리들의 태양: 역습의 사바타 한글 패치 v0.9.4",
           "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sabata-v0.9.4",
           "publishedAt": "2026-10-26T09:47:38Z",
           "date": "2026-10-26",
@@ -660,7 +660,7 @@
       "downloadAsset": "MagicalVacation_KrPatcher_v0.9.0.zip",
       "downloadCount": 588,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mv-v0.9.0",
-      "releaseName": "매지컬 베케이션 한글 패치 v0.9.0 ",
+      "releaseName": "[GBA] 매지컬 베케이션 한글 패치 v0.9.0 ",
       "releasePublishedAt": "2026-10-10T02:48:17Z",
       "updated": "2026-10-10",
       "publicBuilds": 1,
@@ -669,7 +669,7 @@
         {
           "version": "v0.9.0",
           "tag": "mv-v0.9.0",
-          "releaseName": "매지컬 베케이션 한글 패치 v0.9.0 ",
+          "releaseName": "[GBA] 매지컬 베케이션 한글 패치 v0.9.0 ",
           "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mv-v0.9.0",
           "publishedAt": "2026-10-10T02:48:17Z",
           "date": "2026-10-10",
