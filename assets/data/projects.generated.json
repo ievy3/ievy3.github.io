@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T15:10:02.534Z",
+  "generatedAt": "2026-10-26T15:10:38.671Z",
   "projects": [
     {
       "title": "신 우리들의 태양: 역습의 사바타",
@@ -1186,13 +1186,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
-      "downloadCount": 560,
+      "downloadCount": 561,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.9.0",
       "releaseName": "서몬나이트 5 (Summon Night 5) 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-01T15:02:39Z",
       "updated": "2026-10-02",
       "publicBuilds": 2,
-      "totalDownloads": 1130,
+      "totalDownloads": 1131,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -1204,7 +1204,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
-          "downloadCount": 560
+          "downloadCount": 561
         },
         {
           "version": "v0.7.0",
