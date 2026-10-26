@@ -101,11 +101,13 @@ const fallbackProjects = [
     "genre": "RPG",
     "subgenre": "액션",
     "type": "한국어 패치",
-    "status": "development",
-    "statusLabel": "작업 중",
-    "stage": 5,
-    "version": "첫 공개 전",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.4",
     "updated": "2026-10-26",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sabata-v0.9.4",
+    "releasePublishedAt": "2026-10-26T09:47:38Z",
     "totalDownloads": 0,
     "description": "태양빛으로 싸우는 코나미의 GBA 태양 액션 RPG, 『우리들의 태양』 시리즈 세 번째 작품",
     "keywords": [
@@ -129,7 +131,7 @@ const fallbackProjects = [
     ],
     "latestWorklog": {
       "date": "2026-10-26",
-      "title": "그림 202장 한글화와 배포 준비",
+      "title": "그림 202장 한글화와 v0.9.4 공개",
       "href": "/projects/shin-bokura-no-taiyou/updates/2026-10-26.html"
     }
   },

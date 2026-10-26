@@ -17,10 +17,11 @@
 ## Projects
 
 <!-- BEGIN projects (scripts/build-site-files.mjs가 projects.generated.json으로 자동 갱신합니다) -->
-현재 공개 허브에서 관리하는 프로젝트는 **21개**입니다(공개 19 · 작업 중 2). 버전은 공개된 최신 배포본 기준입니다.
+현재 공개 허브에서 관리하는 프로젝트는 **21개**입니다(공개 20 · 작업 중 1). 버전은 공개된 최신 배포본 기준입니다.
 
 ### 공개
 
+- [신 우리들의 태양: 역습의 사바타](https://ievy3.github.io/projects/shin-bokura-no-taiyou/) (GBA) — **v0.9.4** · 베타 공개
 - [마블 얼티밋 얼라이언스](https://ievy3.github.io/projects/marvel-ultimate-alliance/) (PSP) — **v0.9.0** · 베타 공개
 - [GTA 신다코 크로니클](https://ievy3.github.io/projects/gta-sindacco-chronicles/) (PSP) — **v0.9.0** · 베타 공개
 - [사쿠라장의 애완 그녀](https://ievy3.github.io/projects/sakurasou-no-pet-na-kanojo/) (PSP) — **v0.9.0** · 베타 공개
@@ -43,7 +44,6 @@
 
 ### 작업 중
 
-- [신 우리들의 태양: 역습의 사바타](https://ievy3.github.io/projects/shin-bokura-no-taiyou/) (GBA) — 작업 중 · 5단계 실행 검수
 - [바케모노가타리 포터블](https://ievy3.github.io/projects/bakemonogatari-portable/) (PSP) — 작업 중 · 3단계 대사 번역
 
 ### 작업 예정
