@@ -5,8 +5,16 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-10-25T00:00:00+09:00</updated>
+  <updated>2026-10-26T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[신 우리들의 태양: 역습의 사바타] 그림 202장 한글화와 배포 준비</title>
+    <link href="https://ievy3.github.io/projects/shin-bokura-no-taiyou/updates/2026-10-26.html"/>
+    <id>https://ievy3.github.io/projects/shin-bokura-no-taiyou/updates/2026-10-26.html</id>
+    <updated>2026-10-26T00:00:00+09:00</updated>
+    <category term="신 우리들의 태양: 역습의 사바타"/>
+    <summary>남은 일본어 그림 202장을 한글로 바꿔 넣고, 화면에서 나온 문제와 표기를 다듬었습니다. 공개용 배포 꾸러미를 준비했습니다.</summary>
+  </entry>
   <entry>
     <title>[GTA 신다코 크로니클] v0.9.0 공개</title>
     <link href="https://ievy3.github.io/projects/gta-sindacco-chronicles/updates/2026-10-25.html"/>
@@ -24,6 +32,14 @@
     <summary>PSP 실기 시험판에서 나온 문제를 고치고, 영상 자막 타이밍과 타이틀 로고의 반짝임을 다듬었습니다. 첫 공개판 v0.9.0을 내놓았습니다.</summary>
   </entry>
   <entry>
+    <title>[신 우리들의 태양: 역습의 사바타] 번역 검수 완료와 태양 센서 대응</title>
+    <link href="https://ievy3.github.io/projects/shin-bokura-no-taiyou/updates/2026-10-25.html"/>
+    <id>https://ievy3.github.io/projects/shin-bokura-no-taiyou/updates/2026-10-25.html</id>
+    <updated>2026-10-25T00:00:00+09:00</updated>
+    <category term="신 우리들의 태양: 역습의 사바타"/>
+    <summary>번역 전체 검수를 마치고, 태양 센서 없이도 태양 게이지를 조절할 수 있게 했습니다. 남은 일본어 그림을 전부 찾아 목록으로 만들었습니다.</summary>
+  </entry>
+  <entry>
     <title>[GTA 신다코 크로니클] 그림 한글화·번역 검수와 v0.9.0 배포 준비</title>
     <link href="https://ievy3.github.io/projects/gta-sindacco-chronicles/updates/2026-10-24.html"/>
     <id>https://ievy3.github.io/projects/gta-sindacco-chronicles/updates/2026-10-24.html</id>
@@ -32,12 +48,28 @@
     <summary>섬 이름 배너와 로딩 화면 등 그림을 한글로 바꾸고, 번역 전체를 검수했습니다. 첫 공개판 v0.9.0 배포 꾸러미를 만들었습니다. PSP 실기 확인은 아직입니다.</summary>
   </entry>
   <entry>
+    <title>[신 우리들의 태양: 역습의 사바타] 한글 글꼴과 대사 번역 완료</title>
+    <link href="https://ievy3.github.io/projects/shin-bokura-no-taiyou/updates/2026-10-24.html"/>
+    <id>https://ievy3.github.io/projects/shin-bokura-no-taiyou/updates/2026-10-24.html</id>
+    <updated>2026-10-24T00:00:00+09:00</updated>
+    <category term="신 우리들의 태양: 역습의 사바타"/>
+    <summary>게임에 한글 글꼴을 넣고, 대사·메뉴 등 게임 속 글 7,181행의 번역을 마쳤습니다. 부팅부터 도입부까지 한글로 나오는 것을 확인했습니다.</summary>
+  </entry>
+  <entry>
     <title>[마블 얼티밋 얼라이언스] 큰 글씨 한글화와 번역 전수 검수</title>
     <link href="https://ievy3.github.io/projects/marvel-ultimate-alliance/updates/2026-10-23.html"/>
     <id>https://ievy3.github.io/projects/marvel-ultimate-alliance/updates/2026-10-23.html</id>
     <updated>2026-10-23T00:00:00+09:00</updated>
     <category term="마블 얼티밋 얼라이언스"/>
     <summary>지역 이름처럼 화면에 크게 나오는 글씨를 한글로 바꾸고, 번역 전체를 다시 검수해 반영했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[신 우리들의 태양: 역습의 사바타] 그림 자원 조사</title>
+    <link href="https://ievy3.github.io/projects/shin-bokura-no-taiyou/updates/2026-10-19.html"/>
+    <id>https://ievy3.github.io/projects/shin-bokura-no-taiyou/updates/2026-10-19.html</id>
+    <updated>2026-10-19T00:00:00+09:00</updated>
+    <category term="신 우리들의 태양: 역습의 사바타"/>
+    <summary>게임 속 그림이 어떤 형식으로 들어 있는지 조사하고, 원본 그림을 한 장씩 확인하기 시작했습니다.</summary>
   </entry>
   <entry>
     <title>[마블 얼티밋 얼라이언스] 전체 번역 첫 빌드와 한글 로고</title>
@@ -54,6 +86,14 @@
     <updated>2026-10-18T00:00:00+09:00</updated>
     <category term="사쿠라장의 애완 그녀"/>
     <summary>그림 글자를 마무리하고, 화면 검수에서 나온 문제를 고친 뒤 PSP-1000 실기에서 확인했습니다. 첫 공개판 v0.9.0을 내놓았습니다.</summary>
+  </entry>
+  <entry>
+    <title>[신 우리들의 태양: 역습의 사바타] 프로젝트 시작</title>
+    <link href="https://ievy3.github.io/projects/shin-bokura-no-taiyou/updates/2026-10-18.html"/>
+    <id>https://ievy3.github.io/projects/shin-bokura-no-taiyou/updates/2026-10-18.html</id>
+    <updated>2026-10-18T00:00:00+09:00</updated>
+    <category term="신 우리들의 태양: 역습의 사바타"/>
+    <summary>GBA 「新・ボクらの太陽 逆襲のサバタ」 한국어 패치 작업을 시작했습니다. 롬 구조를 분석하고 대사를 뽑아냈습니다.</summary>
   </entry>
   <entry>
     <title>[GTA 신다코 크로니클] 프로젝트 시작, 번역 3,659행과 한글 표시</title>
@@ -286,45 +326,5 @@
     <updated>2026-10-05T00:00:00+09:00</updated>
     <category term="사키 아치가편 포터블"/>
     <summary>원본 데이터 구조와 표시 경로를 먼저 검증하고, 이후 번역과 이미지 한글화를 안전하게 반복 적용할 수 있는 기반을 마련했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[사키 포터블] 전수 시각 검수와 PSP-1000 확인, v0.9.5 배포판 완성</title>
-    <link href="https://ievy3.github.io/projects/saki-portable/updates/2026-10-05.html"/>
-    <id>https://ievy3.github.io/projects/saki-portable/updates/2026-10-05.html</id>
-    <updated>2026-10-05T00:00:00+09:00</updated>
-    <category term="사키 포터블"/>
-    <summary>그림 글자의 정렬과 원본 배경 손상을 전수 재검사한 뒤 실제 PSP-1000에서 구동과 한글 표시를 확인했습니다. 마지막으로 Windows 오프라인 패처까지 검증해 첫 공개용 v0.9.5 배포 폴더를 완성했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[탐정 진구지 사부로: 재와 다이아몬드] 번역 1차 완료와 통합 빌드 안정화</title>
-    <link href="https://ievy3.github.io/projects/jinguji-ashes-and-diamonds/updates/2026-10-04.html"/>
-    <id>https://ievy3.github.io/projects/jinguji-ashes-and-diamonds/updates/2026-10-04.html</id>
-    <updated>2026-10-04T00:00:00+09:00</updated>
-    <category term="탐정 진구지 사부로: 재와 다이아몬드"/>
-    <summary>남은 대본 번역을 마치고 장면 순서 통독과 용어 통합으로 넘어갔습니다. 이미지 통합 과정의 검은 화면 문제를 해결하고 EBOOT에 남아 있던 시스템 문구까지 번역 대상으로 확장했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[사키 포터블] 15국 전 화면 검사를 마치고 첫 배포 후보를 완성</title>
-    <link href="https://ievy3.github.io/projects/saki-portable/updates/2026-10-04.html"/>
-    <id>https://ievy3.github.io/projects/saki-portable/updates/2026-10-04.html</id>
-    <updated>2026-10-04T00:00:00+09:00</updated>
-    <category term="사키 포터블"/>
-    <summary>스토리 전체를 자동으로 순회하며 실제 대사창 표시를 점검하고, 숫자 높이·세이브 아이콘·UI 이미지 등 화면에서 드러난 문제를 수정했습니다. 이후 최종 문장 검수와 패처 검증을 거쳐 첫 배포 후보를 준비했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[탐정 진구지 사부로: 재와 다이아몬드] 분석 기반 구축과 대본 번역 97.8%</title>
-    <link href="https://ievy3.github.io/projects/jinguji-ashes-and-diamonds/updates/2026-10-03.html"/>
-    <id>https://ievy3.github.io/projects/jinguji-ashes-and-diamonds/updates/2026-10-03.html</id>
-    <updated>2026-10-03T00:00:00+09:00</updated>
-    <category term="탐정 진구지 사부로: 재와 다이아몬드"/>
-    <summary>기존 사전 분석을 키트 구조로 정리하고 실제 한국어 빌드에 필요한 스크립트·폰트·이미지·영상 처리 경로를 구축했습니다. 원문 추출과 재삽입의 무수정 왕복을 확인한 뒤 번역 기준을 확정하고 대본 양산에 들어갔습니다.</summary>
-  </entry>
-  <entry>
-    <title>[사키 포터블] 한글 표시 기반을 만들고 대본 7,129줄 번역 완료</title>
-    <link href="https://ievy3.github.io/projects/saki-portable/updates/2026-10-03.html"/>
-    <id>https://ievy3.github.io/projects/saki-portable/updates/2026-10-03.html</id>
-    <updated>2026-10-03T00:00:00+09:00</updated>
-    <category term="사키 포터블"/>
-    <summary>프로젝트 착수 당일 게임의 대본·이미지·실행 구조를 분석하고 한글 표시 경로와 이름 입력 방식을 확정했습니다. 이후 번역 기준을 정리한 뒤 스토리 대본 전체 7,129줄을 한국어로 옮기고 첫 전체 한국어 빌드까지 만들었습니다.</summary>
   </entry>
 </feed>
