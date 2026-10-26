@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T15:12:22.055Z",
+  "generatedAt": "2026-10-26T15:12:40.052Z",
   "projects": [
     {
       "title": "신 우리들의 태양: 역습의 사바타",
@@ -720,7 +720,7 @@
       "downloadAsset": "OreImoDisc2KrPatcher.zip",
       "downloadCount": 543,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
-      "releaseName": "내 여동생이 이렇게 귀여울 리가 없어 포터블이 계속될 리가 없어 Disc 2 한글 패치",
+      "releaseName": "[PSP] 내 여동생이 이렇게 귀여울 리가 없어 포터블이 계속될 리가 없어 Disc 2 한글 패치",
       "releasePublishedAt": "2026-10-09T01:10:57Z",
       "updated": "2026-10-09",
       "publicBuilds": 1,
@@ -729,7 +729,7 @@
         {
           "version": "v1.0.0",
           "tag": "oreimo2-v1.0.0",
-          "releaseName": "내 여동생이 이렇게 귀여울 리가 없어 포터블이 계속될 리가 없어 Disc 2 한글 패치",
+          "releaseName": "[PSP] 내 여동생이 이렇게 귀여울 리가 없어 포터블이 계속될 리가 없어 Disc 2 한글 패치",
           "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
           "publishedAt": "2026-10-09T01:10:57Z",
           "date": "2026-10-09",
@@ -782,7 +782,7 @@
       "downloadAsset": "Saki_Achiga_Korean_Patch_v0.9.0-rc7.zip",
       "downloadCount": 252,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiA-v0.9.0",
-      "releaseName": "사키 아치가편 포터블 한글 패치 v0.9.0-rc7",
+      "releaseName": "[PSP] 사키 아치가편 포터블 한글 패치 v0.9.0-rc7",
       "releasePublishedAt": "2026-10-09T00:16:57Z",
       "updated": "2026-10-09",
       "publicBuilds": 1,
@@ -791,7 +791,7 @@
         {
           "version": "v0.9.0-rc7",
           "tag": "sakiA-v0.9.0",
-          "releaseName": "사키 아치가편 포터블 한글 패치 v0.9.0-rc7",
+          "releaseName": "[PSP] 사키 아치가편 포터블 한글 패치 v0.9.0-rc7",
           "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiA-v0.9.0",
           "publishedAt": "2026-10-09T00:16:57Z",
           "date": "2026-10-09",
