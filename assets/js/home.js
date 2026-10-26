@@ -92,6 +92,50 @@ const fallbackProjects = [
     }
   },
   {
+    "title": "신 우리들의 태양: 역습의 사바타",
+    "href": "/projects/shin-bokura-no-taiyou/",
+    "image": "/assets/images/shin-bokura-no-taiyou/2026-10-26-title-ko.webp",
+    "imageAlt": "신 우리들의 태양: 역습의 사바타 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "GBA",
+    "genre": "RPG",
+    "subgenre": "액션",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.4",
+    "updated": "2026-10-26",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sabata-v0.9.4",
+    "releasePublishedAt": "2026-10-26T09:47:38Z",
+    "totalDownloads": 0,
+    "description": "태양빛으로 싸우는 코나미의 GBA 태양 액션 RPG, 『우리들의 태양』 시리즈 세 번째 작품",
+    "keywords": [
+      "신 우리들의 태양",
+      "우리들의 태양",
+      "역습의 사바타",
+      "사바타",
+      "boktai",
+      "boktai 3",
+      "新・ボクらの太陽",
+      "ボクらの太陽",
+      "逆襲のサバタ",
+      "코나미",
+      "konami",
+      "코지마 히데오",
+      "장고",
+      "태양 센서"
+    ],
+    "verification": [
+      "mGBA"
+    ],
+    "latestWorklog": {
+      "date": "2026-10-26",
+      "title": "그림 202장 한글화와 v0.9.4 공개",
+      "href": "/projects/shin-bokura-no-taiyou/updates/2026-10-26.html"
+    }
+  },
+  {
     "title": "사쿠라장의 애완 그녀",
     "href": "/projects/sakurasou-no-pet-na-kanojo/",
     "image": "/assets/images/sakurasou-no-pet-na-kanojo/2026-10-18-title-ko.webp",

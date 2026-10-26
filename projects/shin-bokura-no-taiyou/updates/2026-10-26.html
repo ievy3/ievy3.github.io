@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 10월 26일 신 우리들의 태양: 역습의 사바타 한국어 패치 작업일지">
+  <title>2026.10.26 작업일지 | 신 우리들의 태양: 역습의 사바타</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/shin-bokura-no-taiyou/updates/2026-10-26.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.10.26 작업일지 | 신 우리들의 태양: 역습의 사바타">
+  <meta property="og:description" content="2026년 10월 26일 신 우리들의 태양: 역습의 사바타 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/shin-bokura-no-taiyou/updates/2026-10-26.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/shin-bokura-no-taiyou/2026-10-26-title-ko.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.10.26 작업일지 | 신 우리들의 태양: 역습의 사바타">
+  <meta name="twitter:description" content="2026년 10월 26일 신 우리들의 태양: 역습의 사바타 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/shin-bokura-no-taiyou/2026-10-26-title-ko.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=28">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=1">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=1">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/shin-bokura-no-taiyou/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.10.26</p>
+    <h1>그림 202장 한글화와<br>v0.9.4 공개</h1>
+    <p>남은 일본어 그림 202장을 한글로 바꿔 넣고, 화면에서 나온 문제와 표기를 다듬었습니다. 첫 공개판 v0.9.4를 내놓았습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>RELEASE</span><span class="badge">v0.9.4</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>202장</strong><span>그림 한글화</span></div>
+    <div><strong>135행</strong><span>표기 통일</span></div>
+    <div><strong>15px</strong><span>대사 글꼴</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">GRAPHICS</p><h2>그림 한글화</h2>
+    <ul class="compact-list">
+      <li>타이틀 로고, 메뉴 탭, 단추 안내, 가게 이름, 지도 장소 이름, 바이크 경주 화면, 은행 단추 등 그림 202장을 한글로 바꿔 넣었습니다.</li>
+      <li>같은 원문 글씨는 같은 모양으로 맞추고, 지도 이름표는 왼쪽 정렬로 했습니다.</li>
+      <li>지역 제목은 Black Han Sans, 던전 층 표시는 Silver 글꼴로 그렸습니다.</li>
+      <li>넣는 과정에서 생긴 센서 화면 겹침, 타이틀 로고 멈춤, SOLAR BOY 글자 깨짐을 고쳤습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">FIXES</p><h2>화면 손질</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>대사의 ㅅ·ㅈ 획 잘림(글꼴을 15px로)</li>
+        <li><span>✓</span>타이틀 부제 「의」 획 잘림</li>
+        <li><span>✓</span>지역 카드 날짜 줄 색</li>
+        <li><span>✓</span>센서 도움말 줄 간격</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>화면 확인(mGBA)</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>타이틀·주의 화면·게임 시작</li>
+        <li><span>✓</span>이름 입력·프롤로그</li>
+        <li><span>✓</span>메뉴 탭·지도 이름표</li>
+        <li><span>○</span>바이크 메뉴·은행·던전 층·지역 카드</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">TERMS</p><h2>표기와 제목</h2>
+    <ul class="compact-list">
+      <li>위키의 표기와 대조해 인물·용어 표기 135행을 통일했습니다(흐레스벨그, 생미겔, 마르셀로, 태양수, 요코, 앙코, 파일 드라이버 등).</li>
+      <li>배포 제목은 「신 우리들의 태양: 역습의 사바타」로 정했습니다. 게임 속 표기와 로고는 그대로입니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>일본판 U33J (rev.0) 롬 전용입니다. 영어판이나 다른 판에는 적용되지 않습니다.</li>
+      <li>일본어판 세이브를 그대로 불러올 수 있습니다. 세이브 파일 이름을 결과 롬 이름에 맞춰 바꿔 주세요.</li>
+      <li>mGBA에서만 확인했습니다. 실기·플래시 카트·다른 에뮬레이터는 확인하지 않았습니다.</li>
+      <li>바이크 메뉴, 은행, 던전 층 표시, 지역 카드는 그림은 들어가 있지만 실제 게임 화면으로는 확인하지 못했습니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">SHIN BOKURA NO TAIYOU DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=2" defer></script>
+</body>
+</html>

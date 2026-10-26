@@ -556,5 +556,39 @@
     "verification": [
       "PSP-1000"
     ]
+  },
+  {
+    "slug": "shin-bokura-no-taiyou",
+    "title": "신 우리들의 태양: 역습의 사바타",
+    "image": "/assets/images/shin-bokura-no-taiyou/2026-10-26-title-ko.webp",
+    "imageAlt": "신 우리들의 태양: 역습의 사바타 한글 타이틀 화면",
+    "platform": "GBA",
+    "type": "한국어 패치",
+    "releasePrefix": "sabata-",
+    "description": "태양빛으로 싸우는 코나미의 GBA 태양 액션 RPG, 『우리들의 태양』 시리즈 세 번째 작품",
+    "keywords": [
+      "신 우리들의 태양",
+      "우리들의 태양",
+      "역습의 사바타",
+      "사바타",
+      "boktai",
+      "boktai 3",
+      "新・ボクらの太陽",
+      "ボクらの太陽",
+      "逆襲のサバタ",
+      "코나미",
+      "konami",
+      "코지마 히데오",
+      "장고",
+      "태양 센서"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "genre": "RPG",
+    "subgenre": "액션",
+    "stage": 6,
+    "updated": "2026-10-26",
+    "verification": [
+      "mGBA"
+    ]
   }
 ]
