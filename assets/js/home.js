@@ -654,7 +654,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SuikodenTHT-v0.9.0/Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SuikodenTHT-v0.9.0",
     "releasePublishedAt": "2026-10-03T07:27:19Z",
-    "totalDownloads": 843,
+    "totalDownloads": 844,
     "description": "요구하는 것은 질서인가, 자유인가. 시간을 넘어 방어되는 새로운 백만 세계의 이야기.",
     "keywords": [
       "환상수호전 이어지는 백 년의 시간",
