@@ -9,6 +9,46 @@ let showAllProjects = false;
 // BEGIN fallback projects
 const fallbackProjects = [
   {
+    "title": "샤이닝 블레이드",
+    "href": "/projects/shining-blade/",
+    "image": "/assets/images/shining-blade/2026-10-30-title.webp",
+    "imageAlt": "샤이닝 블레이드 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "SRPG",
+    "subgenre": "판타지",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.0",
+    "updated": "2026-10-30",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningblade-v0.9.0/Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningblade-v0.9.0",
+    "releasePublishedAt": "2026-10-30T13:50:59Z",
+    "totalDownloads": 0,
+    "description": "세가 『샤이닝』 시리즈의 PSP 시뮬레이션 RPG",
+    "keywords": [
+      "샤이닝 블레이드",
+      "shining blade",
+      "シャイニング・ブレイド",
+      "샤이닝",
+      "shining",
+      "세가",
+      "sega",
+      "srpg",
+      "로젤린데"
+    ],
+    "verification": [
+      "PPSSPP"
+    ],
+    "latestWorklog": {
+      "date": "2026-10-30",
+      "title": "번역 전수 재검수와 v0.9.0 공개",
+      "href": "/projects/shining-blade/updates/2026-10-30.html"
+    }
+  },
+  {
     "title": "신 우리들의 태양: 역습의 사바타",
     "href": "/projects/shin-bokura-no-taiyou/",
     "image": "/assets/images/shin-bokura-no-taiyou/2026-10-26-title-ko.webp",
@@ -51,45 +91,6 @@ const fallbackProjects = [
       "date": "2026-10-26",
       "title": "그림 202장 한글화와 v0.9.4 공개",
       "href": "/projects/shin-bokura-no-taiyou/updates/2026-10-26.html"
-    }
-  },
-  {
-    "title": "샤이닝 블레이드",
-    "href": "/projects/shining-blade/",
-    "image": "/assets/images/shining-blade/2026-10-30-title.webp",
-    "imageAlt": "샤이닝 블레이드 타이틀 화면",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "SRPG",
-    "subgenre": "판타지",
-    "type": "한국어 패치",
-    "status": "public",
-    "statusLabel": "베타 공개",
-    "stage": 6,
-    "version": "v0.9.0",
-    "updated": "2026-10-30",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningblade-v0.9.0",
-    "releasePublishedAt": "2026-10-30T13:50:59Z",
-    "totalDownloads": 0,
-    "description": "세가 『샤이닝』 시리즈의 PSP 시뮬레이션 RPG",
-    "keywords": [
-      "샤이닝 블레이드",
-      "shining blade",
-      "シャイニング・ブレイド",
-      "샤이닝",
-      "shining",
-      "세가",
-      "sega",
-      "srpg",
-      "로젤린데"
-    ],
-    "verification": [
-      "PPSSPP"
-    ],
-    "latestWorklog": {
-      "date": "2026-10-30",
-      "title": "번역 전수 재검수와 v0.9.0 공개",
-      "href": "/projects/shining-blade/updates/2026-10-30.html"
     }
   },
   {
