@@ -590,5 +590,34 @@
     "verification": [
       "mGBA"
     ]
+  },
+  {
+    "slug": "shining-blade",
+    "title": "샤이닝 블레이드",
+    "image": "/assets/images/shining-blade/2026-10-30-title.webp",
+    "imageAlt": "샤이닝 블레이드 타이틀 화면",
+    "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "shiningblade-",
+    "description": "세가 『샤이닝』 시리즈의 PSP 시뮬레이션 RPG",
+    "keywords": [
+      "샤이닝 블레이드",
+      "shining blade",
+      "シャイニング・ブレイド",
+      "샤이닝",
+      "shining",
+      "세가",
+      "sega",
+      "srpg",
+      "로젤린데"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "genre": "SRPG",
+    "subgenre": "판타지",
+    "stage": 6,
+    "updated": "2026-10-30",
+    "verification": [
+      "PPSSPP"
+    ]
   }
 ]

@@ -54,6 +54,45 @@ const fallbackProjects = [
     }
   },
   {
+    "title": "샤이닝 블레이드",
+    "href": "/projects/shining-blade/",
+    "image": "/assets/images/shining-blade/2026-10-30-title.webp",
+    "imageAlt": "샤이닝 블레이드 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "SRPG",
+    "subgenre": "판타지",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.0",
+    "updated": "2026-10-30",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningblade-v0.9.0",
+    "releasePublishedAt": "2026-10-30T13:50:59Z",
+    "totalDownloads": 0,
+    "description": "세가 『샤이닝』 시리즈의 PSP 시뮬레이션 RPG",
+    "keywords": [
+      "샤이닝 블레이드",
+      "shining blade",
+      "シャイニング・ブレイド",
+      "샤이닝",
+      "shining",
+      "세가",
+      "sega",
+      "srpg",
+      "로젤린데"
+    ],
+    "verification": [
+      "PPSSPP"
+    ],
+    "latestWorklog": {
+      "date": "2026-10-30",
+      "title": "번역 전수 재검수와 v0.9.0 공개",
+      "href": "/projects/shining-blade/updates/2026-10-30.html"
+    }
+  },
+  {
     "title": "마블 얼티밋 얼라이언스",
     "href": "/projects/marvel-ultimate-alliance/",
     "image": "/assets/images/marvel-ultimate-alliance/2026-10-25-title-ko.webp",
