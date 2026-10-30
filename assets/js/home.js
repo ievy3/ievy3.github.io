@@ -26,7 +26,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningblade-v0.9.0/Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningblade-v0.9.0",
     "releasePublishedAt": "2026-10-30T13:50:59Z",
-    "totalDownloads": 85,
+    "totalDownloads": 109,
     "description": "세가 『샤이닝』 시리즈의 PSP 시뮬레이션 RPG",
     "keywords": [
       "샤이닝 블레이드",
@@ -111,7 +111,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mua-v0.9.0/Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mua-v0.9.0",
     "releasePublishedAt": "2026-10-25T03:47:32Z",
-    "totalDownloads": 299,
+    "totalDownloads": 300,
     "description": "마블의 영웅들로 팀을 짜 우주적 위협에 맞서는 액션 RPG",
     "keywords": [
       "마블 얼티밋 얼라이언스",
@@ -152,7 +152,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gtasc-v0.9.0/Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gtasc-v0.9.0",
     "releasePublishedAt": "2026-10-25T09:49:09Z",
-    "totalDownloads": 66,
+    "totalDownloads": 67,
     "description": "GTA 리버티 시티 스토리즈를 바탕으로 1998년 리버티 시티의 마피아 전쟁을 그린 팬 제작 토털 컨버전 모드",
     "keywords": [
       "gta",
@@ -194,7 +194,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/spk-v0.9.0/Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/spk-v0.9.0",
     "releasePublishedAt": "2026-10-18T15:08:35Z",
-    "totalDownloads": 262,
+    "totalDownloads": 263,
     "description": "가모시다 하지메의 라이트 노벨이 원작인 PSP 학원 러브코미디 어드벤처",
     "keywords": [
       "사쿠라장의 애완 그녀",
@@ -234,7 +234,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/kh-v1.0.1/KlonoaHeroes_KO_v1.0.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/kh-v1.0.1",
     "releasePublishedAt": "2026-10-17T00:25:56Z",
-    "totalDownloads": 581,
+    "totalDownloads": 582,
     "description": "『바람의 크로노아』 시리즈의 캐릭터들이 등장하는 남코의 GBA 액션 RPG",
     "keywords": [
       "크로노아 히어로즈",
@@ -274,7 +274,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.0/Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/orochi2-v0.9.0",
     "releasePublishedAt": "2026-10-14T23:09:03Z",
-    "totalDownloads": 624,
+    "totalDownloads": 625,
     "description": "삼국지·전국 무장과 신화 속 영웅이 함께 싸우는 코에이 테크모의 PSP 무쌍 액션",
     "keywords": [
       "무쌍 오로치",
@@ -314,7 +314,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/som-v0.9.1/Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/som-v0.9.1",
     "releasePublishedAt": "2026-10-14T11:50:48Z",
-    "totalDownloads": 632,
+    "totalDownloads": 633,
     "description": "살해당한 주인공이 시간을 거슬러 자신의 죽음을 막으려 하는 시간 여행 어드벤처",
     "keywords": [
       "섀도우 오브 메모리즈",
@@ -352,7 +352,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
     "releasePublishedAt": "2026-10-12T15:30:13Z",
-    "totalDownloads": 470,
+    "totalDownloads": 471,
     "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",
     "keywords": [
       "듀라라라",
@@ -659,7 +659,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.3/Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.3",
     "releasePublishedAt": "2026-10-06T02:04:52Z",
-    "totalDownloads": 1807,
+    "totalDownloads": 1808,
     "description": "두 주인공의 시점으로 세계의 창조와 파괴를 그리는 던전 탐험형 JRPG",
     "keywords": [
       "엑시즈 포스",
@@ -847,7 +847,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gungnir-v0.9.0",
     "releasePublishedAt": "2026-09-22T20:02:45Z",
-    "totalDownloads": 1167,
+    "totalDownloads": 1168,
     "description": "신화의 창 ‘궁그닐’을 손에 넣은 소년과 반란군의 전쟁을 그린 전술 RPG",
     "keywords": [
       "궁그닐",
@@ -865,13 +865,13 @@ const fallbackProjects = [
     }
   },
   {
-    "title": "일상 (우주인)",
-    "slug": "nichijou-uchuujin",
-    "image": "/assets/images/nichijou-uchuujin/official-cover.webp",
-    "imageAlt": "일상 (우주인) 일본판 PSP 패키지",
-    "platform": "PSP",
-    "genre": "어드벤처",
-    "subgenre": "코미디",
+    "title": "드래곤 드라이브: 월드 D 브레이크",
+    "slug": "dragon-drive-world-d-break",
+    "image": "/assets/images/dragon-drive-world-d-break/official-cover.webp",
+    "imageAlt": "ドラゴンドライブ ワールドDブレイク 일본판 GBA 패키지",
+    "platform": "GBA",
+    "genre": "RPG",
+    "subgenre": "배틀",
     "status": "planned",
     "statusLabel": "작업 예정",
     "updated": ""
@@ -913,13 +913,13 @@ const fallbackProjects = [
     "updated": ""
   },
   {
-    "title": "드래곤 드라이브: 월드 D 브레이크",
-    "slug": "dragon-drive-world-d-break",
-    "image": "/assets/images/dragon-drive-world-d-break/official-cover.webp",
-    "imageAlt": "ドラゴンドライブ ワールドDブレイク 일본판 GBA 패키지",
-    "platform": "GBA",
-    "genre": "RPG",
-    "subgenre": "배틀",
+    "title": "일상 (우주인)",
+    "slug": "nichijou-uchuujin",
+    "image": "/assets/images/nichijou-uchuujin/official-cover.webp",
+    "imageAlt": "일상 (우주인) 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "코미디",
     "status": "planned",
     "statusLabel": "작업 예정",
     "updated": ""

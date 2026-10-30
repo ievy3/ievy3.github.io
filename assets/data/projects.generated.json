@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T15:10:34.705Z",
+  "generatedAt": "2026-10-30T16:02:03.398Z",
   "projects": [
     {
       "title": "샤이닝 블레이드",
@@ -21,13 +21,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningblade-v0.9.0/Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
-      "downloadCount": 85,
+      "downloadCount": 109,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningblade-v0.9.0",
       "releaseName": "[PSP] 샤이닝 블레이드 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-30T13:50:59Z",
       "updated": "2026-10-30",
       "publicBuilds": 1,
-      "totalDownloads": 85,
+      "totalDownloads": 109,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -39,7 +39,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningblade-v0.9.0/Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
-          "downloadCount": 85
+          "downloadCount": 109
         }
       ],
       "description": "세가 『샤이닝』 시리즈의 PSP 시뮬레이션 RPG",
@@ -152,13 +152,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mua-v0.9.0/Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
-      "downloadCount": 299,
+      "downloadCount": 300,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mua-v0.9.0",
       "releaseName": "[PSP] 마블 얼티밋 얼라이언스 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-25T03:47:32Z",
       "updated": "2026-10-25",
       "publicBuilds": 1,
-      "totalDownloads": 299,
+      "totalDownloads": 300,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -170,7 +170,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mua-v0.9.0/Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
-          "downloadCount": 299
+          "downloadCount": 300
         }
       ],
       "description": "마블의 영웅들로 팀을 짜 우주적 위협에 맞서는 액션 RPG",
@@ -216,13 +216,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gtasc-v0.9.0/Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
-      "downloadCount": 66,
+      "downloadCount": 67,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gtasc-v0.9.0",
       "releaseName": "[PSP] GTA: 신다코 크로니클 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-25T09:49:09Z",
       "updated": "2026-10-25",
       "publicBuilds": 1,
-      "totalDownloads": 66,
+      "totalDownloads": 67,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -234,7 +234,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gtasc-v0.9.0/Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
-          "downloadCount": 66
+          "downloadCount": 67
         }
       ],
       "description": "GTA 리버티 시티 스토리즈를 바탕으로 1998년 리버티 시티의 마피아 전쟁을 그린 팬 제작 토털 컨버전 모드",
@@ -281,13 +281,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/spk-v0.9.0/Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
-      "downloadCount": 262,
+      "downloadCount": 263,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/spk-v0.9.0",
       "releaseName": "[PSP] 사쿠라장의 애완 그녀 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-18T15:08:35Z",
       "updated": "2026-10-19",
       "publicBuilds": 1,
-      "totalDownloads": 262,
+      "totalDownloads": 263,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -299,7 +299,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/spk-v0.9.0/Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
-          "downloadCount": 262
+          "downloadCount": 263
         }
       ],
       "description": "가모시다 하지메의 라이트 노벨이 원작인 PSP 학원 러브코미디 어드벤처",
@@ -344,13 +344,13 @@
       "version": "v1.0.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/kh-v1.0.1/KlonoaHeroes_KO_v1.0.1.zip",
       "downloadAsset": "KlonoaHeroes_KO_v1.0.1.zip",
-      "downloadCount": 323,
+      "downloadCount": 324,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/kh-v1.0.1",
       "releaseName": "[GBA] 크로노아 히어로즈: 전설의 스타 메달 한글 패치 v1.0.1",
       "releasePublishedAt": "2026-10-17T00:25:56Z",
       "updated": "2026-10-17",
       "publicBuilds": 2,
-      "totalDownloads": 581,
+      "totalDownloads": 582,
       "releaseHistory": [
         {
           "version": "v1.0.1",
@@ -362,7 +362,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/kh-v1.0.1/KlonoaHeroes_KO_v1.0.1.zip",
           "downloadAsset": "KlonoaHeroes_KO_v1.0.1.zip",
-          "downloadCount": 323
+          "downloadCount": 324
         },
         {
           "version": "v1.0",
@@ -419,13 +419,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.0/Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
-      "downloadCount": 624,
+      "downloadCount": 625,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/orochi2-v0.9.0",
       "releaseName": "[PSP] 무쌍 오로치 2 스페셜 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-14T23:09:03Z",
       "updated": "2026-10-15",
       "publicBuilds": 1,
-      "totalDownloads": 624,
+      "totalDownloads": 625,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -437,7 +437,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.0/Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
-          "downloadCount": 624
+          "downloadCount": 625
         }
       ],
       "description": "삼국지·전국 무장과 신화 속 영웅이 함께 싸우는 코에이 테크모의 PSP 무쌍 액션",
@@ -482,13 +482,13 @@
       "version": "v0.9.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/som-v0.9.1/Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
-      "downloadCount": 242,
+      "downloadCount": 243,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/som-v0.9.1",
       "releaseName": "[PSP] 섀도우 오브 메모리즈 (SHADOW OF MEMORIES) 한글 패치 v0.9.1",
       "releasePublishedAt": "2026-10-14T11:50:48Z",
       "updated": "2026-10-14",
       "publicBuilds": 2,
-      "totalDownloads": 632,
+      "totalDownloads": 633,
       "releaseHistory": [
         {
           "version": "v0.9.1",
@@ -500,7 +500,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/som-v0.9.1/Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
-          "downloadCount": 242
+          "downloadCount": 243
         },
         {
           "version": "v0.9.0",
@@ -555,13 +555,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
-      "downloadCount": 470,
+      "downloadCount": 471,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
       "releaseName": "[PSP] 듀라라라!! 3way standoff -alley- 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-12T15:30:13Z",
       "updated": "2026-10-13",
       "publicBuilds": 1,
-      "totalDownloads": 470,
+      "totalDownloads": 471,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -573,7 +573,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
-          "downloadCount": 470
+          "downloadCount": 471
         }
       ],
       "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",
@@ -1030,13 +1030,13 @@
       "version": "v0.9.3-beta.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.3/Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
-      "downloadCount": 420,
+      "downloadCount": 421,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.3",
       "releaseName": "[PSP] Hexyz Force 한글 패치 v0.9.3 — 공개 검수판 (261006)",
       "releasePublishedAt": "2026-10-06T02:04:52Z",
       "updated": "2026-10-06",
       "publicBuilds": 4,
-      "totalDownloads": 1807,
+      "totalDownloads": 1808,
       "releaseHistory": [
         {
           "version": "v0.9.3-beta.1",
@@ -1048,7 +1048,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.3/Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
-          "downloadCount": 420
+          "downloadCount": 421
         },
         {
           "version": "v0.9.2-beta.1",
@@ -1405,13 +1405,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
       "downloadAsset": "Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
-      "downloadCount": 450,
+      "downloadCount": 451,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gungnir-v0.9.0",
       "releaseName": "[PSP] Gungnir 한글 패치 v0.9.0 — 공개 검수판 (260922)",
       "releasePublishedAt": "2026-09-22T20:02:45Z",
       "updated": "2026-09-23",
       "publicBuilds": 2,
-      "totalDownloads": 1167,
+      "totalDownloads": 1168,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -1423,7 +1423,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gungnir-v0.9.0/Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
           "downloadAsset": "Noctil_Patchworks_Gungnir_Offline_v0.9.0.exe",
-          "downloadCount": 450
+          "downloadCount": 451
         },
         {
           "version": "v0.8.0",
@@ -1456,13 +1456,13 @@
       "latestReleaseTag": "gungnir-v0.9.0"
     },
     {
-      "title": "일상 (우주인)",
-      "slug": "nichijou-uchuujin",
-      "image": "/assets/images/nichijou-uchuujin/official-cover.webp",
-      "imageAlt": "일상 (우주인) 일본판 PSP 패키지",
-      "platform": "PSP",
-      "genre": "어드벤처",
-      "subgenre": "코미디",
+      "title": "드래곤 드라이브: 월드 D 브레이크",
+      "slug": "dragon-drive-world-d-break",
+      "image": "/assets/images/dragon-drive-world-d-break/official-cover.webp",
+      "imageAlt": "ドラゴンドライブ ワールドDブレイク 일본판 GBA 패키지",
+      "platform": "GBA",
+      "genre": "RPG",
+      "subgenre": "배틀",
       "status": "planned",
       "statusLabel": "작업 예정",
       "updated": ""
@@ -1504,13 +1504,13 @@
       "updated": ""
     },
     {
-      "title": "드래곤 드라이브: 월드 D 브레이크",
-      "slug": "dragon-drive-world-d-break",
-      "image": "/assets/images/dragon-drive-world-d-break/official-cover.webp",
-      "imageAlt": "ドラゴンドライブ ワールドDブレイク 일본판 GBA 패키지",
-      "platform": "GBA",
-      "genre": "RPG",
-      "subgenre": "배틀",
+      "title": "일상 (우주인)",
+      "slug": "nichijou-uchuujin",
+      "image": "/assets/images/nichijou-uchuujin/official-cover.webp",
+      "imageAlt": "일상 (우주인) 일본판 PSP 패키지",
+      "platform": "PSP",
+      "genre": "어드벤처",
+      "subgenre": "코미디",
       "status": "planned",
       "statusLabel": "작업 예정",
       "updated": ""
