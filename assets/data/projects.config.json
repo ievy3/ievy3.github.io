@@ -619,5 +619,55 @@
     "verification": [
       "PPSSPP"
     ]
+  },
+  {
+    "slug": "magical-houshin",
+    "title": "매지컬 봉신",
+    "status": "planned",
+    "imageAlt": "マジカル封神 일본판 GBA 패키지",
+    "platform": "GBA",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "image": "/assets/images/magical-houshin/official-cover.webp"
+  },
+  {
+    "slug": "shining-ark",
+    "title": "샤이닝 아크",
+    "status": "planned",
+    "imageAlt": "シャイニング・アーク 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "image": "/assets/images/shining-ark/official-cover.webp"
+  },
+  {
+    "slug": "shining-hearts",
+    "title": "샤이닝 하츠",
+    "status": "planned",
+    "imageAlt": "シャイニング・ハーツ 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "image": "/assets/images/shining-hearts/official-cover.webp"
+  },
+  {
+    "slug": "dragon-drive-world-d-break",
+    "title": "드래곤 드라이브: 월드 D 브레이크",
+    "status": "planned",
+    "imageAlt": "ドラゴンドライブ ワールドDブレイク 일본판 GBA 패키지",
+    "platform": "GBA",
+    "genre": "RPG",
+    "subgenre": "배틀",
+    "image": "/assets/images/dragon-drive-world-d-break/official-cover.webp"
+  },
+  {
+    "slug": "kokoro-connect-yochi-random",
+    "title": "하트커넥트: 예지랜덤",
+    "status": "planned",
+    "imageAlt": "ココロコネクト ヨチランダム 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "노벨",
+    "image": "/assets/images/kokoro-connect-yochi-random/official-cover.webp"
   }
 ]

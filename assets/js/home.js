@@ -875,6 +875,66 @@ const fallbackProjects = [
     "status": "planned",
     "statusLabel": "작업 예정",
     "updated": ""
+  },
+  {
+    "title": "매지컬 봉신",
+    "slug": "magical-houshin",
+    "image": "/assets/images/magical-houshin/official-cover.webp",
+    "imageAlt": "マジカル封神 일본판 GBA 패키지",
+    "platform": "GBA",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "샤이닝 아크",
+    "slug": "shining-ark",
+    "image": "/assets/images/shining-ark/official-cover.webp",
+    "imageAlt": "シャイニング・アーク 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "샤이닝 하츠",
+    "slug": "shining-hearts",
+    "image": "/assets/images/shining-hearts/official-cover.webp",
+    "imageAlt": "シャイニング・ハーツ 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "드래곤 드라이브: 월드 D 브레이크",
+    "slug": "dragon-drive-world-d-break",
+    "image": "/assets/images/dragon-drive-world-d-break/official-cover.webp",
+    "imageAlt": "ドラゴンドライブ ワールドDブレイク 일본판 GBA 패키지",
+    "platform": "GBA",
+    "genre": "RPG",
+    "subgenre": "배틀",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "하트커넥트: 예지랜덤",
+    "slug": "kokoro-connect-yochi-random",
+    "image": "/assets/images/kokoro-connect-yochi-random/official-cover.webp",
+    "imageAlt": "ココロコネクト ヨチランダム 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "노벨",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
   }
 ];
 // END fallback projects
