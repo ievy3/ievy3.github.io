@@ -89,8 +89,10 @@ function mapColor(r, g, b, a, kind) {
     return fmt([30, 32, 44], (a ?? 1) * 0.5);
   }
   if (kind === "text") {
-    if (neutral) return fmt(toRgb(h, s, Math.min(0.9, Math.max(0.08, 1 - l))), a);
-    return fmt(toRgb(h, Math.min(s, 0.75), Math.min(l, 0.36)), a);
+    // 밝은 바탕에서 작은 글씨도 대비 4.5:1 이상이 되도록 글자색 명도에 상한을 둡니다.
+    // (명도가 높은 무채색은 장식선·점이라 그대로 둡니다.)
+    if (neutral) return fmt(toRgb(h, s, Math.max(0.08, l > 0.3 ? Math.min(0.42, 1 - l) : 1 - l)), a);
+    return fmt(toRgb(h, Math.min(s, 0.75), Math.min(l, 0.31)), a);
   }
   if (neutral) return fmt(toRgb(h, s, 1 - l), a);
   return fmt([r, g, b], a);

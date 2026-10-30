@@ -21,7 +21,7 @@
       );
       if (!link) link = document.createElement("a");
       link.href = `#${preview.id}`;
-      link.textContent = "게임 내 적용 화면";
+      link.textContent = "게임 화면";
       const previous = nav.querySelector('a[href="#release"]')
         || nav.querySelector('a[href="#recent-update"]');
       if (previous) previous.after(link);
