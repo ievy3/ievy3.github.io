@@ -5,8 +5,40 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-10-26T00:00:00+09:00</updated>
+  <updated>2026-10-30T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[샤이닝 블레이드] 번역 전수 재검수와 v0.9.0 공개</title>
+    <link href="https://ievy3.github.io/projects/shining-blade/updates/2026-10-30.html"/>
+    <id>https://ievy3.github.io/projects/shining-blade/updates/2026-10-30.html</id>
+    <updated>2026-10-30T00:00:00+09:00</updated>
+    <category term="샤이닝 블레이드"/>
+    <summary>화면에서 나온 문제를 고치고 번역 전체를 다시 검수했습니다. 첫 공개판 v0.9.0을 내놓았습니다.</summary>
+  </entry>
+  <entry>
+    <title>[샤이닝 블레이드] 글자 번짐 수정과 첫 배포판 준비</title>
+    <link href="https://ievy3.github.io/projects/shining-blade/updates/2026-10-29.html"/>
+    <id>https://ievy3.github.io/projects/shining-blade/updates/2026-10-29.html</id>
+    <updated>2026-10-29T00:00:00+09:00</updated>
+    <category term="샤이닝 블레이드"/>
+    <summary>한글 글자 둘레에 흐린 사각형이 보이던 문제를 고치고, 첫 배포판을 준비했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[샤이닝 블레이드] 게임 글꼴 확정과 원작의 분위기 살리기</title>
+    <link href="https://ievy3.github.io/projects/shining-blade/updates/2026-10-28.html"/>
+    <id>https://ievy3.github.io/projects/shining-blade/updates/2026-10-28.html</id>
+    <updated>2026-10-28T00:00:00+09:00</updated>
+    <category term="샤이닝 블레이드"/>
+    <summary>여러 한글 글꼴을 게임 화면에서 비교해 얇은둥근모로 정하고, 붓글씨 제목의 분위기를 살렸습니다.</summary>
+  </entry>
+  <entry>
+    <title>[샤이닝 블레이드] 그림 다듬기와 실행 파일 문구</title>
+    <link href="https://ievy3.github.io/projects/shining-blade/updates/2026-10-27.html"/>
+    <id>https://ievy3.github.io/projects/shining-blade/updates/2026-10-27.html</id>
+    <updated>2026-10-27T00:00:00+09:00</updated>
+    <category term="샤이닝 블레이드"/>
+    <summary>일본어를 지운 바탕으로 그림을 다시 그리고 그림 297장의 검수를 마쳤습니다. 실행 파일에 들어 있는 화면 문구도 한글로 바꿨습니다.</summary>
+  </entry>
   <entry>
     <title>[신 우리들의 태양: 역습의 사바타] 그림 202장 한글화와 v0.9.4 공개</title>
     <link href="https://ievy3.github.io/projects/shin-bokura-no-taiyou/updates/2026-10-26.html"/>
@@ -14,6 +46,14 @@
     <updated>2026-10-26T00:00:00+09:00</updated>
     <category term="신 우리들의 태양: 역습의 사바타"/>
     <summary>남은 일본어 그림 202장을 한글로 바꿔 넣고, 화면에서 나온 문제와 표기를 다듬었습니다. 첫 공개판 v0.9.4를 내놓았습니다.</summary>
+  </entry>
+  <entry>
+    <title>[샤이닝 블레이드] 대사 번역과 그림 한글화</title>
+    <link href="https://ievy3.github.io/projects/shining-blade/updates/2026-10-26.html"/>
+    <id>https://ievy3.github.io/projects/shining-blade/updates/2026-10-26.html</id>
+    <updated>2026-10-26T00:00:00+09:00</updated>
+    <category term="샤이닝 블레이드"/>
+    <summary>대사를 모두 번역하고 검수를 한 차례 반영했습니다. 글자가 들어간 그림도 대량으로 한글로 바꾸기 시작했습니다.</summary>
   </entry>
   <entry>
     <title>[GTA 신다코 크로니클] v0.9.0 공개</title>
@@ -38,6 +78,14 @@
     <updated>2026-10-25T00:00:00+09:00</updated>
     <category term="신 우리들의 태양: 역습의 사바타"/>
     <summary>번역 전체 검수를 마치고, 태양 센서 없이도 태양 게이지를 조절할 수 있게 했습니다. 남은 일본어 그림을 전부 찾아 목록으로 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[샤이닝 블레이드] 프로젝트 시작</title>
+    <link href="https://ievy3.github.io/projects/shining-blade/updates/2026-10-25.html"/>
+    <id>https://ievy3.github.io/projects/shining-blade/updates/2026-10-25.html</id>
+    <updated>2026-10-25T00:00:00+09:00</updated>
+    <category term="샤이닝 블레이드"/>
+    <summary>PSP 「シャイニング・ブレイド」 한국어 패치 작업을 시작했습니다. 게임 데이터의 구조를 분석하고 글을 다시 넣을 수 있게 했습니다.</summary>
   </entry>
   <entry>
     <title>[GTA 신다코 크로니클] 그림 한글화·번역 검수와 v0.9.0 배포 준비</title>
@@ -278,53 +326,5 @@
     <updated>2026-10-08T00:00:00+09:00</updated>
     <category term="Magical Vacation"/>
     <summary>일본어판 롬을 기준으로 대사·폰트·그림 구조를 분석하고, 대사를 고치거나 늘려도 게임이 정상 동작하는지 시험했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어] 전 대본 한국어화 완료와 UI·이미지 통합</title>
-    <link href="https://ievy3.github.io/projects/oreimo-portable-tsuzuku/updates/2026-10-06.html"/>
-    <id>https://ievy3.github.io/projects/oreimo-portable-tsuzuku/updates/2026-10-06.html</id>
-    <updated>2026-10-06T00:00:00+09:00</updated>
-    <category term="내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어"/>
-    <summary>Disc 2의 전체 대사를 한국어화하고 선택지·알림·플로차트·앨범 등 대사 밖 표시까지 통합 범위를 넓혔습니다. 한글 폰트와 이미지 글자를 반영한 뒤 실제 화면 폭을 기준으로 줄바꿈 규칙을 다시 잡고, XMB 제목까지 한국어 표시를 적용했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[사키 아치가편 포터블] 첫 통합 빌드와 이미지 한글화 전수 정비</title>
-    <link href="https://ievy3.github.io/projects/saki-achiga-portable/updates/2026-10-06.html"/>
-    <id>https://ievy3.github.io/projects/saki-achiga-portable/updates/2026-10-06.html</id>
-    <updated>2026-10-06T00:00:00+09:00</updated>
-    <category term="사키 아치가편 포터블"/>
-    <summary>번역·시스템·이미지 자산을 한 빌드로 묶고 반복 검수했습니다. 남은 일본어 표시와 이미지 품질 문제를 수정하면서 첫 공개 전 배포 후보 수준까지 정리했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[사키 포터블] v0.9.5 첫 프리릴리즈 공개</title>
-    <link href="https://ievy3.github.io/projects/saki-portable/updates/2026-10-06.html"/>
-    <id>https://ievy3.github.io/projects/saki-portable/updates/2026-10-06.html</id>
-    <updated>2026-10-06T00:00:00+09:00</updated>
-    <category term="사키 포터블"/>
-    <summary>전날 완성한 v0.9.5 배포 묶음을 GitHub Releases에 첫 공개했습니다. Windows용 오프라인 패처와 xdelta를 함께 제공하며, PSP-1000 실기 확인까지 마친 상태에서 공개 검수를 시작합니다.</summary>
-  </entry>
-  <entry>
-    <title>[탐정 진구지 사부로: 재와 다이아몬드] 플레이 리셋 수정과 배포 전 화면 정비</title>
-    <link href="https://ievy3.github.io/projects/jinguji-ashes-and-diamonds/updates/2026-10-05.html"/>
-    <id>https://ievy3.github.io/projects/jinguji-ashes-and-diamonds/updates/2026-10-05.html</id>
-    <updated>2026-10-05T00:00:00+09:00</updated>
-    <category term="탐정 진구지 사부로: 재와 다이아몬드"/>
-    <summary>플레이 중 특정 소지품을 제시하면 게임이 리셋되던 중대 결함을 수정하고, 배포 전 안전성 점검에서 발견된 데이터 충돌 가능성도 함께 해결했습니다. 이후 일본어판과 한국어판 화면을 비교해 UI·영상·아이콘의 정렬과 일본어 잔존을 정리했으며, PSP 실기에서 오프닝까지 정상 실행되는 것을 확인했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어] Disc 2 구조 검증과 재조립 기반 확보</title>
-    <link href="https://ievy3.github.io/projects/oreimo-portable-tsuzuku/updates/2026-10-05.html"/>
-    <id>https://ievy3.github.io/projects/oreimo-portable-tsuzuku/updates/2026-10-05.html</id>
-    <updated>2026-10-05T00:00:00+09:00</updated>
-    <category term="내 여동생이 이렇게 귀여울 리가 없어, 포터블이 계속될 리가 없어"/>
-    <summary>Disc 2의 대본과 리소스 구조를 확인하고, 수정하지 않은 상태에서 원본과 같은 ISO를 다시 만드는 기준을 확보했습니다. 이후 긴 대사·루비·저장/불러오기와 설치 데이터 경로까지 확인해 한국어화 작업을 시작할 수 있는 기반을 만들었습니다.</summary>
-  </entry>
-  <entry>
-    <title>[사키 아치가편 포터블] 게임 구조 분석과 한글화 기반 확정</title>
-    <link href="https://ievy3.github.io/projects/saki-achiga-portable/updates/2026-10-05.html"/>
-    <id>https://ievy3.github.io/projects/saki-achiga-portable/updates/2026-10-05.html</id>
-    <updated>2026-10-05T00:00:00+09:00</updated>
-    <category term="사키 아치가편 포터블"/>
-    <summary>원본 데이터 구조와 표시 경로를 먼저 검증하고, 이후 번역과 이미지 한글화를 안전하게 반복 적용할 수 있는 기반을 마련했습니다.</summary>
   </entry>
 </feed>

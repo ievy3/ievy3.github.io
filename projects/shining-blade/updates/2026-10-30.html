@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 10월 30일 샤이닝 블레이드 한국어 패치 작업일지">
+  <title>2026.10.30 작업일지 | 샤이닝 블레이드</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/shining-blade/updates/2026-10-30.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.10.30 작업일지 | 샤이닝 블레이드">
+  <meta property="og:description" content="2026년 10월 30일 샤이닝 블레이드 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/shining-blade/updates/2026-10-30.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/shining-blade/2026-10-30-title.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.10.30 작업일지 | 샤이닝 블레이드">
+  <meta name="twitter:description" content="2026년 10월 30일 샤이닝 블레이드 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/shining-blade/2026-10-30-title.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=29">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=2">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/shining-blade/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.10.30</p>
+    <h1>번역 전수 재검수와<br>v0.9.0 공개</h1>
+    <p>화면에서 나온 문제를 고치고 번역 전체를 다시 검수했습니다. 첫 공개판 v0.9.0을 내놓았습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>RELEASE</span><span class="badge">v0.9.0</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>약 2,860행</strong><span>재검수로 수정</span></div>
+    <div><strong>20,377행</strong><span>한글화한 문자열</span></div>
+    <div><strong>373장</strong><span>그림 한글화</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">REVIEW</p><h2>번역 전수 재검수</h2>
+    <ul class="compact-list">
+      <li>대사와 UI·설명 문구 전체를 다시 검수했습니다. 뜻이 틀린 곳은 원문과 하나씩 대조해 고쳤습니다.</li>
+      <li>대사에 섞여 있던 어색한 표현과 말투를 고치고, 같은 유형의 실수는 지적된 곳 밖까지 찾아 함께 고쳤습니다(대답 「아아」, 「피해 준다」→「피해를 준다」, 「장사정」→「장거리」 등).</li>
+      <li>표기를 다듬었습니다(「판매」→「매각」 등).</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">FIXES</p><h2>화면 손질</h2>
+    <ul class="compact-list">
+      <li>결과 화면 등에 남아 있던 일본어 그림을 찾아 고치고, 어두운 바탕에 그대로 두었던 그림 974장을 다시 확인해 21장을 더 한글로 바꿨습니다.</li>
+      <li>퀘스트 지도 찌꺼기, 요새 이름 잘림, 「포스송 송」 글자 겹침, 칸을 넘는 설명 글을 고쳤습니다.</li>
+      <li>스테이터스의 「노래」 탭은 칸이 좁아 「곡」으로 줄였습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>화면 확인(PPSSPP)</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>빵집·상점 메뉴</li>
+        <li><span>✓</span>월드맵·지명판</li>
+        <li><span>✓</span>편성·전투 HUD</li>
+        <li><span>✓</span>마을 이동</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NOT YET</p><h2>확인하지 못한 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>전투 결과 화면</li>
+        <li><span>○</span>스테이터스 「곡」 탭·남은 턴</li>
+        <li><span>○</span>10장 이후·엔딩</li>
+        <li><span>○</span>PSP·Vita 실기</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>일본어 다운로드판 NPJH50530 원본 전용입니다. UMD판에는 적용되지 않습니다.</li>
+      <li>이전에 설치(INSTALL)한 데이터가 있으면 지우고 다시 설치하거나 설치 데이터를 꺼 주세요.</li>
+      <li>번역과 검수에 AI를 썼습니다. 어색한 문장이나 오역을 발견하시면 장면과 함께 알려 주세요.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">SHINING BLADE DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=3" defer></script>
+</body>
+</html>
