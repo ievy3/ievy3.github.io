@@ -1035,7 +1035,7 @@ footer a:hover{text-decoration:underline}
 .planned-cover{flex:0 0 88px;width:88px}
 .planned-copy{display:block;min-width:0}
 .planned-badge{display:inline-block;margin-bottom:5px;padding:2px 7px;border:1px solid rgba(142,124,244,.35);border-radius:999px;color:#c9c0ff;font-size:11px;font-weight:800}
-.planned-item strong{margin-top:0;font-size:15px}
+.planned-item strong{margin-top:0;font-size:15px;white-space:normal;text-overflow:clip;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}
 .planned-item small{font-size:12px}
 .planned-item p{font-size:12px}
 
