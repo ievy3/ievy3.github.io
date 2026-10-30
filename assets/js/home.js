@@ -916,7 +916,7 @@ function renderPopular() {
     link.className = "latest-update-card popular-card";
     link.href = project.href;
     link.innerHTML = `
-      <span class="popular-rank" aria-label="${index + 1}위">${index + 1}</span>
+      <span class="popular-thumb">${project.image ? `<img src="${project.image}" alt="" loading="lazy">` : ""}<span class="popular-rank" aria-label="${index + 1}위">${index + 1}</span></span>
       <span class="latest-update-copy">
         <strong>${project.title}</strong>
         <span>${project.platform} · ${GENRE_NAMES[project.genre] || project.genre} · 다운로드 ${downloadsOf(project).toLocaleString("ko-KR")}회</span>
@@ -935,9 +935,12 @@ function renderPlanned() {
     item.className = "planned-item";
     item.innerHTML = `
       <span class="planned-cover">${project.image ? `<img src="${project.image}" alt="${project.imageAlt || project.title}" loading="lazy">` : `<b aria-hidden="true">${project.platform}</b>`}</span>
-      <strong>${project.title}</strong>
-      <small>${project.platform} · ${GENRE_NAMES[project.genre] || project.genre}${project.subgenre ? ` · ${project.subgenre}` : ""}</small>
-      ${project.note ? `<p>${project.note}</p>` : ""}`;
+      <span class="planned-copy">
+        <span class="planned-badge">작업 예정</span>
+        <strong>${project.title}</strong>
+        <small>${project.platform} · ${GENRE_NAMES[project.genre] || project.genre}${project.subgenre ? ` · ${project.subgenre}` : ""}</small>
+        ${project.note ? `<p>${project.note}</p>` : ""}
+      </span>`;
     return item;
   }));
 }
@@ -947,17 +950,18 @@ function card(project) {
   article.className = "project-card";
 
   const cardImage = project.image;
-  const verificationMarkup = (project.verification || []).length
-    ? `<div class="project-verify" aria-label="확인된 실행 환경">
-        <span class="project-verify-label">검증 환경</span>
-        ${project.verification.map(environment => `<span class="verify-badge">${environment} ✓</span>`).join("")}
-      </div>`
-    : "";
+  const verification = project.verification || [];
   let displayDescription = project.description || "";
   if (project.version && displayDescription.startsWith(project.version)) {
     displayDescription = displayDescription.slice(project.version.length).trim();
     displayDescription = displayDescription.replace(/^(?:베타\s+)?(?:배포본\s+확정|공개)\s*·\s*/, "");
   }
+  // 버튼은 하나만 둡니다. 공개된 패치는 내려받기, 그 밖에는 프로젝트 페이지로 갑니다.
+  const action = project.download
+    ? (project.downloadMode === "release-page" && project.releaseUrl
+      ? `<a class="card-button download" href="${project.releaseUrl}">배포 파일 보기 ↗</a>`
+      : `<a class="card-button download" href="${project.download}" download>패치 다운로드 ↓</a>`)
+    : `<a class="card-button secondary" href="${project.href}">프로젝트 보기</a>`;
 
   article.innerHTML = `
     <a class="project-cover" style="--card-image:url('${cardImage}')" href="${project.href}" aria-label="${project.title} 프로젝트 보기">
@@ -970,16 +974,13 @@ function card(project) {
         <span class="version-pill">${project.version}</span>
       </div>
       <p class="project-desc">${displayDescription}</p>
-      ${verificationMarkup}
       <div class="project-foot">
-        <div>
+        <p class="project-meta">
           <span class="project-state ${project.status}"><i></i>${project.status === "public" ? "공개" : project.statusLabel}</span>
-          <time class="project-date" datetime="${project.updated}">업데이트 ${formatDate(project.updated)}</time>
-        </div>
-        <div class="project-actions">
-          <a class="card-button secondary" href="${project.href}">프로젝트 보기</a>
-          ${project.download ? (project.downloadMode === "release-page" && project.releaseUrl ? `<a class="card-button download" href="${project.releaseUrl}">배포 파일 보기 ↗</a>` : `<a class="card-button download" href="${project.download}" download>패치 다운로드 ↓</a>`) : ""}
-        </div>
+          <time class="project-date" datetime="${project.updated}">${formatDate(project.updated)}</time>
+          ${verification.length ? `<span class="project-verify" title="확인된 실행 환경">${verification.join(" · ")} 확인</span>` : ""}
+        </p>
+        <div class="project-actions">${action}</div>
       </div>
     </div>`;
   // Clamped card text remains readable in full on hover.

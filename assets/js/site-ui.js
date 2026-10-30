@@ -153,6 +153,14 @@
     var action=document.createElement('span');
     action.className='np-latest-cta';
     action.textContent='최신 패치 받기 →';
+    if (latest.image) {
+      var thumb=document.createElement('span');
+      thumb.className='np-latest-thumb';
+      var img=document.createElement('img');
+      img.src=latest.image;img.alt='';img.loading='lazy';
+      thumb.appendChild(img);
+      link.append(thumb);
+    }
     link.append(info,action);
     section.append(heading,link);
     recent.before(section);

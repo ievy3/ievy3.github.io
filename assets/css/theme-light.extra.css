@@ -19,3 +19,4 @@ html[data-theme="light"] body.project-page .hero{background:linear-gradient(135d
 html[data-theme="light"] body.project-page .release-card{background:linear-gradient(135deg,#fffaf0,#ffffff)}
 html[data-theme="light"] body.project-page .preview-grid img,
 html[data-theme="light"] body.project-page .game-cover{background:#1b1c22}
+html[data-theme="light"] .np-dock-featured{color:#6f531c}

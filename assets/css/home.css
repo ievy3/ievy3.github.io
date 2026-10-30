@@ -66,7 +66,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
   border:1px solid rgba(217,184,116,.3);
   border-radius:9px;
   color:var(--gold);
-  font:600 11px Georgia,serif;
+  font:600 12px Georgia,serif;
 }
 .brand-name{font-size:13px;font-weight:760;letter-spacing:.01em}
 .site-nav{display:flex;align-items:center;gap:4px}
@@ -95,7 +95,7 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
 .eyebrow{
   margin:0 0 10px;
   color:var(--gold);
-  font-size:10px;
+  font-size:11.5px;
   font-weight:800;
   letter-spacing:.2em;
   text-transform:uppercase;
@@ -103,7 +103,7 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
 .hero .eyebrow{margin-bottom:0}
 .hero h1{
   margin:0;
-  font:500 clamp(42px,5.6vw,62px)/1.02 Georgia,"Noto Serif KR","Times New Roman",serif;
+  font:500 clamp(42px,5.6vw,62px)/1.02 "Noto Serif KR",Georgia,"Times New Roman",serif;
   letter-spacing:-.05em;
 }
 .hero h1 em{color:var(--gold);font-weight:500}
@@ -131,7 +131,7 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
   border:1px solid rgba(255,255,255,.12);
   border-radius:999px;
   color:#d8d6cf;
-  font-size:10px;
+  font-size:11.5px;
   font-weight:800;
   letter-spacing:.08em;
   white-space:nowrap;
@@ -150,13 +150,13 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
 .guestbook-cta h2,
 .guestbook-page-head h1{
   margin:0;
-  font:500 clamp(32px,4vw,44px)/1.04 Georgia,"Noto Serif KR",serif;
+  font:500 clamp(32px,4vw,44px)/1.04 "Noto Serif KR",Georgia,serif;
   letter-spacing:-.04em;
 }
 .archive-count{
   margin:6px 0 0;
   color:var(--muted);
-  font-size:11px;
+  font-size:12px;
 }
 .archive-count strong{color:var(--text)}
 .archive-controls{
@@ -177,7 +177,7 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
   border-radius:9px;
   background:rgba(255,255,255,.03);
   color:#c8c6c0;
-  font-size:11px;
+  font-size:12px;
   font-weight:800;
   cursor:pointer;
   transition:.18s;
@@ -198,7 +198,7 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
   outline:none;
   transition:.18s;
 }
-.search-box input::placeholder{color:#686b76}
+.search-box input::placeholder{color:#9a9da8}
 .search-box input:hover,.search-box input:focus{border-color:rgba(217,184,116,.42)}
 
 /* 기종 버튼과 장르 드롭다운은 상태 필터 오른쪽에 구분선을 두고 이어 붙입니다. */
@@ -212,7 +212,7 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
 .facet-menu{position:absolute;top:calc(100% + 6px);left:0;z-index:20;display:flex;flex-direction:column;min-width:180px;padding:6px;border:1px solid rgba(255,255,255,.12);border-radius:11px;background:#13151b;box-shadow:0 14px 36px rgba(0,0,0,.45)}
 .facet-menu[hidden]{display:none}
 .facet-option{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:9px 11px;border:0;border-radius:7px;background:none;color:#c8c6c0;font:800 12px/1.2 "Noto Sans KR",Inter,Arial,sans-serif;text-align:left;cursor:pointer}
-.facet-option small{color:#686b76;font-size:10px;font-weight:700}
+.facet-option small{color:#9a9da8;font-size:11.5px;font-weight:700}
 .facet-option:hover,.facet-option:focus-visible{background:rgba(255,255,255,.06);color:var(--text);outline:none}
 .facet-option.is-active{color:var(--gold)}
 .facet-option.is-active small{color:var(--gold)}
@@ -305,7 +305,7 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
   align-items:center;
   gap:6px;
   color:var(--muted);
-  font-size:10px;
+  font-size:11.5px;
   font-weight:800;
   letter-spacing:.1em;
 }
@@ -316,7 +316,7 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
   gap:6px;
   margin-left:auto;
   color:var(--gold);
-  font-size:10px;
+  font-size:11.5px;
   font-weight:800;
   letter-spacing:0;
   text-decoration:none;
@@ -341,7 +341,7 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
 .project-info h3{
   min-width:0;
   margin:0;
-  font:500 27px/1.12 Georgia,"Noto Serif KR",serif;
+  font:500 27px/1.12 "Noto Serif KR",Georgia,serif;
   letter-spacing:-.03em;
 }
 .project-info h3 a{text-decoration:none}
@@ -354,7 +354,7 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
   border:1px solid var(--line);
   border-radius:999px;
   color:#cfc8ba;
-  font-size:10px;
+  font-size:11.5px;
   font-weight:750;
   text-overflow:ellipsis;
   white-space:nowrap;
@@ -379,7 +379,7 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
   align-items:center;
   gap:6px;
   color:#bfe5ce;
-  font-size:11px;
+  font-size:12px;
   font-weight:750;
   white-space:nowrap;
 }
@@ -392,7 +392,7 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
 }
 .project-state.development{color:#d1c9ff}
 .project-state.development i{background:var(--violet);box-shadow:0 0 8px var(--violet)}
-.project-date{display:block;margin-top:2px;color:#747782;font-size:10px;white-space:nowrap}
+.project-date{display:block;margin-top:2px;color:#9a9da8;font-size:11.5px;white-space:nowrap}
 .project-actions{display:flex;justify-content:flex-end;gap:6px}
 .card-button{
   display:inline-flex;
@@ -402,7 +402,7 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
   padding:6px 10px;
   border-radius:8px;
   text-decoration:none;
-  font-size:10px;
+  font-size:11.5px;
   font-weight:850;
   white-space:nowrap;
 }
@@ -430,8 +430,8 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
   padding:16px 18px;
   border-top:1px solid var(--line);
   border-bottom:1px solid var(--line);
-  color:#858894;
-  font-size:11px;
+  color:#9a9da8;
+  font-size:12px;
 }
 .archive-note i{width:3px;height:3px;border-radius:50%;background:#575a64}
 
@@ -448,7 +448,7 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
 }
 .support-bar-copy{display:flex;min-width:0;align-items:baseline;gap:13px}
 .support-bar-copy strong{font-size:13px;white-space:nowrap}
-.support-bar-copy span{color:#92949e;font-size:11px}
+.support-bar-copy span{color:#92949e;font-size:12px}
 .support-button{
   display:inline-flex;
   flex:0 0 auto;
@@ -460,7 +460,7 @@ main{position:relative;max-width:1320px;margin:0 auto;padding:14px 24px 76px}
   border-radius:9px;
   background:rgba(217,184,116,.11);
   color:var(--gold);
-  font-size:11px;
+  font-size:12px;
   font-weight:850;
   text-decoration:none;
   transition:.18s;
@@ -498,8 +498,8 @@ footer{
   margin:0 auto;
   padding:20px 24px 32px;
   border-top:1px solid var(--line);
-  color:#656874;
-  font-size:10px;
+  color:#9a9da8;
+  font-size:11.5px;
   letter-spacing:.1em;
 }
 footer a{color:var(--gold);text-decoration:none}
@@ -545,7 +545,7 @@ footer a:hover{text-decoration:underline}
 }
 #HCB_comment_box input[type="text"],#HCB_comment_box input[type="email"]{min-height:42px;padding:9px 12px!important}
 #HCB_comment_box textarea{min-height:130px;padding:12px!important;resize:vertical}
-#HCB_comment_box input::placeholder,#HCB_comment_box textarea::placeholder{color:#70737e}
+#HCB_comment_box input::placeholder,#HCB_comment_box textarea::placeholder{color:#9a9da8}
 #HCB_comment_box .btn,#HCB_comment_box input[type="submit"]{
   border:1px solid rgba(217,184,116,.38)!important;
   border-radius:9px!important;
@@ -577,10 +577,10 @@ footer a:hover{text-decoration:underline}
 .guide-page-head h1,
 .guide-section h2{
   margin:0;
-  font:500 28px/1.08 Georgia,"Noto Serif KR",serif;
+  font:500 28px/1.08 "Noto Serif KR",Georgia,serif;
   letter-spacing:-.035em;
 }
-.latest-updates-head>span{color:#747782;font-size:10px}
+.latest-updates-head>span{color:#9a9da8;font-size:11.5px}
 .latest-update-list{
   display:grid;
   grid-template-columns:repeat(3,minmax(0,1fr));
@@ -600,13 +600,13 @@ footer a:hover{text-decoration:underline}
   transition:.18s;
 }
 .latest-update-card:hover{border-color:rgba(217,184,116,.3);background:rgba(255,255,255,.04)}
-.latest-update-date{color:#777a85;font-size:9px;font-weight:800;white-space:nowrap}
+.latest-update-date{color:#9a9da8;font-size:11px;font-weight:800;white-space:nowrap}
 .latest-update-copy{min-width:0}
 .latest-update-copy strong{
   display:block;
   overflow:hidden;
   color:#e6e3dc;
-  font-size:11px;
+  font-size:12px;
   font-weight:780;
   text-overflow:ellipsis;
   white-space:nowrap;
@@ -616,12 +616,12 @@ footer a:hover{text-decoration:underline}
   overflow:hidden;
   margin-top:1px;
   color:#9698a2;
-  font-size:10px;
+  font-size:11.5px;
   text-overflow:ellipsis;
   white-space:nowrap;
 }
 .latest-update-arrow{color:var(--gold);font-size:14px}
-.popular-rank{display:grid;place-items:center;width:24px;height:24px;border:1px solid rgba(217,184,116,.35);border-radius:50%;color:var(--gold);font:800 11px/1 Inter,Arial,sans-serif}
+.popular-rank{display:grid;place-items:center;width:24px;height:24px;border:1px solid rgba(217,184,116,.35);border-radius:50%;color:var(--gold);font:800 12px/1 Inter,Arial,sans-serif}
 
 /* 작업 예정: 링크 없는 작은 표지 목록 */
 .planned{margin-top:34px;padding-top:22px;border-top:1px solid var(--line)}
@@ -632,8 +632,8 @@ footer a:hover{text-decoration:underline}
 .planned-cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
 .planned-cover b{color:#555963;font-size:12px;letter-spacing:.12em}
 .planned-item strong{display:block;margin-top:9px;overflow:hidden;color:#e6e3dc;font-size:12px;font-weight:780;text-overflow:ellipsis;white-space:nowrap}
-.planned-item small{display:block;margin-top:2px;color:#9698a2;font-size:10px}
-.planned-item p{margin:5px 0 0;color:#8d8a84;font-size:10px;line-height:1.5}
+.planned-item small{display:block;margin-top:2px;color:#9698a2;font-size:11.5px}
+.planned-item p{margin:5px 0 0;color:#8d8a84;font-size:11.5px;line-height:1.5}
 
 .project-verify{
   display:flex;
@@ -644,8 +644,8 @@ footer a:hover{text-decoration:underline}
 }
 .project-verify-label{
   margin-right:2px;
-  color:#6f727c;
-  font-size:9px;
+  color:#9a9da8;
+  font-size:11px;
   font-weight:800;
   letter-spacing:.06em;
 }
@@ -658,7 +658,7 @@ footer a:hover{text-decoration:underline}
   border-radius:999px;
   background:rgba(123,217,164,.055);
   color:#a8dabb;
-  font-size:9px;
+  font-size:11px;
   font-weight:760;
   white-space:nowrap;
 }
@@ -676,14 +676,14 @@ footer a:hover{text-decoration:underline}
 }
 .guide-cta .eyebrow{margin-bottom:6px}
 .guide-cta h2{font-size:25px}
-.guide-cta p:last-child{max-width:720px;margin:7px 0 0;color:#9698a2;font-size:11px}
+.guide-cta p:last-child{max-width:720px;margin:7px 0 0;color:#9698a2;font-size:12px}
 .guide-cta>a{
   display:inline-flex;
   flex:0 0 auto;
   align-items:center;
   gap:8px;
   color:var(--gold);
-  font-size:11px;
+  font-size:12px;
   font-weight:850;
   text-decoration:none;
 }
@@ -700,7 +700,7 @@ footer a:hover{text-decoration:underline}
 .patch-workflow-head .eyebrow{margin-bottom:8px}
 .patch-workflow h2{
   margin:0;
-  font:500 clamp(26px,3.2vw,34px)/1.16 Georgia,"Noto Serif KR",serif;
+  font:500 clamp(26px,3.2vw,34px)/1.16 "Noto Serif KR",Georgia,serif;
   letter-spacing:-.035em;
 }
 .patch-workflow-intro{
@@ -754,8 +754,8 @@ footer a:hover{text-decoration:underline}
   stroke-linejoin:round;
 }
 .workflow-number{
-  color:#777a85;
-  font:700 11px/1.4 Georgia,serif;
+  color:#9a9da8;
+  font:700 12px/1.4 Georgia,serif;
   letter-spacing:.1em;
 }
 .workflow-step h3{
@@ -767,13 +767,13 @@ footer a:hover{text-decoration:underline}
 .workflow-step p{
   margin:5px 0 0;
   color:#999ba5;
-  font-size:11px;
+  font-size:12px;
   line-height:1.65;
 }
 .patch-workflow-note{
   margin:14px 0 0;
-  color:#858894;
-  font-size:11px;
+  color:#9a9da8;
+  font-size:12px;
 }
 @media(max-width:900px){
   .workflow-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -799,7 +799,7 @@ footer a:hover{text-decoration:underline}
     margin-bottom:0;
   }
   .workflow-icon{width:32px;height:32px}
-  .workflow-number{margin-left:8px;font-size:9px}
+  .workflow-number{margin-left:8px;font-size:11px}
   .workflow-step h3{grid-column:2;grid-row:1;align-self:end;font-size:13px}
   .workflow-step p{grid-column:2;grid-row:2;margin-top:3px}
 }
@@ -860,7 +860,7 @@ footer a:hover{text-decoration:underline}
   }
   .project-kicker{line-height:14px}
   .project-card .project-info h3{font-size:22px}
-  .project-desc{font-size:11px;line-height:1.45}
+  .project-desc{font-size:12px;line-height:1.45}
 }
 
 /* Patch guide */
@@ -896,7 +896,7 @@ footer a:hover{text-decoration:underline}
   font:600 12px Georgia,serif;
 }
 .guide-step strong{display:block;font-size:13px}
-.guide-step p{margin:6px 0 0;color:#9799a3;font-size:11px;line-height:1.65}
+.guide-step p{margin:6px 0 0;color:#9799a3;font-size:12px;line-height:1.65}
 .guide-checks{
   display:grid;
   grid-template-columns:repeat(2,minmax(0,1fr));
@@ -909,8 +909,8 @@ footer a:hover{text-decoration:underline}
   border-radius:12px;
   background:rgba(255,255,255,.022);
 }
-.guide-check strong{display:block;color:#dedbd4;font-size:11px}
-.guide-check span{display:block;margin-top:4px;color:#858894;font-size:10px;line-height:1.6}
+.guide-check strong{display:block;color:#dedbd4;font-size:12px}
+.guide-check span{display:block;margin-top:4px;color:#9a9da8;font-size:11.5px;line-height:1.6}
 .guide-report{
   display:flex;
   align-items:center;
@@ -922,8 +922,8 @@ footer a:hover{text-decoration:underline}
   border-radius:13px;
   background:rgba(217,184,116,.04);
 }
-.guide-report p{margin:0;color:#989aa4;font-size:11px}
-.guide-report a{flex:0 0 auto;color:var(--gold);font-size:11px;font-weight:800;text-decoration:none}
+.guide-report p{margin:0;color:#989aa4;font-size:12px}
+.guide-report a{flex:0 0 auto;color:var(--gold);font-size:12px;font-weight:800;text-decoration:none}
 
 @media(min-width:1280px){
   .projects{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
@@ -945,7 +945,7 @@ footer a:hover{text-decoration:underline}
   .site-header{padding:15px 14px}
   .brand-name{display:none}
   .site-nav{gap:0}
-  .site-nav a{padding:6px 7px;font-size:11px}
+  .site-nav a{padding:6px 7px;font-size:12px}
   main{padding:8px 14px 56px}
   .hero{padding:16px 0 10px}
   .hero h1{font-size:clamp(40px,12vw,54px)}
@@ -972,3 +972,84 @@ footer a:hover{text-decoration:underline}
   footer{align-items:flex-start;flex-direction:column;padding:18px 14px 28px;letter-spacing:.08em}
   .guestbook-panel{padding:15px}
 }
+
+/* 디자인 정리(2026-10-30)
+   - 첫 화면 구분선을 끝까지 긋고, 한글 제목의 가짜 기울임을 없앱니다.
+   - 밝은 썸네일이 어두운 화면에서 튀지 않도록 살짝 눌러 두고, 마우스를 올리면 원래 밝기로 돌아옵니다.
+   - 카드 아래쪽은 「상태 · 날짜 · 검증 환경」 한 줄과 버튼 하나로 줄입니다. */
+.hero{max-width:none}
+.hero-copy{max-width:900px}
+.hero h1 em{font-style:normal}
+
+.project-cover:after{
+  z-index:2;
+  background:linear-gradient(180deg,rgba(9,10,14,.10),rgba(9,10,14,.30));
+  transition:opacity .24s;
+}
+.project-cover img{filter:saturate(.9) brightness(.9)}
+.project-card:hover .project-cover:after,.project-cover:focus-visible:after{opacity:0}
+.project-card:hover .project-cover img,.project-cover:focus-visible img{filter:none}
+
+.project-foot{align-items:center}
+.project-meta{
+  display:flex;
+  min-width:0;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:3px 8px;
+  margin:0;
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.4;
+}
+.project-meta>*{white-space:nowrap}
+.project-meta .project-date:before{content:"·";margin-right:8px;color:#5d606a}
+.project-meta .project-state{display:inline-flex;font-size:12px}
+.project-meta .project-date{display:inline;margin:0;color:var(--muted);font-size:12px}
+.project-meta .project-verify{display:block;flex-basis:100%;margin:0;color:#a8dabb;font-size:12px}
+.card-button{min-height:36px;padding:7px 13px;font-size:12px}
+@media (min-width:621px){
+  .project-info{flex-basis:206px;height:206px;grid-template-rows:16px 64px 46px 48px}
+  .project-foot{grid-row:4}
+}
+@media (min-width:1280px){
+  .project-info{flex-basis:194px;height:194px;grid-template-rows:16px 58px 44px 46px}
+  .project-desc{font-size:12px;line-height:1.5}
+}
+@media(max-width:620px){
+  .project-foot{align-items:stretch;gap:12px}
+  .project-actions .card-button{width:100%}
+}
+
+/* 인기 패치: 순위 동그라미를 작은 썸네일 위에 얹습니다. */
+.popular-card{grid-template-columns:auto 1fr auto;gap:12px;padding:9px 12px 9px 9px}
+.popular-thumb{position:relative;display:block;width:84px;aspect-ratio:16/9;overflow:hidden;border-radius:7px;background:#1b1c22}
+.popular-thumb img{display:block;width:100%;height:100%;object-fit:cover;filter:brightness(.85)}
+.popular-thumb .popular-rank{position:absolute;left:5px;top:5px;width:20px;height:20px;background:rgba(9,10,14,.82);font-size:11px}
+.latest-update-copy strong{font-size:13px}
+.latest-update-copy span{margin-top:2px;font-size:12px}
+
+/* 작업 예정: 표지와 설명을 가로로 놓은 카드 */
+.planned-list{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.planned-item{display:flex;align-items:center;gap:14px;padding:12px;border:1px dashed rgba(255,255,255,.14);border-radius:14px;background:rgba(255,255,255,.02)}
+.planned-cover{flex:0 0 88px;width:88px}
+.planned-copy{display:block;min-width:0}
+.planned-badge{display:inline-block;margin-bottom:5px;padding:2px 7px;border:1px solid rgba(142,124,244,.35);border-radius:999px;color:#c9c0ff;font-size:11px;font-weight:800}
+.planned-item strong{margin-top:0;font-size:15px}
+.planned-item small{font-size:12px}
+.planned-item p{font-size:12px}
+
+/* 제작 과정: 넓은 화면에서는 상자 여섯 개 대신 한 줄짜리 진행선으로 */
+@media(min-width:901px){
+  .workflow-grid{grid-template-columns:repeat(6,minmax(0,1fr));gap:0}
+  .workflow-step{min-height:0;padding:0 18px 0 0;border:0;border-radius:0;background:none}
+  .workflow-step-top{position:relative;justify-content:flex-start;margin-bottom:14px}
+  .workflow-step-top:after{content:"";position:absolute;left:76px;right:6px;top:50%;height:1px;background:linear-gradient(90deg,rgba(217,184,116,.5),rgba(217,184,116,.1))}
+  .workflow-step:last-child .workflow-step-top:after{display:none}
+  .workflow-icon{border-radius:50%;background:#14161d}
+  .workflow-number{position:absolute;left:46px;top:50%;transform:translateY(-50%);color:var(--gold);font-size:12px}
+  .patch-workflow-head{margin-bottom:24px}
+  .workflow-step h3{font-size:15px}
+}
+
+.hcb-loading{color:var(--muted);text-decoration:none}
