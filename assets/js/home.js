@@ -48,6 +48,40 @@ const fallbackProjects = [
     }
   },
   {
+    "title": "매지컬 봉신",
+    "href": "/projects/magical-houshin/",
+    "image": "/assets/images/magical-houshin/2026-11-01-title-ko.webp",
+    "imageAlt": "매지컬 봉신 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "GBA",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "type": "한국어 패치",
+    "status": "development",
+    "statusLabel": "작업 중",
+    "stage": 5,
+    "version": "첫 공개 전",
+    "updated": "2026-11-01",
+    "totalDownloads": 0,
+    "description": "『봉신연의』를 바탕으로 한 코에이의 GBA 롤플레잉 게임",
+    "keywords": [
+      "매지컬 봉신",
+      "매지컬봉신",
+      "봉신",
+      "봉신연의",
+      "マジカル封神",
+      "magical houshin",
+      "코에이",
+      "koei"
+    ],
+    "verification": [],
+    "latestWorklog": {
+      "date": "2026-11-01",
+      "title": "v0.9.0 공개 검수판 준비",
+      "href": "/projects/magical-houshin/updates/2026-11-01.html"
+    }
+  },
+  {
     "title": "샤이닝 블레이드",
     "href": "/projects/shining-blade/",
     "image": "/assets/images/shining-blade/2026-10-30-title.webp",
@@ -911,18 +945,6 @@ const fallbackProjects = [
     "platform": "GBA",
     "genre": "RPG",
     "subgenre": "배틀",
-    "status": "planned",
-    "statusLabel": "작업 예정",
-    "updated": ""
-  },
-  {
-    "title": "매지컬 봉신",
-    "slug": "magical-houshin",
-    "image": "/assets/images/magical-houshin/official-cover.webp",
-    "imageAlt": "マジカル封神 일본판 GBA 패키지",
-    "platform": "GBA",
-    "genre": "RPG",
-    "subgenre": "판타지",
     "status": "planned",
     "statusLabel": "작업 예정",
     "updated": ""

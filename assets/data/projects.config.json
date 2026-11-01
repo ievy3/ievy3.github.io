@@ -652,12 +652,28 @@
   {
     "slug": "magical-houshin",
     "title": "매지컬 봉신",
-    "status": "planned",
-    "imageAlt": "マジカル封神 일본판 GBA 패키지",
+    "image": "/assets/images/magical-houshin/2026-11-01-title-ko.webp",
+    "imageAlt": "매지컬 봉신 한글 타이틀 화면",
     "platform": "GBA",
+    "type": "한국어 패치",
+    "releasePrefix": "houshin-",
+    "description": "『봉신연의』를 바탕으로 한 코에이의 GBA 롤플레잉 게임",
+    "keywords": [
+      "매지컬 봉신",
+      "매지컬봉신",
+      "봉신",
+      "봉신연의",
+      "マジカル封神",
+      "magical houshin",
+      "코에이",
+      "koei"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
     "genre": "RPG",
     "subgenre": "판타지",
-    "image": "/assets/images/magical-houshin/official-cover.webp"
+    "stage": 5,
+    "updated": "2026-11-01",
+    "verification": []
   },
   {
     "slug": "shining-hearts",
