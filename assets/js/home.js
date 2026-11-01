@@ -26,7 +26,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningark-v0.9.0/Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningark-v0.9.0",
     "releasePublishedAt": "2026-11-01T05:39:03Z",
-    "totalDownloads": 0,
+    "totalDownloads": 1,
     "description": "세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
     "keywords": [
       "샤이닝 아크",
@@ -65,7 +65,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningblade-v0.9.0/Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningblade-v0.9.0",
     "releasePublishedAt": "2026-10-30T13:50:59Z",
-    "totalDownloads": 390,
+    "totalDownloads": 391,
     "description": "세가 『샤이닝』 시리즈의 PSP 시뮬레이션 RPG",
     "keywords": [
       "샤이닝 블레이드",
