@@ -9,6 +9,45 @@ let showAllProjects = false;
 // BEGIN fallback projects
 const fallbackProjects = [
   {
+    "title": "샤이닝 아크",
+    "href": "/projects/shining-ark/",
+    "image": "/assets/images/shining-ark/2026-11-01-title-ko.webp",
+    "imageAlt": "샤이닝 아크 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.0",
+    "updated": "2026-11-01",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningark-v0.9.0/Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningark-v0.9.0",
+    "releasePublishedAt": "2026-11-01T05:39:03Z",
+    "totalDownloads": 0,
+    "description": "세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
+    "keywords": [
+      "샤이닝 아크",
+      "shining ark",
+      "シャイニング・アーク",
+      "샤이닝",
+      "shining",
+      "세가",
+      "sega"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-01",
+      "title": "그림 마무리와 v0.9.0 공개",
+      "href": "/projects/shining-ark/updates/2026-11-01.html"
+    }
+  },
+  {
     "title": "샤이닝 블레이드",
     "href": "/projects/shining-blade/",
     "image": "/assets/images/shining-blade/2026-10-30-title.webp",
@@ -46,44 +85,6 @@ const fallbackProjects = [
       "date": "2026-10-30",
       "title": "번역 전수 재검수와 v0.9.0 공개",
       "href": "/projects/shining-blade/updates/2026-10-30.html"
-    }
-  },
-  {
-    "title": "샤이닝 아크",
-    "href": "/projects/shining-ark/",
-    "image": "/assets/images/shining-ark/2026-11-01-title-ko.webp",
-    "imageAlt": "샤이닝 아크 한글 타이틀 화면",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "RPG",
-    "subgenre": "판타지",
-    "type": "한국어 패치",
-    "status": "public",
-    "statusLabel": "베타 공개",
-    "stage": 6,
-    "version": "v0.9.0",
-    "updated": "2026-11-01",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningark-v0.9.0",
-    "releasePublishedAt": "2026-11-01T05:39:03Z",
-    "totalDownloads": 0,
-    "description": "세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
-    "keywords": [
-      "샤이닝 아크",
-      "shining ark",
-      "シャイニング・アーク",
-      "샤이닝",
-      "shining",
-      "세가",
-      "sega"
-    ],
-    "verification": [
-      "PPSSPP",
-      "PSP-1000"
-    ],
-    "latestWorklog": {
-      "date": "2026-11-01",
-      "title": "그림 마무리와 v0.9.0 공개",
-      "href": "/projects/shining-ark/updates/2026-11-01.html"
     }
   },
   {
