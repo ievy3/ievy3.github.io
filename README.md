@@ -17,10 +17,11 @@
 ## Projects
 
 <!-- BEGIN projects (scripts/build-site-files.mjs가 projects.generated.json으로 자동 갱신합니다) -->
-현재 공개 허브에서 관리하는 프로젝트는 **22개**입니다(공개 21 · 작업 중 1). 버전은 공개된 최신 배포본 기준입니다.
+현재 공개 허브에서 관리하는 프로젝트는 **23개**입니다(공개 22 · 작업 중 1). 버전은 공개된 최신 배포본 기준입니다.
 
 ### 공개
 
+- [샤이닝 아크](https://ievy3.github.io/projects/shining-ark/) (PSP) — **v0.9.0** · 베타 공개
 - [샤이닝 블레이드](https://ievy3.github.io/projects/shining-blade/) (PSP) — **v0.9.0** · 베타 공개
 - [신 우리들의 태양: 역습의 사바타](https://ievy3.github.io/projects/shin-bokura-no-taiyou/) (GBA) — **v0.9.4** · 베타 공개
 - [마블 얼티밋 얼라이언스](https://ievy3.github.io/projects/marvel-ultimate-alliance/) (PSP) — **v0.9.0** · 베타 공개
@@ -51,7 +52,6 @@
 
 - 드래곤 드라이브: 월드 D 브레이크 (GBA)
 - 매지컬 봉신 (GBA)
-- 샤이닝 아크 (PSP)
 - 샤이닝 하츠 (PSP)
 - 일상 (우주인) (PSP)
 - 하트커넥트: 예지랜덤 (PSP)

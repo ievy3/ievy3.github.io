@@ -49,6 +49,44 @@ const fallbackProjects = [
     }
   },
   {
+    "title": "샤이닝 아크",
+    "href": "/projects/shining-ark/",
+    "image": "/assets/images/shining-ark/2026-11-01-title-ko.webp",
+    "imageAlt": "샤이닝 아크 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.0",
+    "updated": "2026-11-01",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningark-v0.9.0",
+    "releasePublishedAt": "2026-11-01T05:39:03Z",
+    "totalDownloads": 0,
+    "description": "세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
+    "keywords": [
+      "샤이닝 아크",
+      "shining ark",
+      "シャイニング・アーク",
+      "샤이닝",
+      "shining",
+      "세가",
+      "sega"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-01",
+      "title": "그림 마무리와 v0.9.0 공개",
+      "href": "/projects/shining-ark/updates/2026-11-01.html"
+    }
+  },
+  {
     "title": "신 우리들의 태양: 역습의 사바타",
     "href": "/projects/shin-bokura-no-taiyou/",
     "image": "/assets/images/shin-bokura-no-taiyou/2026-10-26-title-ko.webp",
@@ -882,18 +920,6 @@ const fallbackProjects = [
     "image": "/assets/images/magical-houshin/official-cover.webp",
     "imageAlt": "マジカル封神 일본판 GBA 패키지",
     "platform": "GBA",
-    "genre": "RPG",
-    "subgenre": "판타지",
-    "status": "planned",
-    "statusLabel": "작업 예정",
-    "updated": ""
-  },
-  {
-    "title": "샤이닝 아크",
-    "slug": "shining-ark",
-    "image": "/assets/images/shining-ark/official-cover.webp",
-    "imageAlt": "シャイニング・アーク 일본판 PSP 패키지",
-    "platform": "PSP",
     "genre": "RPG",
     "subgenre": "판타지",
     "status": "planned",
