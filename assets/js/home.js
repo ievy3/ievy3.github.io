@@ -58,11 +58,13 @@ const fallbackProjects = [
     "genre": "RPG",
     "subgenre": "판타지",
     "type": "한국어 패치",
-    "status": "development",
-    "statusLabel": "작업 중",
-    "stage": 5,
-    "version": "첫 공개 전",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.0",
     "updated": "2026-11-01",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningark-v0.9.0",
+    "releasePublishedAt": "2026-11-01T05:39:03Z",
     "totalDownloads": 0,
     "description": "세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
     "keywords": [
@@ -80,7 +82,7 @@ const fallbackProjects = [
     ],
     "latestWorklog": {
       "date": "2026-11-01",
-      "title": "그림 마무리와 v0.9.0 배포 준비",
+      "title": "그림 마무리와 v0.9.0 공개",
       "href": "/projects/shining-ark/updates/2026-11-01.html"
     }
   },
