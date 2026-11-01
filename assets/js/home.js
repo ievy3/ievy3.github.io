@@ -51,9 +51,9 @@ const fallbackProjects = [
   {
     "title": "샤이닝 아크",
     "href": "/projects/shining-ark/",
-    "image": "/assets/images/shining-ark/official-cover.webp",
-    "imageAlt": "샤이닝 아크 일본판 PSP 패키지",
-    "imageFit": "contain",
+    "image": "/assets/images/shining-ark/2026-11-01-title-ko.webp",
+    "imageAlt": "샤이닝 아크 한글 타이틀 화면",
+    "imageFit": "cover",
     "platform": "PSP",
     "genre": "RPG",
     "subgenre": "판타지",
