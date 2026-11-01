@@ -11,7 +11,7 @@ const fallbackProjects = [
   {
     "title": "샤이닝 아크",
     "href": "/projects/shining-ark/",
-    "image": "/assets/images/shining-ark/2026-11-01-title-ko.webp",
+    "image": "/assets/images/shining-ark/2026-11-01-title.webp",
     "imageAlt": "샤이닝 아크 한글 타이틀 화면",
     "imageFit": "cover",
     "platform": "PSP",
