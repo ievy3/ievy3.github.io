@@ -5,8 +5,32 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-10-30T00:00:00+09:00</updated>
+  <updated>2026-11-01T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[샤이닝 아크] 그림 마무리와 v0.9.0 배포 준비</title>
+    <link href="https://ievy3.github.io/projects/shining-ark/updates/2026-11-01.html"/>
+    <id>https://ievy3.github.io/projects/shining-ark/updates/2026-11-01.html</id>
+    <updated>2026-11-01T00:00:00+09:00</updated>
+    <category term="샤이닝 아크"/>
+    <summary>그림을 마무리하고 화면을 돌며 남은 곳을 고쳤습니다. 설치 데이터 문제를 해결하고 첫 공개판 v0.9.0 꾸러미를 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[샤이닝 아크] 번역과 검수, 실행 파일·그림 한글화</title>
+    <link href="https://ievy3.github.io/projects/shining-ark/updates/2026-10-31.html"/>
+    <id>https://ievy3.github.io/projects/shining-ark/updates/2026-10-31.html</id>
+    <updated>2026-10-31T00:00:00+09:00</updated>
+    <category term="샤이닝 아크"/>
+    <summary>구조를 확인하고 표기 기준을 정한 뒤, 번역과 검수를 마쳤습니다. 실행 파일에 박힌 화면 문구와 글자가 든 그림도 한글로 바꾸기 시작했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[샤이닝 아크] 프로젝트 시작</title>
+    <link href="https://ievy3.github.io/projects/shining-ark/updates/2026-10-30.html"/>
+    <id>https://ievy3.github.io/projects/shining-ark/updates/2026-10-30.html</id>
+    <updated>2026-10-30T00:00:00+09:00</updated>
+    <category term="샤이닝 아크"/>
+    <summary>PSP 「シャイニング・アーク」 한국어 패치 작업을 시작했습니다. 일본어 다운로드판(NPJH50717)을 기준으로 합니다.</summary>
+  </entry>
   <entry>
     <title>[샤이닝 블레이드] 번역 전수 재검수와 v0.9.0 공개</title>
     <link href="https://ievy3.github.io/projects/shining-blade/updates/2026-10-30.html"/>
@@ -302,29 +326,5 @@
     <updated>2026-10-09T00:00:00+09:00</updated>
     <category term="바케모노가타리 포터블"/>
     <summary>게임 데이터와 대사 구조를 분석하고, 한글 11,172자를 담은 확장 폰트가 실제 게임 화면에 표시되는 것을 확인했습니다. 번역 방침도 정했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Magical Vacation] 번역 100% 완료와 첫 통합 빌드 검수</title>
-    <link href="https://ievy3.github.io/projects/magical-vacation/updates/2026-10-09.html"/>
-    <id>https://ievy3.github.io/projects/magical-vacation/updates/2026-10-09.html</id>
-    <updated>2026-10-09T00:00:00+09:00</updated>
-    <category term="Magical Vacation"/>
-    <summary>번역 방침을 확정하고 전체 7,612행을 번역했습니다. 한글 이름 입력과 메뉴 그림까지 넣은 통합 빌드를 만들어 화면 검수와 배포 전 독립 검수를 진행했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Never 7: The End of Infinity] 구조 분석 완료와 초벌 번역 70% 진행</title>
-    <link href="https://ievy3.github.io/projects/never7/updates/2026-10-09.html"/>
-    <id>https://ievy3.github.io/projects/never7/updates/2026-10-09.html</id>
-    <updated>2026-10-09T00:00:00+09:00</updated>
-    <category term="Never 7: The End of Infinity"/>
-    <summary>대사·폰트·화면 표시 한도를 확인해 번역 준비 단계를 마치고, 첫 장 문체를 확정한 뒤 전체 대본 초벌 번역을 진행했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Magical Vacation] 프로젝트 시작과 구조 분석·수정 안전성 확인</title>
-    <link href="https://ievy3.github.io/projects/magical-vacation/updates/2026-10-08.html"/>
-    <id>https://ievy3.github.io/projects/magical-vacation/updates/2026-10-08.html</id>
-    <updated>2026-10-08T00:00:00+09:00</updated>
-    <category term="Magical Vacation"/>
-    <summary>일본어판 롬을 기준으로 대사·폰트·그림 구조를 분석하고, 대사를 고치거나 늘려도 게임이 정상 동작하는지 시험했습니다.</summary>
   </entry>
 </feed>

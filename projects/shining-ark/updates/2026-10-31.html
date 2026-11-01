@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 10월 31일 샤이닝 아크 한국어 패치 작업일지">
+  <title>2026.10.31 작업일지 | 샤이닝 아크</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/shining-ark/updates/2026-10-31.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.10.31 작업일지 | 샤이닝 아크">
+  <meta property="og:description" content="2026년 10월 31일 샤이닝 아크 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/shining-ark/updates/2026-10-31.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/shining-ark/official-cover.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.10.31 작업일지 | 샤이닝 아크">
+  <meta name="twitter:description" content="2026년 10월 31일 샤이닝 아크 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/shining-ark/official-cover.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=29">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=3">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/shining-ark/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">DEVELOPMENT LOG · 2026.10.31</p>
+    <h1>번역과 검수,<br>실행 파일·그림 한글화</h1>
+    <p>구조를 확인하고 표기 기준을 정한 뒤, 번역과 검수를 마쳤습니다. 실행 파일에 박힌 화면 문구와 글자가 든 그림도 한글로 바꾸기 시작했습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>TRANSLATION</span><span class="badge">번역 완료</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>50,522행</strong><span>추출한 문자열</span></div>
+    <div><strong>111묶음</strong><span>번역·검수</span></div>
+    <div><strong>391장</strong><span>글자가 든 그림</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">ANALYSIS</p><h2>구조 조사</h2>
+    <ul class="compact-list">
+      <li>문자열 50,522행과 그림 2,669장, 다른 묶음 속 그림 데이터 10,775개를 뽑아 다시 넣어도 원본과 똑같은 것을 확인했습니다.</li>
+      <li>한글 글자표를 만들고, 원문의 두 배 길이 문장도 대사 창·메뉴·대화상자에 나오는지 시험했습니다.</li>
+      <li>프롤로그 자막이 글이 아니라 그림이라는 것을 찾았습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">STYLE</p><h2>번역 기준</h2>
+    <ul class="compact-list">
+      <li>표기 기준, 인물 관계와 말투, 용어표를 먼저 만들었습니다. 정식 한국어판은 찾지 못했습니다.</li>
+      <li>인물별 말투를 검수해 97행을 고쳤고, 호칭은 원문에 맞췄습니다.</li>
+      <li>후미·레시피·비석처럼 갈린 표기를 하나로 맞췄습니다.</li>
+      <li>입력 금칙어 목록은 화면에 나오는 글이 아니라서 원문대로 뒀습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">TRANSLATION</p><h2>번역과 검수</h2>
+    <ul class="compact-list">
+      <li>번역 111묶음을 합치고 전체를 검수해, 지적된 곳 대부분을 고친 뒤 다시 검수했습니다.</li>
+      <li>표에 없던 화면 문구가 실행 파일에 들어 있어 270곳을 번역해 넣었습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">GRAPHICS · FONT</p><h2>그림과 글꼴</h2>
+    <ul class="compact-list">
+      <li>그림 2,433장을 살펴 글자가 있는 391장을 골라 한글로 바꾸기 시작했습니다.</li>
+      <li>게임 글꼴은 얇은둥근모로 정했고, 메뉴에서 얇아 보여 굵게 바꿨습니다. 그림 속 고딕 글씨는 Pretendard Bold로 그렸습니다.</li>
+      <li>노래 효과의 Up!·Down!은 영어로 둡니다.</li>
+      <li>100% 진행 세이브로 본거지와 각 메뉴 화면을 확인했습니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">SHINING ARK DEVELOPMENT LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=3" defer></script>
+</body>
+</html>
