@@ -148,7 +148,9 @@
     var title=document.createElement('strong');
     title.textContent=latest.title;
     var subtitle=document.createElement('small');
-    subtitle.textContent=latest.version+' · '+latest.releasePublishedAt.slice(0,10).replaceAll('-','.')+' 공개';
+    // 카드·프로젝트 페이지와 같은 날짜가 나오도록 한국 시간 기준 날짜를 씁니다.
+    var kstDate=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(latest.releasePublishedAt));
+    subtitle.textContent=latest.version+' · '+kstDate.replaceAll('-','.')+' 공개';
     info.append(title,subtitle);
     var action=document.createElement('span');
     action.className='np-latest-cta';
