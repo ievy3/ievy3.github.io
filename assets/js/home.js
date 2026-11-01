@@ -9,6 +9,45 @@ let showAllProjects = false;
 // BEGIN fallback projects
 const fallbackProjects = [
   {
+    "title": "매지컬 봉신",
+    "href": "/projects/magical-houshin/",
+    "image": "/assets/images/magical-houshin/2026-11-01-title-ko.webp",
+    "imageAlt": "매지컬 봉신 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "GBA",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.0",
+    "updated": "2026-11-02",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/houshin-v0.9.0",
+    "releasePublishedAt": "2026-11-01T15:26:38Z",
+    "totalDownloads": 0,
+    "description": "『봉신연의』를 바탕으로 한 코에이의 GBA 롤플레잉 게임",
+    "keywords": [
+      "매지컬 봉신",
+      "매지컬봉신",
+      "봉신",
+      "봉신연의",
+      "マジカル封神",
+      "magical houshin",
+      "코에이",
+      "koei"
+    ],
+    "verification": [
+      "mGBA"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-01",
+      "title": "v0.9.0 공개 검수판",
+      "href": "/projects/magical-houshin/updates/2026-11-01.html"
+    }
+  },
+  {
     "title": "샤이닝 아크",
     "href": "/projects/shining-ark/",
     "image": "/assets/images/shining-ark/2026-11-01-title.webp",
@@ -45,44 +84,6 @@ const fallbackProjects = [
       "date": "2026-11-01",
       "title": "그림 마무리와 v0.9.0 공개",
       "href": "/projects/shining-ark/updates/2026-11-01.html"
-    }
-  },
-  {
-    "title": "매지컬 봉신",
-    "href": "/projects/magical-houshin/",
-    "image": "/assets/images/magical-houshin/2026-11-01-title-ko.webp",
-    "imageAlt": "매지컬 봉신 한글 타이틀 화면",
-    "imageFit": "cover",
-    "platform": "GBA",
-    "genre": "RPG",
-    "subgenre": "판타지",
-    "type": "한국어 패치",
-    "status": "public",
-    "statusLabel": "베타 공개",
-    "stage": 6,
-    "version": "v0.9.0",
-    "updated": "2026-11-01",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/houshin-v0.9.0",
-    "releasePublishedAt": "2026-11-01T15:26:38Z",
-    "totalDownloads": 0,
-    "description": "『봉신연의』를 바탕으로 한 코에이의 GBA 롤플레잉 게임",
-    "keywords": [
-      "매지컬 봉신",
-      "매지컬봉신",
-      "봉신",
-      "봉신연의",
-      "マジカル封神",
-      "magical houshin",
-      "코에이",
-      "koei"
-    ],
-    "verification": [
-      "mGBA"
-    ],
-    "latestWorklog": {
-      "date": "2026-11-01",
-      "title": "v0.9.0 공개 검수판",
-      "href": "/projects/magical-houshin/updates/2026-11-01.html"
     }
   },
   {
