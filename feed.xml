@@ -8,6 +8,14 @@
   <updated>2026-11-01T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
   <entry>
+    <title>[매지컬 봉신] v0.9.0 공개 검수판</title>
+    <link href="https://ievy3.github.io/projects/magical-houshin/updates/2026-11-01.html"/>
+    <id>https://ievy3.github.io/projects/magical-houshin/updates/2026-11-01.html</id>
+    <updated>2026-11-01T00:00:00+09:00</updated>
+    <category term="매지컬 봉신"/>
+    <summary>검수가 일부 진행된 상태에서 v0.9.0을 공개 검수판으로 내놓았습니다. 남은 문제는 제보를 받으며 다듬겠습니다.</summary>
+  </entry>
+  <entry>
     <title>[샤이닝 아크] 그림 마무리와 v0.9.0 공개</title>
     <link href="https://ievy3.github.io/projects/shining-ark/updates/2026-11-01.html"/>
     <id>https://ievy3.github.io/projects/shining-ark/updates/2026-11-01.html</id>
@@ -16,12 +24,28 @@
     <summary>그림을 마무리하고 화면을 돌며 남은 곳을 고쳤습니다. 설치 데이터 문제를 해결하고 첫 공개판 v0.9.0을 내놓았습니다.</summary>
   </entry>
   <entry>
+    <title>[매지컬 봉신] 능력치 표 정렬 맞추기</title>
+    <link href="https://ievy3.github.io/projects/magical-houshin/updates/2026-10-31.html"/>
+    <id>https://ievy3.github.io/projects/magical-houshin/updates/2026-10-31.html</id>
+    <updated>2026-10-31T00:00:00+09:00</updated>
+    <category term="매지컬 봉신"/>
+    <summary>능력치 이름을 한글로 바꾸며 어긋났던 숫자 위치와 높이를 원래대로 맞췄습니다.</summary>
+  </entry>
+  <entry>
     <title>[샤이닝 아크] 번역과 검수, 실행 파일·그림 한글화</title>
     <link href="https://ievy3.github.io/projects/shining-ark/updates/2026-10-31.html"/>
     <id>https://ievy3.github.io/projects/shining-ark/updates/2026-10-31.html</id>
     <updated>2026-10-31T00:00:00+09:00</updated>
     <category term="샤이닝 아크"/>
     <summary>구조를 확인하고 표기 기준을 정한 뒤, 번역과 검수를 마쳤습니다. 실행 파일에 박힌 화면 문구와 글자가 든 그림도 한글로 바꾸기 시작했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[매지컬 봉신] 인물별 말투 검수와 그림 반영</title>
+    <link href="https://ievy3.github.io/projects/magical-houshin/updates/2026-10-30.html"/>
+    <id>https://ievy3.github.io/projects/magical-houshin/updates/2026-10-30.html</id>
+    <updated>2026-10-30T00:00:00+09:00</updated>
+    <category term="매지컬 봉신"/>
+    <summary>인물 사이의 관계와 호칭을 정리해 주요 인물의 대사를 검수하고, 승인한 그림을 반영했습니다.</summary>
   </entry>
   <entry>
     <title>[샤이닝 아크] 프로젝트 시작</title>
@@ -40,12 +64,28 @@
     <summary>화면에서 나온 문제를 고치고 번역 전체를 다시 검수했습니다. 첫 공개판 v0.9.0을 내놓았습니다.</summary>
   </entry>
   <entry>
+    <title>[매지컬 봉신] 전투·통신 문장과 시스템 문구 보완</title>
+    <link href="https://ievy3.github.io/projects/magical-houshin/updates/2026-10-29.html"/>
+    <id>https://ievy3.github.io/projects/magical-houshin/updates/2026-10-29.html</id>
+    <updated>2026-10-29T00:00:00+09:00</updated>
+    <category term="매지컬 봉신"/>
+    <summary>전투 결과와 통신 문장, 남은 고정 문구를 번역하고 메뉴·시스템 문장의 표시를 다듬었습니다.</summary>
+  </entry>
+  <entry>
     <title>[샤이닝 블레이드] 글자 번짐 수정과 첫 배포판 준비</title>
     <link href="https://ievy3.github.io/projects/shining-blade/updates/2026-10-29.html"/>
     <id>https://ievy3.github.io/projects/shining-blade/updates/2026-10-29.html</id>
     <updated>2026-10-29T00:00:00+09:00</updated>
     <category term="샤이닝 블레이드"/>
     <summary>한글 글자 둘레에 흐린 사각형이 보이던 문제를 고치고, 첫 배포판을 준비했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[매지컬 봉신] 화면 점검과 빠진 문장 찾기</title>
+    <link href="https://ievy3.github.io/projects/magical-houshin/updates/2026-10-28.html"/>
+    <id>https://ievy3.github.io/projects/magical-houshin/updates/2026-10-28.html</id>
+    <updated>2026-10-28T00:00:00+09:00</updated>
+    <category term="매지컬 봉신"/>
+    <summary>타이틀·메뉴·간판 등 그림 글자와 본문 표시를 점검했습니다. 시험 중 남은 일본어가 나와 빠진 문장을 더 찾았습니다.</summary>
   </entry>
   <entry>
     <title>[샤이닝 블레이드] 게임 글꼴 확정과 원작의 분위기 살리기</title>
@@ -56,12 +96,28 @@
     <summary>여러 한글 글꼴을 게임 화면에서 비교해 얇은둥근모로 정하고, 붓글씨 제목의 분위기를 살렸습니다.</summary>
   </entry>
   <entry>
+    <title>[매지컬 봉신] 대사 초벌 번역과 한글 이름 자판</title>
+    <link href="https://ievy3.github.io/projects/magical-houshin/updates/2026-10-27.html"/>
+    <id>https://ievy3.github.io/projects/magical-houshin/updates/2026-10-27.html</id>
+    <updated>2026-10-27T00:00:00+09:00</updated>
+    <category term="매지컬 봉신"/>
+    <summary>대사를 뽑고 다시 넣는 방법과 한글 글꼴을 준비하고, 본문 초벌 번역을 마쳤습니다.</summary>
+  </entry>
+  <entry>
     <title>[샤이닝 블레이드] 그림 다듬기와 실행 파일 문구</title>
     <link href="https://ievy3.github.io/projects/shining-blade/updates/2026-10-27.html"/>
     <id>https://ievy3.github.io/projects/shining-blade/updates/2026-10-27.html</id>
     <updated>2026-10-27T00:00:00+09:00</updated>
     <category term="샤이닝 블레이드"/>
     <summary>일본어를 지운 바탕으로 그림을 다시 그리고 그림 297장의 검수를 마쳤습니다. 실행 파일에 들어 있는 화면 문구도 한글로 바꿨습니다.</summary>
+  </entry>
+  <entry>
+    <title>[매지컬 봉신] 프로젝트 시작</title>
+    <link href="https://ievy3.github.io/projects/magical-houshin/updates/2026-10-26.html"/>
+    <id>https://ievy3.github.io/projects/magical-houshin/updates/2026-10-26.html</id>
+    <updated>2026-10-26T00:00:00+09:00</updated>
+    <category term="매지컬 봉신"/>
+    <summary>GBA 「マジカル封神」 한국어 패치 작업을 시작했습니다. 롬 구조를 확인하고 표기 기준을 정했습니다.</summary>
   </entry>
   <entry>
     <title>[신 우리들의 태양: 역습의 사바타] 그림 202장 한글화와 v0.9.4 공개</title>
@@ -270,61 +326,5 @@
     <updated>2026-10-11T00:00:00+09:00</updated>
     <category term="듀라라라!! 3way standoff -alley-"/>
     <summary>게임 구조 분석과 한글 표시 준비를 마치고, 첫 장 말투를 정한 뒤 대사 전체를 번역해 한 차례 검수까지 진행했습니다. 첫 한국어 빌드도 화면에서 확인했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Never 7: The End of Infinity] 소개 영상 한글화와 v0.9.0 공개 준비</title>
-    <link href="https://ievy3.github.io/projects/never7/updates/2026-10-11.html"/>
-    <id>https://ievy3.github.io/projects/never7/updates/2026-10-11.html</id>
-    <updated>2026-10-11T00:00:00+09:00</updated>
-    <category term="Never 7: The End of Infinity"/>
-    <summary>게임 시작 때 나오는 소개 영상을 한글화하고, 첫 공개판 v0.9.0 패치 꾸러미를 준비했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Shadow of Memories] 한국어판 완성과 화면 검증 마무리</title>
-    <link href="https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-11.html"/>
-    <id>https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-11.html</id>
-    <updated>2026-10-11T00:00:00+09:00</updated>
-    <category term="Shadow of Memories"/>
-    <summary>대사가 실제로 그려지는 위치를 다시 찾아 한국어 빌드를 만들고, 번역·그림·화면 검증과 최종 검수까지 마쳤습니다. 지금은 공개 전 마무리 단계입니다.</summary>
-  </entry>
-  <entry>
-    <title>[바케모노가타리 포터블] 첫 장 문체 확정과 본격 번역 시작</title>
-    <link href="https://ievy3.github.io/projects/bakemonogatari-portable/updates/2026-10-10.html"/>
-    <id>https://ievy3.github.io/projects/bakemonogatari-portable/updates/2026-10-10.html</id>
-    <updated>2026-10-10T00:00:00+09:00</updated>
-    <category term="바케모노가타리 포터블"/>
-    <summary>한글 글꼴 표시 문제를 정리하고 첫 장 번역과 문체를 확정한 뒤, 전체 대사 번역을 시작했습니다. 하루 동안 전체의 절반을 넘겼습니다.</summary>
-  </entry>
-  <entry>
-    <title>[크로노아 히어로즈: 전설의 스타 메달] 프로젝트 시작, 본편 번역과 그림 한글화</title>
-    <link href="https://ievy3.github.io/projects/klonoa-heroes/updates/2026-10-10.html"/>
-    <id>https://ievy3.github.io/projects/klonoa-heroes/updates/2026-10-10.html</id>
-    <updated>2026-10-10T00:00:00+09:00</updated>
-    <category term="크로노아 히어로즈: 전설의 스타 메달"/>
-    <summary>첫날 구조 분석부터 한글 글꼴, 본편 대사 번역, 그림 한글화까지 진행했습니다. 지금은 아이템·도감 문구를 마무리하고 있습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Magical Vacation] 타이틀 로고 완성과 v0.9.0 첫 공개</title>
-    <link href="https://ievy3.github.io/projects/magical-vacation/updates/2026-10-10.html"/>
-    <id>https://ievy3.github.io/projects/magical-vacation/updates/2026-10-10.html</id>
-    <updated>2026-10-10T00:00:00+09:00</updated>
-    <category term="Magical Vacation"/>
-    <summary>한글 타이틀 로고를 넣고 검수 지적 반영을 마쳤습니다. 영어 팬 번역판과 대조해 그림 10장을 더 한글화한 뒤, 첫 공개판 v0.9.0을 프리릴리즈로 배포했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Never 7: The End of Infinity] 한글 빌드 완성과 전체 통독 검수</title>
-    <link href="https://ievy3.github.io/projects/never7/updates/2026-10-10.html"/>
-    <id>https://ievy3.github.io/projects/never7/updates/2026-10-10.html</id>
-    <updated>2026-10-10T00:00:00+09:00</updated>
-    <category term="Never 7: The End of Infinity"/>
-    <summary>번역문을 게임에 넣은 첫 한글 빌드를 만들고, 본편·외전·메뉴 문구를 모두 읽으며 다듬었습니다. PSP 실기에서 부팅과 저장·불러오기도 확인했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[바케모노가타리 포터블] 구조 분석과 한글 폰트 확장 시험</title>
-    <link href="https://ievy3.github.io/projects/bakemonogatari-portable/updates/2026-10-09.html"/>
-    <id>https://ievy3.github.io/projects/bakemonogatari-portable/updates/2026-10-09.html</id>
-    <updated>2026-10-09T00:00:00+09:00</updated>
-    <category term="바케모노가타리 포터블"/>
-    <summary>게임 데이터와 대사 구조를 분석하고, 한글 11,172자를 담은 확장 폰트가 실제 게임 화면에 표시되는 것을 확인했습니다. 번역 방침도 정했습니다.</summary>
   </entry>
 </feed>
