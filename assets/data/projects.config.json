@@ -671,9 +671,11 @@
     "releaseRepository": "ievy3/ievy3.github.io",
     "genre": "RPG",
     "subgenre": "판타지",
-    "stage": 5,
+    "stage": 6,
     "updated": "2026-11-01",
-    "verification": []
+    "verification": [
+      "mGBA"
+    ]
   },
   {
     "slug": "shining-hearts",
