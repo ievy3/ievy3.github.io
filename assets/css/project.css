@@ -380,3 +380,5 @@ main > .box{margin-top:16px}
 }
 #HCB_comment_box .btn:hover,#HCB_comment_box input[type="submit"]:hover{background:rgba(217,184,116,.2)!important}
 .hcb-loading{color:var(--muted);text-decoration:none}
+/* 나란히 놓인 상자에서 내용이 꽉 차도 아래 링크 구분선과 붙지 않게 */
+.split-grid>.box>.compact-list,.split-grid>.box>.fine-print,.split-grid>.box>.release-notice{margin-bottom:20px}
