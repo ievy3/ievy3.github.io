@@ -48,6 +48,45 @@ const fallbackProjects = [
     }
   },
   {
+    "title": "샤이닝 하츠",
+    "href": "/projects/shining-hearts/",
+    "image": "/assets/images/shining-hearts/2026-11-03-title-ko.webp",
+    "imageAlt": "샤이닝 하츠 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.0",
+    "updated": "2026-11-03",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.0",
+    "releasePublishedAt": "2026-11-03T14:59:04Z",
+    "totalDownloads": 0,
+    "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
+    "keywords": [
+      "샤이닝 하츠",
+      "shining hearts",
+      "シャイニング・ハーツ",
+      "샤이닝",
+      "shining",
+      "세가",
+      "sega",
+      "빵"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-03",
+      "title": "플레이 확인 고침과 v0.9.0 공개",
+      "href": "/projects/shining-hearts/updates/2026-11-03.html"
+    }
+  },
+  {
     "title": "샤이닝 아크",
     "href": "/projects/shining-ark/",
     "image": "/assets/images/shining-ark/2026-11-01-title.webp",
@@ -950,18 +989,6 @@ const fallbackProjects = [
     "platform": "GBA",
     "genre": "RPG",
     "subgenre": "배틀",
-    "status": "planned",
-    "statusLabel": "작업 예정",
-    "updated": ""
-  },
-  {
-    "title": "샤이닝 하츠",
-    "slug": "shining-hearts",
-    "image": "/assets/images/shining-hearts/official-cover.webp",
-    "imageAlt": "シャイニング・ハーツ 일본판 PSP 패키지",
-    "platform": "PSP",
-    "genre": "RPG",
-    "subgenre": "판타지",
     "status": "planned",
     "statusLabel": "작업 예정",
     "updated": ""

@@ -680,12 +680,31 @@
   {
     "slug": "shining-hearts",
     "title": "샤이닝 하츠",
-    "status": "planned",
-    "imageAlt": "シャイニング・ハーツ 일본판 PSP 패키지",
+    "image": "/assets/images/shining-hearts/2026-11-03-title-ko.webp",
+    "imageAlt": "샤이닝 하츠 한글 타이틀 화면",
     "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "shininghearts-",
+    "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
+    "keywords": [
+      "샤이닝 하츠",
+      "shining hearts",
+      "シャイニング・ハーツ",
+      "샤이닝",
+      "shining",
+      "세가",
+      "sega",
+      "빵"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
     "genre": "RPG",
     "subgenre": "판타지",
-    "image": "/assets/images/shining-hearts/official-cover.webp"
+    "stage": 6,
+    "updated": "2026-11-03",
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ]
   },
   {
     "slug": "dragon-drive-world-d-break",
