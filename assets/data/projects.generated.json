@@ -64,6 +64,63 @@
       "latestReleaseTag": "houshin-v0.9.0"
     },
     {
+      "title": "샤이닝 하츠",
+      "href": "/projects/shining-hearts/",
+      "repository": null,
+      "repositoryUrl": null,
+      "issuesUrl": null,
+      "releaseRepository": "ievy3/ievy3.github.io",
+      "image": "/assets/images/shining-hearts/2026-11-03-title-ko.webp",
+      "imageAlt": "샤이닝 하츠 한글 타이틀 화면",
+      "imageFit": "cover",
+      "platform": "PSP",
+      "genre": "RPG",
+      "subgenre": "판타지",
+      "type": "한국어 패치",
+      "status": "public",
+      "statusLabel": "베타 공개",
+      "stage": 6,
+      "version": "v0.9.0",
+      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.0",
+      "releaseName": "[PSP] 샤이닝 하츠 (シャイニング・ハーツ) 한글 패치 v0.9.0",
+      "releasePublishedAt": "2026-11-03T14:59:04Z",
+      "updated": "2026-11-03",
+      "publicBuilds": 1,
+      "totalDownloads": 0,
+      "releaseHistory": [
+        {
+          "version": "v0.9.0",
+          "tag": "shininghearts-v0.9.0",
+          "releaseName": "[PSP] 샤이닝 하츠 (シャイニング・ハーツ) 한글 패치 v0.9.0",
+          "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.0",
+          "publishedAt": "2026-11-03T14:59:04Z",
+          "date": "2026-11-03",
+          "prerelease": true
+        }
+      ],
+      "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
+      "keywords": [
+        "샤이닝 하츠",
+        "shining hearts",
+        "シャイニング・ハーツ",
+        "샤이닝",
+        "shining",
+        "세가",
+        "sega",
+        "빵"
+      ],
+      "verification": [
+        "PPSSPP",
+        "PSP-1000"
+      ],
+      "latestWorklog": {
+        "date": "2026-11-03",
+        "title": "플레이 확인 고침과 v0.9.0 공개",
+        "href": "/projects/shining-hearts/updates/2026-11-03.html"
+      },
+      "latestReleaseTag": "shininghearts-v0.9.0"
+    },
+    {
       "title": "샤이닝 아크",
       "href": "/projects/shining-ark/",
       "repository": null,
@@ -1587,18 +1644,6 @@
       "platform": "GBA",
       "genre": "RPG",
       "subgenre": "배틀",
-      "status": "planned",
-      "statusLabel": "작업 예정",
-      "updated": ""
-    },
-    {
-      "title": "샤이닝 하츠",
-      "slug": "shining-hearts",
-      "image": "/assets/images/shining-hearts/official-cover.webp",
-      "imageAlt": "シャイニング・ハーツ 일본판 PSP 패키지",
-      "platform": "PSP",
-      "genre": "RPG",
-      "subgenre": "판타지",
       "status": "planned",
       "statusLabel": "작업 예정",
       "updated": ""
