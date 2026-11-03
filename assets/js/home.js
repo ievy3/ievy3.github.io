@@ -9,6 +9,46 @@ let showAllProjects = false;
 // BEGIN fallback projects
 const fallbackProjects = [
   {
+    "title": "샤이닝 하츠",
+    "href": "/projects/shining-hearts/",
+    "image": "/assets/images/shining-hearts/2026-11-03-title-ko.webp",
+    "imageAlt": "샤이닝 하츠 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.0",
+    "updated": "2026-11-03",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.0/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.0",
+    "releasePublishedAt": "2026-11-03T14:59:04Z",
+    "totalDownloads": 0,
+    "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
+    "keywords": [
+      "샤이닝 하츠",
+      "shining hearts",
+      "シャイニング・ハーツ",
+      "샤이닝",
+      "shining",
+      "세가",
+      "sega",
+      "빵"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-03",
+      "title": "플레이 확인 고침과 v0.9.0 공개",
+      "href": "/projects/shining-hearts/updates/2026-11-03.html"
+    }
+  },
+  {
     "title": "매지컬 봉신",
     "href": "/projects/magical-houshin/",
     "image": "/assets/images/magical-houshin/2026-11-01-title-ko.webp",
@@ -48,45 +88,6 @@ const fallbackProjects = [
     }
   },
   {
-    "title": "샤이닝 하츠",
-    "href": "/projects/shining-hearts/",
-    "image": "/assets/images/shining-hearts/2026-11-03-title-ko.webp",
-    "imageAlt": "샤이닝 하츠 한글 타이틀 화면",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "RPG",
-    "subgenre": "판타지",
-    "type": "한국어 패치",
-    "status": "public",
-    "statusLabel": "베타 공개",
-    "stage": 6,
-    "version": "v0.9.0",
-    "updated": "2026-11-03",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.0",
-    "releasePublishedAt": "2026-11-03T14:59:04Z",
-    "totalDownloads": 0,
-    "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
-    "keywords": [
-      "샤이닝 하츠",
-      "shining hearts",
-      "シャイニング・ハーツ",
-      "샤이닝",
-      "shining",
-      "세가",
-      "sega",
-      "빵"
-    ],
-    "verification": [
-      "PPSSPP",
-      "PSP-1000"
-    ],
-    "latestWorklog": {
-      "date": "2026-11-03",
-      "title": "플레이 확인 고침과 v0.9.0 공개",
-      "href": "/projects/shining-hearts/updates/2026-11-03.html"
-    }
-  },
-  {
     "title": "샤이닝 아크",
     "href": "/projects/shining-ark/",
     "image": "/assets/images/shining-ark/2026-11-01-title.webp",
@@ -104,7 +105,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningark-v0.9.0/Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningark-v0.9.0",
     "releasePublishedAt": "2026-11-01T05:39:03Z",
-    "totalDownloads": 615,
+    "totalDownloads": 617,
     "description": "세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
     "keywords": [
       "샤이닝 아크",
@@ -143,7 +144,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningblade-v0.9.0/Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningblade-v0.9.0",
     "releasePublishedAt": "2026-10-30T13:50:59Z",
-    "totalDownloads": 478,
+    "totalDownloads": 479,
     "description": "세가 『샤이닝』 시리즈의 PSP 시뮬레이션 RPG",
     "keywords": [
       "샤이닝 블레이드",
@@ -311,7 +312,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/spk-v0.9.0/Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/spk-v0.9.0",
     "releasePublishedAt": "2026-10-18T15:08:35Z",
-    "totalDownloads": 286,
+    "totalDownloads": 287,
     "description": "가모시다 하지메의 라이트 노벨이 원작인 PSP 학원 러브코미디 어드벤처",
     "keywords": [
       "사쿠라장의 애완 그녀",
