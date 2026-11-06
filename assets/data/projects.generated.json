@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T16:42:38.223Z",
+  "generatedAt": "2026-11-06T23:05:28.517Z",
   "projects": [
     {
       "title": "샤이닝 하츠",
@@ -21,13 +21,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.0/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Shining_Hearts_v0.9.0.zip",
-      "downloadCount": 412,
+      "downloadCount": 416,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.0",
       "releaseName": "[PSP] 샤이닝 하츠 (シャイニング・ハーツ) 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-11-03T14:59:04Z",
       "updated": "2026-11-03",
       "publicBuilds": 1,
-      "totalDownloads": 412,
+      "totalDownloads": 416,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -39,7 +39,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.0/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Shining_Hearts_v0.9.0.zip",
-          "downloadCount": 412
+          "downloadCount": 416
         }
       ],
       "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
@@ -84,13 +84,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
       "downloadAsset": "MagicalHoushin_KrPatcher_v0.9.0.zip",
-      "downloadCount": 329,
+      "downloadCount": 332,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/houshin-v0.9.0",
       "releaseName": "[GBA] 매지컬 봉신 한글 패치 v0.9.0 ",
       "releasePublishedAt": "2026-11-01T15:26:38Z",
       "updated": "2026-11-02",
       "publicBuilds": 1,
-      "totalDownloads": 329,
+      "totalDownloads": 332,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -102,7 +102,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
           "downloadAsset": "MagicalHoushin_KrPatcher_v0.9.0.zip",
-          "downloadCount": 329
+          "downloadCount": 332
         }
       ],
       "description": "『봉신연의』를 바탕으로 한 코에이의 GBA 롤플레잉 게임",
@@ -271,13 +271,13 @@
       "version": "v0.9.4",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sabata-v0.9.4/Boktai3SabatasCounterattack_KrPatcher_v0.9.4.zip",
       "downloadAsset": "Boktai3SabatasCounterattack_KrPatcher_v0.9.4.zip",
-      "downloadCount": 214,
+      "downloadCount": 215,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sabata-v0.9.4",
       "releaseName": "[GBA] 신 우리들의 태양: 역습의 사바타 한글 패치 v0.9.4",
       "releasePublishedAt": "2026-10-26T09:47:38Z",
       "updated": "2026-10-26",
       "publicBuilds": 1,
-      "totalDownloads": 214,
+      "totalDownloads": 215,
       "releaseHistory": [
         {
           "version": "v0.9.4",
@@ -289,7 +289,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sabata-v0.9.4/Boktai3SabatasCounterattack_KrPatcher_v0.9.4.zip",
           "downloadAsset": "Boktai3SabatasCounterattack_KrPatcher_v0.9.4.zip",
-          "downloadCount": 214
+          "downloadCount": 215
         }
       ],
       "description": "태양빛으로 싸우는 코나미의 GBA 태양 액션 RPG, 『우리들의 태양』 시리즈 세 번째 작품",
@@ -403,13 +403,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gtasc-v0.9.0/Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
-      "downloadCount": 135,
+      "downloadCount": 137,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gtasc-v0.9.0",
       "releaseName": "[PSP] GTA: 신다코 크로니클 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-25T09:49:09Z",
       "updated": "2026-10-25",
       "publicBuilds": 1,
-      "totalDownloads": 135,
+      "totalDownloads": 137,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -421,7 +421,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gtasc-v0.9.0/Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
-          "downloadCount": 135
+          "downloadCount": 137
         }
       ],
       "description": "GTA 리버티 시티 스토리즈를 바탕으로 1998년 리버티 시티의 마피아 전쟁을 그린 팬 제작 토털 컨버전 모드",
@@ -742,13 +742,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
-      "downloadCount": 490,
+      "downloadCount": 492,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
       "releaseName": "[PSP] 듀라라라!! 3way standoff -alley- 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-12T15:30:13Z",
       "updated": "2026-10-13",
       "publicBuilds": 1,
-      "totalDownloads": 490,
+      "totalDownloads": 492,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -760,7 +760,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
-          "downloadCount": 490
+          "downloadCount": 492
         }
       ],
       "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",

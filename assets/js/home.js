@@ -26,7 +26,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.0/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.0",
     "releasePublishedAt": "2026-11-03T14:59:04Z",
-    "totalDownloads": 412,
+    "totalDownloads": 416,
     "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
     "keywords": [
       "샤이닝 하츠",
@@ -66,7 +66,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/houshin-v0.9.0",
     "releasePublishedAt": "2026-11-01T15:26:38Z",
-    "totalDownloads": 329,
+    "totalDownloads": 332,
     "description": "『봉신연의』를 바탕으로 한 코에이의 GBA 롤플레잉 게임",
     "keywords": [
       "매지컬 봉신",
@@ -184,7 +184,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sabata-v0.9.4/Boktai3SabatasCounterattack_KrPatcher_v0.9.4.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sabata-v0.9.4",
     "releasePublishedAt": "2026-10-26T09:47:38Z",
-    "totalDownloads": 214,
+    "totalDownloads": 215,
     "description": "태양빛으로 싸우는 코나미의 GBA 태양 액션 RPG, 『우리들의 태양』 시리즈 세 번째 작품",
     "keywords": [
       "신 우리들의 태양",
@@ -270,7 +270,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gtasc-v0.9.0/Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gtasc-v0.9.0",
     "releasePublishedAt": "2026-10-25T09:49:09Z",
-    "totalDownloads": 135,
+    "totalDownloads": 137,
     "description": "GTA 리버티 시티 스토리즈를 바탕으로 1998년 리버티 시티의 마피아 전쟁을 그린 팬 제작 토털 컨버전 모드",
     "keywords": [
       "gta",
@@ -470,7 +470,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
     "releasePublishedAt": "2026-10-12T15:30:13Z",
-    "totalDownloads": 490,
+    "totalDownloads": 492,
     "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",
     "keywords": [
       "듀라라라",
