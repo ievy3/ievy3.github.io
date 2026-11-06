@@ -1031,7 +1031,8 @@ const fallbackProjects = [
   {
     "title": "컨셉션: 내 아이를 낳아줘",
     "slug": "conception",
-    "imageAlt": "컨셉션: 내 아이를 낳아줘",
+    "image": "/assets/images/conception/official-cover.webp",
+    "imageAlt": "コンセプション 俺の子供を産んでくれ! 일본판 PSP 패키지",
     "platform": "PSP",
     "genre": "RPG",
     "subgenre": "던전 탐험",
@@ -1042,7 +1043,8 @@ const fallbackProjects = [
   {
     "title": "토마토 어드벤처",
     "slug": "tomato-adventure",
-    "imageAlt": "토마토 어드벤처",
+    "image": "/assets/images/tomato-adventure/official-cover.webp",
+    "imageAlt": "トマトアドベンチャー 일본판 GBA 패키지",
     "platform": "GBA",
     "genre": "RPG",
     "subgenre": "판타지",

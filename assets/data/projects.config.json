@@ -748,18 +748,20 @@
     "slug": "tomato-adventure",
     "title": "토마토 어드벤처",
     "status": "planned",
-    "imageAlt": "토마토 어드벤처",
+    "imageAlt": "トマトアドベンチャー 일본판 GBA 패키지",
     "platform": "GBA",
     "genre": "RPG",
-    "subgenre": "판타지"
+    "subgenre": "판타지",
+    "image": "/assets/images/tomato-adventure/official-cover.webp"
   },
   {
     "slug": "conception",
     "title": "컨셉션: 내 아이를 낳아줘",
     "status": "planned",
-    "imageAlt": "컨셉션: 내 아이를 낳아줘",
+    "imageAlt": "コンセプション 俺の子供を産んでくれ! 일본판 PSP 패키지",
     "platform": "PSP",
     "genre": "RPG",
-    "subgenre": "던전 탐험"
+    "subgenre": "던전 탐험",
+    "image": "/assets/images/conception/official-cover.webp"
   }
 ]
