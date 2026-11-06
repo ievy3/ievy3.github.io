@@ -1017,6 +1017,50 @@ const fallbackProjects = [
     "status": "planned",
     "statusLabel": "작업 예정",
     "updated": ""
+  },
+  {
+    "title": "유디의 아틀리에",
+    "slug": "atelier-judie",
+    "imageAlt": "유디의 아틀리에",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "연금술",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "비오라트의 아틀리에",
+    "slug": "atelier-viorate",
+    "imageAlt": "비오라트의 아틀리에",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "연금술",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "토마토 어드벤처",
+    "slug": "tomato-adventure",
+    "imageAlt": "토마토 어드벤처",
+    "platform": "GBA",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "컨셉션: 내 아이를 낳아줘",
+    "slug": "conception",
+    "imageAlt": "컨셉션: 내 아이를 낳아줘",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "던전 탐험",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
   }
 ];
 // END fallback projects
