@@ -17,10 +17,11 @@
 ## Projects
 
 <!-- BEGIN projects (scripts/build-site-files.mjs가 projects.generated.json으로 자동 갱신합니다) -->
-현재 공개 허브에서 관리하는 프로젝트는 **26개**입니다(공개 24 · 작업 중 2). 버전은 공개된 최신 배포본 기준입니다.
+현재 공개 허브에서 관리하는 프로젝트는 **26개**입니다(공개 25 · 작업 중 1). 버전은 공개된 최신 배포본 기준입니다.
 
 ### 공개
 
+- [컨셉션: 내 아이를 낳아줘](https://ievy3.github.io/projects/conception/) (PSP) — **v0.9.0** · 베타 공개
 - [샤이닝 하츠](https://ievy3.github.io/projects/shining-hearts/) (PSP) — **v0.9.0** · 베타 공개
 - [매지컬 봉신](https://ievy3.github.io/projects/magical-houshin/) (GBA) — **v0.9.0** · 베타 공개
 - [샤이닝 아크](https://ievy3.github.io/projects/shining-ark/) (PSP) — **v0.9.0** · 베타 공개
@@ -48,7 +49,6 @@
 
 ### 작업 중
 
-- [컨셉션: 내 아이를 낳아줘](https://ievy3.github.io/projects/conception/) (PSP) — 작업 중 · 5단계 실행 검수
 - [바케모노가타리 포터블](https://ievy3.github.io/projects/bakemonogatari-portable/) (PSP) — 작업 중 · 3단계 대사 번역
 
 ### 작업 예정

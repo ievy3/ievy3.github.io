@@ -9,6 +9,46 @@ let showAllProjects = false;
 // BEGIN fallback projects
 const fallbackProjects = [
   {
+    "title": "컨셉션: 내 아이를 낳아줘",
+    "href": "/projects/conception/",
+    "image": "/assets/images/conception/official-cover.webp",
+    "imageAlt": "コンセプション 俺の子供を産んでくれ! 일본판 PSP 패키지",
+    "imageFit": "contain",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "던전 탐험",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 5,
+    "version": "v0.9.0",
+    "updated": "2026-11-07",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/conception-v0.9.0/Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/conception-v0.9.0",
+    "releasePublishedAt": "2026-11-07T13:14:29Z",
+    "totalDownloads": 0,
+    "description": "「별의 자식」을 낳을 수 있는 소녀들과 던전을 탐험하는 PSP 롤플레잉 게임",
+    "keywords": [
+      "컨셉션",
+      "콘셉션",
+      "내 아이를 낳아줘",
+      "conception",
+      "コンセプション",
+      "俺の子供を産んでくれ",
+      "별의 자식",
+      "던전"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-07",
+      "title": "배포 직전 점검과 v0.9.0 꾸러미",
+      "href": "/projects/conception/updates/2026-11-07.html"
+    }
+  },
+  {
     "title": "샤이닝 하츠",
     "href": "/projects/shining-hearts/",
     "image": "/assets/images/shining-hearts/2026-11-03-title-ko.webp",
@@ -26,7 +66,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.0/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.0",
     "releasePublishedAt": "2026-11-03T14:59:04Z",
-    "totalDownloads": 434,
+    "totalDownloads": 435,
     "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
     "keywords": [
       "샤이닝 하츠",
@@ -46,43 +86,6 @@ const fallbackProjects = [
       "date": "2026-11-03",
       "title": "플레이 확인 고침과 v0.9.0 공개",
       "href": "/projects/shining-hearts/updates/2026-11-03.html"
-    }
-  },
-  {
-    "title": "컨셉션: 내 아이를 낳아줘",
-    "href": "/projects/conception/",
-    "image": "/assets/images/conception/official-cover.webp",
-    "imageAlt": "コンセプション 俺の子供を産んでくれ! 일본판 PSP 패키지",
-    "imageFit": "contain",
-    "platform": "PSP",
-    "genre": "RPG",
-    "subgenre": "던전 탐험",
-    "type": "한국어 패치",
-    "status": "development",
-    "statusLabel": "작업 중",
-    "stage": 5,
-    "version": "첫 공개 전",
-    "updated": "2026-11-07",
-    "totalDownloads": 0,
-    "description": "「별의 자식」을 낳을 수 있는 소녀들과 던전을 탐험하는 PSP 롤플레잉 게임",
-    "keywords": [
-      "컨셉션",
-      "콘셉션",
-      "내 아이를 낳아줘",
-      "conception",
-      "コンセプション",
-      "俺の子供を産んでくれ",
-      "별의 자식",
-      "던전"
-    ],
-    "verification": [
-      "PPSSPP",
-      "PSP-1000"
-    ],
-    "latestWorklog": {
-      "date": "2026-11-07",
-      "title": "배포 준비와 v0.9.0 꾸러미",
-      "href": "/projects/conception/updates/2026-11-07.html"
     }
   },
   {
