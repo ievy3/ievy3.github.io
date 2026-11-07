@@ -1657,8 +1657,8 @@
     {
       "title": "비오라트의 아틀리에",
       "slug": "atelier-viorate",
-      "image": null,
-      "imageAlt": "비오라트의 아틀리에",
+      "image": "/assets/images/atelier-viorate/official-cover.webp",
+      "imageAlt": "ヴィオラートのアトリエ 일본판 PSP 패키지",
       "platform": "PSP",
       "genre": "RPG",
       "subgenre": "연금술",
@@ -1669,8 +1669,8 @@
     {
       "title": "유디의 아틀리에",
       "slug": "atelier-judie",
-      "image": null,
-      "imageAlt": "유디의 아틀리에",
+      "image": "/assets/images/atelier-judie/official-cover.webp",
+      "imageAlt": "ユーディーのアトリエ 일본판 PSP 패키지",
       "platform": "PSP",
       "genre": "RPG",
       "subgenre": "연금술",
@@ -1693,8 +1693,8 @@
     {
       "title": "컨셉션: 내 아이를 낳아줘",
       "slug": "conception",
-      "image": null,
-      "imageAlt": "컨셉션: 내 아이를 낳아줘",
+      "image": "/assets/images/conception/official-cover.webp",
+      "imageAlt": "コンセプション 俺の子供を産んでくれ! 일본판 PSP 패키지",
       "platform": "PSP",
       "genre": "RPG",
       "subgenre": "던전 탐험",
@@ -1705,8 +1705,8 @@
     {
       "title": "토마토 어드벤처",
       "slug": "tomato-adventure",
-      "image": null,
-      "imageAlt": "토마토 어드벤처",
+      "image": "/assets/images/tomato-adventure/official-cover.webp",
+      "imageAlt": "トマトアドベンチャー 일본판 GBA 패키지",
       "platform": "GBA",
       "genre": "RPG",
       "subgenre": "판타지",
