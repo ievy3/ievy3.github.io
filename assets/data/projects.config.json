@@ -707,6 +707,36 @@
     ]
   },
   {
+    "slug": "conception",
+    "title": "컨셉션: 내 아이를 낳아줘",
+    "image": "/assets/images/conception/official-cover.webp",
+    "imageAlt": "コンセプション 俺の子供を産んでくれ! 일본판 PSP 패키지",
+    "imageFit": "contain",
+    "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "conception-",
+    "description": "「별의 자식」을 낳을 수 있는 소녀들과 던전을 탐험하는 PSP 롤플레잉 게임",
+    "keywords": [
+      "컨셉션",
+      "콘셉션",
+      "내 아이를 낳아줘",
+      "conception",
+      "コンセプション",
+      "俺の子供を産んでくれ",
+      "별의 자식",
+      "던전"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "genre": "RPG",
+    "subgenre": "던전 탐험",
+    "stage": 5,
+    "updated": "2026-11-07",
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ]
+  },
+  {
     "slug": "dragon-drive-world-d-break",
     "title": "드래곤 드라이브: 월드 D 브레이크",
     "status": "planned",
@@ -755,15 +785,5 @@
     "genre": "RPG",
     "subgenre": "판타지",
     "image": "/assets/images/tomato-adventure/official-cover.webp"
-  },
-  {
-    "slug": "conception",
-    "title": "컨셉션: 내 아이를 낳아줘",
-    "status": "planned",
-    "imageAlt": "コンセプション 俺の子供を産んでくれ! 일본판 PSP 패키지",
-    "platform": "PSP",
-    "genre": "RPG",
-    "subgenre": "던전 탐험",
-    "image": "/assets/images/conception/official-cover.webp"
   }
 ]
