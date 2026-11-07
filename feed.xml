@@ -5,8 +5,48 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-11-03T00:00:00+09:00</updated>
+  <updated>2026-11-07T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[컨셉션: 내 아이를 낳아줘] 배포 직전 점검과 v0.9.0 꾸러미</title>
+    <link href="https://ievy3.github.io/projects/conception/updates/2026-11-07.html"/>
+    <id>https://ievy3.github.io/projects/conception/updates/2026-11-07.html</id>
+    <updated>2026-11-07T00:00:00+09:00</updated>
+    <category term="컨셉션: 내 아이를 낳아줘"/>
+    <summary>잘림과 길이 문제를 마지막으로 다듬고, 배포 직전 점검을 통과해 v0.9.0 배포 꾸러미를 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[컨셉션: 내 아이를 낳아줘] 전체 검수와 글꼴 다시 굽기</title>
+    <link href="https://ievy3.github.io/projects/conception/updates/2026-11-06.html"/>
+    <id>https://ievy3.github.io/projects/conception/updates/2026-11-06.html</id>
+    <updated>2026-11-06T00:00:00+09:00</updated>
+    <category term="컨셉션: 내 아이를 낳아줘"/>
+    <summary>번역 전체를 여러 차례 검수해 고치고, 글꼴을 다시 굽고, 사용자가 다듬은 그림을 반영했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[컨셉션: 내 아이를 낳아줘] 설치 데이터 문제 해결과 검수 반영</title>
+    <link href="https://ievy3.github.io/projects/conception/updates/2026-11-05.html"/>
+    <id>https://ievy3.github.io/projects/conception/updates/2026-11-05.html</id>
+    <updated>2026-11-05T00:00:00+09:00</updated>
+    <category term="컨셉션: 내 아이를 낳아줘"/>
+    <summary>설치 데이터 문제를 풀고, 화면 문구와 주요 장면 대사의 검수 지적을 반영했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[컨셉션: 내 아이를 낳아줘] 번역을 합쳐 첫 전체 번역판</title>
+    <link href="https://ievy3.github.io/projects/conception/updates/2026-11-04.html"/>
+    <id>https://ievy3.github.io/projects/conception/updates/2026-11-04.html</id>
+    <updated>2026-11-04T00:00:00+09:00</updated>
+    <category term="컨셉션: 내 아이를 낳아줘"/>
+    <summary>번역 293묶음을 합치고 그림 속 글자를 한글로 바꿔, 첫 전체 번역판을 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[컨셉션: 내 아이를 낳아줘] 프로젝트 시작, 한글 표시와 정본</title>
+    <link href="https://ievy3.github.io/projects/conception/updates/2026-11-03.html"/>
+    <id>https://ievy3.github.io/projects/conception/updates/2026-11-03.html</id>
+    <updated>2026-11-03T00:00:00+09:00</updated>
+    <category term="컨셉션: 내 아이를 낳아줘"/>
+    <summary>게임 구조를 분석해 대사를 뽑아내고, 한글을 화면에 표시하는 방법과 용어·말투 기준을 정했습니다.</summary>
+  </entry>
   <entry>
     <title>[샤이닝 하츠] 플레이 확인 고침과 v0.9.0 공개</title>
     <link href="https://ievy3.github.io/projects/shining-hearts/updates/2026-11-03.html"/>
@@ -286,45 +326,5 @@
     <updated>2026-10-15T00:00:00+09:00</updated>
     <category term="크로노아 히어로즈: 전설의 스타 메달"/>
     <summary>남아 있던 아이템·도감·가게 문구를 마무리하고, 전체 용어를 맞춘 뒤 첫 공개판 v1.0을 내놓았습니다. 에뮬레이터(mGBA)에서 확인했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[마블 얼티밋 얼라이언스] 한글 표시 시작</title>
-    <link href="https://ievy3.github.io/projects/marvel-ultimate-alliance/updates/2026-10-15.html"/>
-    <id>https://ievy3.github.io/projects/marvel-ultimate-alliance/updates/2026-10-15.html</id>
-    <updated>2026-10-15T00:00:00+09:00</updated>
-    <category term="마블 얼티밋 얼라이언스"/>
-    <summary>게임 안에서 한글을 그릴 수 있게 만들고, 타이틀·메인 메뉴·대화 화면에 한글이 나오는 것을 처음 확인했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[무쌍 오로치 2 스페셜] 화면 결함 수정과 v0.9.0 공개</title>
-    <link href="https://ievy3.github.io/projects/musou-orochi2-special/updates/2026-10-15.html"/>
-    <id>https://ievy3.github.io/projects/musou-orochi2-special/updates/2026-10-15.html</id>
-    <updated>2026-10-15T00:00:00+09:00</updated>
-    <category term="무쌍 오로치 2 스페셜"/>
-    <summary>통합 빌드를 화면으로 확인하며 나온 결함을 고치고, 실행 파일 패치 2건을 넣었습니다. 최종 검수와 PSP 실기 확인을 마친 뒤 첫 공개판 v0.9.0을 내놓았습니다.</summary>
-  </entry>
-  <entry>
-    <title>[사쿠라장의 애완 그녀] 프로젝트 시작</title>
-    <link href="https://ievy3.github.io/projects/sakurasou-no-pet-na-kanojo/updates/2026-10-15.html"/>
-    <id>https://ievy3.github.io/projects/sakurasou-no-pet-na-kanojo/updates/2026-10-15.html</id>
-    <updated>2026-10-15T00:00:00+09:00</updated>
-    <category term="사쿠라장의 애완 그녀"/>
-    <summary>PSP판 「さくら荘のペットな彼女」 한국어 패치 작업을 시작했습니다. 게임 구조를 분석하고 이름·용어 기준을 정한 뒤 번역에 들어갔습니다.</summary>
-  </entry>
-  <entry>
-    <title>[Shadow of Memories] 공개 뒤 번역 다듬기와 v0.9.1 공개</title>
-    <link href="https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-14.html"/>
-    <id>https://ievy3.github.io/projects/shadow-of-memories/updates/2026-10-14.html</id>
-    <updated>2026-10-14T00:00:00+09:00</updated>
-    <category term="Shadow of Memories"/>
-    <summary>v0.9.0 공개 뒤 번역을 다시 읽으며 고칠 곳을 골라 44행을 다듬고, 수정판 v0.9.1을 만들었습니다. 그림·글꼴·실행 코드는 v0.9.0과 같습니다.</summary>
-  </entry>
-  <entry>
-    <title>[듀라라라!! 3way standoff -alley-] v0.9.0 첫 공개</title>
-    <link href="https://ievy3.github.io/projects/durarara-3way-standoff-alley/updates/2026-10-13.html"/>
-    <id>https://ievy3.github.io/projects/durarara-3way-standoff-alley/updates/2026-10-13.html</id>
-    <updated>2026-10-13T00:00:00+09:00</updated>
-    <category term="듀라라라!! 3way standoff -alley-"/>
-    <summary>오프라인 패처와 xdelta 패치를 담은 첫 공개판 v0.9.0을 준비했습니다. 패치를 원본에 적용한 결과가 실기에서 확인한 빌드와 같은지 확인했습니다.</summary>
   </entry>
 </feed>
