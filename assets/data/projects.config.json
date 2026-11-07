@@ -709,9 +709,9 @@
   {
     "slug": "conception",
     "title": "컨셉션: 내 아이를 낳아줘",
-    "image": "/assets/images/conception/official-cover.webp",
-    "imageAlt": "コンセプション 俺の子供を産んでくれ! 일본판 PSP 패키지",
-    "imageFit": "contain",
+    "image": "/assets/images/conception/2026-11-07-title-ko.webp",
+    "imageAlt": "컨셉션 한글 타이틀 화면",
+    "imageFit": "cover",
     "platform": "PSP",
     "type": "한국어 패치",
     "releasePrefix": "conception-",
@@ -729,7 +729,7 @@
     "releaseRepository": "ievy3/ievy3.github.io",
     "genre": "RPG",
     "subgenre": "던전 탐험",
-    "stage": 5,
+    "stage": 6,
     "updated": "2026-11-07",
     "verification": [
       "PPSSPP",
