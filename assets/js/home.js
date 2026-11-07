@@ -997,7 +997,8 @@ const fallbackProjects = [
   {
     "title": "비오라트의 아틀리에",
     "slug": "atelier-viorate",
-    "imageAlt": "비오라트의 아틀리에",
+    "image": "/assets/images/atelier-viorate/official-cover.webp",
+    "imageAlt": "ヴィオラートのアトリエ 일본판 PSP 패키지",
     "platform": "PSP",
     "genre": "RPG",
     "subgenre": "연금술",
@@ -1008,7 +1009,8 @@ const fallbackProjects = [
   {
     "title": "유디의 아틀리에",
     "slug": "atelier-judie",
-    "imageAlt": "유디의 아틀리에",
+    "image": "/assets/images/atelier-judie/official-cover.webp",
+    "imageAlt": "ユーディーのアトリエ 일본판 PSP 패키지",
     "platform": "PSP",
     "genre": "RPG",
     "subgenre": "연금술",
