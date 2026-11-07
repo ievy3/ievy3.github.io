@@ -1,69 +1,6 @@
 {
-  "generatedAt": "2026-11-07T13:29:25.261Z",
+  "generatedAt": "2026-11-07T10:50:04.495Z",
   "projects": [
-    {
-      "title": "컨셉션: 내 아이를 낳아줘",
-      "href": "/projects/conception/",
-      "repository": null,
-      "repositoryUrl": null,
-      "issuesUrl": null,
-      "releaseRepository": "ievy3/ievy3.github.io",
-      "image": "/assets/images/conception/official-cover.webp",
-      "imageAlt": "コンセプション 俺の子供を産んでくれ! 일본판 PSP 패키지",
-      "imageFit": "contain",
-      "platform": "PSP",
-      "genre": "RPG",
-      "subgenre": "던전 탐험",
-      "type": "한국어 패치",
-      "status": "public",
-      "statusLabel": "베타 공개",
-      "stage": 5,
-      "version": "v0.9.0",
-      "download": "https://github.com/ievy3/ievy3.github.io/releases/download/conception-v0.9.0/Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
-      "downloadAsset": "Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
-      "downloadCount": 0,
-      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/conception-v0.9.0",
-      "releaseName": "[PSP] 컨셉션: 내 아이를 낳아줘 한글 패치 v0.9.0",
-      "releasePublishedAt": "2026-11-07T13:14:29Z",
-      "updated": "2026-11-07",
-      "publicBuilds": 1,
-      "totalDownloads": 0,
-      "releaseHistory": [
-        {
-          "version": "v0.9.0",
-          "tag": "conception-v0.9.0",
-          "releaseName": "[PSP] 컨셉션: 내 아이를 낳아줘 한글 패치 v0.9.0",
-          "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/conception-v0.9.0",
-          "publishedAt": "2026-11-07T13:14:29Z",
-          "date": "2026-11-07",
-          "prerelease": true,
-          "download": "https://github.com/ievy3/ievy3.github.io/releases/download/conception-v0.9.0/Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
-          "downloadAsset": "Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
-          "downloadCount": 0
-        }
-      ],
-      "description": "「별의 자식」을 낳을 수 있는 소녀들과 던전을 탐험하는 PSP 롤플레잉 게임",
-      "keywords": [
-        "컨셉션",
-        "콘셉션",
-        "내 아이를 낳아줘",
-        "conception",
-        "コンセプション",
-        "俺の子供を産んでくれ",
-        "별의 자식",
-        "던전"
-      ],
-      "verification": [
-        "PPSSPP",
-        "PSP-1000"
-      ],
-      "latestWorklog": {
-        "date": "2026-11-07",
-        "title": "배포 직전 점검과 v0.9.0 꾸러미",
-        "href": "/projects/conception/updates/2026-11-07.html"
-      },
-      "latestReleaseTag": "conception-v0.9.0"
-    },
     {
       "title": "샤이닝 하츠",
       "href": "/projects/shining-hearts/",
@@ -84,13 +21,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.0/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Shining_Hearts_v0.9.0.zip",
-      "downloadCount": 435,
+      "downloadCount": 432,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.0",
       "releaseName": "[PSP] 샤이닝 하츠 (シャイニング・ハーツ) 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-11-03T14:59:04Z",
       "updated": "2026-11-03",
       "publicBuilds": 1,
-      "totalDownloads": 435,
+      "totalDownloads": 432,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -102,7 +39,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.0/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Shining_Hearts_v0.9.0.zip",
-          "downloadCount": 435
+          "downloadCount": 432
         }
       ],
       "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
@@ -128,6 +65,63 @@
       "latestReleaseTag": "shininghearts-v0.9.0"
     },
     {
+      "title": "컨셉션: 내 아이를 낳아줘",
+      "href": "/projects/conception/",
+      "repository": null,
+      "repositoryUrl": null,
+      "issuesUrl": null,
+      "releaseRepository": "ievy3/ievy3.github.io",
+      "image": "/assets/images/conception/2026-11-07-title-ko.webp",
+      "imageAlt": "컨셉션 한글 타이틀 화면",
+      "imageFit": "cover",
+      "platform": "PSP",
+      "genre": "RPG",
+      "subgenre": "던전 탐험",
+      "type": "한국어 패치",
+      "status": "public",
+      "statusLabel": "베타 공개",
+      "stage": 6,
+      "version": "v0.9.0",
+      "updated": "2026-11-07",
+      "publicBuilds": 1,
+      "totalDownloads": 0,
+      "releaseHistory": [
+        {
+          "version": "v0.9.0",
+          "tag": "conception-v0.9.0",
+          "releaseName": "[PSP] 컨셉션: 내 아이를 낳아줘 한글 패치 v0.9.0",
+          "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/conception-v0.9.0",
+          "publishedAt": "2026-11-07T13:00:00Z",
+          "date": "2026-11-07",
+          "prerelease": true
+        }
+      ],
+      "description": "「별의 자식」을 낳을 수 있는 소녀들과 던전을 탐험하는 PSP 롤플레잉 게임",
+      "keywords": [
+        "컨셉션",
+        "콘셉션",
+        "내 아이를 낳아줘",
+        "conception",
+        "コンセプション",
+        "俺の子供を産んでくれ",
+        "별의 자식",
+        "던전"
+      ],
+      "verification": [
+        "PPSSPP",
+        "PSP-1000"
+      ],
+      "latestWorklog": {
+        "date": "2026-11-07",
+        "title": "배포 직전 점검과 v0.9.0 공개",
+        "href": "/projects/conception/updates/2026-11-07.html"
+      },
+      "latestReleaseTag": "conception-v0.9.0",
+      "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/conception-v0.9.0",
+      "releaseName": "[PSP] 컨셉션: 내 아이를 낳아줘 한글 패치 v0.9.0",
+      "releasePublishedAt": "2026-11-07T13:00:00Z"
+    },
+    {
       "title": "매지컬 봉신",
       "href": "/projects/magical-houshin/",
       "repository": null,
@@ -147,13 +141,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
       "downloadAsset": "MagicalHoushin_KrPatcher_v0.9.0.zip",
-      "downloadCount": 335,
+      "downloadCount": 334,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/houshin-v0.9.0",
       "releaseName": "[GBA] 매지컬 봉신 한글 패치 v0.9.0 ",
       "releasePublishedAt": "2026-11-01T15:26:38Z",
       "updated": "2026-11-02",
       "publicBuilds": 1,
-      "totalDownloads": 335,
+      "totalDownloads": 334,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -165,7 +159,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
           "downloadAsset": "MagicalHoushin_KrPatcher_v0.9.0.zip",
-          "downloadCount": 335
+          "downloadCount": 334
         }
       ],
       "description": "『봉신연의』를 바탕으로 한 코에이의 GBA 롤플레잉 게임",
@@ -209,13 +203,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningark-v0.9.0/Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
-      "downloadCount": 692,
+      "downloadCount": 686,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningark-v0.9.0",
       "releaseName": "[PSP] 샤이닝 아크 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-11-01T05:39:03Z",
       "updated": "2026-11-01",
       "publicBuilds": 1,
-      "totalDownloads": 692,
+      "totalDownloads": 686,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -227,7 +221,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningark-v0.9.0/Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
-          "downloadCount": 692
+          "downloadCount": 686
         }
       ],
       "description": "세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
@@ -271,13 +265,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningblade-v0.9.0/Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
-      "downloadCount": 526,
+      "downloadCount": 524,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningblade-v0.9.0",
       "releaseName": "[PSP] 샤이닝 블레이드 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-30T13:50:59Z",
       "updated": "2026-10-30",
       "publicBuilds": 1,
-      "totalDownloads": 526,
+      "totalDownloads": 524,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -289,7 +283,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningblade-v0.9.0/Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
-          "downloadCount": 526
+          "downloadCount": 524
         }
       ],
       "description": "세가 『샤이닝』 시리즈의 PSP 시뮬레이션 RPG",
@@ -971,13 +965,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mv-v0.9.0/MagicalVacation_KrPatcher_v0.9.0.zip",
       "downloadAsset": "MagicalVacation_KrPatcher_v0.9.0.zip",
-      "downloadCount": 635,
+      "downloadCount": 634,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mv-v0.9.0",
       "releaseName": "[GBA] 매지컬 베케이션 한글 패치 v0.9.0 ",
       "releasePublishedAt": "2026-10-10T02:48:17Z",
       "updated": "2026-10-10",
       "publicBuilds": 1,
-      "totalDownloads": 635,
+      "totalDownloads": 634,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -989,7 +983,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mv-v0.9.0/MagicalVacation_KrPatcher_v0.9.0.zip",
           "downloadAsset": "MagicalVacation_KrPatcher_v0.9.0.zip",
-          "downloadCount": 635
+          "downloadCount": 634
         }
       ],
       "description": "마법 학교 학생들의 모험을 그린 브라우니 브라운의 GBA RPG",
@@ -1093,13 +1087,13 @@
       "version": "v0.9.0-rc7",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiA-v0.9.0/Saki_Achiga_Korean_Patch_v0.9.0-rc7.zip",
       "downloadAsset": "Saki_Achiga_Korean_Patch_v0.9.0-rc7.zip",
-      "downloadCount": 273,
+      "downloadCount": 272,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiA-v0.9.0",
       "releaseName": "[PSP] 사키 아치가편 포터블 한글 패치 v0.9.0-rc7",
       "releasePublishedAt": "2026-10-09T00:16:57Z",
       "updated": "2026-10-09",
       "publicBuilds": 1,
-      "totalDownloads": 273,
+      "totalDownloads": 272,
       "releaseHistory": [
         {
           "version": "v0.9.0-rc7",
@@ -1111,7 +1105,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiA-v0.9.0/Saki_Achiga_Korean_Patch_v0.9.0-rc7.zip",
           "downloadAsset": "Saki_Achiga_Korean_Patch_v0.9.0-rc7.zip",
-          "downloadCount": 273
+          "downloadCount": 272
         }
       ],
       "description": "아치가 여학원의 소녀들이 전국 무대를 향해 나아가는 이야기를 바탕으로 한 대전 마작 게임",
@@ -1156,13 +1150,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
       "downloadAsset": "TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
-      "downloadCount": 933,
+      "downloadCount": 932,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/JingujiAD-v0.9.0",
       "releaseName": "[PSP] 탐정 진구지 사부로: 재와 다이아몬드 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-09T03:02:35Z",
       "updated": "2026-10-09",
       "publicBuilds": 1,
-      "totalDownloads": 933,
+      "totalDownloads": 932,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -1174,7 +1168,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
           "downloadAsset": "TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
-          "downloadCount": 933
+          "downloadCount": 932
         }
       ],
       "description": "가부키초를 무대로 여러 의뢰와 인물의 이해관계가 교차하는 하드보일드 추리 어드벤처",
@@ -1219,13 +1213,13 @@
       "version": "v0.9.5",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiP-v0.9.5/Saki_Portable_Korean_Patch_v0.9.5.zip",
       "downloadAsset": "Saki_Portable_Korean_Patch_v0.9.5.zip",
-      "downloadCount": 495,
+      "downloadCount": 494,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiP-v0.9.5",
       "releaseName": "[PSP] 사키 포터블 한글 패치 v0.9.5 Pre-release",
       "releasePublishedAt": "2026-10-05T15:07:34Z",
       "updated": "2026-10-06",
       "publicBuilds": 1,
-      "totalDownloads": 495,
+      "totalDownloads": 494,
       "releaseHistory": [
         {
           "version": "v0.9.5",
@@ -1237,7 +1231,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiP-v0.9.5/Saki_Portable_Korean_Patch_v0.9.5.zip",
           "downloadAsset": "Saki_Portable_Korean_Patch_v0.9.5.zip",
-          "downloadCount": 495
+          "downloadCount": 494
         }
       ],
       "description": "TV 애니메이션을 바탕으로 캐릭터별 능력과 스토리를 재현한 대전 마작 게임",
