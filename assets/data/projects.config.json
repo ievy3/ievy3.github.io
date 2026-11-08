@@ -737,6 +737,36 @@
     ]
   },
   {
+    "slug": "macross-triangle-frontier",
+    "title": "마크로스 트라이앵글 프론티어",
+    "image": "/assets/images/macross-triangle-frontier/2026-11-08-title-ko.webp",
+    "imageAlt": "마크로스 트라이앵글 프론티어 한글 타이틀 화면",
+    "platform": "PSP",
+    "type": "한국어 패치",
+    "releasePrefix": "macrosstf-",
+    "description": "TV 애니메이션 『마크로스 F』를 바탕으로 한 PSP 메카 액션 게임",
+    "keywords": [
+      "마크로스",
+      "마크로스 f",
+      "마크로스 프론티어",
+      "트라이앵글 프론티어",
+      "macross",
+      "macross triangle frontier",
+      "マクロス",
+      "トライアングルフロンティア",
+      "발키리",
+      "메카"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "genre": "액션",
+    "subgenre": "메카",
+    "stage": 6,
+    "updated": "2026-11-08",
+    "verification": [
+      "PPSSPP"
+    ]
+  },
+  {
     "slug": "dragon-drive-world-d-break",
     "title": "드래곤 드라이브: 월드 D 브레이크",
     "status": "planned",
