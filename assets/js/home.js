@@ -26,7 +26,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/conception-v0.9.0/Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/conception-v0.9.0",
     "releasePublishedAt": "2026-11-07T13:14:29Z",
-    "totalDownloads": 146,
+    "totalDownloads": 226,
     "description": "「별의 자식」을 낳을 수 있는 소녀들과 던전을 탐험하는 PSP 롤플레잉 게임",
     "keywords": [
       "컨셉션",
@@ -104,7 +104,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.0/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.0",
     "releasePublishedAt": "2026-11-03T14:59:04Z",
-    "totalDownloads": 441,
+    "totalDownloads": 447,
     "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
     "keywords": [
       "샤이닝 하츠",
@@ -144,7 +144,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/houshin-v0.9.0",
     "releasePublishedAt": "2026-11-01T15:26:38Z",
-    "totalDownloads": 337,
+    "totalDownloads": 340,
     "description": "『봉신연의』를 바탕으로 한 코에이의 GBA 롤플레잉 게임",
     "keywords": [
       "매지컬 봉신",
@@ -183,7 +183,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningark-v0.9.0/Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningark-v0.9.0",
     "releasePublishedAt": "2026-11-01T05:39:03Z",
-    "totalDownloads": 697,
+    "totalDownloads": 700,
     "description": "세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
     "keywords": [
       "샤이닝 아크",
@@ -262,7 +262,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sabata-v0.9.4/Boktai3SabatasCounterattack_KrPatcher_v0.9.4.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sabata-v0.9.4",
     "releasePublishedAt": "2026-10-26T09:47:38Z",
-    "totalDownloads": 219,
+    "totalDownloads": 224,
     "description": "태양빛으로 싸우는 코나미의 GBA 태양 액션 RPG, 『우리들의 태양』 시리즈 세 번째 작품",
     "keywords": [
       "신 우리들의 태양",
@@ -307,7 +307,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mua-v0.9.0/Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mua-v0.9.0",
     "releasePublishedAt": "2026-10-25T03:47:32Z",
-    "totalDownloads": 354,
+    "totalDownloads": 355,
     "description": "마블의 영웅들로 팀을 짜 우주적 위협에 맞서는 액션 RPG",
     "keywords": [
       "마블 얼티밋 얼라이언스",
@@ -348,7 +348,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gtasc-v0.9.0/Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gtasc-v0.9.0",
     "releasePublishedAt": "2026-10-25T09:49:09Z",
-    "totalDownloads": 141,
+    "totalDownloads": 142,
     "description": "GTA 리버티 시티 스토리즈를 바탕으로 1998년 리버티 시티의 마피아 전쟁을 그린 팬 제작 토털 컨버전 모드",
     "keywords": [
       "gta",
@@ -470,7 +470,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.0/Noctil_Patchworks_Offline_Orochi2_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/orochi2-v0.9.0",
     "releasePublishedAt": "2026-10-14T23:09:03Z",
-    "totalDownloads": 675,
+    "totalDownloads": 676,
     "description": "삼국지·전국 무장과 신화 속 영웅이 함께 싸우는 코에이 테크모의 PSP 무쌍 액션",
     "keywords": [
       "무쌍 오로치",
@@ -510,7 +510,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/som-v0.9.1/Noctil_Patchworks_Offline_SoM_v0.9.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/som-v0.9.1",
     "releasePublishedAt": "2026-10-14T11:50:48Z",
-    "totalDownloads": 688,
+    "totalDownloads": 690,
     "description": "살해당한 주인공이 시간을 거슬러 자신의 죽음을 막으려 하는 시간 여행 어드벤처",
     "keywords": [
       "섀도우 오브 메모리즈",
@@ -548,7 +548,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
     "releasePublishedAt": "2026-10-12T15:30:13Z",
-    "totalDownloads": 496,
+    "totalDownloads": 497,
     "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",
     "keywords": [
       "듀라라라",
@@ -698,7 +698,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
     "releasePublishedAt": "2026-10-09T01:10:57Z",
-    "totalDownloads": 640,
+    "totalDownloads": 643,
     "description": "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",
     "keywords": [
       "내 여동생이 이렇게 귀여울 리가 없어",
@@ -777,7 +777,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/JingujiAD-v0.9.0",
     "releasePublishedAt": "2026-10-09T03:02:35Z",
-    "totalDownloads": 934,
+    "totalDownloads": 936,
     "description": "가부키초를 무대로 여러 의뢰와 인물의 이해관계가 교차하는 하드보일드 추리 어드벤처",
     "keywords": [
       "탐정 진구지 사부로",
