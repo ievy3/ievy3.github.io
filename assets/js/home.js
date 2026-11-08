@@ -9,6 +9,47 @@ let showAllProjects = false;
 // BEGIN fallback projects
 const fallbackProjects = [
   {
+    "title": "마크로스 트라이앵글 프론티어",
+    "href": "/projects/macross-triangle-frontier/",
+    "image": "/assets/images/macross-triangle-frontier/2026-11-08-title-ko.webp",
+    "imageAlt": "마크로스 트라이앵글 프론티어 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "액션",
+    "subgenre": "메카",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.0",
+    "updated": "2026-11-08",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/macrosstf-v0.9.0/Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/macrosstf-v0.9.0",
+    "releasePublishedAt": "2026-11-08T06:50:21Z",
+    "totalDownloads": 0,
+    "description": "TV 애니메이션 『마크로스 F』를 바탕으로 한 PSP 메카 액션 게임",
+    "keywords": [
+      "마크로스",
+      "마크로스 f",
+      "마크로스 프론티어",
+      "트라이앵글 프론티어",
+      "macross",
+      "macross triangle frontier",
+      "マクロス",
+      "トライアングルフロンティア",
+      "발키리",
+      "메카"
+    ],
+    "verification": [
+      "PPSSPP"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-08",
+      "title": "마무리 점검과 v0.9.0 공개",
+      "href": "/projects/macross-triangle-frontier/updates/2026-11-08.html"
+    }
+  },
+  {
     "title": "컨셉션: 내 아이를 낳아줘",
     "href": "/projects/conception/",
     "image": "/assets/images/conception/2026-11-07-title-ko.webp",
@@ -46,46 +87,6 @@ const fallbackProjects = [
       "date": "2026-11-07",
       "title": "배포 직전 점검과 v0.9.0 공개",
       "href": "/projects/conception/updates/2026-11-07.html"
-    }
-  },
-  {
-    "title": "마크로스 트라이앵글 프론티어",
-    "href": "/projects/macross-triangle-frontier/",
-    "image": "/assets/images/macross-triangle-frontier/2026-11-08-title-ko.webp",
-    "imageAlt": "마크로스 트라이앵글 프론티어 한글 타이틀 화면",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "액션",
-    "subgenre": "메카",
-    "type": "한국어 패치",
-    "status": "public",
-    "statusLabel": "베타 공개",
-    "stage": 6,
-    "version": "v0.9.0",
-    "updated": "2026-11-08",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/macrosstf-v0.9.0",
-    "releasePublishedAt": "2026-11-08T06:50:21Z",
-    "totalDownloads": 0,
-    "description": "TV 애니메이션 『마크로스 F』를 바탕으로 한 PSP 메카 액션 게임",
-    "keywords": [
-      "마크로스",
-      "마크로스 f",
-      "마크로스 프론티어",
-      "트라이앵글 프론티어",
-      "macross",
-      "macross triangle frontier",
-      "マクロス",
-      "トライアングルフロンティア",
-      "발키리",
-      "메카"
-    ],
-    "verification": [
-      "PPSSPP"
-    ],
-    "latestWorklog": {
-      "date": "2026-11-08",
-      "title": "마무리 점검과 v0.9.0 공개",
-      "href": "/projects/macross-triangle-frontier/updates/2026-11-08.html"
     }
   },
   {
