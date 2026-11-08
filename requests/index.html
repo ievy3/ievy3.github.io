@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Noctil Patchworks 패치 요청 게시판. 번역 패치가 있었으면 하는 게임을 요청하고 👍 으로 응원할 수 있습니다.">
+  <title>패치 요청 | Noctil Patchworks</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://ievy3.github.io/requests/">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="패치 요청 | Noctil Patchworks">
+  <meta property="og:description" content="번역 패치가 있었으면 하는 게임을 요청하고 응원할 수 있는 게시판입니다.">
+  <meta property="og:url" content="https://ievy3.github.io/requests/">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/genso-suikoden-100-years/2026-10-03-title.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="패치 요청 | Noctil Patchworks">
+  <meta name="twitter:description" content="번역 패치가 있었으면 하는 게임을 요청하고 응원할 수 있는 게시판입니다.">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/genso-suikoden-100-years/2026-10-03-title.webp">
+  <link rel="stylesheet" href="/assets/css/home.css?v=32">
+  <link rel="stylesheet" href="/assets/css/requests.css?v=1">
+  <script src="/assets/js/requests.js?v=1" defer></script>
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">
+      <span class="brand-mark">NP</span>
+      <span class="brand-name">Noctil Patchworks</span>
+    </a>
+    <nav class="site-nav" aria-label="주요 메뉴">
+      <a href="/#patches">패치</a>
+      <a href="/#support">후원</a>
+      <a href="/requests/" aria-current="page">패치 요청</a>
+      <a href="/guestbook/">방명록</a>
+      <a class="nav-github" href="https://github.com/ievy3/ievy3.github.io" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main class="requests-main">
+    <a class="back-link" href="/">← 패치 목록으로 돌아가기</a>
+
+    <header class="requests-head">
+      <div>
+        <p class="eyebrow">PATCH REQUESTS</p>
+        <h1>패치 요청</h1>
+        <p>번역 패치가 있었으면 하는 게임을 알려 주세요. 이미 올라온 게임이면 새로 쓰지 말고 <b>👍 응원</b>을 눌러 주세요.</p>
+      </div>
+      <a class="requests-new" href="https://github.com/ievy3/ievy3.github.io/issues/new?template=patch_request.yml" target="_blank" rel="noopener">요청 남기기 <span>↗</span></a>
+    </header>
+
+    <ul class="requests-rules">
+      <li>요청과 응원은 <b>GitHub 계정</b>이 있으면 누구나 남길 수 있습니다.</li>
+      <li>게임 ROM·ISO 파일이나 다운로드 링크는 올리지 마세요.</li>
+      <li>요청이 많다고 반드시 작업하는 것은 아니며, 작업 여부와 순서는 제작자가 정합니다.</li>
+    </ul>
+
+    <section class="requests-panel" aria-label="요청 목록">
+      <div class="requests-tools">
+        <input id="rq-search" type="search" placeholder="게임 이름 검색" aria-label="게임 이름 검색">
+        <select id="rq-platform" aria-label="플랫폼"><option value="">플랫폼 전체</option></select>
+        <select id="rq-status" aria-label="상태">
+          <option value="">상태 전체</option>
+          <option>접수</option><option>검토 중</option><option>예정</option><option>완료</option><option>보류</option>
+        </select>
+        <select id="rq-sort" aria-label="정렬">
+          <option value="votes">응원 많은 순</option>
+          <option value="new">최신 순</option>
+          <option value="title">이름 순</option>
+        </select>
+      </div>
+      <div class="requests-table-wrap">
+        <table class="requests-table">
+          <thead><tr><th class="c-votes">응원</th><th>게임</th><th class="c-platform">플랫폼</th><th class="c-status">상태</th><th class="c-date">요청일</th></tr></thead>
+          <tbody id="rq-body"><tr><td colspan="5" class="rq-empty">요청 목록을 불러오는 중…</td></tr></tbody>
+        </table>
+      </div>
+      <p class="requests-foot" id="rq-foot"></p>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 NOCTIL PATCHWORKS</span>
+    <span><a href="https://github.com/ievy3/ievy3.github.io/issues/new/choose" target="_blank" rel="noopener">오류 제보 ↗</a> · NOT AFFILIATED WITH THE ORIGINAL DEVELOPERS OR PUBLISHERS</span>
+  </footer>
+  <script src="/assets/js/site-ui.js?v=4" defer></script>
+</body>
+</html>

@@ -76,7 +76,7 @@ for (const file of files) {
 }
 
 // 공용 자산은 사이트 전체에서 가장 높은 버전 번호로 맞춥니다.
-const versionedAssets = ["home.css", "project.css", "site-ui.css", "theme-light.css", "site-ui.js", "home.js", "project-release.js", "guestbook.js"];
+const versionedAssets = ["home.css", "project.css", "site-ui.css", "theme-light.css", "site-ui.js", "home.js", "project-release.js", "guestbook.js", "requests.js", "requests.css"];
 const latestVersion = new Map();
 for (const { html } of pages) {
   for (const asset of versionedAssets) {
