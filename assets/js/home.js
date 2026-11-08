@@ -58,11 +58,13 @@ const fallbackProjects = [
     "genre": "액션",
     "subgenre": "메카",
     "type": "한국어 패치",
-    "status": "development",
-    "statusLabel": "작업 중",
-    "stage": 5,
-    "version": "첫 공개 전",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.0",
     "updated": "2026-11-08",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/macrosstf-v0.9.0",
+    "releasePublishedAt": "2026-11-08T06:50:21Z",
     "totalDownloads": 0,
     "description": "TV 애니메이션 『마크로스 F』를 바탕으로 한 PSP 메카 액션 게임",
     "keywords": [
@@ -82,7 +84,7 @@ const fallbackProjects = [
     ],
     "latestWorklog": {
       "date": "2026-11-08",
-      "title": "마무리 점검과 v0.9.0 배포 준비",
+      "title": "마무리 점검과 v0.9.0 공개",
       "href": "/projects/macross-triangle-frontier/updates/2026-11-08.html"
     }
   },
