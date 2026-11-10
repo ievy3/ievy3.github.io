@@ -9,6 +9,45 @@ let showAllProjects = false;
 // BEGIN fallback projects
 const fallbackProjects = [
   {
+    "title": "토마토 어드벤처",
+    "href": "/projects/tomato-adventure/",
+    "image": "/assets/images/tomato-adventure/2026-11-10-title-ko.webp",
+    "imageAlt": "토마토 어드벤처 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "GBA",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v1.0.0",
+    "updated": "2026-11-10",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/tomato-v1.0.0/TomatoAdventure_KrPatcher_v1.0.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/tomato-v1.0.0",
+    "releasePublishedAt": "2026-11-10T12:10:58Z",
+    "totalDownloads": 0,
+    "description": "토마토 왕국을 노리는 악당에 맞서는 GBA용 RPG",
+    "keywords": [
+      "토마토 어드벤처",
+      "토마토 어드벤쳐",
+      "tomato adventure",
+      "トマトアドベンチャー",
+      "gba",
+      "알파드림",
+      "닌텐도",
+      "기믹"
+    ],
+    "verification": [
+      "mGBA"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-10",
+      "title": "한글 표시부터 v1.0.0 공개까지",
+      "href": "/projects/tomato-adventure/updates/2026-11-10.html"
+    }
+  },
+  {
     "title": "마크로스 트라이앵글 프론티어",
     "href": "/projects/macross-triangle-frontier/",
     "image": "/assets/images/macross-triangle-frontier/2026-11-08-title-ko.webp",
@@ -1107,18 +1146,6 @@ const fallbackProjects = [
     "platform": "PSP",
     "genre": "어드벤처",
     "subgenre": "코미디",
-    "status": "planned",
-    "statusLabel": "작업 예정",
-    "updated": ""
-  },
-  {
-    "title": "토마토 어드벤처",
-    "slug": "tomato-adventure",
-    "image": "/assets/images/tomato-adventure/official-cover.webp",
-    "imageAlt": "トマトアドベンチャー 일본판 GBA 패키지",
-    "platform": "GBA",
-    "genre": "RPG",
-    "subgenre": "판타지",
     "status": "planned",
     "statusLabel": "작업 예정",
     "updated": ""
