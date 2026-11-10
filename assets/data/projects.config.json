@@ -809,11 +809,29 @@
   {
     "slug": "tomato-adventure",
     "title": "토마토 어드벤처",
-    "status": "planned",
-    "imageAlt": "トマトアドベンチャー 일본판 GBA 패키지",
+    "imageAlt": "토마토 어드벤처 한글 타이틀 화면",
     "platform": "GBA",
     "genre": "RPG",
     "subgenre": "판타지",
-    "image": "/assets/images/tomato-adventure/official-cover.webp"
+    "image": "/assets/images/tomato-adventure/2026-11-10-title-ko.webp",
+    "type": "한국어 패치",
+    "releasePrefix": "tomato-",
+    "description": "토마토 왕국을 노리는 악당에 맞서는 GBA용 RPG",
+    "keywords": [
+      "토마토 어드벤처",
+      "토마토 어드벤쳐",
+      "tomato adventure",
+      "トマトアドベンチャー",
+      "gba",
+      "알파드림",
+      "닌텐도",
+      "기믹"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "stage": 6,
+    "updated": "2026-11-10",
+    "verification": [
+      "mGBA"
+    ]
   }
 ]

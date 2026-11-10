@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 10일 토마토 어드벤처 한국어 패치 작업일지">
+  <title>2026.11.10 작업일지 | 토마토 어드벤처</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/tomato-adventure/updates/2026-11-10.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.10 작업일지 | 토마토 어드벤처">
+  <meta property="og:description" content="2026년 11월 10일 토마토 어드벤처 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/tomato-adventure/updates/2026-11-10.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/tomato-adventure/2026-11-10-title-ko.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.10 작업일지 | 토마토 어드벤처">
+  <meta name="twitter:description" content="2026년 11월 10일 토마토 어드벤처 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/tomato-adventure/2026-11-10-title-ko.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/tomato-adventure/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.10</p>
+    <h1>한글 표시부터<br>v1.0.0 공개까지</h1>
+    <p>가나 글자만 쓰는 GBA 게임에 한글 표시 방식을 새로 넣고, 대사 전체와 그림을 한글화해 첫 공개판 v1.0.0을 내놓았습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>RELEASE</span><span class="badge">v1.0.0</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>3,067줄</strong><span>대사 전체 번역</span></div>
+    <div><strong>1,403줄</strong><span>메뉴·고정 문구 번역</span></div>
+    <div><strong>약 20장</strong><span>글자가 든 그림 한글화</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">WHAT WE MADE</p><h2>만든 것</h2>
+    <ul class="compact-list">
+      <li><strong>한글 표시:</strong> 원본은 가나를 한 글자씩 쓰는 방식이라 한글을 그대로 넣을 수 없었습니다. 한글 음절을 따로 그리는 방식을 넣었고, 이름이 세이브에 글자 코드로 저장되는 게임이라 한글 글자 번호는 한 번 공개한 뒤 바꾸지 않도록 정했습니다.</li>
+      <li><strong>글꼴:</strong> 본문 12px Galmuri11, 작은 글씨 8px Galmuri7.</li>
+      <li><strong>번역:</strong> 대사 3,067줄 전체, 메뉴·고정 문구 1,532줄(번역 1,403줄), 아이템 이름·설명, 이름 입력판.</li>
+      <li><strong>그림:</strong> 타이틀 로고·버튼, 게임 오버, 한조·세레모 간판, 행상 센터 등 약 20장. 오프닝 나레이션 마지막 4줄은 글자 그림을 새로 만들어 넣었습니다.</li>
+      <li><strong>배포:</strong> 원본·결과물 SHA-256을 확인하는 Windows 오프라인 패처(EXE)와 BPS 파일.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">FIXES</p><h2>고친 문제</h2>
+    <ul class="compact-list">
+      <li>선택지 줄 폭을 잘못 재서 「다」가 다음 줄로 넘어가던 19곳을 고쳤습니다.</li>
+      <li>낱말 중간에서 줄이 바뀌던 21곳을 낱말 경계로 바로잡았습니다.</li>
+      <li>기믹 메뉴 도움말이 일본어로 남아 있던 같은 유형 72칸을 한 번에 한글로 바꿨습니다.</li>
+      <li>크레딧 글자가 깨지던 문제를 해결했습니다.</li>
+      <li>한조 연구소 셋째 기믹 이름이 「리」 한 글자로 나오던 문제 등, 가운데 정렬 폭 계산 때문에 줄이 바뀌던 64건을 고쳤습니다.</li>
+      <li>퀴즈 1번 선택지의 첫 항목이 밀려 보이던 것을 한 줄 배치로 바꿨습니다.</li>
+      <li>「고릭키」 오타를 「고리키」로 11곳 고쳤습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>외부 검수자가 엔딩·클리어 저장까지 플레이</li>
+        <li><span>✓</span>수정 후 같은 지점을 일반 세이브에서 다시 확인(7곳 중 6곳 해결, 스태프롤은 일본어 유지가 의도)</li>
+        <li><span>✓</span>원문 그대로 다시 넣으면 바이트가 일치하는지 검사</li>
+        <li><span>✓</span>mGBA 0.10.5</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NOT YET</p><h2>직접 못 본 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>선택 보물, NPC 상태별 대사</li>
+        <li><span>○</span>클리어 후 콘텐츠</li>
+        <li><span>○</span>일본어판 세이브 이어하기</li>
+        <li><span>○</span>GBA 실기·플래시 카트</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>검은 배경 전체 화면 글은 한글이 깨져서 스파이 데이터 재생 화면과 독백 한 줄을 영문으로 표시합니다.</li>
+      <li>엔딩 크레딧의 스태프 직함·이름은 일본어 그대로입니다.</li>
+      <li>작은 글씨 가독성과 마요 온천의 작은 간판(판독 불가)은 손대지 않았습니다.</li>
+      <li>저장하기 전에 .sav 파일을 백업해 주세요.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">TOMATO ADVENTURE WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=4" defer></script>
+</body>
+</html>
