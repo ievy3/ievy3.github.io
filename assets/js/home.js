@@ -26,7 +26,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/jetters-v1.0.0/BombermanJetters_KrPatcher_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/jetters-v1.0.0",
     "releasePublishedAt": "2026-11-14T09:51:24Z",
-    "totalDownloads": 0,
+    "totalDownloads": 1,
     "description": "폭탄을 놓아 길을 열고 적과 겨루는 GBA용 봄버맨 액션",
     "keywords": [
       "봄버맨",
@@ -67,7 +67,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/tomato-v1.0.0/TomatoAdventure_KrPatcher_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/tomato-v1.0.0",
     "releasePublishedAt": "2026-11-10T12:10:58Z",
-    "totalDownloads": 220,
+    "totalDownloads": 221,
     "description": "토마토 왕국을 노리는 악당에 맞서는 GBA용 RPG",
     "keywords": [
       "토마토 어드벤처",
@@ -345,7 +345,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sabata-v0.9.4/Boktai3SabatasCounterattack_KrPatcher_v0.9.4.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sabata-v0.9.4",
     "releasePublishedAt": "2026-10-26T09:47:38Z",
-    "totalDownloads": 244,
+    "totalDownloads": 245,
     "description": "태양빛으로 싸우는 코나미의 GBA 태양 액션 RPG, 『우리들의 태양』 시리즈 세 번째 작품",
     "keywords": [
       "신 우리들의 태양",
