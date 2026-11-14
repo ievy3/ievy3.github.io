@@ -5,8 +5,40 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-11-10T00:00:00+09:00</updated>
+  <updated>2026-11-14T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[봄버맨 제터스] 검수 반영과 v1.0.0 공개</title>
+    <link href="https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-14.html"/>
+    <id>https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-14.html</id>
+    <updated>2026-11-14T00:00:00+09:00</updated>
+    <category term="봄버맨 제터스"/>
+    <summary>외부 검수에서 나온 일본어 그림을 한글로 바꾸고 용어를 확정해, 첫 공개판 v1.0.0을 내놓았습니다.</summary>
+  </entry>
+  <entry>
+    <title>[봄버맨 제터스] 일시정지 배너와 외부 검수 의뢰</title>
+    <link href="https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-13.html"/>
+    <id>https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-13.html</id>
+    <updated>2026-11-13T00:00:00+09:00</updated>
+    <category term="봄버맨 제터스"/>
+    <summary>필드 일시정지 배너를 찾아 정리하고, 엔딩까지 플레이해 줄 외부 검수를 의뢰했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[봄버맨 제터스] 그림 한글화와 대사창 글꼴 교체</title>
+    <link href="https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-12.html"/>
+    <id>https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-12.html</id>
+    <updated>2026-11-12T00:00:00+09:00</updated>
+    <category term="봄버맨 제터스"/>
+    <summary>그림 여러 묶음을 한글로 바꾸고, 대사창을 10px 한글 글꼴로 새로 그렸으며, 직접 만든 한글 그림 20장을 넣었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[봄버맨 제터스] 글자 구조 분석과 한글 표시 · 번역 시작</title>
+    <link href="https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-11.html"/>
+    <id>https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-11.html</id>
+    <updated>2026-11-11T00:00:00+09:00</updated>
+    <category term="봄버맨 제터스"/>
+    <summary>게임이 한글을 그릴 수 있게 만들고, 번역 1차와 첫 그림 한글화까지 한 날입니다.</summary>
+  </entry>
   <entry>
     <title>[토마토 어드벤처] 한글 표시부터 v1.0.0 공개까지</title>
     <link href="https://ievy3.github.io/projects/tomato-adventure/updates/2026-11-10.html"/>
@@ -294,37 +326,5 @@
     <updated>2026-10-23T00:00:00+09:00</updated>
     <category term="마블 얼티밋 얼라이언스"/>
     <summary>지역 이름처럼 화면에 크게 나오는 글씨를 한글로 바꾸고, 번역 전체를 다시 검수해 반영했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[마크로스 트라이앵글 프론티어] 첫 한글 대사창과 용어·말투 기준</title>
-    <link href="https://ievy3.github.io/projects/macross-triangle-frontier/updates/2026-10-19.html"/>
-    <id>https://ievy3.github.io/projects/macross-triangle-frontier/updates/2026-10-19.html</id>
-    <updated>2026-10-19T00:00:00+09:00</updated>
-    <category term="마크로스 트라이앵글 프론티어"/>
-    <summary>한글이 처음으로 게임 화면에 나오게 하고, 용어와 말투 기준을 쓰기 시작했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[신 우리들의 태양: 역습의 사바타] 그림 자원 조사</title>
-    <link href="https://ievy3.github.io/projects/shin-bokura-no-taiyou/updates/2026-10-19.html"/>
-    <id>https://ievy3.github.io/projects/shin-bokura-no-taiyou/updates/2026-10-19.html</id>
-    <updated>2026-10-19T00:00:00+09:00</updated>
-    <category term="신 우리들의 태양: 역습의 사바타"/>
-    <summary>게임 속 그림이 어떤 형식으로 들어 있는지 조사하고, 원본 그림을 한 장씩 확인하기 시작했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[마크로스 트라이앵글 프론티어] 프로젝트 시작, 구조 파악</title>
-    <link href="https://ievy3.github.io/projects/macross-triangle-frontier/updates/2026-10-18.html"/>
-    <id>https://ievy3.github.io/projects/macross-triangle-frontier/updates/2026-10-18.html</id>
-    <updated>2026-10-18T00:00:00+09:00</updated>
-    <category term="마크로스 트라이앵글 프론티어"/>
-    <summary>PSP 「マクロス トライアングルフロンティア」 일본어 UMD판(ULJS00321)을 기준으로 작업을 시작했습니다. 게임 데이터를 풀고 다시 넣을 수 있게 했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[마블 얼티밋 얼라이언스] 전체 번역 첫 빌드와 한글 로고</title>
-    <link href="https://ievy3.github.io/projects/marvel-ultimate-alliance/updates/2026-10-18.html"/>
-    <id>https://ievy3.github.io/projects/marvel-ultimate-alliance/updates/2026-10-18.html</id>
-    <updated>2026-10-18T00:00:00+09:00</updated>
-    <category term="마블 얼티밋 얼라이언스"/>
-    <summary>본문 한글 글꼴을 정하고, 번역 전체를 넣은 첫 빌드를 만들었습니다. 직접 만든 한글 타이틀 로고와 음성 자막도 넣었습니다.</summary>
   </entry>
 </feed>
