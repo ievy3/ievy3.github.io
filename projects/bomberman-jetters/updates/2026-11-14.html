@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 14일 봄버맨 제터스 한국어 패치 작업일지">
+  <title>2026.11.14 작업일지 | 봄버맨 제터스</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-14.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.14 작업일지 | 봄버맨 제터스">
+  <meta property="og:description" content="2026년 11월 14일 봄버맨 제터스 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-14.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/bomberman-jetters/2026-11-14-title-ko.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.14 작업일지 | 봄버맨 제터스">
+  <meta name="twitter:description" content="2026년 11월 14일 봄버맨 제터스 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/bomberman-jetters/2026-11-14-title-ko.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/bomberman-jetters/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.14</p>
+    <h1>검수 반영과<br>v1.0.0 공개</h1>
+    <p>외부 검수에서 나온 일본어 그림을 한글로 바꾸고 용어를 확정해, 첫 공개판 v1.0.0을 내놓았습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>RELEASE</span><span class="badge">v1.0.0</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>19쪽</strong><span>배틀 규칙 설명 한글화</span></div><div><strong>48줄</strong><span>스태프 이름 음역</span></div><div><strong>12가지</strong><span>패처 시험 통과</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">FIXES</p><h2>외부 검수 반영</h2>
+    <ul class="compact-list">
+      <li>배틀 규칙 설명창 5종 19쪽을 한글로 바꿨습니다.</li>
+      <li>봄버관 수행 결과·랭킹·타임 랭킹, 스태프롤 6시트, 마지막 「おしまい」 그림을 「끝」으로 바꿨습니다.</li>
+      <li>랭킹 「클리어」가 「굴리어」로 읽혀서 12px 손그림으로 교체했습니다.</li>
+      <li>스태프 이름 48줄을 국립국어원 표기법에 맞춰 옮겼습니다.</li>
+      <li>타임 랭킹·랭킹 용어, 급수(9급~1급·초단·명인), 전투원 표기를 확정했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">BANNER</p><h2>일시정지 배너</h2>
+    <ul class="compact-list">
+      <li>직접 만든 배너 그림이 원본보다 칸이 많아 일부가 다른 그림에 가려져 HUD 글자가 섞여 보이던 문제를 찾아, 모자란 칸을 따로 그리도록 고쳤습니다. 다른 색 배치 판도 같이 바꿨고, 필드에서 화면으로 확인했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">RELEASE</p><h2>배포</h2>
+    <ul class="compact-list">
+      <li>사용방법과 글꼴 라이선스 4종을 정리하고, 영문 제목을 「Bomberman Jetters」로 정했습니다.</li>
+      <li>패처 시험 12가지를 통과하고 결과 롬의 SHA-256을 확인했습니다. 라이선스 3종이 빠진 것을 찾아 꾸러미를 다시 만들었습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>패처 시험 12가지 통과</li>
+        <li><span>✓</span>일시정지 배너 화면 확인</li>
+        <li><span>✓</span>mGBA</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NEXT</p><h2>이어서 할 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>미니게임·기록 화면 그림 일부</li>
+        <li><span>○</span>상점 안·미니게임·봄버관 결과 화면</li>
+        <li><span>○</span>실기·플래시 카트</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>처음부터 끝까지의 전체 시험 플레이는 하지 않았습니다.</li>
+      <li>링크 케이블 연결 때의 배틀 규칙 설명은 일본어 그대로입니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">BOMBERMAN JETTERS WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=4" defer></script>
+</body>
+</html>

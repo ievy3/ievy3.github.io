@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 11일 봄버맨 제터스 한국어 패치 작업일지">
+  <title>2026.11.11 작업일지 | 봄버맨 제터스</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-11.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.11 작업일지 | 봄버맨 제터스">
+  <meta property="og:description" content="2026년 11월 11일 봄버맨 제터스 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-11.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/bomberman-jetters/2026-11-14-title-ko.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.11 작업일지 | 봄버맨 제터스">
+  <meta name="twitter:description" content="2026년 11월 11일 봄버맨 제터스 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/bomberman-jetters/2026-11-14-title-ko.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/bomberman-jetters/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.11</p>
+    <h1>글자 구조 분석과<br>한글 표시 · 번역 시작</h1>
+    <p>게임이 한글을 그릴 수 있게 만들고, 번역 1차와 첫 그림 한글화까지 한 날입니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>START</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>1,283행</strong><span>대사 1차 번역</span></div><div><strong>266개</strong><span>용어 교정</span></div><div><strong>167건</strong><span>검수 반영</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">MADE</p><h2>만든 것</h2>
+    <ul class="compact-list">
+      <li>원본은 가나 1바이트 글자만 쓰는 방식이라, 한글 음절 2바이트 글자 코드와 새 글꼴 표(갈무리7)를 넣었습니다. 한글을 넣은 시험 롬으로 부팅부터 대화 상자까지 확인했습니다.</li>
+      <li>대사를 뽑고 다시 넣는 도구를 만들었고, 원문 그대로 다시 넣으면 바이트가 일치하는지 검사했습니다.</li>
+      <li>번역 1,283행 1차를 끝내고 용어집(202행)과 말투 기준을 정했습니다. 이후 용어 266개·표본 66행을 교정하고, 기준에 맞춘 검수 167건을 반영했습니다.</li>
+      <li>전체 검수에서 나온 중대 지적 28건을 고치고, 지역 이름 99행을 번역했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">GRAPHICS</p><h2>그림</h2>
+    <ul class="compact-list">
+      <li>전투 일시정지 창, 카트리지 제목, 대전 메뉴 일부를 한글로 바꿨습니다. 일시정지 문구는 「START로 계속」으로 정했습니다.</li>
+      <li>아이템 설정 화면, 타이틀 시안과 타이틀 메뉴(Pretendard Bold), 하위 메뉴 4문구(새로하기·이어하기·함께 하기·혼자 하기)를 한글로 만들었습니다.</li>
+      <li>세이브 화면(파일 1·2, 간판, 지역 이름)도 한글로 표시되게 했습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>한글 표시와 대사 연결 확인</li>
+        <li><span>✓</span>번역 1차와 검수 반영</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NEXT</p><h2>이어서 할 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>대사창 글꼴 크기 확정</li>
+        <li><span>○</span>그림 전수 한글화</li>
+        <li><span>○</span>화면 전수 점검</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>글자 크기와 줄 폭은 이후 다시 손봅니다.</li>
+      <li>그림 속 글자는 이날 일부만 바꿨습니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">BOMBERMAN JETTERS WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=4" defer></script>
+</body>
+</html>

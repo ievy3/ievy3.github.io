@@ -833,5 +833,35 @@
     "verification": [
       "mGBA"
     ]
+  },
+  {
+    "slug": "bomberman-jetters",
+    "title": "봄버맨 제터스",
+    "image": "/assets/images/bomberman-jetters/2026-11-14-title-ko.webp",
+    "imageAlt": "봄버맨 제터스 한글 타이틀 화면",
+    "platform": "GBA",
+    "type": "한국어 패치",
+    "releasePrefix": "jetters-",
+    "description": "폭탄을 놓아 길을 열고 적과 겨루는 GBA용 봄버맨 액션",
+    "keywords": [
+      "봄버맨",
+      "봄버맨 제터스",
+      "봄버맨 제타즈",
+      "전설의 봄버맨",
+      "bomberman",
+      "bomberman jetters",
+      "ボンバーマンジェッターズ",
+      "伝説のボンバーマン",
+      "gba",
+      "허드슨"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "genre": "액션",
+    "subgenre": "폭탄",
+    "stage": 6,
+    "updated": "2026-11-14",
+    "verification": [
+      "mGBA"
+    ]
   }
 ]
