@@ -9,6 +9,47 @@ let showAllProjects = false;
 // BEGIN fallback projects
 const fallbackProjects = [
   {
+    "title": "봄버맨 제터스",
+    "href": "/projects/bomberman-jetters/",
+    "image": "/assets/images/bomberman-jetters/2026-11-14-title-ko.webp",
+    "imageAlt": "봄버맨 제터스 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "GBA",
+    "genre": "액션",
+    "subgenre": "폭탄",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v1.0.0",
+    "updated": "2026-11-14",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/jetters-v1.0.0/BombermanJetters_KrPatcher_v1.0.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/jetters-v1.0.0",
+    "releasePublishedAt": "2026-11-14T09:51:24Z",
+    "totalDownloads": 0,
+    "description": "폭탄을 놓아 길을 열고 적과 겨루는 GBA용 봄버맨 액션",
+    "keywords": [
+      "봄버맨",
+      "봄버맨 제터스",
+      "봄버맨 제타즈",
+      "전설의 봄버맨",
+      "bomberman",
+      "bomberman jetters",
+      "ボンバーマンジェッターズ",
+      "伝説のボンバーマン",
+      "gba",
+      "허드슨"
+    ],
+    "verification": [
+      "mGBA"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-14",
+      "title": "검수 반영과 v1.0.0 공개",
+      "href": "/projects/bomberman-jetters/updates/2026-11-14.html"
+    }
+  },
+  {
     "title": "토마토 어드벤처",
     "href": "/projects/tomato-adventure/",
     "image": "/assets/images/tomato-adventure/2026-11-10-title-ko.webp",
@@ -186,7 +227,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/houshin-v0.9.0",
     "releasePublishedAt": "2026-11-01T15:26:38Z",
-    "totalDownloads": 366,
+    "totalDownloads": 367,
     "description": "『봉신연의』를 바탕으로 한 코에이의 GBA 롤플레잉 게임",
     "keywords": [
       "매지컬 봉신",
