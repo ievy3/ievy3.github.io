@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 7일 유디의 아틀리에 한국어 패치 작업일지">
+  <title>2026.11.07 작업일지 | 유디의 아틀리에</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/atelier-judie/updates/2026-11-07.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.07 작업일지 | 유디의 아틀리에">
+  <meta property="og:description" content="2026년 11월 7일 유디의 아틀리에 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/atelier-judie/updates/2026-11-07.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/atelier-judie/2026-11-15-title-ko.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.07 작업일지 | 유디의 아틀리에">
+  <meta name="twitter:description" content="2026년 11월 7일 유디의 아틀리에 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/atelier-judie/2026-11-15-title-ko.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/atelier-judie/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.07</p>
+    <h1>원본 분석과<br>글자 위치 찾기</h1>
+    <p>원본 파일 구조를 풀어 보고, 글자가 어디에 들어 있는지 찾아냈습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>START</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>42개</strong><span>원본 파일 조사</span></div><div><strong>8,306개</strong><span>일본어 문자열 추출</span></div><div><strong>0건</strong><span>왕복 불일치</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">FOUND</p><h2>알아낸 것</h2>
+    <ul class="compact-list">
+      <li>원본은 그림 묶음 2개, 암호화된 실행 파일, 소리·영상·설치 데이터 등 42개 파일로 이뤄져 있습니다.</li>
+      <li>그림 묶음의 압축을 풀었다가 다시 싸도 원본과 같게 나오는 것을 확인했습니다(왕복 불일치 0건).</li>
+      <li>글자는 그림 묶음이 아니라 실행 파일 안에 들어 있다는 것을 확인했습니다.</li>
+      <li>에뮬레이터로 평문 실행 파일을 얻어 일본어 문자열 8,306개를 찾았고, 글자를 바꾼 ISO가 부팅되는 것을 확인했습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>글자 바꾼 ISO 부팅</li>
+        <li><span>✓</span>문자열 추출·다시 넣기 왕복</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NEXT</p><h2>이어서 할 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>한글 표시 방식</li>
+        <li><span>○</span>번역 대상 목록</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>번역은 아직 시작 전입니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">ATELIER JUDIE WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=4" defer></script>
+</body>
+</html>
