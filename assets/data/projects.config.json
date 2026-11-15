@@ -810,10 +810,11 @@
       "psp"
     ],
     "releaseRepository": "ievy3/ievy3.github.io",
-    "stage": 5,
+    "stage": 6,
     "updated": "2026-11-15",
     "verification": [
-      "PPSSPP"
+      "PPSSPP",
+      "PSP-1000"
     ]
   },
   {
