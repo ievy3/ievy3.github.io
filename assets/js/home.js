@@ -9,6 +9,48 @@ let showAllProjects = false;
 // BEGIN fallback projects
 const fallbackProjects = [
   {
+    "title": "유디의 아틀리에",
+    "href": "/projects/atelier-judie/",
+    "image": "/assets/images/atelier-judie/2026-11-15-title-ko.webp",
+    "imageAlt": "유디의 아틀리에 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "연금술",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v1.0.0",
+    "updated": "2026-11-15",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/judie-v1.0.0/Noctil_Patchworks_Offline_JudieAtelier_KO_v1.0.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/judie-v1.0.0",
+    "releasePublishedAt": "2026-11-15T12:11:37Z",
+    "totalDownloads": 0,
+    "description": "연금술사 유디트의 채집·조합·전투 모험을 그린 PSP용 아틀리에 시리즈 RPG",
+    "keywords": [
+      "유디의 아틀리에",
+      "유디트",
+      "아틀리에",
+      "그람나트의 연금술사",
+      "atelier judie",
+      "ユーディーのアトリエ",
+      "グラムナートの錬金術士",
+      "거스트",
+      "gust",
+      "psp"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-14",
+      "title": "마무리 점검과 v1.0.0 배포 준비",
+      "href": "/projects/atelier-judie/updates/2026-11-14.html"
+    }
+  },
+  {
     "title": "봄버맨 제터스",
     "href": "/projects/bomberman-jetters/",
     "image": "/assets/images/bomberman-jetters/2026-11-14-title-ko.webp",
@@ -26,7 +68,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/jetters-v1.0.0/BombermanJetters_KrPatcher_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/jetters-v1.0.0",
     "releasePublishedAt": "2026-11-14T09:51:24Z",
-    "totalDownloads": 233,
+    "totalDownloads": 234,
     "description": "폭탄을 놓아 길을 열고 적과 겨루는 GBA용 봄버맨 액션",
     "keywords": [
       "봄버맨",
@@ -973,7 +1015,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SuikodenTHT-v0.9.0/Noctil_Patchworks_Offline_SuikodenTHT_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SuikodenTHT-v0.9.0",
     "releasePublishedAt": "2026-10-03T07:27:19Z",
-    "totalDownloads": 922,
+    "totalDownloads": 923,
     "description": "요구하는 것은 질서인가, 자유인가. 시간을 넘어 방어되는 새로운 백만 세계의 이야기.",
     "keywords": [
       "환상수호전 이어지는 백 년의 시간",
@@ -1160,18 +1202,6 @@ const fallbackProjects = [
     "slug": "atelier-viorate",
     "image": "/assets/images/atelier-viorate/official-cover.webp",
     "imageAlt": "ヴィオラートのアトリエ 일본판 PSP 패키지",
-    "platform": "PSP",
-    "genre": "RPG",
-    "subgenre": "연금술",
-    "status": "planned",
-    "statusLabel": "작업 예정",
-    "updated": ""
-  },
-  {
-    "title": "유디의 아틀리에",
-    "slug": "atelier-judie",
-    "image": "/assets/images/atelier-judie/official-cover.webp",
-    "imageAlt": "ユーディーのアトリエ 일본판 PSP 패키지",
     "platform": "PSP",
     "genre": "RPG",
     "subgenre": "연금술",
