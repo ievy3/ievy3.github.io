@@ -789,12 +789,32 @@
   {
     "slug": "atelier-judie",
     "title": "유디의 아틀리에",
-    "status": "planned",
-    "imageAlt": "ユーディーのアトリエ 일본판 PSP 패키지",
+    "imageAlt": "유디의 아틀리에 한글 타이틀 화면",
     "platform": "PSP",
     "genre": "RPG",
     "subgenre": "연금술",
-    "image": "/assets/images/atelier-judie/official-cover.webp"
+    "image": "/assets/images/atelier-judie/2026-11-15-title-ko.webp",
+    "type": "한국어 패치",
+    "releasePrefix": "judie-",
+    "description": "연금술사 유디트의 채집·조합·전투 모험을 그린 PSP용 아틀리에 시리즈 RPG",
+    "keywords": [
+      "유디의 아틀리에",
+      "유디트",
+      "아틀리에",
+      "그람나트의 연금술사",
+      "atelier judie",
+      "ユーディーのアトリエ",
+      "グラムナートの錬金術士",
+      "거스트",
+      "gust",
+      "psp"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "stage": 5,
+    "updated": "2026-11-15",
+    "verification": [
+      "PPSSPP"
+    ]
   },
   {
     "slug": "atelier-viorate",
