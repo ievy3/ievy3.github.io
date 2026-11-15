@@ -26,7 +26,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/judie-v1.0.0/Noctil_Patchworks_Offline_JudieAtelier_KO_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/judie-v1.0.0",
     "releasePublishedAt": "2026-11-15T12:11:37Z",
-    "totalDownloads": 129,
+    "totalDownloads": 158,
     "description": "연금술사 유디트의 채집·조합·전투 모험을 그린 PSP용 아틀리에 시리즈 RPG",
     "keywords": [
       "유디의 아틀리에",
@@ -68,7 +68,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/jetters-v1.0.0/BombermanJetters_KrPatcher_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/jetters-v1.0.0",
     "releasePublishedAt": "2026-11-14T09:51:24Z",
-    "totalDownloads": 249,
+    "totalDownloads": 253,
     "description": "폭탄을 놓아 길을 열고 적과 겨루는 GBA용 봄버맨 액션",
     "keywords": [
       "봄버맨",
@@ -189,7 +189,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/conception-v0.9.0/Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/conception-v0.9.0",
     "releasePublishedAt": "2026-11-07T13:14:29Z",
-    "totalDownloads": 380,
+    "totalDownloads": 382,
     "description": "「별의 자식」을 낳을 수 있는 소녀들과 던전을 탐험하는 PSP 롤플레잉 게임",
     "keywords": [
       "컨셉션",
@@ -229,7 +229,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.0/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.0",
     "releasePublishedAt": "2026-11-03T14:59:04Z",
-    "totalDownloads": 493,
+    "totalDownloads": 494,
     "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
     "keywords": [
       "샤이닝 하츠",
@@ -308,7 +308,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningark-v0.9.0/Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningark-v0.9.0",
     "releasePublishedAt": "2026-11-01T05:39:03Z",
-    "totalDownloads": 743,
+    "totalDownloads": 744,
     "description": "세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
     "keywords": [
       "샤이닝 아크",
@@ -347,7 +347,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningblade-v0.9.0/Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningblade-v0.9.0",
     "releasePublishedAt": "2026-10-30T13:50:59Z",
-    "totalDownloads": 576,
+    "totalDownloads": 577,
     "description": "세가 『샤이닝』 시리즈의 PSP 시뮬레이션 RPG",
     "keywords": [
       "샤이닝 블레이드",
@@ -387,7 +387,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sabata-v0.9.4/Boktai3SabatasCounterattack_KrPatcher_v0.9.4.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sabata-v0.9.4",
     "releasePublishedAt": "2026-10-26T09:47:38Z",
-    "totalDownloads": 255,
+    "totalDownloads": 256,
     "description": "태양빛으로 싸우는 코나미의 GBA 태양 액션 RPG, 『우리들의 태양』 시리즈 세 번째 작품",
     "keywords": [
       "신 우리들의 태양",
@@ -473,7 +473,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gtasc-v0.9.0/Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gtasc-v0.9.0",
     "releasePublishedAt": "2026-10-25T09:49:09Z",
-    "totalDownloads": 161,
+    "totalDownloads": 162,
     "description": "GTA 리버티 시티 스토리즈를 바탕으로 1998년 리버티 시티의 마피아 전쟁을 그린 팬 제작 토털 컨버전 모드",
     "keywords": [
       "gta",
@@ -515,7 +515,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/spk-v0.9.0/Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/spk-v0.9.0",
     "releasePublishedAt": "2026-10-18T15:08:35Z",
-    "totalDownloads": 304,
+    "totalDownloads": 305,
     "description": "가모시다 하지메의 라이트 노벨이 원작인 PSP 학원 러브코미디 어드벤처",
     "keywords": [
       "사쿠라장의 애완 그녀",
@@ -714,7 +714,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/never7-v0.9.0/Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/never7-v0.9.0",
     "releasePublishedAt": "2026-10-11T00:19:13Z",
-    "totalDownloads": 621,
+    "totalDownloads": 622,
     "description": "섬에서 보내는 합숙의 날들과 반복되는 시간의 수수께끼를 그린 인피니티 시리즈 첫 작품",
     "keywords": [
       "네버7",
