@@ -891,7 +891,9 @@
     "status": "planned",
     "platform": "PS Vita",
     "genre": "RPG",
-    "subgenre": "던전"
+    "subgenre": "던전",
+    "image": "/assets/images/conception-2/official-cover.webp",
+    "imageAlt": "コンセプションII 七星の導きとマズルの悪夢 일본판 PS Vita 패키지"
   },
   {
     "slug": "dunamis15",
@@ -899,7 +901,9 @@
     "status": "planned",
     "platform": "PSP",
     "genre": "어드벤처",
-    "subgenre": "노벨"
+    "subgenre": "노벨",
+    "image": "/assets/images/dunamis15/official-cover.webp",
+    "imageAlt": "デュナミス15 일본판 PSP 패키지"
   },
   {
     "slug": "code-18",
@@ -907,7 +911,9 @@
     "status": "planned",
     "platform": "PSP",
     "genre": "어드벤처",
-    "subgenre": "노벨"
+    "subgenre": "노벨",
+    "image": "/assets/images/code-18/official-cover.webp",
+    "imageAlt": "コード_18 일본판 PSP 패키지"
   },
   {
     "slug": "unchained-blades-rexx",
@@ -915,7 +921,9 @@
     "status": "planned",
     "platform": "PSP",
     "genre": "RPG",
-    "subgenre": "던전"
+    "subgenre": "던전",
+    "image": "/assets/images/unchained-blades-rexx/official-cover.webp",
+    "imageAlt": "アンチェインブレイズ 일본판 PSP 패키지"
   },
   {
     "slug": "f-zero-climax",
@@ -923,6 +931,8 @@
     "status": "planned",
     "platform": "GBA",
     "genre": "레이싱",
-    "subgenre": "SF"
+    "subgenre": "SF",
+    "image": "/assets/images/f-zero-climax/official-cover.webp",
+    "imageAlt": "F-ZERO クライマックス 일본판 GBA 패키지"
   }
 ]
