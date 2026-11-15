@@ -884,5 +884,55 @@
     "verification": [
       "mGBA"
     ]
+  },
+  {
+    "slug": "conception-2",
+    "title": "컨셉션 II: 일곱 별의 인도와 마수의 미궁",
+    "status": "planned",
+    "platform": "PS Vita",
+    "genre": "RPG",
+    "subgenre": "던전",
+    "image": "/assets/images/conception-2/official-cover.webp",
+    "imageAlt": "コンセプションII 七星の導きとマズルの悪夢 일본판 PS Vita 패키지"
+  },
+  {
+    "slug": "dunamis15",
+    "title": "듀나미스 15",
+    "status": "planned",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "노벨",
+    "image": "/assets/images/dunamis15/official-cover.webp",
+    "imageAlt": "デュナミス15 일본판 PSP 패키지"
+  },
+  {
+    "slug": "code-18",
+    "title": "코드:18",
+    "status": "planned",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "노벨",
+    "image": "/assets/images/code-18/official-cover.webp",
+    "imageAlt": "コード_18 일본판 PSP 패키지"
+  },
+  {
+    "slug": "unchained-blades-rexx",
+    "title": "언체인 블레이즈 렉스",
+    "status": "planned",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "던전",
+    "image": "/assets/images/unchained-blades-rexx/official-cover.webp",
+    "imageAlt": "アンチェインブレイズ レクス 일본판 PSP 패키지"
+  },
+  {
+    "slug": "f-zero-climax",
+    "title": "F-ZERO 클라이맥스",
+    "status": "planned",
+    "platform": "GBA",
+    "genre": "레이싱",
+    "subgenre": "SF",
+    "image": "/assets/images/f-zero-climax/official-cover.webp",
+    "imageAlt": "F-ZERO クライマックス 일본판 GBA 패키지"
   }
 ]
