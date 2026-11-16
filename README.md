@@ -17,10 +17,11 @@
 ## Projects
 
 <!-- BEGIN projects (scripts/build-site-files.mjs가 projects.generated.json으로 자동 갱신합니다) -->
-현재 공개 허브에서 관리하는 프로젝트는 **30개**입니다(공개 29 · 작업 중 1). 버전은 공개된 최신 배포본 기준입니다.
+현재 공개 허브에서 관리하는 프로젝트는 **31개**입니다(공개 30 · 작업 중 1). 버전은 공개된 최신 배포본 기준입니다.
 
 ### 공개
 
+- [비오라트의 아틀리에](https://ievy3.github.io/projects/atelier-viorate/) (PSP) — **v1.0.0** · 베타 공개
 - [유디의 아틀리에](https://ievy3.github.io/projects/atelier-judie/) (PSP) — **v1.0.0** · 베타 공개
 - [봄버맨 제터스](https://ievy3.github.io/projects/bomberman-jetters/) (GBA) — **v1.0.0** · 베타 공개
 - [토마토 어드벤처](https://ievy3.github.io/projects/tomato-adventure/) (GBA) — **v1.0.0** · 베타 공개
@@ -59,7 +60,6 @@
 
 - 듀나미스 15 (PSP)
 - 드래곤 드라이브: 월드 D 브레이크 (GBA)
-- 비오라트의 아틀리에 (PSP)
 - 언체인 블레이즈 렉스 (PSP)
 - 일상 (우주인) (PSP)
 - 컨셉션 II: 일곱 별의 인도와 마수의 미궁 (PS Vita)
