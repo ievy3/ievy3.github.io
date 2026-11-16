@@ -957,5 +957,13 @@
     "subgenre": "SF",
     "image": "/assets/images/f-zero-climax/official-cover.webp",
     "imageAlt": "F-ZERO クライマックス 일본판 GBA 패키지"
+  },
+  {
+    "slug": "mirai-nikki-13th-rewrite",
+    "title": "미래일기 -13번째 일기 소유자- Re:write",
+    "status": "planned",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "서스펜스"
   }
 ]
