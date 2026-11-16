@@ -921,51 +921,147 @@
   {
     "slug": "dunamis15",
     "title": "듀나미스 15",
-    "status": "planned",
     "platform": "PSP",
     "genre": "어드벤처",
     "subgenre": "노벨",
     "image": "/assets/images/dunamis15/official-cover.webp",
-    "imageAlt": "デュナミス15 일본판 PSP 패키지"
+    "imageAlt": "デュナミス15 일본판 PSP 패키지",
+    "type": "한국어 패치",
+    "releasePrefix": "dunamis15-",
+    "description": "5pb의 서스펜스 어드벤처 노벨",
+    "keywords": [
+      "듀나미스 15",
+      "듀나미스15",
+      "두나미스15",
+      "dunamis15",
+      "dunamis 15",
+      "デュナミス15",
+      "5pb",
+      "psp",
+      "노벨"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "stage": 5,
+    "updated": "2026-11-17",
+    "verification": [
+      "PPSSPP"
+    ]
   },
   {
     "slug": "code-18",
     "title": "코드:18",
-    "status": "planned",
     "platform": "PSP",
     "genre": "어드벤처",
     "subgenre": "노벨",
     "image": "/assets/images/code-18/official-cover.webp",
-    "imageAlt": "コード_18 일본판 PSP 패키지"
+    "imageAlt": "코드:18 일본판 PSP 패키지",
+    "type": "한국어 패치",
+    "releasePrefix": "code18-",
+    "description": "류세이 학원을 무대로 한 PSP용 SF 비주얼 노벨",
+    "keywords": [
+      "코드18",
+      "코드:18",
+      "코드 18",
+      "code_18",
+      "code 18",
+      "コード_18",
+      "사이버프론트",
+      "cyberfront",
+      "kid",
+      "psp"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "stage": 5,
+    "updated": "2026-11-17",
+    "verification": [
+      "PPSSPP"
+    ]
   },
   {
     "slug": "unchained-blades-rexx",
     "title": "언체인 블레이즈 렉스",
-    "status": "planned",
     "platform": "PSP",
     "genre": "RPG",
     "subgenre": "던전",
     "image": "/assets/images/unchained-blades-rexx/official-cover.webp",
-    "imageAlt": "アンチェインブレイズ レクス 일본판 PSP 패키지"
+    "imageAlt": "アンチェインブレイズ レクス 일본판 PSP 패키지",
+    "type": "한국어 패치",
+    "releasePrefix": "unchained-",
+    "description": "몬스터를 동료로 삼는 언체인 시스템의 1인칭 던전 RPG",
+    "keywords": [
+      "언체인 블레이즈",
+      "언체인 블레이즈 렉스",
+      "언체인블레이즈",
+      "unchained blades",
+      "unchainblades rexx",
+      "アンチェインブレイズ",
+      "レクス",
+      "furyu",
+      "psp",
+      "던전"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "stage": 5,
+    "updated": "2026-11-17",
+    "verification": [
+      "PPSSPP"
+    ]
   },
   {
     "slug": "f-zero-climax",
     "title": "F-ZERO 클라이맥스",
-    "status": "planned",
     "platform": "GBA",
     "genre": "레이싱",
     "subgenre": "SF",
     "image": "/assets/images/f-zero-climax/official-cover.webp",
-    "imageAlt": "F-ZERO クライマックス 일본판 GBA 패키지"
+    "imageAlt": "F-ZERO クライマックス 일본판 GBA 패키지",
+    "type": "한국어 패치",
+    "releasePrefix": "fzero-",
+    "description": "애니메이션 「F-ZERO 팔콘 전설」 이야기를 레이스로 따라가는 GBA용 SF 레이싱",
+    "keywords": [
+      "f-zero",
+      "f-zero climax",
+      "에프제로",
+      "에프제로 클라이맥스",
+      "f-zero 클라이맥스",
+      "エフゼロ",
+      "クライマックス",
+      "gba",
+      "닌텐도",
+      "레이싱"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "stage": 5,
+    "updated": "2026-11-17",
+    "verification": [
+      "mGBA"
+    ]
   },
   {
     "slug": "mirai-nikki-13th-rewrite",
     "title": "미래일기 -13번째 일기 소유자- Re:write",
-    "status": "planned",
     "platform": "PSP",
     "genre": "어드벤처",
     "subgenre": "서스펜스",
     "image": "/assets/images/mirai-nikki-13th-rewrite/official-cover.webp",
-    "imageAlt": "未来日記 RE:WRITE 13人目の日記所有者 일본판 PSP 패키지"
+    "imageAlt": "未来日記 RE:WRITE 13人目の日記所有者 일본판 PSP 패키지",
+    "type": "한국어 패치",
+    "releasePrefix": "mirai-",
+    "description": "애니메이션 「미래일기」를 바탕으로 한 PSP용 어드벤처",
+    "keywords": [
+      "미래일기",
+      "미래일기 re:write",
+      "미래일기 리라이트",
+      "mirai nikki",
+      "future diary",
+      "未来日記",
+      "リライト",
+      "psp",
+      "어드벤처"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "stage": 3,
+    "updated": "2026-11-17",
+    "verification": []
   }
 ]

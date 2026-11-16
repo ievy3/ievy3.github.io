@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 14일 듀나미스 15 한국어 패치 작업일지">
+  <title>2026.11.14 작업일지 | 듀나미스 15</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/dunamis15/updates/2026-11-14.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.14 작업일지 | 듀나미스 15">
+  <meta property="og:description" content="2026년 11월 14일 듀나미스 15 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/dunamis15/updates/2026-11-14.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/dunamis15/official-cover.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.14 작업일지 | 듀나미스 15">
+  <meta name="twitter:description" content="2026년 11월 14일 듀나미스 15 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/dunamis15/official-cover.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/dunamis15/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.14</p>
+    <h1>번역 반입과<br>첫 통합 빌드</h1>
+    <p>번역을 합쳐 점검을 통과하고, 그림 100여 장을 넣어 첫 통합 빌드를 만들었습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>BUILD</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>32,263행</strong><span>합친 번역</span></div><div><strong>100여 장</strong><span>그림 한글화</span></div><div><strong>3회</strong><span>통합 빌드</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">BUILD</p><h2>번역과 빌드</h2>
+    <ul class="compact-list">
+      <li>검수한 번역과 수정 정본을 적용해 표기 14행을 고치고, 이름 생략 231행은 예외로 두어 번역 점검을 통과했습니다.</li>
+      <li>번역 32,263행을 합치고 같은 원문 27,718행을 채워 엄격 점검을 통과했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">GRAPHICS</p><h2>그림</h2>
+    <ul class="compact-list">
+      <li>그림 문구 171행을 번역하고, 배경 그림과 완성 그림을 받아 판정을 통과한 뒤 비교 화면을 확인했습니다. 256색을 넘는 45장은 색을 줄여 확인했습니다.</li>
+      <li>그림 100장을 넣어도 설치 데이터가 원본 크기를 넘지 않도록 정리했습니다.</li>
+      <li>로고의 가타카나 부제가 남아 있어 부제도 한글로 바꾸고 4장을 새로 받아 넣었습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">FIXES</p><h2>첫 점검</h2>
+    <ul class="compact-list">
+      <li>첫 통합 빌드 점검에서 주요 문제 3건이 나왔습니다. 번역한 행만 새 문자열로 떼어 내도록 고치고(식별자 260만 경로는 원본 유지), 일본어판 설치 데이터가 남아 있으면 멈추던 문제와 음성 연결을 확인·정리했고, 설치본을 판별할 수 없는 문제는 사용방법에 안내를 넣었습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>번역 점검 통과</li>
+        <li><span>✓</span>화면 20장 판정</li>
+        <li><span>✓</span>설치×세이브 4칸 확인</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NEXT</p><h2>이어서 할 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>시험 플레이</li>
+        <li><span>○</span>글꼴 교체 요청 반영</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>설치 데이터가 남아 있으면 일본어판 그림이 보일 수 있어 안내를 넣었습니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">DUNAMIS15 WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=4" defer></script>
+</body>
+</html>
