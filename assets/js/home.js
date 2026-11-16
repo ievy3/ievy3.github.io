@@ -9,48 +9,6 @@ let showAllProjects = false;
 // BEGIN fallback projects
 const fallbackProjects = [
   {
-    "title": "마크로스 트라이앵글 프론티어",
-    "href": "/projects/macross-triangle-frontier/",
-    "image": "/assets/images/macross-triangle-frontier/2026-11-08-title-ko.webp",
-    "imageAlt": "마크로스 트라이앵글 프론티어 한글 타이틀 화면",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "액션",
-    "subgenre": "메카",
-    "type": "한국어 패치",
-    "status": "public",
-    "statusLabel": "베타 공개",
-    "stage": 6,
-    "version": "v0.9.1",
-    "updated": "2026-11-16",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/macrosstf-v0.9.1/Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/macrosstf-v0.9.1",
-    "releasePublishedAt": "2026-11-16T13:12:42Z",
-    "totalDownloads": 372,
-    "description": "TV 애니메이션 『마크로스 F』를 바탕으로 한 PSP 메카 액션 게임",
-    "keywords": [
-      "마크로스",
-      "마크로스 f",
-      "마크로스 프론티어",
-      "트라이앵글 프론티어",
-      "macross",
-      "macross triangle frontier",
-      "マクロス",
-      "トライアングルフロンティア",
-      "발키리",
-      "메카"
-    ],
-    "verification": [
-      "PPSSPP",
-      "PSP-1000"
-    ],
-    "latestWorklog": {
-      "date": "2026-11-16",
-      "title": "실기 미션 멈춤 수정과 v0.9.1",
-      "href": "/projects/macross-triangle-frontier/updates/2026-11-16.html"
-    }
-  },
-  {
     "title": "비오라트의 아틀리에",
     "href": "/projects/atelier-viorate/",
     "image": "/assets/images/atelier-viorate/2026-11-15-title-ko.webp",
@@ -63,12 +21,12 @@ const fallbackProjects = [
     "status": "public",
     "statusLabel": "베타 공개",
     "stage": 6,
-    "version": "v1.0.0",
-    "updated": "2026-11-16",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/viorate-v1.0.0/Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.0.zip",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/viorate-v1.0.0",
-    "releasePublishedAt": "2026-11-16T00:12:39Z",
-    "totalDownloads": 205,
+    "version": "v1.0.1",
+    "updated": "2026-11-17",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/viorate-v1.0.1/Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/viorate-v1.0.1",
+    "releasePublishedAt": "2026-11-16T15:25:03Z",
+    "totalDownloads": 220,
     "description": "연금술사 비오라트가 채집·조합·전투로 모험하는 PSP용 아틀리에 시리즈 RPG",
     "keywords": [
       "비오라트의 아틀리에",
@@ -94,6 +52,48 @@ const fallbackProjects = [
     }
   },
   {
+    "title": "마크로스 트라이앵글 프론티어",
+    "href": "/projects/macross-triangle-frontier/",
+    "image": "/assets/images/macross-triangle-frontier/2026-11-08-title-ko.webp",
+    "imageAlt": "마크로스 트라이앵글 프론티어 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "액션",
+    "subgenre": "메카",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.1",
+    "updated": "2026-11-16",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/macrosstf-v0.9.1/Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/macrosstf-v0.9.1",
+    "releasePublishedAt": "2026-11-16T13:12:42Z",
+    "totalDownloads": 439,
+    "description": "TV 애니메이션 『마크로스 F』를 바탕으로 한 PSP 메카 액션 게임",
+    "keywords": [
+      "마크로스",
+      "마크로스 f",
+      "마크로스 프론티어",
+      "트라이앵글 프론티어",
+      "macross",
+      "macross triangle frontier",
+      "マクロス",
+      "トライアングルフロンティア",
+      "발키리",
+      "메카"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-16",
+      "title": "실기 미션 멈춤 수정과 v0.9.1",
+      "href": "/projects/macross-triangle-frontier/updates/2026-11-16.html"
+    }
+  },
+  {
     "title": "유디의 아틀리에",
     "href": "/projects/atelier-judie/",
     "image": "/assets/images/atelier-judie/2026-11-15-title-ko.webp",
@@ -111,7 +111,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/judie-v1.0.0/Noctil_Patchworks_Offline_JudieAtelier_KO_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/judie-v1.0.0",
     "releasePublishedAt": "2026-11-15T12:11:37Z",
-    "totalDownloads": 269,
+    "totalDownloads": 278,
     "description": "연금술사 유디트의 채집·조합·전투 모험을 그린 PSP용 아틀리에 시리즈 RPG",
     "keywords": [
       "유디의 아틀리에",
@@ -153,7 +153,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/jetters-v1.0.0/BombermanJetters_KrPatcher_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/jetters-v1.0.0",
     "releasePublishedAt": "2026-11-14T09:51:24Z",
-    "totalDownloads": 282,
+    "totalDownloads": 287,
     "description": "폭탄을 놓아 길을 열고 적과 겨루는 GBA용 봄버맨 액션",
     "keywords": [
       "봄버맨",
@@ -194,7 +194,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/tomato-v1.0.0/TomatoAdventure_KrPatcher_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/tomato-v1.0.0",
     "releasePublishedAt": "2026-11-10T12:10:58Z",
-    "totalDownloads": 244,
+    "totalDownloads": 245,
     "description": "토마토 왕국을 노리는 악당에 맞서는 GBA용 RPG",
     "keywords": [
       "토마토 어드벤처",
@@ -233,7 +233,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/conception-v0.9.0/Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/conception-v0.9.0",
     "releasePublishedAt": "2026-11-07T13:14:29Z",
-    "totalDownloads": 390,
+    "totalDownloads": 391,
     "description": "「별의 자식」을 낳을 수 있는 소녀들과 던전을 탐험하는 PSP 롤플레잉 게임",
     "keywords": [
       "컨셉션",
@@ -313,7 +313,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/houshin-v0.9.0",
     "releasePublishedAt": "2026-11-01T15:26:38Z",
-    "totalDownloads": 383,
+    "totalDownloads": 384,
     "description": "『봉신연의』를 바탕으로 한 코에이의 GBA 롤플레잉 게임",
     "keywords": [
       "매지컬 봉신",
@@ -946,7 +946,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/JingujiAD-v0.9.0",
     "releasePublishedAt": "2026-10-09T03:02:35Z",
-    "totalDownloads": 954,
+    "totalDownloads": 955,
     "description": "가부키초를 무대로 여러 의뢰와 인물의 이해관계가 교차하는 하드보일드 추리 어드벤처",
     "keywords": [
       "탐정 진구지 사부로",
@@ -1138,7 +1138,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.9.0",
     "releasePublishedAt": "2026-10-01T15:02:39Z",
-    "totalDownloads": 1248,
+    "totalDownloads": 1249,
     "description": "소환술과 파트너 시스템을 중심으로 전개되는 판타지 전략 RPG",
     "keywords": [
       "서몬 나이트 5",
@@ -1175,7 +1175,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/soltrigger-v0.9.3",
     "releasePublishedAt": "2026-10-01T13:51:21Z",
-    "totalDownloads": 1312,
+    "totalDownloads": 1313,
     "description": "에너지 ‘솔’을 둘러싼 지배와 저항의 이야기를 그린 스토리 중심 JRPG",
     "keywords": [
       "솔 트리거",
