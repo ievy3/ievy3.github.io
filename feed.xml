@@ -5,8 +5,16 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-11-15T00:00:00+09:00</updated>
+  <updated>2026-11-16T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[마크로스 트라이앵글 프론티어] 실기 미션 멈춤 수정과 v0.9.1</title>
+    <link href="https://ievy3.github.io/projects/macross-triangle-frontier/updates/2026-11-16.html"/>
+    <id>https://ievy3.github.io/projects/macross-triangle-frontier/updates/2026-11-16.html</id>
+    <updated>2026-11-16T00:00:00+09:00</updated>
+    <category term="마크로스 트라이앵글 프론티어"/>
+    <summary>실기 PSP에서 미션을 시작하면 멈추던 문제의 원인을 찾아 고치고, 수정판 v0.9.1을 내놓았습니다.</summary>
+  </entry>
   <entry>
     <title>[비오라트의 아틀리에] 배포 점검과 v1.0.0 꾸러미</title>
     <link href="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-15.html"/>
@@ -318,13 +326,5 @@
     <updated>2026-10-28T00:00:00+09:00</updated>
     <category term="매지컬 봉신"/>
     <summary>타이틀·메뉴·간판 등 그림 글자와 본문 표시를 점검했습니다. 시험 중 남은 일본어가 나와 빠진 문장을 더 찾았습니다.</summary>
-  </entry>
-  <entry>
-    <title>[샤이닝 블레이드] 게임 글꼴 확정과 원작의 분위기 살리기</title>
-    <link href="https://ievy3.github.io/projects/shining-blade/updates/2026-10-28.html"/>
-    <id>https://ievy3.github.io/projects/shining-blade/updates/2026-10-28.html</id>
-    <updated>2026-10-28T00:00:00+09:00</updated>
-    <category term="샤이닝 블레이드"/>
-    <summary>여러 한글 글꼴을 게임 화면에서 비교해 얇은둥근모로 정하고, 붓글씨 제목의 분위기를 살렸습니다.</summary>
   </entry>
 </feed>
