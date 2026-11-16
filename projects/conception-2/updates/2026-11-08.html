@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 8일 컨셉션 II: 일곱 별의 인도와 마수의 미궁 한국어 패치 작업일지">
+  <title>2026.11.08 작업일지 | 컨셉션 II: 일곱 별의 인도와 마수의 미궁</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/conception-2/updates/2026-11-08.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.08 작업일지 | 컨셉션 II: 일곱 별의 인도와 마수의 미궁">
+  <meta property="og:description" content="2026년 11월 8일 컨셉션 II: 일곱 별의 인도와 마수의 미궁 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/conception-2/updates/2026-11-08.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/conception-2/official-cover.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.08 작업일지 | 컨셉션 II: 일곱 별의 인도와 마수의 미궁">
+  <meta name="twitter:description" content="2026년 11월 8일 컨셉션 II: 일곱 별의 인도와 마수의 미궁 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/conception-2/official-cover.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/conception-2/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.08</p>
+    <h1>구조 파악과<br>한글 폰트 · 정본</h1>
+    <p>게임 구조를 파악해 한글을 그릴 수 있게 하고, 정본과 번역 묶음 169개를 만들었습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>START</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>167,324행</strong><span>추출·삽입 왕복</span></div><div><strong>169개</strong><span>번역 묶음</span></div><div><strong>485장</strong><span>그림 파악</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">FOUND</p><h2>구조 파악</h2>
+    <ul class="compact-list">
+      <li>대사 그릇을 다루는 도구를 만들어 문장 167,324행을 뽑았다 다시 넣어도 불일치가 0건인 것을 확인했습니다. 던전 문서와 영상에는 자막이 없음을 확인했습니다.</li>
+      <li>에뮬레이터(Vita3K)를 운전해 화면을 확인할 수 있게 하고, 폰트 파일을 해독해 한글 시험 폰트로 부팅시켰습니다. 글자별 진행폭을 반영해 시험 표 20행 판정을 통과했습니다(줄 한도 22자·2줄).</li>
+      <li>그림 파악용 도구를 만들었고(왕복 20/20), 그림 485장을 파악했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">CANON</p><h2>정본</h2>
+    <ul class="compact-list">
+      <li>용어 165행·말투표·가이드를 외부 출처와 검토서로 여러 차례 보강해 확정했습니다. 주인공 이름은 최대 6자로 정했습니다.</li>
+      <li>번역 묶음 169개를 만들었습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>시험 표 20행 화면 판정</li>
+        <li><span>✓</span>정본 확정</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NEXT</p><h2>이어서 할 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>번역 반영</li>
+        <li><span>○</span>그림 규칙</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>이 단계는 영어판을 기준으로 했습니다. 이후 일본어판 기준으로 다시 진행합니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">CONCEPTION II WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=4" defer></script>
+</body>
+</html>

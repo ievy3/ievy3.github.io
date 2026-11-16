@@ -24,6 +24,14 @@
     <summary>바뀐 화면을 확인하고, 직접 시험 플레이에서 나온 옵션 화면 문제를 고치고 있습니다.</summary>
   </entry>
   <entry>
+    <title>[컨셉션 II: 일곱 별의 인도와 마수의 미궁] 영어 표기 정리</title>
+    <link href="https://ievy3.github.io/projects/conception-2/updates/2026-11-17.html"/>
+    <id>https://ievy3.github.io/projects/conception-2/updates/2026-11-17.html</id>
+    <updated>2026-11-17T00:00:00+09:00</updated>
+    <category term="컨셉션 II: 일곱 별의 인도와 마수의 미궁"/>
+    <summary>일본어판에 영어로 적힌 표기를 한글판에서도 영어로 두는 정리를 마무리하고 있습니다.</summary>
+  </entry>
+  <entry>
     <title>[듀나미스 15] 한글 오프닝 영상과 배포 후보</title>
     <link href="https://ievy3.github.io/projects/dunamis15/updates/2026-11-17.html"/>
     <id>https://ievy3.github.io/projects/dunamis15/updates/2026-11-17.html</id>
@@ -54,6 +62,14 @@
     <updated>2026-11-16T00:00:00+09:00</updated>
     <category term="코드:18"/>
     <summary>번역을 받아 합쳐 빌드하고, 그림을 정리해 배포 후보를 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[컨셉션 II: 일곱 별의 인도와 마수의 미궁] 일본어판 빌드와 첫 빌드 점검 통과</title>
+    <link href="https://ievy3.github.io/projects/conception-2/updates/2026-11-16.html"/>
+    <id>https://ievy3.github.io/projects/conception-2/updates/2026-11-16.html</id>
+    <updated>2026-11-16T00:00:00+09:00</updated>
+    <category term="컨셉션 II: 일곱 별의 인도와 마수의 미궁"/>
+    <summary>말투를 정리하고 빌드를 거듭해, 일본어판 첫 빌드 점검을 통과했습니다.</summary>
   </entry>
   <entry>
     <title>[듀나미스 15] 대사 전체 검수와 개선 빌드</title>
@@ -102,6 +118,14 @@
     <updated>2026-11-15T00:00:00+09:00</updated>
     <category term="코드:18"/>
     <summary>백로그·선택지 줄 폭을 맞추고, 정본을 확정해 번역 묶음을 내보냈습니다.</summary>
+  </entry>
+  <entry>
+    <title>[컨셉션 II: 일곱 별의 인도와 마수의 미궁] 일본어판 번역과 첫 빌드</title>
+    <link href="https://ievy3.github.io/projects/conception-2/updates/2026-11-15.html"/>
+    <id>https://ievy3.github.io/projects/conception-2/updates/2026-11-15.html</id>
+    <updated>2026-11-15T00:00:00+09:00</updated>
+    <category term="컨셉션 II: 일곱 별의 인도와 마수의 미궁"/>
+    <summary>일본어판 번역 180묶음을 받아 합치고, 실행 파일 문구와 그림 59장을 넣어 첫 일본어판 빌드를 만들었습니다.</summary>
   </entry>
   <entry>
     <title>[듀나미스 15] 시험 플레이 반영과 첫 배포 꾸러미</title>
@@ -166,6 +190,14 @@
     <updated>2026-11-14T00:00:00+09:00</updated>
     <category term="코드:18"/>
     <summary>받은 분석 자료를 인수해 검증하고, 한글을 그릴 글꼴 길을 열었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[컨셉션 II: 일곱 별의 인도와 마수의 미궁] 영어판 마무리와 일본어판 전환</title>
+    <link href="https://ievy3.github.io/projects/conception-2/updates/2026-11-14.html"/>
+    <id>https://ievy3.github.io/projects/conception-2/updates/2026-11-14.html</id>
+    <updated>2026-11-14T00:00:00+09:00</updated>
+    <category term="컨셉션 II: 일곱 별의 인도와 마수의 미궁"/>
+    <summary>영어판 후보를 마무리하고, 일본어판 기준으로 다시 가기로 해 정본을 새로 만들었습니다.</summary>
   </entry>
   <entry>
     <title>[듀나미스 15] 번역 반입과 첫 통합 빌드</title>
@@ -256,6 +288,14 @@
     <summary>그림 여러 묶음을 한글로 바꾸고, 대사창을 10px 한글 글꼴로 새로 그렸으며, 직접 만든 한글 그림 20장을 넣었습니다.</summary>
   </entry>
   <entry>
+    <title>[컨셉션 II: 일곱 별의 인도와 마수의 미궁] 그림 마무리와 첫 통합 빌드 점검</title>
+    <link href="https://ievy3.github.io/projects/conception-2/updates/2026-11-12.html"/>
+    <id>https://ievy3.github.io/projects/conception-2/updates/2026-11-12.html</id>
+    <updated>2026-11-12T00:00:00+09:00</updated>
+    <category term="컨셉션 II: 일곱 별의 인도와 마수의 미궁"/>
+    <summary>그림을 마무리하고, 실행 파일 문구를 번역하고, 말투를 점검했습니다.</summary>
+  </entry>
+  <entry>
     <title>[유디의 아틀리에] 번역 수신과 첫 통합 빌드</title>
     <link href="https://ievy3.github.io/projects/atelier-judie/updates/2026-11-11.html"/>
     <id>https://ievy3.github.io/projects/atelier-judie/updates/2026-11-11.html</id>
@@ -286,45 +326,5 @@
     <updated>2026-11-10T00:00:00+09:00</updated>
     <category term="비오라트의 아틀리에"/>
     <summary>추출 범위를 넓히고, 용어·인물·말투 기준(정본)을 확정해 번역 묶음을 만들었습니다.</summary>
-  </entry>
-  <entry>
-    <title>[토마토 어드벤처] 한글 표시부터 v1.0.0 공개까지</title>
-    <link href="https://ievy3.github.io/projects/tomato-adventure/updates/2026-11-10.html"/>
-    <id>https://ievy3.github.io/projects/tomato-adventure/updates/2026-11-10.html</id>
-    <updated>2026-11-10T00:00:00+09:00</updated>
-    <category term="토마토 어드벤처"/>
-    <summary>가나 글자만 쓰는 GBA 게임에 한글 표시 방식을 새로 넣고, 대사 전체와 그림을 한글화해 첫 공개판 v1.0.0을 내놓았습니다.</summary>
-  </entry>
-  <entry>
-    <title>[유디의 아틀리에] 한글 표시 기반과 작업 범위 정리</title>
-    <link href="https://ievy3.github.io/projects/atelier-judie/updates/2026-11-09.html"/>
-    <id>https://ievy3.github.io/projects/atelier-judie/updates/2026-11-09.html</id>
-    <updated>2026-11-09T00:00:00+09:00</updated>
-    <category term="유디의 아틀리에"/>
-    <summary>한글을 화면에 그리는 방법과 줄바꿈 규칙을 만들고, 용어집을 확정했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[마크로스 트라이앵글 프론티어] 마무리 점검과 v0.9.0 공개</title>
-    <link href="https://ievy3.github.io/projects/macross-triangle-frontier/updates/2026-11-08.html"/>
-    <id>https://ievy3.github.io/projects/macross-triangle-frontier/updates/2026-11-08.html</id>
-    <updated>2026-11-08T00:00:00+09:00</updated>
-    <category term="마크로스 트라이앵글 프론티어"/>
-    <summary>글자 간격과 줄 나눔, 미션 브리핑 길이를 마지막으로 다듬고, 점검을 통과해 첫 공개판 v0.9.0을 내놓았습니다.</summary>
-  </entry>
-  <entry>
-    <title>[유디의 아틀리에] 원본 분석과 글자 위치 찾기</title>
-    <link href="https://ievy3.github.io/projects/atelier-judie/updates/2026-11-07.html"/>
-    <id>https://ievy3.github.io/projects/atelier-judie/updates/2026-11-07.html</id>
-    <updated>2026-11-07T00:00:00+09:00</updated>
-    <category term="유디의 아틀리에"/>
-    <summary>원본 파일 구조를 풀어 보고, 글자가 어디에 들어 있는지 찾아냈습니다.</summary>
-  </entry>
-  <entry>
-    <title>[비오라트의 아틀리에] 구조 파악과 첫 한글 표시</title>
-    <link href="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-07.html"/>
-    <id>https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-07.html</id>
-    <updated>2026-11-07T00:00:00+09:00</updated>
-    <category term="비오라트의 아틀리에"/>
-    <summary>게임 데이터 구조와 글꼴을 찾아내 처음으로 한글 대사를 화면에 띄웠습니다.</summary>
   </entry>
 </feed>

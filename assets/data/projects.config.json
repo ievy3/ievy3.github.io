@@ -911,12 +911,32 @@
   {
     "slug": "conception-2",
     "title": "컨셉션 II: 일곱 별의 인도와 마수의 미궁",
-    "status": "planned",
     "platform": "PS Vita",
     "genre": "RPG",
     "subgenre": "던전",
     "image": "/assets/images/conception-2/official-cover.webp",
-    "imageAlt": "コンセプションII 七星の導きとマズルの悪夢 일본판 PS Vita 패키지"
+    "imageAlt": "コンセプションII 七星の導きとマズルの悪夢 일본판 PS Vita 패키지",
+    "type": "한국어 패치",
+    "releasePrefix": "conception2-",
+    "description": "던전 탐색 RPG와 연애 시뮬레이션이 섞인 PS Vita용 스파이크 춘소프트 작품",
+    "keywords": [
+      "컨셉션 2",
+      "컨셉션 II",
+      "컨셉션2",
+      "conception ii",
+      "conception 2",
+      "コンセプションII",
+      "七星の導き",
+      "스파이크 춘소프트",
+      "ps vita",
+      "vita"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "stage": 5,
+    "updated": "2026-11-17",
+    "verification": [
+      "Vita3K"
+    ]
   },
   {
     "slug": "dunamis15",
