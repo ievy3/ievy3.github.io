@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 16일 미래일기 -13번째 일기 소유자- Re:write 한국어 패치 작업일지">
+  <title>2026.11.16 작업일지 | 미래일기 -13번째 일기 소유자- Re:write</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-16.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.16 작업일지 | 미래일기 -13번째 일기 소유자- Re:write">
+  <meta property="og:description" content="2026년 11월 16일 미래일기 -13번째 일기 소유자- Re:write 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-16.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/mirai-nikki-13th-rewrite/official-cover.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.16 작업일지 | 미래일기 -13번째 일기 소유자- Re:write">
+  <meta name="twitter:description" content="2026년 11월 16일 미래일기 -13번째 일기 소유자- Re:write 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/mirai-nikki-13th-rewrite/official-cover.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/mirai-nikki-13th-rewrite/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.16</p>
+    <h1>표시 기반 · 범위 ·<br>정본 · 번역 묶음</h1>
+    <p>한글 표시와 삽입 경로를 만들고, 범위와 정본을 확정해 번역 묶음 118개를 냈습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>FOUNDATION</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>118개</strong><span>번역 묶음</span></div><div><strong>17,636행</strong><span>번역 대상</span></div><div><strong>484행</strong><span>그림 문구</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">MADE</p><h2>표시 기반</h2>
+    <ul class="compact-list">
+      <li>덮임 점검에서 문장 후보 449개를 점검해 덮임 125·그대로 둠 283·무시 41·미처리 0건으로 정리했습니다.</li>
+      <li>한글 2,350자를 글꼴의 빈 코드에 배정하고 Pretendard로 그려 넣었습니다. 글자 사이를 4.6px에서 3.7px로 줄인 15px 글리프를 적용했습니다.</li>
+      <li>실행 파일 문구 1,372행을 다루는 도구를 만들어 번역 대상(표시 930행)을 정했습니다. 일기 휴대폰 화면용 12px 글꼴은 따로 만들었고, 화자 이름이 한글이면 이름표가 「？？？」로 나오는 줄은 숨김 처리했습니다.</li>
+      <li>한글 대사 시험 표를 화면으로 확인해 표시 기반을 조건부로 통과했습니다. 시나리오 선택 화면은 메모리 값으로 해금하는 방법을 찾았습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">GRAPHICS</p><h2>그림</h2>
+    <ul class="compact-list">
+      <li>그림 목록을 전수로 다시 점검해 글씨 있는 그림 33장을 더하고, 내장 그림 점검에서 일본어 그림 202장과 새 일본어 그림 2장을 더했습니다. 스태프롤 65장은 원문을 유지하고, 타이틀 로고는 직접 만든 한글 그림을 쓰기로 했습니다.</li>
+      <li>그림 삽입 경로를 만들었고, 그림 스트림 늘리기와 압축 정리로 여유를 넓혀 폰트와 그림을 한 빌드에 넣어 화면 판정을 통과했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">CANON</p><h2>정본과 묶음</h2>
+    <ul class="compact-list">
+      <li>대사 화자 17,906행을 채웠고, 이름표는 그림(화자 키)으로 고르도록 정리했습니다.</li>
+      <li>정본·가이드를 검토해 수정안을 받아 용어 122·말투 155쌍을 확정했습니다. 말투 검사는 0건입니다.</li>
+      <li>번역 묶음 118개(150행씩)와 그림 문구 484행을 내보냈습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>시험 표 화면 확인</li>
+        <li><span>✓</span>정본 확정</li>
+        <li><span>✓</span>말투 검사 0건</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NEXT</p><h2>이어서 할 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>번역 받기</li>
+        <li><span>○</span>합친 번역 점검</li>
+        <li><span>○</span>그림 요청 꾸러미</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>번역이 끝나기 전까지 화면 단계는 시작하지 않습니다.</li>
+      <li>그림 중 글자를 지워야 하는 68장은 대사가 확정된 뒤에 요청합니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">MIRAI NIKKI RE:WRITE WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=4" defer></script>
+</body>
+</html>

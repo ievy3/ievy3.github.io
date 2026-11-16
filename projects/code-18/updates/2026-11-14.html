@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 14일 코드:18 한국어 패치 작업일지">
+  <title>2026.11.14 작업일지 | 코드:18</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/code-18/updates/2026-11-14.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.14 작업일지 | 코드:18">
+  <meta property="og:description" content="2026년 11월 14일 코드:18 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/code-18/updates/2026-11-14.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/code-18/official-cover.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.14 작업일지 | 코드:18">
+  <meta name="twitter:description" content="2026년 11월 14일 코드:18 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/code-18/official-cover.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/code-18/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.14</p>
+    <h1>분석 인수와<br>한글 글꼴</h1>
+    <p>받은 분석 자료를 인수해 검증하고, 한글을 그릴 글꼴 길을 열었습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>START</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>24,810행</strong><span>장면 추출·삽입 왕복</span></div><div><strong>0건</strong><span>왕복 불일치</span></div><div><strong>2,350칸</strong><span>한글 배정</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">FOUND</p><h2>인수와 확인</h2>
+    <ul class="compact-list">
+      <li>받은 분석 자료를 합치고 같은 ISO로 맞춘 뒤 점검했습니다. 장면 24,810행을 뽑아 다시 넣어도 불일치가 0건이고, 아무것도 바꾸지 않고 다시 만든 결과가 원본과 같은 것을 확인했습니다.</li>
+      <li>CONFIG 묶음 안 엔딩 이름 목록 12행을 추출 대상에 더했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">MADE</p><h2>한글 글꼴</h2>
+    <ul class="compact-list">
+      <li>에뮬레이터로 복호화한 실행 파일을 얻고, 글꼴을 여는 코드를 고쳐 한글 글꼴(Noto Sans KR)을 읽게 했습니다. 한자 2급 칸 2,350개를 한글로 배정하고 화면 확인을 통과했습니다.</li>
+      <li>대사창 격자 확인, 낱말 경계 줄바꿈, 반각 문자의 실제 폭 반영을 마쳤습니다.</li>
+      <li>백로그 줄 폭 실측을 시작했습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>분석 인수 점검 통과</li>
+        <li><span>✓</span>한글 글꼴 화면 확인</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NEXT</p><h2>이어서 할 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>표시 기반 마무리</li>
+        <li><span>○</span>정본 확정</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>번역은 이후 날짜에 받습니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">CODE 18 WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=4" defer></script>
+</body>
+</html>

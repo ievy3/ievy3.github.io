@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 13일 듀나미스 15 한국어 패치 작업일지">
+  <title>2026.11.13 작업일지 | 듀나미스 15</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/dunamis15/updates/2026-11-13.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.13 작업일지 | 듀나미스 15">
+  <meta property="og:description" content="2026년 11월 13일 듀나미스 15 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/dunamis15/updates/2026-11-13.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/dunamis15/official-cover.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.13 작업일지 | 듀나미스 15">
+  <meta name="twitter:description" content="2026년 11월 13일 듀나미스 15 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/dunamis15/official-cover.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/dunamis15/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.13</p>
+    <h1>한글 글꼴과<br>범위 · 정본</h1>
+    <p>인계를 받아 한글 글꼴·용량을 확인하고, 그림 분류와 정본을 확정해 번역 묶음을 만들었습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>START</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>60,202행</strong><span>추출·삽입 왕복 일치</span></div><div><strong>216묶음</strong><span>번역 묶음</span></div><div><strong>106장</strong><span>글씨 있는 그림</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">FOUND</p><h2>인수와 표시 기반(11월 12일~13일)</h2>
+    <ul class="compact-list">
+      <li>받은 분석 자료를 합쳐 점검했습니다. 문자열 60,202행을 뽑았다 다시 넣어도 불일치가 0건이고, 아무것도 바꾸지 않고 만든 결과가 원본과 같은 것을 확인했습니다.</li>
+      <li>한국어 제목은 「듀나미스15」로 정했습니다.</li>
+      <li>대사 글꼴 두 종류의 한자 칸 2,405개를 한글로 덮어 KS X 1001 2,350자를 넣었습니다. 시트 수와 설치 데이터 크기는 그대로입니다(여유가 368바이트뿐이라).</li>
+      <li>용량은 압축을 이미 최대로 쓰고 있고 텍스트 여유가 약 488KB라, 한국어가 1.3배 길어져도 설치 데이터 크기가 변하지 않는 배치를 확인했습니다.</li>
+      <li>시험 표 35행에서 대사 26칸×3줄, 이름창 7칸, 시스템 대화상자 줄당 약 18칸 기준을 정했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">MADE</p><h2>범위와 정본</h2>
+    <ul class="compact-list">
+      <li>시험 표 2칸 재시험을 통과해 구조 확인을 마쳤습니다.</li>
+      <li>글씨가 있는 그림 106장(상자 269개)을 조사해 분류했습니다.</li>
+      <li>용어 157개·말투·가이드 초안을 검토해 정본을 확정했고, 화자표 31,200행을 만들었습니다.</li>
+      <li>번역 묶음 216개를 내보냈고, 영상은 다시 인코드할 방법이 없어 그대로 두기로 했습니다(이후 뒤집힘).</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>구조 확인</li>
+        <li><span>✓</span>정본 확정</li>
+        <li><span>✓</span>시험 표 판정</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NEXT</p><h2>이어서 할 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>번역 반입</li>
+        <li><span>○</span>그림 렌더</li>
+        <li><span>○</span>첫 통합 빌드</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>번역은 이후 날짜에 받아 합칩니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">DUNAMIS15 WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=4" defer></script>
+</body>
+</html>

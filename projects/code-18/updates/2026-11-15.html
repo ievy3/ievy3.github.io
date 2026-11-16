@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 15일 코드:18 한국어 패치 작업일지">
+  <title>2026.11.15 작업일지 | 코드:18</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/code-18/updates/2026-11-15.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.15 작업일지 | 코드:18">
+  <meta property="og:description" content="2026년 11월 15일 코드:18 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/code-18/updates/2026-11-15.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/code-18/official-cover.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.15 작업일지 | 코드:18">
+  <meta name="twitter:description" content="2026년 11월 15일 코드:18 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/code-18/official-cover.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/code-18/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.15</p>
+    <h1>표시 기반 마무리와<br>정본 확정</h1>
+    <p>백로그·선택지 줄 폭을 맞추고, 정본을 확정해 번역 묶음을 내보냈습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>FOUNDATION</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>153묶음</strong><span>번역 내보내기</span></div><div><strong>22,914행</strong><span>번역 대상</span></div><div><strong>966장</strong><span>그림 분류</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">MADE</p><h2>표시 기반</h2>
+    <ul class="compact-list">
+      <li>백로그 줄 한도를 56바이트로 정하고, 글자마다 대사창과 백로그 중 좁은 쪽을 기준으로 하는 줄 나눔 폭 표를 만들었습니다.</li>
+      <li>새 게임을 시작하면 붉은 화면에서 멈추던 문제를 찾아 고쳤습니다. 도구가 숫자 값을 참조로 잘못 읽은 것이 원인이었습니다.</li>
+      <li>줄 나눔은 대사 행에만 적용하고 줄당 48글자로 정했으며, 선택지는 한 줄 432px 한도로 점검하게 했습니다.</li>
+      <li>실행 파일 안 메뉴 문구 186행을 다루는 도구를 만들고 화면별 폭 한도를 정했습니다.</li>
+      <li>시험 표 20행을 빌드해 화면 확인을 통과했습니다. 저장 제목은 한글로 저장되는 것을 확인했습니다(옛 세이브 제목은 일본어로 남습니다).</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">CANON</p><h2>정본과 그림</h2>
+    <ul class="compact-list">
+      <li>그림 966장 목록을 만들어 분류했습니다. 타이틀 「コード_18」만 번역하고 배경 속 글씨는 그대로 두기로 했습니다.</li>
+      <li>용어·말투·화자(22,575행) 정본을 만들어 외부 감사를 반영하고 확정했습니다.</li>
+      <li>번역 153묶음 22,914행을 내보냈습니다. 직접 만든 타이틀 그림이 점검을 통과했습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>시험 표 20행 화면 확인</li>
+        <li><span>✓</span>정본 외부 감사 반영</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NEXT</p><h2>이어서 할 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>번역 반입</li>
+        <li><span>○</span>통합 빌드</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>저장 제목은 옛 세이브에서는 일본어로 남습니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">CODE 18 WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=4" defer></script>
+</body>
+</html>

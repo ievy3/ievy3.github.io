@@ -16,6 +16,70 @@
     <summary>오프닝과 이벤트 영상, 아이젤 엔딩에 한글 자막과 해설문을 넣어 수정판 v1.0.1을 내놓았습니다.</summary>
   </entry>
   <entry>
+    <title>[코드:18] 화면 확인과 시험 플레이</title>
+    <link href="https://ievy3.github.io/projects/code-18/updates/2026-11-17.html"/>
+    <id>https://ievy3.github.io/projects/code-18/updates/2026-11-17.html</id>
+    <updated>2026-11-17T00:00:00+09:00</updated>
+    <category term="코드:18"/>
+    <summary>바뀐 화면을 확인하고, 직접 시험 플레이에서 나온 옵션 화면 문제를 고치고 있습니다.</summary>
+  </entry>
+  <entry>
+    <title>[컨셉션 II: 일곱 별의 인도와 마수의 미궁] 영어 표기 정리</title>
+    <link href="https://ievy3.github.io/projects/conception-2/updates/2026-11-17.html"/>
+    <id>https://ievy3.github.io/projects/conception-2/updates/2026-11-17.html</id>
+    <updated>2026-11-17T00:00:00+09:00</updated>
+    <category term="컨셉션 II: 일곱 별의 인도와 마수의 미궁"/>
+    <summary>일본어판에 영어로 적힌 표기를 한글판에서도 영어로 두는 정리를 마무리하고 있습니다.</summary>
+  </entry>
+  <entry>
+    <title>[듀나미스 15] 한글 오프닝 영상과 배포 후보</title>
+    <link href="https://ievy3.github.io/projects/dunamis15/updates/2026-11-17.html"/>
+    <id>https://ievy3.github.io/projects/dunamis15/updates/2026-11-17.html</id>
+    <updated>2026-11-17T00:00:00+09:00</updated>
+    <category term="듀나미스 15"/>
+    <summary>한글로 만든 오프닝 영상을 원본과 같은 크기로 넣은 배포 후보를 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[F-ZERO 클라이맥스] 시험 플레이 반영</title>
+    <link href="https://ievy3.github.io/projects/f-zero-climax/updates/2026-11-17.html"/>
+    <id>https://ievy3.github.io/projects/f-zero-climax/updates/2026-11-17.html</id>
+    <updated>2026-11-17T00:00:00+09:00</updated>
+    <category term="F-ZERO 클라이맥스"/>
+    <summary>직접 시험 플레이에서 나온 일본어를 한글로 바꾸고, 완료 세이브로 여러 메뉴를 확인했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[언체인 블레이즈 렉스] 검수 반영과 시험 빌드(7차)</title>
+    <link href="https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-17.html"/>
+    <id>https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-17.html</id>
+    <updated>2026-11-17T00:00:00+09:00</updated>
+    <category term="언체인 블레이즈 렉스"/>
+    <summary>대사·UI·그림 문구 검수를 모두 반영하고 시험 빌드 7차를 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[코드:18] 번역 반입과 배포 후보</title>
+    <link href="https://ievy3.github.io/projects/code-18/updates/2026-11-16.html"/>
+    <id>https://ievy3.github.io/projects/code-18/updates/2026-11-16.html</id>
+    <updated>2026-11-16T00:00:00+09:00</updated>
+    <category term="코드:18"/>
+    <summary>번역을 받아 합쳐 빌드하고, 그림을 정리해 배포 후보를 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[컨셉션 II: 일곱 별의 인도와 마수의 미궁] 일본어판 빌드와 첫 빌드 점검 통과</title>
+    <link href="https://ievy3.github.io/projects/conception-2/updates/2026-11-16.html"/>
+    <id>https://ievy3.github.io/projects/conception-2/updates/2026-11-16.html</id>
+    <updated>2026-11-16T00:00:00+09:00</updated>
+    <category term="컨셉션 II: 일곱 별의 인도와 마수의 미궁"/>
+    <summary>말투를 정리하고 빌드를 거듭해, 일본어판 첫 빌드 점검을 통과했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[듀나미스 15] 대사 전체 검수와 개선 빌드</title>
+    <link href="https://ievy3.github.io/projects/dunamis15/updates/2026-11-16.html"/>
+    <id>https://ievy3.github.io/projects/dunamis15/updates/2026-11-16.html</id>
+    <updated>2026-11-16T00:00:00+09:00</updated>
+    <category term="듀나미스 15"/>
+    <summary>대사 전체를 검수해 2,476행을 고치고, TIPS 탭과 영상 방향을 정했습니다.</summary>
+  </entry>
+  <entry>
     <title>[마크로스 트라이앵글 프론티어] 실기 미션 멈춤 수정과 v0.9.1</title>
     <link href="https://ievy3.github.io/projects/macross-triangle-frontier/updates/2026-11-16.html"/>
     <id>https://ievy3.github.io/projects/macross-triangle-frontier/updates/2026-11-16.html</id>
@@ -24,12 +88,76 @@
     <summary>실기 PSP에서 미션을 시작하면 멈추던 문제의 원인을 찾아 고치고, 수정판 v0.9.1을 내놓았습니다.</summary>
   </entry>
   <entry>
+    <title>[미래일기 -13번째 일기 소유자- Re:write] 표시 기반 · 범위 · 정본 · 번역 묶음</title>
+    <link href="https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-16.html"/>
+    <id>https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-16.html</id>
+    <updated>2026-11-16T00:00:00+09:00</updated>
+    <category term="미래일기 -13번째 일기 소유자- Re:write"/>
+    <summary>한글 표시와 삽입 경로를 만들고, 범위와 정본을 확정해 번역 묶음 118개를 냈습니다.</summary>
+  </entry>
+  <entry>
+    <title>[언체인 블레이즈 렉스] 시험 플레이와 타이틀 로고 · 영상</title>
+    <link href="https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-16.html"/>
+    <id>https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-16.html</id>
+    <updated>2026-11-16T00:00:00+09:00</updated>
+    <category term="언체인 블레이즈 렉스"/>
+    <summary>직접 시험 플레이에서 나온 문제를 고치고, 타이틀 로고와 영상 장 제목을 한글로 바꿨습니다.</summary>
+  </entry>
+  <entry>
     <title>[비오라트의 아틀리에] 배포 점검과 v1.0.0 꾸러미</title>
     <link href="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-15.html"/>
     <id>https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-15.html</id>
     <updated>2026-11-15T00:00:00+09:00</updated>
     <category term="비오라트의 아틀리에"/>
     <summary>수정 빌드와 배포 점검을 통과하고 v1.0.0 배포 꾸러미를 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[코드:18] 표시 기반 마무리와 정본 확정</title>
+    <link href="https://ievy3.github.io/projects/code-18/updates/2026-11-15.html"/>
+    <id>https://ievy3.github.io/projects/code-18/updates/2026-11-15.html</id>
+    <updated>2026-11-15T00:00:00+09:00</updated>
+    <category term="코드:18"/>
+    <summary>백로그·선택지 줄 폭을 맞추고, 정본을 확정해 번역 묶음을 내보냈습니다.</summary>
+  </entry>
+  <entry>
+    <title>[컨셉션 II: 일곱 별의 인도와 마수의 미궁] 일본어판 번역과 첫 빌드</title>
+    <link href="https://ievy3.github.io/projects/conception-2/updates/2026-11-15.html"/>
+    <id>https://ievy3.github.io/projects/conception-2/updates/2026-11-15.html</id>
+    <updated>2026-11-15T00:00:00+09:00</updated>
+    <category term="컨셉션 II: 일곱 별의 인도와 마수의 미궁"/>
+    <summary>일본어판 번역 180묶음을 받아 합치고, 실행 파일 문구와 그림 59장을 넣어 첫 일본어판 빌드를 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[듀나미스 15] 시험 플레이 반영과 첫 배포 꾸러미</title>
+    <link href="https://ievy3.github.io/projects/dunamis15/updates/2026-11-15.html"/>
+    <id>https://ievy3.github.io/projects/dunamis15/updates/2026-11-15.html</id>
+    <updated>2026-11-15T00:00:00+09:00</updated>
+    <category term="듀나미스 15"/>
+    <summary>시험 플레이에서 나온 글꼴·이름창·TIPS 탭 문제를 고치고, UI 검수와 배포 점검을 거쳐 배포 꾸러미를 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[F-ZERO 클라이맥스] 띄어쓰기 · 추가 그림 · 검수</title>
+    <link href="https://ievy3.github.io/projects/f-zero-climax/updates/2026-11-15.html"/>
+    <id>https://ievy3.github.io/projects/f-zero-climax/updates/2026-11-15.html</id>
+    <updated>2026-11-15T00:00:00+09:00</updated>
+    <category term="F-ZERO 클라이맥스"/>
+    <summary>띄어쓰기 폭을 줄이고 놓친 그림을 한글화했으며, 전체 검수를 반영하고 엄격 점검을 통과했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[미래일기 -13번째 일기 소유자- Re:write] 분석 인수와 확인</title>
+    <link href="https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-15.html"/>
+    <id>https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-15.html</id>
+    <updated>2026-11-15T00:00:00+09:00</updated>
+    <category term="미래일기 -13번째 일기 소유자- Re:write"/>
+    <summary>받은 분석 자료를 인수해 이 PC에서 다시 확인했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[언체인 블레이즈 렉스] 번역 반입과 첫 통합 빌드 · 그림</title>
+    <link href="https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-15.html"/>
+    <id>https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-15.html</id>
+    <updated>2026-11-15T00:00:00+09:00</updated>
+    <category term="언체인 블레이즈 렉스"/>
+    <summary>번역 73묶음을 받아 첫 통합 빌드를 만들고, 그림 436장과 직접 만든 그림 42장을 넣었습니다.</summary>
   </entry>
   <entry>
     <title>[유디의 아틀리에] 마무리 점검과 v1.0.0 배포 준비</title>
@@ -56,6 +184,46 @@
     <summary>외부 검수에서 나온 일본어 그림을 한글로 바꾸고 용어를 확정해, 첫 공개판 v1.0.0을 내놓았습니다.</summary>
   </entry>
   <entry>
+    <title>[코드:18] 분석 인수와 한글 글꼴</title>
+    <link href="https://ievy3.github.io/projects/code-18/updates/2026-11-14.html"/>
+    <id>https://ievy3.github.io/projects/code-18/updates/2026-11-14.html</id>
+    <updated>2026-11-14T00:00:00+09:00</updated>
+    <category term="코드:18"/>
+    <summary>받은 분석 자료를 인수해 검증하고, 한글을 그릴 글꼴 길을 열었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[컨셉션 II: 일곱 별의 인도와 마수의 미궁] 영어판 마무리와 일본어판 전환</title>
+    <link href="https://ievy3.github.io/projects/conception-2/updates/2026-11-14.html"/>
+    <id>https://ievy3.github.io/projects/conception-2/updates/2026-11-14.html</id>
+    <updated>2026-11-14T00:00:00+09:00</updated>
+    <category term="컨셉션 II: 일곱 별의 인도와 마수의 미궁"/>
+    <summary>영어판 후보를 마무리하고, 일본어판 기준으로 다시 가기로 해 정본을 새로 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[듀나미스 15] 번역 반입과 첫 통합 빌드</title>
+    <link href="https://ievy3.github.io/projects/dunamis15/updates/2026-11-14.html"/>
+    <id>https://ievy3.github.io/projects/dunamis15/updates/2026-11-14.html</id>
+    <updated>2026-11-14T00:00:00+09:00</updated>
+    <category term="듀나미스 15"/>
+    <summary>번역을 합쳐 점검을 통과하고, 그림 100여 장을 넣어 첫 통합 빌드를 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[F-ZERO 클라이맥스] 구조 확인과 번역 · 그림 57장</title>
+    <link href="https://ievy3.github.io/projects/f-zero-climax/updates/2026-11-14.html"/>
+    <id>https://ievy3.github.io/projects/f-zero-climax/updates/2026-11-14.html</id>
+    <updated>2026-11-14T00:00:00+09:00</updated>
+    <category term="F-ZERO 클라이맥스"/>
+    <summary>게임 글 구조를 확인하고 한글 표시 방식을 정해, 번역 2,108행과 그림 57장을 넣은 첫 한글판을 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[언체인 블레이즈 렉스] 정본 확정과 번역 묶음</title>
+    <link href="https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-14.html"/>
+    <id>https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-14.html</id>
+    <updated>2026-11-14T00:00:00+09:00</updated>
+    <category term="언체인 블레이즈 렉스"/>
+    <summary>정본을 확정하고 번역 묶음 72개를 내보냈습니다.</summary>
+  </entry>
+  <entry>
     <title>[유디의 아틀리에] 그림 라벨과 글 넘침 전수 점검</title>
     <link href="https://ievy3.github.io/projects/atelier-judie/updates/2026-11-13.html"/>
     <id>https://ievy3.github.io/projects/atelier-judie/updates/2026-11-13.html</id>
@@ -80,6 +248,22 @@
     <summary>필드 일시정지 배너를 찾아 정리하고, 엔딩까지 플레이해 줄 외부 검수를 의뢰했습니다.</summary>
   </entry>
   <entry>
+    <title>[듀나미스 15] 한글 글꼴과 범위 · 정본</title>
+    <link href="https://ievy3.github.io/projects/dunamis15/updates/2026-11-13.html"/>
+    <id>https://ievy3.github.io/projects/dunamis15/updates/2026-11-13.html</id>
+    <updated>2026-11-13T00:00:00+09:00</updated>
+    <category term="듀나미스 15"/>
+    <summary>인계를 받아 한글 글꼴·용량을 확인하고, 그림 분류와 정본을 확정해 번역 묶음을 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[언체인 블레이즈 렉스] 구조 파악과 한글 폰트</title>
+    <link href="https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-13.html"/>
+    <id>https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-13.html</id>
+    <updated>2026-11-13T00:00:00+09:00</updated>
+    <category term="언체인 블레이즈 렉스"/>
+    <summary>게임 데이터 구조와 글꼴을 파악하고 한글 표시를 만들어, 시험 표를 통과했습니다.</summary>
+  </entry>
+  <entry>
     <title>[유디의 아틀리에] 그림 재작업과 결함 수정</title>
     <link href="https://ievy3.github.io/projects/atelier-judie/updates/2026-11-12.html"/>
     <id>https://ievy3.github.io/projects/atelier-judie/updates/2026-11-12.html</id>
@@ -102,6 +286,14 @@
     <updated>2026-11-12T00:00:00+09:00</updated>
     <category term="봄버맨 제터스"/>
     <summary>그림 여러 묶음을 한글로 바꾸고, 대사창을 10px 한글 글꼴로 새로 그렸으며, 직접 만든 한글 그림 20장을 넣었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[컨셉션 II: 일곱 별의 인도와 마수의 미궁] 그림 마무리와 첫 통합 빌드 점검</title>
+    <link href="https://ievy3.github.io/projects/conception-2/updates/2026-11-12.html"/>
+    <id>https://ievy3.github.io/projects/conception-2/updates/2026-11-12.html</id>
+    <updated>2026-11-12T00:00:00+09:00</updated>
+    <category term="컨셉션 II: 일곱 별의 인도와 마수의 미궁"/>
+    <summary>그림을 마무리하고, 실행 파일 문구를 번역하고, 말투를 점검했습니다.</summary>
   </entry>
   <entry>
     <title>[유디의 아틀리에] 번역 수신과 첫 통합 빌드</title>
@@ -134,197 +326,5 @@
     <updated>2026-11-10T00:00:00+09:00</updated>
     <category term="비오라트의 아틀리에"/>
     <summary>추출 범위를 넓히고, 용어·인물·말투 기준(정본)을 확정해 번역 묶음을 만들었습니다.</summary>
-  </entry>
-  <entry>
-    <title>[토마토 어드벤처] 한글 표시부터 v1.0.0 공개까지</title>
-    <link href="https://ievy3.github.io/projects/tomato-adventure/updates/2026-11-10.html"/>
-    <id>https://ievy3.github.io/projects/tomato-adventure/updates/2026-11-10.html</id>
-    <updated>2026-11-10T00:00:00+09:00</updated>
-    <category term="토마토 어드벤처"/>
-    <summary>가나 글자만 쓰는 GBA 게임에 한글 표시 방식을 새로 넣고, 대사 전체와 그림을 한글화해 첫 공개판 v1.0.0을 내놓았습니다.</summary>
-  </entry>
-  <entry>
-    <title>[유디의 아틀리에] 한글 표시 기반과 작업 범위 정리</title>
-    <link href="https://ievy3.github.io/projects/atelier-judie/updates/2026-11-09.html"/>
-    <id>https://ievy3.github.io/projects/atelier-judie/updates/2026-11-09.html</id>
-    <updated>2026-11-09T00:00:00+09:00</updated>
-    <category term="유디의 아틀리에"/>
-    <summary>한글을 화면에 그리는 방법과 줄바꿈 규칙을 만들고, 용어집을 확정했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[마크로스 트라이앵글 프론티어] 마무리 점검과 v0.9.0 공개</title>
-    <link href="https://ievy3.github.io/projects/macross-triangle-frontier/updates/2026-11-08.html"/>
-    <id>https://ievy3.github.io/projects/macross-triangle-frontier/updates/2026-11-08.html</id>
-    <updated>2026-11-08T00:00:00+09:00</updated>
-    <category term="마크로스 트라이앵글 프론티어"/>
-    <summary>글자 간격과 줄 나눔, 미션 브리핑 길이를 마지막으로 다듬고, 점검을 통과해 첫 공개판 v0.9.0을 내놓았습니다.</summary>
-  </entry>
-  <entry>
-    <title>[유디의 아틀리에] 원본 분석과 글자 위치 찾기</title>
-    <link href="https://ievy3.github.io/projects/atelier-judie/updates/2026-11-07.html"/>
-    <id>https://ievy3.github.io/projects/atelier-judie/updates/2026-11-07.html</id>
-    <updated>2026-11-07T00:00:00+09:00</updated>
-    <category term="유디의 아틀리에"/>
-    <summary>원본 파일 구조를 풀어 보고, 글자가 어디에 들어 있는지 찾아냈습니다.</summary>
-  </entry>
-  <entry>
-    <title>[비오라트의 아틀리에] 구조 파악과 첫 한글 표시</title>
-    <link href="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-07.html"/>
-    <id>https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-07.html</id>
-    <updated>2026-11-07T00:00:00+09:00</updated>
-    <category term="비오라트의 아틀리에"/>
-    <summary>게임 데이터 구조와 글꼴을 찾아내 처음으로 한글 대사를 화면에 띄웠습니다.</summary>
-  </entry>
-  <entry>
-    <title>[컨셉션: 내 아이를 낳아줘] 배포 직전 점검과 v0.9.0 공개</title>
-    <link href="https://ievy3.github.io/projects/conception/updates/2026-11-07.html"/>
-    <id>https://ievy3.github.io/projects/conception/updates/2026-11-07.html</id>
-    <updated>2026-11-07T00:00:00+09:00</updated>
-    <category term="컨셉션: 내 아이를 낳아줘"/>
-    <summary>잘림과 길이 문제를 마지막으로 다듬고, 배포 직전 점검을 통과해 첫 공개판 v0.9.0을 내놓았습니다.</summary>
-  </entry>
-  <entry>
-    <title>[컨셉션: 내 아이를 낳아줘] 전체 검수와 글꼴 다시 굽기</title>
-    <link href="https://ievy3.github.io/projects/conception/updates/2026-11-06.html"/>
-    <id>https://ievy3.github.io/projects/conception/updates/2026-11-06.html</id>
-    <updated>2026-11-06T00:00:00+09:00</updated>
-    <category term="컨셉션: 내 아이를 낳아줘"/>
-    <summary>번역 전체를 여러 차례 검수해 고치고, 글꼴을 다시 굽고, 사용자가 다듬은 그림을 반영했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[마크로스 트라이앵글 프론티어] 그림 마무리와 화면 점검</title>
-    <link href="https://ievy3.github.io/projects/macross-triangle-frontier/updates/2026-11-06.html"/>
-    <id>https://ievy3.github.io/projects/macross-triangle-frontier/updates/2026-11-06.html</id>
-    <updated>2026-11-06T00:00:00+09:00</updated>
-    <category term="마크로스 트라이앵글 프론티어"/>
-    <summary>그림 글자를 정리하고 남은 일본어를 다시 찾았으며, 화면 142장을 살펴 고칠 곳을 처리했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[컨셉션: 내 아이를 낳아줘] 설치 데이터 문제 해결과 검수 반영</title>
-    <link href="https://ievy3.github.io/projects/conception/updates/2026-11-05.html"/>
-    <id>https://ievy3.github.io/projects/conception/updates/2026-11-05.html</id>
-    <updated>2026-11-05T00:00:00+09:00</updated>
-    <category term="컨셉션: 내 아이를 낳아줘"/>
-    <summary>설치 데이터 문제를 풀고, 화면 문구와 주요 장면 대사의 검수 지적을 반영했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[컨셉션: 내 아이를 낳아줘] 번역을 합쳐 첫 전체 번역판</title>
-    <link href="https://ievy3.github.io/projects/conception/updates/2026-11-04.html"/>
-    <id>https://ievy3.github.io/projects/conception/updates/2026-11-04.html</id>
-    <updated>2026-11-04T00:00:00+09:00</updated>
-    <category term="컨셉션: 내 아이를 낳아줘"/>
-    <summary>번역 293묶음을 합치고 그림 속 글자를 한글로 바꿔, 첫 전체 번역판을 만들었습니다.</summary>
-  </entry>
-  <entry>
-    <title>[컨셉션: 내 아이를 낳아줘] 프로젝트 시작, 한글 표시와 정본</title>
-    <link href="https://ievy3.github.io/projects/conception/updates/2026-11-03.html"/>
-    <id>https://ievy3.github.io/projects/conception/updates/2026-11-03.html</id>
-    <updated>2026-11-03T00:00:00+09:00</updated>
-    <category term="컨셉션: 내 아이를 낳아줘"/>
-    <summary>게임 구조를 분석해 대사를 뽑아내고, 한글을 화면에 표시하는 방법과 용어·말투 기준을 정했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[샤이닝 하츠] 플레이 확인 고침과 v0.9.0 공개</title>
-    <link href="https://ievy3.github.io/projects/shining-hearts/updates/2026-11-03.html"/>
-    <id>https://ievy3.github.io/projects/shining-hearts/updates/2026-11-03.html</id>
-    <updated>2026-11-03T00:00:00+09:00</updated>
-    <category term="샤이닝 하츠"/>
-    <summary>새 게임부터 약 1시간, 중반 세이브로 메뉴 전반을 돌며 나온 곳을 고치고, PSP 메인 화면까지 한글로 바꾼 뒤 첫 공개판 v0.9.0을 내놓았습니다.</summary>
-  </entry>
-  <entry>
-    <title>[샤이닝 하츠] 배포 전 점검과 글꼴 확정</title>
-    <link href="https://ievy3.github.io/projects/shining-hearts/updates/2026-11-02.html"/>
-    <id>https://ievy3.github.io/projects/shining-hearts/updates/2026-11-02.html</id>
-    <updated>2026-11-02T00:00:00+09:00</updated>
-    <category term="샤이닝 하츠"/>
-    <summary>배포 전에 남은 일본어와 화면을 다시 점검하고, 대사 글꼴을 비교해 확정했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[매지컬 봉신] v0.9.0 공개 검수판</title>
-    <link href="https://ievy3.github.io/projects/magical-houshin/updates/2026-11-01.html"/>
-    <id>https://ievy3.github.io/projects/magical-houshin/updates/2026-11-01.html</id>
-    <updated>2026-11-01T00:00:00+09:00</updated>
-    <category term="매지컬 봉신"/>
-    <summary>검수가 일부 진행된 상태에서 v0.9.0을 공개 검수판으로 내놓았습니다. 남은 문제는 제보를 받으며 다듬겠습니다.</summary>
-  </entry>
-  <entry>
-    <title>[샤이닝 아크] 그림 마무리와 v0.9.0 공개</title>
-    <link href="https://ievy3.github.io/projects/shining-ark/updates/2026-11-01.html"/>
-    <id>https://ievy3.github.io/projects/shining-ark/updates/2026-11-01.html</id>
-    <updated>2026-11-01T00:00:00+09:00</updated>
-    <category term="샤이닝 아크"/>
-    <summary>그림을 마무리하고 화면을 돌며 남은 곳을 고쳤습니다. 설치 데이터 문제를 해결하고 첫 공개판 v0.9.0을 내놓았습니다.</summary>
-  </entry>
-  <entry>
-    <title>[샤이닝 하츠] 그림·영상 한글화와 진행 막힘 수정</title>
-    <link href="https://ievy3.github.io/projects/shining-hearts/updates/2026-11-01.html"/>
-    <id>https://ievy3.github.io/projects/shining-hearts/updates/2026-11-01.html</id>
-    <updated>2026-11-01T00:00:00+09:00</updated>
-    <category term="샤이닝 하츠"/>
-    <summary>글자가 든 그림과 프롤로그 영상 자막을 한글로 바꾸고, 시험 플레이에서 나온 문제를 고쳤습니다.</summary>
-  </entry>
-  <entry>
-    <title>[매지컬 봉신] 능력치 표 정렬 맞추기</title>
-    <link href="https://ievy3.github.io/projects/magical-houshin/updates/2026-10-31.html"/>
-    <id>https://ievy3.github.io/projects/magical-houshin/updates/2026-10-31.html</id>
-    <updated>2026-10-31T00:00:00+09:00</updated>
-    <category term="매지컬 봉신"/>
-    <summary>능력치 이름을 한글로 바꾸며 어긋났던 숫자 위치와 높이를 원래대로 맞췄습니다.</summary>
-  </entry>
-  <entry>
-    <title>[샤이닝 아크] 번역과 검수, 실행 파일·그림 한글화</title>
-    <link href="https://ievy3.github.io/projects/shining-ark/updates/2026-10-31.html"/>
-    <id>https://ievy3.github.io/projects/shining-ark/updates/2026-10-31.html</id>
-    <updated>2026-10-31T00:00:00+09:00</updated>
-    <category term="샤이닝 아크"/>
-    <summary>구조를 확인하고 표기 기준을 정한 뒤, 번역과 검수를 마쳤습니다. 실행 파일에 박힌 화면 문구와 글자가 든 그림도 한글로 바꾸기 시작했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[샤이닝 하츠] 프로젝트 시작, 번역과 첫 빌드</title>
-    <link href="https://ievy3.github.io/projects/shining-hearts/updates/2026-10-31.html"/>
-    <id>https://ievy3.github.io/projects/shining-hearts/updates/2026-10-31.html</id>
-    <updated>2026-10-31T00:00:00+09:00</updated>
-    <category term="샤이닝 하츠"/>
-    <summary>PSP 「シャイニング・ハーツ」 일본어 다운로드판(NPJH-50342)을 기준으로 작업을 시작했습니다. 데이터 구조를 풀고 번역과 검수를 마친 뒤 첫 빌드를 만들었습니다.</summary>
-  </entry>
-  <entry>
-    <title>[매지컬 봉신] 인물별 말투 검수와 그림 반영</title>
-    <link href="https://ievy3.github.io/projects/magical-houshin/updates/2026-10-30.html"/>
-    <id>https://ievy3.github.io/projects/magical-houshin/updates/2026-10-30.html</id>
-    <updated>2026-10-30T00:00:00+09:00</updated>
-    <category term="매지컬 봉신"/>
-    <summary>인물 사이의 관계와 호칭을 정리해 주요 인물의 대사를 검수하고, 승인한 그림을 반영했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[샤이닝 아크] 프로젝트 시작</title>
-    <link href="https://ievy3.github.io/projects/shining-ark/updates/2026-10-30.html"/>
-    <id>https://ievy3.github.io/projects/shining-ark/updates/2026-10-30.html</id>
-    <updated>2026-10-30T00:00:00+09:00</updated>
-    <category term="샤이닝 아크"/>
-    <summary>PSP 「シャイニング・アーク」 한국어 패치 작업을 시작했습니다. 일본어 다운로드판(NPJH50717)을 기준으로 합니다.</summary>
-  </entry>
-  <entry>
-    <title>[샤이닝 블레이드] 번역 전수 재검수와 v0.9.0 공개</title>
-    <link href="https://ievy3.github.io/projects/shining-blade/updates/2026-10-30.html"/>
-    <id>https://ievy3.github.io/projects/shining-blade/updates/2026-10-30.html</id>
-    <updated>2026-10-30T00:00:00+09:00</updated>
-    <category term="샤이닝 블레이드"/>
-    <summary>화면에서 나온 문제를 고치고 번역 전체를 다시 검수했습니다. 첫 공개판 v0.9.0을 내놓았습니다.</summary>
-  </entry>
-  <entry>
-    <title>[매지컬 봉신] 전투·통신 문장과 시스템 문구 보완</title>
-    <link href="https://ievy3.github.io/projects/magical-houshin/updates/2026-10-29.html"/>
-    <id>https://ievy3.github.io/projects/magical-houshin/updates/2026-10-29.html</id>
-    <updated>2026-10-29T00:00:00+09:00</updated>
-    <category term="매지컬 봉신"/>
-    <summary>전투 결과와 통신 문장, 남은 고정 문구를 번역하고 메뉴·시스템 문장의 표시를 다듬었습니다.</summary>
-  </entry>
-  <entry>
-    <title>[샤이닝 블레이드] 글자 번짐 수정과 첫 배포판 준비</title>
-    <link href="https://ievy3.github.io/projects/shining-blade/updates/2026-10-29.html"/>
-    <id>https://ievy3.github.io/projects/shining-blade/updates/2026-10-29.html</id>
-    <updated>2026-10-29T00:00:00+09:00</updated>
-    <category term="샤이닝 블레이드"/>
-    <summary>한글 글자 둘레에 흐린 사각형이 보이던 문제를 고치고, 첫 배포판을 준비했습니다.</summary>
   </entry>
 </feed>
