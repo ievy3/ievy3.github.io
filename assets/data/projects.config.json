@@ -964,6 +964,8 @@
     "status": "planned",
     "platform": "PSP",
     "genre": "어드벤처",
-    "subgenre": "서스펜스"
+    "subgenre": "서스펜스",
+    "image": "/assets/images/mirai-nikki-13th-rewrite/official-cover.webp",
+    "imageAlt": "未来日記 RE:WRITE 13人目の日記所有者 일본판 PSP 패키지"
   }
 ]
