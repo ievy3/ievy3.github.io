@@ -5,8 +5,16 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-11-16T00:00:00+09:00</updated>
+  <updated>2026-11-17T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[비오라트의 아틀리에] 영상 한글화와 v1.0.1</title>
+    <link href="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-17.html"/>
+    <id>https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-17.html</id>
+    <updated>2026-11-17T00:00:00+09:00</updated>
+    <category term="비오라트의 아틀리에"/>
+    <summary>오프닝과 이벤트 영상, 아이젤 엔딩에 한글 자막과 해설문을 넣어 수정판 v1.0.1을 내놓았습니다.</summary>
+  </entry>
   <entry>
     <title>[마크로스 트라이앵글 프론티어] 실기 미션 멈춤 수정과 v0.9.1</title>
     <link href="https://ievy3.github.io/projects/macross-triangle-frontier/updates/2026-11-16.html"/>
@@ -318,13 +326,5 @@
     <updated>2026-10-29T00:00:00+09:00</updated>
     <category term="샤이닝 블레이드"/>
     <summary>한글 글자 둘레에 흐린 사각형이 보이던 문제를 고치고, 첫 배포판을 준비했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[매지컬 봉신] 화면 점검과 빠진 문장 찾기</title>
-    <link href="https://ievy3.github.io/projects/magical-houshin/updates/2026-10-28.html"/>
-    <id>https://ievy3.github.io/projects/magical-houshin/updates/2026-10-28.html</id>
-    <updated>2026-10-28T00:00:00+09:00</updated>
-    <category term="매지컬 봉신"/>
-    <summary>타이틀·메뉴·간판 등 그림 글자와 본문 표시를 점검했습니다. 시험 중 남은 일본어가 나와 빠진 문장을 더 찾았습니다.</summary>
   </entry>
 </feed>
