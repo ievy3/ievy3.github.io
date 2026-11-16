@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T15:25:14.136Z",
+  "generatedAt": "2026-11-16T15:46:44.132Z",
   "projects": [
     {
       "title": "비오라트의 아틀리에",
@@ -21,13 +21,13 @@
       "version": "v1.0.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/viorate-v1.0.1/Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
-      "downloadCount": 0,
+      "downloadCount": 2,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/viorate-v1.0.1",
       "releaseName": "[PSP] 비오라트의 아틀리에 ～그람나트의 연금술사 2～ 한글 패치 v1.0.1",
       "releasePublishedAt": "2026-11-16T15:25:03Z",
       "updated": "2026-11-17",
       "publicBuilds": 2,
-      "totalDownloads": 220,
+      "totalDownloads": 224,
       "releaseHistory": [
         {
           "version": "v1.0.1",
@@ -39,7 +39,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/viorate-v1.0.1/Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
-          "downloadCount": 0
+          "downloadCount": 2
         },
         {
           "version": "v1.0.0",
@@ -51,7 +51,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/viorate-v1.0.0/Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.0.zip",
-          "downloadCount": 220
+          "downloadCount": 222
         }
       ],
       "description": "연금술사 비오라트가 채집·조합·전투로 모험하는 PSP용 아틀리에 시리즈 RPG",
@@ -73,9 +73,9 @@
         "PSP-1000"
       ],
       "latestWorklog": {
-        "date": "2026-11-15",
-        "title": "배포 점검과 v1.0.0 꾸러미",
-        "href": "/projects/atelier-viorate/updates/2026-11-15.html"
+        "date": "2026-11-17",
+        "title": "영상 한글화와 v1.0.1",
+        "href": "/projects/atelier-viorate/updates/2026-11-17.html"
       },
       "latestReleaseTag": "viorate-v1.0.1"
     },
@@ -99,13 +99,13 @@
       "version": "v0.9.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/macrosstf-v0.9.1/Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
-      "downloadCount": 67,
+      "downloadCount": 76,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/macrosstf-v0.9.1",
       "releaseName": "[psp] 마크로스 트라이앵글 프론티어 한글 패치 v0.9.1",
       "releasePublishedAt": "2026-11-16T13:12:42Z",
       "updated": "2026-11-16",
       "publicBuilds": 2,
-      "totalDownloads": 439,
+      "totalDownloads": 448,
       "releaseHistory": [
         {
           "version": "v0.9.1",
@@ -117,7 +117,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/macrosstf-v0.9.1/Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
-          "downloadCount": 67
+          "downloadCount": 76
         },
         {
           "version": "v0.9.0",
@@ -1784,13 +1784,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
-      "downloadCount": 706,
+      "downloadCount": 707,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/GOC6-v0.9.0",
       "releaseName": "[PSP] 제네레이션 오브 카오스 6 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-03T07:45:14Z",
       "updated": "2026-10-03",
       "publicBuilds": 1,
-      "totalDownloads": 706,
+      "totalDownloads": 707,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -1802,7 +1802,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
-          "downloadCount": 706
+          "downloadCount": 707
         }
       ],
       "description": "대륙 제패를 목표로 내정·부대 운용·전투를 병행하는 판타지 전략 RPG",
@@ -1917,13 +1917,13 @@
       "version": "v0.9.3",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
-      "downloadCount": 680,
+      "downloadCount": 681,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/soltrigger-v0.9.3",
       "releaseName": "[PSP] 솔 트리거 (SOL TRIGGER) 한글 패치 v0.9.3",
       "releasePublishedAt": "2026-10-01T13:51:21Z",
       "updated": "2026-10-01",
       "publicBuilds": 3,
-      "totalDownloads": 1313,
+      "totalDownloads": 1314,
       "releaseHistory": [
         {
           "version": "v0.9.3",
@@ -1935,7 +1935,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
-          "downloadCount": 680
+          "downloadCount": 681
         },
         {
           "version": "v0.9.2",
