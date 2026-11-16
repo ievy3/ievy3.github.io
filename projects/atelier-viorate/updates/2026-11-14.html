@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 14일 비오라트의 아틀리에 한국어 패치 작업일지">
+  <title>2026.11.14 작업일지 | 비오라트의 아틀리에</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-14.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.14 작업일지 | 비오라트의 아틀리에">
+  <meta property="og:description" content="2026년 11월 14일 비오라트의 아틀리에 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-14.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/atelier-viorate/2026-11-15-title-ko.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.14 작업일지 | 비오라트의 아틀리에">
+  <meta name="twitter:description" content="2026년 11월 14일 비오라트의 아틀리에 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/atelier-viorate/2026-11-15-title-ko.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/atelier-viorate/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.14</p>
+    <h1>표본 검사와<br>번역 검수</h1>
+    <p>글꼴을 픽셀 방식으로 바꿔 흐림을 없애고, 번역을 91묶음 검수해 배포 후보를 만들었습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>REVIEW</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>213행</strong><span>번역 검수 수정</span></div><div><strong>91묶음</strong><span>번역 검수</span></div><div><strong>3건</strong><span>직접 검수 반영</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">FIXES</p><h2>글꼴과 그림</h2>
+    <ul class="compact-list">
+      <li>표본 검사에서 12px 글꼴의 가는 획이 흐려 「월광정」이 「원광정」으로 읽히는 문제를 찾았습니다. 가로획을 진하게 하는 방법은 통하지 않아, 부드럽게 처리한 글꼴 대신 Galmuri11 픽셀 글꼴(1비트)로 바꿔 해결했습니다.</li>
+      <li>대사창과 건너뛰기를 확인하고, 코드가 직접 가리키는 일본어 4개(획득 경험·불참·개·집중)를 연결했습니다.</li>
+      <li>사운드 설정의 「스테레오」 그림이 한 줄 빠져 보이는 문제를 찾아, 게임이 그림을 줄여 그리는 방식에 맞게 다시 그렸습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">REVIEW</p><h2>번역 검수와 배포 후보</h2>
+    <ul class="compact-list">
+      <li>번역 검수 91묶음에서 나온 지적에 따라 213행을 고치고 재검수를 통과했습니다.</li>
+      <li>배포 후보를 빌드했습니다. 첫 점검에서 검수 수정이 빌드에 합쳐지지 않는 문제를 찾아 빌드 순서를 고치고 들여쓰기 4행을 복구했으며, 안내문(그림 글꼴 라이선스)을 정정해 점검을 통과했습니다.</li>
+      <li>직접 검수에서 환경 설정 항목명이 값 칸을 침범하던 것(「글자표시」「진행방향」), 이름표 「바르톨로메우스」(「바르톨로」), 「아빠」「엄마」 이름표 그림자 3건을 고쳤습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>표본 검사 통과</li>
+        <li><span>✓</span>번역 검수 재검수 통과</li>
+        <li><span>✓</span>배포 후보 부팅 화면 확인</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NEXT</p><h2>이어서 할 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>수정 빌드 화면 확인</li>
+        <li><span>○</span>배포 점검</li>
+        <li><span>○</span>v1.0.0 꾸러미</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>처음부터 끝까지의 전체 시험 플레이는 하지 않았습니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">ATELIER VIORATE WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=4" defer></script>
+</body>
+</html>

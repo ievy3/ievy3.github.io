@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 7일 비오라트의 아틀리에 한국어 패치 작업일지">
+  <title>2026.11.07 작업일지 | 비오라트의 아틀리에</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-07.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.07 작업일지 | 비오라트의 아틀리에">
+  <meta property="og:description" content="2026년 11월 7일 비오라트의 아틀리에 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-07.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/atelier-viorate/2026-11-15-title-ko.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.07 작업일지 | 비오라트의 아틀리에">
+  <meta name="twitter:description" content="2026년 11월 7일 비오라트의 아틀리에 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/atelier-viorate/2026-11-15-title-ko.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/atelier-viorate/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.07</p>
+    <h1>구조 파악과<br>첫 한글 표시</h1>
+    <p>게임 데이터 구조와 글꼴을 찾아내 처음으로 한글 대사를 화면에 띄웠습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>START</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>13,631행</strong><span>문자열 추출</span></div><div><strong>709개</strong><span>묶음 항목 왕복 일치</span></div><div><strong>2,350자</strong><span>한글 칸 배정</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">FOUND</p><h2>알아낸 것</h2>
+    <ul class="compact-list">
+      <li>데이터는 압축 묶음 2개와 실행 파일이며, 실행 파일은 암호화돼 있어 에뮬레이터로 복호화본을 얻었습니다.</li>
+      <li>대사·메뉴 문자열이 실행 파일 안 일본어(Shift-JIS) 뭉치와 고정 주소 표에 있다는 것을 확인했습니다. 문자열 13,631행을 뽑아 다시 넣어도 일치하는 것을 검증했습니다.</li>
+      <li>압축 해제·압축 도구를 만들어 묶음 항목 709개가 왕복해도 같은 것을 확인했습니다.</li>
+      <li>글꼴은 시스템 글꼴이 아니라 실행 파일 안의 정적 자료이고, 글자 하나가 16×16 4비트 그림(3,384자)이라는 것을 찾았습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">MADE</p><h2>만든 것</h2>
+    <ul class="compact-list">
+      <li>한자 칸 2,350개를 한글 음절에 배정하고 글꼴을 바꾸는 도구를 만들어, 에뮬레이터에서 첫 한글 대사를 표시했습니다.</li>
+      <li>반각 공백이 뒤 한 글자를 삼키는 규칙을 찾아 전각 공백으로 보내도록 정했습니다.</li>
+      <li>시험 표 20행을 화면에서 확인했습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>첫 한글 대사 표시</li>
+        <li><span>✓</span>시험 표 20행 화면 확인</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NEXT</p><h2>이어서 할 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>추출 범위 확대</li>
+        <li><span>○</span>용어·인물·말투 정본</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>번역은 이후 날짜에 받아 합칩니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">ATELIER VIORATE WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=4" defer></script>
+</body>
+</html>

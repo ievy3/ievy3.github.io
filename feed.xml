@@ -5,8 +5,16 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-11-14T00:00:00+09:00</updated>
+  <updated>2026-11-15T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[비오라트의 아틀리에] 배포 점검과 v1.0.0 꾸러미</title>
+    <link href="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-15.html"/>
+    <id>https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-15.html</id>
+    <updated>2026-11-15T00:00:00+09:00</updated>
+    <category term="비오라트의 아틀리에"/>
+    <summary>수정 빌드와 배포 점검을 통과하고 v1.0.0 배포 꾸러미를 만들었습니다.</summary>
+  </entry>
   <entry>
     <title>[유디의 아틀리에] 마무리 점검과 v1.0.0 배포 준비</title>
     <link href="https://ievy3.github.io/projects/atelier-judie/updates/2026-11-14.html"/>
@@ -14,6 +22,14 @@
     <updated>2026-11-14T00:00:00+09:00</updated>
     <category term="유디의 아틀리에"/>
     <summary>마지막 라벨을 보정하고 배포 점검을 통과해, v1.0.0 배포 꾸러미를 완성했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[비오라트의 아틀리에] 표본 검사와 번역 검수</title>
+    <link href="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-14.html"/>
+    <id>https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-14.html</id>
+    <updated>2026-11-14T00:00:00+09:00</updated>
+    <category term="비오라트의 아틀리에"/>
+    <summary>글꼴을 픽셀 방식으로 바꿔 흐림을 없애고, 번역을 91묶음 검수해 배포 후보를 만들었습니다.</summary>
   </entry>
   <entry>
     <title>[봄버맨 제터스] 검수 반영과 v1.0.0 공개</title>
@@ -32,6 +48,14 @@
     <summary>그림과 글이 칸을 넘치지 않는지 전수로 재고, 몬스터 도감과 인물 소개를 칸에 맞췄습니다.</summary>
   </entry>
   <entry>
+    <title>[비오라트의 아틀리에] 그림 판정과 실행 표본 확인</title>
+    <link href="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-13.html"/>
+    <id>https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-13.html</id>
+    <updated>2026-11-13T00:00:00+09:00</updated>
+    <category term="비오라트의 아틀리에"/>
+    <summary>그림 189장을 판정하고, 실행 화면에서 나온 문제를 고쳤습니다.</summary>
+  </entry>
+  <entry>
     <title>[봄버맨 제터스] 일시정지 배너와 외부 검수 의뢰</title>
     <link href="https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-13.html"/>
     <id>https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-13.html</id>
@@ -46,6 +70,14 @@
     <updated>2026-11-12T00:00:00+09:00</updated>
     <category term="유디의 아틀리에"/>
     <summary>타이틀 그림을 다시 다듬고, 데이터 설치 뒤 일본어로 돌아오던 문제를 포함한 결함을 고쳤습니다.</summary>
+  </entry>
+  <entry>
+    <title>[비오라트의 아틀리에] 그림 삽입과 직접 만든 그림 적용</title>
+    <link href="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-12.html"/>
+    <id>https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-12.html</id>
+    <updated>2026-11-12T00:00:00+09:00</updated>
+    <category term="비오라트의 아틀리에"/>
+    <summary>그림을 게임에 넣고 첫 배포 점검을 받았으며, 직접 만든 완성본 그림을 적용했습니다.</summary>
   </entry>
   <entry>
     <title>[봄버맨 제터스] 그림 한글화와 대사창 글꼴 교체</title>
@@ -64,12 +96,28 @@
     <summary>1차 번역을 합쳐 처음으로 한글판을 만들고, 시험 플레이에서 나온 문제를 고쳤습니다.</summary>
   </entry>
   <entry>
+    <title>[비오라트의 아틀리에] 번역 반입과 첫 통합 빌드</title>
+    <link href="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-11.html"/>
+    <id>https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-11.html</id>
+    <updated>2026-11-11T00:00:00+09:00</updated>
+    <category term="비오라트의 아틀리에"/>
+    <summary>번역본을 합쳐 처음으로 한글판을 만들고, 그림 작업을 시작했습니다.</summary>
+  </entry>
+  <entry>
     <title>[봄버맨 제터스] 글자 구조 분석과 한글 표시 · 번역 시작</title>
     <link href="https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-11.html"/>
     <id>https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-11.html</id>
     <updated>2026-11-11T00:00:00+09:00</updated>
     <category term="봄버맨 제터스"/>
     <summary>게임이 한글을 그릴 수 있게 만들고, 번역 1차와 첫 그림 한글화까지 한 날입니다.</summary>
+  </entry>
+  <entry>
+    <title>[비오라트의 아틀리에] 범위 확장과 정본 확정</title>
+    <link href="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-10.html"/>
+    <id>https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-10.html</id>
+    <updated>2026-11-10T00:00:00+09:00</updated>
+    <category term="비오라트의 아틀리에"/>
+    <summary>추출 범위를 넓히고, 용어·인물·말투 기준(정본)을 확정해 번역 묶음을 만들었습니다.</summary>
   </entry>
   <entry>
     <title>[토마토 어드벤처] 한글 표시부터 v1.0.0 공개까지</title>
@@ -102,6 +150,14 @@
     <updated>2026-11-07T00:00:00+09:00</updated>
     <category term="유디의 아틀리에"/>
     <summary>원본 파일 구조를 풀어 보고, 글자가 어디에 들어 있는지 찾아냈습니다.</summary>
+  </entry>
+  <entry>
+    <title>[비오라트의 아틀리에] 구조 파악과 첫 한글 표시</title>
+    <link href="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-07.html"/>
+    <id>https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-07.html</id>
+    <updated>2026-11-07T00:00:00+09:00</updated>
+    <category term="비오라트의 아틀리에"/>
+    <summary>게임 데이터 구조와 글꼴을 찾아내 처음으로 한글 대사를 화면에 띄웠습니다.</summary>
   </entry>
   <entry>
     <title>[컨셉션: 내 아이를 낳아줘] 배포 직전 점검과 v0.9.0 공개</title>
@@ -270,61 +326,5 @@
     <updated>2026-10-28T00:00:00+09:00</updated>
     <category term="샤이닝 블레이드"/>
     <summary>여러 한글 글꼴을 게임 화면에서 비교해 얇은둥근모로 정하고, 붓글씨 제목의 분위기를 살렸습니다.</summary>
-  </entry>
-  <entry>
-    <title>[매지컬 봉신] 대사 초벌 번역과 한글 이름 자판</title>
-    <link href="https://ievy3.github.io/projects/magical-houshin/updates/2026-10-27.html"/>
-    <id>https://ievy3.github.io/projects/magical-houshin/updates/2026-10-27.html</id>
-    <updated>2026-10-27T00:00:00+09:00</updated>
-    <category term="매지컬 봉신"/>
-    <summary>대사를 뽑고 다시 넣는 방법과 한글 글꼴을 준비하고, 본문 초벌 번역을 마쳤습니다.</summary>
-  </entry>
-  <entry>
-    <title>[샤이닝 블레이드] 그림 다듬기와 실행 파일 문구</title>
-    <link href="https://ievy3.github.io/projects/shining-blade/updates/2026-10-27.html"/>
-    <id>https://ievy3.github.io/projects/shining-blade/updates/2026-10-27.html</id>
-    <updated>2026-10-27T00:00:00+09:00</updated>
-    <category term="샤이닝 블레이드"/>
-    <summary>일본어를 지운 바탕으로 그림을 다시 그리고 그림 297장의 검수를 마쳤습니다. 실행 파일에 들어 있는 화면 문구도 한글로 바꿨습니다.</summary>
-  </entry>
-  <entry>
-    <title>[매지컬 봉신] 프로젝트 시작</title>
-    <link href="https://ievy3.github.io/projects/magical-houshin/updates/2026-10-26.html"/>
-    <id>https://ievy3.github.io/projects/magical-houshin/updates/2026-10-26.html</id>
-    <updated>2026-10-26T00:00:00+09:00</updated>
-    <category term="매지컬 봉신"/>
-    <summary>GBA 「マジカル封神」 한국어 패치 작업을 시작했습니다. 롬 구조를 확인하고 표기 기준을 정했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[신 우리들의 태양: 역습의 사바타] 그림 202장 한글화와 v0.9.4 공개</title>
-    <link href="https://ievy3.github.io/projects/shin-bokura-no-taiyou/updates/2026-10-26.html"/>
-    <id>https://ievy3.github.io/projects/shin-bokura-no-taiyou/updates/2026-10-26.html</id>
-    <updated>2026-10-26T00:00:00+09:00</updated>
-    <category term="신 우리들의 태양: 역습의 사바타"/>
-    <summary>남은 일본어 그림 202장을 한글로 바꿔 넣고, 화면에서 나온 문제와 표기를 다듬었습니다. 첫 공개판 v0.9.4를 내놓았습니다.</summary>
-  </entry>
-  <entry>
-    <title>[샤이닝 블레이드] 대사 번역과 그림 한글화</title>
-    <link href="https://ievy3.github.io/projects/shining-blade/updates/2026-10-26.html"/>
-    <id>https://ievy3.github.io/projects/shining-blade/updates/2026-10-26.html</id>
-    <updated>2026-10-26T00:00:00+09:00</updated>
-    <category term="샤이닝 블레이드"/>
-    <summary>대사를 모두 번역하고 검수를 한 차례 반영했습니다. 글자가 들어간 그림도 대량으로 한글로 바꾸기 시작했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[GTA 신다코 크로니클] v0.9.0 공개</title>
-    <link href="https://ievy3.github.io/projects/gta-sindacco-chronicles/updates/2026-10-25.html"/>
-    <id>https://ievy3.github.io/projects/gta-sindacco-chronicles/updates/2026-10-25.html</id>
-    <updated>2026-10-25T00:00:00+09:00</updated>
-    <category term="GTA 신다코 크로니클"/>
-    <summary>PSP-1000 실기에서 부팅과 게임 실행을 확인하고, 첫 공개판 v0.9.0을 내놓았습니다. 영어판 v1.1 ISO 전용입니다.</summary>
-  </entry>
-  <entry>
-    <title>[마블 얼티밋 얼라이언스] 실기 확인 수정과 v0.9.0 공개</title>
-    <link href="https://ievy3.github.io/projects/marvel-ultimate-alliance/updates/2026-10-25.html"/>
-    <id>https://ievy3.github.io/projects/marvel-ultimate-alliance/updates/2026-10-25.html</id>
-    <updated>2026-10-25T00:00:00+09:00</updated>
-    <category term="마블 얼티밋 얼라이언스"/>
-    <summary>PSP 실기 시험판에서 나온 문제를 고치고, 영상 자막 타이밍과 타이틀 로고의 반짝임을 다듬었습니다. 첫 공개판 v0.9.0을 내놓았습니다.</summary>
   </entry>
 </feed>

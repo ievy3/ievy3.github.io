@@ -820,12 +820,34 @@
   {
     "slug": "atelier-viorate",
     "title": "비오라트의 아틀리에",
-    "status": "planned",
-    "imageAlt": "ヴィオラートのアトリエ 일본판 PSP 패키지",
+    "imageAlt": "비오라트의 아틀리에 한글 타이틀 화면",
     "platform": "PSP",
     "genre": "RPG",
     "subgenre": "연금술",
-    "image": "/assets/images/atelier-viorate/official-cover.webp"
+    "image": "/assets/images/atelier-viorate/2026-11-15-title-ko.webp",
+    "type": "한국어 패치",
+    "releasePrefix": "viorate-",
+    "description": "연금술사 비오라트가 채집·조합·전투로 모험하는 PSP용 아틀리에 시리즈 RPG",
+    "keywords": [
+      "비오라트의 아틀리에",
+      "비오라트",
+      "아틀리에",
+      "그람나트의 연금술사 2",
+      "군청빛 추억",
+      "atelier viorate",
+      "ヴィオラートのアトリエ",
+      "グラムナートの錬金術士",
+      "거스트",
+      "gust",
+      "psp"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "stage": 5,
+    "updated": "2026-11-15",
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ]
   },
   {
     "slug": "tomato-adventure",
