@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 16일 마크로스 트라이앵글 프론티어 한국어 패치 작업일지">
+  <title>2026.11.16 작업일지 | 마크로스 트라이앵글 프론티어</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/macross-triangle-frontier/updates/2026-11-16.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.16 작업일지 | 마크로스 트라이앵글 프론티어">
+  <meta property="og:description" content="2026년 11월 16일 마크로스 트라이앵글 프론티어 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/macross-triangle-frontier/updates/2026-11-16.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/macross-triangle-frontier/2026-11-08-title-ko.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.16 작업일지 | 마크로스 트라이앵글 프론티어">
+  <meta name="twitter:description" content="2026년 11월 16일 마크로스 트라이앵글 프론티어 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/macross-triangle-frontier/2026-11-08-title-ko.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/macross-triangle-frontier/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.16</p>
+    <h1>실기 미션 멈춤 수정과<br>v0.9.1</h1>
+    <p>실기 PSP에서 미션을 시작하면 멈추던 문제의 원인을 찾아 고치고, 수정판 v0.9.1을 내놓았습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>FIX</span><span class="badge">v0.9.1</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>1곳</strong><span>원문으로 되돌린 내부 문자열</span></div>
+    <div><strong>1개</strong><span>바뀐 파일(실행 파일)</span></div>
+    <div><strong>0건</strong><span>번역·그림 변경</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">FIXES</p><h2>고친 문제</h2>
+    <ul class="compact-list">
+      <li>실기(PSP)에서 미션을 시작하면 게임이 멈추고 전원이 꺼지던 문제를 고쳤습니다.</li>
+      <li>원인은 실행 파일 안의 내부 이름표 「追加装備」를 번역한 것이었습니다. 게임이 이 값으로 미션 데이터를 읽는 터라, 이 문자열만 원문으로 되돌렸습니다. 코드를 분석한 결과 화면에는 쓰이지 않는 내부 값으로 봅니다.</li>
+      <li>v0.9.0과 바뀐 파일은 실행 파일(EBOOT) 하나뿐입니다. 번역과 그림은 그대로입니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>실기 PSP-1000에서 미션에 들어가는 것</li>
+        <li><span>✓</span>실기 PSP-1000에서 기동</li>
+        <li><span>✓</span>PPSSPP v1.20.4</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NOT YET</p><h2>직접 못 본 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>실기에서 미션 진입 이후 화면</li>
+        <li><span>○</span>미션 중 무전 자막</li>
+        <li><span>○</span>이름 입력 화면·ATTENTION 창</li>
+        <li><span>○</span>학원 모드 내 저장</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>v0.9.0을 쓰고 계셨다면 일본어 원본 ISO에 v0.9.1 패처를 새로 적용해 주세요. v0.9.0 결과물에 덧씌우는 방식은 지원하지 않습니다.</li>
+      <li>타이틀의 「데이터 설치」는 쓰지 마세요. 일본어판으로 이미 설치했다면 한글판 첫 실행 전에 설치 데이터를 지워 주세요.</li>
+      <li>처음부터 끝까지 이어서 시험 플레이하지는 않았습니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">MACROSS TRIANGLE FRONTIER WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=4" defer></script>
+</body>
+</html>
