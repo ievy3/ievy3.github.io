@@ -41,12 +41,13 @@ const fallbackProjects = [
       "메카"
     ],
     "verification": [
-      "PPSSPP"
+      "PPSSPP",
+      "PSP-1000"
     ],
     "latestWorklog": {
-      "date": "2026-11-08",
-      "title": "마무리 점검과 v0.9.0 공개",
-      "href": "/projects/macross-triangle-frontier/updates/2026-11-08.html"
+      "date": "2026-11-16",
+      "title": "실기 미션 멈춤 수정과 v0.9.1",
+      "href": "/projects/macross-triangle-frontier/updates/2026-11-16.html"
     }
   },
   {
@@ -110,7 +111,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/judie-v1.0.0/Noctil_Patchworks_Offline_JudieAtelier_KO_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/judie-v1.0.0",
     "releasePublishedAt": "2026-11-15T12:11:37Z",
-    "totalDownloads": 268,
+    "totalDownloads": 269,
     "description": "연금술사 유디트의 채집·조합·전투 모험을 그린 PSP용 아틀리에 시리즈 RPG",
     "keywords": [
       "유디의 아틀리에",
@@ -152,7 +153,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/jetters-v1.0.0/BombermanJetters_KrPatcher_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/jetters-v1.0.0",
     "releasePublishedAt": "2026-11-14T09:51:24Z",
-    "totalDownloads": 281,
+    "totalDownloads": 282,
     "description": "폭탄을 놓아 길을 열고 적과 겨루는 GBA용 봄버맨 액션",
     "keywords": [
       "봄버맨",
