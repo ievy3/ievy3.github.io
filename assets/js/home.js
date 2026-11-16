@@ -9,6 +9,78 @@ let showAllProjects = false;
 // BEGIN fallback projects
 const fallbackProjects = [
   {
+    "title": "듀나미스 15",
+    "href": "/projects/dunamis15/",
+    "image": "/assets/images/dunamis15/official-cover.webp",
+    "imageAlt": "デュナミス15 일본판 PSP 패키지",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "노벨",
+    "type": "한국어 패치",
+    "status": "development",
+    "statusLabel": "작업 중",
+    "stage": 5,
+    "version": "첫 공개 전",
+    "updated": "2026-11-17",
+    "totalDownloads": 0,
+    "description": "5pb의 서스펜스 어드벤처 노벨",
+    "keywords": [
+      "듀나미스 15",
+      "듀나미스15",
+      "두나미스15",
+      "dunamis15",
+      "dunamis 15",
+      "デュナミス15",
+      "5pb",
+      "psp",
+      "노벨"
+    ],
+    "verification": [
+      "PPSSPP"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-17",
+      "title": "한글 오프닝 영상과 배포 후보",
+      "href": "/projects/dunamis15/updates/2026-11-17.html"
+    }
+  },
+  {
+    "title": "미래일기 -13번째 일기 소유자- Re:write",
+    "href": "/projects/mirai-nikki-13th-rewrite/",
+    "image": "/assets/images/mirai-nikki-13th-rewrite/official-cover.webp",
+    "imageAlt": "未来日記 RE:WRITE 13人目の日記所有者 일본판 PSP 패키지",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "서스펜스",
+    "type": "한국어 패치",
+    "status": "development",
+    "statusLabel": "작업 중",
+    "stage": 3,
+    "version": "첫 공개 전",
+    "updated": "2026-11-17",
+    "totalDownloads": 0,
+    "description": "애니메이션 「미래일기」를 바탕으로 한 PSP용 어드벤처",
+    "keywords": [
+      "미래일기",
+      "미래일기 re:write",
+      "미래일기 리라이트",
+      "mirai nikki",
+      "future diary",
+      "未来日記",
+      "リライト",
+      "psp",
+      "어드벤처"
+    ],
+    "verification": [],
+    "latestWorklog": {
+      "date": "2026-11-16",
+      "title": "표시 기반 · 범위 · 정본 · 번역 묶음",
+      "href": "/projects/mirai-nikki-13th-rewrite/updates/2026-11-16.html"
+    }
+  },
+  {
     "title": "비오라트의 아틀리에",
     "href": "/projects/atelier-viorate/",
     "image": "/assets/images/atelier-viorate/2026-11-15-title-ko.webp",
@@ -26,7 +98,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/viorate-v1.0.1/Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/viorate-v1.0.1",
     "releasePublishedAt": "2026-11-16T15:25:03Z",
-    "totalDownloads": 224,
+    "totalDownloads": 268,
     "description": "연금술사 비오라트가 채집·조합·전투로 모험하는 PSP용 아틀리에 시리즈 RPG",
     "keywords": [
       "비오라트의 아틀리에",
@@ -52,6 +124,158 @@ const fallbackProjects = [
     }
   },
   {
+    "title": "언체인 블레이즈 렉스",
+    "href": "/projects/unchained-blades-rexx/",
+    "image": "/assets/images/unchained-blades-rexx/official-cover.webp",
+    "imageAlt": "アンチェインブレイズ レクス 일본판 PSP 패키지",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "던전",
+    "type": "한국어 패치",
+    "status": "development",
+    "statusLabel": "작업 중",
+    "stage": 5,
+    "version": "첫 공개 전",
+    "updated": "2026-11-17",
+    "totalDownloads": 0,
+    "description": "몬스터를 동료로 삼는 언체인 시스템의 1인칭 던전 RPG",
+    "keywords": [
+      "언체인 블레이즈",
+      "언체인 블레이즈 렉스",
+      "언체인블레이즈",
+      "unchained blades",
+      "unchainblades rexx",
+      "アンチェインブレイズ",
+      "レクス",
+      "furyu",
+      "psp",
+      "던전"
+    ],
+    "verification": [
+      "PPSSPP"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-17",
+      "title": "검수 반영과 시험 빌드(7차)",
+      "href": "/projects/unchained-blades-rexx/updates/2026-11-17.html"
+    }
+  },
+  {
+    "title": "컨셉션 II: 일곱 별의 인도와 마수의 미궁",
+    "href": "/projects/conception-2/",
+    "image": "/assets/images/conception-2/official-cover.webp",
+    "imageAlt": "コンセプションII 七星の導きとマズルの悪夢 일본판 PS Vita 패키지",
+    "imageFit": "cover",
+    "platform": "PS Vita",
+    "genre": "RPG",
+    "subgenre": "던전",
+    "type": "한국어 패치",
+    "status": "development",
+    "statusLabel": "작업 중",
+    "stage": 5,
+    "version": "첫 공개 전",
+    "updated": "2026-11-17",
+    "totalDownloads": 0,
+    "description": "던전 탐색 RPG와 연애 시뮬레이션이 섞인 PS Vita용 스파이크 춘소프트 작품",
+    "keywords": [
+      "컨셉션 2",
+      "컨셉션 II",
+      "컨셉션2",
+      "conception ii",
+      "conception 2",
+      "コンセプションII",
+      "七星の導き",
+      "스파이크 춘소프트",
+      "ps vita",
+      "vita"
+    ],
+    "verification": [
+      "Vita3K"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-17",
+      "title": "영어 표기 정리",
+      "href": "/projects/conception-2/updates/2026-11-17.html"
+    }
+  },
+  {
+    "title": "코드:18",
+    "href": "/projects/code-18/",
+    "image": "/assets/images/code-18/official-cover.webp",
+    "imageAlt": "코드:18 일본판 PSP 패키지",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "노벨",
+    "type": "한국어 패치",
+    "status": "development",
+    "statusLabel": "작업 중",
+    "stage": 5,
+    "version": "첫 공개 전",
+    "updated": "2026-11-17",
+    "totalDownloads": 0,
+    "description": "류세이 학원을 무대로 한 PSP용 SF 비주얼 노벨",
+    "keywords": [
+      "코드18",
+      "코드:18",
+      "코드 18",
+      "code_18",
+      "code 18",
+      "コード_18",
+      "사이버프론트",
+      "cyberfront",
+      "kid",
+      "psp"
+    ],
+    "verification": [
+      "PPSSPP"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-17",
+      "title": "화면 확인과 시험 플레이",
+      "href": "/projects/code-18/updates/2026-11-17.html"
+    }
+  },
+  {
+    "title": "F-ZERO 클라이맥스",
+    "href": "/projects/f-zero-climax/",
+    "image": "/assets/images/f-zero-climax/official-cover.webp",
+    "imageAlt": "F-ZERO クライマックス 일본판 GBA 패키지",
+    "imageFit": "cover",
+    "platform": "GBA",
+    "genre": "레이싱",
+    "subgenre": "SF",
+    "type": "한국어 패치",
+    "status": "development",
+    "statusLabel": "작업 중",
+    "stage": 5,
+    "version": "첫 공개 전",
+    "updated": "2026-11-17",
+    "totalDownloads": 0,
+    "description": "애니메이션 「F-ZERO 팔콘 전설」 이야기를 레이스로 따라가는 GBA용 SF 레이싱",
+    "keywords": [
+      "f-zero",
+      "f-zero climax",
+      "에프제로",
+      "에프제로 클라이맥스",
+      "f-zero 클라이맥스",
+      "エフゼロ",
+      "クライマックス",
+      "gba",
+      "닌텐도",
+      "레이싱"
+    ],
+    "verification": [
+      "mGBA"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-17",
+      "title": "시험 플레이 반영",
+      "href": "/projects/f-zero-climax/updates/2026-11-17.html"
+    }
+  },
+  {
     "title": "마크로스 트라이앵글 프론티어",
     "href": "/projects/macross-triangle-frontier/",
     "image": "/assets/images/macross-triangle-frontier/2026-11-08-title-ko.webp",
@@ -69,7 +293,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/macrosstf-v0.9.1/Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/macrosstf-v0.9.1",
     "releasePublishedAt": "2026-11-16T13:12:42Z",
-    "totalDownloads": 448,
+    "totalDownloads": 463,
     "description": "TV 애니메이션 『마크로스 F』를 바탕으로 한 PSP 메카 액션 게임",
     "keywords": [
       "마크로스",
@@ -111,7 +335,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/judie-v1.0.0/Noctil_Patchworks_Offline_JudieAtelier_KO_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/judie-v1.0.0",
     "releasePublishedAt": "2026-11-15T12:11:37Z",
-    "totalDownloads": 278,
+    "totalDownloads": 280,
     "description": "연금술사 유디트의 채집·조합·전투 모험을 그린 PSP용 아틀리에 시리즈 RPG",
     "keywords": [
       "유디의 아틀리에",
@@ -153,7 +377,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/jetters-v1.0.0/BombermanJetters_KrPatcher_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/jetters-v1.0.0",
     "releasePublishedAt": "2026-11-14T09:51:24Z",
-    "totalDownloads": 287,
+    "totalDownloads": 288,
     "description": "폭탄을 놓아 길을 열고 적과 겨루는 GBA용 봄버맨 액션",
     "keywords": [
       "봄버맨",
@@ -233,7 +457,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/conception-v0.9.0/Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/conception-v0.9.0",
     "releasePublishedAt": "2026-11-07T13:14:29Z",
-    "totalDownloads": 391,
+    "totalDownloads": 392,
     "description": "「별의 자식」을 낳을 수 있는 소녀들과 던전을 탐험하는 PSP 롤플레잉 게임",
     "keywords": [
       "컨셉션",
@@ -1138,7 +1362,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.9.0",
     "releasePublishedAt": "2026-10-01T15:02:39Z",
-    "totalDownloads": 1249,
+    "totalDownloads": 1251,
     "description": "소환술과 파트너 시스템을 중심으로 전개되는 판타지 전략 RPG",
     "keywords": [
       "서몬 나이트 5",
@@ -1230,18 +1454,6 @@ const fallbackProjects = [
     }
   },
   {
-    "title": "듀나미스 15",
-    "slug": "dunamis15",
-    "image": "/assets/images/dunamis15/official-cover.webp",
-    "imageAlt": "デュナミス15 일본판 PSP 패키지",
-    "platform": "PSP",
-    "genre": "어드벤처",
-    "subgenre": "노벨",
-    "status": "planned",
-    "statusLabel": "작업 예정",
-    "updated": ""
-  },
-  {
     "title": "드래곤 드라이브: 월드 D 브레이크",
     "slug": "dragon-drive-world-d-break",
     "image": "/assets/images/dragon-drive-world-d-break/official-cover.webp",
@@ -1249,18 +1461,6 @@ const fallbackProjects = [
     "platform": "GBA",
     "genre": "RPG",
     "subgenre": "배틀",
-    "status": "planned",
-    "statusLabel": "작업 예정",
-    "updated": ""
-  },
-  {
-    "title": "언체인 블레이즈 렉스",
-    "slug": "unchained-blades-rexx",
-    "image": "/assets/images/unchained-blades-rexx/official-cover.webp",
-    "imageAlt": "アンチェインブレイズ レクス 일본판 PSP 패키지",
-    "platform": "PSP",
-    "genre": "RPG",
-    "subgenre": "던전",
     "status": "planned",
     "statusLabel": "작업 예정",
     "updated": ""
@@ -1278,30 +1478,6 @@ const fallbackProjects = [
     "updated": ""
   },
   {
-    "title": "컨셉션 II: 일곱 별의 인도와 마수의 미궁",
-    "slug": "conception-2",
-    "image": "/assets/images/conception-2/official-cover.webp",
-    "imageAlt": "コンセプションII 七星の導きとマズルの悪夢 일본판 PS Vita 패키지",
-    "platform": "PS Vita",
-    "genre": "RPG",
-    "subgenre": "던전",
-    "status": "planned",
-    "statusLabel": "작업 예정",
-    "updated": ""
-  },
-  {
-    "title": "코드:18",
-    "slug": "code-18",
-    "image": "/assets/images/code-18/official-cover.webp",
-    "imageAlt": "コード_18 일본판 PSP 패키지",
-    "platform": "PSP",
-    "genre": "어드벤처",
-    "subgenre": "노벨",
-    "status": "planned",
-    "statusLabel": "작업 예정",
-    "updated": ""
-  },
-  {
     "title": "하트커넥트: 예지랜덤",
     "slug": "kokoro-connect-yochi-random",
     "image": "/assets/images/kokoro-connect-yochi-random/official-cover.webp",
@@ -1309,18 +1485,6 @@ const fallbackProjects = [
     "platform": "PSP",
     "genre": "어드벤처",
     "subgenre": "노벨",
-    "status": "planned",
-    "statusLabel": "작업 예정",
-    "updated": ""
-  },
-  {
-    "title": "F-ZERO 클라이맥스",
-    "slug": "f-zero-climax",
-    "image": "/assets/images/f-zero-climax/official-cover.webp",
-    "imageAlt": "F-ZERO クライマックス 일본판 GBA 패키지",
-    "platform": "GBA",
-    "genre": "레이싱",
-    "subgenre": "SF",
     "status": "planned",
     "statusLabel": "작업 예정",
     "updated": ""

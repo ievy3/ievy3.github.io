@@ -17,7 +17,7 @@
 ## Projects
 
 <!-- BEGIN projects (scripts/build-site-files.mjs가 projects.generated.json으로 자동 갱신합니다) -->
-현재 공개 허브에서 관리하는 프로젝트는 **31개**입니다(공개 30 · 작업 중 1). 버전은 공개된 최신 배포본 기준입니다.
+현재 공개 허브에서 관리하는 프로젝트는 **37개**입니다(공개 30 · 작업 중 7). 버전은 공개된 최신 배포본 기준입니다.
 
 ### 공개
 
@@ -54,18 +54,19 @@
 
 ### 작업 중
 
+- [듀나미스 15](https://ievy3.github.io/projects/dunamis15/) (PSP) — 작업 중 · 5단계 실행 검수
+- [언체인 블레이즈 렉스](https://ievy3.github.io/projects/unchained-blades-rexx/) (PSP) — 작업 중 · 5단계 실행 검수
+- [컨셉션 II: 일곱 별의 인도와 마수의 미궁](https://ievy3.github.io/projects/conception-2/) (PS Vita) — 작업 중 · 5단계 실행 검수
+- [코드:18](https://ievy3.github.io/projects/code-18/) (PSP) — 작업 중 · 5단계 실행 검수
+- [F-ZERO 클라이맥스](https://ievy3.github.io/projects/f-zero-climax/) (GBA) — 작업 중 · 5단계 실행 검수
+- [미래일기 -13번째 일기 소유자- Re:write](https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/) (PSP) — 작업 중 · 3단계 대사 번역
 - [바케모노가타리 포터블](https://ievy3.github.io/projects/bakemonogatari-portable/) (PSP) — 작업 중 · 3단계 대사 번역
 
 ### 작업 예정
 
-- 듀나미스 15 (PSP)
 - 드래곤 드라이브: 월드 D 브레이크 (GBA)
-- 언체인 블레이즈 렉스 (PSP)
 - 일상 (우주인) (PSP)
-- 컨셉션 II: 일곱 별의 인도와 마수의 미궁 (PS Vita)
-- 코드:18 (PSP)
 - 하트커넥트: 예지랜덤 (PSP)
-- F-ZERO 클라이맥스 (GBA)
 <!-- END projects -->
 
 최신 다운로드 링크와 패치 이력, 적용 안내, 작업 기록은 각 프로젝트 페이지에서 확인할 수 있습니다.
