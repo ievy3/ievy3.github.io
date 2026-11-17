@@ -28,48 +28,57 @@
   <a class="back" href="/projects/dunamis15/updates/">← 전체 작업일지</a>
   <header class="entry-hero">
     <p class="eyebrow">WORK LOG · 2026.11.17</p>
-    <h1>한글 오프닝 영상과<br>배포 후보</h1>
-    <p>한글로 만든 오프닝 영상을 원본과 같은 크기로 넣은 배포 후보를 만들었습니다.</p>
-    <div class="badges"><span class="badge badge-live"><i></i>VIDEO</span></div>
+    <h1>한글 오프닝 영상과<br>v1.0.1 공개</h1>
+    <p>한글로 만든 오프닝 영상을 원본과 같은 크기로 넣고, 시험 플레이와 배포 점검을 거쳐 첫 공개판 v1.0.1을 내놓았습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>RELEASE</span><span class="badge">v1.0.1</span></div>
   </header>
   <section class="entry-summary">
-    <div><strong>18,896,896B</strong><span>원본과 같은 영상 크기</span></div><div><strong>1개</strong><span>바뀐 파일(영상)</span></div><div><strong>0건</strong><span>남은 일본어(판정)</span></div>
+    <div><strong>18,896,896B</strong><span>원본과 같은 영상 크기</span></div>
+    <div><strong>20%</strong><span>시험 플레이 텍스트 독파율</span></div>
+    <div><strong>8가지</strong><span>패처 시험 통과</span></div>
   </section>
   <section class="box entry-section">
-    <p class="eyebrow">VIDEO</p><h2>영상</h2>
+    <p class="eyebrow">VIDEO</p><h2>오프닝 영상</h2>
     <ul class="compact-list">
       <li>한글 영상을 원본 성질(H.264 Main L2.1)로 다시 인코드하고, 원본 오디오·팩 구조를 따라 원본과 같은 크기(18,896,896바이트)로 만들었습니다. 헤더와 오디오 바이트도 같습니다.</li>
-      <li>6차 빌드와 바뀐 파일은 오프닝 영상 하나뿐인 것을 확인했습니다. PPSSPP에서 끝까지 재생되고 건너뛸 수 있으며, 화면 판정에서 일본어가 남지 않았습니다.</li>
+      <li>이전 빌드와 바뀐 파일은 오프닝 영상 하나뿐입니다. PPSSPP에서 끝까지 재생되고 건너뛸 수 있으며, 화면 판정에서 일본어가 남지 않았습니다.</li>
+      <li>곡 크레딧의 작은 줄이 흐려서 「시무라」로도 읽혔지만, 확인 결과 의도한 「시쿠라」가 맞습니다.</li>
+      <li>엔딩·그랜드 엔딩 영상은 곡 크레딧과 스태프롤뿐이라 한글화하지 않기로 했습니다.</li>
     </ul>
   </section>
   <section class="box entry-section">
-    <p class="eyebrow">NOTES</p><h2>남은 확인</h2>
+    <p class="eyebrow">RELEASE</p><h2>시험 플레이와 배포</h2>
     <ul class="compact-list">
-      <li>곡 크레딧의 작은 줄이 흐려서 「시무라」로도 읽힙니다. 의도한 「시쿠라」가 맞는지 확인 중입니다.</li>
-      <li>시스템 메뉴 설명줄의 글자 간격 문제는 다시 그리지 않고 그대로 두기로 했습니다.</li>
+      <li>시험 플레이에서 텍스트 독파율 20%까지 문제가 없었고, 저장·불러오기, 오프닝 건너뛰기, 자동 재생이 잘 동작했습니다. PSP 실기에서도 작동했습니다.</li>
+      <li>시스템 메뉴 설명줄의 글자 간격 문제(「열람합니다」가 「열람하빈다」처럼 보임)는 다시 그리지 않고 「그대로 둔 것」에 넣었습니다.</li>
+      <li>배포 직전 점검 4차에서 안내문이 오프닝을 「그대로」로 적고 있던 것과 시험 플레이 기록이 없던 것이 지적되어, 안내문을 고치고 기록을 남긴 뒤 5차 점검을 통과했습니다.</li>
+      <li>v1.0.1 배포 꾸러미를 만들어 패처 시험 8가지를 통과했고, 결과 ISO의 해시가 점검한 빌드와 같은 것을 확인했습니다.</li>
     </ul>
   </section>
   <section class="entry-grid validation-grid">
     <article class="box entry-section">
       <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
       <ul class="log-checklist">
-        <li><span>✓</span>오프닝 영상 끝까지 재생·건너뛰기</li>
-        <li><span>✓</span>화면 판정 일본어 0</li>
+        <li><span>✓</span>PPSSPP에서 오프닝 끝까지 재생·건너뛰기</li>
+        <li><span>✓</span>시험 플레이 텍스트 독파율 20%</li>
+        <li><span>✓</span>PSP 실기 작동</li>
+        <li><span>✓</span>배포 점검 5차 통과</li>
       </ul>
     </article>
     <article class="box entry-section">
-      <p class="eyebrow">NEXT</p><h2>이어서 할 것</h2>
+      <p class="eyebrow">NOT YET</p><h2>직접 못 본 것</h2>
       <ul class="log-checklist">
-        <li><span>○</span>직접 시험 플레이 30분</li>
-        <li><span>○</span>재점검</li>
-        <li><span>○</span>공개 꾸러미</li>
+        <li><span>○</span>4장 이후 장면 대부분과 엔딩</li>
+        <li><span>○</span>엑스트라의 음악·갤러리·프리토크 화면</li>
+        <li><span>○</span>일본어판 세이브 불러오기</li>
       </ul>
     </article>
   </section>
   <section class="box entry-section">
     <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
     <ul class="compact-list">
-      <li>PSP 실기에서는 영상을 확인하지 못했습니다.</li>
+      <li>일본어판으로 설치해 둔 데이터가 남아 있으면 한글판이 오프닝 뒤 검은 화면에서 멈춥니다. 메모리 스틱의 설치 데이터 폴더를 지운 뒤 쓰세요.</li>
+      <li>이전에 만든 v1.0.0 꾸러미는 공개하지 않았고, v1.0.1이 첫 공개판입니다.</li>
     </ul>
   </section>
   <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
