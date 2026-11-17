@@ -1053,3 +1053,9 @@ footer a:hover{text-decoration:underline}
 }
 
 .hcb-loading{color:var(--muted);text-decoration:none}
+
+/* 최신 업데이트: 세 줄(공개 뒤 고친 패치 3건) */
+.update-patches .update-list{grid-template-columns:1fr}
+.update-card .popular-thumb{width:96px}
+.update-card .latest-update-copy .update-summary{color:#c3c5cd;white-space:normal;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical}
+@media (max-width:640px){.update-card .popular-thumb{width:72px}}

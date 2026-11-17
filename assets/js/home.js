@@ -1503,6 +1503,8 @@ const genreFilters = document.querySelector("#genre-filters");
 const moreWrap = document.querySelector("#archive-more");
 const moreButton = document.querySelector("#archive-more-button");
 const popularList = document.querySelector("#popular-list");
+const updateSection = document.querySelector("#latest-update");
+const updateList = document.querySelector("#update-list");
 const plannedSection = document.querySelector("#planned");
 const plannedList = document.querySelector("#planned-list");
 let plannedProjects = [];
@@ -1573,6 +1575,42 @@ function renderPopular() {
       <span class="latest-update-copy">
         <strong>${project.title}</strong>
         <span>${project.platform} · ${GENRE_NAMES[project.genre] || project.genre} · 다운로드 ${downloadsOf(project).toLocaleString("ko-KR")}회</span>
+      </span>
+      <span class="latest-update-arrow" aria-hidden="true">→</span>`;
+    return link;
+  }));
+}
+
+// 최신 업데이트: 첫 공개 뒤에 올라온 수정판(둘째 이후 릴리스)을 최신순으로 세 건 보여 줍니다.
+// 한 줄 요약은 릴리스 본문의 "바뀐 것" 절 첫 문장이고, 없으면 같은 날 작업일지 제목을 씁니다.
+function kstDate(iso) {
+  return new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date(iso)).replaceAll("-", ".");
+}
+
+function renderUpdates() {
+  if (!updateSection || !updateList) return;
+  const updates = projects
+    .filter(project => project.status === "public" && Array.isArray(project.releaseHistory) && project.releaseHistory.length > 1)
+    .flatMap(project => {
+      const history = [...project.releaseHistory].filter(item => item.publishedAt).sort((a, b) => a.publishedAt.localeCompare(b.publishedAt));
+      return history.slice(1).map(item => ({ project, item }));
+    })
+    .sort((a, b) => b.item.publishedAt.localeCompare(a.item.publishedAt))
+    .slice(0, 3);
+
+  updateSection.hidden = updates.length === 0;
+  updateList.replaceChildren(...updates.map(({ project, item }) => {
+    const worklog = project.latestWorklog && project.latestWorklog.date === item.date ? project.latestWorklog.title : "";
+    const summary = item.summary || worklog || "패치 업데이트";
+    const link = document.createElement("a");
+    link.className = "latest-update-card popular-card update-card";
+    link.href = `${project.href}#release`;
+    link.innerHTML = `
+      <span class="popular-thumb">${project.image ? `<img src="${project.image}" alt="" loading="lazy">` : ""}</span>
+      <span class="latest-update-copy">
+        <strong>${project.title}</strong>
+        <span>${item.version} · ${kstDate(item.publishedAt)} 업데이트</span>
+        <span class="update-summary">${summary}</span>
       </span>
       <span class="latest-update-arrow" aria-hidden="true">→</span>`;
     return link;
@@ -1838,6 +1876,7 @@ async function init() {
   });
 
   renderPopular();
+  renderUpdates();
   renderPlanned();
 
   statusButtons.forEach(button => {
