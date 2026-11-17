@@ -22,12 +22,12 @@
 ### 공개
 
 - [비오라트의 아틀리에](https://ievy3.github.io/projects/atelier-viorate/) (PSP) — **v1.0.1** · 베타 공개
+- [샤이닝 하츠](https://ievy3.github.io/projects/shining-hearts/) (PSP) — **v0.9.1** · 베타 공개
 - [마크로스 트라이앵글 프론티어](https://ievy3.github.io/projects/macross-triangle-frontier/) (PSP) — **v0.9.1** · 베타 공개
 - [유디의 아틀리에](https://ievy3.github.io/projects/atelier-judie/) (PSP) — **v1.0.0** · 베타 공개
 - [봄버맨 제터스](https://ievy3.github.io/projects/bomberman-jetters/) (GBA) — **v1.0.0** · 베타 공개
 - [토마토 어드벤처](https://ievy3.github.io/projects/tomato-adventure/) (GBA) — **v1.0.0** · 베타 공개
 - [컨셉션: 내 아이를 낳아줘](https://ievy3.github.io/projects/conception/) (PSP) — **v0.9.0** · 베타 공개
-- [샤이닝 하츠](https://ievy3.github.io/projects/shining-hearts/) (PSP) — **v0.9.0** · 베타 공개
 - [매지컬 봉신](https://ievy3.github.io/projects/magical-houshin/) (GBA) — **v0.9.0** · 베타 공개
 - [샤이닝 아크](https://ievy3.github.io/projects/shining-ark/) (PSP) — **v0.9.0** · 베타 공개
 - [샤이닝 블레이드](https://ievy3.github.io/projects/shining-blade/) (PSP) — **v0.9.0** · 베타 공개

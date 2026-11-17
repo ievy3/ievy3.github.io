@@ -98,7 +98,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/viorate-v1.0.1/Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/viorate-v1.0.1",
     "releasePublishedAt": "2026-11-16T15:25:03Z",
-    "totalDownloads": 346,
+    "totalDownloads": 383,
     "description": "연금술사 비오라트가 채집·조합·전투로 모험하는 PSP용 아틀리에 시리즈 RPG",
     "keywords": [
       "비오라트의 아틀리에",
@@ -121,6 +121,46 @@ const fallbackProjects = [
       "date": "2026-11-17",
       "title": "영상 한글화와 v1.0.1",
       "href": "/projects/atelier-viorate/updates/2026-11-17.html"
+    }
+  },
+  {
+    "title": "샤이닝 하츠",
+    "href": "/projects/shining-hearts/",
+    "image": "/assets/images/shining-hearts/2026-11-03-title-ko.webp",
+    "imageAlt": "샤이닝 하츠 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.1",
+    "updated": "2026-11-17",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.1/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.1.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.1",
+    "releasePublishedAt": "2026-11-17T05:37:48Z",
+    "totalDownloads": 498,
+    "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
+    "keywords": [
+      "샤이닝 하츠",
+      "shining hearts",
+      "シャイニング・ハーツ",
+      "샤이닝",
+      "shining",
+      "세가",
+      "sega",
+      "빵"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-03",
+      "title": "플레이 확인 고침과 v0.9.0 공개",
+      "href": "/projects/shining-hearts/updates/2026-11-03.html"
     }
   },
   {
@@ -293,7 +333,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/macrosstf-v0.9.1/Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/macrosstf-v0.9.1",
     "releasePublishedAt": "2026-11-16T13:12:42Z",
-    "totalDownloads": 497,
+    "totalDownloads": 517,
     "description": "TV 애니메이션 『마크로스 F』를 바탕으로 한 PSP 메카 액션 게임",
     "keywords": [
       "마크로스",
@@ -335,7 +375,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/judie-v1.0.0/Noctil_Patchworks_Offline_JudieAtelier_KO_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/judie-v1.0.0",
     "releasePublishedAt": "2026-11-15T12:11:37Z",
-    "totalDownloads": 289,
+    "totalDownloads": 296,
     "description": "연금술사 유디트의 채집·조합·전투 모험을 그린 PSP용 아틀리에 시리즈 RPG",
     "keywords": [
       "유디의 아틀리에",
@@ -377,7 +417,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/jetters-v1.0.0/BombermanJetters_KrPatcher_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/jetters-v1.0.0",
     "releasePublishedAt": "2026-11-14T09:51:24Z",
-    "totalDownloads": 292,
+    "totalDownloads": 293,
     "description": "폭탄을 놓아 길을 열고 적과 겨루는 GBA용 봄버맨 액션",
     "keywords": [
       "봄버맨",
@@ -457,7 +497,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/conception-v0.9.0/Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/conception-v0.9.0",
     "releasePublishedAt": "2026-11-07T13:14:29Z",
-    "totalDownloads": 393,
+    "totalDownloads": 395,
     "description": "「별의 자식」을 낳을 수 있는 소녀들과 던전을 탐험하는 PSP 롤플레잉 게임",
     "keywords": [
       "컨셉션",
@@ -477,46 +517,6 @@ const fallbackProjects = [
       "date": "2026-11-07",
       "title": "배포 직전 점검과 v0.9.0 공개",
       "href": "/projects/conception/updates/2026-11-07.html"
-    }
-  },
-  {
-    "title": "샤이닝 하츠",
-    "href": "/projects/shining-hearts/",
-    "image": "/assets/images/shining-hearts/2026-11-03-title-ko.webp",
-    "imageAlt": "샤이닝 하츠 한글 타이틀 화면",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "RPG",
-    "subgenre": "판타지",
-    "type": "한국어 패치",
-    "status": "public",
-    "statusLabel": "베타 공개",
-    "stage": 6,
-    "version": "v0.9.0",
-    "updated": "2026-11-03",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.0/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.0.zip",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.0",
-    "releasePublishedAt": "2026-11-03T14:59:04Z",
-    "totalDownloads": 497,
-    "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
-    "keywords": [
-      "샤이닝 하츠",
-      "shining hearts",
-      "シャイニング・ハーツ",
-      "샤이닝",
-      "shining",
-      "세가",
-      "sega",
-      "빵"
-    ],
-    "verification": [
-      "PPSSPP",
-      "PSP-1000"
-    ],
-    "latestWorklog": {
-      "date": "2026-11-03",
-      "title": "플레이 확인 고침과 v0.9.0 공개",
-      "href": "/projects/shining-hearts/updates/2026-11-03.html"
     }
   },
   {
@@ -576,7 +576,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningark-v0.9.0/Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningark-v0.9.0",
     "releasePublishedAt": "2026-11-01T05:39:03Z",
-    "totalDownloads": 749,
+    "totalDownloads": 750,
     "description": "세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
     "keywords": [
       "샤이닝 아크",
@@ -615,7 +615,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningblade-v0.9.0/Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningblade-v0.9.0",
     "releasePublishedAt": "2026-10-30T13:50:59Z",
-    "totalDownloads": 579,
+    "totalDownloads": 580,
     "description": "세가 『샤이닝』 시리즈의 PSP 시뮬레이션 RPG",
     "keywords": [
       "샤이닝 블레이드",
@@ -741,7 +741,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gtasc-v0.9.0/Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gtasc-v0.9.0",
     "releasePublishedAt": "2026-10-25T09:49:09Z",
-    "totalDownloads": 168,
+    "totalDownloads": 169,
     "description": "GTA 리버티 시티 스토리즈를 바탕으로 1998년 리버티 시티의 마피아 전쟁을 그린 팬 제작 토털 컨버전 모드",
     "keywords": [
       "gta",
@@ -941,7 +941,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dura-v0.9.0/Noctil_Patchworks_Offline_Durarara_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dura-v0.9.0",
     "releasePublishedAt": "2026-10-12T15:30:13Z",
-    "totalDownloads": 510,
+    "totalDownloads": 511,
     "description": "이케부쿠로로 전학 온 주인공의 시점에서 펼쳐지는 『듀라라라!!』 PSP 어드벤처 게임",
     "keywords": [
       "듀라라라",
@@ -1362,7 +1362,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.9.0",
     "releasePublishedAt": "2026-10-01T15:02:39Z",
-    "totalDownloads": 1253,
+    "totalDownloads": 1254,
     "description": "소환술과 파트너 시스템을 중심으로 전개되는 판타지 전략 RPG",
     "keywords": [
       "서몬 나이트 5",
