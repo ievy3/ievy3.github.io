@@ -1053,3 +1053,18 @@ footer a:hover{text-decoration:underline}
 }
 
 .hcb-loading{color:var(--muted);text-decoration:none}
+
+/* LATEST UPDATE: 글자만 세 줄(게임 이름 · 패치 버전 · 날짜) */
+.update-patches{padding:14px 0 16px}
+.update-patches .eyebrow{margin:0 0 8px}
+.update-lines{display:grid;gap:0;margin:0;padding:0;list-style:none}
+.update-line{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:baseline;gap:18px;padding:9px 2px;border-bottom:1px solid var(--line);color:var(--text);text-decoration:none}
+.update-lines li:last-child .update-line{border-bottom:0}
+.update-line strong{overflow:hidden;font-size:14px;font-weight:700;text-overflow:ellipsis;white-space:nowrap}
+.update-line .update-version{color:var(--gold);font-size:12.5px;font-weight:700}
+.update-line time{min-width:5.6em;color:var(--muted);font-size:12.5px;text-align:right}
+.update-line:hover strong{color:var(--gold)}
+@media (max-width:640px){.update-line{gap:12px}.update-line strong{font-size:13px}}
+.popular-patches .eyebrow{margin:0 0 8px}
+.archive-heading .eyebrow{margin:0}
+.archive-heading .archive-count{margin-top:4px;font-size:13px}

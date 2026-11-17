@@ -117,11 +117,19 @@
   window.addEventListener('scroll',updateTopButton,{passive:true});
   updateTopButton();
 
+  // 프로젝트의 첫(초기) 공개 릴리스. 수정판이 아니라 처음 배포된 판을 기준으로 삼습니다.
+  function initialRelease(p) {
+    var history=(p.releaseHistory||[]).filter(function (r) {return r.publishedAt;}).slice().sort(function (a,b) {
+      return a.publishedAt.localeCompare(b.publishedAt);
+    });
+    return history[0] || (p.releasePublishedAt ? {version:p.version,publishedAt:p.releasePublishedAt} : null);
+  }
+  // LATEST PATCH: 가장 최근에 처음 공개된 프로젝트(초기본 기준). 수정판 업데이트는 "최신 업데이트"에서 따로 보여 줍니다.
   function newestPublicProject(projects) {
     return projects.filter(function (p) {
-      return p.status==='public' && p.download && p.releasePublishedAt;
+      return p.status==='public' && p.download && initialRelease(p);
     }).sort(function (a,b) {
-      return b.releasePublishedAt.localeCompare(a.releasePublishedAt);
+      return initialRelease(b).publishedAt.localeCompare(initialRelease(a).publishedAt);
     })[0] || null;
   }
   function addSpotlight(latest) {
@@ -137,7 +145,8 @@
     eyebrow.textContent='LATEST PATCH';
     var label=document.createElement('span');
     label.className='np-latest-tag';
-    var isRecent=Date.now()-Date.parse(latest.releasePublishedAt) < 14*24*60*60*1000;
+    var first=initialRelease(latest);
+    var isRecent=Date.now()-Date.parse(first.publishedAt) < 14*24*60*60*1000;
     label.textContent=isRecent?'NEW RELEASE':'LATEST RELEASE';
     heading.append(eyebrow,label);
     var link=document.createElement('a');
@@ -149,8 +158,8 @@
     title.textContent=latest.title;
     var subtitle=document.createElement('small');
     // 카드·프로젝트 페이지와 같은 날짜가 나오도록 한국 시간 기준 날짜를 씁니다.
-    var kstDate=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(latest.releasePublishedAt));
-    subtitle.textContent=latest.version+' · '+kstDate.replaceAll('-','.')+' 공개';
+    var kstDate=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(first.publishedAt));
+    subtitle.textContent=first.version+' · '+kstDate.replaceAll('-','.')+' 첫 공개';
     info.append(title,subtitle);
     var action=document.createElement('span');
     action.className='np-latest-cta';
@@ -181,7 +190,7 @@
           if (!kicker) return;
           flag=document.createElement('span');
           flag.className='np-latest-project-badge';
-          flag.textContent=Date.now()-Date.parse(latest.releasePublishedAt) < 14*24*60*60*1000?'NEW':'LATEST';
+          flag.textContent=Date.now()-Date.parse(initialRelease(latest).publishedAt) < 14*24*60*60*1000?'NEW':'LATEST';
           kicker.appendChild(flag);
         } else if (!active && flag) flag.remove();
       });
@@ -199,7 +208,7 @@
       var current=payload.projects.find(function (p) {return p.href===projectBase;});
       if (latest) {
         latestLink.href=latest.href+'#release';
-        latestLink.title='최신 공개: '+latest.title+' '+latest.version;
+        latestLink.title='최신 공개: '+latest.title+' '+initialRelease(latest).version;
         if (isHome) {addSpotlight(latest);markNewestCard(latest);}
       }
       if (projectBase && current && current.download) {

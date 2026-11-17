@@ -19,8 +19,8 @@
   <meta name="twitter:title" content="Noctil Patchworks">
   <meta name="twitter:description" content="비공식 한국어 게임 번역 패치와 제작 기록을 공개하는 아카이브">
   <meta name="twitter:image" content="https://ievy3.github.io/assets/images/genso-suikoden-100-years/2026-10-03-title.webp">
-  <link rel="stylesheet" href="/assets/css/home.css?v=32">
-  <script src="/assets/js/home.js?v=33" defer></script>
+  <link rel="stylesheet" href="/assets/css/home.css?v=36">
+  <script src="/assets/js/home.js?v=36" defer></script>
   <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
   <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
 </head>
@@ -51,22 +51,20 @@
       </div>
     </section>
 
-    <section class="latest-updates popular-patches" aria-labelledby="popular-title">
-      <div class="latest-updates-head">
-        <div>
-          <p class="eyebrow">POPULAR PATCHES</p>
-          <h2 id="popular-title">인기 패치</h2>
-        </div>
-        <span>누적 다운로드 기준</span>
-      </div>
+    <section class="latest-updates popular-patches" aria-label="Popular patches">
+      <p class="eyebrow">POPULAR PATCHES</p>
       <div class="latest-update-list" id="popular-list" aria-live="polite"></div>
+    </section>
+
+    <section class="latest-updates update-patches" id="latest-update" aria-label="Latest updates" hidden>
+      <p class="eyebrow">LATEST UPDATE</p>
+      <ul class="update-lines" id="update-list"></ul>
     </section>
 
     <section class="archive" id="patches">
       <div class="archive-top">
         <div class="archive-heading">
           <p class="eyebrow">PATCH ARCHIVE</p>
-          <h2>패치 목록</h2>
           <p id="result-count" class="archive-count" aria-live="polite">전체 <strong>37</strong>개 프로젝트</p>
         </div>
 
@@ -261,6 +259,6 @@
     <span>© 2026 NOCTIL PATCHWORKS</span>
     <span><a href="https://github.com/ievy3/ievy3.github.io/issues/new/choose" target="_blank" rel="noopener">오류 제보 ↗</a> · NOT AFFILIATED WITH THE ORIGINAL DEVELOPERS OR PUBLISHERS</span>
   </footer>
-  <script src="/assets/js/site-ui.js?v=4" defer></script>
+  <script src="/assets/js/site-ui.js?v=5" defer></script>
 </body>
 </html>

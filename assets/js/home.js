@@ -1503,6 +1503,8 @@ const genreFilters = document.querySelector("#genre-filters");
 const moreWrap = document.querySelector("#archive-more");
 const moreButton = document.querySelector("#archive-more-button");
 const popularList = document.querySelector("#popular-list");
+const updateSection = document.querySelector("#latest-update");
+const updateList = document.querySelector("#update-list");
 const plannedSection = document.querySelector("#planned");
 const plannedList = document.querySelector("#planned-list");
 let plannedProjects = [];
@@ -1576,6 +1578,42 @@ function renderPopular() {
       </span>
       <span class="latest-update-arrow" aria-hidden="true">→</span>`;
     return link;
+  }));
+}
+
+// LATEST UPDATE: 첫 공개 뒤에 올라온 수정판(둘째 이후 릴리스)을 최신순으로 세 줄, 글자만(게임 이름 · 패치 버전 · 날짜) 보여 줍니다.
+function kstDate(iso) {
+  return new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date(iso)).replaceAll("-", ".");
+}
+
+function renderUpdates() {
+  if (!updateSection || !updateList) return;
+  const updates = projects
+    .filter(project => project.status === "public" && Array.isArray(project.releaseHistory) && project.releaseHistory.length > 1)
+    .flatMap(project => {
+      const history = [...project.releaseHistory].filter(item => item.publishedAt).sort((a, b) => a.publishedAt.localeCompare(b.publishedAt));
+      return history.slice(1).map(item => ({ project, item }));
+    })
+    .sort((a, b) => b.item.publishedAt.localeCompare(a.item.publishedAt))
+    .slice(0, 3);
+
+  updateSection.hidden = updates.length === 0;
+  updateList.replaceChildren(...updates.map(({ project, item }) => {
+    const row = document.createElement("li");
+    const link = document.createElement("a");
+    link.className = "update-line";
+    link.href = `${project.href}#release`;
+    const name = document.createElement("strong");
+    name.textContent = project.title;
+    const version = document.createElement("span");
+    version.className = "update-version";
+    version.textContent = item.version;
+    const date = document.createElement("time");
+    date.dateTime = item.publishedAt;
+    date.textContent = kstDate(item.publishedAt);
+    link.append(name, version, date);
+    row.append(link);
+    return row;
   }));
 }
 
@@ -1681,8 +1719,8 @@ function render() {
     moreButton.setAttribute("aria-expanded", String(showAllProjects));
   }
   resultCount.innerHTML = filtered.length === projects.length
-    ? `전체 <strong>${projects.length}</strong>개 프로젝트`
-    : `전체 ${projects.length}개 중 <strong>${filtered.length}</strong>개 표시`;
+    ? `<strong>${projects.length}</strong> projects`
+    : `<strong>${filtered.length}</strong> of ${projects.length} projects`;
 }
 
 function collapsedLimit() {
@@ -1838,6 +1876,7 @@ async function init() {
   });
 
   renderPopular();
+  renderUpdates();
   renderPlanned();
 
   statusButtons.forEach(button => {
