@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T05:37:59.456Z",
+  "generatedAt": "2026-11-17T09:33:42.148Z",
   "projects": [
     {
       "title": "듀나미스 15",
@@ -107,13 +107,13 @@
       "version": "v1.0.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/viorate-v1.0.1/Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
-      "downloadCount": 159,
+      "downloadCount": 185,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/viorate-v1.0.1",
       "releaseName": "[PSP] 비오라트의 아틀리에 ～그람나트의 연금술사 2～ 한글 패치 v1.0.1",
       "releasePublishedAt": "2026-11-16T15:25:03Z",
       "updated": "2026-11-17",
       "publicBuilds": 2,
-      "totalDownloads": 383,
+      "totalDownloads": 409,
       "releaseHistory": [
         {
           "version": "v1.0.1",
@@ -125,7 +125,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/viorate-v1.0.1/Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
-          "downloadCount": 159
+          "downloadCount": 185
         },
         {
           "version": "v1.0.0",
@@ -185,13 +185,13 @@
       "version": "v0.9.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.1/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Shining_Hearts_v0.9.1.zip",
-      "downloadCount": 0,
+      "downloadCount": 110,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.1",
       "releaseName": "[PSP] 샤이닝 하츠 (シャイニング・ハーツ) 한글 패치 v0.9.1",
       "releasePublishedAt": "2026-11-17T05:37:48Z",
       "updated": "2026-11-17",
       "publicBuilds": 2,
-      "totalDownloads": 498,
+      "totalDownloads": 608,
       "releaseHistory": [
         {
           "version": "v0.9.1",
@@ -203,7 +203,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.1/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Shining_Hearts_v0.9.1.zip",
-          "downloadCount": 0
+          "downloadCount": 110
         },
         {
           "version": "v0.9.0",
@@ -234,9 +234,9 @@
         "PSP-1000"
       ],
       "latestWorklog": {
-        "date": "2026-11-03",
-        "title": "플레이 확인 고침과 v0.9.0 공개",
-        "href": "/projects/shining-hearts/updates/2026-11-03.html"
+        "date": "2026-11-17",
+        "title": "무기 상점 수정과 v0.9.1",
+        "href": "/projects/shining-hearts/updates/2026-11-17.html"
       },
       "latestReleaseTag": "shininghearts-v0.9.1"
     },
@@ -440,13 +440,13 @@
       "version": "v0.9.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/macrosstf-v0.9.1/Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
-      "downloadCount": 143,
+      "downloadCount": 159,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/macrosstf-v0.9.1",
       "releaseName": "[psp] 마크로스 트라이앵글 프론티어 한글 패치 v0.9.1",
       "releasePublishedAt": "2026-11-16T13:12:42Z",
       "updated": "2026-11-16",
       "publicBuilds": 2,
-      "totalDownloads": 517,
+      "totalDownloads": 533,
       "releaseHistory": [
         {
           "version": "v0.9.1",
@@ -458,7 +458,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/macrosstf-v0.9.1/Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
-          "downloadCount": 143
+          "downloadCount": 159
         },
         {
           "version": "v0.9.0",
@@ -517,13 +517,13 @@
       "version": "v1.0.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/judie-v1.0.0/Noctil_Patchworks_Offline_JudieAtelier_KO_v1.0.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_JudieAtelier_KO_v1.0.0.zip",
-      "downloadCount": 296,
+      "downloadCount": 306,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/judie-v1.0.0",
       "releaseName": "[PSP] 유디의 아틀리에 ～그람나트의 연금술사～ 한글 패치 v1.0.0",
       "releasePublishedAt": "2026-11-15T12:11:37Z",
       "updated": "2026-11-15",
       "publicBuilds": 1,
-      "totalDownloads": 296,
+      "totalDownloads": 306,
       "releaseHistory": [
         {
           "version": "v1.0.0",
@@ -535,7 +535,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/judie-v1.0.0/Noctil_Patchworks_Offline_JudieAtelier_KO_v1.0.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_JudieAtelier_KO_v1.0.0.zip",
-          "downloadCount": 296
+          "downloadCount": 306
         }
       ],
       "description": "연금술사 유디트의 채집·조합·전투 모험을 그린 PSP용 아틀리에 시리즈 RPG",
@@ -582,13 +582,13 @@
       "version": "v1.0.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/jetters-v1.0.0/BombermanJetters_KrPatcher_v1.0.0.zip",
       "downloadAsset": "BombermanJetters_KrPatcher_v1.0.0.zip",
-      "downloadCount": 293,
+      "downloadCount": 295,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/jetters-v1.0.0",
       "releaseName": "[GBA] 봄버맨 제터스 ～전설의 봄버맨～ 한글 패치 v1.0.0",
       "releasePublishedAt": "2026-11-14T09:51:24Z",
       "updated": "2026-11-14",
       "publicBuilds": 1,
-      "totalDownloads": 293,
+      "totalDownloads": 295,
       "releaseHistory": [
         {
           "version": "v1.0.0",
@@ -600,7 +600,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/jetters-v1.0.0/BombermanJetters_KrPatcher_v1.0.0.zip",
           "downloadAsset": "BombermanJetters_KrPatcher_v1.0.0.zip",
-          "downloadCount": 293
+          "downloadCount": 295
         }
       ],
       "description": "폭탄을 놓아 길을 열고 적과 겨루는 GBA용 봄버맨 액션",
@@ -646,13 +646,13 @@
       "version": "v1.0.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/tomato-v1.0.0/TomatoAdventure_KrPatcher_v1.0.0.zip",
       "downloadAsset": "TomatoAdventure_KrPatcher_v1.0.0.zip",
-      "downloadCount": 246,
+      "downloadCount": 249,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/tomato-v1.0.0",
       "releaseName": "[GBA] 토마토 어드벤처 / 한글 패치 ",
       "releasePublishedAt": "2026-11-10T12:10:58Z",
       "updated": "2026-11-10",
       "publicBuilds": 1,
-      "totalDownloads": 246,
+      "totalDownloads": 249,
       "releaseHistory": [
         {
           "version": "v1.0.0",
@@ -664,7 +664,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/tomato-v1.0.0/TomatoAdventure_KrPatcher_v1.0.0.zip",
           "downloadAsset": "TomatoAdventure_KrPatcher_v1.0.0.zip",
-          "downloadCount": 246
+          "downloadCount": 249
         }
       ],
       "description": "토마토 왕국을 노리는 악당에 맞서는 GBA용 RPG",
@@ -708,13 +708,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/conception-v0.9.0/Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
-      "downloadCount": 395,
+      "downloadCount": 397,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/conception-v0.9.0",
       "releaseName": "[PSP] 컨셉션: 내 아이를 낳아줘 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-11-07T13:14:29Z",
       "updated": "2026-11-07",
       "publicBuilds": 1,
-      "totalDownloads": 395,
+      "totalDownloads": 397,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -726,7 +726,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/conception-v0.9.0/Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
-          "downloadCount": 395
+          "downloadCount": 397
         }
       ],
       "description": "「별의 자식」을 낳을 수 있는 소녀들과 던전을 탐험하는 PSP 롤플레잉 게임",
@@ -771,13 +771,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
       "downloadAsset": "MagicalHoushin_KrPatcher_v0.9.0.zip",
-      "downloadCount": 385,
+      "downloadCount": 386,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/houshin-v0.9.0",
       "releaseName": "[GBA] 매지컬 봉신 한글 패치 v0.9.0 ",
       "releasePublishedAt": "2026-11-01T15:26:38Z",
       "updated": "2026-11-02",
       "publicBuilds": 1,
-      "totalDownloads": 385,
+      "totalDownloads": 386,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -789,7 +789,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
           "downloadAsset": "MagicalHoushin_KrPatcher_v0.9.0.zip",
-          "downloadCount": 385
+          "downloadCount": 386
         }
       ],
       "description": "『봉신연의』를 바탕으로 한 코에이의 GBA 롤플레잉 게임",
@@ -833,13 +833,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningark-v0.9.0/Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
-      "downloadCount": 750,
+      "downloadCount": 752,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningark-v0.9.0",
       "releaseName": "[PSP] 샤이닝 아크 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-11-01T05:39:03Z",
       "updated": "2026-11-01",
       "publicBuilds": 1,
-      "totalDownloads": 750,
+      "totalDownloads": 752,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -851,7 +851,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningark-v0.9.0/Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
-          "downloadCount": 750
+          "downloadCount": 752
         }
       ],
       "description": "세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
@@ -895,13 +895,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningblade-v0.9.0/Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
-      "downloadCount": 580,
+      "downloadCount": 581,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningblade-v0.9.0",
       "releaseName": "[PSP] 샤이닝 블레이드 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-30T13:50:59Z",
       "updated": "2026-10-30",
       "publicBuilds": 1,
-      "totalDownloads": 580,
+      "totalDownloads": 581,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -913,7 +913,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningblade-v0.9.0/Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_ShiningBlade_v0.9.0.zip",
-          "downloadCount": 580
+          "downloadCount": 581
         }
       ],
       "description": "세가 『샤이닝』 시리즈의 PSP 시뮬레이션 RPG",
@@ -958,13 +958,13 @@
       "version": "v0.9.4",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sabata-v0.9.4/Boktai3SabatasCounterattack_KrPatcher_v0.9.4.zip",
       "downloadAsset": "Boktai3SabatasCounterattack_KrPatcher_v0.9.4.zip",
-      "downloadCount": 257,
+      "downloadCount": 258,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sabata-v0.9.4",
       "releaseName": "[GBA] 신 우리들의 태양: 역습의 사바타 한글 패치 v0.9.4",
       "releasePublishedAt": "2026-10-26T09:47:38Z",
       "updated": "2026-10-26",
       "publicBuilds": 1,
-      "totalDownloads": 257,
+      "totalDownloads": 258,
       "releaseHistory": [
         {
           "version": "v0.9.4",
@@ -976,7 +976,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sabata-v0.9.4/Boktai3SabatasCounterattack_KrPatcher_v0.9.4.zip",
           "downloadAsset": "Boktai3SabatasCounterattack_KrPatcher_v0.9.4.zip",
-          "downloadCount": 257
+          "downloadCount": 258
         }
       ],
       "description": "태양빛으로 싸우는 코나미의 GBA 태양 액션 RPG, 『우리들의 태양』 시리즈 세 번째 작품",
@@ -1026,13 +1026,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mua-v0.9.0/Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
-      "downloadCount": 371,
+      "downloadCount": 373,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mua-v0.9.0",
       "releaseName": "[PSP] 마블 얼티밋 얼라이언스 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-25T03:47:32Z",
       "updated": "2026-10-25",
       "publicBuilds": 1,
-      "totalDownloads": 371,
+      "totalDownloads": 373,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -1044,7 +1044,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mua-v0.9.0/Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
-          "downloadCount": 371
+          "downloadCount": 373
         }
       ],
       "description": "마블의 영웅들로 팀을 짜 우주적 위협에 맞서는 액션 RPG",
@@ -1090,13 +1090,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gtasc-v0.9.0/Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
-      "downloadCount": 169,
+      "downloadCount": 171,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gtasc-v0.9.0",
       "releaseName": "[PSP] GTA: 신다코 크로니클 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-25T09:49:09Z",
       "updated": "2026-10-25",
       "publicBuilds": 1,
-      "totalDownloads": 169,
+      "totalDownloads": 171,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -1108,7 +1108,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gtasc-v0.9.0/Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
-          "downloadCount": 169
+          "downloadCount": 171
         }
       ],
       "description": "GTA 리버티 시티 스토리즈를 바탕으로 1998년 리버티 시티의 마피아 전쟁을 그린 팬 제작 토털 컨버전 모드",
@@ -1155,13 +1155,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/spk-v0.9.0/Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
-      "downloadCount": 309,
+      "downloadCount": 310,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/spk-v0.9.0",
       "releaseName": "[PSP] 사쿠라장의 애완 그녀 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-18T15:08:35Z",
       "updated": "2026-10-19",
       "publicBuilds": 1,
-      "totalDownloads": 309,
+      "totalDownloads": 310,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -1173,7 +1173,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/spk-v0.9.0/Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Sakurasou_v0.9.0.zip",
-          "downloadCount": 309
+          "downloadCount": 310
         }
       ],
       "description": "가모시다 하지메의 라이트 노벨이 원작인 PSP 학원 러브코미디 어드벤처",
@@ -1655,13 +1655,13 @@
       "version": "v1.0.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
       "downloadAsset": "OreImoDisc2KrPatcher.zip",
-      "downloadCount": 680,
+      "downloadCount": 682,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
       "releaseName": "[PSP] 내 여동생이 이렇게 귀여울 리가 없어 포터블이 계속될 리가 없어 Disc 2 한글 패치",
       "releasePublishedAt": "2026-10-09T01:10:57Z",
       "updated": "2026-10-09",
       "publicBuilds": 1,
-      "totalDownloads": 680,
+      "totalDownloads": 682,
       "releaseHistory": [
         {
           "version": "v1.0.0",
@@ -1673,7 +1673,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
           "downloadAsset": "OreImoDisc2KrPatcher.zip",
-          "downloadCount": 680
+          "downloadCount": 682
         }
       ],
       "description": "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",
@@ -2123,13 +2123,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
-      "downloadCount": 682,
+      "downloadCount": 683,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.9.0",
       "releaseName": "[PSP] 서몬나이트 5 (Summon Night 5) 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-01T15:02:39Z",
       "updated": "2026-10-02",
       "publicBuilds": 2,
-      "totalDownloads": 1254,
+      "totalDownloads": 1255,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -2141,7 +2141,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
-          "downloadCount": 682
+          "downloadCount": 683
         },
         {
           "version": "v0.7.0",
