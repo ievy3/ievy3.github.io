@@ -11,8 +11,8 @@ const fallbackProjects = [
   {
     "title": "듀나미스 15",
     "href": "/projects/dunamis15/",
-    "image": "/assets/images/dunamis15/official-cover.webp",
-    "imageAlt": "デュナミス15 일본판 PSP 패키지",
+    "image": "/assets/images/dunamis15/2026-11-17-title-ko.webp",
+    "imageAlt": "듀나미스 15 한글 타이틀 화면",
     "imageFit": "cover",
     "platform": "PSP",
     "genre": "어드벤처",
@@ -20,7 +20,7 @@ const fallbackProjects = [
     "type": "한국어 패치",
     "status": "public",
     "statusLabel": "베타 공개",
-    "stage": 5,
+    "stage": 6,
     "version": "v1.0.1",
     "updated": "2026-11-17",
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dunamis15-v1.0.1/Noctil_Patchworks_Offline_DUNAMIS15_KO_v1.0.1.zip",
@@ -40,11 +40,12 @@ const fallbackProjects = [
       "노벨"
     ],
     "verification": [
-      "PPSSPP"
+      "PPSSPP",
+      "PSP 실기"
     ],
     "latestWorklog": {
       "date": "2026-11-17",
-      "title": "한글 오프닝 영상과 배포 후보",
+      "title": "한글 오프닝 영상과 v1.0.1 공개",
       "href": "/projects/dunamis15/updates/2026-11-17.html"
     }
   },
@@ -144,7 +145,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.1/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.1",
     "releasePublishedAt": "2026-11-17T05:37:48Z",
-    "totalDownloads": 651,
+    "totalDownloads": 656,
     "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
     "keywords": [
       "샤이닝 하츠",
@@ -1251,7 +1252,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.3/Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.3",
     "releasePublishedAt": "2026-10-06T02:04:52Z",
-    "totalDownloads": 1872,
+    "totalDownloads": 1873,
     "description": "두 주인공의 시점으로 세계의 창조와 파괴를 그리는 던전 탐험형 JRPG",
     "keywords": [
       "엑시즈 포스",
