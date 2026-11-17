@@ -1719,8 +1719,8 @@ function render() {
     moreButton.setAttribute("aria-expanded", String(showAllProjects));
   }
   resultCount.innerHTML = filtered.length === projects.length
-    ? `전체 <strong>${projects.length}</strong>개 프로젝트`
-    : `전체 ${projects.length}개 중 <strong>${filtered.length}</strong>개 표시`;
+    ? `<strong>${projects.length}</strong> projects`
+    : `<strong>${filtered.length}</strong> of ${projects.length} projects`;
 }
 
 function collapsedLimit() {

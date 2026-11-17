@@ -1066,3 +1066,5 @@ footer a:hover{text-decoration:underline}
 .update-line:hover strong{color:var(--gold)}
 @media (max-width:640px){.update-line{gap:12px}.update-line strong{font-size:13px}}
 .popular-patches .eyebrow{margin:0 0 8px}
+.archive-heading .eyebrow{margin:0}
+.archive-heading .archive-count{margin-top:4px;font-size:13px}
