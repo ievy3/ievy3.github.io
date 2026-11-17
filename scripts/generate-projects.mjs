@@ -126,24 +126,6 @@ function latestReleaseFor(project, releases) {
     })[0] || null;
 }
 
-// 릴리스 본문의 "바뀐 것/고친 것/변경" 절 첫 항목에서 첫 문장을 뽑아 대문 "LATEST UPDATE" 한 줄 요약으로 씁니다.
-function releaseSummary(body = "") {
-  const text = String(body).replace(/\r/g, "");
-  const heading = text.match(/^##\s*[^\n]*(?:바뀐 것|고친 것|변경|업데이트)[^\n]*$/m);
-  if (!heading) return "";
-  const rest = text.slice(heading.index + heading[0].length).split(/\n##\s/)[0];
-  const bullet = rest.split("\n").map(line => line.trim()).find(line => /^[-*]\s+/.test(line));
-  if (!bullet) return "";
-  const plain = bullet
-    .replace(/^[-*]\s+/, "")
-    .replace(/[*_`]/g, "")
-    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
-    .trim();
-  const sentence = plain.match(/^.*?(?:다\.|요\.|\.)(?:\s|$)/);
-  const first = (sentence ? sentence[0] : plain).trim();
-  return first.length > 90 ? `${first.slice(0, 88)}…` : first;
-}
-
 function newestDate(...dates) {
   return dates.filter(Boolean).sort((a, b) => b.localeCompare(a))[0] || "";
 }
@@ -200,7 +182,6 @@ for (const project of config) {
       releaseUrl: item.html_url,
       publishedAt: item.published_at || item.created_at || null,
       date: releaseDate(item),
-      summary: releaseSummary(item.body),
       prerelease: Boolean(item.prerelease),
       ...(historyAsset ? {
         download: historyAsset.browser_download_url,

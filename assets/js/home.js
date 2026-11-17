@@ -1581,8 +1581,7 @@ function renderPopular() {
   }));
 }
 
-// 최신 업데이트: 첫 공개 뒤에 올라온 수정판(둘째 이후 릴리스)을 최신순으로 세 건 보여 줍니다.
-// 한 줄 요약은 릴리스 본문의 "바뀐 것" 절 첫 문장이고, 없으면 같은 날 작업일지 제목을 씁니다.
+// LATEST UPDATE: 첫 공개 뒤에 올라온 수정판(둘째 이후 릴리스)을 최신순으로 세 줄, 글자만(게임 이름 · 패치 버전 · 날짜) 보여 줍니다.
 function kstDate(iso) {
   return new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date(iso)).replaceAll("-", ".");
 }
@@ -1600,20 +1599,21 @@ function renderUpdates() {
 
   updateSection.hidden = updates.length === 0;
   updateList.replaceChildren(...updates.map(({ project, item }) => {
-    const worklog = project.latestWorklog && project.latestWorklog.date === item.date ? project.latestWorklog.title : "";
-    const summary = item.summary || worklog || "패치 업데이트";
+    const row = document.createElement("li");
     const link = document.createElement("a");
-    link.className = "latest-update-card popular-card update-card";
+    link.className = "update-line";
     link.href = `${project.href}#release`;
-    link.innerHTML = `
-      <span class="popular-thumb">${project.image ? `<img src="${project.image}" alt="" loading="lazy">` : ""}</span>
-      <span class="latest-update-copy">
-        <strong>${project.title}</strong>
-        <span>${item.version} · ${kstDate(item.publishedAt)} 업데이트</span>
-        <span class="update-summary">${summary}</span>
-      </span>
-      <span class="latest-update-arrow" aria-hidden="true">→</span>`;
-    return link;
+    const name = document.createElement("strong");
+    name.textContent = project.title;
+    const version = document.createElement("span");
+    version.className = "update-version";
+    version.textContent = item.version;
+    const date = document.createElement("time");
+    date.dateTime = item.publishedAt;
+    date.textContent = kstDate(item.publishedAt);
+    link.append(name, version, date);
+    row.append(link);
+    return row;
   }));
 }
 
