@@ -944,8 +944,8 @@
     "platform": "PSP",
     "genre": "어드벤처",
     "subgenre": "노벨",
-    "image": "/assets/images/dunamis15/official-cover.webp",
-    "imageAlt": "デュナミス15 일본판 PSP 패키지",
+    "image": "/assets/images/dunamis15/2026-11-17-title-ko.webp",
+    "imageAlt": "듀나미스 15 한글 타이틀 화면",
     "type": "한국어 패치",
     "releasePrefix": "dunamis15-",
     "description": "5pb의 서스펜스 어드벤처 노벨",
@@ -961,10 +961,11 @@
       "노벨"
     ],
     "releaseRepository": "ievy3/ievy3.github.io",
-    "stage": 5,
+    "stage": 6,
     "updated": "2026-11-17",
     "verification": [
-      "PPSSPP"
+      "PPSSPP",
+      "PSP 실기"
     ]
   },
   {
