@@ -98,7 +98,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/viorate-v1.0.1/Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/viorate-v1.0.1",
     "releasePublishedAt": "2026-11-16T15:25:03Z",
-    "totalDownloads": 268,
+    "totalDownloads": 346,
     "description": "연금술사 비오라트가 채집·조합·전투로 모험하는 PSP용 아틀리에 시리즈 RPG",
     "keywords": [
       "비오라트의 아틀리에",
@@ -293,7 +293,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/macrosstf-v0.9.1/Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/macrosstf-v0.9.1",
     "releasePublishedAt": "2026-11-16T13:12:42Z",
-    "totalDownloads": 463,
+    "totalDownloads": 497,
     "description": "TV 애니메이션 『마크로스 F』를 바탕으로 한 PSP 메카 액션 게임",
     "keywords": [
       "마크로스",
@@ -335,7 +335,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/judie-v1.0.0/Noctil_Patchworks_Offline_JudieAtelier_KO_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/judie-v1.0.0",
     "releasePublishedAt": "2026-11-15T12:11:37Z",
-    "totalDownloads": 280,
+    "totalDownloads": 289,
     "description": "연금술사 유디트의 채집·조합·전투 모험을 그린 PSP용 아틀리에 시리즈 RPG",
     "keywords": [
       "유디의 아틀리에",
@@ -377,7 +377,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/jetters-v1.0.0/BombermanJetters_KrPatcher_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/jetters-v1.0.0",
     "releasePublishedAt": "2026-11-14T09:51:24Z",
-    "totalDownloads": 288,
+    "totalDownloads": 292,
     "description": "폭탄을 놓아 길을 열고 적과 겨루는 GBA용 봄버맨 액션",
     "keywords": [
       "봄버맨",
@@ -418,7 +418,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/tomato-v1.0.0/TomatoAdventure_KrPatcher_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/tomato-v1.0.0",
     "releasePublishedAt": "2026-11-10T12:10:58Z",
-    "totalDownloads": 245,
+    "totalDownloads": 246,
     "description": "토마토 왕국을 노리는 악당에 맞서는 GBA용 RPG",
     "keywords": [
       "토마토 어드벤처",
@@ -457,7 +457,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/conception-v0.9.0/Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/conception-v0.9.0",
     "releasePublishedAt": "2026-11-07T13:14:29Z",
-    "totalDownloads": 392,
+    "totalDownloads": 393,
     "description": "「별의 자식」을 낳을 수 있는 소녀들과 던전을 탐험하는 PSP 롤플레잉 게임",
     "keywords": [
       "컨셉션",
@@ -497,7 +497,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.0/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.0",
     "releasePublishedAt": "2026-11-03T14:59:04Z",
-    "totalDownloads": 496,
+    "totalDownloads": 497,
     "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
     "keywords": [
       "샤이닝 하츠",
@@ -537,7 +537,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/houshin-v0.9.0",
     "releasePublishedAt": "2026-11-01T15:26:38Z",
-    "totalDownloads": 384,
+    "totalDownloads": 385,
     "description": "『봉신연의』를 바탕으로 한 코에이의 GBA 롤플레잉 게임",
     "keywords": [
       "매지컬 봉신",
@@ -576,7 +576,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningark-v0.9.0/Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningark-v0.9.0",
     "releasePublishedAt": "2026-11-01T05:39:03Z",
-    "totalDownloads": 747,
+    "totalDownloads": 749,
     "description": "세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
     "keywords": [
       "샤이닝 아크",
@@ -700,7 +700,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mua-v0.9.0/Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mua-v0.9.0",
     "releasePublishedAt": "2026-10-25T03:47:32Z",
-    "totalDownloads": 370,
+    "totalDownloads": 371,
     "description": "마블의 영웅들로 팀을 짜 우주적 위협에 맞서는 액션 RPG",
     "keywords": [
       "마블 얼티밋 얼라이언스",
@@ -741,7 +741,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gtasc-v0.9.0/Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gtasc-v0.9.0",
     "releasePublishedAt": "2026-10-25T09:49:09Z",
-    "totalDownloads": 166,
+    "totalDownloads": 168,
     "description": "GTA 리버티 시티 스토리즈를 바탕으로 1998년 리버티 시티의 마피아 전쟁을 그린 팬 제작 토털 컨버전 모드",
     "keywords": [
       "gta",
@@ -1091,7 +1091,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
     "releasePublishedAt": "2026-10-09T01:10:57Z",
-    "totalDownloads": 679,
+    "totalDownloads": 680,
     "description": "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",
     "keywords": [
       "내 여동생이 이렇게 귀여울 리가 없어",
@@ -1210,7 +1210,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiP-v0.9.5/Saki_Portable_Korean_Patch_v0.9.5.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiP-v0.9.5",
     "releasePublishedAt": "2026-10-05T15:07:34Z",
-    "totalDownloads": 505,
+    "totalDownloads": 506,
     "description": "TV 애니메이션을 바탕으로 캐릭터별 능력과 스토리를 재현한 대전 마작 게임",
     "keywords": [
       "사키 포터블",
@@ -1248,7 +1248,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.3/Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.3",
     "releasePublishedAt": "2026-10-06T02:04:52Z",
-    "totalDownloads": 1871,
+    "totalDownloads": 1872,
     "description": "두 주인공의 시점으로 세계의 창조와 파괴를 그리는 던전 탐험형 JRPG",
     "keywords": [
       "엑시즈 포스",
@@ -1362,7 +1362,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/SN5-v0.9.0/Noctil_Patchworks_Offline_SN5_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/SN5-v0.9.0",
     "releasePublishedAt": "2026-10-01T15:02:39Z",
-    "totalDownloads": 1251,
+    "totalDownloads": 1253,
     "description": "소환술과 파트너 시스템을 중심으로 전개되는 판타지 전략 RPG",
     "keywords": [
       "서몬 나이트 5",
