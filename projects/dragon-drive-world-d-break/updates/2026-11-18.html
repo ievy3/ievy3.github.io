@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 18일 드래곤 드라이브: 월드 D 브레이크 한국어 패치 작업일지">
+  <title>2026.11.18 작업일지 | 드래곤 드라이브: 월드 D 브레이크</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/dragon-drive-world-d-break/updates/2026-11-18.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.18 작업일지 | 드래곤 드라이브: 월드 D 브레이크">
+  <meta property="og:description" content="2026년 11월 18일 드래곤 드라이브: 월드 D 브레이크 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/dragon-drive-world-d-break/updates/2026-11-18.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/dragon-drive-world-d-break/official-cover.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.18 작업일지 | 드래곤 드라이브: 월드 D 브레이크">
+  <meta name="twitter:description" content="2026년 11월 18일 드래곤 드라이브: 월드 D 브레이크 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/dragon-drive-world-d-break/official-cover.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/dragon-drive-world-d-break/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.18</p>
+    <h1>이름 입력·전투 화면 수정과<br>2시간 플레이 확인</h1>
+    <p>이름 입력 구분선과 화염구 이름 깨짐 등을 고치고, 약 2시간 분량을 직접 조작해 확인했습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>REVIEW</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>2시간</strong><span>플레이 확인</span></div><div><strong>0건</strong><span>새로 발견된 문제</span></div><div><strong>40개</strong><span>받은 일반 저장</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">FIXES</p><h2>수정(11월 15일~18일)</h2>
+    <ul class="compact-list">
+      <li>접수원 안내문을 원문 말투(반말)에 맞추고, 기본 이름을 읽는 주소를 포인터에서 읽도록 고쳤습니다. 기본 이름 「유키노 아키라」는 네 번째 음절이 구분선과 겹치지 않게 공백을 넣었습니다.</li>
+      <li>이름 앞에 성이 한 번 더 붙던 「유키노 유키노아키라」 중복을 고쳤습니다.</li>
+      <li>컷인 효과가 쓰는 전송 크기를 줄였습니다. 이후 원인이 다르게 밝혀졌습니다.</li>
+      <li>화염구 이름이 깨지던 것은 효과가 오른쪽 이름 그림 칸을 덮어쓰던 것이 원인이라, 효과가 쓰지 않는 빈 칸에 이름을 두어 고쳤습니다. 용 137·191번은 타일 경계를 다시 배치했고, 이름 입력 화면의 구분선은 틀 지도의 타일을 바꿔 없앴습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">CHECKED</p><h2>플레이 확인</h2>
+    <ul class="compact-list">
+      <li>오프닝부터 튜토리얼 전투, 로비·메뉴·저장까지 약 2시간 분량을 직접 조작했고 새로 발견된 문제는 없었습니다.</li>
+      <li>게임 오버·승리·보상 화면은 복사본에서 값을 바꿔 가며 한글이 정상인지 확인했습니다.</li>
+      <li>상점·제작 화면은 번역 표·그림 목록에 해당 문장이 없어(과자 가게 대사 2개뿐) 없는 화면일 가능성이 높지만, 확인한 것은 아닙니다.</li>
+      <li>받은 일반 저장 약 40개로 두 번째 전투 확인을 이어 가고 있습니다. 로비·입구·안내소·아레나 대사, 아레나 「D대전」, 본선 토너먼트 1회전(야마토 요시오) 대사, 「팀 편집」 화면까지 한글이 정상이었습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">RELEASE</p><h2>배포 준비</h2>
+    <ul class="compact-list">
+      <li>최신 빌드의 BPS를 만들어 원본에 적용한 결과가 빌드와 바이트까지 같은 것을 확인하고, 패처 EXE 시험 12가지를 통과했습니다. 이 꾸러미는 공개용이 아니라 시험용이며, 정식 배포 점검은 아직 거치지 않았습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>2시간 플레이 문제 없음</li>
+        <li><span>✓</span>BPS 결과가 빌드와 같음</li>
+        <li><span>✓</span>패처 시험 12가지(시험용)</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NEXT</p><h2>이어서 할 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>두 번째 전투와 엔딩을 최신 빌드로 확인</li>
+        <li><span>○</span>이름 입력 공백·이름표 「라」 누락·코아루 표기</li>
+        <li><span>○</span>정식 배포 점검</li>
+        <li><span>○</span>패처 창 직접 눌러 보기</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>전투 이름표 「유키노 아키」의 「라」 누락, 이름 입력 「이름」과 이름 사이 공백은 알려진 문제입니다.</li>
+      <li>공개 일정은 정해지지 않았습니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">DRAGON DRIVE WORLD D BREAK WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=5" defer></script>
+</body>
+</html>
