@@ -8,6 +8,14 @@
   <updated>2026-11-18T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
   <entry>
+    <title>[드래곤 드라이브: 월드 D 브레이크] 이름 입력·전투 화면 수정과 2시간 플레이 확인</title>
+    <link href="https://ievy3.github.io/projects/dragon-drive-world-d-break/updates/2026-11-18.html"/>
+    <id>https://ievy3.github.io/projects/dragon-drive-world-d-break/updates/2026-11-18.html</id>
+    <updated>2026-11-18T00:00:00+09:00</updated>
+    <category term="드래곤 드라이브: 월드 D 브레이크"/>
+    <summary>이름 입력 구분선과 화염구 이름 깨짐 등을 고치고, 약 2시간 분량을 직접 조작해 확인했습니다.</summary>
+  </entry>
+  <entry>
     <title>[F-ZERO 클라이맥스] 1.0.0 공개와 화면 정리</title>
     <link href="https://ievy3.github.io/projects/f-zero-climax/updates/2026-11-18.html"/>
     <id>https://ievy3.github.io/projects/f-zero-climax/updates/2026-11-18.html</id>
@@ -264,6 +272,14 @@
     <summary>필드 일시정지 배너를 찾아 정리하고, 엔딩까지 플레이해 줄 외부 검수를 의뢰했습니다.</summary>
   </entry>
   <entry>
+    <title>[드래곤 드라이브: 월드 D 브레이크] 제목 로고 · 상점 간판 · 화면 확인 · 엔딩</title>
+    <link href="https://ievy3.github.io/projects/dragon-drive-world-d-break/updates/2026-11-13.html"/>
+    <id>https://ievy3.github.io/projects/dragon-drive-world-d-break/updates/2026-11-13.html</id>
+    <updated>2026-11-13T00:00:00+09:00</updated>
+    <category term="드래곤 드라이브: 월드 D 브레이크"/>
+    <summary>제목 로고와 상점 간판을 확정하고, 대부분의 화면을 확인했으며, 엔딩까지 이어 확인했습니다.</summary>
+  </entry>
+  <entry>
     <title>[듀나미스 15] 한글 글꼴과 범위 · 정본</title>
     <link href="https://ievy3.github.io/projects/dunamis15/updates/2026-11-13.html"/>
     <id>https://ievy3.github.io/projects/dunamis15/updates/2026-11-13.html</id>
@@ -310,21 +326,5 @@
     <updated>2026-11-12T00:00:00+09:00</updated>
     <category term="컨셉션 II: 일곱 별의 인도와 마수의 미궁"/>
     <summary>그림을 마무리하고, 실행 파일 문구를 번역하고, 말투를 점검했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[유디의 아틀리에] 번역 수신과 첫 통합 빌드</title>
-    <link href="https://ievy3.github.io/projects/atelier-judie/updates/2026-11-11.html"/>
-    <id>https://ievy3.github.io/projects/atelier-judie/updates/2026-11-11.html</id>
-    <updated>2026-11-11T00:00:00+09:00</updated>
-    <category term="유디의 아틀리에"/>
-    <summary>1차 번역을 합쳐 처음으로 한글판을 만들고, 시험 플레이에서 나온 문제를 고쳤습니다.</summary>
-  </entry>
-  <entry>
-    <title>[비오라트의 아틀리에] 번역 반입과 첫 통합 빌드</title>
-    <link href="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-11.html"/>
-    <id>https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-11.html</id>
-    <updated>2026-11-11T00:00:00+09:00</updated>
-    <category term="비오라트의 아틀리에"/>
-    <summary>번역본을 합쳐 처음으로 한글판을 만들고, 그림 작업을 시작했습니다.</summary>
   </entry>
 </feed>
