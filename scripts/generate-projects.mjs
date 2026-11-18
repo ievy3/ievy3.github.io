@@ -106,7 +106,8 @@ function selectReleaseAsset(release) {
 function versionFromRelease(release, prefix, asset = null) {
   if (asset) {
     const stem = asset.name.replace(/\.(?:zip|exe|7z)$/i, "");
-    const match = stem.match(/v\d+(?:\.\d+)+(?:-[A-Za-z0-9.]+)?$/i);
+    // 숫자 마디는 최대 세 개(v1.0.0)까지만 버전으로 봅니다. GitHub가 같은 이름의 첨부를 올릴 때 붙이는 「.1」(v1.0.0.1)이 버전으로 읽히지 않게 합니다.
+    const match = stem.match(/v\d+(?:\.\d+){1,2}(?:-[A-Za-z0-9.]+)?$/i);
     if (match) return match[0];
   }
 

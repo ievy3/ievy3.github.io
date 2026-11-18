@@ -28,43 +28,57 @@
   <a class="back" href="/projects/f-zero-climax/updates/">← 전체 작업일지</a>
   <header class="entry-hero">
     <p class="eyebrow">WORK LOG · 2026.11.17</p>
-    <h1>시험 플레이<br>반영</h1>
-    <p>직접 시험 플레이에서 나온 일본어를 한글로 바꾸고, 완료 세이브로 여러 메뉴를 확인했습니다.</p>
+    <h1>시험 플레이 반영과<br>그림 글자 전수 검사</h1>
+    <p>직접 시험 플레이에서 나온 일본어를 고치고, 그림 글자를 롬 전체에서 훑어 놓친 그림을 한글로 바꿨습니다.</p>
     <div class="badges"><span class="badge badge-live"><i></i>REVIEW</span></div>
   </header>
   <section class="entry-summary">
-    <div><strong>38줄</strong><span>선수 이름 한글화</span></div><div><strong>6개</strong><span>미리보기 점검</span></div><div><strong>0건</strong><span>남은 일본어(표본)</span></div>
+    <div><strong>38줄</strong><span>선수 이름 한글화</span></div><div><strong>11줄</strong><span>주행 안내 자막</span></div><div><strong>76행</strong><span>프로필 설명 끝줄 복원</span></div>
   </section>
   <section class="box entry-section">
     <p class="eyebrow">FIXES</p><h2>시험 플레이에서 나온 것</h2>
     <ul class="compact-list">
-      <li>GP 결과 순위표의 선수 이름이 일본어로 나오던 것을 찾아, 그림 38줄을 모두 한글로 바꿨습니다. 롬에서 읽은 그림이 렌더와 화소까지 같은 것을 확인했습니다. 데모 말풍선 0~4번도 화면으로 확인했습니다(31개 중 29개).</li>
-      <li>모드 선택 EDIT 미리보기의 「みかんせい」가 일본어로 남아 있어 미리보기 6개를 모두 점검했고, EDIT 것만 한글로 바꿨습니다.</li>
+      <li>GP 결과 순위표의 선수 이름 그림 38줄과 모드 선택 EDIT 미리보기의 「みかんせい」를 한글로 바꿨습니다. 미리보기 6개를 모두 점검해 EDIT만 일본어였습니다.</li>
       <li>완료 세이브(레코드 19종 모두)로 서바이벌·타임 어택·코스 불러오기(「카메라 설치됨」 포함)·통신 메뉴 표본을 확인해 일본어가 남지 않은 것을 확인했습니다.</li>
+      <li>스토리 줄 폭을 174px로 줄이고 줄 끝을 지워, 31화에서 초상화와 글이 겹치고 「고」 찌꺼기가 남던 것을 고쳤습니다.</li>
+      <li>프로필 설명 마지막 줄이 내려오지 않던 것은, 게임이 글 끝 줄바꿈 개수로 스크롤 한도를 정하는데 번역에서 빠져 있었기 때문입니다. 76행의 끝 줄바꿈을 되살리고 한 줄을 줄여, 76개를 끝까지 내려 확인했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">FOUND</p><h2>그림 글자 전수 검사</h2>
+    <ul class="compact-list">
+      <li>롬 전체에서 그림 글자를 훑어 해금 안내 그림 2장, 통신 안내 그림 3벌, 멀티부트 안 통신 글자, 주행 안내 자막 11줄을 새로 찾아 한글로 바꿨습니다. 압축되지 않은 그림, 색이 많은 그림, 어긋난 묶음, 경계가 불분명한 블록 913개도 훑었고 더 나온 일본어는 없었습니다.</li>
+      <li>직전 빌드에서 EDIT 미리보기 한글화가 빠진 것을 발견해, 빌드 순서를 하나로 묶고 그림 단계를 확인하도록 했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">RELEASE</p><h2>배포 준비</h2>
+    <ul class="compact-list">
+      <li>그랑프리 한 판을 완주해 결과 화면의 선수 이름에 이상이 없는 것을 확인했습니다.</li>
+      <li>안내문(그대로 둔 것·화면에서 본 적 없는 것·확인 범위)을 채우고, 첫 배포 판을 1.0.0으로 정했습니다.</li>
     </ul>
   </section>
   <section class="entry-grid validation-grid">
     <article class="box entry-section">
       <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
       <ul class="log-checklist">
-        <li><span>✓</span>선수 이름 38줄 화면 확인</li>
+        <li><span>✓</span>그랑프리 한 판 완주</li>
+        <li><span>✓</span>프로필 설명 76개 스크롤 확인</li>
         <li><span>✓</span>완료 세이브로 메뉴 표본 확인</li>
       </ul>
     </article>
     <article class="box entry-section">
       <p class="eyebrow">NEXT</p><h2>이어서 할 것</h2>
       <ul class="log-checklist">
-        <li><span>○</span>띄어쓰기가 걸린 다른 글 확인</li>
-        <li><span>○</span>「고스트 있음」·통신 대전 메뉴</li>
-        <li><span>○</span>엔딩·크레딧</li>
-        <li><span>○</span>시험 플레이 계속</li>
+        <li><span>○</span>배포 전 점검</li>
+        <li><span>○</span>배포 꾸러미</li>
       </ul>
     </article>
   </section>
   <section class="box entry-section">
     <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
     <ul class="compact-list">
-      <li>공개 일정은 정해지지 않았습니다.</li>
+      <li>화면으로 못 본 것은 안내문에 적었습니다.</li>
     </ul>
   </section>
   <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
