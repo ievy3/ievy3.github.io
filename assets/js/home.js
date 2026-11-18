@@ -11,8 +11,8 @@ const fallbackProjects = [
   {
     "title": "F-ZERO 클라이맥스",
     "href": "/projects/f-zero-climax/",
-    "image": "/assets/images/f-zero-climax/official-cover.webp",
-    "imageAlt": "F-ZERO クライマックス 일본판 GBA 패키지",
+    "image": "/assets/images/f-zero-climax/2026-11-18-title-ko.webp",
+    "imageAlt": "F-ZERO 클라이맥스 한글 타이틀 화면",
     "imageFit": "cover",
     "platform": "GBA",
     "genre": "레이싱",
@@ -20,10 +20,10 @@ const fallbackProjects = [
     "type": "한국어 패치",
     "status": "public",
     "statusLabel": "베타 공개",
-    "stage": 5,
-    "version": "v1.0.0.1",
+    "stage": 6,
+    "version": "v1.0.0",
     "updated": "2026-11-18",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/fzero-v1.0.0/FZeroClimax_KrPatcher_v1.0.0.1.zip",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/fzero-v1.0.0/FZeroClimax_KrPatcher_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/fzero-v1.0.0",
     "releasePublishedAt": "2026-11-18T07:55:36Z",
     "totalDownloads": 0,
@@ -44,9 +44,9 @@ const fallbackProjects = [
       "mGBA"
     ],
     "latestWorklog": {
-      "date": "2026-11-17",
-      "title": "시험 플레이 반영",
-      "href": "/projects/f-zero-climax/updates/2026-11-17.html"
+      "date": "2026-11-18",
+      "title": "1.0.0 공개와 화면 정리",
+      "href": "/projects/f-zero-climax/updates/2026-11-18.html"
     }
   },
   {

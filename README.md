@@ -21,7 +21,7 @@
 
 ### 공개
 
-- [F-ZERO 클라이맥스](https://ievy3.github.io/projects/f-zero-climax/) (GBA) — **v1.0.0.1** · 베타 공개
+- [F-ZERO 클라이맥스](https://ievy3.github.io/projects/f-zero-climax/) (GBA) — **v1.0.0** · 베타 공개
 - [듀나미스 15](https://ievy3.github.io/projects/dunamis15/) (PSP) — **v1.0.1** · 베타 공개
 - [비오라트의 아틀리에](https://ievy3.github.io/projects/atelier-viorate/) (PSP) — **v1.0.1** · 베타 공개
 - [샤이닝 하츠](https://ievy3.github.io/projects/shining-hearts/) (PSP) — **v0.9.1** · 베타 공개
