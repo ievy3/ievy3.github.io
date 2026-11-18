@@ -1034,8 +1034,8 @@
     "platform": "GBA",
     "genre": "레이싱",
     "subgenre": "SF",
-    "image": "/assets/images/f-zero-climax/official-cover.webp",
-    "imageAlt": "F-ZERO クライマックス 일본판 GBA 패키지",
+    "image": "/assets/images/f-zero-climax/2026-11-18-title-ko.webp",
+    "imageAlt": "F-ZERO 클라이맥스 한글 타이틀 화면",
     "type": "한국어 패치",
     "releasePrefix": "fzero-",
     "description": "애니메이션 「F-ZERO 팔콘 전설」 이야기를 레이스로 따라가는 GBA용 SF 레이싱",
@@ -1052,7 +1052,7 @@
       "레이싱"
     ],
     "releaseRepository": "ievy3/ievy3.github.io",
-    "stage": 5,
+    "stage": 6,
     "updated": "2026-11-18",
     "verification": [
       "mGBA"
