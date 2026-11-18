@@ -5,8 +5,16 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-11-17T00:00:00+09:00</updated>
+  <updated>2026-11-18T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[F-ZERO 클라이맥스] 1.0.0 배포 꾸러미와 화면 정리</title>
+    <link href="https://ievy3.github.io/projects/f-zero-climax/updates/2026-11-18.html"/>
+    <id>https://ievy3.github.io/projects/f-zero-climax/updates/2026-11-18.html</id>
+    <updated>2026-11-18T00:00:00+09:00</updated>
+    <category term="F-ZERO 클라이맥스"/>
+    <summary>배포 전 점검을 통과해 1.0.0 배포 꾸러미를 만들고, 배포용 화면을 새로 찍었습니다.</summary>
+  </entry>
   <entry>
     <title>[비오라트의 아틀리에] 영상 한글화와 v1.0.1</title>
     <link href="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-17.html"/>
@@ -40,12 +48,12 @@
     <summary>한글로 만든 오프닝 영상을 원본과 같은 크기로 넣고, 시험 플레이와 배포 점검을 거쳐 첫 공개판 v1.0.1을 내놓았습니다.</summary>
   </entry>
   <entry>
-    <title>[F-ZERO 클라이맥스] 시험 플레이 반영</title>
+    <title>[F-ZERO 클라이맥스] 시험 플레이 반영과 그림 글자 전수 검사</title>
     <link href="https://ievy3.github.io/projects/f-zero-climax/updates/2026-11-17.html"/>
     <id>https://ievy3.github.io/projects/f-zero-climax/updates/2026-11-17.html</id>
     <updated>2026-11-17T00:00:00+09:00</updated>
     <category term="F-ZERO 클라이맥스"/>
-    <summary>직접 시험 플레이에서 나온 일본어를 한글로 바꾸고, 완료 세이브로 여러 메뉴를 확인했습니다.</summary>
+    <summary>직접 시험 플레이에서 나온 일본어를 고치고, 그림 글자를 롬 전체에서 훑어 놓친 그림을 한글로 바꿨습니다.</summary>
   </entry>
   <entry>
     <title>[샤이닝 하츠] 무기 상점 수정과 v0.9.1</title>
@@ -318,13 +326,5 @@
     <updated>2026-11-11T00:00:00+09:00</updated>
     <category term="비오라트의 아틀리에"/>
     <summary>번역본을 합쳐 처음으로 한글판을 만들고, 그림 작업을 시작했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[봄버맨 제터스] 글자 구조 분석과 한글 표시 · 번역 시작</title>
-    <link href="https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-11.html"/>
-    <id>https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-11.html</id>
-    <updated>2026-11-11T00:00:00+09:00</updated>
-    <category term="봄버맨 제터스"/>
-    <summary>게임이 한글을 그릴 수 있게 만들고, 번역 1차와 첫 그림 한글화까지 한 날입니다.</summary>
   </entry>
 </feed>
