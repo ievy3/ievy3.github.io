@@ -17,7 +17,7 @@
 ## Projects
 
 <!-- BEGIN projects (scripts/build-site-files.mjs가 projects.generated.json으로 자동 갱신합니다) -->
-현재 공개 허브에서 관리하는 프로젝트는 **37개**입니다(공개 32 · 작업 중 5). 버전은 공개된 최신 배포본 기준입니다.
+현재 공개 허브에서 관리하는 프로젝트는 **38개**입니다(공개 32 · 작업 중 6). 버전은 공개된 최신 배포본 기준입니다.
 
 ### 공개
 
@@ -56,6 +56,7 @@
 
 ### 작업 중
 
+- [드래곤 드라이브: 월드 D 브레이크](https://ievy3.github.io/projects/dragon-drive-world-d-break/) (GBA) — 작업 중 · 5단계 실행 검수
 - [언체인 블레이즈 렉스](https://ievy3.github.io/projects/unchained-blades-rexx/) (PSP) — 작업 중 · 5단계 실행 검수
 - [컨셉션 II: 일곱 별의 인도와 마수의 미궁](https://ievy3.github.io/projects/conception-2/) (PS Vita) — 작업 중 · 5단계 실행 검수
 - [코드:18](https://ievy3.github.io/projects/code-18/) (PSP) — 작업 중 · 5단계 실행 검수
@@ -64,7 +65,6 @@
 
 ### 작업 예정
 
-- 드래곤 드라이브: 월드 D 브레이크 (GBA)
 - 일상 (우주인) (PSP)
 - 하트커넥트: 예지랜덤 (PSP)
 <!-- END projects -->
