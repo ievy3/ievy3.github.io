@@ -5,15 +5,31 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-11-18T00:00:00+09:00</updated>
+  <updated>2026-11-20T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
   <entry>
-    <title>[드래곤 드라이브: 월드 D 브레이크] 이름 입력·전투 화면 수정과 2시간 플레이 확인</title>
+    <title>[드래곤 드라이브: 월드 D 브레이크] 배포 꾸러미와 게시 준비</title>
+    <link href="https://ievy3.github.io/projects/dragon-drive-world-d-break/updates/2026-11-20.html"/>
+    <id>https://ievy3.github.io/projects/dragon-drive-world-d-break/updates/2026-11-20.html</id>
+    <updated>2026-11-20T00:00:00+09:00</updated>
+    <category term="드래곤 드라이브: 월드 D 브레이크"/>
+    <summary>첫 공개 배포 꾸러미가 배포 점검과 패처 시험을 통과했고, 게시용 화면을 새로 찍었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[드래곤 드라이브: 월드 D 브레이크] 기술 연출 중 이름 칸 이전(C안)</title>
+    <link href="https://ievy3.github.io/projects/dragon-drive-world-d-break/updates/2026-11-19.html"/>
+    <id>https://ievy3.github.io/projects/dragon-drive-world-d-break/updates/2026-11-19.html</id>
+    <updated>2026-11-19T00:00:00+09:00</updated>
+    <category term="드래곤 드라이브: 월드 D 브레이크"/>
+    <summary>기술 연출 중 이름이 사라지는 원인을 측정하고, 이름 그림 칸을 효과가 쓰지 않는 곳으로 옮겨 해결했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[드래곤 드라이브: 월드 D 브레이크] 수정과 2시간 플레이 · 두 번째 전투 확인</title>
     <link href="https://ievy3.github.io/projects/dragon-drive-world-d-break/updates/2026-11-18.html"/>
     <id>https://ievy3.github.io/projects/dragon-drive-world-d-break/updates/2026-11-18.html</id>
     <updated>2026-11-18T00:00:00+09:00</updated>
     <category term="드래곤 드라이브: 월드 D 브레이크"/>
-    <summary>이름 입력 구분선과 화염구 이름 깨짐 등을 고치고, 약 2시간 분량을 직접 조작해 확인했습니다.</summary>
+    <summary>이름 입력 구분선과 화염구 이름 깨짐 등을 고치고, 약 2시간 분량과 두 번째 전투를 직접 확인했습니다.</summary>
   </entry>
   <entry>
     <title>[F-ZERO 클라이맥스] 1.0.0 공개와 화면 정리</title>
@@ -310,21 +326,5 @@
     <updated>2026-11-12T00:00:00+09:00</updated>
     <category term="비오라트의 아틀리에"/>
     <summary>그림을 게임에 넣고 첫 배포 점검을 받았으며, 직접 만든 완성본 그림을 적용했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[봄버맨 제터스] 그림 한글화와 대사창 글꼴 교체</title>
-    <link href="https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-12.html"/>
-    <id>https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-12.html</id>
-    <updated>2026-11-12T00:00:00+09:00</updated>
-    <category term="봄버맨 제터스"/>
-    <summary>그림 여러 묶음을 한글로 바꾸고, 대사창을 10px 한글 글꼴로 새로 그렸으며, 직접 만든 한글 그림 20장을 넣었습니다.</summary>
-  </entry>
-  <entry>
-    <title>[컨셉션 II: 일곱 별의 인도와 마수의 미궁] 그림 마무리와 첫 통합 빌드 점검</title>
-    <link href="https://ievy3.github.io/projects/conception-2/updates/2026-11-12.html"/>
-    <id>https://ievy3.github.io/projects/conception-2/updates/2026-11-12.html</id>
-    <updated>2026-11-12T00:00:00+09:00</updated>
-    <category term="컨셉션 II: 일곱 별의 인도와 마수의 미궁"/>
-    <summary>그림을 마무리하고, 실행 파일 문구를 번역하고, 말투를 점검했습니다.</summary>
   </entry>
 </feed>
