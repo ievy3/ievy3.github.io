@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 19일 드래곤 드라이브: 월드 D 브레이크 한국어 패치 작업일지">
+  <title>2026.11.19 작업일지 | 드래곤 드라이브: 월드 D 브레이크</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/dragon-drive-world-d-break/updates/2026-11-19.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.19 작업일지 | 드래곤 드라이브: 월드 D 브레이크">
+  <meta property="og:description" content="2026년 11월 19일 드래곤 드라이브: 월드 D 브레이크 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/dragon-drive-world-d-break/updates/2026-11-19.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/dragon-drive-world-d-break/official-cover.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.19 작업일지 | 드래곤 드라이브: 월드 D 브레이크">
+  <meta name="twitter:description" content="2026년 11월 19일 드래곤 드라이브: 월드 D 브레이크 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/dragon-drive-world-d-break/official-cover.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/dragon-drive-world-d-break/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.19</p>
+    <h1>기술 연출 중 이름 칸<br>이전(C안)</h1>
+    <p>기술 연출 중 이름이 사라지는 원인을 측정하고, 이름 그림 칸을 효과가 쓰지 않는 곳으로 옮겨 해결했습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>FIXES</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>37타일</strong><span>이름을 둘 수 있는 빈 칸</span></div><div><strong>3종</strong><span>연출 확인(블레이드·화염구·쁘띠 브레스)</span></div><div><strong>0개</strong><span>연출 중 바뀐 이름 칸</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">FOUND</p><h2>원인 측정</h2>
+    <ul class="compact-list">
+      <li>화염구·쁘띠 브레스는 이름 칸이 바뀌지 않고 이름 띠가 정상이었습니다. 그런데 블레이드를 쓴 뒤 상대가 반격하는 단계에서 왼쪽 이름이 사라지고 이름 칸 타일 20개가 바뀌었습니다. 이전 빌드에서도 같은 구간에서 이름이 깨졌고, 일본어 원본은 이름이 유지됩니다.</li>
+      <li>원인은 원본의 효과 그림 묶음(128타일)을 올리는 코드 4곳이 이름 칸을 덮어쓰는 것이었습니다. 묶음 안에는 히트·블록·화살표 등 실제 그림이 있어 줄이기만 하면 기술 이름 띠 그림이 깨집니다.</li>
+      <li>화면용 그림 칸 1,024타일 중 971타일이 쓰이고, 한 번도 쓰이지 않는 칸은 24개뿐이라 이름 칸 48타일을 그대로 옮길 수 없었습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">MADE</p><h2>해결(C안)</h2>
+    <ul class="compact-list">
+      <li>효과 묶음의 업로드를 타일 0~107과 122~127 두 부분으로 나눠, 이름 칸을 덮지 않게 했습니다.</li>
+      <li>전투 HUD 이름 그림 칸을 효과가 쓰지 않는 타일 풀로 옮겼습니다. 측정하면서 불화구 효과가 쓰는 칸, 기술 이름 띠가 쓰는 칸, 효과가 가끔 쓰는 칸 하나도 풀에서 빼, 실제로 쓰지 않는 칸 37타일(왼쪽 19·오른쪽 18)만 남겼습니다.</li>
+      <li>왼쪽 191번(센코쿠라 중장갑)은 오른쪽과 같은 방식으로 타일 경계를 다시 배치해 18타일에 넣었습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">CHECKED</p><h2>확인</h2>
+    <ul class="compact-list">
+      <li>저장 복사본에서 블레이드·화염구·쁘띠 브레스를 각 100프레임씩 돌려, 이름 칸 타일이 전 프레임에서 변하지 않고 블레이드 연출 중에도 양쪽 HUD 이름이 유지되는 것을 확인했습니다. 송곳니 연출은 이전과 같은 모양(띠 애니메이션)으로 나옵니다.</li>
+      <li>BPS를 만들어 원본에 적용한 결과가 빌드와 바이트까지 같은 것을 확인했습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>연출 3종 중 이름 칸 불변</li>
+        <li><span>✓</span>블레이드 연출 중 HUD 이름 유지</li>
+        <li><span>✓</span>BPS 결과 일치</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NEXT</p><h2>이어서 할 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>이름이 긴 용(137·189·191번) 전투 확인</li>
+        <li><span>○</span>승리·보상·엔딩 확인</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>이름 풀 끝 칸을 실제로 쓰는 긴 이름의 전투는 정적 검증만 했습니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">DRAGON DRIVE WORLD D BREAK WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=5" defer></script>
+</body>
+</html>

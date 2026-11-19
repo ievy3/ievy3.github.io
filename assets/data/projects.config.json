@@ -770,11 +770,11 @@
   {
     "slug": "dragon-drive-world-d-break",
     "title": "드래곤 드라이브: 월드 D 브레이크",
-    "imageAlt": "ドラゴンドライブ ワールドDブレイク 일본판 GBA 패키지",
+    "imageAlt": "드래곤 드라이브 월드 D 브레이크 한글 타이틀 화면",
     "platform": "GBA",
     "genre": "RPG",
     "subgenre": "배틀",
-    "image": "/assets/images/dragon-drive-world-d-break/official-cover.webp",
+    "image": "/assets/images/dragon-drive-world-d-break/2026-11-20-title-ko.webp",
     "type": "한국어 패치",
     "releasePrefix": "dragondrive-",
     "description": "애니메이션 「드래곤 드라이브」를 바탕으로 한 GBA용 배틀 RPG",
@@ -791,8 +791,8 @@
       "rpg"
     ],
     "releaseRepository": "ievy3/ievy3.github.io",
-    "stage": 5,
-    "updated": "2026-11-18",
+    "stage": 6,
+    "updated": "2026-11-20",
     "verification": [
       "mGBA"
     ]
