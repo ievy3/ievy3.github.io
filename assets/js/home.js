@@ -11,8 +11,8 @@ const fallbackProjects = [
   {
     "title": "드래곤 드라이브: 월드 D 브레이크",
     "href": "/projects/dragon-drive-world-d-break/",
-    "image": "/assets/images/dragon-drive-world-d-break/official-cover.webp",
-    "imageAlt": "ドラゴンドライブ ワールドDブレイク 일본판 GBA 패키지",
+    "image": "/assets/images/dragon-drive-world-d-break/2026-11-20-title-ko.webp",
+    "imageAlt": "드래곤 드라이브 월드 D 브레이크 한글 타이틀 화면",
     "imageFit": "cover",
     "platform": "GBA",
     "genre": "RPG",
@@ -20,7 +20,7 @@ const fallbackProjects = [
     "type": "한국어 패치",
     "status": "public",
     "statusLabel": "베타 공개",
-    "stage": 5,
+    "stage": 6,
     "version": "v0.9.0",
     "updated": "2026-11-20",
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dragondrive-v0.9.0/DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
@@ -44,9 +44,9 @@ const fallbackProjects = [
       "mGBA"
     ],
     "latestWorklog": {
-      "date": "2026-11-18",
-      "title": "이름 입력·전투 화면 수정과 2시간 플레이 확인",
-      "href": "/projects/dragon-drive-world-d-break/updates/2026-11-18.html"
+      "date": "2026-11-20",
+      "title": "배포 꾸러미와 v0.9.0 공개",
+      "href": "/projects/dragon-drive-world-d-break/updates/2026-11-20.html"
     }
   },
   {
