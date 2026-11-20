@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 18일 미래일기 -13번째 일기 소유자- Re:write 한국어 패치 작업일지">
+  <title>2026.11.18 작업일지 | 미래일기 -13번째 일기 소유자- Re:write</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-18.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.18 작업일지 | 미래일기 -13번째 일기 소유자- Re:write">
+  <meta property="og:description" content="2026년 11월 18일 미래일기 -13번째 일기 소유자- Re:write 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-18.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/mirai-nikki-13th-rewrite/official-cover.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.18 작업일지 | 미래일기 -13번째 일기 소유자- Re:write">
+  <meta name="twitter:description" content="2026년 11월 18일 미래일기 -13번째 일기 소유자- Re:write 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/mirai-nikki-13th-rewrite/official-cover.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/mirai-nikki-13th-rewrite/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.18</p>
+    <h1>번역 반영과<br>배포 후보 점검</h1>
+    <p>번역을 반영해 배포 후보를 만들고, 저장 흐름과 멈춤 문제를 확인했으며, 말투와 이름 목록을 정리했습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>BUILD</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>182행</strong><span>말투 불일치 정리</span></div><div><strong>63행</strong><span>뒷면 미래일기 이름</span></div><div><strong>16장</strong><span>화면 판정</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">REVIEW</p><h2>말투와 번역</h2>
+    <ul class="compact-list">
+      <li>말투 불일치 182행을 행마다 판별해 반영했습니다. 화자·청자가 잘못 배정된 36행을 고치고, 말투 정본 132행·관계 3쌍·번역 7행을 반영해 말투 점검 0건으로 만들었습니다.</li>
+      <li>뒷면 미래일기 목록 이름 63행(정본 이름 + 원문 번호)과 정보 목록의 「디지털 액자」 항목을 채웠습니다.</li>
+      <li>XMB 게임 제목과 저장 화면의 일본어 문구를 기존 번역으로 채웠습니다. 타이틀 아래 저작권 표기는 권리 표기라 원문 그대로 둡니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">FIXES</p><h2>수정</h2>
+    <ul class="compact-list">
+      <li>타이틀에서 「무르무르의 방」에 들어가면 멈추던 문제를 찾았습니다. 화면 데이터를 찾는 내부 이름표 3개를 번역해서 생긴 문제라 원문으로 되돌렸고, 방과 안의 메뉴 3개, 이어 하기가 정상인 것을 확인했습니다.</li>
+      <li>설정 화면의 선택 그림(「읽은 것만」「모두」)을 바탕 글자와 같은 자리·크기로 다시 그려 겹쳐도 한 겹으로 보이게 했습니다.</li>
+      <li>글자를 픽셀 글꼴로 넣었던 그림 127곳을 벡터 글꼴로 다시 그려 98곳은 벡터로, 28곳은 픽셀로 유지했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">CHECKED</p><h2>저장 흐름 확인</h2>
+    <ul class="compact-list">
+      <li>세이브가 없을 때 저장 안내→「저장이 완료됐습니다.」, 세이브 제목·설명이 한글로 저장되는 것, 진행 중 △ 중단→저장 완료→타이틀, 이어 하기로 중단한 장면이 그대로 이어지는 것을 에뮬레이터로 확인했습니다.</li>
+      <li>지운 그림(4-b 98장, 4-a 60장, 날짜 그림 12장)을 전부 받아 쓰기로 했고, 사용자 시험 플레이는 에뮬레이터 확인으로 대신하기로 했습니다.</li>
+      <li>배포 후보의 화면 16장을 판정해 주요 문제 1건(타이틀 저작권 표기를 일본어로 둔 것, 의도한 것)과 경미한 문제 2건을 확인했습니다. 점검 7차를 통과했습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>저장·불러오기·중단 흐름</li>
+        <li><span>✓</span>무르무르의 방·음악 일기·뒷면 미래일기 진입</li>
+        <li><span>✓</span>배포 점검 7차 통과</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NEXT</p><h2>이어서 할 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>4-b 그림 스타일 다시 맞추기</li>
+        <li><span>○</span>시나리오 선택 등 미도달 화면</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>사용자 시험 플레이는 하지 않고 에뮬레이터로 대신 확인합니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">MIRAI NIKKI RE:WRITE WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=5" defer></script>
+</body>
+</html>
