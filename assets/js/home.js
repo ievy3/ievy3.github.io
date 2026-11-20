@@ -26,7 +26,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dragondrive-v0.9.0/DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dragondrive-v0.9.0",
     "releasePublishedAt": "2026-11-19T16:22:38Z",
-    "totalDownloads": 96,
+    "totalDownloads": 110,
     "description": "애니메이션 「드래곤 드라이브」를 바탕으로 한 GBA용 배틀 RPG",
     "keywords": [
       "드래곤 드라이브",
