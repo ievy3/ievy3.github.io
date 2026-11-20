@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 19일 미래일기 -13번째 일기 소유자- Re:write 한국어 패치 작업일지">
+  <title>2026.11.19 작업일지 | 미래일기 -13번째 일기 소유자- Re:write</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-19.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.19 작업일지 | 미래일기 -13번째 일기 소유자- Re:write">
+  <meta property="og:description" content="2026년 11월 19일 미래일기 -13번째 일기 소유자- Re:write 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-19.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/mirai-nikki-13th-rewrite/official-cover.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.19 작업일지 | 미래일기 -13번째 일기 소유자- Re:write">
+  <meta name="twitter:description" content="2026년 11월 19일 미래일기 -13번째 일기 소유자- Re:write 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/mirai-nikki-13th-rewrite/official-cover.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/mirai-nikki-13th-rewrite/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.19</p>
+    <h1>그림 스타일 방향 확정과<br>원문 유지 원칙</h1>
+    <p>4-b 그림이 원문 스타일을 따르는지 살펴, 새 제작 방식과 「생성하지 못하면 원문을 살린다」는 원칙을 정했습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>GRAPHICS</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>127상자</strong><span>스타일 점검</span></div><div><strong>13상자</strong><span>원문으로 되돌림</span></div><div><strong>93장</strong><span>남은 4-b 그림</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">GRAPHICS</p><h2>그림</h2>
+    <ul class="compact-list">
+      <li>타이틀 로고 「미래일기」에 원문의 둥근 구멍이 없다는 지적에 따라, 원본과 같은 지름·글자당 개수로 구멍을 넣었습니다.</li>
+      <li>4-b 그림 140상자의 스타일(기울임·호형·원근·효과음 손글씨)을 조사해, 원문과 다른 41상자를 다시 렌더했고 원문으로 되돌린 상자 13개는 따로 확인했습니다.</li>
+      <li>원문 스타일을 따르지 못하는 그림은 글자를 지우고 한글을 넣는 대신 원문을 그대로 살리기로 했습니다. 판독할 수 없는 잔글씨와 가게 간판이 여기에 해당합니다.</li>
+      <li>한글 그림은 되도록 벡터 글꼴로 만들고, 벡터가 1배에서 깨질 때만 픽셀 글꼴을 쓰는 규칙을 정했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">REVIEW</p><h2>지적과 검사</h2>
+    <ul class="compact-list">
+      <li>판정을 통과한 그림에도 글꼴이 원본의 둥근꼴과 다르고, 기운 표가 각도를 따르지 않고, 제목 둘레 찌꺼기가 남고, 포스터 글이 종이 밖으로 넘치는 문제가 있었습니다. 이전 판은 쓰지 않고, 종이 경계 밖 글자·상자 둘레 찌꺼기·면 기울기 대비 각도를 재는 기계 검사를 더하기로 했습니다.</li>
+      <li>대사 글꼴은 지금 그대로(Pretendard Regular 15px)로 두기로 했습니다. 후보 14개를 비교했지만 다시 빌드하지 않습니다.</li>
+      <li>시나리오 선택(일별 목록·시크릿 팩터 상세·한 날 시작), 무르무르의 방, 음악 일기 목록, 뒷면 미래일기(해금 목록→항목 열기→대사)에 멈춤 없이 들어가는 것을 확인했습니다.</li>
+    </ul>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">CANON</p><h2>결정</h2>
+    <ul class="compact-list">
+      <li>표본(글자를 지우고 벡터 글꼴로 한글을 넣는 방식)을 확인해 이대로 남은 93장을 같은 방식으로 만들기로 했습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>시나리오 선택·방·음악 일기·뒷면 미래일기 진입</li>
+        <li><span>✓</span>로고 구멍 판정 통과</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NEXT</p><h2>이어서 할 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>4-b 남은 그림 제작</li>
+        <li><span>○</span>판정과 확인</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>캐릭터 일기·정보 목록·DEAD END 상세, 「???」, 떡 찧기는 열지 못했습니다.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">MIRAI NIKKI RE:WRITE WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=5" defer></script>
+</body>
+</html>

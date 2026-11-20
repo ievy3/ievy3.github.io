@@ -1101,8 +1101,10 @@
       "어드벤처"
     ],
     "releaseRepository": "ievy3/ievy3.github.io",
-    "stage": 3,
-    "updated": "2026-11-17",
-    "verification": []
+    "stage": 5,
+    "updated": "2026-11-20",
+    "verification": [
+      "PPSSPP"
+    ]
   }
 ]
