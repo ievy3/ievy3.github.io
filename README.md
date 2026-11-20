@@ -57,10 +57,10 @@
 
 ### 작업 중
 
+- [미래일기 -13번째 일기 소유자- Re:write](https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/) (PSP) — 작업 중 · 5단계 실행 검수
 - [언체인 블레이즈 렉스](https://ievy3.github.io/projects/unchained-blades-rexx/) (PSP) — 작업 중 · 5단계 실행 검수
 - [컨셉션 II: 일곱 별의 인도와 마수의 미궁](https://ievy3.github.io/projects/conception-2/) (PS Vita) — 작업 중 · 5단계 실행 검수
 - [코드:18](https://ievy3.github.io/projects/code-18/) (PSP) — 작업 중 · 5단계 실행 검수
-- [미래일기 -13번째 일기 소유자- Re:write](https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/) (PSP) — 작업 중 · 3단계 대사 번역
 - [바케모노가타리 포터블](https://ievy3.github.io/projects/bakemonogatari-portable/) (PSP) — 작업 중 · 3단계 대사 번역
 
 ### 작업 예정

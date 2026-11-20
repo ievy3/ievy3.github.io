@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T00:35:10.538Z",
+  "generatedAt": "2026-11-20T00:53:01.652Z",
   "projects": [
     {
       "title": "드래곤 드라이브: 월드 D 브레이크",
@@ -21,13 +21,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dragondrive-v0.9.0/DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
       "downloadAsset": "DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
-      "downloadCount": 87,
+      "downloadCount": 96,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dragondrive-v0.9.0",
       "releaseName": "[gba] 드래곤 드라이브 월드 D 브레이크 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-11-19T16:22:38Z",
       "updated": "2026-11-20",
       "publicBuilds": 1,
-      "totalDownloads": 87,
+      "totalDownloads": 96,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -39,7 +39,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dragondrive-v0.9.0/DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
           "downloadAsset": "DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
-          "downloadCount": 87
+          "downloadCount": 96
         }
       ],
       "description": "애니메이션 「드래곤 드라이브」를 바탕으로 한 GBA용 배틀 RPG",
@@ -64,6 +64,50 @@
         "href": "/projects/dragon-drive-world-d-break/updates/2026-11-20.html"
       },
       "latestReleaseTag": "dragondrive-v0.9.0"
+    },
+    {
+      "title": "미래일기 -13번째 일기 소유자- Re:write",
+      "href": "/projects/mirai-nikki-13th-rewrite/",
+      "repository": null,
+      "repositoryUrl": null,
+      "issuesUrl": null,
+      "releaseRepository": "ievy3/ievy3.github.io",
+      "image": "/assets/images/mirai-nikki-13th-rewrite/official-cover.webp",
+      "imageAlt": "未来日記 RE:WRITE 13人目の日記所有者 일본판 PSP 패키지",
+      "imageFit": "cover",
+      "platform": "PSP",
+      "genre": "어드벤처",
+      "subgenre": "서스펜스",
+      "type": "한국어 패치",
+      "status": "development",
+      "statusLabel": "작업 중",
+      "stage": 5,
+      "version": "첫 공개 전",
+      "updated": "2026-11-20",
+      "publicBuilds": 0,
+      "totalDownloads": 0,
+      "releaseHistory": [],
+      "description": "애니메이션 「미래일기」를 바탕으로 한 PSP용 어드벤처",
+      "keywords": [
+        "미래일기",
+        "미래일기 re:write",
+        "미래일기 리라이트",
+        "mirai nikki",
+        "future diary",
+        "未来日記",
+        "リライト",
+        "psp",
+        "어드벤처"
+      ],
+      "verification": [
+        "PPSSPP"
+      ],
+      "latestWorklog": {
+        "date": "2026-11-20",
+        "title": "4-b 그림 새 판 완성",
+        "href": "/projects/mirai-nikki-13th-rewrite/updates/2026-11-20.html"
+      },
+      "latestReleaseTag": null
     },
     {
       "title": "F-ZERO 클라이맥스",
@@ -194,48 +238,6 @@
       "latestReleaseTag": "dunamis15-v1.0.1"
     },
     {
-      "title": "미래일기 -13번째 일기 소유자- Re:write",
-      "href": "/projects/mirai-nikki-13th-rewrite/",
-      "repository": null,
-      "repositoryUrl": null,
-      "issuesUrl": null,
-      "releaseRepository": "ievy3/ievy3.github.io",
-      "image": "/assets/images/mirai-nikki-13th-rewrite/official-cover.webp",
-      "imageAlt": "未来日記 RE:WRITE 13人目の日記所有者 일본판 PSP 패키지",
-      "imageFit": "cover",
-      "platform": "PSP",
-      "genre": "어드벤처",
-      "subgenre": "서스펜스",
-      "type": "한국어 패치",
-      "status": "development",
-      "statusLabel": "작업 중",
-      "stage": 3,
-      "version": "첫 공개 전",
-      "updated": "2026-11-17",
-      "publicBuilds": 0,
-      "totalDownloads": 0,
-      "releaseHistory": [],
-      "description": "애니메이션 「미래일기」를 바탕으로 한 PSP용 어드벤처",
-      "keywords": [
-        "미래일기",
-        "미래일기 re:write",
-        "미래일기 리라이트",
-        "mirai nikki",
-        "future diary",
-        "未来日記",
-        "リライト",
-        "psp",
-        "어드벤처"
-      ],
-      "verification": [],
-      "latestWorklog": {
-        "date": "2026-11-16",
-        "title": "표시 기반 · 범위 · 정본 · 번역 묶음",
-        "href": "/projects/mirai-nikki-13th-rewrite/updates/2026-11-16.html"
-      },
-      "latestReleaseTag": null
-    },
-    {
       "title": "비오라트의 아틀리에",
       "href": "/projects/atelier-viorate/",
       "repository": null,
@@ -333,13 +335,13 @@
       "version": "v0.9.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.1/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Shining_Hearts_v0.9.1.zip",
-      "downloadCount": 290,
+      "downloadCount": 291,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.1",
       "releaseName": "[PSP] 샤이닝 하츠 (シャイニング・ハーツ) 한글 패치 v0.9.1",
       "releasePublishedAt": "2026-11-17T05:37:48Z",
       "updated": "2026-11-17",
       "publicBuilds": 2,
-      "totalDownloads": 790,
+      "totalDownloads": 791,
       "releaseHistory": [
         {
           "version": "v0.9.1",
@@ -351,7 +353,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.1/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Shining_Hearts_v0.9.1.zip",
-          "downloadCount": 290
+          "downloadCount": 291
         },
         {
           "version": "v0.9.0",
@@ -543,13 +545,13 @@
       "version": "v0.9.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/macrosstf-v0.9.1/Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
-      "downloadCount": 226,
+      "downloadCount": 227,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/macrosstf-v0.9.1",
       "releaseName": "[psp] 마크로스 트라이앵글 프론티어 한글 패치 v0.9.1",
       "releasePublishedAt": "2026-11-16T13:12:42Z",
       "updated": "2026-11-16",
       "publicBuilds": 2,
-      "totalDownloads": 601,
+      "totalDownloads": 602,
       "releaseHistory": [
         {
           "version": "v0.9.1",
@@ -561,7 +563,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/macrosstf-v0.9.1/Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
-          "downloadCount": 226
+          "downloadCount": 227
         },
         {
           "version": "v0.9.0",
@@ -1758,13 +1760,13 @@
       "version": "v1.0.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
       "downloadAsset": "OreImoDisc2KrPatcher.zip",
-      "downloadCount": 691,
+      "downloadCount": 692,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
       "releaseName": "[PSP] 내 여동생이 이렇게 귀여울 리가 없어 포터블이 계속될 리가 없어 Disc 2 한글 패치",
       "releasePublishedAt": "2026-10-09T01:10:57Z",
       "updated": "2026-10-09",
       "publicBuilds": 1,
-      "totalDownloads": 691,
+      "totalDownloads": 692,
       "releaseHistory": [
         {
           "version": "v1.0.0",
@@ -1776,7 +1778,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
           "downloadAsset": "OreImoDisc2KrPatcher.zip",
-          "downloadCount": 691
+          "downloadCount": 692
         }
       ],
       "description": "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",

@@ -26,7 +26,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dragondrive-v0.9.0/DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dragondrive-v0.9.0",
     "releasePublishedAt": "2026-11-19T16:22:38Z",
-    "totalDownloads": 87,
+    "totalDownloads": 96,
     "description": "애니메이션 「드래곤 드라이브」를 바탕으로 한 GBA용 배틀 RPG",
     "keywords": [
       "드래곤 드라이브",
@@ -47,6 +47,43 @@ const fallbackProjects = [
       "date": "2026-11-20",
       "title": "배포 꾸러미와 v0.9.0 공개",
       "href": "/projects/dragon-drive-world-d-break/updates/2026-11-20.html"
+    }
+  },
+  {
+    "title": "미래일기 -13번째 일기 소유자- Re:write",
+    "href": "/projects/mirai-nikki-13th-rewrite/",
+    "image": "/assets/images/mirai-nikki-13th-rewrite/official-cover.webp",
+    "imageAlt": "未来日記 RE:WRITE 13人目の日記所有者 일본판 PSP 패키지",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "서스펜스",
+    "type": "한국어 패치",
+    "status": "development",
+    "statusLabel": "작업 중",
+    "stage": 5,
+    "version": "첫 공개 전",
+    "updated": "2026-11-20",
+    "totalDownloads": 0,
+    "description": "애니메이션 「미래일기」를 바탕으로 한 PSP용 어드벤처",
+    "keywords": [
+      "미래일기",
+      "미래일기 re:write",
+      "미래일기 리라이트",
+      "mirai nikki",
+      "future diary",
+      "未来日記",
+      "リライト",
+      "psp",
+      "어드벤처"
+    ],
+    "verification": [
+      "PPSSPP"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-20",
+      "title": "4-b 그림 새 판 완성",
+      "href": "/projects/mirai-nikki-13th-rewrite/updates/2026-11-20.html"
     }
   },
   {
@@ -132,41 +169,6 @@ const fallbackProjects = [
     }
   },
   {
-    "title": "미래일기 -13번째 일기 소유자- Re:write",
-    "href": "/projects/mirai-nikki-13th-rewrite/",
-    "image": "/assets/images/mirai-nikki-13th-rewrite/official-cover.webp",
-    "imageAlt": "未来日記 RE:WRITE 13人目の日記所有者 일본판 PSP 패키지",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "어드벤처",
-    "subgenre": "서스펜스",
-    "type": "한국어 패치",
-    "status": "development",
-    "statusLabel": "작업 중",
-    "stage": 3,
-    "version": "첫 공개 전",
-    "updated": "2026-11-17",
-    "totalDownloads": 0,
-    "description": "애니메이션 「미래일기」를 바탕으로 한 PSP용 어드벤처",
-    "keywords": [
-      "미래일기",
-      "미래일기 re:write",
-      "미래일기 리라이트",
-      "mirai nikki",
-      "future diary",
-      "未来日記",
-      "リライト",
-      "psp",
-      "어드벤처"
-    ],
-    "verification": [],
-    "latestWorklog": {
-      "date": "2026-11-16",
-      "title": "표시 기반 · 범위 · 정본 · 번역 묶음",
-      "href": "/projects/mirai-nikki-13th-rewrite/updates/2026-11-16.html"
-    }
-  },
-  {
     "title": "비오라트의 아틀리에",
     "href": "/projects/atelier-viorate/",
     "image": "/assets/images/atelier-viorate/2026-11-15-title-ko.webp",
@@ -227,7 +229,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.1/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.1",
     "releasePublishedAt": "2026-11-17T05:37:48Z",
-    "totalDownloads": 790,
+    "totalDownloads": 791,
     "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
     "keywords": [
       "샤이닝 하츠",
@@ -381,7 +383,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/macrosstf-v0.9.1/Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/macrosstf-v0.9.1",
     "releasePublishedAt": "2026-11-16T13:12:42Z",
-    "totalDownloads": 601,
+    "totalDownloads": 602,
     "description": "TV 애니메이션 『마크로스 F』를 바탕으로 한 PSP 메카 액션 게임",
     "keywords": [
       "마크로스",
@@ -1139,7 +1141,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/oreimo2-v1.0.0/OreImoDisc2KrPatcher.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/oreimo2-v1.0.0",
     "releasePublishedAt": "2026-10-09T01:10:57Z",
-    "totalDownloads": 691,
+    "totalDownloads": 692,
     "description": "전작의 이야기를 이어가는 PSP용 연애 어드벤처 게임",
     "keywords": [
       "내 여동생이 이렇게 귀여울 리가 없어",
