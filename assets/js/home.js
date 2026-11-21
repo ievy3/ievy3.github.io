@@ -11,8 +11,8 @@ const fallbackProjects = [
   {
     "title": "코드:18",
     "href": "/projects/code-18/",
-    "image": "/assets/images/code-18/official-cover.webp",
-    "imageAlt": "코드:18 일본판 PSP 패키지",
+    "image": "/assets/images/code-18/2026-11-21-title-ko.webp",
+    "imageAlt": "코드:18 한글 타이틀 화면",
     "imageFit": "cover",
     "platform": "PSP",
     "genre": "어드벤처",
@@ -20,13 +20,13 @@ const fallbackProjects = [
     "type": "한국어 패치",
     "status": "public",
     "statusLabel": "베타 공개",
-    "stage": 5,
+    "stage": 6,
     "version": "v1.0.0",
     "updated": "2026-11-21",
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/code18-v1.0.0/Noctil_Patchworks_Offline_code18_ko_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/code18-v1.0.0",
     "releasePublishedAt": "2026-11-21T08:10:46Z",
-    "totalDownloads": 0,
+    "totalDownloads": 1,
     "description": "류세이 학원을 무대로 한 PSP용 SF 비주얼 노벨",
     "keywords": [
       "코드18",
@@ -41,12 +41,13 @@ const fallbackProjects = [
       "psp"
     ],
     "verification": [
-      "PPSSPP"
+      "PPSSPP",
+      "PSP 실기"
     ],
     "latestWorklog": {
-      "date": "2026-11-17",
-      "title": "화면 확인과 시험 플레이",
-      "href": "/projects/code-18/updates/2026-11-17.html"
+      "date": "2026-11-21",
+      "title": "실기 확인과 1.0.0 공개",
+      "href": "/projects/code-18/updates/2026-11-21.html"
     }
   },
   {
@@ -67,7 +68,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dragondrive-v0.9.0/DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dragondrive-v0.9.0",
     "releasePublishedAt": "2026-11-19T16:22:38Z",
-    "totalDownloads": 216,
+    "totalDownloads": 218,
     "description": "애니메이션 「드래곤 드라이브」를 바탕으로 한 GBA용 배틀 RPG",
     "keywords": [
       "드래곤 드라이브",
@@ -145,7 +146,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/fzero-v1.0.0/FZeroClimax_KrPatcher_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/fzero-v1.0.0",
     "releasePublishedAt": "2026-11-18T07:55:36Z",
-    "totalDownloads": 281,
+    "totalDownloads": 282,
     "description": "애니메이션 「F-ZERO 팔콘 전설」 이야기를 레이스로 따라가는 GBA용 SF 레이싱",
     "keywords": [
       "f-zero",
@@ -386,7 +387,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/macrosstf-v0.9.1/Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/macrosstf-v0.9.1",
     "releasePublishedAt": "2026-11-16T13:12:42Z",
-    "totalDownloads": 609,
+    "totalDownloads": 610,
     "description": "TV 애니메이션 『마크로스 F』를 바탕으로 한 PSP 메카 액션 게임",
     "keywords": [
       "마크로스",
