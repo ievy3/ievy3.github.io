@@ -994,8 +994,8 @@
     "platform": "PSP",
     "genre": "어드벤처",
     "subgenre": "노벨",
-    "image": "/assets/images/code-18/official-cover.webp",
-    "imageAlt": "코드:18 일본판 PSP 패키지",
+    "image": "/assets/images/code-18/2026-11-21-title-ko.webp",
+    "imageAlt": "코드:18 한글 타이틀 화면",
     "type": "한국어 패치",
     "releasePrefix": "code18-",
     "description": "류세이 학원을 무대로 한 PSP용 SF 비주얼 노벨",
@@ -1012,7 +1012,7 @@
       "psp"
     ],
     "releaseRepository": "ievy3/ievy3.github.io",
-    "stage": 5,
+    "stage": 6,
     "updated": "2026-11-21",
     "verification": [
       "PPSSPP",
