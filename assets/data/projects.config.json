@@ -1085,8 +1085,8 @@
     "platform": "PSP",
     "genre": "어드벤처",
     "subgenre": "서스펜스",
-    "image": "/assets/images/mirai-nikki-13th-rewrite/official-cover.webp",
-    "imageAlt": "未来日記 RE:WRITE 13人目の日記所有者 일본판 PSP 패키지",
+    "image": "/assets/images/mirai-nikki-13th-rewrite/2026-11-20-title-ko.webp",
+    "imageAlt": "미래일기 RE:WRITE 한글 타이틀 화면",
     "type": "한국어 패치",
     "releasePrefix": "mirai-",
     "description": "애니메이션 「미래일기」를 바탕으로 한 PSP용 어드벤처",
@@ -1102,8 +1102,8 @@
       "어드벤처"
     ],
     "releaseRepository": "ievy3/ievy3.github.io",
-    "stage": 5,
-    "updated": "2026-11-20",
+    "stage": 6,
+    "updated": "2026-11-23",
     "verification": [
       "PPSSPP"
     ]
