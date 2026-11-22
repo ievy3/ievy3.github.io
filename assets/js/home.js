@@ -11,8 +11,8 @@ const fallbackProjects = [
   {
     "title": "미래일기 -13번째 일기 소유자- Re:write",
     "href": "/projects/mirai-nikki-13th-rewrite/",
-    "image": "/assets/images/mirai-nikki-13th-rewrite/official-cover.webp",
-    "imageAlt": "未来日記 RE:WRITE 13人目の日記所有者 일본판 PSP 패키지",
+    "image": "/assets/images/mirai-nikki-13th-rewrite/2026-11-20-title-ko.webp",
+    "imageAlt": "미래일기 RE:WRITE 한글 타이틀 화면",
     "imageFit": "cover",
     "platform": "PSP",
     "genre": "어드벤처",
@@ -20,7 +20,7 @@ const fallbackProjects = [
     "type": "한국어 패치",
     "status": "public",
     "statusLabel": "베타 공개",
-    "stage": 5,
+    "stage": 6,
     "version": "v1.0.3",
     "updated": "2026-11-23",
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mirai-v1.0.3/Noctil_Patchworks_Offline_MiraiNikki_REWRITE_KO_v1.0.3.zip",
@@ -43,9 +43,9 @@ const fallbackProjects = [
       "PPSSPP"
     ],
     "latestWorklog": {
-      "date": "2026-11-20",
-      "title": "4-b 그림 새 판 완성",
-      "href": "/projects/mirai-nikki-13th-rewrite/updates/2026-11-20.html"
+      "date": "2026-11-23",
+      "title": "v1.0.3 공개",
+      "href": "/projects/mirai-nikki-13th-rewrite/updates/2026-11-23.html"
     }
   },
   {
