@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T16:32:56.125Z",
+  "generatedAt": "2026-11-22T23:34:43.756Z",
   "projects": [
     {
       "title": "미래일기 -13번째 일기 소유자- Re:write",
@@ -21,13 +21,13 @@
       "version": "v1.0.3",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mirai-v1.0.3/Noctil_Patchworks_Offline_MiraiNikki_REWRITE_KO_v1.0.3.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_MiraiNikki_REWRITE_KO_v1.0.3.zip",
-      "downloadCount": 0,
+      "downloadCount": 71,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mirai-v1.0.3",
       "releaseName": "[PSP] 미래일기 13번째 일기 소유자 RE:WRITE (未来日記 13人目の日記所有者 RE：WRITE) 한글 패치 v1.0.3",
       "releasePublishedAt": "2026-11-22T16:27:24Z",
       "updated": "2026-11-23",
       "publicBuilds": 1,
-      "totalDownloads": 0,
+      "totalDownloads": 71,
       "releaseHistory": [
         {
           "version": "v1.0.3",
@@ -39,7 +39,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mirai-v1.0.3/Noctil_Patchworks_Offline_MiraiNikki_REWRITE_KO_v1.0.3.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_MiraiNikki_REWRITE_KO_v1.0.3.zip",
-          "downloadCount": 0
+          "downloadCount": 71
         }
       ],
       "description": "애니메이션 「미래일기」를 바탕으로 한 PSP용 어드벤처",
@@ -84,13 +84,13 @@
       "version": "v1.0.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/code18-v1.0.0/Noctil_Patchworks_Offline_code18_ko_v1.0.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_code18_ko_v1.0.0.zip",
-      "downloadCount": 194,
+      "downloadCount": 196,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/code18-v1.0.0",
       "releaseName": "[PSP] 코드 18 (code_18) 한글 패치 v1.0.0",
       "releasePublishedAt": "2026-11-21T08:10:46Z",
       "updated": "2026-11-21",
       "publicBuilds": 1,
-      "totalDownloads": 194,
+      "totalDownloads": 196,
       "releaseHistory": [
         {
           "version": "v1.0.0",
@@ -102,7 +102,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/code18-v1.0.0/Noctil_Patchworks_Offline_code18_ko_v1.0.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_code18_ko_v1.0.0.zip",
-          "downloadCount": 194
+          "downloadCount": 196
         }
       ],
       "description": "류세이 학원을 무대로 한 PSP용 SF 비주얼 노벨",
@@ -149,13 +149,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dragondrive-v0.9.0/DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
       "downloadAsset": "DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
-      "downloadCount": 250,
+      "downloadCount": 251,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dragondrive-v0.9.0",
       "releaseName": "[gba] 드래곤 드라이브 월드 D 브레이크 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-11-19T16:22:38Z",
       "updated": "2026-11-20",
       "publicBuilds": 1,
-      "totalDownloads": 250,
+      "totalDownloads": 251,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -167,7 +167,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dragondrive-v0.9.0/DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
           "downloadAsset": "DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
-          "downloadCount": 250
+          "downloadCount": 251
         }
       ],
       "description": "애니메이션 「드래곤 드라이브」를 바탕으로 한 GBA용 배틀 RPG",
@@ -213,13 +213,13 @@
       "version": "v1.0.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/fzero-v1.0.0/FZeroClimax_KrPatcher_v1.0.0.zip",
       "downloadAsset": "FZeroClimax_KrPatcher_v1.0.0.zip",
-      "downloadCount": 291,
+      "downloadCount": 292,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/fzero-v1.0.0",
       "releaseName": "[gba] F-ZERO 클라이맥스 (F-ZERO クライマックス) 한글 패치 v1.0.0",
       "releasePublishedAt": "2026-11-18T07:55:36Z",
       "updated": "2026-11-18",
       "publicBuilds": 1,
-      "totalDownloads": 291,
+      "totalDownloads": 292,
       "releaseHistory": [
         {
           "version": "v1.0.0",
@@ -231,7 +231,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/fzero-v1.0.0/FZeroClimax_KrPatcher_v1.0.0.zip",
           "downloadAsset": "FZeroClimax_KrPatcher_v1.0.0.zip",
-          "downloadCount": 291
+          "downloadCount": 292
         }
       ],
       "description": "애니메이션 「F-ZERO 팔콘 전설」 이야기를 레이스로 따라가는 GBA용 SF 레이싱",
@@ -341,13 +341,13 @@
       "version": "v1.0.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/viorate-v1.0.1/Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
-      "downloadCount": 312,
+      "downloadCount": 313,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/viorate-v1.0.1",
       "releaseName": "[PSP] 비오라트의 아틀리에 ～그람나트의 연금술사 2～ 한글 패치 v1.0.1",
       "releasePublishedAt": "2026-11-16T15:25:03Z",
       "updated": "2026-11-17",
       "publicBuilds": 2,
-      "totalDownloads": 538,
+      "totalDownloads": 539,
       "releaseHistory": [
         {
           "version": "v1.0.1",
@@ -359,7 +359,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/viorate-v1.0.1/Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
-          "downloadCount": 312
+          "downloadCount": 313
         },
         {
           "version": "v1.0.0",
@@ -419,13 +419,13 @@
       "version": "v0.9.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.1/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Shining_Hearts_v0.9.1.zip",
-      "downloadCount": 324,
+      "downloadCount": 325,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.1",
       "releaseName": "[PSP] 샤이닝 하츠 (シャイニング・ハーツ) 한글 패치 v0.9.1",
       "releasePublishedAt": "2026-11-17T05:37:48Z",
       "updated": "2026-11-17",
       "publicBuilds": 2,
-      "totalDownloads": 825,
+      "totalDownloads": 826,
       "releaseHistory": [
         {
           "version": "v0.9.1",
@@ -437,7 +437,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.1/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Shining_Hearts_v0.9.1.zip",
-          "downloadCount": 324
+          "downloadCount": 325
         },
         {
           "version": "v0.9.0",
@@ -790,13 +790,13 @@
       "version": "v1.0.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/tomato-v1.0.0/TomatoAdventure_KrPatcher_v1.0.0.zip",
       "downloadAsset": "TomatoAdventure_KrPatcher_v1.0.0.zip",
-      "downloadCount": 269,
+      "downloadCount": 270,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/tomato-v1.0.0",
       "releaseName": "[GBA] 토마토 어드벤처 / 한글 패치 ",
       "releasePublishedAt": "2026-11-10T12:10:58Z",
       "updated": "2026-11-10",
       "publicBuilds": 1,
-      "totalDownloads": 269,
+      "totalDownloads": 270,
       "releaseHistory": [
         {
           "version": "v1.0.0",
@@ -808,7 +808,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/tomato-v1.0.0/TomatoAdventure_KrPatcher_v1.0.0.zip",
           "downloadAsset": "TomatoAdventure_KrPatcher_v1.0.0.zip",
-          "downloadCount": 269
+          "downloadCount": 270
         }
       ],
       "description": "토마토 왕국을 노리는 악당에 맞서는 GBA용 RPG",
@@ -852,13 +852,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/conception-v0.9.0/Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
-      "downloadCount": 419,
+      "downloadCount": 420,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/conception-v0.9.0",
       "releaseName": "[PSP] 컨셉션: 내 아이를 낳아줘 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-11-07T13:14:29Z",
       "updated": "2026-11-07",
       "publicBuilds": 1,
-      "totalDownloads": 419,
+      "totalDownloads": 420,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -870,7 +870,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/conception-v0.9.0/Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
-          "downloadCount": 419
+          "downloadCount": 420
         }
       ],
       "description": "「별의 자식」을 낳을 수 있는 소녀들과 던전을 탐험하는 PSP 롤플레잉 게임",
@@ -1234,13 +1234,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gtasc-v0.9.0/Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
-      "downloadCount": 190,
+      "downloadCount": 191,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/gtasc-v0.9.0",
       "releaseName": "[PSP] GTA: 신다코 크로니클 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-10-25T09:49:09Z",
       "updated": "2026-10-25",
       "publicBuilds": 1,
-      "totalDownloads": 190,
+      "totalDownloads": 191,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -1252,7 +1252,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/gtasc-v0.9.0/Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_GTA-SC_ko_v0.9.0.zip",
-          "downloadCount": 190
+          "downloadCount": 191
         }
       ],
       "description": "GTA 리버티 시티 스토리즈를 바탕으로 1998년 리버티 시티의 마피아 전쟁을 그린 팬 제작 토털 컨버전 모드",
