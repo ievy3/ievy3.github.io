@@ -5,8 +5,24 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-11-21T00:00:00+09:00</updated>
+  <updated>2026-11-23T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[미래일기 -13번째 일기 소유자- Re:write] v1.0.3 배포 꾸러미</title>
+    <link href="https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-23.html"/>
+    <id>https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-23.html</id>
+    <updated>2026-11-23T00:00:00+09:00</updated>
+    <category term="미래일기 -13번째 일기 소유자- Re:write"/>
+    <summary>마지막 확인을 마치고 첫 공개판 v1.0.3 꾸러미를 만들었습니다.</summary>
+  </entry>
+  <entry>
+    <title>[미래일기 -13번째 일기 소유자- Re:write] 멈춤 수정과 칸 한도 점검</title>
+    <link href="https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-22.html"/>
+    <id>https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-22.html</id>
+    <updated>2026-11-22T00:00:00+09:00</updated>
+    <category term="미래일기 -13번째 일기 소유자- Re:write"/>
+    <summary>멈춤 두 가지를 고치고, 정보 카드와 실행 파일 문구의 칸 한도를 전수로 재서 점검을 통과했습니다.</summary>
+  </entry>
   <entry>
     <title>[코드:18] 실기 확인과 1.0.0 공개</title>
     <link href="https://ievy3.github.io/projects/code-18/updates/2026-11-21.html"/>
@@ -14,6 +30,14 @@
     <updated>2026-11-21T00:00:00+09:00</updated>
     <category term="코드:18"/>
     <summary>오프닝 재생을 캡처로 확인하고 PSP 실기를 확인했으며, 점검을 통과해 첫 공개판 v1.0.0을 내놓았습니다.</summary>
+  </entry>
+  <entry>
+    <title>[미래일기 -13번째 일기 소유자- Re:write] v1.0.1 준비</title>
+    <link href="https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-21.html"/>
+    <id>https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-21.html</id>
+    <updated>2026-11-21T00:00:00+09:00</updated>
+    <category term="미래일기 -13번째 일기 소유자- Re:write"/>
+    <summary>화면 판정을 통과하고 첫 저장 때 멈춘 일이 원본에서도 생기는 동작임을 확인했습니다.</summary>
   </entry>
   <entry>
     <title>[코드:18] 글꼴 교체와 한글 오프닝 영상</title>
@@ -32,12 +56,12 @@
     <summary>첫 공개 배포 꾸러미가 배포 점검과 패처 시험을 통과했고, 게시용 화면을 새로 찍어 첫 공개판 v0.9.0을 내놓았습니다.</summary>
   </entry>
   <entry>
-    <title>[미래일기 -13번째 일기 소유자- Re:write] 4-b 그림 새 판 완성</title>
+    <title>[미래일기 -13번째 일기 소유자- Re:write] 4-b 그림 새 판과 첫 꾸러미</title>
     <link href="https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-20.html"/>
     <id>https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-20.html</id>
     <updated>2026-11-20T00:00:00+09:00</updated>
     <category term="미래일기 -13번째 일기 소유자- Re:write"/>
-    <summary>4-b 그림 95장을 새 방식으로 다시 만들어 판정과 확인을 마쳤습니다.</summary>
+    <summary>4-b 그림 새 판을 합치고 점검을 통과해 첫 꾸러미를 만들었습니다(공개는 하지 않았습니다).</summary>
   </entry>
   <entry>
     <title>[코드:18] 대사 창 · 영상 · 글꼴 결정</title>
@@ -134,6 +158,14 @@
     <updated>2026-11-17T00:00:00+09:00</updated>
     <category term="F-ZERO 클라이맥스"/>
     <summary>직접 시험 플레이에서 나온 일본어를 고치고, 그림 글자를 롬 전체에서 훑어 놓친 그림을 한글로 바꿨습니다.</summary>
+  </entry>
+  <entry>
+    <title>[미래일기 -13번째 일기 소유자- Re:write] 번역 받아 넣기와 첫 통합 빌드</title>
+    <link href="https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-17.html"/>
+    <id>https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-17.html</id>
+    <updated>2026-11-17T00:00:00+09:00</updated>
+    <category term="미래일기 -13번째 일기 소유자- Re:write"/>
+    <summary>번역 119묶음을 받아 합치고, 표시 한도를 맞춰 첫 통합 빌드를 만들었습니다.</summary>
   </entry>
   <entry>
     <title>[샤이닝 하츠] 무기 상점 수정과 v0.9.1</title>
@@ -294,37 +326,5 @@
     <updated>2026-11-14T00:00:00+09:00</updated>
     <category term="컨셉션 II: 일곱 별의 인도와 마수의 미궁"/>
     <summary>영어판 후보를 마무리하고, 일본어판 기준으로 다시 가기로 해 정본을 새로 만들었습니다.</summary>
-  </entry>
-  <entry>
-    <title>[듀나미스 15] 번역 반입과 첫 통합 빌드</title>
-    <link href="https://ievy3.github.io/projects/dunamis15/updates/2026-11-14.html"/>
-    <id>https://ievy3.github.io/projects/dunamis15/updates/2026-11-14.html</id>
-    <updated>2026-11-14T00:00:00+09:00</updated>
-    <category term="듀나미스 15"/>
-    <summary>번역을 합쳐 점검을 통과하고, 그림 100여 장을 넣어 첫 통합 빌드를 만들었습니다.</summary>
-  </entry>
-  <entry>
-    <title>[F-ZERO 클라이맥스] 구조 확인과 번역 · 그림 57장</title>
-    <link href="https://ievy3.github.io/projects/f-zero-climax/updates/2026-11-14.html"/>
-    <id>https://ievy3.github.io/projects/f-zero-climax/updates/2026-11-14.html</id>
-    <updated>2026-11-14T00:00:00+09:00</updated>
-    <category term="F-ZERO 클라이맥스"/>
-    <summary>게임 글 구조를 확인하고 한글 표시 방식을 정해, 번역 2,108행과 그림 57장을 넣은 첫 한글판을 만들었습니다.</summary>
-  </entry>
-  <entry>
-    <title>[언체인 블레이즈 렉스] 정본 확정과 번역 묶음</title>
-    <link href="https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-14.html"/>
-    <id>https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-14.html</id>
-    <updated>2026-11-14T00:00:00+09:00</updated>
-    <category term="언체인 블레이즈 렉스"/>
-    <summary>정본을 확정하고 번역 묶음 72개를 내보냈습니다.</summary>
-  </entry>
-  <entry>
-    <title>[유디의 아틀리에] 그림 라벨과 글 넘침 전수 점검</title>
-    <link href="https://ievy3.github.io/projects/atelier-judie/updates/2026-11-13.html"/>
-    <id>https://ievy3.github.io/projects/atelier-judie/updates/2026-11-13.html</id>
-    <updated>2026-11-13T00:00:00+09:00</updated>
-    <category term="유디의 아틀리에"/>
-    <summary>그림과 글이 칸을 넘치지 않는지 전수로 재고, 몬스터 도감과 인물 소개를 칸에 맞췄습니다.</summary>
   </entry>
 </feed>
