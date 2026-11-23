@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026년 11월 23일 샤이닝 하츠 한국어 패치 작업일지">
+  <title>2026.11.23 작업일지 | 샤이닝 하츠</title>
+  <meta name="theme-color" content="#090a0e">
+  <link rel="canonical" href="https://ievy3.github.io/projects/shining-hearts/updates/2026-11-23.html">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="Noctil Patchworks 작업일지" href="/feed.xml">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Noctil Patchworks">
+  <meta property="og:title" content="2026.11.23 작업일지 | 샤이닝 하츠">
+  <meta property="og:description" content="2026년 11월 23일 샤이닝 하츠 한국어 패치 작업일지">
+  <meta property="og:url" content="https://ievy3.github.io/projects/shining-hearts/updates/2026-11-23.html">
+  <meta property="og:image" content="https://ievy3.github.io/assets/images/shining-hearts/2026-11-23-title-ko.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026.11.23 작업일지 | 샤이닝 하츠">
+  <meta name="twitter:description" content="2026년 11월 23일 샤이닝 하츠 한국어 패치 작업일지">
+  <meta name="twitter:image" content="https://ievy3.github.io/assets/images/shining-hearts/2026-11-23-title-ko.webp">
+  <link rel="stylesheet" href="/assets/css/project.css?v=30">
+  <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
+  <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
+</head>
+<body class="project-page log-page">
+<main class="log-entry-page">
+  <a class="back" href="/projects/shining-hearts/updates/">← 전체 작업일지</a>
+  <header class="entry-hero">
+    <p class="eyebrow">WORK LOG · 2026.11.23</p>
+    <h1>첫 빵 배달 멈춤 수정과<br>v0.9.2</h1>
+    <p>첫 빵 배달에서 대화가 끊기고 밖으로 나가던 문제의 원인을 찾아 고치고, 같은 유형의 문제 두 곳을 더 고쳐 수정판 v0.9.2를 내놓았습니다.</p>
+    <div class="badges"><span class="badge badge-live"><i></i>FIX</span><span class="badge">v0.9.2</span></div>
+  </header>
+  <section class="entry-summary">
+    <div><strong>1곳</strong><span>제보된 멈춤</span></div>
+    <div><strong>2곳</strong><span>같은 유형으로 찾아 고친 곳</span></div>
+    <div><strong>0건</strong><span>저장 데이터 변경</span></div>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">FIXES</p><h2>고친 문제</h2>
+    <ul class="compact-list">
+      <li>첫 빵 배달(술집의 플로라)에서 빵을 건넨 직후 대화가 끊기고 밖으로 나가던 문제를 고쳤습니다. 하트 연출이 인물을 찾을 때 쓰는 이름에 번역 글자가 들어간 것이 원인이었습니다. 제보해 주신 저장으로 v0.9.1에서 같은 증상을 재현했고, 고친 판에서 이벤트가 끝까지 나오는 것을 확인했습니다.</li>
+      <li>그 뒤 빵집 이벤트에서 스탠딩 일러스트가 겹치던 증상도 같은 원인으로 봅니다(앞 이벤트가 일러스트를 정리하기 전에 멈춤). 이 장면은 화면으로 다시 보지는 못했습니다.</li>
+      <li>같은 유형의 문제를 두 곳 더 찾아 고쳤습니다. 정령 이벤트에서 정령 호감도를 올리는 처리와, 6장 미스티가 나오는 장면 셋의 스탠딩 일러스트입니다. 이 두 곳은 그 진행도의 저장이 없어 화면으로는 보지 못했습니다.</li>
+    </ul>
+  </section>
+  <section class="entry-grid validation-grid">
+    <article class="box entry-section">
+      <p class="eyebrow">CHECKED</p><h2>확인한 것</h2>
+      <ul class="log-checklist">
+        <li><span>✓</span>제보된 저장으로 v0.9.1의 멈춤 재현</li>
+        <li><span>✓</span>고친 판에서 첫 빵 배달 이벤트가 끝까지 나오는 것</li>
+      </ul>
+    </article>
+    <article class="box entry-section">
+      <p class="eyebrow">NOT YET</p><h2>직접 못 본 것</h2>
+      <ul class="log-checklist">
+        <li><span>○</span>빵집 이벤트의 스탠딩 일러스트 겹침</li>
+        <li><span>○</span>정령 이벤트의 정령 호감도 처리</li>
+        <li><span>○</span>6장 미스티 장면 셋</li>
+        <li><span>○</span>v0.9.1의 무기 상점 화면</li>
+      </ul>
+    </article>
+  </section>
+  <section class="box entry-section">
+    <p class="eyebrow">NOTES</p><h2>알아 두실 점</h2>
+    <ul class="compact-list">
+      <li>이미 v0.9.1로 플로라 배달을 지난 저장에서는 그 이벤트가 다시 나오지 않습니다. 저장 데이터는 그대로 이어서 쓰시면 됩니다.</li>
+      <li>이전 판을 적용한 ISO에는 덧씌울 수 없습니다. 일본어 원본 ISO에 v0.9.2를 새로 적용해 주세요.</li>
+    </ul>
+  </section>
+  <p class="fine-print log-disclaimer">내부 작업 번호와 도구 실행 기록은 제외하고, 실제 패치 사용자에게 의미 있는 분석·확인 결과만 정리했습니다.</p>
+  <footer class="footer-note">SHINING HEARTS WORK LOG · NOCTIL PATCHWORKS</footer>
+</main>
+  <script src="/assets/js/site-ui.js?v=5" defer></script>
+</body>
+</html>
