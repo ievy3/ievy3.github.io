@@ -9,44 +9,28 @@ let showAllProjects = false;
 // BEGIN fallback projects
 const fallbackProjects = [
   {
-    "title": "무쌍 오로치 2 스페셜",
-    "href": "/projects/musou-orochi2-special/",
-    "image": "/assets/images/musou-orochi2-special/2026-10-15-title.webp",
-    "imageAlt": "무쌍 오로치 2 스페셜 타이틀 화면",
-    "imageFit": "cover",
+    "title": "일상 (우주인)",
+    "slug": "nichijou-uchuujin",
+    "image": "/assets/images/nichijou-uchuujin/official-cover.webp",
+    "imageAlt": "일상 (우주인) 일본판 PSP 패키지",
     "platform": "PSP",
-    "genre": "액션",
-    "subgenre": "무쌍",
-    "type": "한국어 패치",
-    "status": "public",
-    "statusLabel": "베타 공개",
-    "stage": 6,
-    "version": "v0.9.1",
-    "updated": "2026-11-23",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.1/Noctil_Patchworks_Offline_Orochi2_v0.9.1.zip",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/orochi2-v0.9.1",
-    "releasePublishedAt": "2026-11-23T13:20:59Z",
-    "totalDownloads": 724,
-    "description": "삼국지·전국 무장과 신화 속 영웅이 함께 싸우는 코에이 테크모의 PSP 무쌍 액션",
-    "keywords": [
-      "무쌍 오로치",
-      "무쌍 오로치 2",
-      "무쌍 orochi",
-      "musou orochi",
-      "warriors orochi",
-      "無双OROCHI2",
-      "코에이",
-      "액션"
-    ],
-    "verification": [
-      "PPSSPP",
-      "PSP-1000"
-    ],
-    "latestWorklog": {
-      "date": "2026-11-23",
-      "title": "무기 연성 확인창 수정과 v0.9.1",
-      "href": "/projects/musou-orochi2-special/updates/2026-11-23.html"
-    }
+    "genre": "어드벤처",
+    "subgenre": "코미디",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "하트커넥트: 예지랜덤",
+    "slug": "kokoro-connect-yochi-random",
+    "image": "/assets/images/kokoro-connect-yochi-random/official-cover.webp",
+    "imageAlt": "ココロコネクト ヨチランダム 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "노벨",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
   },
   {
     "title": "미래일기 -13번째 일기 소유자- Re:write",
@@ -66,7 +50,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mirai-v1.0.3/Noctil_Patchworks_Offline_MiraiNikki_REWRITE_KO_v1.0.3.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mirai-v1.0.3",
     "releasePublishedAt": "2026-11-22T16:27:24Z",
-    "totalDownloads": 209,
+    "totalDownloads": 211,
     "description": "애니메이션 「미래일기」를 바탕으로 한 PSP용 어드벤처",
     "keywords": [
       "미래일기",
@@ -86,46 +70,6 @@ const fallbackProjects = [
       "date": "2026-11-23",
       "title": "v1.0.3 공개",
       "href": "/projects/mirai-nikki-13th-rewrite/updates/2026-11-23.html"
-    }
-  },
-  {
-    "title": "샤이닝 하츠",
-    "href": "/projects/shining-hearts/",
-    "image": "/assets/images/shining-hearts/2026-11-03-title-ko.webp",
-    "imageAlt": "샤이닝 하츠 한글 타이틀 화면",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "RPG",
-    "subgenre": "판타지",
-    "type": "한국어 패치",
-    "status": "public",
-    "statusLabel": "베타 공개",
-    "stage": 6,
-    "version": "v0.9.2",
-    "updated": "2026-11-23",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.2/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.2.zip",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.2",
-    "releasePublishedAt": "2026-11-23T13:35:38Z",
-    "totalDownloads": 830,
-    "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
-    "keywords": [
-      "샤이닝 하츠",
-      "shining hearts",
-      "シャイニング・ハーツ",
-      "샤이닝",
-      "shining",
-      "세가",
-      "sega",
-      "빵"
-    ],
-    "verification": [
-      "PPSSPP",
-      "PSP-1000"
-    ],
-    "latestWorklog": {
-      "date": "2026-11-23",
-      "title": "첫 빵 배달 멈춤 수정과 v0.9.2",
-      "href": "/projects/shining-hearts/updates/2026-11-23.html"
     }
   },
   {
@@ -229,7 +173,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/fzero-v1.0.0/FZeroClimax_KrPatcher_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/fzero-v1.0.0",
     "releasePublishedAt": "2026-11-18T07:55:36Z",
-    "totalDownloads": 382,
+    "totalDownloads": 383,
     "description": "애니메이션 「F-ZERO 팔콘 전설」 이야기를 레이스로 따라가는 GBA용 SF 레이싱",
     "keywords": [
       "f-zero",
@@ -291,49 +235,6 @@ const fallbackProjects = [
       "date": "2026-11-17",
       "title": "한글 오프닝 영상과 v1.0.1 공개",
       "href": "/projects/dunamis15/updates/2026-11-17.html"
-    }
-  },
-  {
-    "title": "비오라트의 아틀리에",
-    "href": "/projects/atelier-viorate/",
-    "image": "/assets/images/atelier-viorate/2026-11-15-title-ko.webp",
-    "imageAlt": "비오라트의 아틀리에 한글 타이틀 화면",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "RPG",
-    "subgenre": "연금술",
-    "type": "한국어 패치",
-    "status": "public",
-    "statusLabel": "베타 공개",
-    "stage": 6,
-    "version": "v1.0.1",
-    "updated": "2026-11-17",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/viorate-v1.0.1/Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/viorate-v1.0.1",
-    "releasePublishedAt": "2026-11-16T15:25:03Z",
-    "totalDownloads": 541,
-    "description": "연금술사 비오라트가 채집·조합·전투로 모험하는 PSP용 아틀리에 시리즈 RPG",
-    "keywords": [
-      "비오라트의 아틀리에",
-      "비오라트",
-      "아틀리에",
-      "그람나트의 연금술사 2",
-      "군청빛 추억",
-      "atelier viorate",
-      "ヴィオラートのアトリエ",
-      "グラムナートの錬金術士",
-      "거스트",
-      "gust",
-      "psp"
-    ],
-    "verification": [
-      "PPSSPP",
-      "PSP-1000"
-    ],
-    "latestWorklog": {
-      "date": "2026-11-17",
-      "title": "영상 한글화와 v1.0.1",
-      "href": "/projects/atelier-viorate/updates/2026-11-17.html"
     }
   },
   {
@@ -413,45 +314,46 @@ const fallbackProjects = [
     }
   },
   {
-    "title": "마크로스 트라이앵글 프론티어",
-    "href": "/projects/macross-triangle-frontier/",
-    "image": "/assets/images/macross-triangle-frontier/2026-11-08-title-ko.webp",
-    "imageAlt": "마크로스 트라이앵글 프론티어 한글 타이틀 화면",
+    "title": "비오라트의 아틀리에",
+    "href": "/projects/atelier-viorate/",
+    "image": "/assets/images/atelier-viorate/2026-11-15-title-ko.webp",
+    "imageAlt": "비오라트의 아틀리에 한글 타이틀 화면",
     "imageFit": "cover",
     "platform": "PSP",
-    "genre": "액션",
-    "subgenre": "메카",
+    "genre": "RPG",
+    "subgenre": "연금술",
     "type": "한국어 패치",
     "status": "public",
     "statusLabel": "베타 공개",
     "stage": 6,
-    "version": "v0.9.1",
-    "updated": "2026-11-16",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/macrosstf-v0.9.1/Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/macrosstf-v0.9.1",
-    "releasePublishedAt": "2026-11-16T13:12:42Z",
-    "totalDownloads": 627,
-    "description": "TV 애니메이션 『마크로스 F』를 바탕으로 한 PSP 메카 액션 게임",
+    "version": "v1.0.1",
+    "updated": "2026-11-17",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/viorate-v1.0.1/Noctil_Patchworks_Offline_Atelier_Viorate_v1.0.1.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/viorate-v1.0.1",
+    "releasePublishedAt": "2026-11-16T15:25:03Z",
+    "totalDownloads": 541,
+    "description": "연금술사 비오라트가 채집·조합·전투로 모험하는 PSP용 아틀리에 시리즈 RPG",
     "keywords": [
-      "마크로스",
-      "마크로스 f",
-      "마크로스 프론티어",
-      "트라이앵글 프론티어",
-      "macross",
-      "macross triangle frontier",
-      "マクロス",
-      "トライアングルフロンティア",
-      "발키리",
-      "메카"
+      "비오라트의 아틀리에",
+      "비오라트",
+      "아틀리에",
+      "그람나트의 연금술사 2",
+      "군청빛 추억",
+      "atelier viorate",
+      "ヴィオラートのアトリエ",
+      "グラムナートの錬金術士",
+      "거스트",
+      "gust",
+      "psp"
     ],
     "verification": [
       "PPSSPP",
       "PSP-1000"
     ],
     "latestWorklog": {
-      "date": "2026-11-16",
-      "title": "실기 미션 멈춤 수정과 v0.9.1",
-      "href": "/projects/macross-triangle-frontier/updates/2026-11-16.html"
+      "date": "2026-11-17",
+      "title": "영상 한글화와 v1.0.1",
+      "href": "/projects/atelier-viorate/updates/2026-11-17.html"
     }
   },
   {
@@ -577,6 +479,48 @@ const fallbackProjects = [
     }
   },
   {
+    "title": "마크로스 트라이앵글 프론티어",
+    "href": "/projects/macross-triangle-frontier/",
+    "image": "/assets/images/macross-triangle-frontier/2026-11-08-title-ko.webp",
+    "imageAlt": "마크로스 트라이앵글 프론티어 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "액션",
+    "subgenre": "메카",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.1",
+    "updated": "2026-11-16",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/macrosstf-v0.9.1/Noctil_Patchworks_Offline_Macross_Triangle_Frontier_KOR_v0.9.1.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/macrosstf-v0.9.1",
+    "releasePublishedAt": "2026-11-16T13:12:42Z",
+    "totalDownloads": 627,
+    "description": "TV 애니메이션 『마크로스 F』를 바탕으로 한 PSP 메카 액션 게임",
+    "keywords": [
+      "마크로스",
+      "마크로스 f",
+      "마크로스 프론티어",
+      "트라이앵글 프론티어",
+      "macross",
+      "macross triangle frontier",
+      "マクロス",
+      "トライアングルフロンティア",
+      "발키리",
+      "메카"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-16",
+      "title": "실기 미션 멈춤 수정과 v0.9.1",
+      "href": "/projects/macross-triangle-frontier/updates/2026-11-16.html"
+    }
+  },
+  {
     "title": "컨셉션: 내 아이를 낳아줘",
     "href": "/projects/conception/",
     "image": "/assets/images/conception/2026-11-07-title-ko.webp",
@@ -614,6 +558,46 @@ const fallbackProjects = [
       "date": "2026-11-07",
       "title": "배포 직전 점검과 v0.9.0 공개",
       "href": "/projects/conception/updates/2026-11-07.html"
+    }
+  },
+  {
+    "title": "샤이닝 하츠",
+    "href": "/projects/shining-hearts/",
+    "image": "/assets/images/shining-hearts/2026-11-03-title-ko.webp",
+    "imageAlt": "샤이닝 하츠 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.2",
+    "updated": "2026-11-23",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.2/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.2.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.2",
+    "releasePublishedAt": "2026-11-23T13:35:38Z",
+    "totalDownloads": 830,
+    "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
+    "keywords": [
+      "샤이닝 하츠",
+      "shining hearts",
+      "シャイニング・ハーツ",
+      "샤이닝",
+      "shining",
+      "세가",
+      "sega",
+      "빵"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-23",
+      "title": "첫 빵 배달 멈춤 수정과 v0.9.2",
+      "href": "/projects/shining-hearts/updates/2026-11-23.html"
     }
   },
   {
@@ -780,47 +764,6 @@ const fallbackProjects = [
     }
   },
   {
-    "title": "마블 얼티밋 얼라이언스",
-    "href": "/projects/marvel-ultimate-alliance/",
-    "image": "/assets/images/marvel-ultimate-alliance/2026-10-25-title-ko.webp",
-    "imageAlt": "마블 얼티밋 얼라이언스 한글 타이틀 화면",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "RPG",
-    "subgenre": "액션",
-    "type": "한국어 패치",
-    "status": "public",
-    "statusLabel": "베타 공개",
-    "stage": 6,
-    "version": "v0.9.0",
-    "updated": "2026-10-25",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mua-v0.9.0/Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mua-v0.9.0",
-    "releasePublishedAt": "2026-10-25T03:47:32Z",
-    "totalDownloads": 392,
-    "description": "마블의 영웅들로 팀을 짜 우주적 위협에 맞서는 액션 RPG",
-    "keywords": [
-      "마블 얼티밋 얼라이언스",
-      "얼티밋 얼라이언스",
-      "marvel ultimate alliance",
-      "mua",
-      "마블",
-      "액티비전",
-      "activision",
-      "스파이더맨",
-      "캡틴 아메리카"
-    ],
-    "verification": [
-      "PPSSPP",
-      "PSP-1000"
-    ],
-    "latestWorklog": {
-      "date": "2026-10-25",
-      "title": "실기 확인 수정과 v0.9.0 공개",
-      "href": "/projects/marvel-ultimate-alliance/updates/2026-10-25.html"
-    }
-  },
-  {
     "title": "GTA 신다코 크로니클",
     "href": "/projects/gta-sindacco-chronicles/",
     "image": "/assets/images/gta-sindacco-chronicles/2026-10-24-loading-ko.webp",
@@ -860,6 +803,47 @@ const fallbackProjects = [
       "date": "2026-10-25",
       "title": "v0.9.0 공개",
       "href": "/projects/gta-sindacco-chronicles/updates/2026-10-25.html"
+    }
+  },
+  {
+    "title": "마블 얼티밋 얼라이언스",
+    "href": "/projects/marvel-ultimate-alliance/",
+    "image": "/assets/images/marvel-ultimate-alliance/2026-10-25-title-ko.webp",
+    "imageAlt": "마블 얼티밋 얼라이언스 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "액션",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.0",
+    "updated": "2026-10-25",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mua-v0.9.0/Noctil_Patchworks_Offline_MUA_KO_v0.9.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mua-v0.9.0",
+    "releasePublishedAt": "2026-10-25T03:47:32Z",
+    "totalDownloads": 392,
+    "description": "마블의 영웅들로 팀을 짜 우주적 위협에 맞서는 액션 RPG",
+    "keywords": [
+      "마블 얼티밋 얼라이언스",
+      "얼티밋 얼라이언스",
+      "marvel ultimate alliance",
+      "mua",
+      "마블",
+      "액티비전",
+      "activision",
+      "스파이더맨",
+      "캡틴 아메리카"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-10-25",
+      "title": "실기 확인 수정과 v0.9.0 공개",
+      "href": "/projects/marvel-ultimate-alliance/updates/2026-10-25.html"
     }
   },
   {
@@ -940,6 +924,46 @@ const fallbackProjects = [
       "date": "2026-10-17",
       "title": "v1.0.1 수정판",
       "href": "/projects/klonoa-heroes/updates/2026-10-17.html"
+    }
+  },
+  {
+    "title": "무쌍 오로치 2 스페셜",
+    "href": "/projects/musou-orochi2-special/",
+    "image": "/assets/images/musou-orochi2-special/2026-10-15-title.webp",
+    "imageAlt": "무쌍 오로치 2 스페셜 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "액션",
+    "subgenre": "무쌍",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.1",
+    "updated": "2026-11-23",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.1/Noctil_Patchworks_Offline_Orochi2_v0.9.1.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/orochi2-v0.9.1",
+    "releasePublishedAt": "2026-11-23T13:20:59Z",
+    "totalDownloads": 724,
+    "description": "삼국지·전국 무장과 신화 속 영웅이 함께 싸우는 코에이 테크모의 PSP 무쌍 액션",
+    "keywords": [
+      "무쌍 오로치",
+      "무쌍 오로치 2",
+      "무쌍 orochi",
+      "musou orochi",
+      "warriors orochi",
+      "無双OROCHI2",
+      "코에이",
+      "액션"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-23",
+      "title": "무기 연성 확인창 수정과 v0.9.1",
+      "href": "/projects/musou-orochi2-special/updates/2026-11-23.html"
     }
   },
   {
@@ -1062,39 +1086,6 @@ const fallbackProjects = [
     }
   },
   {
-    "title": "바케모노가타리 포터블",
-    "href": "/projects/bakemonogatari-portable/",
-    "image": "/assets/images/bakemonogatari-portable/title-screen.webp",
-    "imageAlt": "바케모노가타리 포터블 PSP 타이틀 화면",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "어드벤처",
-    "subgenre": "노벨",
-    "type": "한국어 패치",
-    "status": "development",
-    "statusLabel": "작업 중",
-    "stage": 3,
-    "version": "첫 공개 전",
-    "updated": "2026-10-10",
-    "totalDownloads": 0,
-    "description": "니시오 이신의 소설 『바케모노가타리』를 바탕으로 한 PSP 어드벤처 게임",
-    "keywords": [
-      "바케모노가타리",
-      "괴물이야기",
-      "bakemonogatari",
-      "化物語",
-      "monogatari",
-      "모노가타리",
-      "어드벤처"
-    ],
-    "verification": [],
-    "latestWorklog": {
-      "date": "2026-10-10",
-      "title": "첫 장 문체 확정과 본격 번역 시작",
-      "href": "/projects/bakemonogatari-portable/updates/2026-10-10.html"
-    }
-  },
-  {
     "title": "Magical Vacation",
     "href": "/projects/magical-vacation/",
     "image": "/assets/images/magical-vacation/2026-10-09-title-ko.webp",
@@ -1128,6 +1119,79 @@ const fallbackProjects = [
       "date": "2026-10-10",
       "title": "타이틀 로고 완성과 v0.9.0 첫 공개",
       "href": "/projects/magical-vacation/updates/2026-10-10.html"
+    }
+  },
+  {
+    "title": "바케모노가타리 포터블",
+    "href": "/projects/bakemonogatari-portable/",
+    "image": "/assets/images/bakemonogatari-portable/title-screen.webp",
+    "imageAlt": "바케모노가타리 포터블 PSP 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "노벨",
+    "type": "한국어 패치",
+    "status": "development",
+    "statusLabel": "작업 중",
+    "stage": 3,
+    "version": "첫 공개 전",
+    "updated": "2026-10-10",
+    "totalDownloads": 0,
+    "description": "니시오 이신의 소설 『바케모노가타리』를 바탕으로 한 PSP 어드벤처 게임",
+    "keywords": [
+      "바케모노가타리",
+      "괴물이야기",
+      "bakemonogatari",
+      "化物語",
+      "monogatari",
+      "모노가타리",
+      "어드벤처"
+    ],
+    "verification": [],
+    "latestWorklog": {
+      "date": "2026-10-10",
+      "title": "첫 장 문체 확정과 본격 번역 시작",
+      "href": "/projects/bakemonogatari-portable/updates/2026-10-10.html"
+    }
+  },
+  {
+    "title": "탐정 진구지 사부로: 재와 다이아몬드",
+    "href": "/projects/jinguji-ashes-and-diamonds/",
+    "image": "/assets/images/jinguji-ashes-and-diamonds/2026-10-05-title.webp",
+    "imageAlt": "탐정 진구지 사부로 재와 다이아몬드 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "추리",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.0",
+    "updated": "2026-10-09",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/JingujiAD-v0.9.0",
+    "releasePublishedAt": "2026-10-09T03:02:35Z",
+    "totalDownloads": 986,
+    "description": "가부키초를 무대로 여러 의뢰와 인물의 이해관계가 교차하는 하드보일드 추리 어드벤처",
+    "keywords": [
+      "탐정 진구지 사부로",
+      "재와 다이아몬드",
+      "灰とダイヤモンド",
+      "jinguji saburo",
+      "ashes and diamonds",
+      "adventure",
+      "workjam",
+      "arc system works"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-10-05",
+      "title": "플레이 리셋 수정과 배포 전 화면 정비",
+      "href": "/projects/jinguji-ashes-and-diamonds/updates/2026-10-05.html"
     }
   },
   {
@@ -1210,46 +1274,6 @@ const fallbackProjects = [
     }
   },
   {
-    "title": "탐정 진구지 사부로: 재와 다이아몬드",
-    "href": "/projects/jinguji-ashes-and-diamonds/",
-    "image": "/assets/images/jinguji-ashes-and-diamonds/2026-10-05-title.webp",
-    "imageAlt": "탐정 진구지 사부로 재와 다이아몬드 한글 타이틀 화면",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "어드벤처",
-    "subgenre": "추리",
-    "type": "한국어 패치",
-    "status": "public",
-    "statusLabel": "베타 공개",
-    "stage": 6,
-    "version": "v0.9.0",
-    "updated": "2026-10-09",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/JingujiAD-v0.9.0/TJS_HaiToDiamond_Korean_Patcher_v0.9.0.zip",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/JingujiAD-v0.9.0",
-    "releasePublishedAt": "2026-10-09T03:02:35Z",
-    "totalDownloads": 986,
-    "description": "가부키초를 무대로 여러 의뢰와 인물의 이해관계가 교차하는 하드보일드 추리 어드벤처",
-    "keywords": [
-      "탐정 진구지 사부로",
-      "재와 다이아몬드",
-      "灰とダイヤモンド",
-      "jinguji saburo",
-      "ashes and diamonds",
-      "adventure",
-      "workjam",
-      "arc system works"
-    ],
-    "verification": [
-      "PPSSPP",
-      "PSP-1000"
-    ],
-    "latestWorklog": {
-      "date": "2026-10-05",
-      "title": "플레이 리셋 수정과 배포 전 화면 정비",
-      "href": "/projects/jinguji-ashes-and-diamonds/updates/2026-10-05.html"
-    }
-  },
-  {
     "title": "사키 포터블",
     "href": "/projects/saki-portable/",
     "image": "/assets/images/saki-portable/2026-10-05-title.webp",
@@ -1288,39 +1312,42 @@ const fallbackProjects = [
     }
   },
   {
-    "title": "Hexyz Force",
-    "href": "/projects/hexyz-force/",
-    "image": "/assets/images/hexyz-force/worklog-2026-09-13/01-title-screen.webp",
-    "imageAlt": "엑시즈 포스 한글 타이틀 화면",
+    "title": "Generation of Chaos 6",
+    "href": "/projects/generation-of-chaos-6/",
+    "image": "/assets/images/generation-of-chaos-6/2026-10-02-title.webp",
+    "imageAlt": "Generation of Chaos 6 한글 타이틀 화면",
     "imageFit": "cover",
     "platform": "PSP",
-    "genre": "RPG",
-    "subgenre": "던전 탐험",
+    "genre": "SRPG",
+    "subgenre": "전략",
     "type": "한국어 패치",
     "status": "public",
     "statusLabel": "베타 공개",
     "stage": 6,
-    "version": "v0.9.3-beta.1",
-    "updated": "2026-10-06",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.3/Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.3",
-    "releasePublishedAt": "2026-10-06T02:04:52Z",
-    "totalDownloads": 1886,
-    "description": "두 주인공의 시점으로 세계의 창조와 파괴를 그리는 던전 탐험형 JRPG",
+    "version": "v0.9.0",
+    "updated": "2026-10-03",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/GOC6-v0.9.0",
+    "releasePublishedAt": "2026-10-03T07:45:14Z",
+    "totalDownloads": 719,
+    "description": "대륙 제패를 목표로 내정·부대 운용·전투를 병행하는 판타지 전략 RPG",
     "keywords": [
-      "엑시즈 포스",
-      "hexyz",
-      "rpg",
-      "atlus"
+      "제네레이션 오브 카오스 6",
+      "제네레이션오브카오스6",
+      "generation of chaos 6",
+      "goc6",
+      "srpg",
+      "sting",
+      "idea factory"
     ],
     "verification": [
       "PPSSPP",
       "PSP-1000"
     ],
     "latestWorklog": {
-      "date": "2026-09-14",
-      "title": "두 판본 오프라인 패처 완성과 공개 검수판 배포",
-      "href": "/projects/hexyz-force/updates/2026-09-14.html"
+      "date": "2026-10-02",
+      "title": "인스톨 데이터 부팅 문제를 해결하고 v0.9.0 배포 후보를 준비",
+      "href": "/projects/generation-of-chaos-6/updates/2026-10-02.html"
     }
   },
   {
@@ -1364,42 +1391,39 @@ const fallbackProjects = [
     }
   },
   {
-    "title": "Generation of Chaos 6",
-    "href": "/projects/generation-of-chaos-6/",
-    "image": "/assets/images/generation-of-chaos-6/2026-10-02-title.webp",
-    "imageAlt": "Generation of Chaos 6 한글 타이틀 화면",
+    "title": "Sol Trigger",
+    "href": "/projects/sol-trigger/",
+    "image": "/assets/images/sol-trigger/2026-10-01-title.webp",
+    "imageAlt": "Sol Trigger 한글 타이틀 화면",
     "imageFit": "cover",
     "platform": "PSP",
-    "genre": "SRPG",
-    "subgenre": "전략",
+    "genre": "RPG",
     "type": "한국어 패치",
     "status": "public",
     "statusLabel": "베타 공개",
     "stage": 6,
-    "version": "v0.9.0",
-    "updated": "2026-10-03",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/GOC6-v0.9.0/Noctil_Patchworks_Offline_GOC6_v0.9.0.zip",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/GOC6-v0.9.0",
-    "releasePublishedAt": "2026-10-03T07:45:14Z",
-    "totalDownloads": 719,
-    "description": "대륙 제패를 목표로 내정·부대 운용·전투를 병행하는 판타지 전략 RPG",
+    "version": "v0.9.3",
+    "updated": "2026-10-01",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/soltrigger-v0.9.3",
+    "releasePublishedAt": "2026-10-01T13:51:21Z",
+    "totalDownloads": 1329,
+    "description": "에너지 ‘솔’을 둘러싼 지배와 저항의 이야기를 그린 스토리 중심 JRPG",
     "keywords": [
-      "제네레이션 오브 카오스 6",
-      "제네레이션오브카오스6",
-      "generation of chaos 6",
-      "goc6",
-      "srpg",
-      "sting",
-      "idea factory"
+      "솔 트리거",
+      "솔트리거",
+      "sol trigger",
+      "jrpg",
+      "imageepoch"
     ],
     "verification": [
       "PPSSPP",
-      "PSP-1000"
+      "PS Vita"
     ],
     "latestWorklog": {
-      "date": "2026-10-02",
-      "title": "인스톨 데이터 부팅 문제를 해결하고 v0.9.0 배포 후보를 준비",
-      "href": "/projects/generation-of-chaos-6/updates/2026-10-02.html"
+      "date": "2026-10-01",
+      "title": "공개 제보 4건을 수정하고 v0.9.3 배포 후보까지 정리",
+      "href": "/projects/sol-trigger/updates/2026-10-01.html"
     }
   },
   {
@@ -1440,42 +1464,6 @@ const fallbackProjects = [
     }
   },
   {
-    "title": "Sol Trigger",
-    "href": "/projects/sol-trigger/",
-    "image": "/assets/images/sol-trigger/2026-10-01-title.webp",
-    "imageAlt": "Sol Trigger 한글 타이틀 화면",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "RPG",
-    "type": "한국어 패치",
-    "status": "public",
-    "statusLabel": "베타 공개",
-    "stage": 6,
-    "version": "v0.9.3",
-    "updated": "2026-10-01",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/soltrigger-v0.9.3/Noctil_Patchworks_Offline_SolTrigger_v0.9.3.zip",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/soltrigger-v0.9.3",
-    "releasePublishedAt": "2026-10-01T13:51:21Z",
-    "totalDownloads": 1329,
-    "description": "에너지 ‘솔’을 둘러싼 지배와 저항의 이야기를 그린 스토리 중심 JRPG",
-    "keywords": [
-      "솔 트리거",
-      "솔트리거",
-      "sol trigger",
-      "jrpg",
-      "imageepoch"
-    ],
-    "verification": [
-      "PPSSPP",
-      "PS Vita"
-    ],
-    "latestWorklog": {
-      "date": "2026-10-01",
-      "title": "공개 제보 4건을 수정하고 v0.9.3 배포 후보까지 정리",
-      "href": "/projects/sol-trigger/updates/2026-10-01.html"
-    }
-  },
-  {
     "title": "Gungnir",
     "href": "/projects/gungnir/",
     "image": "/assets/images/gungnir/latest-2026-09-23-title.webp",
@@ -1511,28 +1499,40 @@ const fallbackProjects = [
     }
   },
   {
-    "title": "일상 (우주인)",
-    "slug": "nichijou-uchuujin",
-    "image": "/assets/images/nichijou-uchuujin/official-cover.webp",
-    "imageAlt": "일상 (우주인) 일본판 PSP 패키지",
+    "title": "Hexyz Force",
+    "href": "/projects/hexyz-force/",
+    "image": "/assets/images/hexyz-force/worklog-2026-09-13/01-title-screen.webp",
+    "imageAlt": "엑시즈 포스 한글 타이틀 화면",
+    "imageFit": "cover",
     "platform": "PSP",
-    "genre": "어드벤처",
-    "subgenre": "코미디",
-    "status": "planned",
-    "statusLabel": "작업 예정",
-    "updated": ""
-  },
-  {
-    "title": "하트커넥트: 예지랜덤",
-    "slug": "kokoro-connect-yochi-random",
-    "image": "/assets/images/kokoro-connect-yochi-random/official-cover.webp",
-    "imageAlt": "ココロコネクト ヨチランダム 일본판 PSP 패키지",
-    "platform": "PSP",
-    "genre": "어드벤처",
-    "subgenre": "노벨",
-    "status": "planned",
-    "statusLabel": "작업 예정",
-    "updated": ""
+    "genre": "RPG",
+    "subgenre": "던전 탐험",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.3-beta.1",
+    "updated": "2026-10-06",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/hexyz-v0.9.3/Noctil_Patchworks_Offline_v0.9.3-beta.1.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/hexyz-v0.9.3",
+    "releasePublishedAt": "2026-10-06T02:04:52Z",
+    "totalDownloads": 1886,
+    "description": "두 주인공의 시점으로 세계의 창조와 파괴를 그리는 던전 탐험형 JRPG",
+    "keywords": [
+      "엑시즈 포스",
+      "hexyz",
+      "rpg",
+      "atlus"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-09-14",
+      "title": "두 판본 오프라인 패처 완성과 공개 검수판 배포",
+      "href": "/projects/hexyz-force/updates/2026-09-14.html"
+    }
   }
 ];
 // END fallback projects
