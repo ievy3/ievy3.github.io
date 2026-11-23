@@ -1591,6 +1591,13 @@ function stageMarkup(stage) {
   return `<a class="project-stage" href="#patch-workflow" title="제작 단계 ${stage}/${PATCH_STAGES.length} · ${name}" aria-label="제작 단계 ${stage}단계: ${name}"><span class="stage-dots" aria-hidden="true">${dots}</span>${stage}단계 · ${name}</a>`;
 }
 
+// 패치 목록 순서: 수정판(업데이트)이 올라와도 위로 올라가지 않도록, 첫 공개 릴리스 시각을 기준으로 최신순으로 늘어놓습니다.
+// 아직 공개 전인 프로젝트는 마지막 작업일을 씁니다.
+function listingStamp(project) {
+  const first = (project.releaseHistory || []).map(item => item.publishedAt).filter(Boolean).sort()[0];
+  return first || `${project.updated || ""}T00:00:00Z`;
+}
+
 function formatDate(date) {
   return date ? date.replaceAll("-", ".") : "—";
 }
@@ -1747,7 +1754,7 @@ function render() {
     .sort((a, b) => {
       const statusOrder = { public: 0, development: 1 };
       const statusDelta = (statusOrder[a.status] ?? 9) - (statusOrder[b.status] ?? 9);
-      return statusDelta || b.updated.localeCompare(a.updated) || a.title.localeCompare(b.title, "ko");
+      return statusDelta || listingStamp(b).localeCompare(listingStamp(a)) || a.title.localeCompare(b.title, "ko");
     });
 
   // 필터·검색을 쓰지 않을 때는 처음 세 줄(1열 화면은 6개)만 보여 주고 나머지는 「더 보기」로 펼칩니다.

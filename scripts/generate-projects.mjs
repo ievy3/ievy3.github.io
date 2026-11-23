@@ -241,7 +241,12 @@ for (const project of config) {
   });
 }
 
-generated.sort((a, b) => b.updated.localeCompare(a.updated) || a.title.localeCompare(b.title, "ko"));
+// 목록 순서는 수정판이 올라와도 바뀌지 않도록 첫 공개 릴리스 시각을 기준으로 합니다(공개 전에는 마지막 작업일).
+const listingStamp = project => {
+  const first = (project.releaseHistory || []).map(item => item.publishedAt).filter(Boolean).sort()[0];
+  return first || `${project.updated || ""}T00:00:00Z`;
+};
+generated.sort((a, b) => listingStamp(b).localeCompare(listingStamp(a)) || a.title.localeCompare(b.title, "ko"));
 
 await mkdir(path.dirname(outputPath), { recursive: true });
 await writeFile(
