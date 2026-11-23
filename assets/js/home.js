@@ -123,9 +123,9 @@ const fallbackProjects = [
       "PSP-1000"
     ],
     "latestWorklog": {
-      "date": "2026-11-17",
-      "title": "무기 상점 수정과 v0.9.1",
-      "href": "/projects/shining-hearts/updates/2026-11-17.html"
+      "date": "2026-11-23",
+      "title": "첫 빵 배달 멈춤 수정과 v0.9.2",
+      "href": "/projects/shining-hearts/updates/2026-11-23.html"
     }
   },
   {
