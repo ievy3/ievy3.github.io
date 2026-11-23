@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T13:21:09.380Z",
+  "generatedAt": "2026-11-23T13:29:55.290Z",
   "projects": [
     {
       "title": "무쌍 오로치 2 스페셜",
@@ -70,9 +70,9 @@
         "PSP-1000"
       ],
       "latestWorklog": {
-        "date": "2026-10-15",
-        "title": "화면 결함 수정과 v0.9.0 공개",
-        "href": "/projects/musou-orochi2-special/updates/2026-10-15.html"
+        "date": "2026-11-23",
+        "title": "무기 연성 확인창 수정과 v0.9.1",
+        "href": "/projects/musou-orochi2-special/updates/2026-11-23.html"
       },
       "latestReleaseTag": "orochi2-v0.9.1"
     },
@@ -96,13 +96,13 @@
       "version": "v1.0.3",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mirai-v1.0.3/Noctil_Patchworks_Offline_MiraiNikki_REWRITE_KO_v1.0.3.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_MiraiNikki_REWRITE_KO_v1.0.3.zip",
-      "downloadCount": 207,
+      "downloadCount": 208,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mirai-v1.0.3",
       "releaseName": "[PSP] 미래일기 13번째 일기 소유자 RE:WRITE (未来日記 13人目の日記所有者 RE：WRITE) 한글 패치 v1.0.3",
       "releasePublishedAt": "2026-11-22T16:27:24Z",
       "updated": "2026-11-23",
       "publicBuilds": 1,
-      "totalDownloads": 207,
+      "totalDownloads": 208,
       "releaseHistory": [
         {
           "version": "v1.0.3",
@@ -114,7 +114,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mirai-v1.0.3/Noctil_Patchworks_Offline_MiraiNikki_REWRITE_KO_v1.0.3.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_MiraiNikki_REWRITE_KO_v1.0.3.zip",
-          "downloadCount": 207
+          "downloadCount": 208
         }
       ],
       "description": "애니메이션 「미래일기」를 바탕으로 한 PSP용 어드벤처",
@@ -159,13 +159,13 @@
       "version": "v1.0.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/code18-v1.0.0/Noctil_Patchworks_Offline_code18_ko_v1.0.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_code18_ko_v1.0.0.zip",
-      "downloadCount": 214,
+      "downloadCount": 215,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/code18-v1.0.0",
       "releaseName": "[PSP] 코드 18 (code_18) 한글 패치 v1.0.0",
       "releasePublishedAt": "2026-11-21T08:10:46Z",
       "updated": "2026-11-21",
       "publicBuilds": 1,
-      "totalDownloads": 214,
+      "totalDownloads": 215,
       "releaseHistory": [
         {
           "version": "v1.0.0",
@@ -177,7 +177,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/code18-v1.0.0/Noctil_Patchworks_Offline_code18_ko_v1.0.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_code18_ko_v1.0.0.zip",
-          "downloadCount": 214
+          "downloadCount": 215
         }
       ],
       "description": "류세이 학원을 무대로 한 PSP용 SF 비주얼 노벨",
@@ -224,13 +224,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dragondrive-v0.9.0/DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
       "downloadAsset": "DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
-      "downloadCount": 318,
+      "downloadCount": 319,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dragondrive-v0.9.0",
       "releaseName": "[gba] 드래곤 드라이브 월드 D 브레이크 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-11-19T16:22:38Z",
       "updated": "2026-11-20",
       "publicBuilds": 1,
-      "totalDownloads": 318,
+      "totalDownloads": 319,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -242,7 +242,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dragondrive-v0.9.0/DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
           "downloadAsset": "DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
-          "downloadCount": 318
+          "downloadCount": 319
         }
       ],
       "description": "애니메이션 「드래곤 드라이브」를 바탕으로 한 GBA용 배틀 RPG",

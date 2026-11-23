@@ -43,9 +43,9 @@ const fallbackProjects = [
       "PSP-1000"
     ],
     "latestWorklog": {
-      "date": "2026-10-15",
-      "title": "화면 결함 수정과 v0.9.0 공개",
-      "href": "/projects/musou-orochi2-special/updates/2026-10-15.html"
+      "date": "2026-11-23",
+      "title": "무기 연성 확인창 수정과 v0.9.1",
+      "href": "/projects/musou-orochi2-special/updates/2026-11-23.html"
     }
   },
   {
@@ -66,7 +66,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mirai-v1.0.3/Noctil_Patchworks_Offline_MiraiNikki_REWRITE_KO_v1.0.3.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mirai-v1.0.3",
     "releasePublishedAt": "2026-11-22T16:27:24Z",
-    "totalDownloads": 207,
+    "totalDownloads": 208,
     "description": "애니메이션 「미래일기」를 바탕으로 한 PSP용 어드벤처",
     "keywords": [
       "미래일기",
@@ -106,7 +106,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/code18-v1.0.0/Noctil_Patchworks_Offline_code18_ko_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/code18-v1.0.0",
     "releasePublishedAt": "2026-11-21T08:10:46Z",
-    "totalDownloads": 214,
+    "totalDownloads": 215,
     "description": "류세이 학원을 무대로 한 PSP용 SF 비주얼 노벨",
     "keywords": [
       "코드18",
@@ -148,7 +148,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dragondrive-v0.9.0/DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dragondrive-v0.9.0",
     "releasePublishedAt": "2026-11-19T16:22:38Z",
-    "totalDownloads": 318,
+    "totalDownloads": 319,
     "description": "애니메이션 「드래곤 드라이브」를 바탕으로 한 GBA용 배틀 RPG",
     "keywords": [
       "드래곤 드라이브",
