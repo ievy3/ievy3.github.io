@@ -23,12 +23,12 @@
 
 - [무쌍 오로치 2 스페셜](https://ievy3.github.io/projects/musou-orochi2-special/) (PSP) — **v0.9.1** · 베타 공개
 - [미래일기 -13번째 일기 소유자- Re:write](https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/) (PSP) — **v1.0.3** · 베타 공개
+- [샤이닝 하츠](https://ievy3.github.io/projects/shining-hearts/) (PSP) — **v0.9.2** · 베타 공개
 - [코드:18](https://ievy3.github.io/projects/code-18/) (PSP) — **v1.0.0** · 베타 공개
 - [드래곤 드라이브: 월드 D 브레이크](https://ievy3.github.io/projects/dragon-drive-world-d-break/) (GBA) — **v0.9.0** · 베타 공개
 - [F-ZERO 클라이맥스](https://ievy3.github.io/projects/f-zero-climax/) (GBA) — **v1.0.0** · 베타 공개
 - [듀나미스 15](https://ievy3.github.io/projects/dunamis15/) (PSP) — **v1.0.1** · 베타 공개
 - [비오라트의 아틀리에](https://ievy3.github.io/projects/atelier-viorate/) (PSP) — **v1.0.1** · 베타 공개
-- [샤이닝 하츠](https://ievy3.github.io/projects/shining-hearts/) (PSP) — **v0.9.1** · 베타 공개
 - [마크로스 트라이앵글 프론티어](https://ievy3.github.io/projects/macross-triangle-frontier/) (PSP) — **v0.9.1** · 베타 공개
 - [유디의 아틀리에](https://ievy3.github.io/projects/atelier-judie/) (PSP) — **v1.0.0** · 베타 공개
 - [봄버맨 제터스](https://ievy3.github.io/projects/bomberman-jetters/) (GBA) — **v1.0.0** · 베타 공개

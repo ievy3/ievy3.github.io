@@ -26,7 +26,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.1/Noctil_Patchworks_Offline_Orochi2_v0.9.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/orochi2-v0.9.1",
     "releasePublishedAt": "2026-11-23T13:20:59Z",
-    "totalDownloads": 722,
+    "totalDownloads": 724,
     "description": "삼국지·전국 무장과 신화 속 영웅이 함께 싸우는 코에이 테크모의 PSP 무쌍 액션",
     "keywords": [
       "무쌍 오로치",
@@ -66,7 +66,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mirai-v1.0.3/Noctil_Patchworks_Offline_MiraiNikki_REWRITE_KO_v1.0.3.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mirai-v1.0.3",
     "releasePublishedAt": "2026-11-22T16:27:24Z",
-    "totalDownloads": 208,
+    "totalDownloads": 209,
     "description": "애니메이션 「미래일기」를 바탕으로 한 PSP용 어드벤처",
     "keywords": [
       "미래일기",
@@ -86,6 +86,46 @@ const fallbackProjects = [
       "date": "2026-11-23",
       "title": "v1.0.3 공개",
       "href": "/projects/mirai-nikki-13th-rewrite/updates/2026-11-23.html"
+    }
+  },
+  {
+    "title": "샤이닝 하츠",
+    "href": "/projects/shining-hearts/",
+    "image": "/assets/images/shining-hearts/2026-11-03-title-ko.webp",
+    "imageAlt": "샤이닝 하츠 한글 타이틀 화면",
+    "imageFit": "cover",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.2",
+    "updated": "2026-11-23",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.2/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.2.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.2",
+    "releasePublishedAt": "2026-11-23T13:35:38Z",
+    "totalDownloads": 830,
+    "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
+    "keywords": [
+      "샤이닝 하츠",
+      "shining hearts",
+      "シャイニング・ハーツ",
+      "샤이닝",
+      "shining",
+      "세가",
+      "sega",
+      "빵"
+    ],
+    "verification": [
+      "PPSSPP",
+      "PSP-1000"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-17",
+      "title": "무기 상점 수정과 v0.9.1",
+      "href": "/projects/shining-hearts/updates/2026-11-17.html"
     }
   },
   {
@@ -148,7 +188,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dragondrive-v0.9.0/DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dragondrive-v0.9.0",
     "releasePublishedAt": "2026-11-19T16:22:38Z",
-    "totalDownloads": 319,
+    "totalDownloads": 322,
     "description": "애니메이션 「드래곤 드라이브」를 바탕으로 한 GBA용 배틀 RPG",
     "keywords": [
       "드래곤 드라이브",
@@ -294,46 +334,6 @@ const fallbackProjects = [
       "date": "2026-11-17",
       "title": "영상 한글화와 v1.0.1",
       "href": "/projects/atelier-viorate/updates/2026-11-17.html"
-    }
-  },
-  {
-    "title": "샤이닝 하츠",
-    "href": "/projects/shining-hearts/",
-    "image": "/assets/images/shining-hearts/2026-11-03-title-ko.webp",
-    "imageAlt": "샤이닝 하츠 한글 타이틀 화면",
-    "imageFit": "cover",
-    "platform": "PSP",
-    "genre": "RPG",
-    "subgenre": "판타지",
-    "type": "한국어 패치",
-    "status": "public",
-    "statusLabel": "베타 공개",
-    "stage": 6,
-    "version": "v0.9.1",
-    "updated": "2026-11-17",
-    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.1/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.1.zip",
-    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.1",
-    "releasePublishedAt": "2026-11-17T05:37:48Z",
-    "totalDownloads": 830,
-    "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
-    "keywords": [
-      "샤이닝 하츠",
-      "shining hearts",
-      "シャイニング・ハーツ",
-      "샤이닝",
-      "shining",
-      "세가",
-      "sega",
-      "빵"
-    ],
-    "verification": [
-      "PPSSPP",
-      "PSP-1000"
-    ],
-    "latestWorklog": {
-      "date": "2026-11-17",
-      "title": "무기 상점 수정과 v0.9.1",
-      "href": "/projects/shining-hearts/updates/2026-11-17.html"
     }
   },
   {
@@ -1039,7 +1039,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/never7-v0.9.0/Noctil_Patchworks_Offline_Never7_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/never7-v0.9.0",
     "releasePublishedAt": "2026-10-11T00:19:13Z",
-    "totalDownloads": 645,
+    "totalDownloads": 646,
     "description": "섬에서 보내는 합숙의 날들과 반복되는 시간의 수수께끼를 그린 인피니티 시리즈 첫 작품",
     "keywords": [
       "네버7",
