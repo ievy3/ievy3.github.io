@@ -1178,6 +1178,8 @@
     "slug": "light-fantasy-2",
     "title": "라이트 판타지 II",
     "status": "planned",
+    "image": "/assets/images/light-fantasy-2/official-cover.webp",
+    "imageAlt": "ライトファンタジーII 일본판 SFC 패키지",
     "platform": "SFC",
     "genre": "RPG",
     "subgenre": "판타지"
