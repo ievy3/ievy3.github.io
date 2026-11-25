@@ -17,10 +17,11 @@
 ## Projects
 
 <!-- BEGIN projects (scripts/build-site-files.mjs가 projects.generated.json으로 자동 갱신합니다) -->
-현재 공개 허브에서 관리하는 프로젝트는 **38개**입니다(공개 35 · 작업 중 3). 버전은 공개된 최신 배포본 기준입니다.
+현재 공개 허브에서 관리하는 프로젝트는 **38개**입니다(공개 36 · 작업 중 2). 버전은 공개된 최신 배포본 기준입니다.
 
 ### 공개
 
+- [언체인 블레이즈 렉스](https://ievy3.github.io/projects/unchained-blades-rexx/) (PSP) — **v1.0.0** · 베타 공개
 - [무쌍 오로치 2 스페셜](https://ievy3.github.io/projects/musou-orochi2-special/) (PSP) — **v0.9.1** · 베타 공개
 - [미래일기 -13번째 일기 소유자- Re:write](https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/) (PSP) — **v1.0.3** · 베타 공개
 - [샤이닝 하츠](https://ievy3.github.io/projects/shining-hearts/) (PSP) — **v0.9.2** · 베타 공개
@@ -59,7 +60,6 @@
 
 ### 작업 중
 
-- [언체인 블레이즈 렉스](https://ievy3.github.io/projects/unchained-blades-rexx/) (PSP) — 작업 중 · 5단계 실행 검수
 - [컨셉션 II: 일곱 별의 인도와 마수의 미궁](https://ievy3.github.io/projects/conception-2/) (PS Vita) — 작업 중 · 5단계 실행 검수
 - [바케모노가타리 포터블](https://ievy3.github.io/projects/bakemonogatari-portable/) (PSP) — 작업 중 · 3단계 대사 번역
 
