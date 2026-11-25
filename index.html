@@ -19,8 +19,8 @@
   <meta name="twitter:title" content="Noctil Patchworks">
   <meta name="twitter:description" content="비공식 한국어 게임 번역 패치와 제작 기록을 공개하는 아카이브">
   <meta name="twitter:image" content="https://ievy3.github.io/assets/images/genso-suikoden-100-years/2026-10-03-title.webp">
-  <link rel="stylesheet" href="/assets/css/home.css?v=36">
-  <script src="/assets/js/home.js?v=37" defer></script>
+  <link rel="stylesheet" href="/assets/css/home.css?v=37">
+  <script src="/assets/js/home.js?v=38" defer></script>
   <link rel="stylesheet" href="/assets/css/site-ui.css?v=2">
   <script>try{if(localStorage.getItem("np-theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}</script><link rel="stylesheet" href="/assets/css/theme-light.css?v=4">
 </head>
@@ -143,9 +143,15 @@
           <p class="eyebrow">COMING UP</p>
           <h2 id="planned-title">작업 예정</h2>
         </div>
-        <span>예정은 바뀔 수 있습니다</span>
+        <div class="planned-tools">
+          <span>예정은 바뀔 수 있습니다</span>
+          <div class="planned-nav" id="planned-nav" hidden>
+            <button type="button" id="planned-prev" aria-label="이전 작업 예정 게임">‹</button>
+            <button type="button" id="planned-next" aria-label="다음 작업 예정 게임">›</button>
+          </div>
+        </div>
       </div>
-      <ul class="planned-list" id="planned-list"></ul>
+      <ul class="planned-list" id="planned-list" tabindex="0" aria-label="작업 예정 게임 목록"></ul>
     </section>
 
     <section class="patch-workflow" id="patch-workflow" aria-labelledby="patch-workflow-title">

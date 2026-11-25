@@ -1690,7 +1690,39 @@ function renderPlanned() {
       </span>`;
     return item;
   }));
+  updatePlannedNav();
 }
+
+// 작업 예정은 한 줄로만 보여 주고, 양옆 화살표로 한 칸씩 넘깁니다. 끝에서 더 넘기면 반대쪽 끝으로 돌아갑니다.
+const plannedPrev = document.querySelector("#planned-prev");
+const plannedNext = document.querySelector("#planned-next");
+const plannedNav = document.querySelector("#planned-nav");
+
+function updatePlannedNav() {
+  if (!plannedList || !plannedNav) return;
+  plannedNav.hidden = plannedList.scrollWidth <= plannedList.clientWidth + 2;
+}
+
+function stepPlanned(direction) {
+  if (!plannedList) return;
+  const first = plannedList.firstElementChild;
+  const step = first ? first.getBoundingClientRect().width + parseFloat(getComputedStyle(plannedList).columnGap || 0) : plannedList.clientWidth;
+  const max = plannedList.scrollWidth - plannedList.clientWidth;
+  const at = plannedList.scrollLeft;
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let target = at + direction * step;
+  if (direction > 0 && at >= max - 2) target = 0;
+  else if (direction < 0 && at <= 2) target = max;
+  plannedList.scrollTo({ left: target, behavior: reduce ? "auto" : "smooth" });
+}
+
+plannedPrev?.addEventListener("click", () => stepPlanned(-1));
+plannedNext?.addEventListener("click", () => stepPlanned(1));
+plannedList?.addEventListener("keydown", event => {
+  if (event.key === "ArrowRight") { event.preventDefault(); stepPlanned(1); }
+  if (event.key === "ArrowLeft") { event.preventDefault(); stepPlanned(-1); }
+});
+window.addEventListener("resize", updatePlannedNav);
 
 function card(project) {
   const article = document.createElement("article");
