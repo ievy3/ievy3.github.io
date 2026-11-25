@@ -1147,6 +1147,8 @@
     "slug": "soul-eater-battle-resonance",
     "title": "소울 이터 배틀 레조넌스",
     "status": "planned",
+    "image": "/assets/images/soul-eater-battle-resonance/official-cover.webp",
+    "imageAlt": "ソウルイーター バトルレゾナンス 일본판 PSP 패키지",
     "platform": "PSP",
     "genre": "액션",
     "subgenre": "격투"
@@ -1155,6 +1157,8 @@
     "slug": "guru-logi-champ",
     "title": "구루 로지 챔프",
     "status": "planned",
+    "image": "/assets/images/guru-logi-champ/official-cover.webp",
+    "imageAlt": "ぐるロジチャンプ 일본판 GBA 패키지",
     "platform": "GBA",
     "genre": "퍼즐"
   },
@@ -1162,6 +1166,8 @@
     "slug": "light-fantasy",
     "title": "라이트 판타지",
     "status": "planned",
+    "image": "/assets/images/light-fantasy/official-cover.webp",
+    "imageAlt": "ライトファンタジー 일본판 SFC 패키지",
     "platform": "SFC",
     "genre": "RPG",
     "subgenre": "판타지"
@@ -1208,6 +1214,8 @@
     "slug": "kenka-banchou-5",
     "title": "싸움대장 5 ~사나이의 법칙~",
     "status": "planned",
+    "image": "/assets/images/kenka-banchou-5/official-cover.webp",
+    "imageAlt": "喧嘩番長5 ~漢の法則~ 일본판 PSP 패키지",
     "platform": "PSP",
     "genre": "액션",
     "subgenre": "격투"
@@ -1226,6 +1234,8 @@
     "slug": "macross-ace-frontier",
     "title": "마크로스 에이스 프론티어",
     "status": "planned",
+    "image": "/assets/images/macross-ace-frontier/official-cover.webp",
+    "imageAlt": "マクロス エースフロンティア 일본판 PSP 패키지",
     "platform": "PSP",
     "genre": "액션",
     "subgenre": "메카"
