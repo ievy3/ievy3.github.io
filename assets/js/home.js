@@ -35,8 +35,8 @@ const fallbackProjects = [
   {
     "title": "언체인 블레이즈 렉스",
     "href": "/projects/unchained-blades-rexx/",
-    "image": "/assets/images/unchained-blades-rexx/official-cover.webp",
-    "imageAlt": "アンチェインブレイズ レクス 일본판 PSP 패키지",
+    "image": "/assets/images/unchained-blades-rexx/2026-11-25-title-ko.webp",
+    "imageAlt": "언체인 블레이즈 렉스 한글 타이틀 화면",
     "imageFit": "cover",
     "platform": "PSP",
     "genre": "RPG",
@@ -50,7 +50,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/unchained-v1.0.0/Noctil_Patchworks_Offline_UnchainBladesReXX_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/unchained-v1.0.0",
     "releasePublishedAt": "2026-11-25T13:51:11Z",
-    "totalDownloads": 0,
+    "totalDownloads": 16,
     "description": "몬스터를 동료로 삼는 언체인 시스템의 1인칭 던전 RPG",
     "keywords": [
       "언체인 블레이즈",
@@ -622,7 +622,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/houshin-v0.9.0",
     "releasePublishedAt": "2026-11-01T15:26:38Z",
-    "totalDownloads": 492,
+    "totalDownloads": 494,
     "description": "『봉신연의』를 바탕으로 한 코에이의 GBA 롤플레잉 게임",
     "keywords": [
       "매지컬 봉신",
