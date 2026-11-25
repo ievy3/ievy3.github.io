@@ -65,12 +65,13 @@ const fallbackProjects = [
       "던전"
     ],
     "verification": [
-      "PPSSPP"
+      "PPSSPP",
+      "PSP 실기"
     ],
     "latestWorklog": {
-      "date": "2026-11-17",
-      "title": "검수 반영과 시험 빌드(7차)",
-      "href": "/projects/unchained-blades-rexx/updates/2026-11-17.html"
+      "date": "2026-11-25",
+      "title": "배포 꾸러미 완성",
+      "href": "/projects/unchained-blades-rexx/updates/2026-11-25.html"
     }
   },
   {
