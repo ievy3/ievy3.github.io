@@ -1123,6 +1123,8 @@
     "slug": "samurai-evolution-oukoku-geist",
     "title": "사무라이 에볼루션 앵국 가이스트",
     "status": "planned",
+    "image": "/assets/images/samurai-evolution-oukoku-geist/official-cover.webp",
+    "imageAlt": "サムライエボリューション 桜国ガイスト 일본판 GBA 패키지",
     "platform": "GBA",
     "genre": "RPG",
     "subgenre": "판타지"
