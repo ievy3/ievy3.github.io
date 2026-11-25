@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T14:11:45.175Z",
+  "generatedAt": "2026-11-25T16:35:08.266Z",
   "projects": [
     {
       "title": "일상 (우주인)",
@@ -45,13 +45,13 @@
       "version": "v1.0.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/unchained-v1.0.0/Noctil_Patchworks_Offline_UnchainBladesReXX_v1.0.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_UnchainBladesReXX_v1.0.0.zip",
-      "downloadCount": 16,
+      "downloadCount": 67,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/unchained-v1.0.0",
       "releaseName": "[PSP] 언체인 블레이즈 렉스 한글 패치 v1.0.0",
       "releasePublishedAt": "2026-11-25T13:51:11Z",
       "updated": "2026-11-25",
       "publicBuilds": 1,
-      "totalDownloads": 16,
+      "totalDownloads": 67,
       "releaseHistory": [
         {
           "version": "v1.0.0",
@@ -63,7 +63,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/unchained-v1.0.0/Noctil_Patchworks_Offline_UnchainBladesReXX_v1.0.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_UnchainBladesReXX_v1.0.0.zip",
-          "downloadCount": 16
+          "downloadCount": 67
         }
       ],
       "description": "몬스터를 동료로 삼는 언체인 시스템의 1인칭 던전 RPG",
@@ -110,13 +110,13 @@
       "version": "v1.0.3",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mirai-v1.0.3/Noctil_Patchworks_Offline_MiraiNikki_REWRITE_KO_v1.0.3.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_MiraiNikki_REWRITE_KO_v1.0.3.zip",
-      "downloadCount": 278,
+      "downloadCount": 279,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mirai-v1.0.3",
       "releaseName": "[PSP] 미래일기 13번째 일기 소유자 RE:WRITE (未来日記 13人目の日記所有者 RE：WRITE) 한글 패치 v1.0.3",
       "releasePublishedAt": "2026-11-22T16:27:24Z",
       "updated": "2026-11-23",
       "publicBuilds": 1,
-      "totalDownloads": 278,
+      "totalDownloads": 279,
       "releaseHistory": [
         {
           "version": "v1.0.3",
@@ -128,7 +128,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mirai-v1.0.3/Noctil_Patchworks_Offline_MiraiNikki_REWRITE_KO_v1.0.3.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_MiraiNikki_REWRITE_KO_v1.0.3.zip",
-          "downloadCount": 278
+          "downloadCount": 279
         }
       ],
       "description": "애니메이션 「미래일기」를 바탕으로 한 PSP용 어드벤처",
@@ -238,13 +238,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dragondrive-v0.9.0/DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
       "downloadAsset": "DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
-      "downloadCount": 383,
+      "downloadCount": 386,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dragondrive-v0.9.0",
       "releaseName": "[gba] 드래곤 드라이브 월드 D 브레이크 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-11-19T16:22:38Z",
       "updated": "2026-11-20",
       "publicBuilds": 1,
-      "totalDownloads": 383,
+      "totalDownloads": 386,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -256,7 +256,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dragondrive-v0.9.0/DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
           "downloadAsset": "DragonDriveWorldDBreak_KrPatcher_v0.9.0.zip",
-          "downloadCount": 383
+          "downloadCount": 386
         }
       ],
       "description": "애니메이션 「드래곤 드라이브」를 바탕으로 한 GBA용 배틀 RPG",
@@ -302,13 +302,13 @@
       "version": "v1.0.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/fzero-v1.0.0/FZeroClimax_KrPatcher_v1.0.0.zip",
       "downloadAsset": "FZeroClimax_KrPatcher_v1.0.0.zip",
-      "downloadCount": 427,
+      "downloadCount": 429,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/fzero-v1.0.0",
       "releaseName": "[gba] F-ZERO 클라이맥스 (F-ZERO クライマックス) 한글 패치 v1.0.0",
       "releasePublishedAt": "2026-11-18T07:55:36Z",
       "updated": "2026-11-18",
       "publicBuilds": 1,
-      "totalDownloads": 427,
+      "totalDownloads": 429,
       "releaseHistory": [
         {
           "version": "v1.0.0",
@@ -320,7 +320,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/fzero-v1.0.0/FZeroClimax_KrPatcher_v1.0.0.zip",
           "downloadAsset": "FZeroClimax_KrPatcher_v1.0.0.zip",
-          "downloadCount": 427
+          "downloadCount": 429
         }
       ],
       "description": "애니메이션 「F-ZERO 팔콘 전설」 이야기를 레이스로 따라가는 GBA용 SF 레이싱",
@@ -366,13 +366,13 @@
       "version": "v1.0.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dunamis15-v1.0.1/Noctil_Patchworks_Offline_DUNAMIS15_KO_v1.0.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_DUNAMIS15_KO_v1.0.1.zip",
-      "downloadCount": 296,
+      "downloadCount": 297,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/dunamis15-v1.0.1",
       "releaseName": "[PSP] 듀나미스15 (DUNAMIS15 / デュナミス15) PSP 한글 패치 v1.0.1",
       "releasePublishedAt": "2026-11-17T11:54:02Z",
       "updated": "2026-11-17",
       "publicBuilds": 1,
-      "totalDownloads": 296,
+      "totalDownloads": 297,
       "releaseHistory": [
         {
           "version": "v1.0.1",
@@ -384,7 +384,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/dunamis15-v1.0.1/Noctil_Patchworks_Offline_DUNAMIS15_KO_v1.0.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_DUNAMIS15_KO_v1.0.1.zip",
-          "downloadCount": 296
+          "downloadCount": 297
         }
       ],
       "description": "5pb의 서스펜스 어드벤처 노벨",
@@ -821,13 +821,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/conception-v0.9.0/Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
-      "downloadCount": 423,
+      "downloadCount": 425,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/conception-v0.9.0",
       "releaseName": "[PSP] 컨셉션: 내 아이를 낳아줘 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-11-07T13:14:29Z",
       "updated": "2026-11-07",
       "publicBuilds": 1,
-      "totalDownloads": 423,
+      "totalDownloads": 425,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -839,7 +839,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/conception-v0.9.0/Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Conception_v0.9.0.zip",
-          "downloadCount": 423
+          "downloadCount": 425
         }
       ],
       "description": "「별의 자식」을 낳을 수 있는 소녀들과 던전을 탐험하는 PSP 롤플레잉 게임",
@@ -884,13 +884,13 @@
       "version": "v0.9.2",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.2/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.2.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Shining_Hearts_v0.9.2.zip",
-      "downloadCount": 251,
+      "downloadCount": 252,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.2",
       "releaseName": "[PSP] 샤이닝 하츠 (シャイニング・ハーツ) 한글 패치 v0.9.2",
       "releasePublishedAt": "2026-11-23T13:35:38Z",
       "updated": "2026-11-23",
       "publicBuilds": 3,
-      "totalDownloads": 1089,
+      "totalDownloads": 1090,
       "releaseHistory": [
         {
           "version": "v0.9.2",
@@ -902,7 +902,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.2/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.2.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Shining_Hearts_v0.9.2.zip",
-          "downloadCount": 251
+          "downloadCount": 252
         },
         {
           "version": "v0.9.1",
@@ -971,13 +971,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
       "downloadAsset": "MagicalHoushin_KrPatcher_v0.9.0.zip",
-      "downloadCount": 494,
+      "downloadCount": 497,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/houshin-v0.9.0",
       "releaseName": "[GBA] 매지컬 봉신 한글 패치 v0.9.0 ",
       "releasePublishedAt": "2026-11-01T15:26:38Z",
       "updated": "2026-11-02",
       "publicBuilds": 1,
-      "totalDownloads": 494,
+      "totalDownloads": 497,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -989,7 +989,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
           "downloadAsset": "MagicalHoushin_KrPatcher_v0.9.0.zip",
-          "downloadCount": 494
+          "downloadCount": 497
         }
       ],
       "description": "『봉신연의』를 바탕으로 한 코에이의 GBA 롤플레잉 게임",
@@ -1033,13 +1033,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningark-v0.9.0/Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
-      "downloadCount": 778,
+      "downloadCount": 779,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shiningark-v0.9.0",
       "releaseName": "[PSP] 샤이닝 아크 한글 패치 v0.9.0",
       "releasePublishedAt": "2026-11-01T05:39:03Z",
       "updated": "2026-11-01",
       "publicBuilds": 1,
-      "totalDownloads": 778,
+      "totalDownloads": 779,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -1051,7 +1051,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shiningark-v0.9.0/Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_ShiningArk_v0.9.0.zip",
-          "downloadCount": 778
+          "downloadCount": 779
         }
       ],
       "description": "세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
@@ -1418,13 +1418,13 @@
       "version": "v1.0.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/kh-v1.0.1/KlonoaHeroes_KO_v1.0.1.zip",
       "downloadAsset": "KlonoaHeroes_KO_v1.0.1.zip",
-      "downloadCount": 393,
+      "downloadCount": 394,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/kh-v1.0.1",
       "releaseName": "[GBA] 크로노아 히어로즈: 전설의 스타 메달 한글 패치 v1.0.1",
       "releasePublishedAt": "2026-10-17T00:25:56Z",
       "updated": "2026-10-17",
       "publicBuilds": 2,
-      "totalDownloads": 652,
+      "totalDownloads": 653,
       "releaseHistory": [
         {
           "version": "v1.0.1",
@@ -1436,7 +1436,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/kh-v1.0.1/KlonoaHeroes_KO_v1.0.1.zip",
           "downloadAsset": "KlonoaHeroes_KO_v1.0.1.zip",
-          "downloadCount": 393
+          "downloadCount": 394
         },
         {
           "version": "v1.0",
@@ -1493,13 +1493,13 @@
       "version": "v0.9.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.1/Noctil_Patchworks_Offline_Orochi2_v0.9.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Orochi2_v0.9.1.zip",
-      "downloadCount": 196,
+      "downloadCount": 197,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/orochi2-v0.9.1",
       "releaseName": "[PSP] 무쌍 오로치 2 스페셜 한글 패치 v0.9.1",
       "releasePublishedAt": "2026-11-23T13:20:59Z",
       "updated": "2026-11-23",
       "publicBuilds": 2,
-      "totalDownloads": 921,
+      "totalDownloads": 922,
       "releaseHistory": [
         {
           "version": "v0.9.1",
@@ -1511,7 +1511,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/orochi2-v0.9.1/Noctil_Patchworks_Offline_Orochi2_v0.9.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Orochi2_v0.9.1.zip",
-          "downloadCount": 196
+          "downloadCount": 197
         },
         {
           "version": "v0.9.0",
