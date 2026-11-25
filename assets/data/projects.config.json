@@ -1108,5 +1108,144 @@
     "verification": [
       "PPSSPP"
     ]
+  },
+  {
+    "slug": "12riven",
+    "title": "12Riven -the Psi-clminal of Integral-",
+    "status": "planned",
+    "image": "/assets/images/12riven/official-cover.webp",
+    "imageAlt": "12Riven -the Psi-clminal of Integral- 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "서스펜스"
+  },
+  {
+    "slug": "samurai-evolution-oukoku-geist",
+    "title": "사무라이 에볼루션 앵국 가이스트",
+    "status": "planned",
+    "image": "/assets/images/samurai-evolution-oukoku-geist/official-cover.webp",
+    "imageAlt": "サムライエボリューション 桜国ガイスト 일본판 GBA 패키지",
+    "platform": "GBA",
+    "genre": "RPG",
+    "subgenre": "판타지"
+  },
+  {
+    "slug": "sansara-naga-1-2",
+    "title": "산사라 나가 1·2",
+    "status": "planned",
+    "image": "/assets/images/sansara-naga-1-2/official-cover.webp",
+    "imageAlt": "サンサーラ・ナーガ1×2 일본판 GBA 패키지",
+    "platform": "GBA",
+    "genre": "RPG",
+    "subgenre": "판타지"
+  },
+  {
+    "slug": "solfege-sweet-harmony",
+    "title": "솔페주 ~Sweet harmony~",
+    "status": "planned",
+    "image": "/assets/images/solfege-sweet-harmony/official-cover.webp",
+    "imageAlt": "ソルフェージュ ~Sweet harmony~ 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "음악"
+  },
+  {
+    "slug": "soul-eater-battle-resonance",
+    "title": "소울 이터 배틀 레조넌스",
+    "status": "planned",
+    "image": "/assets/images/soul-eater-battle-resonance/official-cover.webp",
+    "imageAlt": "ソウルイーター バトルレゾナンス 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "액션",
+    "subgenre": "격투"
+  },
+  {
+    "slug": "guru-logi-champ",
+    "title": "구루 로지 챔프",
+    "status": "planned",
+    "image": "/assets/images/guru-logi-champ/official-cover.webp",
+    "imageAlt": "ぐるロジチャンプ 일본판 GBA 패키지",
+    "platform": "GBA",
+    "genre": "퍼즐"
+  },
+  {
+    "slug": "light-fantasy",
+    "title": "라이트 판타지",
+    "status": "planned",
+    "image": "/assets/images/light-fantasy/official-cover.webp",
+    "imageAlt": "ライトファンタジー 일본판 SFC 패키지",
+    "platform": "SFC",
+    "genre": "RPG",
+    "subgenre": "판타지"
+  },
+  {
+    "slug": "light-fantasy-2",
+    "title": "라이트 판타지 II",
+    "status": "planned",
+    "image": "/assets/images/light-fantasy-2/official-cover.webp",
+    "imageAlt": "ライトファンタジーII 일본판 SFC 패키지",
+    "platform": "SFC",
+    "genre": "RPG",
+    "subgenre": "판타지"
+  },
+  {
+    "slug": "arcana",
+    "title": "카드 마스터: 림살리아의 봉인",
+    "status": "planned",
+    "image": "/assets/images/arcana/official-cover.webp",
+    "imageAlt": "カードマスター リムサリアの封印(북미판 Arcana) 일본판 SFC 패키지",
+    "platform": "SFC",
+    "genre": "RPG",
+    "subgenre": "던전 탐험"
+  },
+  {
+    "slug": "seitokai-no-ichizon-lv2-portable",
+    "title": "학생회의 일존 Lv.2 포터블",
+    "status": "planned",
+    "image": "/assets/images/seitokai-no-ichizon-lv2-portable/official-cover.webp",
+    "imageAlt": "生徒会の一存 Lv.2 PORTABLE 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "코미디"
+  },
+  {
+    "slug": "kenka-banchou-4",
+    "title": "싸움대장 4 ~일년전쟁~",
+    "status": "planned",
+    "image": "/assets/images/kenka-banchou-4/official-cover.webp",
+    "imageAlt": "喧嘩番長4 ~一年戦争~ 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "액션",
+    "subgenre": "격투"
+  },
+  {
+    "slug": "kenka-banchou-5",
+    "title": "싸움대장 5 ~사나이의 법칙~",
+    "status": "planned",
+    "image": "/assets/images/kenka-banchou-5/official-cover.webp",
+    "imageAlt": "喧嘩番長5 ~漢の法則~ 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "액션",
+    "subgenre": "격투"
+  },
+  {
+    "slug": "hack-link",
+    "title": ".hack//Link",
+    "status": "planned",
+    "image": "/assets/images/hack-link/official-cover.webp",
+    "imageAlt": ".hack//Link 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "액션"
+  },
+  {
+    "slug": "macross-ace-frontier",
+    "title": "마크로스 에이스 프론티어",
+    "status": "planned",
+    "image": "/assets/images/macross-ace-frontier/official-cover.webp",
+    "imageAlt": "マクロス エースフロンティア 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "액션",
+    "subgenre": "메카"
   }
 ]
