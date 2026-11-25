@@ -5,8 +5,16 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-11-23T00:00:00+09:00</updated>
+  <updated>2026-11-25T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[언체인 블레이즈 렉스] 배포 꾸러미 완성</title>
+    <link href="https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-25.html"/>
+    <id>https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-25.html</id>
+    <updated>2026-11-25T00:00:00+09:00</updated>
+    <category term="언체인 블레이즈 렉스"/>
+    <summary>패치 적용 시험을 통과하고 1.0.0 배포 꾸러미를 만들었습니다. 공개 업로드만 남았습니다.</summary>
+  </entry>
   <entry>
     <title>[미래일기 -13번째 일기 소유자- Re:write] v1.0.3 공개</title>
     <link href="https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-23.html"/>
@@ -40,6 +48,14 @@
     <summary>멈춤 두 가지를 고치고, 정보 카드와 실행 파일 문구의 칸 한도를 전수로 재서 점검을 통과했습니다.</summary>
   </entry>
   <entry>
+    <title>[언체인 블레이즈 렉스] 배포 직전 재점검</title>
+    <link href="https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-22.html"/>
+    <id>https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-22.html</id>
+    <updated>2026-11-22T00:00:00+09:00</updated>
+    <category term="언체인 블레이즈 렉스"/>
+    <summary>배포 후보로 설치 데이터 유무를 나눠 시험하고, 재점검을 거쳐 통과했습니다.</summary>
+  </entry>
+  <entry>
     <title>[코드:18] 실기 확인과 1.0.0 공개</title>
     <link href="https://ievy3.github.io/projects/code-18/updates/2026-11-21.html"/>
     <id>https://ievy3.github.io/projects/code-18/updates/2026-11-21.html</id>
@@ -54,6 +70,14 @@
     <updated>2026-11-21T00:00:00+09:00</updated>
     <category term="미래일기 -13번째 일기 소유자- Re:write"/>
     <summary>화면 판정을 통과하고 첫 저장 때 멈춘 일이 원본에서도 생기는 동작임을 확인했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[언체인 블레이즈 렉스] 점검 통과와 말투 검수</title>
+    <link href="https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-21.html"/>
+    <id>https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-21.html</id>
+    <updated>2026-11-21T00:00:00+09:00</updated>
+    <category term="언체인 블레이즈 렉스"/>
+    <summary>시스템 대화상자 문구를 고치고 점검을 통과한 뒤, 인물별 말투 검수를 반영했습니다.</summary>
   </entry>
   <entry>
     <title>[코드:18] 글꼴 교체와 한글 오프닝 영상</title>
@@ -102,6 +126,14 @@
     <updated>2026-11-19T00:00:00+09:00</updated>
     <category term="미래일기 -13번째 일기 소유자- Re:write"/>
     <summary>4-b 그림이 원문 스타일을 따르는지 살펴, 새 제작 방식과 「생성하지 못하면 원문을 살린다」는 원칙을 정했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[언체인 블레이즈 렉스] 실기 보고 반영과 세이브 제목</title>
+    <link href="https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-19.html"/>
+    <id>https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-19.html</id>
+    <updated>2026-11-19T00:00:00+09:00</updated>
+    <category term="언체인 블레이즈 렉스"/>
+    <summary>실기 시험 보고를 반영하고, 던전 이름판과 영상 자막, 한글 세이브 제목을 넣었습니다.</summary>
   </entry>
   <entry>
     <title>[코드:18] 자동 플레이와 원본 대조</title>
@@ -294,37 +326,5 @@
     <updated>2026-11-15T00:00:00+09:00</updated>
     <category term="미래일기 -13번째 일기 소유자- Re:write"/>
     <summary>받은 분석 자료를 인수해 이 PC에서 다시 확인했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[언체인 블레이즈 렉스] 번역 반입과 첫 통합 빌드 · 그림</title>
-    <link href="https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-15.html"/>
-    <id>https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-15.html</id>
-    <updated>2026-11-15T00:00:00+09:00</updated>
-    <category term="언체인 블레이즈 렉스"/>
-    <summary>번역 73묶음을 받아 첫 통합 빌드를 만들고, 그림 436장과 직접 만든 그림 42장을 넣었습니다.</summary>
-  </entry>
-  <entry>
-    <title>[유디의 아틀리에] 마무리 점검과 v1.0.0 배포 준비</title>
-    <link href="https://ievy3.github.io/projects/atelier-judie/updates/2026-11-14.html"/>
-    <id>https://ievy3.github.io/projects/atelier-judie/updates/2026-11-14.html</id>
-    <updated>2026-11-14T00:00:00+09:00</updated>
-    <category term="유디의 아틀리에"/>
-    <summary>마지막 라벨을 보정하고 배포 점검을 통과해, v1.0.0 배포 꾸러미를 완성했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[비오라트의 아틀리에] 표본 검사와 번역 검수</title>
-    <link href="https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-14.html"/>
-    <id>https://ievy3.github.io/projects/atelier-viorate/updates/2026-11-14.html</id>
-    <updated>2026-11-14T00:00:00+09:00</updated>
-    <category term="비오라트의 아틀리에"/>
-    <summary>글꼴을 픽셀 방식으로 바꿔 흐림을 없애고, 번역을 91묶음 검수해 배포 후보를 만들었습니다.</summary>
-  </entry>
-  <entry>
-    <title>[봄버맨 제터스] 검수 반영과 v1.0.0 공개</title>
-    <link href="https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-14.html"/>
-    <id>https://ievy3.github.io/projects/bomberman-jetters/updates/2026-11-14.html</id>
-    <updated>2026-11-14T00:00:00+09:00</updated>
-    <category term="봄버맨 제터스"/>
-    <summary>외부 검수에서 나온 일본어 그림을 한글로 바꾸고 용어를 확정해, 첫 공개판 v1.0.0을 내놓았습니다.</summary>
   </entry>
 </feed>
