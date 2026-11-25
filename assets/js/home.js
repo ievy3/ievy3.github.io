@@ -9,6 +9,149 @@ let showAllProjects = false;
 // BEGIN fallback projects
 const fallbackProjects = [
   {
+    "title": ".hack//Link",
+    "slug": "hack-link",
+    "image": "/assets/images/hack-link/official-cover.webp",
+    "imageAlt": ".hack//Link 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "RPG",
+    "subgenre": "액션",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "12Riven -the Psi-clminal of Integral-",
+    "slug": "12riven",
+    "image": "/assets/images/12riven/official-cover.webp",
+    "imageAlt": "12Riven -the Psi-clminal of Integral- 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "서스펜스",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "구루 로지 챔프",
+    "slug": "guru-logi-champ",
+    "image": "/assets/images/guru-logi-champ/official-cover.webp",
+    "imageAlt": "ぐるロジチャンプ 일본판 GBA 패키지",
+    "platform": "GBA",
+    "genre": "퍼즐",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "라이트 판타지",
+    "slug": "light-fantasy",
+    "image": "/assets/images/light-fantasy/official-cover.webp",
+    "imageAlt": "ライトファンタジー 일본판 SFC 패키지",
+    "platform": "SFC",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "라이트 판타지 II",
+    "slug": "light-fantasy-2",
+    "image": "/assets/images/light-fantasy-2/official-cover.webp",
+    "imageAlt": "ライトファンタジーII 일본판 SFC 패키지",
+    "platform": "SFC",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "마크로스 에이스 프론티어",
+    "slug": "macross-ace-frontier",
+    "image": "/assets/images/macross-ace-frontier/official-cover.webp",
+    "imageAlt": "マクロス エースフロンティア 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "액션",
+    "subgenre": "메카",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "사무라이 에볼루션 앵국 가이스트",
+    "slug": "samurai-evolution-oukoku-geist",
+    "image": "/assets/images/samurai-evolution-oukoku-geist/official-cover.webp",
+    "imageAlt": "サムライエボリューション 桜国ガイスト 일본판 GBA 패키지",
+    "platform": "GBA",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "산사라 나가 1·2",
+    "slug": "sansara-naga-1-2",
+    "image": "/assets/images/sansara-naga-1-2/official-cover.webp",
+    "imageAlt": "サンサーラ・ナーガ1×2 일본판 GBA 패키지",
+    "platform": "GBA",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "소울 이터 배틀 레조넌스",
+    "slug": "soul-eater-battle-resonance",
+    "image": "/assets/images/soul-eater-battle-resonance/official-cover.webp",
+    "imageAlt": "ソウルイーター バトルレゾナンス 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "액션",
+    "subgenre": "격투",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "솔페주 ~Sweet harmony~",
+    "slug": "solfege-sweet-harmony",
+    "image": "/assets/images/solfege-sweet-harmony/official-cover.webp",
+    "imageAlt": "ソルフェージュ ~Sweet harmony~ 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "음악",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "싸움대장 4 ~일년전쟁~",
+    "slug": "kenka-banchou-4",
+    "image": "/assets/images/kenka-banchou-4/official-cover.webp",
+    "imageAlt": "喧嘩番長4 ~一年戦争~ 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "액션",
+    "subgenre": "격투",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "싸움대장 5 ~사나이의 법칙~",
+    "slug": "kenka-banchou-5",
+    "image": "/assets/images/kenka-banchou-5/official-cover.webp",
+    "imageAlt": "喧嘩番長5 ~漢の法則~ 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "액션",
+    "subgenre": "격투",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
     "title": "일상 (우주인)",
     "slug": "nichijou-uchuujin",
     "image": "/assets/images/nichijou-uchuujin/official-cover.webp",
@@ -21,6 +164,18 @@ const fallbackProjects = [
     "updated": ""
   },
   {
+    "title": "카드 마스터: 림살리아의 봉인",
+    "slug": "arcana",
+    "image": "/assets/images/arcana/official-cover.webp",
+    "imageAlt": "カードマスター リムサリアの封印(북미판 Arcana) 일본판 SFC 패키지",
+    "platform": "SFC",
+    "genre": "RPG",
+    "subgenre": "던전 탐험",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
     "title": "하트커넥트: 예지랜덤",
     "slug": "kokoro-connect-yochi-random",
     "image": "/assets/images/kokoro-connect-yochi-random/official-cover.webp",
@@ -28,6 +183,18 @@ const fallbackProjects = [
     "platform": "PSP",
     "genre": "어드벤처",
     "subgenre": "노벨",
+    "status": "planned",
+    "statusLabel": "작업 예정",
+    "updated": ""
+  },
+  {
+    "title": "학생회의 일존 Lv.2 포터블",
+    "slug": "seitokai-no-ichizon-lv2-portable",
+    "image": "/assets/images/seitokai-no-ichizon-lv2-portable/official-cover.webp",
+    "imageAlt": "生徒会の一存 Lv.2 PORTABLE 일본판 PSP 패키지",
+    "platform": "PSP",
+    "genre": "어드벤처",
+    "subgenre": "코미디",
     "status": "planned",
     "statusLabel": "작업 예정",
     "updated": ""
@@ -50,7 +217,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/unchained-v1.0.0/Noctil_Patchworks_Offline_UnchainBladesReXX_v1.0.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/unchained-v1.0.0",
     "releasePublishedAt": "2026-11-25T13:51:11Z",
-    "totalDownloads": 67,
+    "totalDownloads": 73,
     "description": "몬스터를 동료로 삼는 언체인 시스템의 1인칭 던전 RPG",
     "keywords": [
       "언체인 블레이즈",
@@ -92,7 +259,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/mirai-v1.0.3/Noctil_Patchworks_Offline_MiraiNikki_REWRITE_KO_v1.0.3.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/mirai-v1.0.3",
     "releasePublishedAt": "2026-11-22T16:27:24Z",
-    "totalDownloads": 279,
+    "totalDownloads": 280,
     "description": "애니메이션 「미래일기」를 바탕으로 한 PSP용 어드벤처",
     "keywords": [
       "미래일기",
@@ -622,7 +789,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/houshin-v0.9.0",
     "releasePublishedAt": "2026-11-01T15:26:38Z",
-    "totalDownloads": 497,
+    "totalDownloads": 499,
     "description": "『봉신연의』를 바탕으로 한 코에이의 GBA 롤플레잉 게임",
     "keywords": [
       "매지컬 봉신",
@@ -1255,7 +1422,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiA-v0.9.0/Saki_Achiga_Korean_Patch_v0.9.0-rc7.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiA-v0.9.0",
     "releasePublishedAt": "2026-10-09T00:16:57Z",
-    "totalDownloads": 292,
+    "totalDownloads": 293,
     "description": "아치가 여학원의 소녀들이 전국 무대를 향해 나아가는 이야기를 바탕으로 한 대전 마작 게임",
     "keywords": [
       "사키 아치가편 포터블",
@@ -1295,7 +1462,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/sakiP-v0.9.5/Saki_Portable_Korean_Patch_v0.9.5.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/sakiP-v0.9.5",
     "releasePublishedAt": "2026-10-05T15:07:34Z",
-    "totalDownloads": 518,
+    "totalDownloads": 519,
     "description": "TV 애니메이션을 바탕으로 캐릭터별 능력과 스토리를 재현한 대전 마작 게임",
     "keywords": [
       "사키 포터블",
