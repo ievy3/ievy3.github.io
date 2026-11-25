@@ -44,7 +44,7 @@ const fallbackProjects = [
     "type": "한국어 패치",
     "status": "public",
     "statusLabel": "베타 공개",
-    "stage": 5,
+    "stage": 6,
     "version": "v1.0.0",
     "updated": "2026-11-25",
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/unchained-v1.0.0/Noctil_Patchworks_Offline_UnchainBladesReXX_v1.0.0.zip",
@@ -70,7 +70,7 @@ const fallbackProjects = [
     ],
     "latestWorklog": {
       "date": "2026-11-25",
-      "title": "배포 꾸러미 완성",
+      "title": "v1.0.0 첫 공개",
       "href": "/projects/unchained-blades-rexx/updates/2026-11-25.html"
     }
   },
@@ -582,7 +582,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.2/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.2.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.2",
     "releasePublishedAt": "2026-11-23T13:35:38Z",
-    "totalDownloads": 1088,
+    "totalDownloads": 1089,
     "description": "섬의 빵집을 무대로 한 세가 『샤이닝』 시리즈의 PSP 롤플레잉 게임",
     "keywords": [
       "샤이닝 하츠",

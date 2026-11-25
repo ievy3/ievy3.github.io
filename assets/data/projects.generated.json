@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T13:53:15.023Z",
+  "generatedAt": "2026-11-25T13:55:55.063Z",
   "projects": [
     {
       "title": "일상 (우주인)",
@@ -41,7 +41,7 @@
       "type": "한국어 패치",
       "status": "public",
       "statusLabel": "베타 공개",
-      "stage": 5,
+      "stage": 6,
       "version": "v1.0.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/unchained-v1.0.0/Noctil_Patchworks_Offline_UnchainBladesReXX_v1.0.0.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_UnchainBladesReXX_v1.0.0.zip",
@@ -85,7 +85,7 @@
       ],
       "latestWorklog": {
         "date": "2026-11-25",
-        "title": "배포 꾸러미 완성",
+        "title": "v1.0.0 첫 공개",
         "href": "/projects/unchained-blades-rexx/updates/2026-11-25.html"
       },
       "latestReleaseTag": "unchained-v1.0.0"
@@ -884,13 +884,13 @@
       "version": "v0.9.2",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.2/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.2.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Shining_Hearts_v0.9.2.zip",
-      "downloadCount": 250,
+      "downloadCount": 251,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/shininghearts-v0.9.2",
       "releaseName": "[PSP] 샤이닝 하츠 (シャイニング・ハーツ) 한글 패치 v0.9.2",
       "releasePublishedAt": "2026-11-23T13:35:38Z",
       "updated": "2026-11-23",
       "publicBuilds": 3,
-      "totalDownloads": 1088,
+      "totalDownloads": 1089,
       "releaseHistory": [
         {
           "version": "v0.9.2",
@@ -902,7 +902,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/shininghearts-v0.9.2/Noctil_Patchworks_Offline_Shining_Hearts_v0.9.2.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Shining_Hearts_v0.9.2.zip",
-          "downloadCount": 250
+          "downloadCount": 251
         },
         {
           "version": "v0.9.1",
