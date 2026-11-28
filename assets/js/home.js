@@ -44,18 +44,6 @@ const fallbackProjects = [
     "updated": ""
   },
   {
-    "title": "라이트 판타지",
-    "slug": "light-fantasy",
-    "image": "/assets/images/light-fantasy/official-cover.webp",
-    "imageAlt": "ライトファンタジー 일본판 SFC 패키지",
-    "platform": "SFC",
-    "genre": "RPG",
-    "subgenre": "판타지",
-    "status": "planned",
-    "statusLabel": "작업 예정",
-    "updated": ""
-  },
-  {
     "title": "라이트 판타지 II",
     "slug": "light-fantasy-2",
     "image": "/assets/images/light-fantasy-2/official-cover.webp",
@@ -198,6 +186,46 @@ const fallbackProjects = [
     "status": "planned",
     "statusLabel": "작업 예정",
     "updated": ""
+  },
+  {
+    "title": "라이트 판타지",
+    "href": "/projects/light-fantasy/",
+    "image": "/assets/images/light-fantasy/official-cover.webp",
+    "imageAlt": "ライトファンタジー 일본판 SFC 패키지",
+    "imageFit": "cover",
+    "platform": "SFC",
+    "genre": "RPG",
+    "subgenre": "판타지",
+    "type": "한국어 패치",
+    "status": "public",
+    "statusLabel": "베타 공개",
+    "stage": 6,
+    "version": "v0.9.1",
+    "updated": "2026-11-28",
+    "download": "https://github.com/ievy3/ievy3.github.io/releases/download/lightfantasy-v0.9.1/Noctil_Patchworks_Offline_Light_Fantasy_v0.9.1.zip",
+    "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/lightfantasy-v0.9.1",
+    "releasePublishedAt": "2026-11-28T09:37:41Z",
+    "totalDownloads": 0,
+    "description": "빛의 탑과 어둠의 탑을 오가는 톤킨하우스의 판타지 RPG",
+    "keywords": [
+      "라이트 판타지",
+      "라이트판타지",
+      "light fantasy",
+      "ライトファンタジー",
+      "톤킨하우스",
+      "tonkinhouse",
+      "sfc",
+      "슈퍼패미컴",
+      "rpg"
+    ],
+    "verification": [
+      "Mesen 2"
+    ],
+    "latestWorklog": {
+      "date": "2026-11-28",
+      "title": "2차 검수와 v0.9.1 첫 공개",
+      "href": "/projects/light-fantasy/updates/2026-11-28.html"
+    }
   },
   {
     "title": "언체인 블레이즈 렉스",

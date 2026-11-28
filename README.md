@@ -17,10 +17,11 @@
 ## Projects
 
 <!-- BEGIN projects (scripts/build-site-files.mjs가 projects.generated.json으로 자동 갱신합니다) -->
-현재 공개 허브에서 관리하는 프로젝트는 **38개**입니다(공개 36 · 작업 중 2). 버전은 공개된 최신 배포본 기준입니다.
+현재 공개 허브에서 관리하는 프로젝트는 **39개**입니다(공개 37 · 작업 중 2). 버전은 공개된 최신 배포본 기준입니다.
 
 ### 공개
 
+- [라이트 판타지](https://ievy3.github.io/projects/light-fantasy/) (SFC) — **v0.9.1** · 베타 공개
 - [언체인 블레이즈 렉스](https://ievy3.github.io/projects/unchained-blades-rexx/) (PSP) — **v1.0.0** · 베타 공개
 - [무쌍 오로치 2 스페셜](https://ievy3.github.io/projects/musou-orochi2-special/) (PSP) — **v0.9.1** · 베타 공개
 - [미래일기 -13번째 일기 소유자- Re:write](https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/) (PSP) — **v1.0.3** · 베타 공개
@@ -68,7 +69,6 @@
 - .hack//Link (PSP)
 - 12Riven -the Psi-clminal of Integral- (PSP)
 - 구루 로지 챔프 (GBA)
-- 라이트 판타지 (SFC)
 - 라이트 판타지 II (SFC)
 - 마크로스 에이스 프론티어 (PSP)
 - 사무라이 에볼루션 앵국 가이스트 (GBA)
