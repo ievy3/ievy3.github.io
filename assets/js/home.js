@@ -190,8 +190,8 @@ const fallbackProjects = [
   {
     "title": "라이트 판타지",
     "href": "/projects/light-fantasy/",
-    "image": "/assets/images/light-fantasy/2026-11-28-dialogue-ko.webp",
-    "imageAlt": "라이트 판타지 한글 대사 화면",
+    "image": "/assets/images/light-fantasy/2026-11-28-title-card.webp",
+    "imageAlt": "라이트 판타지 타이틀 화면",
     "imageFit": "cover",
     "platform": "SFC",
     "genre": "RPG",
@@ -205,7 +205,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/lightfantasy-v0.9.1/Noctil_Patchworks_Offline_Light_Fantasy_v0.9.1.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/lightfantasy-v0.9.1",
     "releasePublishedAt": "2026-11-28T09:37:41Z",
-    "totalDownloads": 0,
+    "totalDownloads": 6,
     "description": "빛의 탑과 어둠의 탑을 오가는 톤킨하우스의 판타지 RPG",
     "keywords": [
       "라이트 판타지",
@@ -817,7 +817,7 @@ const fallbackProjects = [
     "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
     "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/houshin-v0.9.0",
     "releasePublishedAt": "2026-11-01T15:26:38Z",
-    "totalDownloads": 522,
+    "totalDownloads": 523,
     "description": "『봉신연의』를 바탕으로 한 코에이의 GBA 롤플레잉 게임",
     "keywords": [
       "매지컬 봉신",

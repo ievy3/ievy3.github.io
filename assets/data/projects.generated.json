@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T09:47:42.559Z",
+  "generatedAt": "2026-11-28T10:07:36.664Z",
   "projects": [
     {
       "title": ".hack//Link",
@@ -187,8 +187,8 @@
       "repositoryUrl": null,
       "issuesUrl": null,
       "releaseRepository": "ievy3/ievy3.github.io",
-      "image": "/assets/images/light-fantasy/2026-11-28-dialogue-ko.webp",
-      "imageAlt": "라이트 판타지 한글 대사 화면",
+      "image": "/assets/images/light-fantasy/2026-11-28-title-card.webp",
+      "imageAlt": "라이트 판타지 타이틀 화면",
       "imageFit": "cover",
       "platform": "SFC",
       "genre": "RPG",
@@ -200,13 +200,13 @@
       "version": "v0.9.1",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/lightfantasy-v0.9.1/Noctil_Patchworks_Offline_Light_Fantasy_v0.9.1.zip",
       "downloadAsset": "Noctil_Patchworks_Offline_Light_Fantasy_v0.9.1.zip",
-      "downloadCount": 0,
+      "downloadCount": 6,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/lightfantasy-v0.9.1",
       "releaseName": "[SFC] 라이트 판타지 (Light Fantasy) 한글 패치 v0.9.1",
       "releasePublishedAt": "2026-11-28T09:37:41Z",
       "updated": "2026-11-28",
       "publicBuilds": 1,
-      "totalDownloads": 0,
+      "totalDownloads": 6,
       "releaseHistory": [
         {
           "version": "v0.9.1",
@@ -218,7 +218,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/lightfantasy-v0.9.1/Noctil_Patchworks_Offline_Light_Fantasy_v0.9.1.zip",
           "downloadAsset": "Noctil_Patchworks_Offline_Light_Fantasy_v0.9.1.zip",
-          "downloadCount": 0
+          "downloadCount": 6
         }
       ],
       "description": "빛의 탑과 어둠의 탑을 오가는 톤킨하우스의 판타지 RPG",
@@ -1189,13 +1189,13 @@
       "version": "v0.9.0",
       "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
       "downloadAsset": "MagicalHoushin_KrPatcher_v0.9.0.zip",
-      "downloadCount": 522,
+      "downloadCount": 523,
       "releaseUrl": "https://github.com/ievy3/ievy3.github.io/releases/tag/houshin-v0.9.0",
       "releaseName": "[GBA] 매지컬 봉신 한글 패치 v0.9.0 ",
       "releasePublishedAt": "2026-11-01T15:26:38Z",
       "updated": "2026-11-02",
       "publicBuilds": 1,
-      "totalDownloads": 522,
+      "totalDownloads": 523,
       "releaseHistory": [
         {
           "version": "v0.9.0",
@@ -1207,7 +1207,7 @@
           "prerelease": true,
           "download": "https://github.com/ievy3/ievy3.github.io/releases/download/houshin-v0.9.0/MagicalHoushin_KrPatcher_v0.9.0.zip",
           "downloadAsset": "MagicalHoushin_KrPatcher_v0.9.0.zip",
-          "downloadCount": 522
+          "downloadCount": 523
         }
       ],
       "description": "『봉신연의』를 바탕으로 한 코에이의 GBA 롤플레잉 게임",
