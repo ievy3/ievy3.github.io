@@ -190,8 +190,8 @@ const fallbackProjects = [
   {
     "title": "라이트 판타지",
     "href": "/projects/light-fantasy/",
-    "image": "/assets/images/light-fantasy/official-cover.webp",
-    "imageAlt": "ライトファンタジー 일본판 SFC 패키지",
+    "image": "/assets/images/light-fantasy/2026-11-28-dialogue-ko.webp",
+    "imageAlt": "라이트 판타지 한글 대사 화면",
     "imageFit": "cover",
     "platform": "SFC",
     "genre": "RPG",
