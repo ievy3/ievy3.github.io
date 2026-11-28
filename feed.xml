@@ -5,8 +5,24 @@
   <link href="https://ievy3.github.io/feed.xml" rel="self"/>
   <link href="https://ievy3.github.io/"/>
   <id>https://ievy3.github.io/</id>
-  <updated>2026-11-25T00:00:00+09:00</updated>
+  <updated>2026-11-28T00:00:00+09:00</updated>
   <author><name>Noctil</name></author>
+  <entry>
+    <title>[라이트 판타지] 2차 검수와 v0.9.1 첫 공개</title>
+    <link href="https://ievy3.github.io/projects/light-fantasy/updates/2026-11-28.html"/>
+    <id>https://ievy3.github.io/projects/light-fantasy/updates/2026-11-28.html</id>
+    <updated>2026-11-28T00:00:00+09:00</updated>
+    <category term="라이트 판타지"/>
+    <summary>2차 플레이 검수를 확인하고, 대사를 한 번 더 다듬어 v0.9.1을 프리릴리즈로 공개했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[라이트 판타지] 1차 플레이 검수와 조사 자동 선택</title>
+    <link href="https://ievy3.github.io/projects/light-fantasy/updates/2026-11-25.html"/>
+    <id>https://ievy3.github.io/projects/light-fantasy/updates/2026-11-25.html</id>
+    <updated>2026-11-25T00:00:00+09:00</updated>
+    <category term="라이트 판타지"/>
+    <summary>처음부터 엔딩까지 진행한 1차 플레이 검수를 반영하고, 이름 뒤 조사를 자동으로 고르게 했습니다.</summary>
+  </entry>
   <entry>
     <title>[언체인 블레이즈 렉스] v1.0.0 첫 공개</title>
     <link href="https://ievy3.github.io/projects/unchained-blades-rexx/updates/2026-11-25.html"/>
@@ -14,6 +30,14 @@
     <updated>2026-11-25T00:00:00+09:00</updated>
     <category term="언체인 블레이즈 렉스"/>
     <summary>패치 적용 시험을 통과한 1.0.0 배포 꾸러미를 프리릴리즈로 공개했습니다.</summary>
+  </entry>
+  <entry>
+    <title>[라이트 판타지] 번역 검수 반영</title>
+    <link href="https://ievy3.github.io/projects/light-fantasy/updates/2026-11-23.html"/>
+    <id>https://ievy3.github.io/projects/light-fantasy/updates/2026-11-23.html</id>
+    <updated>2026-11-23T00:00:00+09:00</updated>
+    <category term="라이트 판타지"/>
+    <summary>외부 번역 검수 276건을 원문과 대조해 판정하고 반영했습니다.</summary>
   </entry>
   <entry>
     <title>[미래일기 -13번째 일기 소유자- Re:write] v1.0.3 공개</title>
@@ -38,6 +62,14 @@
     <updated>2026-11-23T00:00:00+09:00</updated>
     <category term="샤이닝 하츠"/>
     <summary>첫 빵 배달에서 대화가 끊기고 밖으로 나가던 문제의 원인을 찾아 고치고, 같은 유형의 문제 두 곳을 더 고쳐 수정판 v0.9.2를 내놓았습니다.</summary>
+  </entry>
+  <entry>
+    <title>[라이트 판타지] 분석부터 첫 완성판까지</title>
+    <link href="https://ievy3.github.io/projects/light-fantasy/updates/2026-11-22.html"/>
+    <id>https://ievy3.github.io/projects/light-fantasy/updates/2026-11-22.html</id>
+    <updated>2026-11-22T00:00:00+09:00</updated>
+    <category term="라이트 판타지"/>
+    <summary>게임 구조를 파악하고 한글 출력·번역·그림을 넣어 첫 완성판을 만들었습니다. 설정 창에 편의 기능도 더했습니다.</summary>
   </entry>
   <entry>
     <title>[미래일기 -13번째 일기 소유자- Re:write] 멈춤 수정과 칸 한도 점검</title>
@@ -294,37 +326,5 @@
     <updated>2026-11-15T00:00:00+09:00</updated>
     <category term="코드:18"/>
     <summary>백로그·선택지 줄 폭을 맞추고, 정본을 확정해 번역 묶음을 내보냈습니다.</summary>
-  </entry>
-  <entry>
-    <title>[컨셉션 II: 일곱 별의 인도와 마수의 미궁] 일본어판 번역과 첫 빌드</title>
-    <link href="https://ievy3.github.io/projects/conception-2/updates/2026-11-15.html"/>
-    <id>https://ievy3.github.io/projects/conception-2/updates/2026-11-15.html</id>
-    <updated>2026-11-15T00:00:00+09:00</updated>
-    <category term="컨셉션 II: 일곱 별의 인도와 마수의 미궁"/>
-    <summary>일본어판 번역 180묶음을 받아 합치고, 실행 파일 문구와 그림 59장을 넣어 첫 일본어판 빌드를 만들었습니다.</summary>
-  </entry>
-  <entry>
-    <title>[듀나미스 15] 시험 플레이 반영과 첫 배포 꾸러미</title>
-    <link href="https://ievy3.github.io/projects/dunamis15/updates/2026-11-15.html"/>
-    <id>https://ievy3.github.io/projects/dunamis15/updates/2026-11-15.html</id>
-    <updated>2026-11-15T00:00:00+09:00</updated>
-    <category term="듀나미스 15"/>
-    <summary>시험 플레이에서 나온 글꼴·이름창·TIPS 탭 문제를 고치고, UI 검수와 배포 점검을 거쳐 배포 꾸러미를 만들었습니다.</summary>
-  </entry>
-  <entry>
-    <title>[F-ZERO 클라이맥스] 띄어쓰기 · 추가 그림 · 검수</title>
-    <link href="https://ievy3.github.io/projects/f-zero-climax/updates/2026-11-15.html"/>
-    <id>https://ievy3.github.io/projects/f-zero-climax/updates/2026-11-15.html</id>
-    <updated>2026-11-15T00:00:00+09:00</updated>
-    <category term="F-ZERO 클라이맥스"/>
-    <summary>띄어쓰기 폭을 줄이고 놓친 그림을 한글화했으며, 전체 검수를 반영하고 엄격 점검을 통과했습니다.</summary>
-  </entry>
-  <entry>
-    <title>[미래일기 -13번째 일기 소유자- Re:write] 분석 인수와 확인</title>
-    <link href="https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-15.html"/>
-    <id>https://ievy3.github.io/projects/mirai-nikki-13th-rewrite/updates/2026-11-15.html</id>
-    <updated>2026-11-15T00:00:00+09:00</updated>
-    <category term="미래일기 -13번째 일기 소유자- Re:write"/>
-    <summary>받은 분석 자료를 인수해 이 PC에서 다시 확인했습니다.</summary>
   </entry>
 </feed>
