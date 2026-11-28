@@ -1171,12 +1171,31 @@
   {
     "slug": "light-fantasy",
     "title": "라이트 판타지",
-    "status": "planned",
-    "image": "/assets/images/light-fantasy/official-cover.webp",
-    "imageAlt": "ライトファンタジー 일본판 SFC 패키지",
     "platform": "SFC",
     "genre": "RPG",
-    "subgenre": "판타지"
+    "subgenre": "판타지",
+    "image": "/assets/images/light-fantasy/official-cover.webp",
+    "imageAlt": "ライトファンタジー 일본판 SFC 패키지",
+    "type": "한국어 패치",
+    "releasePrefix": "lightfantasy-",
+    "description": "빛의 탑과 어둠의 탑을 오가는 톤킨하우스의 판타지 RPG",
+    "keywords": [
+      "라이트 판타지",
+      "라이트판타지",
+      "light fantasy",
+      "ライトファンタジー",
+      "톤킨하우스",
+      "tonkinhouse",
+      "sfc",
+      "슈퍼패미컴",
+      "rpg"
+    ],
+    "releaseRepository": "ievy3/ievy3.github.io",
+    "stage": 5,
+    "updated": "2026-11-28",
+    "verification": [
+      "Mesen 2"
+    ]
   },
   {
     "slug": "light-fantasy-2",
